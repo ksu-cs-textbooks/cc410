@@ -9,7 +9,7 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides](slides)
+* <a href="slides" target="_blank">Slides</a>
 * [Previous Versions](old)
 
 #### Video Script

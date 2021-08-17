@@ -3,13 +3,12 @@ title: "The Growth of Computing"
 weight: 10
 pre: "2. "
 ---
-{{% notice note %}}
 
-# Content Note
+{{% notice info info-1 "content note" %}}
 
 The content on this page was adapted from Nathan Bean's [CIS 400](https://textbooks.cs.ksu.edu/cis400/1-object-orientation/00-introduction/02-the-growth-of-computing/) course at K-State, with the author's permission. That content is licensed under a [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
-{{% / notice %}}
+{{% /notice %}}
 
 By this point, you should be familiar enough with the history of computers to be aware of the evolution from the massive room-filling vacuum tube implementations of ENIAC, UNIVAC, and other first-generation computers to transistor-based mainframes like the PDP-1, and the eventual introduction of the microcomputer (desktop computers that are the basis of the modern PC) in the late 1970s.  Along with a declining size, each generation of these machines also cost less:
 

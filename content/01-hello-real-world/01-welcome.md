@@ -1,8 +1,9 @@
 ---
-title: "Welcome to Advanced Programming"
+title: "Welcome"
 weight: 5
 pre: "1. "
 ---
+
 Welcome to **CC 410 - Advanced Programming**. This course is designed to be a capstone experience at the end of the Computational Core program, building upon our prior knowledge and experience to help us become a truly effective programmer. In this course, we'll not only learn new skills and techniques, but we'll try to pull back the curtain and explain the history of programming and why we do some of the things we do.
 
 ## Big Ideas

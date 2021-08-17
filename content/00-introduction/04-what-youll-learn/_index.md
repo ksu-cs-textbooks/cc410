@@ -9,7 +9,7 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides]({{< relref "00-introduction/04-what-youll-learn-slides.md" >}})
+* <a href="slides" target="_blank">Slides</a>
 * [Code.org Quotes](https://code.org/quotes)
 
 #### Video Script

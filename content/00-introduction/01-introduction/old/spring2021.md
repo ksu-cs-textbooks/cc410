@@ -9,7 +9,7 @@ date: 2018-08-24T10:53:26-05:00
 
 #### Resources
 
-* [Slides](../slides-spring2021)
+* <a href="../slides-spring2021" target="_blank">Slides</a>
 
 #### Video Script
 
