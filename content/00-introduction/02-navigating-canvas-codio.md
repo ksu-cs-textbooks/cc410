@@ -1,5 +1,5 @@
 ---
-title: "Navigating Canvas, Piazza & Codio"
+title: "Navigating Canvas & Codio"
 pre: "2. "
 weight: 20
 date: 2020-01-16T10:53:26-05:00
@@ -36,27 +36,6 @@ When you are ready to move to the next step in a module, click the **Next** butt
 At any point, you may click on the Modules link in the menu to the left to return to the Modules section of the site. You'll notice that I've viewed the first few items in the first module, so I can access more items here. This is handy if you want to go back and review the content you've already seen, or if you leave and want to resume where you left off. Canvas will put green checkmarks to the right of items you've completed.
 
 Continuing down the menu to the left, you'll find the usual Canvas links to view your grades in the course, as well as a list of fellow students taking the course.
-
-<!-- ===
-
-Next, let's click the Piazza link to look at the Piazza boards for this course. Piazza is an online discussion board specifically tailored for college classes. It supports many cool features such as custom markup for code and math snippets, as well as the ability to directly message all instructors in a course. We'll be using Piazza as the primary communication method in this class. In addition to hosting course discussions, we'll also use Piazza to make general announcements to the class.
-
-Piazza's interface is very simple. On the left, you'll see a list of all current topics in the course. During the course, this is the best place to catch up on what's new. At the top, you can also click on one of several folders or options to add a filter to the list. Piazza also has a section to post course resources, but for this course we'll be using Canvas and Codio for all course materials.
-
-The biggest thing you'll be using Piazza for is chatting with other students and the instructors. To start a new post, just click the **New Post** button at the top of the list. When you do, you'll be asked a few questions about your post. You may choose to post a *Question* if you are asking a question and would like a response, a *Note* that does not require a response but is helpful information for other students or the instructors, or a *Poll* if you have something to be voted on.
-
-For *Questions* and *Notes*, you'll also be asked to choose who the post should be sent to. By default, it will be visible to the entire class. However, you can choose *Instructor(s)* to send that post just to the instructors and TAs of the course. This is a great way for you to send a question to every instructor at once, and one of us can reply quickly.
-
-Next, for all posts, you'll be asked to select a folder to place the post in. Folders will help you and other students quickly find posts relevant to a particular topic, such as a homework assignment or a particular tool used in the course.
-
-Finally, you can enter a title (or summary) and the details for your posts. Please try to make your title as descriptive as possible, as that will help instructors and fellow students find your post easily later on. Once you are ready, click the button at the bottom to submit your post to Piazza.
-
-Before posting in Piazza, you should read the information in the Syllabus regarding netiquette. It gives some important information about our expectation for conduct online in this course. In general, be polite and use clear language, and you should be just fine.
-
-To manage your Piazza account & notification settings, click the gear icon in the upper left. Here you can post a profile picture and update your personal information. In addition, you can manage your email settings. I usually recommend turning on the *Smart Digest* option for new questions and notes, but selecting *Real Time* for any questions or notes you follow. Don't worry, any important course announcements will be sent via email directly from Piazza so you won't miss a thing. You can also download the Piazza app for iPhone and Android to stay connected to the course anytime.
-
-Finally, Piazza also has a very active career and recruiting interface. It is a great way to make yourself available to companies interested in hiring students who have a particular set of skills, such as programming. You can find more information about those features by clicking the links in the upper-right of the window.
--->
 
 ===
 
