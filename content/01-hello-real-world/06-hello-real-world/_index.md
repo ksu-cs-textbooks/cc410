@@ -3,6 +3,9 @@ title: "Hello Real World"
 weight: 30
 pre: "6. "
 ---
+
+[Example Videos](video)
+
 Based on the previous page, it sounds like writing professional code can be quite difficult. There are so many tools and concepts to keep track of, and, in fact, you may end up spending just as much time working with everything else around your code as you do writing the code itself. The benefit of all of this work comes later, when you have to update or maintain the code. If you've done a good job writing unit tests, checking for coverage, documenting and styling your code, you'll end up with fewer bugs overall, and hopefully it will be easier to patch and update the code over the long term that it is in use.
 
 Thankfully, in this course, we're going to start small in this module with a new project we're calling "Hello Real World."

@@ -3,15 +3,16 @@ title: "Language Evolution"
 weight: 20
 pre: "4. "
 ---
-{{% notice note %}}
 
-# Content Note
+{{% notice info info-1 "content note" %}}
 
 The content on this page was adapted from Nathan Bean's [CIS 400](https://textbooks.cs.ksu.edu/cis400/1-object-orientation/00-introduction/02-the-growth-of-computing/) course at K-State, with the author's permission. That content is licensed under a [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
 {{% / notice %}}
 
 {{% youtube O8rBA0ccGj8 %}}
+
+[Video Materials](video)
 
 One of the strategies that computer scientists employed to counter the software crisis was the development of new programing languages.  These new languages would often 1) adopt new techniques intended to make errors harder to make while programming, and 2) remove problematic features that had existed in earlier languages.  
 
