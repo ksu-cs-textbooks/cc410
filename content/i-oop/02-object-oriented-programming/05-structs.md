@@ -5,21 +5,31 @@ pre: "5. "
 ---
 Many object-oriented languages, such as C++ and C#, include the concept of a **struct** that form the basis of objects. A struct is an example of a [compound data type](https://en.wikipedia.org/wiki/Composite_data_type), a data type *composed* from other types.  This allows us to represent data in more complex ways by combining multiple primitive data types into a new type. This too, is a form of encapsulation, as it allows us to collect several values into a single data structure.  Consider the concept of a vector from mathematics - if we wanted to store three-dimensional vectors in a program, we could do so in several ways.  Perhaps the easiest would be as an array or list:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 double[] vector = {3.0, 4.0, 5.0};
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 vector: List[float] = [3.0, 4.0, 5.0]
 ```
 
+{{% /tab %}}
+
+{{< /tabs >}}
+
 However, other than the variable name, there is no indication to other programmers that this is intended to be a three-element vector.  And, if we were to accept it in a function, say a dot product, we'd need to check that the length of both arrays or lists was exactly 3:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 public double dotProduct(double[] a, double[] b){
@@ -29,9 +39,9 @@ public double dotProduct(double[] a, double[] b){
     return a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
 }
 ```
+{{% /tab %}}
 
-
-###### Python
+{{% tab name="Python" %}}
 
 ```python
 def dot_product(a: List[float], b: List[float]) -> float:
@@ -40,9 +50,15 @@ def dot_product(a: List[float], b: List[float]) -> float:
     return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
 ```
 
+{{% /tab %}}
+
+{{< /tabs >}}
+
 A struct provides a much cleaner option, by allowing us to define a type that is composed of exactly three integers. Java and Python don't directly support structs, but we can use classes with just variables and a constructor to mimic a struct in those languages:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 public class Vector3{
@@ -58,7 +74,9 @@ public class Vector3{
 }
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 class Vector3:
@@ -69,11 +87,15 @@ class Vector3:
         self.z = z
 ```
 
+{{% /tab %}}
+
+{{< /tabs >}}
 
 Then, our dot product method can take two arguments of the `Vector3` type:
 
+{{< tabs >}}
 
-###### Java
+{{% tab name="Java" %}}
 
 ```java
 public double dotProduct(Vector3 a, Vector3 b){
@@ -81,13 +103,18 @@ public double dotProduct(Vector3 a, Vector3 b){
 }
 ```
 
+{{% /tab %}}
 
-###### Python
+{{% tab name="Python" %}}
 
 ```python
 def dot_product(a: Vector3, b: Vector3) -> float:
     return a.x * b.x + a.y * b.y + a.z * b.z
 ```
+
+{{% /tab %}}
+
+{{< /tabs >}}
 
 There is no longer any concern about having the wrong number of elements in our vectors - it will always be three.  We also get the benefit of having unique names for these *fields* (in this case, `x`, `y`, and `z`).
 

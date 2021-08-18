@@ -4,7 +4,7 @@ weight: 60
 pre: "6. "
 ---
 
-## CC 410 - Advanced Programming
+## CC 410 - Advanced Programming - Fall 2021
 
 [Previous Versions](old)
 

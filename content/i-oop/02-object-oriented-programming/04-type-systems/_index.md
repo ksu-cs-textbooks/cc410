@@ -3,7 +3,10 @@ title: "Type Systems"
 weight: 20
 pre: "4. "
 ---
+
 {{% youtube wHvgrz1Nts0 %}}
+
+[Video Materials](video)
 
 Before we go further into some object-oriented concepts, let's briefly review one important concept in programming - data types and type systems.
 

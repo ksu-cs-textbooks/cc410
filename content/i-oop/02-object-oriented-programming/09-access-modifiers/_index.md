@@ -3,11 +3,12 @@ title: "Access Modifiers"
 weight: 45
 pre: "9. "
 ---
+
 {{% youtube a1oUEgvW09Y %}}
 
-{{% notice info %}}
+[Video Materials](video)
 
-# Access Modifiers in Python
+{{% notice note note-0 "Access Modifiers in Python" %}}
 
 Most of the content below will apply to the Java language only. Python does not directly support information hiding through access modifiers, but simulates it by allowing developers to prefix variables with underscores to indicate that they are "protected" and should be left alone. Likewise, prefixing a Python variable or method name with two underscores will make it appear private to the class, but a developer can simply add the class name to the variable or method name in order to access it. So, in places below where we state that an external class "cannot" access a private attribute, keep in mind that in Python it is always possible and "should not" is a better term to use. 
 
@@ -25,7 +26,9 @@ For example, if we were to make a typo in the part of the program dealing with w
 
 Java, along with many other object-oriented languages, use [access modifiers](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html) to implement data hiding. Consider a class representing a student:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 public class Student{
@@ -41,7 +44,9 @@ public class Student{
 }
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 class Student:
@@ -52,19 +57,32 @@ class Student:
         self.__wid = wid
 ```
 
+{{% /tab %}}
+
+{{< /tabs >}}
+
 By using the access modifier `private` in Java, or prefixing the attributes with two underscores in Python, we have indicated that our fields `first`, `last`, and `wid` cannot be accessed (seen or assigned) outside of this code.  For example, if we were to create a specific student:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
+
 
 ```java
 Student willie = new Student("Willie", "Wildcat", 888888888);
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 willie: Student = Student("Willie", "Wildcat", 888888888)
 ```
+
+{{% /tab %}}
+
+{{< /tabs >}}
 
 We would not be able to change that student's name. The statement `willie.first = "Bob"` would fail, because the field `first` is private. In fact, we cannot even see his name, so trying to print that value would also fail.  
 
@@ -72,7 +90,9 @@ If we want to allow a field or method to be accessible _outside_ of the object, 
 
 Instead, in a true object-oriented approach we would write public  **_accessor methods_**, a.k.a. **getters** and **setters**.  These are methods that allow us to see and change field values _in a controlled way_.  Adding accessors to our Student class might look like:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 public class Student{
@@ -112,7 +132,9 @@ public class Student{
 }
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 class Student:
@@ -142,21 +164,20 @@ class Student:
     def wid(self) -> int:
         return self.__wid
 ```
-    
+
+{{% /tab %}}
+
+{{< /tabs >}}
 
 Notice how the `setFirst()` and `setLast()` setters in Java, and the `first()` and `last()` setters in Python, check that the provided name has at least one character?  We can use setters to make sure that we never allow the object state to be set to something that makes no sense.
 
 Also, notice that the `wid` field only has a getter. This effectively means once a student's wid is set by the constructor, it cannot be changed (it's read only).  This allows us to share data without allowing it to be changed outside of the class.
 
-{{% notice tip %}}
-
-# Getters and Setters vs. Properties
+{{% notice info info-1 "Getters and Setters vs. Properties" %}}
 
 Notice that Java uses methods called `getFirst` and `setFirst` as getters and setters, while Python uses the `@property` decorator and methods that share the same name. These **properties** in Python simplify the use of getters and setters in code. 
 
 For example, in Java, if we want to use a getter or setter, we must call them by the function name:
-
-###### Java
 
 ```java
 willie.setFirst("William");
@@ -164,8 +185,6 @@ System.out.println(willie.getFirst());
 ```
 
 Through the use of properties in Python, we can refer to the field directly by name, as if it were a public field, and our getter or setter will be called automatically:
-
-###### Python
 
 ```python
 willie.first = "William"

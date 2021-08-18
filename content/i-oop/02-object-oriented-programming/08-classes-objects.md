@@ -5,7 +5,9 @@ pre: "8. "
 ---
 The module-based encapsulation suggested by Parnas and his contemporaries grouped state and behavior together into smaller, self-contained units.  Alan Kay and his co-developers took this concept a step farther.  Alan Kay was heavily influenced by ideas from biology, and saw this encapsulation in similar terms to _cells_.  
 
-![Typical Animal Cell](../../images/2/2.8.1.png)^[https://commons.wikimedia.org/w/index.php?title=Special:CiteThisPage&page=File%3APlant_cell_structure-en.svg&id=458951778&wpFormIdentifier=titleform]
+![Typical Animal Cell](/cc410/images/2/2.8.1.png)[^1]
+
+[^1]: https://commons.wikimedia.org/w/index.php?title=Special:CiteThisPage&page=File%3APlant_cell_structure-en.svg&id=458951778&wpFormIdentifier=titleform
 
 Biological cells are also encapsulated - the complex structures of the cell and the functions they perform are all within a cell wall.  This wall is only bridged in carefully-controlled ways, i.e. cellular pumps that move resources into the cell and waste out. While single-celled organisms do exist, far more complex forms of life are made possible by many similar cells working together.
 
@@ -13,7 +15,10 @@ This idea became embodied in object-orientation in the form of _classes_ and _ob
 
 Let's re-write our `Vector3` struct using this concept.
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
+
 
 ```java
 public class Vector3{
@@ -39,7 +44,9 @@ public class Vector3{
 }
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 class Vector3:
@@ -58,6 +65,10 @@ class Vector3:
         self.z *= scalar
 ```
 
+{{% /tab %}}
+
+{{< /tabs >}}
+
 Here we have defined:
 
 1. The _structure_ of the object state - three floating point values, `x`, `y`, and `z`
@@ -66,7 +77,9 @@ Here we have defined:
 
 We can create as many objects from this class definition as we might want. Each one will have the same _behavior_ but different _state_.
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 Vector3 one = new Vector3(1.0, 1.0, 1.0);
@@ -74,12 +87,19 @@ Vector3 up = new Vector3(0.0, 1.0, 0.0);
 Vector3 a = new Vector3(5.4, -21.4, 3.11);
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 one: Vector3 = Vector3(1.0, 1.0, 1.0)
 up: Vector3 = Vector3(0.0, 1.0, 0.0)
 a: Vector3 = Vector3(5.4, -21.4, 3.11)
 ```
+
+{{% /tab %}}
+
+{{< /tabs >}}
+
 
 Conceptually, what we are doing is not that different from using a compound data type like a struct and a module of functions that work upon that struct.  But practically, it means _all the code for working with vectors appears in one place_.  This arguably makes it much easier to find all the pertinent parts of working with vectors, and makes the resulting code better organized and easier to maintain and add features to. This highlights why _encapsulation_ is one of the key concepts in object-oriented programming.

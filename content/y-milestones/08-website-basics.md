@@ -5,6 +5,13 @@ weight: 80
 date: 2021-03-24T00:53:26-05:00
 ---
 
+{{% notice warning %}}
+
+# Not Updated
+
+This has not been updated for Fall 2021 yet - if you get here and see this, let the instructor know so the updated version gets posted.
+
+{{% /notice %}}
 This page lists the milestone requirements for **Milestone 8** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose

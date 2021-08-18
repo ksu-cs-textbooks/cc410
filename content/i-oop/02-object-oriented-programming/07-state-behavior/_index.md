@@ -3,7 +3,10 @@ title: "State and Behavior"
 weight: 35
 pre: "7. "
 ---
+
 {{% youtube 7UN8fXcpv7s %}}
+
+[Video Materials](video)
 
 The data stored in a program at any given moment (in the form of variables, objects, etc.) is the *state* of the program.  Consider a variable:
 
@@ -47,7 +50,9 @@ Now, can you imagine trying to draw the state table for a large program?  Someth
 
 On the other hand, with encapsulation we can reason about state and behavior on a much smaller scale.  Consider this function working with our `Vector3` struct:
 
-###### Java
+{{< tabs >}}
+
+{{% tab name="Java" %}}
 
 ```java
 public static Vector3 scale(Vector3 vec, double scale){
@@ -58,7 +63,9 @@ public static Vector3 scale(Vector3 vec, double scale){
 }
 ```
 
-###### Python
+{{% /tab %}}
+
+{{% tab name="Python" %}}
 
 ```python
 @staticmethod
@@ -68,6 +75,10 @@ def scale(vec: Vector3, scale: float) -> Vector3:
     z: float = vec.z * scale
     return Vector3(x, y, z)
 ```
+
+{{% /tab %}}
+
+{{< /tabs >}}
 
 If this method was invoked with a vector {$4.0, 1.0, 3.4$} and a scale $2.0$, our state table would look something like:
 

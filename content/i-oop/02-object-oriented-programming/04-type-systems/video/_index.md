@@ -1,0 +1,31 @@
+---
+title: "Type Systems"
+pre: "2. "
+weight: 20
+date: 2020-12-31T00:53:26-05:00
+hidden: true
+---
+
+{{< youtube wHvgrz1Nts0 >}}
+
+#### Resources
+
+* <a href="slides" target="_blank">Slides</a>
+
+#### Video Script
+
+Before we dive deeper into object-oriented programming, let's go through a brief refresher about data types and type systems. You most likely learned about this in your first programming course, but at that time it probably didn't make much sense since you were new to everything. However, now that you have some programming experience, you'll be able to better understand these concepts and reframe your knowledge a bit. First, recall that each programming language supports several data types known as "primitives." These are built into the language itself, and represent the simplest forms of data the language knows how to properly represent. Shown here are the most commonly used primitive data type for Java and Python. For whole numbers, they both use an integer data type. For floating-point values, Java uses a type called double while Python uses a similar type called float. Both languages also support a data type for a simple Boolean value as well. Finally, both languages can store single characters and whole strings of characters, but these come with a few caveats. In Java, the character type is a primitive, but the String type is technically a class that stores multiple characters together. However, since Strings are so widely used in Java, they can be thought of as a primitive in some ways. Conversely, Python treats the string type as a built-in primitive, but doesn't support a special type for a single character. Instead, a string with length 1 is a stand-in for the character type supported by most other languages. 
+
+The reason that we start here is that we must keep in mind that **everything** else that is stored by a program written in either of these languages is made up of just these primitive types. That's all there is. So, when we create a new class, or a struct, we are simply grouping together a bunch of variables of these types and giving the resulting compound type a new name. 
+
+So, in short, remember that everything is a primitive data type. 
+
+And a class is just a new type definition that consists of other primitive data types grouped together, sometimes with multiple layers of classes underneath.
+
+Next, let's briefly discuss **type systems**. A type system refers to how a particular programming language handles assigning and keeping track of data types associated with individual variables. There are two major ways that type systems can be categorized. The first distinction is between **static** and **dynamic** type systems. In a static type system, the data type is associated with a variable when the variable is first created, and once created a variable can only store data of that type - it cannot change. Java is a classic example of a statically typed programming language. Each variable declaration includes a data type, and the Java compiler makes sure that only that type of data can be stored in that variable. If we try to violate that rule, usually the compiler will give us an error before we ever attempt to run the program. On the other hand, a dynamic type system instead looks at the data currently stored by the variable to determine that variable's associated type, and a variable's type may change throughout the program's execution based on the data it currently contains. Python is a great example of a dynamically typed programming language. In Python, we can create a variable named `x` and store an integer in it, then overwrite that with a floating point number, then a string, and even another object. Each time, the type associated with that variable changes, but Python can always determine what data type is currently stored by variable `x`. This distinction is very important. 
+
+The other way distinction is between **strongly typed** languages and **weakly typed** languages. In a strongly typed language, the computer can always determine the exact type of data being stored by a variable at any given time during the program's execution. For a statically typed language such as Java, this is trivial - we can just look up the type that was declared along with the variable, and we'll know that any program that properly compiles will only allow that type to be stored in that variable. Python, on the other hand, can examine the type of the data stored in the variable to determine it's current type. It does this behind the scenes, but the Python interpreter is always able to tell us what type of data is in a variable. We can use the `isinstance()` method to examine this information at any time. The other type of language is a weakly typed language. In that case, the computer doesn't know what type of data is stored in a variable, and must trust the developer to handle it properly. Code written directly in assembly is a good example of a weakly typed language. There is no compiler or interpreter to help us enforce strong typing, so as far as the computer knows everything is just a binary blob of data, and it is up to the developer to keep track of each variable's type and how it should be handled. As you can imagine, it is very easy to make grave mistakes when dealing with a weakly typed language!
+
+So, in summary, we can say that Java is both statically typed and strongly typed - each variable has only one associated type, and it can easily keep track of that. Python, while also being strongly typed, is dynamically typed, meaning that the interpreter can figure out what data type is stored in a variable at any given time, but that variable might store multiple different types throughout the program's execution, just not at the same time. 
+
+However, in this course, we're going to use **type annotations** in Python to restrict the types that a particular variable can store, and use the Mypy tool to perform some type checking for us, causing Python to work like a statically typed language. This will help us avoid some of the most common errors made by Python developers - improper handling of data types. In that way, we can treat programs written in both Java and Python similarly. 
