@@ -3,7 +3,7 @@ type: "reveal"
 ---
 <section>
 	<h2>Early Code (Fortran)</h2>
-	<img class="plain stretch" src="/images/410fortran.png">
+	<img class="plain stretch" src="/cc410/images/1/410fortran.png">
 </section>
 <section>
 	<h2>Spaghetti Code</h2>
@@ -18,7 +18,7 @@ type: "reveal"
 </section>
 <section>
 	<h4>GOTO Considered Harmful - Dijkstra</h4>
-	<img class="plain stretch" src="/images/410goto.png">
+	<img class="plain stretch" src="/cc410/images/1/410goto.png">
 	<p class="imagecredit">Image Credit: <a href="https://xkcd.com/292/">XKCD</a></p>
 </section>
 <section>
@@ -33,19 +33,19 @@ type: "reveal"
 </section>
 <section>
 	<h2>Sequences</h2>
-	<img class="plain stretch" src="/images/410sequence.png">
+	<img class="plain stretch" src="/cc410/images/1/410sequence.png">
 </section>
 <section>
 	<h2>Selection</h2>
-	<img class="plain stretch" src="/images/410select.png">
+	<img class="plain stretch" src="/cc410/images/1/410select.png">
 </section>
 <section>
 	<h2>Iteration</h2>
-	<img class="plain stretch" src="/images/410loop.png">
+	<img class="plain stretch" src="/cc410/images/1/410loop.png">
 </section>
 <section>
 	<h2>Subroutines</h2>
-	<img class="plain stretch" src="/images/410function.png">
+	<img class="plain stretch" src="/cc410/images/1/410function.png">
 </section>
 <section>
 	<h2>Structured Code</h2>

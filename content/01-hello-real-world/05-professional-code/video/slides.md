@@ -4,7 +4,7 @@ title: "Slides"
 ---
 <section>
 	<h4>Writing Professional Code</h4>
-	<img class="plain stretch" src="/images/410xkcdgood.png">
+	<img class="plain stretch" src="/cc410/images/1/410xkcdgood.png">
 	<p class="imagecredit">Image Credit: <a href="https://xkcd.com/844/">XKCD</a></p>
 </section>
 <section>

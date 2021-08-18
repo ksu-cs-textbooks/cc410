@@ -1,0 +1,25 @@
+---
+title: "Spring '21 Week 12"
+pre: "12. "
+weight: 120
+date: 2021-04-12T00:53:26-05:00
+---
+
+{{< youtube FLYUBktfm0s >}}
+
+#### Resources
+
+* <a href="slides" target="_blank">Slides</a>
+
+#### Edited Transcript
+
+Hello, and welcome to the CC 410 announcements video for week 12 in spring 2021, so we've made it to week 12. And this week we're working on HTML forms and the REST architecture. Most of them are going to focus on HTML forms in the example and in the project. But we're going to talk a little bit about REST and some other things that will set the stage for what we're going to do in the next milestone. And as always, during these last few milestones, I'd like you to remember to keep working on your final project, I'm trying to make these milestones a little bit smaller and a little bit easier to work with. So you'll be able to have some time left over to work on your final project. 
+
+So for milestone nine in the restaurant project, what we're going to do is add an HTML form to the site, we're actually going to do two forms, we're going to do a simple search form based on keywords that will allow users to search for a particular word or phrase in the menu and then pull up the menu item that matches that will also build a more advanced search and filtering mechanism where they can filter based on type of dish, they can also filter on calories and price. This will be very similar to what we'll do in the example project where we're going to build a simple filtering mechanism for the movies. So hopefully, you can take a lot of that information from the example and bring it directly into your restaurant project. To finish this milestone, you'll also write some static search functions in the menu itself. And so those search functions, I'd like you to write unit tests. For those unit tests, I highly encourage you to try and use test doubles, that will make your tests a lot easier to work with as you're doing this. 
+
+So looking ahead, I'm planning on there being two more restaurant milestones after this. So we'll get to 11 milestones in total, we're going to try and cover the rest architecture and serialization for sure. And then we'll also try and hit some external web API's. If we have a little space in those two milestones, I'm still working on building out those last couple of milestones and making sure that they're the right scope for this project. But like I said, they're going to be smaller milestones to give you more final project time, the final milestone will be due on May 3. So that will give you effectively all of dead week and most of finals week to work on your final project. And then a little bit later, we'll talk about final project presentations and how that will work. So stay tuned for that they'll probably be a video coming out for that here within the next couple of weeks. 
+
+So one thing I wanted to make you aware of is at K-State this Friday, April 16 is the well being day on campus. I've put the full reasoning behind it from the Provost in this slide, you can take a look at this, you'll probably see a posted in K-State today. Basically, the idea is because of the pandemic, we don't have a spring break this year. But we do recognize that having 16 weeks straight of class is very brutal for students as well as faculty. And so they're giving us a well being day this Friday that is meant to be non instructional, no homework, no meetings, no classes, no nothing. It's a time for us and for you to take a break and spend the day on your mental health. And so what I'd like you to do on Friday is don't think about this class. Hopefully don't think about any of your classes. Hopefully the entire university follows this policy like they should. Instead, try and take Friday to relax and have fun. Don't treat it as a catch up day. Don't treat it as an extra day to do some other work if you can. But really see if you can find some time on Friday to relax and have fun, do something that is fun for you, whether it's read a book, have a really good meal, go out and walk in nature, take a nap call family or friends. Whatever that means for you. I really encourage you to take Friday and do that. Your mental health is really, really important. And especially as we're getting toward the end of the semester, things are going to get more stressful, you're going to be very busy. And so don't be afraid to take those times to recharge your mental health and your physical health before you attack those problems. 
+
+So that's all I got for this week. I hope you get to take a page from Garfield's book and find some time to relax on Friday. I know I am. My wife and I were actually planning on going camping this weekend. So hopefully the weather stays warm and dry and we can do that. As always, if you have any questions about CC 410 feel free to email me via the cc410-help email address or you can find me on Discord. But hopefully you can get through these next few milestones and you've got some good ideas for your final project and I look forward to seeing what you do. Good luck. 
+
