@@ -19,7 +19,6 @@ section = [ "HTML", "Iframeable", "Teleprompter"]
   themeVariant = "purple"
   disableLanguageSwitchingButton = true
   landingPageURL = "/cc410"
-  linenumbers = false
 
 [blackfriday]
   plainIDAnchors = true

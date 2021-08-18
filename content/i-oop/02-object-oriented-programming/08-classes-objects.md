@@ -7,7 +7,7 @@ The module-based encapsulation suggested by Parnas and his contemporaries groupe
 
 ![Typical Animal Cell](/cc410/images/2/2.8.1.png)[^1]
 
-[^1]: https://commons.wikimedia.org/w/index.php?title=Special:CiteThisPage&page=File%3APlant_cell_structure-en.svg&id=458951778&wpFormIdentifier=titleform
+[^1]:https://commons.wikimedia.org/w/index.php?title=File:Plant_cell_structure-en.svg&oldid=458951778
 
 Biological cells are also encapsulated - the complex structures of the cell and the functions they perform are all within a cell wall.  This wall is only bridged in carefully-controlled ways, i.e. cellular pumps that move resources into the cell and waste out. While single-celled organisms do exist, far more complex forms of life are made possible by many similar cells working together.
 
@@ -18,7 +18,6 @@ Let's re-write our `Vector3` struct using this concept.
 {{< tabs >}}
 
 {{% tab name="Java" %}}
-
 
 ```java
 public class Vector3{
