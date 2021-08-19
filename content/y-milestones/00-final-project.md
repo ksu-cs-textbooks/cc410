@@ -15,7 +15,7 @@ This assignment allow students to exercise their programming skills by building 
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "a-requirements.md" %}}
+{{% include-local "../_includes/a-requirements.md" %}}
 
 {{% /expand %}}
 

@@ -23,7 +23,7 @@ This project is the first that requires **ALL** general requirements introduced 
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "a-requirements.md" %}}
+{{% include-local "../_includes/a-requirements.md" %}}
 
 {{% /expand %}}
 
