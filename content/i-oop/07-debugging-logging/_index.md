@@ -5,5 +5,9 @@ weight = 35
 chapter = true
 pre = "<b>7.  </b>"
 +++
-### Welcome!
-This page is the main page for Debugging & Logging
+
+### Chapter 7
+
+# Debugging & Logging
+
+Fixing bugs & taking notes!

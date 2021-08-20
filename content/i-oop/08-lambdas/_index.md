@@ -5,5 +5,10 @@ weight = 40
 chapter = true
 pre = "<b>8.  </b>"
 +++
-### Welcome!
-This page is the main page for Lambda Expressions
+
+### Chapter 8
+
+# Lambda Expressions
+
+Because every function deserves to be a first-class citizen!
+

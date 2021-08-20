@@ -1,0 +1,33 @@
+---
+title: "Python Inheritance"
+pre: "3.P. "
+weight: 31
+date: 2020-01-25T00:53:26-05:00
+hidden: true
+---
+
+{{< youtube kTLQbt3hseI >}}
+
+#### Resources
+
+* <a href="slides" target="_blank">Slides</a>
+
+#### Video Script
+
+Let's review inheritance in the Python programming language. First, we'll look at interfaces. Python doesn't include a special type of class for interfaces like many other object-oriented programming languages, but we can achieve the same effect with a few neat coding tricks. First, in our interface class, we'll set the metaclass to be `abc.ABCMeta`. This allows us to perform a couple of neat metaprogramming tricks to make sure any class that uses this interface is inheriting the correct methods. Next, we'll provide an implementation of the `__subclasshook__` special method in Python. This method is used to determine if a particular class is compatible with this interface, and it gets called when we use the `isinstance()` method to check types in Python. Finally, we'll include abstract versions of any methods and properties included in this class, using the `@abc.abstractmethod` decorator to tell Python that these are abstract methods. The class itself cannot be instantiated, so we don't include any attributes, a constructor, or really any code beyond the `__subclasshook__` method.
+
+Here's a quick example of a formal Python interface called `IMyQueue`, which defines the traditional operations that can be performed on a queue data structure. The most interesting part is the `__subclasshook__` method. It includes a list of all of the attributes, or properties, as well as all of the callable methods that are part of the interface. Then, using a couple of `for` loops and some metaprogramming, it will determine if the given class contains those items and is compatible with this class. If it is, then this method will return `true` and tell Python that the object properly implements this interface. In other languages, this work is handled by the compiler itself, but because Python uses dynamic typing and duck typing, we have to write this code ourselves. Below that, we see abstract methods for each property and method in the class. This just guarantees that any class properly inheriting this interface includes the correct methods. If not, Python will raise an exception to let us know we haven't properly implemented the interface in our code. 
+
+Then, if we want to create a class that uses that interface, we list it in the class declaration in parentheses, just like any other class we are inheriting from. In fact, Python handles these formal interfaces just like any other inherited class! Within the class, we must include methods that are implementations for each method defined in the interface. So, here we see the four methods defined by the interface!
+
+Finally, we must remember that an interface can also be treated like a data type. So, even though we can't directly instantiate the interface itself, we can use it as a type and Mypy will make sure the object is at least a subclass of our formal interface. In addition, the `__subclasshook__` method allows us to check and make sure any object is properly implementing the interface, even if it isn't a true subclass of our interface. This allows us to also use duck typing with our interface. In any case, once we've confirmed that the object implements the interface, we can call any of the methods defined in the interface and they should work. 
+
+Now, let's look at the more traditional form of inheritance in Python. Recall that we can declare a class to be a subclass of another class, usually referred to as the superclass. When we do that, the subclass includes, or inherits, all state and behavior defined in the superclass. In Python, any methods or attributes in the superclass are accessible in the subclass. However, traditionally we do not access private elements that begin with two underscores, as their names will be mangled. Instead, we use a single underscore to denote that the element can be accessed by subclasses, but shouldn't be accessed externally. Likewise, the subclass can use the `super()` method to access elements from within the superclass. This is typically used within the constructor of the subclass to call the constructor of the superclass. Finally, the subclass can choose to override any methods defined in the superclass with new code. We'll see how that works later in this chapter.
+
+So, here's a quick example of three classes in Python that demonstrate inheritance. We have a superclass name Canine that defines the protected attribute `name` as well as the public method `bark`. Then, we create a subclass called `Dog` that inherits from `Canine`. So, it will have a `name` attribute and a `bark` method, but it also adds its own `owner` attribute as well as a new method called `pet`. Finally, the `GuideDog` method inherits from `Dog`, so it will include the `name` attribute from `Canine` as well as the `owner` attribute from `Dog`, and it adds its own `trainer` attribute. 
+
+Likewise, when we create an instance of a `GuideDog`, we can access all behaviors that are present in any of the superclasses as well as the class itself. So, an instance of `GuideDog` will have access to the `bark`, `pet` and `guide` methods. This is a great way to reduce the amount of repeated code between related classes. As we'll learn in the example project for this module, this can greatly simplify our programs if we are able to take proper advantage of inheritance.
+
+Finally, let's discuss one other interesting topic - multiple inheritance. In Python, a class can inherit from any number of superclasses or formal interfaces. When it does, it will have access to all attributes and methods of each superclass. For example, if we have a class called `Student` and a class called `Teacher`, we could create a new class called `StudentTeacher` that inherits from both classes. In that way, this new class has access to both sets of attributes and methods.
+
+However, there is one thing we'll have to be aware of - name collisions. Suppose that both the `Teacher` and the `Student` classes each have a method called `grade()`, but those methods do entirely different things. In our `StudentTeacher` class, what would happen if we call the `grade` method? Would it perform the version in the `Student` class, or the `Teacher` class? As it turns out, it depends on what order we list those classes in our list of classes we are inheriting from. In the textbook, I've liked to an in-depth article on multiple inheritance in Python that explains it in greater detail. In general, we won't use this feature for anything except interfaces in this course, but it is something to keep in mind!

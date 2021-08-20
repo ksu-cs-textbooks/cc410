@@ -5,5 +5,9 @@ weight = 15
 chapter = true
 pre = "<b>3.  </b>"
 +++
-### Welcome!
-This page is the main page for Documentation
+
+### Chapter 3
+
+# Documentation
+
+Writing code, taking notes!

@@ -5,5 +5,9 @@ weight = 30
 chapter = true
 pre = "<b>6.  </b>"
 +++
-### Welcome!
-This page is the main page for Inheritance & Polymorphism
+
+### Chapter 6
+
+# Inheritance & Polymorphism
+
+Like superclass, like subclass! Now, with interfaces!

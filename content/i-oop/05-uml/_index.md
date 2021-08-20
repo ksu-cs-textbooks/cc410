@@ -5,5 +5,9 @@ weight = 25
 chapter = true
 pre = "<b>5.  </b>"
 +++
-### Welcome!
-This page is the main page for UML
+
+### Chapter 5
+
+# Unified Modeling Language
+
+A unified way to model your software's structure!
