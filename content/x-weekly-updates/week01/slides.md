@@ -22,7 +22,9 @@ hidden: true
 <section>
 	<h2>New Course</h2>
 	<ul>
-		<li>Still Developing Later Content</li>
+		<li>Updating Assignments</li>
+		<li>Moving Textbook Out of Codio</li>
+		<li>May Rework Examples</li>
 		<li>Things May Change</li>
 		<li><b>Feedback Welcome!</b></li>
 	</ul>
@@ -31,7 +33,7 @@ hidden: true
 <section>
 	<h2>Big Picture</h2>
 	<ul>
-		<li>OOP, GUIs, APIs</li>
+		<li>OOP, GUIs, Web</li>
 		<li>Examples</li>
 		<li>Restaurant Project</li>
 		<li>Final Project</li>
@@ -64,18 +66,19 @@ hidden: true
 
 
 <section>
-	<h2>Week 1 (1/31)</h2>
+	<h2>Week 1</h2>
 	<ul>
 		<li>Administrivia</li>
 		<li>Hello Real World</li>
 		<li>First Final Project Meeting</li>
 		<li><i>Office Hours</i></li>
 		<li><i>Communication Platforms</i></li>
+		<li><b>Introduce on Discord</b></li>
 	</ul>
 </section>
 
 <section>
-	<h2>Week 2 (2/7)</h2>
+	<h2>Week 2</h2>
 	<ul>
 		<li>OOP Class Library</li>
 		<li>Restaurant Milestone 1</li>
@@ -86,7 +89,7 @@ hidden: true
 </section>
 
 <section>
-	<h2>Week 3 (2/14)</h2>
+	<h2>Week 3</h2>
 	<ul>
 		<li>Unit Testing</li>
 		<li>Documentation</li>
@@ -98,7 +101,7 @@ hidden: true
 </section>
 
 <section>
-	<h3>Week 4 (2/21) & 5 (2/28)</h3>
+	<h3>Week 4 & 5</h3>
 	<ul>
 		<li>Inheritance & Polymorphism</li>
 		<li>Restaurant Milestone 3 (2/28)</li>
@@ -114,7 +117,7 @@ hidden: true
 	<ul>
 		<li>GUIs</li>
 		<li>External Libraries</li>
-		<li>Web APIs</li>
+		<li>Web</li>
 		<li>Serialization</li>
 		<li><i>and more!</i></li>
 	</ul>
@@ -130,6 +133,19 @@ hidden: true
 		<li>Copy-Paste Carefully</li>
 		<li>Commit to Git Frequently</li>
 		<li>Use & <b><i>Cite</i></b> Online Resources</li>
+	</ul>
+</section>
+
+<section>
+	<h3>Keep in Touch!</h3>
+	<ul>
+	  <li>Discussions on Discord<ul>
+	  <li>https://discordbot.cs.ksu.edu</li>
+	  </ul></li>
+	  <li>"Tea Time" Office Hours<ul>
+	  <li>Tuesday 3:30 | Friday 10:30</li>
+	  </ul></li>
+	  <li>One-on-One Office Hours</li>
 	</ul>
 </section>
 

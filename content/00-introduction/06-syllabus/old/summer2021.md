@@ -1,5 +1,5 @@
 ---
-title: "Summer 2021"
+title: "Summer 2021 Syllabus"
 weight: 60
 pre: "6. "
 ---
