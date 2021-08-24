@@ -5,5 +5,9 @@ weight = 50
 chapter = true
 pre = "<b>10.  </b>"
 +++
-### Welcome!
-This page is the main page for Parallelism
+
+### Chapter 10
+
+# Parallelism
+
+Running multiple threads concurrently!
