@@ -175,7 +175,7 @@ _just like the turtle himself, this sandwich "hams" it up and is super "cheesy"_
 
 `heropizza.data.pizzas.TheMikey` - The price is **$8.25** and it is **986** calories. Toppings: **Ham** and **Cheese**. Veggies: **Pineapple**. 
 
-##### The Jean Grey (Beef)
+##### The Jean Grey (Pork)
 
 _a simple pizza for a complex hero_
 
