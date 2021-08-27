@@ -273,7 +273,7 @@ Each drink description may include a list of flavors that may be added. Those fl
 
 In addition, drinks may specify default flavors that should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {flavor}" message, such as "Hold Coconut", to be added to the **Modifications** list. Likewise, changing it back to `true` will remove the appropriate message. 
 
-If all flavors are at their default values, the **Special Instructions** list should be empty. 
+If all flavors are at their default values, the **Modifications** list should be empty. 
 
 Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. Changes to the **Size** attribute will not affect the **Modification** attribute. 
 
