@@ -96,6 +96,18 @@ Letter grades will be assigned following the standard scale:
 * 60% - 69.99% &rarr; D
 * 00% - 59.99% &rarr; F
 
+### Submission, Regrading, and Early Grading Policy
+
+As a rule, submissions in this course will not be graded until after they are due, even if submitted early. Students may resubmit assignments many times before the due date, and only the latest submission will be graded. For assignments submitted via GitHub release tag, only the tagged release that was submitted to Canvas will be graded, even if additional commits have been made. Students must create a new tagged release and resubmit that tag to have it graded for that assignment.
+
+Once an assignment is graded, students are not allowed to resubmit the assignment for regrading or additional credit without special permission from the instructor to do so. In essence, students are expected to ensure their work is complete and meets the requirements before submission, not after feedback is given by the instructor during grading. However, students should use that feedback to improve future assignments and milestones. 
+
+For the programming project milestones, it is solely at the discretion of the instructor whether issues noted in the feedback for a milestone will result in grade deductions in a later milestones if they remain unresolved, though the instructor will strive to give students ample time to resolve issues before any additional grade deductions are made.
+
+Likewise, students may ask questions of the instructor while working on the assignment and receive help, but the instructor will not perform a full code review nor give grading-level feedback until after the assignment is submitted and the due date has passed. Again, students are expected to be able to make their own judgments on the quality and completion of an assignment before submission.
+
+That said, a student may email the instructor to request early grading on an assignment before the due date, in order to move ahead more quickly. The instructor's receipt of that email will effectively mean that the assignment for that student is due immediately, and all limitations above will apply as if the assignment's due date has now passed. 
+
 ### Late Work
 
 {{% notice warning %}}
