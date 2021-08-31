@@ -95,7 +95,7 @@ _Some quick tips from when I did this milestone:_
 * You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all pizza test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
 * Generalizing the tests for individual ingredients in pizzas and drinks (such as `ham` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
 * **Java** users may wish to review the [EnumSource](https://www.baeldung.com/parameterized-tests-junit-5#3-enum) option for parameterized tests using enums.
-* **Python** users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("bread", Bread)`.
+* **Python** users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("crust", Crust)`.
 * When following Google's style for Java, you are required to include `default` branches in switch statements across enums, which will be unreached in code coverage. This is fine, but a good reason to avoid switch statements, as you will never get 100% code coverage! I ended up changing my model solution to remove switch statements.
 
 _-Russ_
@@ -151,7 +151,7 @@ Each entrée test class should contain unit tests for the following:
 * `HasCorrectCrustInitially()` - the `Crust` attribute is initially set correctly
 * `HasCorrectPriceForCrust(Crust)` - the `price` is correct for each crust option
 * `HasCorrectCalories()` - the `calories` is correct
-* `StringIsCorrectForCrust(Crust)` - call the `toString()` or `__str__()` method with each type of bread and verify the output.
+* `StringIsCorrectForCrust(Crust)` - call the `toString()` or `__str__()` method with each type of crust and verify the output.
 * `IncludesCorrectVeggiesByDefault(Veggie)` - for each veggie, check if it is included or not by default.
   * You may modify the arguments to accept a `boolean` value indicating if the veggie should be included by default.
 * `AddRemoveVeggies(Veggie)` - for each veggie, check that it can be added and removed, and the `Veggies` set will change accordingly.
