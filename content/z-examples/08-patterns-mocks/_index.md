@@ -1,10 +1,12 @@
 ---
-title: "Web Basics"
-pre: "11. "
-weight: 110
+title: "Patterns & Mocks"
+pre: "8. "
+weight: 80
 ---
 
-In this example project, we'll explore taking an existing project and integrating a lightweight web framework into it. In that way, we can use our existing code base within a web application and use it to generate dynamic web pages.
+In this example project, we'll go through the steps of building several creational design patterns in our code: the builder, factory method, and singleton pattern, as well as the iterator behavioral pattern. 
+
+In addition, we'll explore how to use mock objects in our unit tests to help us test these new classes.
 
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process. 
 

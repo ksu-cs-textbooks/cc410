@@ -1,17 +1,13 @@
 ---
-title: "Example 13 - REST Videos"
-pre: "3. "
-weight: 30
-date: 2021-04-19T00:53:26-05:00
+title: "REST"
+pre: "13. "
+weight: 130
 ---
 
-## Videos
+In this example project, we'll add the ability to update and delete movies in our website using a RESTful architectural style.
 
-#### Java
+The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process. 
 
-{{< youtube 27GGpQ4wa4Y >}}
+For these example projects, you'll be given some starter code via the GitHub Classroom assignment, so make sure you've accepted the assignment and created your repository in GitHub first.
 
-
-#### Python
-
-{{< youtube 1b1x94AOO-k >}}
+Good luck!

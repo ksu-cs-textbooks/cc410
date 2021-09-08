@@ -21,7 +21,7 @@ ignore_errors = True
 
 This will allow the full Tox script to execute, even if there are errors earlier in the process.
 
-## Steps
+## Outline
 
 Here is a basic outline of the steps to follow to complete this example.
 

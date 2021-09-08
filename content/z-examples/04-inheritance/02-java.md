@@ -11,7 +11,7 @@ weight: 20
 * [Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html) from the Oracle Java Tutorials
 * [What is an Interface?](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) from the Oracle Java Tutorials
 
-## Steps
+## Outline
 
 Here is a basic outline of the steps to follow to complete this example.
 

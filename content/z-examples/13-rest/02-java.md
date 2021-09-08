@@ -4,7 +4,7 @@ pre: "2.J. "
 weight: 20
 ---
 
-{{% youtube D-203mVSLkU %}}
+{{% youtube 27GGpQ4wa4Y %}}
 
 ## Outline
 
@@ -25,6 +25,7 @@ curl -s "https://get.sdkman.io" | bash
 ```
 
 3. Close and Reopen Terminal to load SDK Man
+
 4. Install Gradle
 
 ```bash
@@ -36,18 +37,14 @@ sdk install gradle
 ```bash
 cd java
 gradle run
-gradle test
 gradle check
-gradle javadoc
 ```
 
-6. Confirm that project runs, all unit tests pass with 100% coverage, no style errors, and Javadoc generates properly. 
+6. Confirm that project runs and has no style errors. 
 
-7. **Create New Packages, Classes, and Enums.** Continuously commit to Git as changes are made!
+7. Follow along with the video to update the project.
 
-8. **Update HelloWorld.java to use new classes (optional).** This is just for testing purposes. 
-
-9. When complete, use Git to commit and push updated code. 
+8. When complete, use Git to commit and push updated code. 
 
 ```bash
 git add .
@@ -55,4 +52,4 @@ git commit -m "Example Complete"
 git push
 ```
 
-10. On GitHub, create a release tag and submit URL to Canvas for grading. 
+9. On GitHub, create a release tag and submit URL to Canvas for grading. 

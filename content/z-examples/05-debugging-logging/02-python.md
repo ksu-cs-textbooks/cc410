@@ -11,7 +11,7 @@ weight: 25
 * [Inheritance & Composition](https://realpython.com/inheritance-composition-python/) from Real Python
 * [Python Interfaces](https://realpython.com/python-interface/#using-abstract-method-declaration) from Real Python
 
-## Steps
+## Outline
 
 Here is a basic outline of the steps to follow to complete this example.
 

@@ -1,17 +1,13 @@
 ---
-title: "Example 10 - Releases Videos"
-pre: "3. "
-weight: 40
-date: 2021-03-23T00:53:26-05:00
+title: "Releases"
+pre: "10. "
+weight: 100
 ---
 
-## Videos
+In this example project, we'll explore taking an existing project and preparing it for release. We'll then create the actual release package and upload them to GitHub along with a release tag.
 
-#### Java
+The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process. 
 
-{{< youtube 1vL78XKdhGA >}}
+For these example projects, you'll be given some starter code via the GitHub Classroom assignment, so make sure you've accepted the assignment and created your repository in GitHub first.
 
-
-#### Python
-
-{{< youtube Ah-MFPyM-90 >}}
+Good luck!

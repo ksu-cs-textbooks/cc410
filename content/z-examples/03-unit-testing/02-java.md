@@ -37,7 +37,7 @@ run{
 }
 ```
 
-## Steps
+## Outline
 
 Here is a basic outline of the steps to follow to complete this example.
 

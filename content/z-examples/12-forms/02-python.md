@@ -4,7 +4,7 @@ pre: "2.P. "
 weight: 25
 ---
 
-{{% youtube slVbHWYFj90 %}}
+{{% youtube 6N3v8sOu3MI %}}
 
 ## Outline
 
@@ -35,11 +35,11 @@ pip3 install tox
 python3 -m tox
 ```
 
-5. Confirm that project runs, all unit tests pass with 100% coverage, no style errors, no type errors, and documentation generates properly. 
+5. Confirm that project runs and has no style errors. 
 
-6. **Create New Packages, Classes, and Enums.** Continuously commit to Git as changes are made!
+6. Follow along with the video to update the project.
 
-7. **Update HelloWorld.py to use new classes (optional).** This is just for testing purposes. 
+7. Add the option to filter by **Rotten Tomatoes Rating** and **Genre** yourself. Test and make sure it works.
 
 8. When complete, use Git to commit and push updated code. 
 

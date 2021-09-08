@@ -6,6 +6,8 @@ weight: 20
 
 {{% youtube LqhMZyx9GnA %}}
 
+## Outline
+
 Here is a basic outline of the steps to follow to complete this example.
 
 1. Clone Starter Code from GitHub
