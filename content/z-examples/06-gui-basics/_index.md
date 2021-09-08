@@ -1,16 +1,13 @@
 ---
-title: "Example 6 - GUI Basics Videos"
-pre: "5. "
-weight: 50
-date: 2021-02-26T00:53:26-05:00
+title: "GUI Basics"
+pre: "6. "
+weight: 60
 ---
 
-## Videos
+In this example project, we'll go through the steps of creating a simple GUI using either Java Swing or Python tkinter. This builds on top of a sample restaurant project, so many of the things we'll cover in this example can be directly applied to the upcoming milestone.
 
-#### Java
+The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process. 
 
-{{< youtube d9-QDhp9tgs >}}
+For these example projects, you'll be given some starter code via the GitHub Classroom assignment, so make sure you've accepted the assignment and created your repository in GitHub first.
 
-#### Python
-
-{{< youtube hjMFAcxwJBU >}}
+Good luck!

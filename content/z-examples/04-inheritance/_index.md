@@ -1,10 +1,10 @@
 ---
-title: "Debugging & Logging"
-pre: "5. "
-weight: 50
+title: "Inheritance"
+pre: "4. "
+weight: 40
 ---
 
-In this example project, we'll go through how to use the Codio debugger to explore our program's state and call stack. We'll explore a couple of programs that contain bugs and see if we can fix them. In addition, we'll explore how to add some simple logging to our code.
+In this example project, we'll go through different forms of inheritance and how they work - including direct inheritance, abstract classes, and interfaces. This will give us a hands-on way to explore the use of inheritance in our code.
 
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process. 
 
