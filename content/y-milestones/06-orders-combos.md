@@ -5,127 +5,120 @@ weight: 60
 date: 2021-02-22T00:53:26-05:00
 ---
 
-{{% notice warning %}}
-
-# Not Updated
-
-This has not been updated for Fall 2021 yet - if you get here and see this, let the instructor know so the updated version gets posted.
-
-{{% /notice %}}
 This page lists the milestone requirements for **Milestone 6** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more. 
 
 The sixth milestone involves creating combo meals and orders from the items selected in the GUI. We'll use this milestone to explore some software design patterns in our code, as well as learn about using test doubles in our unit tests. With this milestone, most of the work on the core functionality of the GUI will be complete.
 
 ## General Requirements
 
-This milestone must follow these professional coding standards:
+{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-* **All code must be object-oriented.**
-  * All executable code must be within a class
-    * Python package files such as `__init__.py` and `__main__.py` are exempt.
-  * Classes must be organized into packages based on common usage.
-* **This project must include automation for compilation, unit testing, style checking, documentation generation, and execution.**
-  * Java: Use Gradle with the `application` plugin. The project should compile without errors.
-  * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries.
-* **All code must properly compile or be interpreted.**
-  * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check with low imprecision percentage.
-    * Classes in the `starfleetsubs.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
-* **Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
-  * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
-  * Python: Use pytest. You may choose to use Hamcrest for assertions.
-* **Where specified, code should contain appropriate documentation comments following the language's style guide.**
-  * Java: Use javadoc to generate documentation.
-  * Python: Use pdoc3 to generate documentation.
-* **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
-  * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
-    * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
-  * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
-* Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
+{{% include-local "../_includes/a-requirements.md" %}}
+
+{{% /expand %}}
 
 ## Assignment Requirements
 
-### New Classes
+#### New Classes
 
-`starfleetsubs.data.menu.Order` - this class should represent a collection of `OrderItem` objects that make up an order.
+* `heropizza.data.menu.Order` - this class should represent a collection of `OrderItem` objects that make up an order.
 
-* It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
-* It should also support standard collection methods such as:
-  * Getting the number of items in the collection (`size()` in Java or `__len__()` in Python). 
-  * Determining if a given instance of an `OrderItem` object is contained in the collection (`contains(item)` in Java or `__contains__(item)` in Python). Recall that this should use the identity test, not the equality test.
-  * Getting a single item from the collection based on the index of that item (either a `get(i)` method in Java or `__getitem__(i)` in Python).
-  * Any other standard collection methods that you feel are helpful. See the [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) interface in Java or [Emulating Container Types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types) in Python for additional methods that may be useful.
-* It should have the following attributes:
-  * A private list `items` of `OrderItems`, with methods to add and remove items, as well as the iterator pattern methods discussed above.
-    * **NOTE** - in most languages, the default method to remove an item from a collection will rely on equality testing, not instance testing. So, you may wish to write this method yourself instead of relying on the underlying collection, in order to keep this and the GUI in sync.
-  * A private integer representing the `orderNumber` for this order. It will be generated using the `OrderNumberSingleton` class discussed below. It should only include a getter. 
-  * A private **static** float for the `taxRate`, which is set to 0.12 (12%) by default. It should include **static** methods to get and set the tax rate, which will be used by all `Order` objects. The tax rate must be a valid percentage value ranging from 0.0 to 1.0, inclusive.
-* It should also have getters for these three virtual attributes or properties:
-  * float `subtotal` - the total sum of the prices for each item in the order.
-  * float `tax` - the `subtotal` multiplied by the `taxRate`
-  * float `total` - the `subtotal` plus the `tax`. 
-  * int `calories` - the total number of calories in the order.
-* All dollar amounts **should not** be rounded to two decimal places by this class. that will be handled by the GUI. 
+  * It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
+  * It should also support **standard collection methods** such as:
+    * Getting the number of items in the collection 
+    * Determining if a given **instance** of an `OrderItem` object is contained in the collection. Recall that this should use the identity test, not the equality test.
+    * Getting a single item from the collection based on the index of that item.
+    * Any other standard collection methods that you feel are helpful. See the [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) interface in Java or [Emulating Container Types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types) in Python for additional methods that may be useful.
+  * It should have the following **attributes**:
+    * A private **list of `OrderItems`**, with methods to add and remove items.
+      * **NOTE** - in most languages, the default method to remove an item from a collection will rely on **equality testing**, not **instance testing**. So, you may wish to write this method yourself instead of relying on the underlying collection, in order to keep this and the GUI in sync.
+    * A private integer representing the **order number** for this order. 
+      * It will be generated using the `OrderNumberSingleton` class discussed below. It should only include a getter. 
+    * A private **static** float for the **tax rate**, which is set to 0.15 (15%) by default. 
+      * It should include **static** methods to get and set the tax rate, which will be used by all `Order` objects. 
+      * The tax rate must always be a valid percentage value ranging from 0.0 to 1.0, inclusive, and this should be enforced by the setter.
+  * It should also have getters for these **virtual attributes or properties**:
+    * **Subtotal** - the total sum of the prices for each item in the order.
+    * **Tax** - the subtotal multiplied by the tax rate.
+    * **Total** - the subtotal plus the tax.
+    * **Calories** - the total number of calories in the order.
+  * All dollar amounts **should not** be rounded to two decimal places by this class. that will be handled by the GUI. 
 
-`starfleetsubs.data.menu.Combo` - this class should implement the `OrderItem` interface, and represent a combo meal consisting of an entrée, side, and drink. 
-* It should have the following attributes:
-  * A string `name` - the name of the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`.
-  * An `Entree` named `entree` - the entrée in the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`. It should include a `removeEntree()` method to set the value to `null` or `None`.
-  * A `Side` named `side` - the side in the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`. It should include a `removeSide()` method to set the value to `null` or `None`.
-  * A `Drink` named `drink` - the drink in the combo, which does not require a getter (you may add one) or setter. This attribute can be set to `null` or `None`. It should include a `removeDrink()` method to set the value to `null` or `None`.
-  * A **static** float `discount` - it has a value 0.5 ($0.50) by default. It should include **static** methods to get and set the discount, which will be used by all `Combo` objects.
-* It should also comply with the `OrderItem` interface:
-  * A getter for `price` that returns the sum of the prices of each item. **If all three items in the combo are populated**, the discount is applied to this total. Otherwise, no discount is applied.
-  * A getter for `calories` that returns the sum of the calories of each item.
-  * A getter for `specialInstructions` that returns the name of the combo, if set, followed by the line `"$0.50 Discount Applied"` if all three items are populated. It should not include any other items. (The discount value should be updated to match the static `discount` attribute.)
-* It should also include the following methods:
-  * A constructor that accepts a string for the `name`. The constructor should allow the name to be omitted or set to `null` or `None`. The `name` will only be set by the `ComboBuilder` class discussed below, but users will also be able to configure a custom combo via the GUI that does not include a name. The constructor should set the `entree`, `side` and `drink` attributes to `null` or `None` initially.
-  * An `addItem()` method that accepts an `OrderItem` object and places it in the appropriate attribute (`entree`, `side` or `drink`). It should replace the existing item in that attribute, if any. If the `OrderItem` is not one of the three types listed above, it should throw an appropriate exception.
-  * A `getItems()` method that returns list of the items included in the combo, if any. If none are included, then return an empty list.  
-  * An implementation of the `equals()` or `__eq__()` method to check for equality. Two combos are considered equal if their entree, side, drink, and name are equal (they do not have to be the same instances, just equal). If any attribute in this object is `null` or `None`, it is considered equal if the matching attribute is also `null` or `None`.
-    * This presents a real problem in Java, because calling the `equals()` method on a `null` object will result in an exception. So, you'll have to check if each attribute in this object is `null` first. If so, and the other object's attribute is not `null`, then they are not equal. If this object's attribute is not `null`, you can safely call `equals()` on it, regardless of the other object's attribute. 
+* `heropizza.data.menu.Combo` - this class should implement the `OrderItem` interface, and represent a combo meal consisting of an pizza, two sides, and drink. 
+  * The class should have the following **attributes**:
+    * String **Name** - the name of the combo
+    * A **`Pizza`** instance - the pizza in the combo
+    * Two **`Side`** instances - the sides in the combo
+    * A **`Drink`** instance - the drink in the combo
+  * The above attributes should conform to the following:
+    * The attributes should have getters and setters.
+    * The attributes may be set to `null` or `None` in the constructor to represent a combo yet to be configured.
+    * The attributes should have a **clear** method to reset their values back to `null` or `None`. You may have a single method, or one for each attribute. 
+  * The class should have the following **static attributes**:
+    * Float **Discount** 
+      * It should have a value 1.25 ($1.25) by default. 
+      * It should include a **static** getter and setter method.
+  * The class should also implement the **`OrderItem` interface**:
+    * A getter for the price, that returns the sum of the prices of each item in the combo.
+      * **If all four items in the combo are populated**, the discount is applied to this total. Otherwise, no discount is applied.
+    * A getter for the calories that returns the sum of the calories of each item in the combo.
+    * A getter for modifications that returns a list containing the following:
+      * The name of the combo, if set. If not, it should include "Custom Combo" as the first entry.
+      * A second entry stating "$1.25 Discount Applied" if all four items in the combo are present. If not, this entry should not be included.
+  * The class should also include the following **methods** not discussed above:
+    * A **constructor** that accepts a string for the name. 
+      * The constructor should allow the name to be omitted or set to `null` or `None`. The name will only be set by the `ComboBuilder` class discussed below, but users will also be able to configure a custom combo via the GUI that does not include a name.
+      * The constructor should set the other attributes to `null` or `None` initially.
+    * A getter for all of the **items** in the combo
+      * It should return a list containing each item that is populated.
+    * An implementation of the appropriate method to check for **equality** between two objects. 
+      * Two combos are considered equal if their pizza, sides, drink, and name are equal (they do not have to be the same instances, just equal). 
+      * If any attribute in this object is `null` or `None`, it is considered equal if the matching attribute is also `null` or `None`.
+        * This presents a real problem in Java, because calling the `equals()` method on a `null` object will result in an exception. So, you'll have to check if each attribute in this object is `null` first. If so, and the other object's attribute is not `null`, then they are not equal. If this object's attribute is not `null`, you can safely call `equals()` on it, regardless of the other object's attribute. 
+      * The two sides may be present in any order.
+        * Again, this makes this method a bit tricky, since you'll have to properly handle multiple cases.
 
-`starfleetsubs.data.menu.ComboBuilder` - a class that implements the **Builder Pattern** to build the available combos described below. 
-* It should include a single public **static** method `buildCombo()` that accepts an integer as input, and builds and returns the `Combo` object indicated by the integer. 
-* For simplicity, it may also include a public **static** getter for the number of combos available. 
+* `heropizza.data.menu.ComboBuilder` - a class that implements the **Builder Pattern** to build the available combos described below. 
+  * It should include a single public **static** method to build a combo that accepts an integer as input, and builds and returns the `Combo` object indicated by the integer. 
+  * For simplicity, it may also include a public **static** getter for the number of combos available. 
 
-`starfleetsubs.data.menu.OrderNumberSingleton` - a class that implements the **Singleton Pattern** to generate new order numbers.
-* The class should have a non-static integer `nextOrderNumber` attribute, which is initially set to 1
-* It should have one public **static** method `getNextOrderNumber()` that will return the next order number. 
-  * This method should call a private `getInstance()` method to get the actual singleton instance stored as a static attribute in the class. 
-  * It should access the `nextOrderNumber` attribute through that singleton instance.
-  * This method should also use thread synchronization techniques to ensure that only a single thread can actually access and update the `nextOrderNumber` attribute (a `synchronized` statement in Java or a lock in a `with` statement in Python).
+* `heropizza.data.menu.OrderNumberSingleton` - a class that implements the **Singleton Pattern** to generate new order numbers.
+  * The class should have a non-static integer **next order number** attribute, which is initially set to 1
+  * It should have one public **static** method **get next order number** that will return the next order number. 
+    * This method should call a private **get instance** method to get the actual singleton instance stored as a static attribute in the class. 
+    * It should access the **next order number** attribute through that singleton instance.
+    * This method should also use thread synchronization techniques to ensure that only a single thread can actually access and update the **next order number** attribute (a `synchronized` statement in Java or a lock in a `with` statement in Python).
 
-`starfleetsubs.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given entrée, side, or drink.
-* It should include one public **static** method that is overloaded to accept two different sets of parameters:
-  * `getPanel(String name, MainWindow parent)` should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel. If the `name` is not recognized, an exception should be thrown.
-  * `getPanel(OrderItem item, MainWindow parent)` should accept an instance of an `OrderItem` and return a panel that represents that item, with the `parent` GUI element as its parent. If the `item` is not recognized, an exception should be thrown.
-* For now, do not worry about updating this class to handle `Combos` as `OrderItems`. We'll address that in the next milestone. 
+* `heropizza.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given pizza, side, or drink.
+  * It should include one public **static** method that is overloaded to accept two different sets of parameters:
+    * **get panel(String name, `MainWindow` parent)** should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel. If the `name` is not recognized, an exception should be thrown.
+    * **get panel(`OrderItem` item, `MainWindow` parent)** should accept an instance of an `OrderItem` and return a panel that represents that item, with the `parent` GUI element as its parent. If the `item` is not recognized, an exception should be thrown.
+  * For now, do not worry about updating this class to handle `Combos` as `OrderItems`. We'll address that in the next milestone. 
 
-### Updated Classes
+#### Updated Classes
 
-`Menu` - update to include the following items:
-* A `getCombos()` method that returns all pre-configured combos described below. This method should use the `ComboBuilder` class discussed below.
-* Updated the `getFullMenu()` method to include the combos returned from `getCombos()` in its output.
+* **`Menu`** - update to include the following items:
+  * A static getter method for **combos** that returns all pre-configured combos described below. This method should use the `ComboBuilder` class discussed below.
+  * Update the **fullMenu** method to include the combos returned from the method listed above.
 
-`OrderPanel` - update to include the following items:
-* The `actionPerformed` method should be updated to use the `PanelFactory` class to acquire the appropriate GUI panel based on the action command received from button that was clicked.
+* **`OrderPanel`** - update to include the following items:
+  * The button handler method should be updated to use the `PanelFactory` class to acquire the appropriate GUI panel based on the action command received from button that was clicked.
 
-`SidebarPanel` - update to include the following items:
-* When clicking the "Edit" button, it should use the `PanelFactory` class to acquire the appropriate GUI panel based on the item selected in the tree. 
-* This class should now include a private `Order` attribute that stores the items in the order. 
-  * It should be instantiated by the `SidebarPanel` constructor.
-  * It should be kept up to date as items are added to and removed from the order.
-  * Whenever the order is changed, it should update the order number, subtotal, tax, and total elements in the GUI. Prices should be properly formatted as currency values. 
-    * See [Currencies](https://docs.oracle.com/javase/tutorial/i18n/format/numberFormat.html) for Java. 
-* The GUI should include two new buttons:
-  * "New Order" - clicking this button will create a new `Order` instance and reset all appropriate GUI elements for a new order. This will delete any existing order.
-    * You may wish to implement a modal dialog that asks the user to confirm before deleting the existing order. See [How to Make Dialogs](https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html) for Java or [Dialog Windows](https://tkdocs.com/tutorial/windows.html#dialogs) for Python. This is not required but highly recommended!
-  * "Checkout" - clicking this button will have no effect at this time. It will be implemented in the next milestone.
+* `SidebarPanel` - update to include the following items:
+  * When clicking the **Edit** button, it should use the `PanelFactory` class to acquire the appropriate GUI panel based on the item selected in the tree. 
+  * This class should now include a private **order** attribute that stores the items in the in the sidebar in an `Order` instance as well. 
+    * It should be instantiated by the `SidebarPanel` constructor.
+    * It should be kept up to date as items are added to and removed from the order in the sidebar.
+    * Whenever the order is changed, it should be used to update the order number, subtotal, tax, and total elements in the GUI. Prices should be properly formatted as currency values. 
+      * See [Currencies](https://docs.oracle.com/javase/tutorial/i18n/format/numberFormat.html) for Java. 
+  * The GUI should include two new buttons:
+    * **New Order** - clicking this button will create a new `Order` instance and reset all appropriate GUI elements for a new order. This will delete any existing order.
+      * You may wish to implement a modal dialog that asks the user to confirm before deleting the existing order. See [How to Make Dialogs](https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html) for Java or [Dialog Windows](https://tkdocs.com/tutorial/windows.html#dialogs) for Python. This is not required but highly recommended!
+    * **Checkout** - clicking this button will have no effect at this time. It will be implemented in the next milestone.
 
 ### Unit Tests
 
@@ -137,12 +130,12 @@ All new classes except `PanelFactory` should include full unit tests that achiev
 
 Once this milestone is complete, all classes in the following packages should have unit tests that achieve at or near 100% code coverage:
 
-* `starfleetsubs.data.*`
-* `starfleetsubs.gui.drinks.*`
-* `starfleetsubs.gui.entrees.*`
-* `starfleetsubs.gui.sides.*`
+* `heropizza.data.*`
+* `heropizza.gui.drinks.*`
+* `heropizza.gui.pizzas.*`
+* `heropizza.gui.sides.*`
 
-The only classes that do not meet this requirement are `MainWindow`, `OrderPanel`, `PanelFactory`, and `SidebarPanel` in the `starfleetsubs.gui` package. 
+The only classes that do not meet this requirement are `MainWindow`, `OrderPanel`, `PanelFactory`, and `SidebarPanel` in the `heropizza.gui` package. 
 
 ## Time Requirements
 
@@ -190,29 +183,25 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## Combos
 
-###### 1 - Original Series
+###### 1 - Radical
 
-The Kirk, Bones McCoy, Altair Water
+The Mikey, Snarf Sticks, Mjolnir, Starfire
 
-###### 2 - Next Generation
+###### 2 - Tubular
 
-The Riker, Data Chips, The Picard
+The Wolverine, Batwings, Sailor Moon, Groot
 
-###### 3 - Voyage Beyond
+###### 3 - Bodacious
 
-The Janeway, Enterprise, The Guinan
+The He-Man, Snarf Sticks, Sailor Moon, Samurai Jack
 
-###### 4 - Warrior's Way
+###### 4 - Groovy 
 
-The Gagh, Borg, The Worf
+The Jem, Sailor Moon, Batwings, Bubbles
 
-###### 5 - Galaxy Class
+###### 5 - Gnarly 
 
-The Scotty, Enterprise, The Troi
-
-###### 6 - Judgement of Humanity
-
-The Q, Borg, The Picard
+The Captain Planet, Snarf Sticks, Mjolnir, Katara
 
 ## Unit Tests
 
@@ -224,11 +213,11 @@ This is a suggested list of unit tests you may wish to implement to test your ne
 * `TotalsAre0Initially()` - the subtotal, tax, and total are 0 initially.
 * `NegativeTaxRateThrowsException()` - setting the tax rate to a negative value throws an exception.
 * `TaxRateOver100ThrowsException()` - setting the tax rate to a value over 1.0 throws an exception.
-* `AddItemsUpdatesSize()` - add three fake items one at a time and check size after each one.
-* `AddItemsUpdatesTotals()` - add three fake items one at a time and check subtotal, tax, and total after each one.
-* `AddItemsUpdatesCalories()` - add three fake items one at a time and check calories after each one.
+* `AddItemsUpdatesSize()` - add a few fake items one at a time and check size after each one.
+* `AddItemsUpdatesTotals()` - add a few fake items one at a time and check subtotal, tax, and total after each one.
+* `AddItemsUpdatesCalories()` - add a few fake items one at a time and check calories after each one.
 * `ContainsUsesInstanceComparison()` - confirm that the `contains` method uses instance comparison. Create two actual order items (this cannot be done with fakes) that will return true when `equals()` is called. Place one in the order, and use them to confirm that `contains` returns both true and false when given two items that are equal but not the same instance.
-* `RemoveUsesInstanceComparison()` - confirm that the `removeItem` method uses instance comparison. Create two actual order items (this cannot be done with fakes) that will return true when `equals()` is called. Place both in in the order, then remove one and confirm that the correct one was removed using contains. You may wish to do this twice, removing the first one added once and the second one added the second time.
+* `RemoveUsesInstanceComparison()` - confirm that the `remove` method uses instance comparison. Create two actual order items (this cannot be done with fakes) that will return true when `equals()` is called. Place both in in the order, then remove one and confirm that the correct one was removed using contains. You may wish to do this twice, removing the first one added once and the second one added the second time.
 * `OrderNumberFromSingleton()`- confirm that the `Order` class is using `OrderNumberSingleton`. Create a fake `OrderNumberSingleton` that returns a value for an order number, then instantiate an `Order` and verify that it received the given order number.
 * `TaxRateSetGlobally()` - create two `Order` instances, change the tax rate, and confirm that both use the new tax rate. This is best done by adding an item to each order and checking the `tax` virtual attribute.
 * `RemoveMissingItemDoesNotThrow()` - removing an item not in the order should not throw an exception.
@@ -237,23 +226,20 @@ This is a suggested list of unit tests you may wish to implement to test your ne
 
 ##### Combo
 
-* `ConstructorSetsName()` - the constructor should set the name. This is visible as the first element in the special instructions list.
+* `ConstructorSetsName()` - the constructor should set the name. 
 * `ConstructorAcceptsNullName()` - the constructor should accept `null` or `None` for the name.
-* `ConstructorSetsItemsToNull()` - the constructor should set the entree, side, and drink elements to `null` or `None`. 
+* `ConstructorSetsItemsToNull()` - the constructor should set the pizza, sides, and drink elements to `null` or `None`. 
 * `SetDiscountToNegativeThrowsException()` - setting the discount to a negative value throws an exception.
 * `CanSetDiscountToZero()` - setting the discount to 0 does not throw an exception.
 * `PriceZeroNoItems()` - the price should be 0 if all items are `null` or `None`.
 * `CaloriesZeroNoItems()` - the calories should be 0 if all items are `null` or `None`.
-* `PriceAllItems()` - add fake entree, side, and drink to combo and verify that the price is summed correctly (remember to take off the discount).
-* `CaloriesAllItems()` - add fake entree, side, and drink to combo and verify that the calories is summed correctly.
-* `NoDiscountWhenItemMissing()` - add two of the three items to the combo and verify that the price is correct and does not include discount.
+* `PriceAllItems()` - add fake items to combo and verify that the price is summed correctly (remember to take off the discount).
+* `CaloriesAllItems()` - add fake items to combo and verify that the calories is summed correctly.
+* `NoDiscountWhenItemMissing()` - add up to three items to the combo and verify that the price is correct and does not include discount.
 * `DiscountSetGlobally()` - create two `Combo` instances, change the discount, and confirm that both use the new discount. This is best done by adding three items to each combo and checking the total price.
-* `AddEntreeUpdatesEntree()` - add an `Entree` to the combo using `addItem()` and verify that it is placed in the `entree` attribute. You may need to make the attribute visible to the test.
-* `AddSideUpdatesSide()` - add a `Side` to the combo using `addItem()` and verify that it is placed in the `side` attribute. You may need to make the attribute visible to the test.
-* `AddDrinkUpdatesDrink()` - add a `Drink` to the combo using `addItem()` and verify that it is placed in the `drink` attribute. You may need to make the attribute visible to the test.
-* `ItemsListCorrect()` - add fake items to the combo and verify that the list returned by `getItems()` contains them.
+* `ItemsListCorrect()` - add fake items to the combo and verify that the list returned by items getter contains those items.
 * `ItemsListEmpty()` - getting a list when the combo is empty results in an empty list.
-* `SpecialInstructionsHasDiscount()` - special instructions should contain "$0.50 Discount Applied" if all three items are populated.
+* `ModificationsHasDiscount()` - modifications list should include a discount message if all combo items are populated.
 * `AddingComboToComboThrowsException()` - adding a combo as an item to a combo throws an exception.
 * `TwoCombosEqual()` - create two combos containing the same name and fake objects and test that they are equal. 
 * `TwoCombosNotEqual()` - create two combos with different names but the same fake objects, and test that they are not equal.
@@ -265,14 +251,13 @@ _You may need to add additional tests of the `equals()` method in Java to achiev
 
 ##### ComboBuilder
 
-_For these tests, I recommend just checking the types of the entree, side, and drink item in the Combo returned, as well as the name, rather than using any fake objects. As before, you may wish to make these attributes visible to the test._
+_For these tests, I recommend just checking the types of the pizza, sides, and drink items in the Combo returned, as well as the name, rather than using any fake objects. As before, you may wish to make these attributes visible to the test._
 
 * `Combo1()` - Combo 1 is built correctly
 * `Combo2()` - Combo 2 is built correctly
 * `Combo3()` - Combo 3 is built correctly
 * `Combo4()` - Combo 4 is built correctly
 * `Combo5()` - Combo 5 is built correctly
-* `Combo6()` - Combo 6 is built correctly
 * `BadComboThrowsException()` - a bad combo number should throw an exception
 
 ##### OrderNumberSingleton
@@ -297,15 +282,15 @@ deps = -rrequirements.txt
 passenv = DISPLAY
 ignore_errors = True
 commands = python3 -m mypy -p src --html-report reports/mypy
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/data --html=reports/pytest-data/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheGaghPanel.py --html=reports/pytest-entrees1/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheJanewayPanel.py --html=reports/pytest-entrees2/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheKirkPanel.py --html=reports/pytest-entrees3/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheQPanel.py --html=reports/pytest-entrees4/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheRikerPanel.py --html=reports/pytest-entrees5/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheScottyPanel.py --html=reports/pytest-entrees6/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/entrees/test_TheSpockPanel.py --html=reports/pytest-entrees7/index.html
-           python3 -m coverage run --parallel-mode --source src -m pytest test/starfleetsubs/gui/drinks test/starfleetsubs/gui/sides --html=reports/pytest-side-drinks/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/data --html=reports/pytest-data/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheMikeyPanel.py --html=reports/pytest-pizzas1/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheJeanGreyPanel.py --html=reports/pytest-pizzas2/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheWolverinePanel.py --html=reports/pytest-pizzas3/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheSheRaPanel.py --html=reports/pytest-pizzas4/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheJemPanel.py --html=reports/pytest-pizzas5/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheHeManPanel.py --html=reports/pytest-pizzas6/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/pizzas/test_TheCaptainPlanetPanel.py --html=reports/pytest-pizzas7/index.html
+           python3 -m coverage run --parallel-mode --source src -m pytest test/heropizza/gui/drinks test/heropizza/gui/sides --html=reports/pytest-side-drinks/index.html
            python3 -m coverage combine
            python3 -m coverage html -d reports/coverage
            python3 -m flake8 --docstring-convention google --format=html --htmldir=reports/flake

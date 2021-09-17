@@ -22,3 +22,109 @@ This led to the development of new programming techniques, languages, and paradi
 ## Programming Today
 
 Today, many software developers have adopted techniques designed to produce high quality code. These include the use of automated unit testing and test-driven development, as well as standardized use of code comments and linters to maintain good coding style and ample documentation for future developers. In the project for this module, we'll explore what this looks like by building a simple "Hello World" program that uses all of these techniques. 
+
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
+{{< quizdown >}}
+
+---
+primaryColor: '#512888'
+secondaryColor: '#cccccc'
+textColor: black
+shuffleQuestions: true
+shuffleAnswers: true
+locale: en
+---
+
+# 
+
+What was the primary cause of the **software crisis**?
+
+1. [X] Machines becoming more powerful, requiring more software
+1. [ ] Software becoming too expensive for anyone to afford
+1. [ ] The unavailability of software for a particular task
+1. [ ] All common software was compromised and hacked
+
+# 
+
+What is the major feature of the **structured programming** paradigm?
+
+1. [X] Control-flow structures like conditionals, loops, and switch statements
+1. [ ] Structures to represent real-world objects
+1. [ ] Functions as first-class citizens in the code
+1. [ ] Statements only executed in the order listed in the code
+
+# 
+
+**Encapsulation**, **message passing**, and **dynamic binding** are three key properties of a programming language that follows what paradigm?
+
+1. [X] Object-oriented programming
+1. [ ] Structured programming
+1. [ ] Functional programming
+1. [ ] Imperative programming
+
+# 
+
+**Unit testing** is best described by what statement?
+
+1. [X] Detailed tests for small parts of a program, usually individual functions
+1. [ ] Verifying the result of a mathematical computation has the correct unit
+1. [ ] Recruiting users to test a new piece of software under observation
+1. [ ] Automatically testing the whole program together at once
+
+# 
+
+**Test-driven development** is a process for software development that creates the items below in what order? (Click and drag to reorder elements)
+
+1. Software specification
+2. Unit tests
+3. Source code
+
+#
+
+**Regression testing** is best described by what statement?
+
+1. [X] Re-running previously passed unit tests after an update to catch new bugs
+1. [ ] Testing older versions of software for new bugs
+1. [ ] Providing invalid data to a program to make sure it doesn't crash
+1. [ ] Running new software on old hardware
+
+#
+
+The **code coverage** of a set of unit tests is a measure of what?
+
+1. [X] The percentage of source code that is executed during testing
+1. [ ] How many possible inputs are handled properly by a function
+1. [ ] How many different keywords are used in a program's code
+1. [ ] The number of different developers who have reviewed the code
+
+# 
+
+**Documentation** in programming typically refers to what?
+
+1. [X] Including code comments that describe how a program works
+1. [ ] Keeping track of the number of hours required to develop a program
+1. [ ] Instructions for ways to compromise the system once it is deployed
+1. [ ] A list of all developers of a piece of software
+
+#
+
+Tools that help clean up messy code by making sure it follows good style are examples of what type of tool?
+
+1. [X] Static code analysis
+1. [ ] Automated testers
+1. [ ] Code mutators
+1. [ ] Source control
+
+#
+
+What is the common name for the simple program that most programmers learn first when learning a new language? 
+
+1. [X] Hello World
+1. [ ] Count to Three
+1. [ ] EPIC
+1. [ ] Tic-Tac-Toe
+
+{{< /quizdown >}}

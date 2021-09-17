@@ -5,18 +5,11 @@ weight: 65
 date: 2021-03-06T00:53:26-05:00
 ---
 
-{{% notice warning %}}
-
-# Not Updated
-
-This has not been updated for Fall 2021 yet - if you get here and see this, let the instructor know so the updated version gets posted.
-
-{{% /notice %}}
 This page lists the milestone requirements for **Milestone 7** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more.  
 
 The seventh milestone involves finalizing the GUI for creating combos, and handling the steps to check out and pay for an order, including printing a receipt. The purpose is to continue to learn how to use and modify an existing GUI and interface with an external library. 
 
@@ -30,30 +23,11 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 ## General Requirements
 
-This milestone must follow these professional coding standards:
+{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-* **All code must be object-oriented.**
-  * All executable code must be within a class
-    * Python package files such as `__init__.py` and `__main__.py` are exempt.
-  * Classes must be organized into packages based on common usage.
-* **This project must include automation for compilation, unit testing, style checking, documentation generation, and execution.**
-  * Java: Use Gradle with the `application` plugin. The project should compile without errors.
-  * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries.
-* **All code must properly compile or be interpreted.**
-  * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check with low imprecision percentage.
-    * Classes in the `starfleetsubs.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
-* **Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
-  * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
-  * Python: Use pytest. You may choose to use Hamcrest for assertions.
-* **Where specified, code should contain appropriate documentation comments following the language's style guide.**
-  * Java: Use javadoc to generate documentation.
-  * Python: Use pdoc3 to generate documentation.
-* **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
-  * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
-    * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
-  * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
-* Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
+{{% include-local "../_includes/a-requirements.md" %}}
+
+{{% /expand %}}
 
 ## Assignment Requirements
 
@@ -64,19 +38,20 @@ It is best to think of this assignment as one consisting of two distinct parts.
 Add updated buttons and panels to the GUI to facilitate creation and customization of combos created as part of the previous milestone. It should have the following features:
 
 * Users should be able to directly select one of the pre-built combos included in the previous milestone and add it to the order.
-* Users should be able to create a custom combo consisting of an entrée, side, and/or drink of their choice.
-  * You do not have to enforce the requirement that a combo contains all three items to be added to the order. However, the combo should only get the discount if all three items are populated. The existing `Combo` class should handle this as defined in the previous milestone.
-* Any entrée, side, or drink in the combo should also be customizable.
+* Users should be able to create a custom combo consisting of a pizza, sides, and/or drink of their choice.
+  * You do not have to enforce the requirement that a combo contains all items to be added to the order. However, the combo should only get the discount if all items are populated. The existing `Combo` class should handle this as defined in the previous milestone.
+* Any pizza, side, or drink in the combo should also be customizable.
 * Some of the code in the `SidebarPanel` class will need to be updated to properly handle combos.
-  * Combos should be displayed with the name of the combo as the topmost element in the tree. If the name is not set, a default name may be used.
-  * If the combo is eligible for the discount, that message should be displayed as a child node of the combo. 
-  * Each item in the combo should be displayed below the combo name as a child node.
-  * The special instructions of each item in the combo should be displayed as child nodes of the appropriate item.
+  * Combos should be displayed with the title "Combo" as the topmost element in the treem. 
+    The name of the combo should be the first child node, if set. If not set, a default name may be used.
+  * If the combo is eligible for the discount, that message should be displayed as the second child node of the combo. 
+  * Each item in the combo should be displayed below the combo name and discount message as a child node.
+  * The modifications of each item in the combo should be displayed as child nodes of the appropriate item.
   * In effect, combos will have 3 levels in the tree instead of the usual 2 for other order items.
   * This means that some of the logic for handling item selection and updates will need to be carefully updated. 
     * You may choose to simply write special cases for handling combos instead of generalizing or using recursion (the tree will be limited to 3 levels of depth, not including the single hidden root node).
 * Any new functionality should not interfere with previous functionality. This means:
-  * All individual entrées, sides, and drinks can be added to the order and customized.
+  * All individual pizzas, sides, and drinks can be added to the order and customized.
   * Any items in the order can be selected and edited.
     * If an item is part of a combo, you may choose to load the screen for editing the entire combo instead of the item selected - this is up to you!
 
@@ -100,9 +75,9 @@ At the bottom of this page is a GUI sketch of one possible way to build a screen
 
 Your new GUI panel(s) should include some basic **unit tests** modeled after the tests used for the item panels. Specifically, you should test the following:
 
-* Selecting a particular entrée, side, or drink in the appropriate GUI element causes a panel of the correct type to be loaded.
-* Receiving a combo as input containing a particular entrée, side, or drink causes the panel of the correct type to be loaded.
-* Selecting a particular entrée, side, or drink to be included in the combo via the GUI causes an item of that type to be added to the resulting `Combo` object when it is saved.
+* Selecting a particular pizza, side, or drink in the appropriate GUI element causes a panel of the correct type to be loaded.
+* Receiving a combo as input containing a particular pizza, side, or drink causes the panel of the correct type to be loaded.
+* Selecting a particular pizza, side, or drink to be included in the combo via the GUI causes an item of that type to be added to the resulting `Combo` object when it is saved.
 * Selecting the "no selection" option will remove that item from an existing `Combo` object when it is saved.
 * Cancelling will result in no changes being made to the `Combo` object.
 
@@ -279,10 +254,16 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 #### Sample Combo Customization GUI
 
-![Combo Window](/images/410_m7_gui.svg)
+![Combo Window](/cc410/images/m7/410_m7_gui.svg)
+
+{{% notice tip %}}
+
+Note that the window above only has a single side option, but the combo for this project requires two sides. So, you may have to adapt this layout to work in this case.
+
+{{% /notice %}}
 
 #### Sample Cash Transaction GUI
 
 You may wish to review the [Spinner](https://docs.oracle.com/javase/tutorial/uiswing/components/spinner.html) (Java) or [Spinbox](https://tkdocs.com/tutorial/morewidgets.html#spinbox) (Python) GUI elements.
 
-![Cash Window](/images/410_m7_gui_cash.svg)
+![Cash Window](/cc410//images/m7/410_m7_gui_cash.svg)
