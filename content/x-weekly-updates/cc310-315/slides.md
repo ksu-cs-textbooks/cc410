@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Greetings CC 310 & CC 315!</h2>
+	<h2>Greetings<br>CC 310 & CC 315!</h2>
 </section>
 
 <section>

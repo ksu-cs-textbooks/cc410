@@ -1,7 +1,7 @@
 ---
 title: "CC 310 & 315 Cover"
 pre: "0. "
-weight: 0
+weight: 4
 date: 2021-01-25T00:53:26-05:00
 ---
 
