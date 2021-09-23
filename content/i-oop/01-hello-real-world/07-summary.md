@@ -38,7 +38,7 @@ shuffleAnswers: true
 locale: en
 ---
 
-# 
+# Software Crisis
 
 What was the primary cause of the **software crisis**?
 
@@ -47,7 +47,7 @@ What was the primary cause of the **software crisis**?
 1. [ ] The unavailability of software for a particular task
 1. [ ] All common software was compromised and hacked
 
-# 
+# Structured Programming
 
 What is the major feature of the **structured programming** paradigm?
 
@@ -56,7 +56,7 @@ What is the major feature of the **structured programming** paradigm?
 1. [ ] Functions as first-class citizens in the code
 1. [ ] Statements only executed in the order listed in the code
 
-# 
+# 3 Key Properties
 
 **Encapsulation**, **message passing**, and **dynamic binding** are three key properties of a programming language that follows what paradigm?
 
@@ -65,7 +65,7 @@ What is the major feature of the **structured programming** paradigm?
 1. [ ] Functional programming
 1. [ ] Imperative programming
 
-# 
+# Unit Testing
 
 **Unit testing** is best described by what statement?
 
@@ -74,7 +74,7 @@ What is the major feature of the **structured programming** paradigm?
 1. [ ] Recruiting users to test a new piece of software under observation
 1. [ ] Automatically testing the whole program together at once
 
-# 
+# Test-Driven Development
 
 **Test-driven development** is a process for software development that creates the items below in what order? (Click and drag to reorder elements)
 
@@ -82,7 +82,7 @@ What is the major feature of the **structured programming** paradigm?
 2. Unit tests
 3. Source code
 
-#
+# Regression Testing
 
 **Regression testing** is best described by what statement?
 
@@ -91,7 +91,7 @@ What is the major feature of the **structured programming** paradigm?
 1. [ ] Providing invalid data to a program to make sure it doesn't crash
 1. [ ] Running new software on old hardware
 
-#
+# Code Coverage
 
 The **code coverage** of a set of unit tests is a measure of what?
 
@@ -100,7 +100,7 @@ The **code coverage** of a set of unit tests is a measure of what?
 1. [ ] How many different keywords are used in a program's code
 1. [ ] The number of different developers who have reviewed the code
 
-# 
+# Documentation
 
 **Documentation** in programming typically refers to what?
 
@@ -109,7 +109,7 @@ The **code coverage** of a set of unit tests is a measure of what?
 1. [ ] Instructions for ways to compromise the system once it is deployed
 1. [ ] A list of all developers of a piece of software
 
-#
+# Messy Code
 
 Tools that help clean up messy code by making sure it follows good style are examples of what type of tool?
 
@@ -118,7 +118,7 @@ Tools that help clean up messy code by making sure it follows good style are exa
 1. [ ] Code mutators
 1. [ ] Source control
 
-#
+# First Program
 
 What is the common name for the simple program that most programmers learn first when learning a new language? 
 
