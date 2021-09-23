@@ -9,5 +9,3 @@ In this chapter, we looked at how object-orientation adopted the concept of **en
 We also discussed several different ways of looking at and reasoning about objects - as a **state machine**, and as **structured data stored in memory**.  We discussed how a **method is really a form of message passing** that provides an **interface** to interact with objects safely.
 
 Finally, we explored how all of these concepts are implemented in both the Java and Python programming languages.
-
-[Example Videos](video)

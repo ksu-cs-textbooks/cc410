@@ -96,7 +96,7 @@ mars: Planet = Planet(0.107, 0.53)
 
 {{< /tabs >}}
 
-We can even create a `Planet` instance to represent one of the exoplanets discovered by [NASA’s TESS](https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite "Testing Extoplanet Survey Satelite"):
+We can even create a `Planet` instance to represent one of the exoplanets discovered by [NASA’s TESS](https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite "Transiting Extoplanet Survey Satelite"):
 
 {{< tabs >}}
 
