@@ -46,7 +46,7 @@ Once the entire project is working, you should observe the following behavior on
 
 {{% notice tip %}}
 
-It may be helpful to maintain a hash map or dictionary in the `SidebarPanel` class that associates nodes in the GUI tree element with the actual `OrderItem` instances that they represent.
+It may be helpful to maintain a hash map or dictionary in the `SidebarPanel` class that associates nodes in the GUI tree element with the actual `Food` instances that they represent.
 
 {{% /notice %}}
 
@@ -62,13 +62,13 @@ In addition, the following events should be implemented in the GUI:
   * The main panel in `MainWindow` should be replaced with the `OrderPanel` (this was part of the previous milestone for the **Save** button, and the code is similar).
 
 * When the **Edit** button in the `SidebarPanel` is clicked, the following should happen:
-  * The `OrderItem` that is **currently selected** should be determined. If the selection is an **child** of that item, the code should work upwards in the tree to find the related `OrderItem`.
+  * The `Food` that is **currently selected** should be determined. If the selection is an **child** of that item, the code should work upwards in the tree to find the related `Food`.
   * The appropriate pizza, side, or drink panel should be **loaded into the main panel** in `MainWindow` and **populated with the current status** of the item (most of this should be present from the previous milestone, but much of it may be untested at this point).
   * If the item is saved via the **Save** button, it's entry in the tree element should be **updated without changing the order of the items** in the tree.
   * If the changes are cancelled via the **Cancel** button, no changes should be made.
 
 * When the **Delete** button in the `SidebarPanel` is clicked, the following should happen:
-  * The `OrderItem` that is **currently selected** should be determined. If the selection is an **child** of that item, the code should work upwards in the tree to find the related `OrderItem`.
+  * The `Food` that is **currently selected** should be determined. If the selection is an **child** of that item, the code should work upwards in the tree to find the related `Food`.
   * That item should be **removed** from the tree element and **any other relevant data structures** in the `SidebarPanel` class.
 
 #### New Unit Tests
@@ -102,7 +102,7 @@ Completing this project is estimated to require 3-8 hours.
 
 {{% notice tip %}}
 
-_A rough estimate for this milestone would be around 3000-3500 lines of new or updated code. It could vary widely based on how you choose to implement the various portions of the GUI. Most of the new code (around 2000-2500 lines) is contained in the unit tests, which are highly redundant. It took me less than an hour to take a working set of unit tests for one of the more complex pizza panels, and I used that as a template to create the rest of the unit tests. My current model solution contains ~850 unit tests, and I was able to achieve 100% code coverage on all GUI `OrderItem` panels. -Russ_
+_A rough estimate for this milestone would be around 3000-3500 lines of new or updated code. It could vary widely based on how you choose to implement the various portions of the GUI. Most of the new code (around 2000-2500 lines) is contained in the unit tests, which are highly redundant. It took me less than an hour to take a working set of unit tests for one of the more complex pizza panels, and I used that as a template to create the rest of the unit tests. My current model solution contains ~850 unit tests, and I was able to achieve 100% code coverage on all GUI `Food` panels. -Russ_
 
 {{% /notice %}}
 

@@ -25,16 +25,16 @@ The sixth milestone involves creating combo meals and orders from the items sele
 
 #### New Classes
 
-* `heropizza.data.menu.Order` - this class should represent a collection of `OrderItem` objects that make up an order.
+* `heropizza.data.menu.Order` - this class should represent a collection of `Food` objects that make up an order.
 
   * It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
   * It should also support **standard collection methods** such as:
     * Getting the number of items in the collection 
-    * Determining if a given **instance** of an `OrderItem` object is contained in the collection. Recall that this should use the identity test, not the equality test.
+    * Determining if a given **instance** of an `Food` object is contained in the collection. Recall that this should use the identity test, not the equality test.
     * Getting a single item from the collection based on the index of that item.
     * Any other standard collection methods that you feel are helpful. See the [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) interface in Java or [Emulating Container Types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types) in Python for additional methods that may be useful.
   * It should have the following **attributes**:
-    * A private **list of `OrderItems`**, with methods to add and remove items.
+    * A private **list of `Foods`**, with methods to add and remove items.
       * **NOTE** - in most languages, the default method to remove an item from a collection will rely on **equality testing**, not **instance testing**. So, you may wish to write this method yourself instead of relying on the underlying collection, in order to keep this and the GUI in sync.
     * A private integer representing the **order number** for this order. 
       * It will be generated using the `OrderNumberSingleton` class discussed below. It should only include a getter. 
@@ -48,7 +48,7 @@ The sixth milestone involves creating combo meals and orders from the items sele
     * **Calories** - the total number of calories in the order.
   * All dollar amounts **should not** be rounded to two decimal places by this class. that will be handled by the GUI. 
 
-* `heropizza.data.menu.Combo` - this class should implement the `OrderItem` interface, and represent a combo meal consisting of an pizza, two sides, and drink. 
+* `heropizza.data.menu.Combo` - this class should implement the `Food` interface, and represent a combo meal consisting of an pizza, two sides, and drink. 
   * The class should have the following **attributes**:
     * String **Name** - the name of the combo
     * A **`Pizza`** instance - the pizza in the combo
@@ -62,7 +62,7 @@ The sixth milestone involves creating combo meals and orders from the items sele
     * Float **Discount** 
       * It should have a value 1.25 ($1.25) by default. 
       * It should include a **static** getter and setter method.
-  * The class should also implement the **`OrderItem` interface**:
+  * The class should also implement the **`Food` interface**:
     * A getter for the price, that returns the sum of the prices of each item in the combo.
       * **If all four items in the combo are populated**, the discount is applied to this total. Otherwise, no discount is applied.
     * A getter for the calories that returns the sum of the calories of each item in the combo.
@@ -96,8 +96,8 @@ The sixth milestone involves creating combo meals and orders from the items sele
 * `heropizza.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given pizza, side, or drink.
   * It should include one public **static** method that is overloaded to accept two different sets of parameters:
     * **get panel(String name, `MainWindow` parent)** should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel. If the `name` is not recognized, an exception should be thrown.
-    * **get panel(`OrderItem` item, `MainWindow` parent)** should accept an instance of an `OrderItem` and return a panel that represents that item, with the `parent` GUI element as its parent. If the `item` is not recognized, an exception should be thrown.
-  * For now, do not worry about updating this class to handle `Combos` as `OrderItems`. We'll address that in the next milestone. 
+    * **get panel(`Food` item, `MainWindow` parent)** should accept an instance of an `Food` and return a panel that represents that item, with the `parent` GUI element as its parent. If the `item` is not recognized, an exception should be thrown.
+  * For now, do not worry about updating this class to handle `Combos` as `Foods`. We'll address that in the next milestone. 
 
 #### Updated Classes
 
