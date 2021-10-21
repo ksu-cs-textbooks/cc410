@@ -14,13 +14,15 @@ Historically, the test plan was often developed at the same time as the design f
 
 This model of software development has often been referred to as the "waterfall model" as each task depends on the one before it:
 
-![The Waterfall Model of Software Development](../../images/4/waterfall.svg)^[https://commons.wikimedia.org/w/index.php?title=File:Waterfall_model.svg&oldid=453496509]
+![The Waterfall Model of Software Development](/cc410/images/4/waterfall.svg)[^waterfall]
+
+[^waterfall]: File:Waterfall model.svg. (2020, September 9). Wikimedia Commons, the free media repository. Retrieved 16:48, October 21, 2021 from https://commons.wikimedia.org/w/index.php?title=File:Waterfall_model.svg&oldid=453496509.
 
 Unfortunately, as this model is often implemented, the programmers responsible for writing the software are reassigned to other projects as the software moves into the testing phase.  Rather than employ valuable programmers as testers, most companies will hire less expensive workers to carry out the testing.  So either a skeleton crew of programmers is left to fix any errors that are found during the tests, or these are passed back to programmers already deeply involved in a new project.
 
 The costs involved in fixing software errors also grow larger the longer the error exists in the software. The table below comes from a NASA report of software error costs throughout the project life cycle: 
 
-![Comparison of System Cost Factors Excluding Operations](../../images/4/costs.png)[^nasa2004]
+![Comparison of System Cost Factors Excluding Operations](/cc410/images/4/costs.png)[^nasa2004]
 
 [^nasa2004]: Jonette M. Stecklein, Jim Dabney, Brandon Dick, Bill Haskins, Randy Lovell, and Gregory Maroney. ["Error Cost Escalation Through the Project Life Cycle"](https://ntrs.nasa.gov/citations/20100036670), NASA, June 19, 2014.
 

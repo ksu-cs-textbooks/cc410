@@ -48,7 +48,7 @@ assertThat(theBiscuit, is(equalTo(myBiscuit)));
 assertThat(theBiscuit, is(myBiscuit));
 ```
 
-By including the `is` matcher, we can make our assertions more readable. 
+By including the `is` matcher, we can make our assertions more readable. We call this _syntactic sugar_ since it doesn't add anything new to our language structure, but it can help make it more readable.
 
 ## Examples
 

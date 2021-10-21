@@ -47,4 +47,4 @@ assert_that(theBiscuit, is_(equal_to(myBiscuit)))
 assert_that(theBiscuit, is_(myBiscuit))
 ```
 
-By including the `is_()` matcher, we can make our assertions more readable. 
+By including the `is_()` matcher, we can make our assertions more readable. We call this _syntactic sugar_ since it doesn't add anything new to our language structure, but it can help make it more readable.

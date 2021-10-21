@@ -7,11 +7,11 @@ Unit testing is a small part of a much larger world of software testing strategi
 
 ## White Box vs. Black Box Testing
 
-First, it is important to differentiate between two different approaches to testing. The **white-box** testing approach means that the developer writing the test has full access to the source code, and it is used to verify not just the functionality of a program as it might appear externally, but also that the internal workings of the program are correct. 
+First, it is important to differentiate between two different approaches to testing. The **white box** testing approach means that the developer writing the test has full access to the source code, and it is used to verify not just the functionality of a program as it might appear externally, but also that the internal workings of the program are correct. 
 
 By having access to the source code, you can take advantage of tools that determine code coverage, and develop tests that are specifically designed to test edge cases or paths found in the code itself. 
 
-On the other hand, **black-box** testing means that the tester cannot see the source code of the application itself, and can only test it by calling the publicly available methods, sometimes referred to as the **application programming interface** or **API** of the software. 
+On the other hand, **black box** testing means that the tester cannot see the source code of the application itself, and can only test it by calling the publicly available methods, sometimes referred to as the **application programming interface** or **API** of the software. 
 
 For example, consider testing the code in a library that we didn't develop. We can access the documentation to see what functions it provides and how they should operate, and we can then write tests that verify those functions. This can be helpful to avoid some of the biases that may be introduced by reading the code itself. We could easily look at a line of code and convince ourselves that it is correct, such that we may not adequately test it's functionality. 
 
