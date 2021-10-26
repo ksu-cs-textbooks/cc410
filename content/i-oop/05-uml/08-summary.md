@@ -9,6 +9,10 @@ We also saw how associations between classes can be represented by arrows with s
 
 Finally, we saw how classes, interfaces, and enumerations are modeled using UML.  We saw how the stereotype can be used to indicate language-specific features like properties.  We also looked at creating UML class diagrams using Diagrams.net and Microsoft Visio.
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---

@@ -7,6 +7,10 @@ In this chapter we learned about testing, both manually using test plans and aut
 
 We learned a bit more about the testing frameworks we have available to us in our chosen programming language and how to use them. And finally, we discussed some more advanced topics related to software testing. 
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---

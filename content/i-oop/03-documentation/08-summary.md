@@ -8,6 +8,10 @@ In this chapter, we examined the need for software documentation aimed at both e
 
 We examined the both the Java and Python approach to documentation comments, helping other developers understand our code. For this reason, as well as the ability to produce HTML-based documentation using a documentation generator tool, it is best practice to use documentation comments in all our programs.
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---
