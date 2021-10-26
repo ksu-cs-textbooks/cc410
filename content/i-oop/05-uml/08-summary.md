@@ -278,4 +278,13 @@ The **composition** association is represented by which arrow?
 1. [ ] ![Solid Line with Open Diamond](/cc410/images/5/arrow3.svg)
 1. [X] ![Solid Line with Solid Diamond](/cc410/images/5/arrow4.svg)
 
+# Multiplicity
+
+The **multiplicity** of an association in UML denotes what information?
+
+1. [X] The number of objects involved
+1. [ ] The size of each class
+1. [ ] The code complexity of the package
+1. [ ] The type of the association
+
 {{< /quizdown >}}
