@@ -128,6 +128,154 @@ A **constraint** in a UML diagram describes what?
 1. [ ] The number of instances attached to an association
 1. [ ] The size of the overall component
 
-// done through page 5.4 on the question bank as well
+# Methods
+
+In a UML class diagram, which compartment of a box representing a class contains the operations or **methods** of that class?
+
+1. [X] The bottom compartment
+1. [ ] The top compartment
+1. [ ] The middle compartment
+1. [ ] The rightmost compartment
+
+# Languages
+
+True or false: developers creating the same program in different programming languages would create identical UML diagrams to represent their program?
+
+1. [X] False
+2. [ ] True
+
+# Attributes
+
+In a UML class diagram, **attributes** are indicated using which UML element?
+
+1. [X] Typed element
+1. [ ] Classed element
+1. [ ] Box element
+1. [ ] Association element
+
+# Accessor Methods
+
+Consider the following typed element:
+
+`+ age: int <<get,set>>`
+
+The **accessor methods** indicated by the `<<get,set>>` portion are represented using what feature of UML?
+
+1. [X] Stereotype
+1. [ ] Association
+1. [ ] Sequence Diagram
+1. [ ] Generic
+
+# Operations
+
+Consider the following UML **operation**:
+
+`+ volume(r: int, h: int, cone: boolean): float`
+
+What is the **return type** of that operation:
+
+1. [X] `float`
+1. [ ] `int`
+1. [ ] `boolean`
+1. [ ] `volume`
+
+# Static
+
+Which text format is used to indicate a class or method is **static** in a UML diagram?
+
+1. [X] Underline
+1. [ ] Italics
+1. [ ] Bold
+1. [ ] Strikethrough
+
+# Abstract
+
+Which text format is used to indicate a class or method is **abstract** in a UML diagram?
+
+1. [ ] Underline
+1. [X] Italics
+1. [ ] Bold
+1. [ ] Strikethrough
+
+# Associations
+
+An **association** between two classes in a UML diagram is represented by which graphical element?
+
+1. [X] Line
+1. [ ] Triangle
+1. [ ] Box
+1. [ ] Circle
+
+# Realization
+
+The **realization** association is also known as what association type?
+
+1. [X] Weak is-a
+1. [ ] Strong is-a
+1. [ ] Weak has-a
+1. [ ] Strong has-a
+
+# Generalization
+
+The **generalization** association is also known as what association type?
+
+1. [ ] Weak is-a
+1. [X] Strong is-a
+1. [ ] Weak has-a
+1. [ ] Strong has-a
+
+# Aggregation
+
+The **aggregation** association is also known as what association type?
+
+1. [ ] Weak is-a
+1. [ ] Strong is-a
+1. [X] Weak has-a
+1. [ ] Strong has-a
+
+# Composition
+
+The **composition** association is also known as what association type?
+
+1. [ ] Weak is-a
+1. [ ] Strong is-a
+1. [ ] Weak has-a
+1. [X] Strong has-a
+
+# Realization Arrow
+
+The **realization** association is represented by which arrow?
+
+1. [X] ![Dashed Line with Open Arrow](/cc410/images/5/arrow1.svg)
+1. [ ] ![Solid Line with Open Arrow](/cc410/images/5/arrow2.svg)
+1. [ ] ![Solid Line with Open Diamond](/cc410/images/5/arrow3.svg)
+1. [ ] ![Solid Line with Solid Diamond](/cc410/images/5/arrow4.svg)
+
+# Generalization Arrow
+
+The **generalization** association is represented by which arrow?
+
+1. [ ] ![Dashed Line with Open Arrow](/cc410/images/5/arrow1.svg)
+1. [X] ![Solid Line with Open Arrow](/cc410/images/5/arrow2.svg)
+1. [ ] ![Solid Line with Open Diamond](/cc410/images/5/arrow3.svg)
+1. [ ] ![Solid Line with Solid Diamond](/cc410/images/5/arrow4.svg)
+
+# Aggregation Arrow
+
+The **aggregation** association is represented by which arrow?
+
+1. [ ] ![Dashed Line with Open Arrow](/cc410/images/5/arrow1.svg)
+1. [ ] ![Solid Line with Open Arrow](/cc410/images/5/arrow2.svg)
+1. [X] ![Solid Line with Open Diamond](/cc410/images/5/arrow3.svg)
+1. [ ] ![Solid Line with Solid Diamond](/cc410/images/5/arrow4.svg)
+
+# Composition Arrow
+
+The **composition** association is represented by which arrow?
+
+1. [ ] ![Dashed Line with Open Arrow](/cc410/images/5/arrow1.svg)
+1. [ ] ![Solid Line with Open Arrow](/cc410/images/5/arrow2.svg)
+1. [ ] ![Solid Line with Open Diamond](/cc410/images/5/arrow3.svg)
+1. [X] ![Solid Line with Solid Diamond](/cc410/images/5/arrow4.svg)
 
 {{< /quizdown >}}

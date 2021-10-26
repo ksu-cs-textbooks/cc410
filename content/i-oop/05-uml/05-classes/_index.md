@@ -137,7 +137,7 @@ def add(a: int, b: int) -> int:
 
 ## Static and Abstract
 
-In UML, we indicate a class is static by _underlining_ its name in the first compartment of the class diagram.  We can similarly indicate static operations and methods is static by underlining the entire line referring to them.
+In UML, we indicate a class is static by _underlining_ its name in the first compartment of the class diagram.  We can similarly indicate operations and methods are static by underlining the entire line referring to them.
 
 To indicate a class is abstract, we _italicize_ its name.  Abstract methods are also indicated by italicizing the entire line referring to them.
 
