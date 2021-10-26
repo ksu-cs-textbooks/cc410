@@ -58,7 +58,7 @@ public class Student {
 }
 ```
 
-This would work well for representing a student.  But what if we are representing multiple _kinds_ of students, like undergraduate and graduate students?  We'd need separate classes for each, but both would still have names and calculate their GPA the same way.  So, it would be handy if we could say "an undergraduate is a student, and has all the properties and methods a student has" and "a graduate student is a student, and has all the properties and methods a student has."  This is exactly what inheritance does for us, and we often describe it as an *is a* relationship.  We distinguish this from the interface mechanism we looked at earlier by saying it is a **strong is a** relationship, as an `Undergraduate` student is, for all purposes, _also_ a `Student`.
+This would work well for representing a student.  But what if we are representing multiple _kinds_ of students, like undergraduate and graduate students?  We'd need separate classes for each, but both would still have names and calculate their GPA the same way.  So, it would be handy if we could say "an undergraduate is a student, and has all the properties and methods a student has" and "a graduate student is a student, and has all the properties and methods a student has."  This is exactly what inheritance does for us, and we often describe it as an *is-a* relationship.  We distinguish this from the interface mechanism we looked at earlier by saying it is a **strong is-a** relationship, as an `Undergraduate` student is, for all purposes, _also_ a `Student`.
 
 Let's define an undergraduate student class:
 
@@ -105,7 +105,9 @@ Thus, the `GraduateStudent` has all the state and behavior encapsulated in `Stud
 
 What you might not expect is that any fields declared `private` in the base class are inaccessible in the derived class.  Thus, the private fields `creditPoints` and `creditHours` cannot be used in a method defined in `GraduateStudent`.  This is again part of the _encapsulation_ and _data hiding_ ideals - we've encapsulated and hid those variables within the base class, and any code outside that assembly, even in a derived class, is not allowed to mess with it.
 
-However, we often will want to allow access to such variables in a derived class.  Java uses the access modifier `protected` to allow for this access in derived classes, but not the wider world.
+However, we often will want to allow access to such variables in a derived class.  Java uses the access modifier `protected` to allow for this access in derived classes, but not the wider world. 
+
+In UML, protected attributes are denoted by a hash symbol `#` as the visibility of the attribute. 
 
 ## Inheritance and Memory
 

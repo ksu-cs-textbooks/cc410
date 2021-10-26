@@ -45,7 +45,7 @@ class Student:
             self.__credit_points += 0 * hours
 ```
 
-This would work well for representing a student.  But what if we are representing multiple _kinds_ of students, like undergraduate and graduate students?  We'd need separate classes for each, but both would still have names and calculate their GPA the same way.  So, it would be handy if we could say "an undergraduate is a student, and has all the properties and methods a student has" and "a graduate student is a student, and has all the properties and methods a student has."  This is exactly what inheritance does for us, and we often describe it as an *is a* relationship.  We distinguish this from the interface mechanism we looked at earlier by saying it is a **strong is a** relationship, as an `Undergraduate` student is, for all purposes, _also_ a `Student`.
+This would work well for representing a student.  But what if we are representing multiple _kinds_ of students, like undergraduate and graduate students?  We'd need separate classes for each, but both would still have names and calculate their GPA the same way.  So, it would be handy if we could say "an undergraduate is a student, and has all the properties and methods a student has" and "a graduate student is a student, and has all the properties and methods a student has."  This is exactly what inheritance does for us, and we often describe it as an *is-a* relationship.  We distinguish this from the interface mechanism we looked at earlier by saying it is a **strong is-a** relationship, as an `Undergraduate` student is, for all purposes, _also_ a `Student`.
 
 Let's define an undergraduate student class:
 
@@ -85,6 +85,8 @@ Thus, the `GraduateStudent` has all the state and behavior encapsulated in `Stud
 What you might not expect is that any fields that are `private` in the base class are inaccessible in the derived class. This is due to the way that Python performs [name mangling](https://www.geeksforgeeks.org/name-mangling-in-python/) of names that begin with two underscores `__`. Thus, the private fields `credit_points` and `credit_hours` cannot be used in a method defined in `GraduateStudent`.  This is again part of the _encapsulation_ and _data hiding_ ideals - we've encapsulated and hid those variables within the base class, and any code outside that assembly, even in a derived class, is not allowed to mess with it.
 
 However, we often will want to allow access to such variables in a derived class. In Python, we can use a single underscore `_` in front of a variable or method name to indicate that it should be treated like a **protected** attribute, which is only accessed by the class that defines it and any classes that inherit from that class. However, as with anything else in Python, this attribute will still be accessible to any code within our program, so it is up to developers to respect the naming scheme and not try to access those directly.
+
+In UML, protected attributes are denoted by a hash symbol `#` as the visibility of the attribute. 
 
 ## Inheritance and Memory
 

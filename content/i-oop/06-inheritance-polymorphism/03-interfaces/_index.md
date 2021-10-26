@@ -96,7 +96,7 @@ for(IJumpable jumper : jumpables) {
 
 Note that while we are treating the Kangaroo and Car instances _as_ `IJumpable` instances, we can _only_ invoke the methods defined in the `IJumpable` interface, even if these objects have other methods. Essentially, the interface represents a new _type_ that can be shared amongst disparate objects in a statically-typed language. The interface definition serves to assure the static type checker that the objects implementing it can be treated as this new type - i.e. the `interface` provides a mechanism for implementing polymorphism. 
 
-We often describe the relationship between the interface and the class that implements it as a *is-a* relationship, i.e. a `Kangaroo` _is a_ `IJumpable` (i.e. a Kangaroo is a thing that can jump).  We further distinguish this from a related polymorphic mechanism, inheritance, by the strength of the relationship.  We consider interfaces **weak is a** connections, as other than the shared interface, a Kangaroo and a Car don't have much to do with one another.
+We often describe the relationship between the interface and the class that implements it as a *is-a* relationship, i.e. a `Kangaroo` _is a_ `IJumpable` (i.e. a Kangaroo is a thing that can jump).  We further distinguish this from a related polymorphic mechanism, inheritance, by the strength of the relationship.  We consider interfaces **weak is-a** connections, as other than the shared interface, a Kangaroo and a Car don't have much to do with one another.
 
 In Java, like most other object-oriented languages, a class can implement as many interfaces as we want, they just need to be separated by commas, i.e.:
 
