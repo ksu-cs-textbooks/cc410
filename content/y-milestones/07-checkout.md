@@ -71,6 +71,10 @@ At the bottom of this page is a GUI sketch of one possible way to build a screen
 * You may choose to add additional getters to the classes in the `data` package as desired.
 * In Python, you may have a circular reference in your `PanelFactory` since it could be used from within `ComboPanel`, but also will be used to create instances of `ComboPanel`. A way to resolve this would be to create a `ComboPanelFactory` to handle combos, and adapt the code where `PanelFactory` is used to direct combo instances to the new `ComboPanelFactory` instead.
 
+##### Documentation Comments
+
+All new and updated classes in this milestone should contain full documentation comments. 
+
 ##### Unit Tests
 
 Your new GUI panel(s) should include some basic **unit tests** modeled after the tests used for the item panels. Specifically, you should test the following:
@@ -182,6 +186,10 @@ The receipt should include the following information:
 The receipt can only be printed one line at a time using the appropriate method in the `ReceiptPrinter` class, and each line is limited to **no more than 40 characters**. You are encouraged to make use of simple formatting, ASCII art, and short indentions to make the receipt more readable. There are methods provided in the `ReceiptPrinter` class to start and end a receipt.
 
 The `ReceiptPrinter` class will print the receipt to a file named `receipt.txt` in the project folder. By default, the `ReceiptPrinter` will append new receipts to the end of that file. You may wish to empty this file regularly as part of testing, and should not commit it to GitHub. 
+
+##### Documentation Comments
+
+All new and updated classes in this milestone should contain full documentation comments. 
 
 ##### Unit Tests
 

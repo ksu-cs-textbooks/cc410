@@ -120,6 +120,10 @@ The sixth milestone involves creating combo meals and orders from the items sele
       * You may wish to implement a modal dialog that asks the user to confirm before deleting the existing order. See [How to Make Dialogs](https://docs.oracle.com/javase/tutorial/uiswing/components/dialog.html) for Java or [Dialog Windows](https://tkdocs.com/tutorial/windows.html#dialogs) for Python. This is not required but highly recommended!
     * **Checkout** - clicking this button will have no effect at this time. It will be implemented in the next milestone.
 
+### Documentation Comments
+
+All new and updated classes in this milestone should contain full documentation comments. 
+
 ### Unit Tests
 
 All new classes except `PanelFactory` should include full unit tests that achieve at or near 100% code coverage and adequately test all aspects of the class. In addition, some previous tests may need to be updated to match new requirements.
