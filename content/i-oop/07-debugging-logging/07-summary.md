@@ -111,7 +111,7 @@ In a debugger, we can set a **breakpoint** on a line of code to accomplish what 
 If a debugger is stopped on a line containing a function call, pressing the **step into** button will perform what action?
 
 1. [X] Pause execution on the first line within the function being called
-1. [ ] Move execution to the next line in the current function 
+1. [ ] Move execution to the next line in the current function unless it reaches a breakpoint
 1. [ ] Continue executing the program until another breakpoint is reached
 1. [ ] Finish executing the current function and move to the function it was called from
 
@@ -120,7 +120,7 @@ If a debugger is stopped on a line containing a function call, pressing the **st
 If a debugger is stopped on a line containing a function call, pressing the **step over** button will perform what action?
 
 1. [ ] Pause execution on the first line within the function being called
-1. [X] Move execution to the next line in the current function 
+1. [X] Move execution to the next line in the current function unless it reaches a breakpoint
 1. [ ] Continue executing the program until another breakpoint is reached
 1. [ ] Finish executing the current function and move to the function it was called from
 
@@ -129,7 +129,7 @@ If a debugger is stopped on a line containing a function call, pressing the **st
 If a debugger is stopped on a line containing a function call, pressing the **step out** button will perform what action?
 
 1. [ ] Pause execution on the first line within the function being called
-1. [ ] Move execution to the next line in the current function 
+1. [ ] Move execution to the next line in the current function unless it reaches a breakpoint
 1. [ ] Continue executing the program until another breakpoint is reached
 1. [X] Finish executing the current function and move to the function it was called from
 
@@ -138,8 +138,17 @@ If a debugger is stopped on a line containing a function call, pressing the **st
 If a debugger is stopped on a line containing a function call, pressing the **resume** button will perform what action?
 
 1. [ ] Pause execution on the first line within the function being called
-1. [ ] Move execution to the next line in the current function 
+1. [ ] Move execution to the next line in the current function unless it reaches a breakpoint
 1. [X] Continue executing the program until another breakpoint is reached
 1. [ ] Finish executing the current function and move to the function it was called from
+
+# Logger
+
+In programming, a **logger** is a tool that performs what action?
+
+1. [X] Collects debugging information while a program is running
+1. [ ] Pauses execution of a running program
+1. [ ] Removes any unnecessary branches of a program
+1. [ ] Detects and eliminates bugs in the code
 
 {{< /quizdown >}}
