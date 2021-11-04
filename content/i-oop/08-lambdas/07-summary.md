@@ -24,13 +24,92 @@ shuffleAnswers: true
 locale: en
 ---
 
-# UML
+# Lambda Calculus
 
-**UML** is the shortened version of what name?
+**Lambda calculus** is a formal notation used to describe what?
 
-1. [X] Unified Modeling Language
-1. [ ] United Modality Language
-1. [ ] United Modeling Language
-1. [ ] Unified Modality Language
+1. [X] Computation
+1. [ ] Mathematics
+1. [ ] Algebra
+1. [ ] Combinatorics
+
+# Programming Paradigms
+
+The use of lambda calculus leads to what programming paradigm?
+
+1. [X] Functional Programming
+1. [ ] Object-Oriented Programming
+1. [ ] Procedural Programming
+1. [ ] Imperative Programming
+
+# Structured Programming
+
+The **structured programming** paradigm is best described by what statement?
+
+1. [X] Programs are constructed from small parts like ifs and while loops
+1. [ ] Programs are lists of commands that modify state
+1. [ ] Programs are built from classes representing real-world ideas
+1. [ ] Programs are mathematical functions to convert inputs to outputs
+
+# Imperative Programming
+
+The **imperative programming** paradigm is best described by what statement?
+
+1. [ ] Programs are constructed from small parts like ifs and while loops
+1. [X] Programs are lists of commands that modify state
+1. [ ] Programs are built from classes representing real-world ideas
+1. [ ] Programs are mathematical functions to convert inputs to outputs
+
+# Object-Oriented Programming
+
+The **object-oriented programming** paradigm is best described by what statement?
+
+1. [ ] Programs are constructed from small parts like ifs and while loops
+1. [ ] Programs are lists of commands that modify state
+1. [X] Programs are built from classes representing real-world ideas
+1. [ ] Programs are mathematical functions to convert inputs to outputs
+
+# Functional Programming
+
+The **functional programming** paradigm is best described by what statement?
+
+1. [ ] Programs are constructed from small parts like ifs and while loops
+1. [ ] Programs are lists of commands that modify state
+1. [ ] Programs are built from classes representing real-world ideas
+1. [X] Programs are mathematical functions to convert inputs to outputs
+
+# Lambda Expressions
+
+In some languages, **lambda expressions** are also known by what name, mainly because they themselves don't have a name?
+
+1. [X] Anonymous functions
+1. [ ] Virtual functions
+1. [ ] Function prototypes
+1. [ ] Abstract functions
+
+# First-class Citizens
+
+When we say that a function is a **first-class citizen** in a programming language, what does that mean?
+
+1. [X] It can be treated like any other part of the state
+1. [ ] It is given a special keyword
+1. [ ] It uses special syntax in the compiler or interpreter
+1. [ ] It cannot be removed from the program
+
+# State and Behavior
+
+Going back to object-oriented concepts, a **lambda expression** that is treated as a first-class citizen in a language is best described by what statement?
+
+1. [X] Behavior as State
+1. [ ] State only
+1. [ ] Behavior only
+1. [ ] State as Behavior
+
+# Readability
+
+True or false: in general, using lots of lambda expressions in code makes it easier for novice developers to understand the code?
+
+1. [X] False
+1. [ ] True
 
 {{< /quizdown >}}
