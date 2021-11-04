@@ -10,3 +10,25 @@ We also looked at some of the helpful metadata that we may wish to add to our pr
 Finally, we saw how to create a package in both Java and Python, and how to upload those packages to a release on GitHub. We also discussed the basic steps for uploading a package to the repository for our chosen language. 
 
 In the example project for this module, we'll go through some of the steps for creating our own packaged releases and how to upload them to GitHub. 
+
+{{< quizdown >}}
+
+---
+primaryColor: '#512888'
+secondaryColor: '#cccccc'
+textColor: black
+shuffleQuestions: true
+shuffleAnswers: true
+locale: en
+---
+
+# GUI
+
+The initialism **GUI** stands for what concept in computer programming?
+
+1. [X] Graphical User Interface
+1. [ ] Graphics Under Input
+1. [ ] Game Under Intervals
+1. [ ] Graph User Intelligence
+
+{{< /quizdown >}}

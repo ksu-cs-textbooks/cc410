@@ -24,3 +24,25 @@ Finally, we looked at two **behavioral patterns**:
 * **Template Method Pattern** allows us to build the internal structure of a method, but then delegate some of the actual computation to methods that can be overridden by subclasses. 
 
 In the future, we can use these patterns in our code to solve specific problems and hopefully make our program's structure easier for other developers to understand.
+
+{{< quizdown >}}
+
+---
+primaryColor: '#512888'
+secondaryColor: '#cccccc'
+textColor: black
+shuffleQuestions: true
+shuffleAnswers: true
+locale: en
+---
+
+# GUI
+
+The initialism **GUI** stands for what concept in computer programming?
+
+1. [X] Graphical User Interface
+1. [ ] Graphics Under Input
+1. [ ] Game Under Intervals
+1. [ ] Graph User Intelligence
+
+{{< /quizdown >}}

@@ -11,3 +11,25 @@ In this chapter, we learned about **test doubles** and how they can use them in 
 * mocks - objects that record operations performed on it
 
 We also explored how we can use these in our code both Java and Python. Finally, we learned about **dependency injection** and how we can use that technique to place our test doubles directly in our classes. Now, we'll be able to update the unit tests in our ongoing project to help separate the classes being tested from other classes that it depends on.
+
+{{< quizdown >}}
+
+---
+primaryColor: '#512888'
+secondaryColor: '#cccccc'
+textColor: black
+shuffleQuestions: true
+shuffleAnswers: true
+locale: en
+---
+
+# GUI
+
+The initialism **GUI** stands for what concept in computer programming?
+
+1. [X] Graphical User Interface
+1. [ ] Graphics Under Input
+1. [ ] Game Under Intervals
+1. [ ] Graph User Intelligence
+
+{{< /quizdown >}}

@@ -11,3 +11,25 @@ In addition, we discussed the various **licenses** that may be attached to softw
 Finally, we looked at the Java JAR and Python wheel file formats, and how to install those packages into our applications. We also listed some common software packages for both Java and Python that we may want to use ourselves. 
 
 In the example project for this chapter, we'll look at how to download and install a custom package for our class project and how to integrate it into our code.
+
+{{< quizdown >}}
+
+---
+primaryColor: '#512888'
+secondaryColor: '#cccccc'
+textColor: black
+shuffleQuestions: true
+shuffleAnswers: true
+locale: en
+---
+
+# GUI
+
+The initialism **GUI** stands for what concept in computer programming?
+
+1. [X] Graphical User Interface
+1. [ ] Graphics Under Input
+1. [ ] Game Under Intervals
+1. [ ] Graph User Intelligence
+
+{{< /quizdown >}}
