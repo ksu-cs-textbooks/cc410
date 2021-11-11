@@ -38,7 +38,9 @@ In fact, the [Free Software Foundation](https://www.fsf.org/) has developed a se
 * "Use: Free Software can be used for any purpose and is free of restrictions such as licence expiry or geographic limitations."
 * "Study: Free Software and its code can be studied by anyone, without non‐disclosure agreements or similar restrictions."
 * "Share: Free Software can be shared and copied at virtually no cost."
-* "Improve: Free Software can be modified by anyone, and these improvements can be shared publicly."^[https://fsfe.org/freesoftware/]
+* "Improve: Free Software can be modified by anyone, and these improvements can be shared publicly."[^1]
+
+[^1]: https://fsfe.org/freesoftware/
 
 Software that meets these four criteria sometimes use the term "libre" software, or FOSS ("Free Open Source Software") to differentiate themselves from the traditional definition of the word "free". 
 

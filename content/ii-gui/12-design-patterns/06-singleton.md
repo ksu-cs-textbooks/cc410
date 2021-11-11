@@ -4,7 +4,7 @@ weight: 30
 pre: "6. "
 ---
 
-Finally, let's look at one other common creational pattern: the **singleton pattern**. The [singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern) is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simple get a **reference** to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.
+Finally, let's look at one other common creational pattern: the **singleton pattern**. The [singleton pattern](https://en.wikipedia.org/wiki/Singleton_pattern) is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simply get a **reference** to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.
 
 ![Singleton UML](/cc410/images/12/singleton.png)[^1]
 
