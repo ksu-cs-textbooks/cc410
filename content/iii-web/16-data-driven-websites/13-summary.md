@@ -114,4 +114,24 @@ A **web server** is a piece of software that performs what task?
 1. [ ] Uploading Images to the Cloud
 1. [ ] Making HTTP Requests and Displaying the Results
 
+# Template
+
+A **template** in a dynamic web page is best described by which statement?
+
+1. [X] HTML with snippets of code that fill in dynamic values
+1. [ ] A default web page used whe the server is first installed
+1. [ ] Software that automatically builds web pages from a database
+1. [ ] Tool to determine if a website is loading properly
+
+# Web Framework
+
+A **web framework** is best described by what statement?
+
+1. [X] Software to help developers build web applications
+1. [ ] Tools that translate web requests into data
+1. [ ] A webpage with blank spaces for data to be inserted
+1. [ ] A method for interfacing with a database
+
+
+
 {{< /quizdown >}}
