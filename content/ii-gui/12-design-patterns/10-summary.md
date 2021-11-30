@@ -25,6 +25,10 @@ Finally, we looked at two **behavioral patterns**:
 
 In the future, we can use these patterns in our code to solve specific problems and hopefully make our program's structure easier for other developers to understand.
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---

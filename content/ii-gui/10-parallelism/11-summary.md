@@ -13,6 +13,10 @@ Then, we saw some quick examples for how to create threads in both Java and Pyth
 
 In the next chapter, we'll introduce **event-driven programming**, which depends on multiple threads to make our GUI responsive to the user even while our application is doing work in the background.
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---

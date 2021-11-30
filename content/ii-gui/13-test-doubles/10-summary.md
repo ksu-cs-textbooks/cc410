@@ -12,6 +12,10 @@ In this chapter, we learned about **test doubles** and how they can use them in 
 
 We also explored how we can use these in our code both Java and Python. Finally, we learned about **dependency injection** and how we can use that technique to place our test doubles directly in our classes. Now, we'll be able to update the unit tests in our ongoing project to help separate the classes being tested from other classes that it depends on.
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---

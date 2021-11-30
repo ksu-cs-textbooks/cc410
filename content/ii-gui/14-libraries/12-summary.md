@@ -12,6 +12,10 @@ Finally, we looked at the Java JAR and Python wheel file formats, and how to ins
 
 In the example project for this chapter, we'll look at how to download and install a custom package for our class project and how to integrate it into our code.
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---

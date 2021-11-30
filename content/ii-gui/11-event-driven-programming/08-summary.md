@@ -12,6 +12,10 @@ The **event loop** is typically run in a separate thread in our program, and we 
 
 In the example project for this chapter, we'll explore how to add some event handlers to our GUIs. 
 
+## Review Quiz
+
+Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.
+
 {{< quizdown >}}
 
 ---
