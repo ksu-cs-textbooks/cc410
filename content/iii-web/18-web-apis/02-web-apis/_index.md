@@ -30,18 +30,18 @@ First, let's look at how to send this message using `curl` - a Linux terminal to
 
 ```bash
 EXCLAMATION_MARK='!'
-curl -X POST https://api.twilio.com/2010-04-01/Accounts/$TWILIO_ACCOUNT_SID/Messages.json \
---data-urlencode "Body=Hi there$EXCLAMATION_MARK" \
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/<TWILIO_ACCOUNT_SID>/Messages.json \
+--data-urlencode "Body=Hi there" \
 --data-urlencode "From=+15017122661" \
 --data-urlencode "To=+15558675310" \
--u $TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN
+-u <TWILIO_ACCOUNT_SID>:<TWILIO_AUTH_TOKEN>
 ```
 
-Even without knowing exactly how `curl` works, we should be able to learn quite a bit about how this API works just by examining this command. First, we can guess that it is using an HTTP POST request, based on the `-X POST` portion of the command. Following that, we see the URL `https://api.twilio.com/2010-04-01/Accounts/$TWILIO_ACCOUNT_SID/Messages.json`, which gives us the **endpoint** for this command. Just like programming APIs include classes and functions that we can call and get return values from through message passing, web APIs have endpoints which we can send requests to and receive responses. In fact, web APIs really reinforce the concept that "message passing" and calling a function are similar. 
+Even without knowing exactly how `curl` works, we should be able to learn quite a bit about how this API works just by examining this command. First, we can guess that it is using an HTTP POST request, based on the `-X POST` portion of the command. Following that, we see the URL `https://api.twilio.com/2010-04-01/Accounts/<TWILIO_ACCOUNT_SID>/Messages.json`, which gives us the **endpoint** for this command. Just like programming APIs include classes and functions that we can call and get return values from through message passing, web APIs have endpoints which we can send requests to and receive responses. In fact, web APIs really reinforce the concept that "message passing" and calling a function are similar. 
 
 Below that, we see three lines of data prefixed by `--data-urlencode`. We can guess that these three lines construct the data that will be sent as the payload of the HTTP POST request. In fact, this data is structured nearly identically to the data that is generated when an HTML form is submitted using a POST request and the `application/x-www-form-urlencoded` encoding method.
 
-Finally, the last portion `-u $TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN` provides the user authentication information for this request. The first part before the colon `:` is the username, and the second part is the password. So, when this information is sent, it will also include a username and password to authenticate the request. That way, Twilio will know exactly which user is sending the request, and it prevents unauthorized users from sending spam text messages through their system.
+Finally, the last portion `-u <TWILIO_ACCOUNT_SID>:<TWILIO_AUTH_TOKEN>` provides the user authentication information for this request. The first part before the colon `:` is the username, and the second part is the password. So, when this information is sent, it will also include a username and password to authenticate the request. That way, Twilio will know exactly which user is sending the request, and it prevents unauthorized users from sending spam text messages through their system.
 
 Finally, notice that many parts of this command are prefixed by a dollar sign `$`. This simply means that those are meant to be variables, so it is up to the developer to replace those variables with the correct values, either by setting them as shown on the first line, or by some other means. 
 
@@ -55,7 +55,7 @@ When we send that request to Twilio, their documentations says we should expect 
 {
   "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
   "api_version": "2010-04-01",
-  "body": "Hi there!",
+  "body": "Hi there",
   "date_created": "Thu, 30 Jul 2015 20:12:31 +0000",
   "date_sent": "Thu, 30 Jul 2015 20:12:33 +0000",
   "date_updated": "Thu, 30 Jul 2015 20:12:33 +0000",

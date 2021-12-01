@@ -132,6 +132,40 @@ A **web framework** is best described by what statement?
 1. [ ] A webpage with blank spaces for data to be inserted
 1. [ ] A method for interfacing with a database
 
+# Request
 
+An **HTTP Request** represents data sent along which pathway?
+
+1. [X] From an HTTP Client to an HTTP Server
+1. [ ] From an HTTP Server to an HTTP Client
+1. [ ] From a Controller to a View Model
+1. [ ] From a View Model to a Controller
+
+# Request
+
+An **HTTP Response** represents data sent along which pathway?
+
+1. [ ] From an HTTP Client to an HTTP Server
+1. [X] From an HTTP Server to an HTTP Client
+1. [ ] From a Controller to a View Model
+1. [ ] From a View Model to a Controller
+
+# Routes
+
+A **route** in a web application is best described by which statement?
+
+1. [X] A mapping from a URL to a function call, along with parameters
+1. [ ] A database table representing a real-world object
+1. [ ] A method for rendering templates in a controller
+1. [ ] A pathway for caching data in an HTTP server
+
+# Constructed Templates
+
+Which concept from object-oriented programming can be used to build **reusable template portions** in a web application?
+
+1. [X] Inheritance
+1. [ ] Encapsulation
+1. [ ] Message Passing
+1. [ ] Polymorphism
 
 {{< /quizdown >}}

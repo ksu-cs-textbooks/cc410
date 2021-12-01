@@ -25,13 +25,49 @@ shuffleAnswers: true
 locale: en
 ---
 
-# Preparation
+# Web APIs
 
-When preparing for a release, what is one reason given for **reviewing and reducing dependencies** of our application?
+A **Web API** is best described by which statement?
 
-1. [X] Fewer dependencies are easier to manage and install
-1. [ ] Dependencies make running om multiple platforms more difficult
-1. [ ] Dependencies can store sensitive information
-1. [ ] More dependencies make the application more attractive to potential users
+1. [X] An interface for accessing and modifying resources stored on a web server
+1. [ ] A method for changing the settings on a web server
+1. [ ] A process for converting URLs into function calls on a web application
+1. [ ] An access pipeline for cached data in a database
+
+# SOAP
+
+The **SOAP** acronym stands for what technology?
+
+1. [X] Simple Object Access Protocol
+1. [ ] Structured Object Address Protocol
+1. [ ] Simplified Outcome Architecture Protocol
+1. [ ] Standard Output Ansible Protocol
+
+# SOAP Communication
+
+The **SOAP** protocol was designed to use which data format to interact with a server?
+
+1. [X] XML
+1. [ ] HTML
+1. [ ] JSON
+1. [ ] CSV
+
+# DL
+
+The "DL" portion of the name **RESTful API DL** is short for what term?
+
+1. [X] Description Language
+1. [ ] Definition Language
+1. [ ] Discussion Language
+1. [ ] Design Language
+
+# Security
+
+The process of confirming a user's identity in a web application is known by what name?
+
+1. [X] Authentication
+1. [ ] Authorization
+1. [ ] Accessibility
+1. [ ] Accountability
 
 {{< /quizdown >}}
