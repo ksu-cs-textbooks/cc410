@@ -65,7 +65,9 @@ The waterfall model is seen as a more traditional model, since it has its roots 
 
 The [Iterative and Incremental Development](https://en.wikipedia.org/wiki/Iterative_and_incremental_development) model builds upon the waterfall model by using the same basic steps, but repeated over and over again. Instead of developing the project all at once, this model focuses on building a small part of the project first, and then slowly adding to it (incremental). That process is repeated multiple times (iterative), until the full project is complete. Through this model, it is much easier to build small prototypes of the software, get feedback, and continually adapt the design and requirements as more information is acquired. 
 
-This model has been used successfully in a variety of contexts, including as part of the Mercury and Space Shuttle programs at NASA.^[https://www.computer.org/csdl/magazine/co/2003/06/r6047/13rRUxBJhpL]
+This model has been used successfully in a variety of contexts, including as part of the Mercury and Space Shuttle programs at NASA.[^5]
+
+[^5]: https://www.computer.org/csdl/magazine/co/2003/06/r6047/13rRUxBJhpL
 
 ### Spiral Model
 
