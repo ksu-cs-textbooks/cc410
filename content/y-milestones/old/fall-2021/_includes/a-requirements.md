@@ -16,7 +16,6 @@
   * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
   * Python: Use pytest. You may choose to use Hamcrest for assertions.
 * **Where specified, code should contain appropriate documentation comments following the language's style guide.**
-  * In any class that should be documented, **every method in that class should have complete documentation comments.**
   * Java: Use javadoc to generate documentation.
   * Python: Use pdoc3 to generate documentation.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).

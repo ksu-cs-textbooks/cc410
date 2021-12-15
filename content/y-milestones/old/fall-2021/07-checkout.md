@@ -9,7 +9,7 @@ This page lists the milestone requirements for **Milestone 7** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more.  
 
 The seventh milestone involves finalizing the GUI for creating combos, and handling the steps to check out and pay for an order, including printing a receipt. The purpose is to continue to learn how to use and modify an existing GUI and interface with an external library. 
 
@@ -25,7 +25,7 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{% include-local "./_includes/a-requirements.md" %}}
 
 {{% /expand %}}
 
@@ -33,61 +33,61 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 It is best to think of this assignment as one consisting of two distinct parts.
 
-#### Part 1 - Update GUI Panels to Handle Combos
+### Part 1 - Update GUI Panels to Handle Combos
 
 Add updated buttons and panels to the GUI to facilitate creation and customization of combos created as part of the previous milestone. It should have the following features:
 
 * Users should be able to directly select one of the pre-built combos included in the previous milestone and add it to the order.
-* Users should be able to create a custom combo consisting of a wrap, side, and/or drink of their choice.
+* Users should be able to create a custom combo consisting of a pizza, sides, and/or drink of their choice.
   * You do not have to enforce the requirement that a combo contains all items to be added to the order. However, the combo should only get the discount if all items are populated. The existing `Combo` class should handle this as defined in the previous milestone.
-* Any wrap, side, or drink in the combo should also be customizable.
-* Some of the code in the `OrderPanel` class will need to be updated to properly handle combos.
-  * Combos should be displayed with the title "Combo" as the topmost element in the tree. 
-  * The name of the combo should be the first child node, if set. If not set, a default name may be used.
-  * If the combo is eligible for the discount, that message should be displayed as the second child node of the combo.(Hint: both of these are present in the instructions list returned from the combo class!)
+* Any pizza, side, or drink in the combo should also be customizable.
+* Some of the code in the `SidebarPanel` class will need to be updated to properly handle combos.
+  * Combos should be displayed with the title "Combo" as the topmost element in the treem. 
+    The name of the combo should be the first child node, if set. If not set, a default name may be used.
+  * If the combo is eligible for the discount, that message should be displayed as the second child node of the combo. 
   * Each item in the combo should be displayed below the combo name and discount message as a child node.
-  * The instructions for each item in the combo should be displayed as child nodes of the appropriate item.
-* In effect, combos will have 3 levels in the tree instead of the usual 2 for other order items.
-*   This means that some of the logic for handling item selection and updates will need to be carefully updated. 
-  * You may choose to simply write special cases for handling combos instead of generalizing or using recursion (the tree will be limited to 3 levels of depth, not including the single hidden root node).
+  * The modifications of each item in the combo should be displayed as child nodes of the appropriate item.
+  * In effect, combos will have 3 levels in the tree instead of the usual 2 for other order items.
+  * This means that some of the logic for handling item selection and updates will need to be carefully updated. 
+    * You may choose to simply write special cases for handling combos instead of generalizing or using recursion (the tree will be limited to 3 levels of depth, not including the single hidden root node).
 * Any new functionality should not interfere with previous functionality. This means:
-  * All individual wraps, sides, and drinks can be added to the order and customized.
+  * All individual pizzas, sides, and drinks can be added to the order and customized.
   * Any items in the order can be selected and edited.
     * If an item is part of a combo, you may choose to load the screen for editing the entire combo instead of the item selected - this is up to you!
 
-###### Hints for Part 1
+##### Hints for Part 1
 
 At the bottom of this page is a GUI sketch of one possible way to build a screen for customizing a combo. It is designed to reuse the existing panels for each menu item. We will refer to this class as `ComboPanel` in this document. In your implementation, you are encouraged to reuse existing code whenever possible - try to stick to the [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle. Some hints for this particular implementation:
 
-* Instead of each panel using the `PrimaryWindow` class/type as its parent, we can abstract that to a `ParentPanel` interface that is implemented by both the `PrimaryWindow` class and `ComboPanel`. This allows the existing order item panels to use the new `ComboPanel` as its parent. 
+* Instead of each panel using the `MainWindow` class/type as its parent, we can abstract that to a `ParentPanel` interface that is implemented by both the `MainWindow` class and `ComboPanel`. This allows the existing order item panels to use the new `ComboPanel` as its parent. 
 * Use combo boxes to allow users to select from existing items to add to the combo. Add a listener/event handler for when the combobox is changed, and use that to change the panel for that item.
 * Include a default option representing "no selection" in the combo boxes to allow users to clear out a particular option. 
 * Recall that the panels for each menu item will call a method in the parent panel when the item is saved. This can be used to retrieve the updated item from the panel when the "Save" button is clicked in the combo customization panel. Here's the basic order of events:
   1. Click "Save" in `ComboPanel`
   2. Fire "save" event in item panel
-  3. Receive item from panel via the panel calling the save method in its parent (which is now `ComboPanel` instead of `PrimaryWindow`)
+  3. Receive item from panel via the panel calling the save method in its parent (which is now `ComboPanel` instead of `MainWindow`)
   4. Update the combo order item
-  5. Call the save method in the `PrimaryWindow` to add the item to the order.
+  5. Call the save method in the `MainWindow` to add the item to the order.
 * You may choose to add additional getters to the classes in the `data` package as desired.
 * In Python, you may have a circular reference in your `PanelFactory` since it could be used from within `ComboPanel`, but also will be used to create instances of `ComboPanel`. A way to resolve this would be to create a `ComboPanelFactory` to handle combos, and adapt the code where `PanelFactory` is used to direct combo instances to the new `ComboPanelFactory` instead.
 
-###### Documentation Comments
+##### Documentation Comments
 
-All new and updated classes in this milestone should contain full documentation comments. **All methods must be fully documented!**
+All new and updated classes in this milestone should contain full documentation comments. 
 
-###### Unit Tests
+##### Unit Tests
 
 Your new GUI panel(s) should include some basic **unit tests** modeled after the tests used for the item panels. Specifically, you should test the following:
 
-* Selecting a particular wrap, side, or drink in the appropriate GUI element causes a panel of the correct type to be loaded.
-* Receiving a combo as input containing a particular wrap, side, or drink causes the panel of the correct type to be loaded.
-* Selecting a particular wrap, side, or drink to be included in the combo via the GUI causes an item of that type to be added to the resulting `Combo` object when it is saved.
+* Selecting a particular pizza, side, or drink in the appropriate GUI element causes a panel of the correct type to be loaded.
+* Receiving a combo as input containing a particular pizza, side, or drink causes the panel of the correct type to be loaded.
+* Selecting a particular pizza, side, or drink to be included in the combo via the GUI causes an item of that type to be added to the resulting `Combo` object when it is saved.
 * Selecting the "no selection" option will remove that item from an existing `Combo` object when it is saved.
 * Cancelling will result in no changes being made to the `Combo` object.
 
 You should use test doubles (stubs, fakes, or mocks) in these unit tests to mimic the other parts of the application, including the order items and associated panels. The goal is to only test the new GUI panel(s) in isolation. This may not be possible in Python due to issues with mocking classes from `tkinter`.
 
-#### Part 2 - Checkout
+### Part 2 - Checkout
 
 Implement the functionality for a user to checkout and complete an order. This process will make use of an external library to handle credit cards, cash transactions, and printing a receipt. First, you'll need to install the `register` library into your application:
 
@@ -140,7 +140,7 @@ When the user chooses to pay by cash, the application should show a window where
 
 The GUI should include a "Cancel" button that can be used at any time to cancel the cash transaction and return back to the main GUI screen without changing the existing order.
 
-The `CashDrawer` class in the external library is used to keep track of the available amount of each denomination in the drawer and to balance transactions. Each transaction begins by opening the drawer and providing the expected amount to be deposited. Then, while the drawer is open, cash denominations are added to the drawer from the customer and any change given back is deducted from the drawer. When the drawer is closed, the amount it contains must equal the previous amount plus the expected transaction amount. In addition, the total value in the drawer and the count of each denomination in the drawer may only be accessed when the drawer is closed. 
+The `CashDrawer` class in the external library is used to keep track of the available amount of each denomination in the drawer and to balance transactions. Each transaction begins by opening the drawer and providing the expected amount to be deposited. Then, while the drawer is open, cash denominations are added to the drawer from the customer and any change given back is deducted from the drawer. When the drawer is closed, the amount it contains must equal the previous amount plus the expected transaction amount. In addition, the total value in the drawer and the count of each denomination in the drawer may be accessed when the drawer is closed. 
 
 {{% notice warning %}}
 
@@ -183,13 +183,13 @@ The receipt should include the following information:
 * The payment method (credit/debit or cash)
 * If paid by cash, the amount received and the change given.
 
-The receipt can only be printed one line at a time using the appropriate method in the `ReceiptPrinter` class, and each line is limited to **no more than 40 characters**. You are encouraged to make use of simple formatting, ASCII art, and short indentations to make the receipt more readable. There are methods provided in the `ReceiptPrinter` class to start and end a receipt.
+The receipt can only be printed one line at a time using the appropriate method in the `ReceiptPrinter` class, and each line is limited to **no more than 40 characters**. You are encouraged to make use of simple formatting, ASCII art, and short indentions to make the receipt more readable. There are methods provided in the `ReceiptPrinter` class to start and end a receipt.
 
 The `ReceiptPrinter` class will print the receipt to a file named `receipt.txt` in the project folder. By default, the `ReceiptPrinter` will append new receipts to the end of that file. You may wish to empty this file regularly as part of testing, and should not commit it to GitHub. 
 
 ##### Documentation Comments
 
-All new and updated classes in this milestone should contain full documentation comments. **All methods must be fully documented!**
+All new and updated classes in this milestone should contain full documentation comments. 
 
 ##### Unit Tests
 
@@ -235,7 +235,7 @@ _A rough estimate for this milestone would be around 1500-2000 lines of new or u
 This assignment will be graded based on the rubric below:
 
 * Part 1 - 50%
-  * Combo Buttons on Menu Panel - 5%
+  * Combo Buttons on Order Panel - 5%
   * Combo Interface for selecting/editing items - 25%
   * Sidebar Handles Combos - 10%
   * Unit Tests - 10%
@@ -274,4 +274,4 @@ Note that the window above only has a single side option, but the combo for this
 
 You may wish to review the [Spinner](https://docs.oracle.com/javase/tutorial/uiswing/components/spinner.html) (Java) or [Spinbox](https://tkdocs.com/tutorial/morewidgets.html#spinbox) (Python) GUI elements.
 
-![Cash Window](/cc410/images/m7/410_m7_gui_cash.svg)
+![Cash Window](/cc410//images/m7/410_m7_gui_cash.svg)

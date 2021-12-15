@@ -9,7 +9,7 @@ This page lists the milestone requirements for **Milestone 8** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more.
 
 The eighth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.
 
@@ -17,7 +17,7 @@ The eighth milestone involves moving into the web by creating a data-driven webs
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{% include-local "./_includes/a-requirements.md" %}}
 
 {{% /expand %}}
 
@@ -40,11 +40,11 @@ Add a Web Framework to the existing project.
 
 ###### Web Code
 
-* Create a new `thatsawrap.web` package.
-* Create a `thatsawrap.web.MenuController` class to act as the controller. It should include the following routes:
+* Create a new `heropizza.web` package.
+* Create a `heropizza.web.MenuController` class to act as the controller. It should include the following routes:
   * `/` - a home page for the application.
-  * `/about` - an about page with the text given at the bottom of the page. You may add additional text and items as desired
-  * `/menu` - a page that includes the entire menu (all predefined combos, wraps, sides, and drinks). 
+  * `/info` - an info page with the text given at the bottom of the page. You may add additional text and items as desired
+  * `/order` - a page that includes the entire menu (all predefined combos, pizzas, sides, and drinks). 
     * It should use the existing `Menu` class to collect these items. 
     * You may add additional methods (with requisite unit tests) to the `Menu` class as desired to make this work.
 * Update the required files to launch the web application properly as shown in the example video.
@@ -54,27 +54,27 @@ Add a Web Framework to the existing project.
 Create a base layout file including the following:
 
 * Valid HTML5 structure
-* A &lt;title&gt; element including the page name, followed by ` - That's a Wrap`
+* A &lt;title&gt; element including the page name, followed by ` - Hero Pizza`
 * A &lt;body&gt; containing:
   * &lt;nav&gt; that contains links to all pages in the application
   * &lt;main&gt; containing all the content in the page
-  * &lt;footer&gt; containing the following copyright notice: "&copy; 2021 That's a Wrap"
+  * &lt;footer&gt; containing the following copyright notice: "&copy; 2021 Hero Pizzas"
 * It is recommended (but not required) to build upon an existing template. You may wish to review the [Bootstrap 4.6 Examples](https://getbootstrap.com/docs/4.6/examples/). 
 
 Create the following template files to match the routes listed above:
 
 * `index.html` contains an &lt;h1&gt; tag with the title "Homepage" and the following text in a paragraph (you may add additional text as desired):
 
-> Welcome to That's a Wrap! Our motto: be a star - wrap things your way!
+> Welcome to Hero Pizza! Our motto: eat like a hero - choose pizza!
 
-* `about.html` contains an &lt;h1&gt; tag with the title "About That's a Wrap" and the following text in a paragraph (you may add additional text as desired):
+* `info.html` contains an &lt;h1&gt; tag with the title "About Hero Pizza" and the following text in a paragraph (you may add additional text as desired):
 
-> That's a Wrap was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
+> Hero Pizza was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
 
-* `menu.html` contains the following content:
+* `order.html` contains the following content:
   * an &lt;h1&gt; containing "Menu"
-  * an &lt;h2&gt; for each of the four categories of menu items (wrap, side, drink, combo)
-  * Each menu item should be placed in a &lt;div&gt; with the class `menu-item`. It should include:
+  * an &lt;h2&gt; for each of the four categories of menu items (pizza, side, drink, combo)
+  * Each menu item should be placed in a &lt;div&gt; with the class `food-item`. It should include:
     * The name of the item
     * The price of the item
     * The calories of the item
@@ -82,19 +82,13 @@ Create the following template files to match the routes listed above:
     * _If the item is a combo, you may also include the contents of the combo!_
   * You may use additional HTML elements & CSS style to improve the readability of this page as you see fit! As with the GUI project, this is your chance to explore a bit. 
     * The model solution uses the [Card](https://getbootstrap.com/docs/4.6/components/card/) component and [Row Columns](https://getbootstrap.com/docs/4.6/layout/grid/#row-columns) in Bootstrap 4.6. 
-  * Under the "Combo" heading, add a note that any wrap, sides, and drink may be combined for a combo discount, and print the current combo discount value as well. (_Hint: you'll have to send this through the controller to the template somehow..._)
+  * Under the "Combo" heading, add a note that any pizza, 2 sides, and drink may be combined for a combo discount, and print the current combo discount value as well. (_Hint: you'll have to send this through the controller to the template somehow..._)
 
 {{% notice tip %}}
 
 You can format currency values directly in your templates! See [Formatting Currencies in Spring using Thymeleaf](https://www.baeldung.com/spring-thymeleaf-currencies) for Java or using the familiar Python [String.format()](https://realpython.com/python-formatted-output/) function as demonstrated in this [StackOverflow](https://stackoverflow.com/a/31158813) comment.
 
 {{% /notice %}}
-
-###### Documentation & Testing
-
-* All new classes and methods must include full documentation comments.
-* HTML templates do not require documentation, but inline comments are recommended if they are useful.
-* No new unit tests are required. 
 
 ## Time Requirements
 
@@ -112,26 +106,19 @@ This assignment will be graded based on the rubric below:
 
 * Web Framework Installation: 10%
 * Web Code: 30%
-  * Index & About Routes: 10%
-  * Menu Route: 20%
+  * Index & Info Routes: 10%
+  * Order Route: 20%
 * Templates: 60%
   * Layout Template: 20%
-  * Index & About Templates: 10%
-  * Menu Template: 30%
+  * Index & Info Templates: 10%
+  * Order Template: 30%
 
 The following deductions apply:
 
 * Any portion of the project which will not compile (Java), pass a strict type check (Python), or execute properly will be given a grade of 0.
-* Any portion of the project which does not meet the general requirements listed above will have a commensurate amount of points deducted.
 * Points will be deducted if pages do not contain valid HTML5 with all tags properly closed. 
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
-
-{{% notice note note-31 "Code Review" %}}
-
-_As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. For any GUI and Web portions, I'll also be testing the functionality of the UI for each class under review. - Russ_
-
-{{% /notice %}}
 
 ## Submission
 

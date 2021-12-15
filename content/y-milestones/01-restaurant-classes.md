@@ -9,7 +9,7 @@ This page lists the milestone requirements for **Milestone 1** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
 
 This first milestone involves building the classes that represent items on the restaurant's menu. In a traditional [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) software design pattern, these classes would make up the core of the **model**. This content should be mostly review of concepts learned in prior CC courses with the addition of enumerations (enums). It should not be particularly difficult, but it may be repetitive and time consuming. 
 
@@ -75,16 +75,16 @@ It is easier to get this correct from the start, then having to refactor your co
 
 This milestone should include the following features:
 
-* Pizza classes - 7
-  * Declared in the `heropizza.data.pizzas` package
-* Side classes - 4
-  * Declared in the `heropizza.data.sides` package
-* Drink classes - 5
-  * Declared in the `heropizza.data.drinks` package
+* Wrap classes - 5
+  * Declared in the `thatsawrap.data.wraps` package
+* Side classes - 3
+  * Declared in the `thatsawrap.data.sides` package
+* Drink classes - 3
+  * Declared in the `thatsawrap.data.drinks` package
 * Enumeration classes - 3
-  * Declared in the `heropizza.data.enums` package
+  * Declared in the `thatsawrap.data.enums` package
 
-See the [Hero Pizza Menu](#hero-pizza-menu) section below for descriptions of what each class should contain.
+See the [That's a Wrap Menu](#thats-a-wrap-menu) section below for descriptions of what each class should contain.
 
 **Python** - these files should include complete type annotations and achieve a low imprecision percentage in Mypy using strict type checking.
 
@@ -100,7 +100,7 @@ Completing this project is estimated to require 3-8 hours.
 
 {{% notice note tip-2 "Expected Scope" %}}
 
-_In my testing, this milestone requires around 1000-1500 lines of pure code without documentation, or around 2000-2500 lines including documentation comments that will be included as part of milestone 2. Much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to do the enumerations first, then pick one of the complex pizzas and start there. Once you have the pizzas all working, the sides and drinks are pretty easy and use much of the same structure. -Russ_
+_In my testing, this milestone requires around 1000-1500 lines of pure code without documentation, or around 2000-2500 lines including documentation comments that will be included as part of milestone 2. Much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to do the enumerations first, then pick one of the complex wraps and start there. Once you have the wraps all working, the sides and drinks are pretty easy and use much of the same structure. -Russ_
 
 {{% /notice %}}
 
@@ -108,7 +108,7 @@ _In my testing, this milestone requires around 1000-1500 lines of pure code with
 
 This assignment will be graded based on the rubric below:
 
-* Pizza classes - 40%
+* Wrap classes - 40%
 * Side classes - 20%
 * Drink classes - 30%
 * Enumeration classes - 10%
@@ -116,8 +116,15 @@ This assignment will be graded based on the rubric below:
 The following deductions apply:
 
 * Any portion of the project which will not compile (Java), pass a strict type check (Python), or execute properly will be given a grade of 0.
+* Any portion of the project which does not meet the general requirements listed above will have a commensurate amount of points deducted.
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
+
+{{% notice note note-31 "Code Review" %}}
+
+_As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. - Russ_
+
+{{% /notice %}}
 
 ## Submission
 
@@ -127,9 +134,9 @@ Submit this assignment by creating a release on GitHub and uploading the release
 ---
 ---
 
-## Hero Pizza Menu
+## That's a Wrap Menu
 
-_our motto: eat like a hero - choose pizza!_
+_our motto: be a star - wrap things your way!_
 
 Each attribute described below should be implemented as a private variable within the class. Most attributes will also include a **getter** method, and sometimes a **setter** method, following this naming scheme (using **Price** as an example): 
   * **Java** - The private `price` attribute would have a `getPrice` getter and `setPrice` setter method.
@@ -137,18 +144,18 @@ Each attribute described below should be implemented as a private variable withi
 
 ---
 
-### Pizzas
+### Wraps
 
-Each pizza should be stored in an appropriately named class in the `heropizza.data.pizzas` package. Each pizza should include an attribute for the following data:
-  * **Crust** - a `Crust` value (see below). It should have a **getter** and **setter** method.
-  * **Veggies** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#set) of `Veggie` values (see below). 
+Each wrap should be stored in an appropriately named class in the `thatsawrap.data.wraps` package. Each pizza should include an attribute for the following data:
+  * **Shell** - a `Shell` value (see below). It should have a **getter** and **setter** method.
+  * **Addins** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#set) of `Addin` values (see below). 
     * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
-    * This attribute should also have methods for **Add Veggie** and **Remove Veggie** to modify the list of condiments. 
+    * This attribute should also have methods for **Add Addin** and **Remove Addin** to modify the list of condiments. 
 
-In addition, each entrée should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
-  * **Price** - a Java `double` or Python `float` value representing the base price of the item plus any upcharge associated with the chosen **Crust** value. 
+In addition, each wrap should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
+  * **Price** - a Java `double` or Python `float` value representing the base price of the item plus any upcharge associated with the chosen **Shell** value. 
   * **Calories** - an `int` value representing the number of calories associated with the item.
-  * **Modifications** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
+  * **Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
     * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
 {{% notice warning %}}
@@ -157,171 +164,147 @@ Unfortunately, the Java `clone()` methods can cause an unchecked cast exception 
 
 {{% /notice %}}
 
-Each pizza class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the pizza. The string should be formatted as "{pizza name} on {crust} Crust", such as "The Mikey on Thin Crust".
+Each wrap class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the wrap. The string should be formatted as "{wrap name} in a {shell} Shell", such as "The Godfather in a Stromboli Shell".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal **only if the values of all attributes** are equal. 
 
-Each pizza description will include a list of toppings included on the pizza. Those toppings should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {topping}" message, such as "Hold Ham", to be added to the **Modifications** list. Likewise, changing it back to `true` will remove the appropriate message. If all toppings are at their default values, the **Modifications** list should be empty. 
+Each wrap description will include a list of ingredients included on the wrap. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {ingredient}" message, such as "Hold Pepperoni", to be added to the **Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Instructions** list should be empty. 
 
-Each pizza will be served on **Thin Crust** by default, and will include a default set of **Veggies**. Those attributes should be populated appropriately in the constructor for the pizza. Changes to the **Crust** and **Veggies** attributes will not affect the **Modifications** attribute at this time (we'll add that later). 
+Each wrap will be served in a particular **Default Shell**, and will include a default set of **Addins**. Those attributes should be populated appropriately in the constructor for the pizza. Changes to the **Shell** and **Addins** attributes will not affect the **Instructions** attribute at this time (we'll add that later). 
 
-The number of **Calories** for a pizza will remain constant, regardless of other attributes (we'll just pretend that changing the pizza doesn't change the number of calories).
+The number of **Calories** for a wrap will remain constant, regardless of other attributes (we'll just pretend that changing the wrap doesn't change the number of calories).
 
-The **Price** for a pizza will change based on the value selected for the **Crust**. Each pizza will have a base price listed for the **Thin** crust option. Other crusts include an associated upcharge, which must be added to the base price.
+The **Price** for a wrap will change based on the value selected for the **Shell**. Each wrap will have a base price listed for the **Default Shell** option. Other shells include an associated upcharge or discount, which must be adjusted.
 
-##### The Mikey (Ham, Cheese & Pineapple)
+{{% notice tip tip-3 "Shell Prices" %}}
 
-_just like the turtle himself, this sandwich "hams" it up and is super "cheesy"_
+This means that the prices shown on the menu already include the upcharge for the given default shell. You may want to calculate and store a base price for the item by removing the upcharge from the menu price. 
 
-`heropizza.data.pizzas.TheMikey` - The price is **$8.25** and it is **986** calories. Toppings: **Ham** and **Cheese**. Veggies: **Pineapple**. 
+{{% /notice %}}
 
-##### The Jean Grey (Pork)
+##### The Godfather (Italian Stromboli)
 
-_a simple pizza for a complex hero_
+_this wrap will make your taste buds an offer they can't refuse_
 
-`heropizza.data.pizzas.TheJeanGrey` - The price is **$10.25** and it is **850** calories. Toppings: **Pork** and **Cheese**. Veggies: **Mushrooms**, **Red Onions**, **Black Olives**, **Green Peppers**, **Banana Peppers** and **Roma Tomatoes**
+`thatsawrap.data.wraps.Godfather` - The price is **$9.65** and it is **1268** calories. Served in a **Stromboli Shell**. Ingredients: **Pepperoni**, **Sausage**, **Marinara** and **Cheese**. Addins: **Peppers** and **Onions**. 
 
-##### The Wolverine (Meat)
+##### The Wizard of Oz (Spinach Greens)
 
-_all the meat for a carnivorous feast_
+_an emerald city of flavors - truly a wrap of a different color_
 
-`heropizza.data.pizzas.TheWolverine` - The price is **$9.35** and it is **950** calories. Toppings: **Sausage**, **Bacon**, **Ham** and **Pork**. Veggies: **Red Onions** and **Green Peppers**.
+`thatsawrap.data.wraps.Wizard` - The price is **$10.35** and it is **1085** calories. Served in a **Spinach Shell**. Ingredients: **Chicken**, **Spinach**, **Cheese**. Addins: **Tomatoes** and **Dressing**. 
 
-##### The She-Ra (Pepperoni)
+##### Some Like It Hot (Buffalo Chicken)
 
-_everyone "adora"s this classic_
+_a hot and spicy classic_
 
-`heropizza.data.pizzas.TheSheRa` - The price is **$8.75** and it is **1325** calories. Toppings: **Pepperoni** and **Cheese**. Veggies: none. 
+`thatsawrap.data.wraps.SomeLike` - The price is **$11.45** and it is **1370** calories. Served in a **Whole Grain Shell**. Ingredients: **Chicken**, **Cheese**. Addins: **Onions**, **Peppers** and **Buffalo Sauce**. 
 
-##### The Jem (BBQ Chicken)
+##### West Side Story (Corned Beef)
 
-_a star studded treat that isn't a hologram_
+_a specialty from the city so nice they named it twice_
 
-`heropizza.data.pizzas.TheJem` - The price is **$9.65** and it is **1075** calories. Toppings: **Chicken**, **BBQ Sauce** and **Bacon**. Veggies: **Red Onions**
+`thatsawrap.data.wraps.WestSide` - The price is **$8.75** and it is **1240** calories. Served in a **Whole Grain Shell**. Ingredients: **Corned Beef**, **Cabbage** and **Cheese**. Addins: **Onions**, **Pickles** and **Mustard**. 
 
-##### The He-Man (Nearly Everything)
+##### Spartacus (Everything)
 
-_a pizza for a heroic appetite_
+_a massive wrap that can feed even the hungriest warrior_
 
-`heropizza.data.pizzas.TheHeMan` - The price is **$18.95** and it is **1986** calories. Toppings: **Ham**, **Sausage**, **Pepperoni**, **Bacon**, **Pork**, and **Cheese**. Veggies: **Mushrooms**, **Red Onions**, **Black Olives**, **Green Peppers**, **Banana Peppers** and **Jalapeno Peppers**
-
-##### The Captain Planet (Vegetarian)
-
-_by your powers combined_
-
-`heropizza.data.pizzas.TheCaptainPlanet` - The price is **$6.50** and it is **745** calories. Toppings: **Cheese**. Veggies: **Mushrooms**, **Red Onions**, **Black Olives**, **Green Peppers**, **Banana Peppers**, **Jalapeno Peppers**, **Pineapple** and **Roma Tomatoes**
+`thatsawrap.data.wraps.Spartacus` - The price is **$16.55** and it is **1874** calories. Served in a **Spinach Shell**. Ingredients: **Pepperoni**, **Sausage**, **Chicken**, **Corned Beef** and **Cheese**. Addins: **Peppers**, **Tomatoes**, **Onions**, **Pickles**, **Buffalo Sauce** and **Dressing**.
 
 ---
 
 ### Sides
 
-Each side should be stored in an appropriately named class in the `heropizza.data.sides` package. Each side should include an attribute for the following data:
+Each side should be stored in an appropriately named class in the `thatsawrap.data.sides` package. Each side should include an attribute for the following data:
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
 
 In addition, each side should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
   * **Price** - a Java `double` or Python `float` value. 
   * **Calories** - an `int` value.
 
-Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Small Snarf Sticks".
+Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Indie Yankee Doodle Dandy".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
-Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. 
+Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Indie`. 
 
-##### Snarf Sticks (Breadsticks)
+##### Yankee Doodle Dandy (Mac & Cheese)
 
-_soft breadsticks with a chewy bite_
+_stuck a feather in his cap and called it macaroni_
 
-`heropizza.data.sides.SnarfSticks` - Small: **$1.95** and **275** calories. Medium: **$3.25** and **450** calories. Hero: **$5.50** and **750 ** calories. 
+`thatsawrap.data.sides.Yankee` - Indie: **$2.25** and **400** calories. Studio: **$3.65** and **650** calories. Blockbuster: **$6.25** and **875** calories. 
 
-##### Sailor Moon (Meatballs)
+##### The French Connection (Fries)
 
-_meatballs inspired by a famous hairdo_
+_fried potatoes good enough to keep for yourself_
 
-`heropizza.data.sides.SailorMoon` - Small: **$2.35** and **300** calories. Medium: **$4.85** and **550** calories. Hero: **$7.95** and **960** calories. 
+`thatsawrap.data.sides.French` - Indie: **$2.75** and **550** calories. Studio: **$4.85** and **700** calories. Blockbuster: **$5.25** and **950** calories. 
 
-##### Mjolnir (Mozzarella Sticks)
+##### Snow White (Apple Slices)
 
-_do you have what it takes to wield Thor's hammer?_
+_guaranteed not to be poisoned or your money back_
 
-`heropizza.data.sides.Mjolnir` - Small: **$2.95** and **425** calories. Medium: **$4.65** and **595** calories. Hero: **$6.95** and **840** calories. 
-
-##### Batwings (Chicken Wings)
-
-_Batman's trusty snack_
-
-`heropizza.data.sides.Batwings` - Small: **$3.25** and **525** calories. Medium: **$5.25** and **765** calories. Hero: **$6.55** and **905** calories. 
+`thatsawrap.data.sides.SnowWhite` - Indie: **$1.50** and **225** calories. Studio: **$2.25** and **350** calories. Blockbuster: **$3.00** and **475** calories. 
 
 ---
 
 ### Drinks
 
-Each drink should be stored in an appropriately named class in the `heropizza.data.drinks` package. Each drink should include an attribute for the following data:
+Each drink should be stored in an appropriately named class in the `thatsawrap.data.drinks` package. Each drink should include an attribute for the following data:
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
 
 In addition, each drink should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
   * **Price** - a Java `double` or Python `float` value. 
   * **Calories** - an `int` value. It should have a **getter** method.
-  * **Modifications** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
+  * **Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
     * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
 
-Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Small Katara".
+Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Indie Forrest Gump".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
-Each drink description may include a list of flavors that may be added. Those flavors should be represented using Boolean attributes that are set to `false` by default, with appropriate **getter** and **setter** methods. Changing any of these to `true` will cause a "Add {flavor}" message, such as "Add Cherry", to be added to the **Modifications** list. Likewise, changing it back to `false` will remove the appropriate message.
+Each drink description may include a list of flavors that may be added. Those flavors should be represented using Boolean attributes that are set to `false` by default, with appropriate **getter** and **setter** methods. Changing any of these to `true` will cause a "Add {flavor}" message, such as "Add Cherry", to be added to the **Instructions** list. Likewise, changing it back to `false` will remove the appropriate message.
 
-In addition, drinks may specify default flavors that should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {flavor}" message, such as "Hold Coconut", to be added to the **Modifications** list. Likewise, changing it back to `true` will remove the appropriate message. 
+In addition, drinks may specify default flavors that should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {flavor}" message, such as "Hold Coconut", to be added to the **Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. 
 
-If all flavors are at their default values, the **Modifications** list should be empty. 
+If all flavors are at their default values, the **Instructions** list should be empty. 
 
-Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. Changes to the **Size** attribute will not affect the **Modification** attribute. 
+Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Indie`. Changes to the **Size** attribute will not affect the **Instructions** attribute. 
 
-##### Starfire (Cherry Soda)
+##### Forrest Gump (Chocolate Shake)
 
-_a titan of a drink_
+_you never know what you are going to get_
 
-`heropizza.data.drinks.Starfire` - Flavors: **Cherry** (default), **Vanilla**, **Orange** and **Grape**. Small: **$1.40** and **170** calories. Medium: **$3.75** and **255** calories. Hero: **$4.75** and **375** calories. 
+`thatsawrap.data.drinks.Forrest` - Flavors: **Chocolate** (default), **Vanilla**, **Caramel** and **Coffee**. Indie: **$5.25** and **980** calories. Studio: **$7.50** and **1365** calories. Blockbuster: **$9.00** and **1875** calories. 
 
-##### Groot (Root Beer)
+##### Singin' in the Rain (Soda Fountain)
 
-_a tasty drink made from strong roots_
+_comes with a little umbrella, but you have to provide the song_
 
-`heropizza.data.drinks.Groot` - Flavors: **Caramel**, **Cinnamon**, and **Anise**. Small: **$3.55** and **320** calories. Medium: **$4.45** and **435** calories. Hero: **$5.05** and **540** calories.
+`thatsawrap.data.drinks.Singin` - Flavors: **Cherry** (default), **Strawberry**, **Cola** and **Grape**. Indie: **$2.75** and **360** calories. Studio: **$3.25** and **400** calories. Blockbuster: **$4.00** and **550** calories. 
 
-##### Samurai Jack (Smoothie)
+##### King Kong (Banana Smoothie)
 
-_a smooth drink to sooth a warrior's spirit_
+_you'll go bananas for this delicious drink_
 
-`heropizza.data.drinks.SamuraiJack` - Flavors: **Jackfruit** (default), **Banana**, **Mango** and **Strawberry**. Small: **$4.25** and **650** calories. Medium: **$6.75** and **825** calories. Hero: **$9.55** and **1115** calories.
-
-##### Bubbles (Boba Tea)
-
-_a "powerpuff" of a drink with sugar and spice_
-
-`heropizza.data.drinks.Bubbles` - Flavors: **Lychee**, **Passion Fruit**, and **Matcha**. Small: **$3.40** and **350** calories. Medium: **$4.45** and **425** calories. Hero: **$5.65** and **695** calories. 
-
-##### Katara (Water)
-
-_a simple water drink for an extraordinary water bender_
-
-`heropizza.data.drinks.Katara` - Flavors: **Lemon** and **Coconut**. All sizes are **$1.00** and **0** calories. 
+`thatsawrap.data.drinks.KingKong` - Flavors: **Banana** (default), **Strawberry**, **Peach** and **Mango**. Indie: **$4.85** and **465** calories. Studio: **$5.95** and **625** calories. Blockbuster: **$7.45** and **860** calories. 
 
 ---
 
 ### Enumerations
 
-Each enumeration should be stored in an appropriately named class in the `heropizza.data.enums` package. Each enumeration class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the item. Python developers may also wish to override the `__repr__()` method to return this value as well.
+Each enumeration should be stored in an appropriately named class in the `thatsawrap.data.enums` package. Each enumeration class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the item. Python developers may also wish to override the `__repr__()` method to return this value as well.
 
-##### Crust
+##### Shell
 
-_a solid base for a trustworthy pizza slice_
+_an excellent setting for a delicious meal_
 
-`heropizza.data.enums.Crust` - **Thin**, **Hand Tossed** (add $0.50), **Deep Dish** (add $1.00), **Cheese Stuffed** (add $2.00)
+`thatsawrap.data.enums.Shell` - **Whole Grain** (add $0.75), **Spinach** (add $1.00) or **Stromboli** (add $1.50)
 
 {{% notice tip tip-3 "Enums with Data" %}}
 
-It is possible to create an enumeration that also stores additional data associated with each value, and then access that data through the enum value. You may be able to use this to simplify handling the upcharge for each crust type. Below are links to some sample code from later in this course that shows how to create such an enum and use that data.
+It is possible to create an enumeration that also stores additional data associated with each value, and then access that data through the enum value. You may be able to use this to simplify handling the upcharge for each shell. Below are links to some sample code from later in this course that shows how to create such an enum and use that data.
 
 **Java**: [Enum](https://github.com/K-State-Computational-Core/restaurantregister-java/blob/main/app/src/main/java/edu/ksu/cs/cc410/register/CashDenomination.java) [Usage](https://github.com/K-State-Computational-Core/restaurantregister-java/blob/main/app/src/main/java/edu/ksu/cs/cc410/register/CashDrawer.java#L69)  
 **Python**: [Enum](https://github.com/K-State-Computational-Core/restaurantregister-python/blob/main/cc410/register/CashDenomination.py) [Usage](https://github.com/K-State-Computational-Core/restaurantregister-python/blob/main/cc410/register/CashDrawer.py#L61)
@@ -330,15 +313,15 @@ It is possible to create an enumeration that also stores additional data associa
 
 ##### Size
 
-_options to fit any heroic appetite_
+_options to fit any budget_
 
-`heropizza.data.enums.Size` - **Small**, **Medium**, **Hero**
+`thatsawrap.data.enums.Size` - **Indie** (Small), **Studio** (Medium), **Blockbuster** (Large)
 
-##### Veggies
+##### Addins
 
-_an important part of a balanced meal_
+_the extras aren't just in the background_
 
-`heropizza.data.enums.Veggie` - **Mushrooms**, **Red Onions**, **Black Olives**, **Green Peppers**, **Banana Peppers**, **Jalapeno Peppers**, **Pineapple**, **Roma Tomatoes** 
+`thatsawrap.data.enums.Addins` - **Peppers**, **Onions**, **Tomatoes**, **Pickles**, **Dressing**, **Buffalo Sauce**, **Mustard** 
 
 ---
 

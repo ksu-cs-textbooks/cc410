@@ -9,7 +9,7 @@ This page lists the milestone requirements for **Milestone 4** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more. 
 
 The fourth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.
 
@@ -17,7 +17,7 @@ The fourth milestone involves creating the various GUI windows and panels requir
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{% include-local "./_includes/a-requirements.md" %}}
 
 {{% /expand %}}
 
@@ -25,55 +25,39 @@ The fourth milestone involves creating the various GUI windows and panels requir
 
 This milestone should include the following features:
 
-###### New Packages
-
-* A `thatsawrap.gui` package to store all GUI code.
-* A `thatsawrap.gui.wraps` package to store all GUI panels for wraps.
-* A `thatsawrap.gui.sides` package to store all GUI panels for sides.
-* A `thatsawrap.gui.drinks` package to store all GUI panels for drinks.
-
-###### Main GUI Classes 
-
-* A `thatsawrap.Main` class that properly loads and displays the program's GUI.
-* A `thatsawrap.gui.PrimaryWindow` class that represents the main GUI window.
+* A `heropizza.Main` class that properly loads and displays the program's GUI.
+* A `heropizza.gui.MainWindow` class that represents the main GUI window.
   * It should contain two panels - a **main panel** and a **sidebar panel**.
   * It should also contain **two methods**: one to load a particular panel into the main panel, and another to load the order screen into the main panel.
-* A `thatsawrap.gui.MenuPanel` class to represent the main ordering screen panel.
-  * It should contain **three panels of buttons**, one each for wraps, sides, and drinks. They may be automatically generated from the menu.
-  * Each wrap will be listed **once**, but each side and drink will have **three buttons** - one for each size.
-  * When clicked, those buttons should call a method to load the appropriate panel into the main panel to allow customization of the menu item. 
-* A `thatsawrap.gui.OrderPanel` class to represent the sidebar panel containing a user's order.
+* A `heropizza.gui.OrderPanel` class to represent the main order screen panel.
+  * It should contain **three panels of buttons**, one each for pizzas, sides, and desserts. They may be automatically generated from the menu.
+  * Each pizza will be listed **once**, but each side and drink will have **three buttons** - one for each size.
+  * When clicked, those buttons should call a method to load the appropriate panel in to the main panel. 
+* A `heropizza.gui.SidebarPanel` class to represent the sidebar panel.
   * It should contain labels for **order number, subtotal, tax, and total**. 
   * It should contain an **Edit** button that does nothing when clicked.
   * It should also include a **list box** as a placeholder that can be used to keep track of the order. The list box should expand to **fill all remaining vertical space** in the window.
-
-###### Menu Item Panels
-
-* A panel class in the `thatsawrap.gui.wraps` package for each wrap.
-  * It should include appropriate controls for modifying the **ingredients, shell, and addins**.
-  * _You may want to include a parent `WrapPanel` class to reduce the amount of duplicate code._
-* A **SINGLE** panel class `SidePanel` in the `thatsawrap.gui.sides` package.
-  * It should include appropriate controls for modifying the **size** of the item.
-  * _Since each side only has a single option, this panel will be generalized to work with the parent `Side` class instead of individual sides themselves. When the buttons on the menu are clicked, you'll need to make sure an instance of the correct menu item is created._
-* A panel class in the `thatsawrap.gui.drinks` package for each drink item.
-  * It should include appropriate controls for modifying the **ingredients and size**.
-  * _You may with include a parent `DrinkPanel` class to reduce the amount of duplicate code._
-
-Each of the menu item panels should also implement the following functionality:
+* A panel class in the `heropizza.gui.pizzas` package for each pizza.
+  * It should include appropriate controls for modifying the **ingredients, crust, and toppings**.
   * **When given an instance of the item** as a parameter to the constructor, the values of the controls should be **set to match the values** in the instance.
   * It should include a **Save** button that, when clicked, will replace the main panel with the order screen. We will handle actually saving the item in a future milestone.
+  * _You may include a parent `PizzaPanel` class to reduce the amount of duplicate code._
+* A **SINGLE** panel class `SidePanel` in the `heropizza.gui.sides` package.
+  * It should include appropriate controls for modifying the **size** of the item.
+  * **When given an instance of the item** as a parameter to the constructor, the values of the controls should be **set to match the values** in the instance.
+  * It should include a **Save** button that, when clicked, will replace the main panel with the order screen. We will handle actually saving the item in a future milestone.
+  * _Since each side only has a single option, this panel can be generalized to work with the parent `Side` class. However, when buttons on the OrderPanel are clicked, you'll need to make sure an instance of the correct item is generated._
+* A panel class in the `heropizza.gui.drinks` package for each drink item.
+  * It should include appropriate controls for modifying the **ingredients and size**.
+  * **When given an instance of the item** as a parameter to the constructor, the values of the controls should be **set to match the values** in the instance.
+  * It should include a **Save** button that, when clicked, will replace the main panel with the order screen. We will handle actually saving the item in a future milestone.
+  * _You may include a parent `DrinkPanel` class to reduce the amount of duplicate code._
+* Classes in the `heropizza.gui` package **do not require** unit tests.
+* Classes in the `heropizza.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
+* Classes in the `heropizza.gui` package **do require** all appropriate documentation comments, and must be free of style errors.
+* **Update the UML Diagram Contained in this project to match the updated structure of the project.**
 
-###### Documentation and Tests
-
-* Classes in the `thatsawrap.gui` package **do require** all appropriate documentation comments, and must be free of style errors. **Every method must include full documentation comments.**
-* Classes in the `thatsawrap.gui` package **do not require** unit tests.
-* Classes in the `thatsawrap.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
-* Create a **new UML diagram** that shows the structure of the `thatsawap.gui` package and how all GUI classes are related. You should also show any links to the classes in the `thatsawrap.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `thatsawrap.data` packages.
-  * For example, you can show that the classes in the `thatsawrap.gui.wraps` package are all related to similar classes in the `thatsawrap.data.wraps` package without listing the individual classes in that package.
-
-###### Other Instructions
-
-You are welcome to add additional methods to the existing content in the `thatsawrap.data` package. If so, make sure you include appropriate documentation, type checking and unit tests.
+You are welcome to add additional methods to the existing content in the `heropizza.data` package. If so, make sure you include appropriate type checking and unit tests.
 
 See below for a few sketches of what your GUI might look like.
 
@@ -98,10 +82,10 @@ _A rough estimate for this milestone would be around 1500 lines of new code. It 
 This assignment will be graded based on the rubric below:
 
 * `Main` class - 2%
-* `PrimaryWindow` class - 4%
-* `OrderPanel` class - 4%
-* `MenuPanel` class - 20%
-* Wrap Panel classes - 40%
+* `MainWindow` class - 4%
+* `SidebarPanel` class - 4%
+* `OrderPanel` class - 20%
+* Pizza Panel classes - 40%
 * `SidePanel` class - 5%
 * Drink Panel classes - 15%
 * Updated UML diagram - 10%
@@ -109,15 +93,8 @@ This assignment will be graded based on the rubric below:
 The following deductions apply:
 
 * Any portion of the project which will not compile (Java), pass a strict type check (Python), or execute properly will be given a grade of 0.
-* Any portion of the project which does not meet the general requirements listed above will have a commensurate amount of points deducted.
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
-
-{{% notice note note-31 "Code Review" %}}
-
-_As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. For any GUI portions, I'll also be testing the functionality of the GUI for each class under review. - Russ_
-
-{{% /notice %}}
 
 ## Submission
 
@@ -141,7 +118,7 @@ _I chose to increase the default size of my GUI to 1024x740 pixels, as that made
 
 ![Main Window](/cc410/images/m4/410_m6_gui1.svg)
 
-##### Wrap Panel
+##### Pizza Panel
 
 ![Main Window](/cc410/images/m4/410_m6_gui2.svg)
 
@@ -159,7 +136,7 @@ Here are a couple of helpful pieces of code that you may wish to use in your pro
 
 ##### Java
 
-In many cases, I found it easiest to create private or protected methods that will construct my `GridBagConstraints` objects, either within the class I was working in or in a parent class in the case of wrap and drink panels. Here's an example:
+In many cases, I found it easiest to create private or protected methods that will construct my `GridBagConstraints` objects, either within the class I was working in or in a parent class in the case of pizza and drink panels. Here's an example:
 
 ```java
 /**
@@ -220,7 +197,7 @@ Notice that I have to place two asterisks `**` before the method. That tells Pyt
 
 The biggest benefit to this approach is that I can easily adjust **all** of the buttons by changing this one method. This is a great example of the "Don't Repeat Yourself" or [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle.
 
-I also had to tell Mypy to ignore the lambda expressions used in the `MenuPanel` class, as it cannot properly determine the type of the lambda. You can do this by adding a `# type: ignore` comment at the end of the offending line. 
+I also had to tell Mypy to ignore the lambda expressions used in the `OrderPanel` class, as it cannot properly determine the type of the lambda. You can do this by adding a `# type: ignore` comment at the end of the offending line. 
 
 ```python
 button = Button(master=side_frame, text=str(side),

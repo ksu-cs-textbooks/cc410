@@ -9,7 +9,7 @@ This page lists the milestone requirements for **Milestone 2** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Hero Pizza_, celebrating the heroes from cartoons, comic books, movies, and more. 
 
 The second milestone involves writing documentation and unit tests for our existing code base. Our goal is to adequately test each part of our code via **unit tests**, reaching 100% code coverage at a minimum. In addition, we'll add all of the required **documentation comments** in our existing code. 
 
@@ -67,32 +67,20 @@ It is easier to get this correct from the start, then having to refactor your co
 
 This milestone should include the following features:
 
-###### Data Types
-
-* Each Wrap, Side, and Drink class should contain complete typing information.
+* Each Pizza, Side, and Drink class should contain complete typing information.
   * Java - this is already handled by the compiler, so no changes are needed.
   * Python - the code should contain complete type annotations and achieve low imprecision percentage in Mypy using strict type checking. 
-
-###### Unit Tests
-
-* Each Wrap, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
+* Each Pizza, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
   * See the discussion below for more information on unit tests to be included.
   * Each unit test should be in a matching package in the `test` directory for the class it is testing.
   * Python - unit tests **do not require type annotations**.
   * Where possible, use **parameterized unit tests** to reduce the number of individual tests written.
   * You may use any form of assertions, including the Hamcrest library.
-
-###### Documentation
-
-* Each Wrap, Side, Drink, and Enumeration class should have all required documentation comments.
-  * **Every method must be documented, including parameters and return values.**
+* Each Pizza, Side, Drink, and Enumeration class should have all required documentation comments.
   * Checkstyle/Flake8 should not give any errors related to documentation in the `src` directory. 
   * You are encouraged, but not required, to create documentation comments for unit tests.
   * You should be able to generate documentation using javadoc/pdoc3 as shown in the "Hello Real World" project. 
   * You will be graded on the content of the comments - make sure they are descriptive and succinct, with the appropriate sections/tags. 
-
-###### UML Class Diagram
-
 * Create a **UML Class Diagram** representing the structure of this program. 
   * Store the UML diagram as an image file (PNG preferred).
   * Place the image in the root of the project directory (directly inside the `java` or `python` folder).
@@ -104,8 +92,8 @@ This milestone should include the following features:
 _Some quick tips from when I did this milestone:_
 
 * **DO NOT COPY FROM YOUR SOURCE CODE FROM MILESTONE 1!** Write your unit tests solely using the menu on the previous milestone and the list of tests needed on this milestone. In that way, you will confirm that your tests match the specification and confirm the code is correct, not that your tests match your existing code! Even I found a few errors in my code through writing these unit tests.
-* You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all wraps test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
-* Generalizing the tests for individual ingredients in wraps and drinks (such as `pepperoni` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
+* You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all pizza test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
+* Generalizing the tests for individual ingredients in pizzas and drinks (such as `ham` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
 * **Java** users may wish to review the [EnumSource](https://www.baeldung.com/parameterized-tests-junit-5#3-enum) option for parameterized tests using enums.
 * **Python** users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("crust", Crust)`.
 * When following Google's style for Java, you are required to include `default` branches in switch statements across enums, which will be unreached in code coverage. This is fine, but a good reason to avoid switch statements, as you will never get 100% code coverage! I ended up changing my model solution to remove switch statements.
@@ -120,7 +108,7 @@ Completing this project is estimated to require 3-8 hours.
 
 {{% notice note tip-2 "Expected Scope" %}}
 
-_In my testing, this milestone requires around 3500-4000 lines of code (including very rudimentary documentation comments) in the unit tests directory. As with the prior milestone, much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to pick one of the complex wraps and start there writing unit tests. Once you have the wraps all working, the sides and drinks are pretty easy and use much of the same structure. There are several hundred unit tests in my model solution. I ended up finding half a dozen errors in my model solution for milestone 1, showing the importance of unit testing! -Russ_
+_In my testing, this milestone requires around 3500-4000 lines of code (including very rudimentary documentation comments) in the unit tests directory. As with the prior milestone, much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to pick one of the complex pizzas and start there writing unit tests. Once you have the pizzas all working, the sides and drinks are pretty easy and use much of the same structure. There are several hundred unit tests in my model solution. I ended up finding half a dozen errors in my model solution for milestone 1, showing the importance of unit testing! -Russ_
 
 {{% /notice %}}
 
@@ -129,11 +117,11 @@ _In my testing, this milestone requires around 3500-4000 lines of code (includin
 This assignment will be graded based on the rubric below:
 
 * Unit Tests - 60%
-  * Wrap Classes - 30%
+  * Pizza Classes - 30%
   * Side Classes - 10%
   * Drink Classes - 20%
 * Documentation Comments - 30%
-  * Wraps Classes - 8%
+  * Pizza Classes - 8%
   * Side Classes - 8%
   * Drink Classes - 8%
   * Enumeration Classes - 6%
@@ -142,16 +130,8 @@ This assignment will be graded based on the rubric below:
 The following deductions apply:
 
 * Any portion of the project which will not compile (Java), pass a strict type check (Python), or execute properly will be given a grade of 0.
-* Any portion of the project which does not meet the general requirements listed above will have a commensurate amount of points deducted.
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
-
-{{% notice note note-31 "Code Review" %}}
-
-_As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. - Russ_
-
-{{% /notice %}}
-
 
 ## Submission
 
@@ -163,73 +143,64 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## Unit Tests
 
-##### Wrap
+##### Entrées
 
-Each test class should contain unit tests for the following (this is not an exhaustive list, but should get close to 100% coverage):
+Each entrée test class should contain unit tests for the following:
 
-* When a new object is created:
-  * The instructions list should be empty
-  * The default shell should be set correctly
-  * The addins should be set correctly
-  * The calories should be set correctly
-* For every shell option:
-  * The price should be set correctly, including any surcharges for shell types.
-  * The string representation of the item should be correct
-* For every ingredient
-  * Each ingredient should be included by default
-  * Adding or removing an ingredient adds or removes an item in the instructions list
-* For every addin:
-  * If the addin is included by default, it should be in the addins list on a new object
-  * Adding or removing an addin makes the correct modification to the addins list
-* Equality tests:
-  * Two instances of the same object are equal
-  * Two instances with different shells are not equal
-  * Two instances with different ingredients are not equal
-  * Two instances with different addins are not equal
-  * An instance of another object is not equal to an instance of this object (should not cause an exception)
-* Other tests:
-  * Changing multiple ingredients should add or remove multiple items in the instructions list
+* `ModificationsInitiallyEmpty()` - the `Modifications` list should be empty when the object is created
+* `HasCorrectCrustInitially()` - the `Crust` attribute is initially set correctly
+* `HasCorrectPriceForCrust(Crust)` - the `price` is correct for each crust option
+* `HasCorrectCalories()` - the `calories` is correct
+* `StringIsCorrectForCrust(Crust)` - call the `toString()` or `__str__()` method with each type of crust and verify the output.
+* `IncludesCorrectVeggiesByDefault(Veggie)` - for each veggie, check if it is included or not by default.
+  * You may modify the arguments to accept a `boolean` value indicating if the veggie should be included by default.
+* `AddRemoveVeggies(Veggie)` - for each veggie, check that it can be added and removed, and the `Veggies` set will change accordingly.
+* `Has<Topping>ByDefault()` - for each topping, check to see that it is included by default (returns true). 
+  * For example, `TheMikey` would have a test method `HasHamByDefault()`.
+* `Change<Topping>SetsModifications()` - for each topping, check that changing it from and to the default value will add and remove the correct item from the `Modifications` list.
+  * For example, `TheMikey` would have `ChangeHamSetsSpecialInstructions()` that would confirm setting `ham` to `false` would add `"Hold Ham"` to the list of `Modifications`. 
+* `ChangeMultipleToppingsModifications()` - confirm that changing multiple toppings from their default values will add multiple items to the `Modifications` list. 
+  * _This test may be omitted on items that only have one ingredient_. 
+* `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
+* `DifferentCrustNotEqual()` - generate two different instances of the item using different crust, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `DifferentToppingsNotEqual()` - generate two different instances of the item using different sets of toppings, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `DifferentVeggiesNotEqual()` - generate two different instances of the item using different sets of veggies, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `WrongObjectNotEqual()` - generate an instance of the item and an instance of a different menu item, and confirm that they are not equal using `equals()` (Java) or `==` (Python). This should **not** throw an exception.
 
 ##### Sides
 
-Each test class should contain unit tests for the following (this is not an exhaustive list, but should get close to 100% coverage):
+Each side test class should contain unit tests for the following:
 
-* When a new object is created:
-  * The default size should be set correctly
-* For every size option:
-  * The price should be set correctly
-  * The calories should be set correctly
-  * The string representation of the item should be correct
-* Equality tests:
-  * Two instances of the same object are equal
-  * Two instances with different sizes are not equal
-  * An instance of another object is not equal to an instance of this object (should not cause an exception)
+* `DefaultSizeCorrect()` - each side should have the default size of `Small` when initially created.
+* `StringIsCorrectForSize(Size)` - call the `toString()` or `__str__()` method with each size and verify the output.
+* `HasCorrectPriceForSize(Size)` - the `price` is correct for each size
+* `HasCorrectCaloriesForSize(Size)` - the `calories` is correct for each size
+* `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
+* `DifferentSizeNotEqual()` - generate two different instances of the item using different sizes, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `WrongObjectNotEqual()` - generate an instance of the item and an instance of a different menu item, and confirm that they are not equal using `equals()` (Java) or `--` (Python). This should **not** throw an exception.
 
 ##### Drinks
 
-Each test class should contain unit tests for the following (this is not an exhaustive list, but should get close to 100% coverage):
+Each drink test class should contain unit tests for the following:
 
-* When a new object is created:
-  * The instructions list should be empty
-  * The default size should be set correctly
-* For every size option:
-  * The price should be set correctly
-  * The calories should be set correctly
-  * The string representation of the item should be correct
-* For every flavor
-  * Default flavors should be included by default, others should not be included by default
-  * Adding or removing a flavor adds or removes an item in the instructions list
-* Equality tests:
-  * Two instances of the same object are equal
-  * Two instances with different sizes are not equal
-  * Two instances with different flavors are not equal
-  * An instance of another object is not equal to an instance of this object (should not cause an exception)
-* Other tests:
-  * Changing multiple flavors should add or remove multiple items in the instructions list
+* `ModificationsInitiallyEmpty()` - the `Modifications` list should be empty when the object is created
+* `DefaultSizeCorrect()` - each drink should have the default size of `Small` when initially created.
+* `StringIsCorrectForSize(Size)` - call the `toString()` or `__str__()` method with each size and verify the output.
+* `HasCorrectPriceForSize(Size)` - the `price` is correct for each size
+* `HasCorrectCaloriesForSize(Size)` - the `calories` is correct for each size
+* `Has<Flavor>ByDefault()` - for each flavor included by default, check to see that it is included (returns true). For example, `Starfire` would have a test method `HasCherryByDefault()`.
+* `DoesNotHave<Flavor>ByDefault()` - for each optional flavor not included by default, check to see that it is not included (returns false).
+  * For example, `Starfire` would have a test method `DoesNotHaveVanillaByDefault()`.
+* `Change<Flavor>SetsModifications()` - for each flavor, check that changing it from and to the default value will add and remove the correct item from the `Modifications` list.
+  * For example, `Starfire` would have `ChangeCherrySetsModifications()` that would confirm setting `cherry` to `false` would add `"Hold Cherry"` to the list of `Modifications`. 
+* `ChangeMultipleFlavorsModifications()` - confirm that changing multiple flavors from their default values will add multiple items to the `Modifications` list. 
+  * _This test may be omitted on items that only have one ingredient_. 
+* `SameObjectsAreEqual()` - generate two different instances of the item, and confirm that they are equal using `equals()` (Java) or `==` (Python). 
+* `DifferentSizeNotEqual()` - generate two different instances of the item using different sizes, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `DifferentFlavorsNotEqual()` - generate two different instances of the item using different sets of flavors, and confirm that they are not equal using `equals()` (Java) or `==` (Python). 
+* `WrongObjectNotEqual()` - generate an instance of the item and an instance of a different menu item, and confirm that they are not equal using `equals()` (Java) or `--` (Python). This should **not** throw an exception.
 
 {{% notice tip %}}
-
-Remember that unit tests should test a single unit of code. So, make sure your unit tests are as short and concise as possible to allow you to pinpoint individual errors.
 
 **Extra Credit:** After writing all of the unit tests listed above, feel free to suggest any unit tests you feel are missing. Email your added tests to the course help email address and you may earn bug bounty points for your suggestions!
 
