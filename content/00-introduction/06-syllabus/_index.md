@@ -11,7 +11,7 @@ pre: "6. "
 ### Instructor Contact Information
 
 * **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
-* **Office:** DUE 2184, but I mostly work remotely from Kansas City, MO
+* **Office:** DUE 2213, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
 * **Website:** https://russfeld.me
 * **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
@@ -75,7 +75,7 @@ There is no shortcut to becoming a great programmer. Only by **doing the work** 
 
 Following along that real-world theme, programming assignments in this class will also be graded according to their conformance to coding style, documentation, and testing requirements. Each milestone’s rubric will include points assigned to each of these factors. It is not enough to simply write code that compiles and meets the specification; good code is readable, maintainable, efficient, and secure. The principles and practices of Object-Oriented programming that we will be learning in this course have been developed specifically to help address these concerns.
 
-**Exams:** There will be a couple of exams throughout the semester to check your understanding of various programming topics. These will allow you to demonstrate your problem-solving skills and your ability to apply what you've learned to novel situations.
+**Concept Quizzes:** There will be a couple of concept quizzes throughout the semester to check your understanding of various programming topics. These will allow you to demonstrate your problem-solving skills and your ability to apply what you've learned to novel situations.
 
 **Final Project:** At the end of this course, you will design and develop a final project of your choosing to demonstrate your ability. This project can link back to your interest or other fields, and will serve as a capstone project for the Computational Core program.
 
@@ -86,7 +86,7 @@ In theory, each student begins the course with an A. As you submit work, you can
 * 10% - Tutorials & Quizzes
 * 10% - Examples
 * 40% - Programming Project Milestones
-* 15% - Exams
+* 15% - Concept Quizzes
 * 25% - Final Project
 
 Up to 5% of the total grade in the class is available as extra credit. See the **Extra Credit - Bug Bounty** & **Extra Credit - Helping Hands** assignments for details.
@@ -110,6 +110,10 @@ For the programming project milestones, it is solely at the discretion of the in
 Likewise, students may ask questions of the instructor while working on the assignment and receive help, but the instructor will not perform a full code review nor give grading-level feedback until after the assignment is submitted and the due date has passed. Again, students are expected to be able to make their own judgments on the quality and completion of an assignment before submission.
 
 That said, a student may email the instructor to request early grading on an assignment before the due date, in order to move ahead more quickly. The instructor's receipt of that email will effectively mean that the assignment for that student is due immediately, and all limitations above will apply as if the assignment's due date has now passed. 
+
+### Collaboration Policy
+
+In this course, all work submitted by a student should be created solely by the student without any outside assistance beyond the instructor and TA/GTAs. Students may seek outside help or tutoring regarding concepts presented in the course, but should not share or receive any answers, source code, program structure, or any other materials related to the course. Learning to debug coding problems is a vital skill, and students should strive to ask good questions and perform their own research instead of just sharing broken source code when asking for assistance. 
 
 ### Late Work
 
