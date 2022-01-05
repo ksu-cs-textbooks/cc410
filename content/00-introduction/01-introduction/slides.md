@@ -22,7 +22,7 @@ hidden: true
 	<h3>Other Instructors & TAs</h3>
 	<ul>
 		<li>Nathan Bean</li>
-		<li>GTA: Farrukh Ali</li>
+		<li>GTA: Kavya Kompella</li>
 	</ul>
 </section>
 <section>
@@ -79,10 +79,11 @@ hidden: true
 <section>
 	<h3>Grading</h3>
 	<ul>
-		<li>15% Tutorials & Quizzes</li>
-		<li>15% Examples</li>
+		<li>10% Tutorials & Quizzes</li>
+		<li>10% Examples</li>
 		<li>40% Project Milestones (~10)</li>
-		<li>30% Final Project</li>
+		<li>15% Concept Quizzes</li>
+		<li>25% Final Project</li>
 		<li>Up to 5% Extra Credit</li>
 	</ul>
 	<p>Standard 90-80-70-60 grading scale</p>
