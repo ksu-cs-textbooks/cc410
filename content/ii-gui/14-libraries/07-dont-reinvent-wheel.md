@@ -32,6 +32,8 @@ Thankfully, the left-pad library was restored soon after, and it has since been 
 
 For more information on this event, see [this article](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/) from Ars Technica.
 
+Update 2022: It happened again! This time the `colors` and `fakers` libraries were broken by the developer. See [this article](https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/).
+
 {{% / notice %}}
 
 On the next pages, we'll briefly look at how to work with external libraries in both Java and Python. As always, feel free to review the content for your chosen language, but you are welcome to read both sections if desired.
