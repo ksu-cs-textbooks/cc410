@@ -24,6 +24,7 @@ hidden: true
 	<ul>
 		<li>Updating Assignments</li>
 		<li>Moving Textbook Out of Codio</li>
+		<li>Adding Concept Quizzes</li>
 		<li>May Rework Examples</li>
 		<li>Things May Change</li>
 		<li><b>Feedback Welcome!</b></li>
