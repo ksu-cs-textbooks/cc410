@@ -146,7 +146,7 @@ Each attribute described below should be implemented as a private variable withi
 
 ### Wraps
 
-Each wrap should be stored in an appropriately named class in the `thatsawrap.data.wraps` package. Each pizza should include an attribute for the following data:
+Each wrap should be stored in an appropriately named class in the `thatsawrap.data.wraps` package. Each wrap should include an attribute for the following data:
   * **Shell** - a `Shell` value (see below). It should have a **getter** and **setter** method.
   * **Addins** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#set) of `Addin` values (see below). 
     * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
@@ -170,7 +170,7 @@ It should also override the default equality method (`equals()` in Java or `__eq
 
 Each wrap description will include a list of ingredients included on the wrap. Those ingredients should be represented using Boolean attributes that are set to `true` by default, with appropriate **getter** and **setter** methods. Changing any of these to `false` will cause a "Hold {ingredient}" message, such as "Hold Pepperoni", to be added to the **Instructions** list. Likewise, changing it back to `true` will remove the appropriate message. If all ingredients are at their default values, the **Instructions** list should be empty. 
 
-Each wrap will be served in a particular **Default Shell**, and will include a default set of **Addins**. Those attributes should be populated appropriately in the constructor for the pizza. Changes to the **Shell** and **Addins** attributes will not affect the **Instructions** attribute at this time (we'll add that later). 
+Each wrap will be served in a particular **Default Shell**, and will include a default set of **Addins**. Those attributes should be populated appropriately in the constructor for the wrap. Changes to the **Shell** and **Addins** attributes will not affect the **Instructions** attribute at this time (we'll add that later). 
 
 The number of **Calories** for a wrap will remain constant, regardless of other attributes (we'll just pretend that changing the wrap doesn't change the number of calories).
 

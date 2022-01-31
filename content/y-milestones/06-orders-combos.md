@@ -152,7 +152,7 @@ Once this milestone is complete, all classes in the following packages should ha
 
 * `thatsawrap.data.*`
 * `thatsawrap.gui.drinks.*`
-* `thatsawrap.gui.pizzas.*`
+* `thatsawrap.gui.wraps.*`
 * `thatsawrap.gui.sides.*`
 
 The only classes that do not meet this requirement are `PrimaryWindow`, `OrderPanel`, `PanelFactory`, and `MenuPanel` in the `thatsawrap.gui` package. 
