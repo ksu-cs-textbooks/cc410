@@ -87,11 +87,11 @@ Additionally, sometimes the attributes containing these external items may be om
 
 With aggregation and composition, we may also place numbers on either end of the association, indicating the number of objects involved.  We call these numbers the _multiplicity_ of the association.
 
-![Composition in UML](/cc410/images/5/410_5_composition.png)
+![Composition in UML](/cc410/images/5/410_5_composition.svg)
 
 For example, the `Frog` class in the composition example has two instances of front and rear legs, so we indicate that each `Frog` instance (by a `1` on the Frog side of the association) has exactly two (by the `2` on the leg side of the association) legs.  The tongue has a `1` to `1` multiplicity as each frog has one tongue.
 
-![Aggregation in UML](/cc410/images/5/410_5_aggregation.png)
+![Aggregation in UML](/cc410/images/5/410_5_aggregation.svg)
 
 Multiplicities can also be represented as a range (indicated by the start and end of the range separated by `..`).  We see this in the `ShoppingCart` example above, where the count of `GroceryItems` in the cart ranges from 0 to infinity (infinity is indicated by an asterisk `*`).
 
