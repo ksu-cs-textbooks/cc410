@@ -4,14 +4,14 @@ hidden: true
 ---
 
 <section>
-	<img class="plain" src="/cc410/images/0/help.png">
+	<img class="plain" src="/images/0/help.png">
 	<p class="imagecredit">Image Credit: <a href="https://pixabay.com/">Pixabay</a></p>
 </section>
 
 <section>
   <p>cc410-help</p>
   <p><small>cc410-help@KSUemailProd.onmicrosoft.com</small></p>
-	<img class="plain" src="/cc410/images/0/help410.png">
+	<img class="plain" src="/images/0/help410.png">
 </section>
 
 <section>
@@ -35,7 +35,7 @@ hidden: true
   <ul>
     <li>Course Resources & Tutorials</li>
     <li>Email cc410-help</li>
-    <li><img class="plain" src="/cc410/images/0/google_logo.png" style="height: 1.5em; vertical-align: middle; display: inline-block;"> It!</li>
+    <li><img class="plain" src="/images/0/google_logo.png" style="height: 1.5em; vertical-align: middle; display: inline-block;"> It!</li>
   </ul>
 </section>
 <section>

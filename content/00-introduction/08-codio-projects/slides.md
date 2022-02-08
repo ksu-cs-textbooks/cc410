@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<img class="plain stretch" src="/cc410/images/0/410_modules.png">
+	<img class="plain stretch" src="/images/0/410_modules.png">
 </section>
 <section>
 	<h2>Codio Playground</h2>

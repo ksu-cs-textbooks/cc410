@@ -6,7 +6,7 @@ pre: "6. "
 
 ## CC 410 - Advanced Programming - Spring 2022
 
-[Previous Versions](old)
+[Previous Versions]({{<relref "./old">}})
 
 ### Instructor Contact Information
 
