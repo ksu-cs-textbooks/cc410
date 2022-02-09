@@ -11,4 +11,4 @@ chapter = true
 
 Information for Current Students!
 
-[Previous Semesters Are Here](old)
+[Previous Semesters Are Here]({{<relref "./old">}})
