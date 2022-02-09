@@ -36,7 +36,7 @@ Additionally, the `-U` command line flag shown in the documentation simply tells
 
 When we execute that command, we should get output similar to the following:
 
-![Install Pytest](/cc410/images/e1/23pytest.png)
+![Install Pytest](/images/e1/23pytest.png)
 
 The `pip` tool will automatically install any additional libraries that are required for pytest, so we might see several items listed. At the bottom of the output, it will list all of the libraries installed. Since we see pytest in that list, we have successfully installed it.
 
@@ -44,11 +44,11 @@ The `pip` tool will automatically install any additional libraries that are requ
 
 One point of confusion for many new developers is the inconsistent way Linux terminal commands are denoted in the documentation of various tools. For example, in the pytest documentation, Linux terminal commands are sometimes, but not always, prefixed by a dollar sign `$`:
 
-![Dollar Sign](/cc410/images/e1/23prefix.png)
+![Dollar Sign](/images/e1/23prefix.png)
 
 In other documentation, you might see either a pound sign `#` or a greater than sign `>`, as seen in this example:
 
-![Arrow Prefix](/cc410/images/e1/7arrow.png)
+![Arrow Prefix](/images/e1/7arrow.png)
 
 However, when we execute those commands, we shouldn't include the greater-than symbol or dollar sign. Why is that? Many places that include documentation for the Linux terminal helpfully include either the last symbol of the command prompt before the command, or some other symbol like an arrow, indicating that this is a command to be entered in the terminal. Linux typically uses two different types of command prompts:
 
@@ -69,13 +69,13 @@ Now that we've installed pytest, let's create a unit test for our "Hello World" 
 
 Once we are done, we should see the following structure in our `python` folder:
 
-![Python Unit Test Structure](/cc410/images/e1/23struct.png)
+![Python Unit Test Structure](/images/e1/23struct.png)
 
 ## Write Unit Test
 
 Next, let's create a file called `test_HelloWorld.py` in our `test/hello` package. Our file structure should now include that file:
 
-![Python Unit Test File](/cc410/images/e1/23file.png)
+![Python Unit Test File](/images/e1/23file.png)
 
 Let's put some code in the `test_HelloWorld.py` file to test our "Hello World" application. Here's a sample of what a unit test for this might look like:
 
@@ -123,7 +123,7 @@ pytest
 
 When we do, we'll probably get output that looks like this:
 
-![PyTest Error](/cc410/images/e1/23error.png)
+![PyTest Error](/images/e1/23error.png)
 
 If we read this error closely, we'll see that it is unable to find our `src.hello.HelloWorld` class. That's strange - we were able to find it earlier. Let's dive into that and see what's going on.
 
@@ -135,13 +135,13 @@ python3 -m pytest
 
 When we do that, we'll see that our tests work properly:
 
-![PyTest Works](/cc410/images/e1/23works.png)
+![PyTest Works](/images/e1/23works.png)
 
 What's going on here? Well, this gets a bit complicated, but in short the `pytest` command does not include the current directory as part of the `PYTHONPATH`, which is a set of locations where Python should look for additional code. However, when we launch pytest using the standard `python3` command, Python will add the current directory to the `PYTHONPATH`. That means that our `src` meta package will get included, and pytest is able to find it. 
 
 Thankfully, there are a number of ways to fix this. The simplest is actually a bit of a "hack" that involves creating a blank file named `conftest.py` in the `src` package. This will tell pytest to include this directory in the `PYTHONPATH` correctly. This is well described in this [StackOverflow Post](https://stackoverflow.com/q/34466027) So, let's go ahead and create that file:
 
-![Python Conftest](/cc410/images/e1/23conftest.png)
+![Python Conftest](/images/e1/23conftest.png)
 
 Then, in that file, we should put a note that explains what's going on. So, let's put the following comment in that file:
 
@@ -167,7 +167,7 @@ pytest
 
 If everything is configured correctly, we should see output similar to this:
 
-![Pytest Success](/cc410/images/e1/23success.png)
+![Pytest Success](/images/e1/23success.png)
 
 That means our unit tests are working! However, we aren't getting any useful feedback beyond the number of tests that were executed and whether they succeed.
 
@@ -193,19 +193,19 @@ pytest --html=reports/pytest/index.html
 
 In that command, we have specified that the report should be created in the `reports/pytest/index.html` file. So, after running that command, we should see the following folder structure:
 
-![PyTest HTML](/cc410/images/e1/23html.png)
+![PyTest HTML](/images/e1/23html.png)
 
 So, find that file in the Codio file tree to the left and open it. When you do, you'll see a file full of HTML like this one:
 
-![Test Report HTML](/cc410/images/e1/23htmlfile.png)
+![Test Report HTML](/images/e1/23htmlfile.png)
 
 That's really difficult to read, isn't it? Thankfully, we can tell Codio to open that HTML file as a webpage by **right-clicking** on it and selecting **Preview Static**:
 
-![Preview Static](/cc410/images/e1/23static.png)
+![Preview Static](/images/e1/23static.png)
 
 If done correctly, you should see a webpage that looks like this:
 
-![Test Report](/cc410/images/e1/23webpage.png)
+![Test Report](/images/e1/23webpage.png)
 
 Hopefully, we should see that our code passed the test!
 

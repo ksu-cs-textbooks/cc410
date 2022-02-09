@@ -40,11 +40,11 @@ This script will ask a few questions about what type of project we'd like to cre
 
 If done correctly, your output should look like this:
 
-![Gradle Init Output](/cc410/images/e1/9gradleinit.png)
+![Gradle Init Output](/images/e1/9gradleinit.png)
 
 You should also now see a whole bunch of files and directories inside of the `java` directory, as shown in this screenshot:
 
-![Gradle Init Structure](/cc410/images/e1/9gradleinitfolder.png)
+![Gradle Init Structure](/images/e1/9gradleinitfolder.png)
 
 This is already looking quite a bit more complicated than our previous "Hello World" app! Let's see if we can go through it and clear up a few things. 
 

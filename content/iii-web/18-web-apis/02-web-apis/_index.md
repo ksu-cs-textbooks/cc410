@@ -6,13 +6,13 @@ pre: "2. "
 
 {{% youtube G3LqkMXfW6A %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 As the name implies, a web API is simply an interface for accessing and modifying resources stored on a web server. So, from a certain point of view, we could think of the basic HTTP itself as a web API. However, traditionally web APIs are meant to be built on top of HTTP itself -- HTTP defines how web servers and web clients can communicate in general, but a web API uses additional information in the structure of the request, such parameters included as part of the URL or the body of the request, to specify exactly what resources should be affected and the action to be performed on those resources.
 
 Web APIs are popular because they decouple the resources stored on the server from the client-side application that is designed to only interact with the web API. So, if an organization has some data or resources they'd like to make available, they can create a web API to make those resources available, and then other developers can build tools that interface with that web API to use those resources in some unique way.
 
-![Web API Graphic](/cc410/images/18/api.png)[^1]
+![Web API Graphic](/images/18/api.png)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Open-APIs-v5.png&oldid=492355805
 

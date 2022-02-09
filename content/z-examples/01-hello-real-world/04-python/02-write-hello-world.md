@@ -12,7 +12,7 @@ Now that we've created a package for our code, let's write the code for our "Hel
 
 First, we need to create a source code file for our application. We'll place this code inside of the `src/hello` package we've already created. So, let's create a file called `HelloWorld.py` in that directory. Once it is created, we should see the following structure:
 
-![Python Hello File](/cc410/images/e1/22hellostruct.png)
+![Python Hello File](/images/e1/22hellostruct.png)
 
 Then, inside of that file, we can place the following code:
 
@@ -41,7 +41,7 @@ To do this, we'll need to create two more files directly inside of the `src` fol
 
 Once those files are created, we should have a structure similar to this image:
 
-![Python Meta Package](/cc410/images/e1/22meta.png)
+![Python Meta Package](/images/e1/22meta.png)
 
 Then, we need to populate those files with some code. So, in the `__init__.py` file in `src`, enter the following code:
 
@@ -84,7 +84,7 @@ python3 -m src
 
 That will tell Python to execute the application stored in our `src` folder as a Python module, or meta package. When we do that, we should receive output like this:
 
-![Python Output](/cc410/images/e1/22output.png)
+![Python Output](/images/e1/22output.png)
 
 As we can see, our application actually goes through a few steps before it is able to run the `main` function:
 

@@ -8,7 +8,7 @@ There are many different graphics frameworks available today. Some are limited t
 
 ## Java Swing
 
-![Java Swing](/cc410/images/9/swing.png)[^1]
+![Java Swing](/images/9/swing.png)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Gui-widgets.png&oldid=458387263
 
@@ -20,7 +20,7 @@ In addition, developers can easily customize many components of the Java Swing t
 
 ## Python tkinter
 
-![Tk](/cc410/images/9/tk.png)[^2]
+![Tk](/images/9/tk.png)[^2]
 
 [^2]: https://commons.wikimedia.org/w/index.php?title=File:Tk-Demo_using_Tk_8.6.6_on_Windows_10,_November_2016.png&oldid=475248301
 

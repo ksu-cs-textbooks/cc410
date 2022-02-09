@@ -9,7 +9,7 @@ date: 2022-02-07T00:53:26-05:00
 
 #### Resources
 
-* <a href="slides" target="_blank">Slides</a>
+* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

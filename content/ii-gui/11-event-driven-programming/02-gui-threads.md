@@ -10,7 +10,7 @@ To resolve this, we typically build our GUI applications in a way that the GUI r
 
 ## Event-Driven Programming
 
-![Event Loop](/cc410/images/11/event_loop.jpg)[^1]
+![Event Loop](/images/11/event_loop.jpg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Event_driven_programming_Simply_Explained.jpg&oldid=462525602
 

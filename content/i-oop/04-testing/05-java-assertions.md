@@ -46,7 +46,7 @@ public static void main(String[] args)
 
 While we would expect both `x` and `y` to store the same value, they are actually slightly different.
 
-![Java Floating Point Error](/cc410/images/4/javaerror.png)
+![Java Floating Point Error](/images/4/javaerror.png)
 
 So, we may need to account for this imprecision in our unit tests. We could also rewrite our code to avoid the use of floating point values. For example, many programs that deal with monetary values actually store them as integers based on cents instead of dollars, and simply add the decimal point only when the value is printed. 
 

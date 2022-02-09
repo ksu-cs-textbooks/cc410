@@ -14,7 +14,7 @@ First, let's rename the `App.java` file in `app/src/main/java/hello` to `HelloWo
 
 Let's do this through the Codio interface. Use the file tree to the left to navigate to the file `App.java`, and then right-click and choose **Rename**. You can then enter `HelloWorld.java` in the box. Once you have completed this task, you should now see the following structure in the file tree:
 
-![Renamed File](/cc410/images/e1/10rename.png)
+![Renamed File](/images/e1/10rename.png)
 
 ## Write Code in HelloWorld.java
 
@@ -91,11 +91,11 @@ gradle build
 
 The first time you run this command, it may take a little while as Gradle downloads libraries that it needs. Once it has completed, if everything works correctly you should get the following output:
 
-![Gradle Build](/cc410/images/e1/11build.png)
+![Gradle Build](/images/e1/11build.png)
 
 That means that Gradle has now compiled our program! We should now see a new `app/build` folder, which contains all of the output of the compilation process:
 
-![Build Folder](/cc410/images/e1/11buildfolder.png)
+![Build Folder](/images/e1/11buildfolder.png)
 
 There is a lot of new stuff here that we'll cover later in this example, but for now there are two folders that we really care about:
 
@@ -114,7 +114,7 @@ gradle run
 
 If everything is set up correctly, we should see the following output:
 
-![Hello World Run](/cc410/images/e1/12run.png)
+![Hello World Run](/images/e1/12run.png)
 
 There we go! We've successfully built and run our first application in Gradle! If you want, you can test different messages in `HelloWorld.java` to make sure the program is working correctly.
 

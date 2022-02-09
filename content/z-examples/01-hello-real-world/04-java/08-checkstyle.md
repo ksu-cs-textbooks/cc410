@@ -61,7 +61,7 @@ Here are the steps we'll follow:
 
 Once you have done those steps, you should see a directory path similar to this:
 
-![Checkstyle Config](/cc410/images/e1/19config.png)
+![Checkstyle Config](/images/e1/19config.png)
 
 Finally, for this course we are going to make one modification to the standard Google-based configuration file for Checkstyle. The Google style guide says that Java code should be indented using only 2 spaces per level. However, most IDEs, including Codio, use 4 spaces by default. Instead of changing the configuration in Codio, let's change the configuration of Checkstyle to account for that. So, we'll need to open the `checkstyle.xml` file we just uploaded to the `config/checkstyle` directory, and search for the following section of the file (look for line 243):
 
@@ -101,11 +101,11 @@ gradle check
 
 The `check` task in Gradle will run all checks, including Checkstyle. When we run that command, we should get a bunch of errors like this:
 
-![Checkstyle Errors](/cc410/images/e1/19error.png)
+![Checkstyle Errors](/images/e1/19error.png)
 
 We can also see a friendlier version of this output by going to `app/build/reports/checkstyle` and opening either `main.html` or `test.html`. Remember to **right-click** and choose **Preview Static** to open these as webpages. For example, here's what you might see in `main.html`:
 
-![Checkstyle Report](/cc410/images/e1/19report.png)
+![Checkstyle Report](/images/e1/19report.png)
 
 At the bottom of the report is a list of each line of code that contains an error, as well as a description of the error. Let's look at a couple of these errors and see how we can fix them.
 

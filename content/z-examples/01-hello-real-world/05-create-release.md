@@ -46,7 +46,7 @@ There we go! We've updated our repository once again, and are ready to create a 
 
 To create a release on GitHub, we can click the handy link to the right of our repository that is labeled "Create a new release":
 
-![Create Release](/cc410/images/e1/34createrelease.png)
+![Create Release](/images/e1/34createrelease.png)
 
 So, let's click that link to create a new release. On the page that appears, we have a few things to fill out:
 
@@ -57,7 +57,7 @@ So, let's click that link to create a new release. On the page that appears, we 
 
 Once we've filled out that page, it will look like this:
 
-![Release Ready](/cc410/images/e1/34releaseready.png)
+![Release Ready](/images/e1/34releaseready.png)
 
 Finally, we can click the **Publish Release** button to create our release!
 
@@ -89,11 +89,11 @@ Throughout this course, we'll use Semantic Versioning to help us keep track of t
 
 Finally, we are ready to submit this project! To do that, all we have to do is copy the URL from GitHub that includes our release tag. To find that, we can click on the **Tags** link at the top of the page:
 
-![GitHub Tags Link](/cc410/images/e1/34tagslink.png)
+![GitHub Tags Link](/images/e1/34tagslink.png)
 
 Then, we can click on our release tag from the list:
 
-![GitHub Tags List](/cc410/images/e1/34tagslist.png)
+![GitHub Tags List](/images/e1/34tagslist.png)
 
 That should take us to a page containing the release. From there, we'll need to copy the URL from our web browser. For me, my URL looked like this:
 

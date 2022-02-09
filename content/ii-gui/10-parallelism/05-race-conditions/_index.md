@@ -6,7 +6,7 @@ pre: "5. "
 
 {{% youtube PasqRhMjmcI %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Unfortunately, the big takeaways we saw on the previous page have very important consequences for our multithreaded programs. One of the most common errors, and also one of the notoriously most difficult errors to debug, is a race condition.
 
@@ -25,13 +25,13 @@ Here, we have some `data` object stored in memory, which includes an attribute o
 
 So, if we run this code in two separate threads, one way the program could execute is shown below:
 
-![No Race Condition Threading](/cc410/images/10/thread_norace.svg)
+![No Race Condition Threading](/images/10/thread_norace.svg)
 
 In this case, both pieces of code work like we expect. The spawned thread goes first, and reads the value 0 from `data.x`. Then, it computes the new value 1 and stores that back in `data.x`. After that, the main thread is scheduled on the other processor, and it reads 1 from `data.x`, computers the new value 2, and stores it back in place. So far, so good, right?
 
 What if the threads get interrupted during the computation? In that case, the program could instead execute like this:
 
-![Race Condition](/cc410/images/10/thread_race.svg)
+![Race Condition](/images/10/thread_race.svg)
 
 In this case, the spawned thread reads the value 0 from `data.x`, then stores it in `y`. Then, it is interrupted on its CPU, while the main thread is scheduled to execute on the other CPU. So, that main thread will also read the value 0 from `data.x` and store it in `y`. After that, the spawned thread will run, updating the value in `data.x` to 1. Finally, the main thread will execute updating the value in `data.x` to 1 again, even though it was already 1. 
 
@@ -39,7 +39,7 @@ So, as we can see, we've run the same program, and it has produced two different
 
 What if both threads are scheduled to run simultaneously on two different processors, as in this example:
 
-![Simultaneous Threads](/cc410/images/10/thread_simul.svg)
+![Simultaneous Threads](/images/10/thread_simul.svg)
 
 In this case, the main thread is trying to read the value of `data.x` at the exact same instant that the spawned thread is trying to save that value. In that case, what will the main thread think is stored in `data.x`? As it turns out, _we have no way of predicting_ what it will read. It could read 0, or 1, or maybe even some intermediate value the CPU uses while it stores the data.
 

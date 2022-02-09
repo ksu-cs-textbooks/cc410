@@ -134,6 +134,6 @@ That's all there is to this example!
 
 When we execute this example, we can see many different outputs, depending on how the threads are scheduled with the operating system. Below are a few that were observed when this program was executed during testing.
 
-![Python Threads](/cc410/images/10/python_thread.png)
+![Python Threads](/images/10/python_thread.png)
 
 If you look closely at these four lists, no two of them are exactly the same. This is because of how the operating system schedules threads - we cannot predict how it will work, and because of this a multithreaded program could run differently each time it is executed!

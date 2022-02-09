@@ -64,8 +64,8 @@ git push
 
 ##### Main Window with Order Panel
 
-![Main Screen](/cc410/images/e6/swing_sample.png)
+![Main Screen](/images/e6/swing_sample.png)
 
 ##### Main Window with Sundae Panel
 
-![Main Screen](/cc410/images/e6/swing_sample2.png)
+![Main Screen](/images/e6/swing_sample2.png)

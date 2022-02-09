@@ -12,7 +12,7 @@ The content on this page was adapted from Nathan Bean's [CIS 400](https://textbo
 
 {{% youtube O8rBA0ccGj8 %}}
 
-[Video Materials](video)
+[Video Materials]({{<relref "./video">}})
 
 One of the strategies that computer scientists employed to counter the software crisis was the development of new programing languages.  These new languages would often 1) adopt new techniques intended to make errors harder to make while programming, and 2) remove problematic features that had existed in earlier languages.  
 

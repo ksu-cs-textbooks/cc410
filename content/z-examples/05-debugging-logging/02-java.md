@@ -13,9 +13,9 @@ weight: 20
 
 ## Configuring Codio Debugger
 
-![Java](/cc410/images/e5/java.png)
+![Java](/images/e5/java.png)
 
-![Java 2](/cc410/images/e5/java2.png)
+![Java 2](/images/e5/java2.png)
 
 Make sure the `application` section of `build.gradle` is set to the correct application.
 

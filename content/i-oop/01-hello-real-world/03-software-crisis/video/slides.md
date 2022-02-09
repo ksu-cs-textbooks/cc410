@@ -3,14 +3,14 @@ type: "reveal"
 ---
 <section>
 	<h2>Edsger Dijkstra</h2>
-	<img class="plain stretch" src="/cc410/images/1/410_dijkstra.jpg">
+	<img class="plain stretch" src="/images/1/410_dijkstra.jpg">
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Edsger_Wybe_Dijkstra.jpg&oldid=462876058">Wikimedia Commons</a></p>
 </section>
 <section>
 	<p style="font-size: 50px">The major cause of the software crisis is that the machines have become several orders of magnitude more powerful! ... [N]ow we have gigantic computers, programming has become an equally gigantic problem<br>-Edsger Dijkstra, The Humble Programmer (1972)</p>
 </section>
 <section>
-	<img class="plain stretch" src="/cc410/images/1/410loc.jpg">
+	<img class="plain stretch" src="/images/1/410loc.jpg">
 	<p class="imagecredit">Image Credit: <a href="https://www.computerworld.com/article/2725085/curiosity-about-lines-of-code.html">Computerworld</a></p>
 </section>
 <section>

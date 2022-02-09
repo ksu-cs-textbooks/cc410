@@ -6,7 +6,7 @@ pre: "8. "
 
 Finally, we really cannot talk about data serialization without briefly mentioning what might be the penultimate example of serialization - databases.
 
-![Database](/cc410/images/19/db.svg)[^1]
+![Database](/images/19/db.svg)[^1]
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Relational_key_SVG.svg&oldid=444679066
 
 ## Database

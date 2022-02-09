@@ -10,7 +10,7 @@ hidden: true
 
 #### Resources
 
-* <a href="slides" target="_blank">Slides</a>
+* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
 #### Video Script
 
 Throughout this course, we've continually talked about objects in our programs consisting of two parts - state and behavior. So, it only makes sense for us to realize that there are really only two possible sources of bugs in our program - the state of the program, or the behavior.

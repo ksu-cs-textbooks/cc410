@@ -6,7 +6,7 @@ pre: "5. "
 
 The next pattern we'll explore is the **factory method pattern**. The [factory method pattern](https://en.wikipedia.org/wiki/Factory_method_pattern) is used to allow us to construct an object of a desired type without actually having to specify that type explicitly in our code. Instead, we just provide the factory with an input specifying the type of object we need, and it will return an instance of that type. By making use of the factory method pattern, classes that require access to these object don't need to be updated any time an underlying object type is modified. Instead, they can simply reference the parent or interface data types, and the factory handles creating and returning objects of the correct type whenever needed.
 
-![factory method pattern UML](/cc410/images/12/factory.jpg)[^1]
+![factory method pattern UML](/images/12/factory.jpg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:W3sDesign_Factory_Method_Design_Pattern_UML.jpg&oldid=488851997
 

@@ -3,6 +3,7 @@ title: "Packages"
 weight: 15
 pre: "3. "
 ---
+
 Let's start by focusing on encapsulation's benefits to organizing our code by exploring some examples of encapsulation you may already be familiar with.
 
 ## Packages

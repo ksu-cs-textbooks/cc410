@@ -6,7 +6,7 @@ pre: "3. "
 
 {{% youtube ze031YvdTr8 %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 The first step in building a program using event-driven programming is actually creating the events that you'd like to respond to. For a GUI-based program, this is actually handled by the GUI framework itself. It includes a large number of events that are already available for us to use. Instead, we have to **bind** those events to special functions, called **event handlers**, within our code. Then, when those events occur, the GUI framework will call the **event handler** associated with that event.
 

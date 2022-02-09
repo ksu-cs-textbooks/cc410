@@ -53,7 +53,7 @@ Place the following steps of the **Software Development Life Cycle (SDLC)** in t
 
 Which of the following software development methodologies is shown in this diagram?
 
-![Image 1](/cc410/images/20/waterfall.svg)
+![Image 1](/images/20/waterfall.svg)
 
 1. [X] Waterfall
 1. [ ] Iterative & Incremental Development
@@ -64,7 +64,7 @@ Which of the following software development methodologies is shown in this diagr
 
 Which of the following software development methodologies is shown in this diagram?
 
-![Image 2](/cc410/images/20/iter_wiki.svg)
+![Image 2](/images/20/iter_wiki.svg)
 
 1. [ ] Waterfall
 1. [X] Iterative & Incremental Development
@@ -75,7 +75,7 @@ Which of the following software development methodologies is shown in this diagr
 
 Which of the following software development methodologies is shown in this diagram?
 
-![Image 3](/cc410/images/20/spiral.svg)
+![Image 3](/images/20/spiral.svg)
 
 1. [ ] Waterfall
 1. [ ] Iterative & Incremental Development

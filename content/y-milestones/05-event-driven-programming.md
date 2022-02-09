@@ -156,11 +156,11 @@ Below are some GUI sketches to help you visualize one possible GUI for this proj
 
 ##### Main Window
 
-![Main Window](/cc410/images/m5/410_m7_gui1.svg)
+![Main Window](/images/m5/410_m7_gui1.svg)
 
 ##### Item Panel
 
-![Main Window](/cc410/images/m5/410_m7_gui2.svg)
+![Main Window](/images/m5/410_m7_gui2.svg)
 
 ## Helpful Methods
 

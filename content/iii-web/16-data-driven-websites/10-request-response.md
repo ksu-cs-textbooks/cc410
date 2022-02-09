@@ -6,7 +6,7 @@ pre: "10. "
 
 Earlier in this chapter, we discussed how HTTP is a request-response protocol, as shown in this diagram:
 
-![HTTP's request-response pattern](/cc410/images/16/request-response-pattern.png)
+![HTTP's request-response pattern](/images/16/request-response-pattern.png)
 
 We also discussed how we could write a simple dynamic program to generate a response by concatenating strings together. It was definitely not efficient, but it demonstrated that it is possible to dynamically generate a response to a web request.
 
@@ -16,7 +16,7 @@ Web frameworks simplify this process greatly by handling most of the work for us
 
 Let's look at the diagram below, which shows the process that a MVC-based web framework, such as Spring, might follow:
 
-![Model-View-Controller](/cc410/images/16/mvc.png)[^1] 
+![Model-View-Controller](/images/16/mvc.png)[^1] 
 
 [^1]: https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/mvc.html
 

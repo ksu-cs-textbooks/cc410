@@ -6,7 +6,7 @@ pre: "9. "
 
 {{% youtube hVQuB2upXqQ %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Now let's dive into Java Swing and see how to make our very first GUI application in Swing. 
 
@@ -103,7 +103,7 @@ public class MainWindow extends JFrame implements ActionListener {
 
 When we compile and run this code, then open the Codio viewer, we should see this window:
 
-![Java Hello World](/cc410/images/9/javahello.png)
+![Java Hello World](/images/9/javahello.png)
 
 Let's go through this code and explore what it does. We'll also cover most of this content in the example project for this chapter.
 

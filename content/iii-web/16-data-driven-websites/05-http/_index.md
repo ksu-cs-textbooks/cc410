@@ -12,13 +12,13 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% youtube TjtLgwuzrDM %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 At the heart of the world wide web is the Hypertext Transfer Protocol (HTTP).  This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).   
 
 It starts with a request initiated from the web browser (the client).  This request is sent over the Internet using the TCP protocol to a web server.  Once the web server receives the request, it must decide the appropriate response - ideally sending the requested resource back to the browser to be displayed.  The following diagram displays this typical request-response pattern.
 
-![HTTP's request-response pattern](/cc410/images/16/request-response-pattern.png)
+![HTTP's request-response pattern](/images/16/request-response-pattern.png)
 
 This HTTP request-response pattern is at the core of how all web applications communicate.  Even those that use websockets begin with an HTTP request.
 

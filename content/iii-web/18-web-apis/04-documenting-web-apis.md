@@ -20,7 +20,7 @@ One of the most common RESTful API DLs used today is the [OpenAPI Specification]
 
 Let's look at the structure of a single endpoint to see what it looks like in the OpenAPI Specification. This example comes from their [Getting Started](https://oai.github.io/Documentation/specification-paths.html) document.
 
-![Path Object](/cc410/images/18/paths-object.svg)[^1]
+![Path Object](/images/18/paths-object.svg)[^1]
 
 [^1]: https://oai.github.io/Documentation/specification-paths.html
 

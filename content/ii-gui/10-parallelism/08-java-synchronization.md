@@ -104,7 +104,7 @@ In effect, this is essentially the Java code needed to reproduce the example we 
 
 So, what happens when we run this code? As it turns out, sometimes we'll see it get a different result than the one we expect:
 
-![Race Condition in Java](/cc410/images/10/java_race.png)
+![Race Condition in Java](/images/10/java_race.png)
 
 Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into `data.x`, which means that they were running at the same time. 
 
@@ -133,7 +133,7 @@ Here, the `synchronized` statement creates a **lock** that is associated with th
 
 Now, when we execute that program, we'll always get the correct answer!
 
-![Synchronized in Java](/cc410/images/10/java_synch.png)
+![Synchronized in Java](/images/10/java_synch.png)
 
 {{% notice info info-1 "Not Always Random?" %}}
 

@@ -6,9 +6,9 @@ pre: "2. "
 
 {{% youtube DX4RqiA871I %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
-![Design Patterns Cover](/cc410/images/12/design_patterns.jpg)[^1]
+![Design Patterns Cover](/images/12/design_patterns.jpg)[^1]
 
 [^1]: https://www.journaldev.com/7229/best-design-patterns-book
 

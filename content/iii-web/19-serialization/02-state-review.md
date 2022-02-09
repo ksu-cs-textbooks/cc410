@@ -6,13 +6,13 @@ pre: "2. "
 
 First, let's quickly review the state of a program. Recall from an earlier chapter that the **state** of a program consists of all of the variables and objects stored in memory. So, any time we create a new variable or instantiate a new object in our code, that adds to the overall state of the program.
 
-![State Oracle](/cc410/images/19/state1.gif)[^1]
+![State Oracle](/images/19/state1.gif)[^1]
 
 [^1]: https://docs.oracle.com/javase/tutorial/java/concepts/object.html
 
 In the diagram above, we can visualize an object in object-oriented programming as the state, with a set of variables in the center, and the behaviors around those variables defining how we can use, interact with, and modify that state. For example, we could represent a bicycle's state and behavior as shown below:
 
-![State Oracle 2](/cc410/images/19/state2.gif)[^1]
+![State Oracle 2](/images/19/state2.gif)[^1]
 
 In this diagram, we see that the bicycle is traveling at 18 miles per hour (MPH) and the wheels are rotating at 90 revolutions per minute (RPM). The bicycle itself is in 5th gear. 
 

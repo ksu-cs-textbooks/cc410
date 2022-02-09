@@ -8,7 +8,7 @@ hidden: true
     <p>Most of the time, <b>mock</b> is common for all types.</p>
 </section>
 <section>
-    <img class="plain stretch" src="/cc410/images/13/410_13_stub.png">
+    <img class="plain stretch" src="/images/13/410_13_stub.png">
     <p class="imagecredit">Image Credit: <a href="https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da">Pragmatists Blog</a></p>
 </section>
 <section>
@@ -22,7 +22,7 @@ hidden: true
     </ul>
 </section>
 <section>
-    <img class="plain stretch" src="/cc410/images/13/410_13_fake.png">
+    <img class="plain stretch" src="/images/13/410_13_fake.png">
     <p class="imagecredit">Image Credit: <a href="https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da">Pragmatists Blog</a></p>
 </section>
 <section>
@@ -36,7 +36,7 @@ hidden: true
     </ul>
 </section>
 <section>
-    <img class="plain stretch" src="/cc410/images/13/410_13_mock.png">
+    <img class="plain stretch" src="/images/13/410_13_mock.png">
     <p class="imagecredit">Image Credit: <a href="https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da">Pragmatists Blog</a></p>
 </section>
 <section>

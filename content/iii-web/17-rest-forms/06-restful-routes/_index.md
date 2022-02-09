@@ -12,7 +12,7 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% youtube VyEBbwUi6Co %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Many web applications deal with some kind of _resource_, i.e. people, widgets, records.  Much like in object-orientation we have organized the program around objects, many web applications are organized around resources.  And as we have specialized ways to construct, access, and destroy objects, web applications need to create, read, update, and destroy resource records (we call these CRUD operations).
 

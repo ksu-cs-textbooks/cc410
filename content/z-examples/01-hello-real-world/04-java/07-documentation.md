@@ -31,7 +31,7 @@ The Java platform includes a tool called Javadoc that can be used to generate do
 
 and the top of the [ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) documentation in the Java API:
 
-![ArrayList Doc](/cc410/images/e1/18arraylist.png)
+![ArrayList Doc](/images/e1/18arraylist.png)
 
 So, let's explore how to create this documentation for our code.
 
@@ -169,14 +169,14 @@ gradle javadoc
 
 That will create our documentation! Once it is done, we can go to the `app/build/docs/javadoc` directory to find our documentation. We should see something similar to this:
 
-![Javadoc Location](/cc410/images/e1/18javadoc.png)
+![Javadoc Location](/images/e1/18javadoc.png)
 
 As before, we can find the `index.html` file, **right-click** it, and select **Preview Static** to open our documentation as a webpage. That should open a page that looks like this:
 
-![Javadoc](/cc410/images/e1/18doc.png)
+![Javadoc](/images/e1/18doc.png)
 
 Doesn't that look familiar? The design should hopefully remind you of the [Java API Documentation](https://docs.oracle.com/javase/8/docs/api/) that you are hopefully very used to working with at this point. From here, we can click through the links to learn more about each class. Let's take a look at the documentation for our `HelloWorldTest` class. Toward the bottom of that page, we should see a description for the methods that looks like this:
 
-![Javadoc See](/cc410/images/e1/18see.png)
+![Javadoc See](/images/e1/18see.png)
 
 Notice that there is a "See Also" section at the bottom? That was created by the inclusion of the `@see` tag in the comment! So, we can add some useful information to our documentation comments that make our documentation easy to follow. If you look at the comments in the [ArrayList](http://hg.openjdk.java.net/jdk8/jdk8/jdk/file/tip/src/share/classes/java/util/ArrayList.java) file we've been using as an example, you'll see even more ways to add helpful information to your documentation.

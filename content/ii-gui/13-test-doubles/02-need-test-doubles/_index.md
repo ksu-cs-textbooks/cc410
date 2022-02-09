@@ -6,19 +6,19 @@ pre: "2. "
 
 {{% youtube mJIS9K260_o %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the **application programming interface** or **API** of the module. 
 
 Ideally, we'd like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program. This is a key part of the design principle [**separation of concerns**](https://en.wikipedia.org/wiki/Separation_of_concerns), which involves breaking larger systems down into distinct sections that address a particular "concern" within the larger system.
 
-![Complexity to Categorization](/cc410/images/13/complex1.png)[^1]
+![Complexity to Categorization](/images/13/complex1.png)[^1]
 
 [^1]: https://medium.com/upstart-tech/software-design-separation-of-concerns-unit-testing-b38ece31e5f3
 
 So, by categorizing the individual classes in our application based on similarity, we can then start to organize our application into modules of code that are somewhat independent of each other. They still interact through the public APIs of each module, but the internal workings of one module should not be visible to another. 
 
-![Categorization to Abstraction](/cc410/images/13/complex2.png)[^1]
+![Categorization to Abstraction](/images/13/complex2.png)[^1]
 
 Once we start writing unit tests for our code, we can start to **abstract** away the details of other modules in the system, and focus just on the internal workings of the single unit of code, usually a class or method, that we intend to test. 
 

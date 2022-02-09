@@ -6,7 +6,7 @@ pre: "7. "
 
 {{% youtube sSokD2zkA8A %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 To create test doubles in JUnit, we'll rely on a separate library called Mockito. [Mockito](https://site.mockito.org/) is a framework for creating mock objects in Java that works well with JUnit, and has become one of the most commonly used tools for this task.
 

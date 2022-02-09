@@ -7,7 +7,7 @@ The last pattern we'll review in this course is the **template method pattern**.
 
 In this way, we avoid the problem of the subclass having to include large portions of the code from a method in the parent class when it only needs to change one aspect of the method. If that method is structured as a template method, then the subclass can just override the smaller portion that it needs to change.
 
-![Template Method Pattern UML](/cc410/images/12/template.jpg)[^1]
+![Template Method Pattern UML](/images/12/template.jpg)[^1]
 
 [^1]: https://en.wikipedia.org/wiki/Template_method_pattern
 

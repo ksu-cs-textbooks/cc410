@@ -40,7 +40,7 @@ pip3 freeze > requirements.txt
 
 That should create a file called `requirements.txt` in the `python` directory. When we open it, we should see contents similar to this:
 
-![Requirements File](/cc410/images/e1/24req.png)
+![Requirements File](/images/e1/24req.png)
 
 As we can see, there are a lot of libraries already installed - many more than we installed manually. This is because the `pip3 freeze` command will list all libraries installed, even if they were installed as a dependency for another library. 
 
@@ -71,7 +71,7 @@ tox will also use this requirements file to set up our test environment, as we'l
 
 Next, we'll need to create a configuration file for tox. The tox configuration file should be stored directly in the `python` directory with the name `tox.ini`. So, we should have the following structure once that file is created:
 
-![Tox Config File](/cc410/images/e1/24toxconfig.png)
+![Tox Config File](/images/e1/24toxconfig.png)
 
 The basics of creating a configuration file for tox are detailed in the [tox documentation](https://tox.readthedocs.io/en/latest/config.html). For now, we can use a quick starter file. So, place the following contents in the `tox.ini` file:
 
@@ -106,7 +106,7 @@ tox
 
 If everything is working correctly, we should get the following output:
 
-![Tox Output](/cc410/images/e1/24toxout.png)
+![Tox Output](/images/e1/24toxout.png)
 
 When we execute tox, it performs a few tasks:
 

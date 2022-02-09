@@ -5,7 +5,7 @@ pre: "3. "
 ---
 {{% youtube P1wM8NCV-ng %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 So, now that we understand state, let's talk about how we can serialize it in a way that is easy to parse and understand. There are really two major options we can choose from: a **textual** representation of the data, and a **binary** representation. Let's look at text formats first.
 
@@ -19,7 +19,7 @@ At its core, the concept of serialization to a text file is pretty much the same
 
 So, let's look at a simple example and explore the various ways that we could store this data in a textual format. Consider a `Person` object that has a `name` and `age` attribute. In addition, that object stores an instance of `Pet`, which also has a `name`, a `breed` and an `age` attribute. 
 
-![State Diagram](/cc410/images/19/state.svg)
+![State Diagram](/images/19/state.svg)
 
 With that structure in mind, there are several different formats we could use to store the data. 
 

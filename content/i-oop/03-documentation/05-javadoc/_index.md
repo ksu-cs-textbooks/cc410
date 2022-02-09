@@ -6,7 +6,7 @@ pre: "5. "
 
 {{% youtube QYAda6-2rVw %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 The Java software development kit (SDK) includes a tool called Javadoc, which can create documentation based on the documentation comments included in the code. Both the [Javadoc Documentation](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html) and the [Google Style Guide](https://google.github.io/styleguide/javaguide.html#s7-javadoc) include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information. The [Checkstyle](https://checkstyle.sourceforge.io/) tool is also a great way to check that the documentation comments are properly structured.
 

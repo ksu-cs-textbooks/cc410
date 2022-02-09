@@ -12,7 +12,7 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% youtube KOa9EIvlvOI %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 The World Wide Web was the brainchild of [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee).  It was conceived as a way to share information across the Internet; in Sir Berners-Lee's own words describing the idea as he first conceived it:
 
@@ -47,7 +47,7 @@ HTML elements have and opening and closing tag, and can have additional HTML con
 
 Let's explore the parts of an HTML element in more detail.
 
-![HTML Element Structure](/cc410/images/16/html_element.svg)[^1]
+![HTML Element Structure](/images/16/html_element.svg)[^1]
 
 [^1]: https://en.wikipedia.org/w/index.php?title=HTML_element&oldid=1012343971
 

@@ -26,7 +26,7 @@ While man pages are a staple of the Unix/Linux operating system, there was no eq
 
 However, once software began to be written with graphical user interfaces (GUIs), it became commonplace to incorporate the user documentation directly into the GUI, usually under a "Help" menu.  This served a similar purpose to man pages by ensuring user documentation was always available with the software.  Of course, one of the core goals of software design is to make the software so intuitive that users don't need to reference the documentation. It is equally clear that developers often fall short of that mark, as there is a thriving market for books to teach certain software.
 
-![Example Software Books](/cc410/images/3/dummies.jpg)[^1]
+![Example Software Books](/images/3/dummies.jpg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Dummies_(2973280850).jpg&oldid=478417927
 

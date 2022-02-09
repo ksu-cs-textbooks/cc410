@@ -5,7 +5,7 @@ pre: "4. "
 ---
 One question that comes up frequently when discussing software libraries is the difference between a library and a **framework**, as many times the terms are used interchangeably. So, let's briefly explore the difference between the two and how they interact with each other.
 
-![Framework vs. Library](/cc410/images/14/framework-vs-library.png)[^1]
+![Framework vs. Library](/images/14/framework-vs-library.png)[^1]
 
 [^1]: https://www.geeksforgeeks.org/software-framework-vs-library/
 

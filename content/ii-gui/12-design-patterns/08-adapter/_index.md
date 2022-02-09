@@ -6,11 +6,11 @@ pre: "8. "
 
 {{% youtube Ibxsanf8DFc %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Another pattern is the **adapter pattern**. The [adapter pattern](https://en.wikipedia.org/wiki/Software_design_pattern) is a structural pattern that is used to make an existing interface fit within a different interface. Just like we might use an adapter when traveling abroad to allow our appliances to plug in to different electrical outlets around the world, the adapter pattern lets us use one interface in place of another, similar interface.
 
-![Adapter Pattern](/cc410/images/12/adapter.jpg)[^1]
+![Adapter Pattern](/images/12/adapter.jpg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:W3sDesign_Adapter_Design_Pattern_UML.jpg&oldid=438698227
 

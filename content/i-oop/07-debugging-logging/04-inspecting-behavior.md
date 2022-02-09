@@ -96,7 +96,7 @@ Exception: Test Exception
 
 As we can see, both Java and Python will automatically print a **stack trace** of the exact functions and lines of code that we executed when we were reaching the error. Recall that this relates to the call stack in memory that is created while this program is executed:
 
-![Call Stack](/cc410/images/7/stack.png)
+![Call Stack](/images/7/stack.png)
 
 As we can see, Java will print the innermost call at the top of the call stack, whereas Python will invert the order and put the innermost call at the end. So, you'll have to read carefully to make sure you are interpreting the call stack correctly.
 

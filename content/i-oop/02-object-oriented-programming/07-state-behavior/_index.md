@@ -6,7 +6,7 @@ pre: "7. "
 
 {{% youtube 7UN8fXcpv7s %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 The data stored in a program at any given moment (in the form of variables, objects, etc.) is the *state* of the program.  Consider a variable:
 

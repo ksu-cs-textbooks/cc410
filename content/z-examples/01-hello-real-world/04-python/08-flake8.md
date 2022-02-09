@@ -45,7 +45,7 @@ pip3 install -r requirements.txt
 
 After that command executes, we should see that those libraries are now installed:
 
-![Pip install Flake8](/cc410/images/e1/28flake8install.png)
+![Pip install Flake8](/images/e1/28flake8install.png)
 
 ## Running Flake8
 
@@ -63,17 +63,17 @@ Let's look at this command and see what it does:
 
 Once we run that command, we'll probably get a bunch of output that looks like this:
 
-![Flake8 Output](/cc410/images/e1/28flake8output.png)
+![Flake8 Output](/images/e1/28flake8output.png)
 
 ## Resolving Flake8 Errors
 
 As we can see, our code has several errors in it. So, let's look at the errors in our `HelloWorld.py` file and see if we can resolve them. To view the errors, we can **right-click** the `reports/flake/index.html` file and select **Preview Static** to view it as a webpage:
 
-![Flake8 Report](/cc410/images/e1/28flake8report.png)
+![Flake8 Report](/images/e1/28flake8report.png)
 
 By clicking on the links on that page and expanding the code, we can clearly see the errors in our `HelloWorld.py` file:
 
-![HelloWorld Errors](/cc410/images/e1/28helloerrors.png)
+![HelloWorld Errors](/images/e1/28helloerrors.png)
 
 It looks like there are two errors:
 
@@ -82,7 +82,7 @@ It looks like there are two errors:
 
 If we open that file in the Codio editor, we may also see similar errors:
 
-![HelloWorld LSP](/cc410/images/e1/28hellolsp.png)
+![HelloWorld LSP](/images/e1/28hellolsp.png)
 
 Thankfully, the Codio editor includes a feature that performs many of the same checks as Flake8, so we can see many of the same messages by looking for yellow or red dots to the left of the code. Of course, Codio isn't guaranteed to find the same errors as Flake8, so we always have to use the Flake8 tool to be sure we found all the errors.
 
@@ -99,23 +99,23 @@ python3 -m flake8 --docstring-convention google --format=html --htmldir=reports/
 
 and then check the report to see if we fixed the problems:
 
-![Flake8 Errors Fixed](/cc410/images/e1/28flakefixed.png)
+![Flake8 Errors Fixed](/images/e1/28flakefixed.png)
 
 Yup! Since the file is no longer listed, we are good to go.
 
 One other error that is very common with Python code is this one:
 
-![Whitespace in Blank Lines](/cc410/images/e1/28blankline.png)
+![Whitespace in Blank Lines](/images/e1/28blankline.png)
 
 Our Python style guide requires that blank lines be completely blank, without any whitespace in them. However, the Codio editor (and many other IDEs) will try to be helpful and automatically indent a blank line for us, which causes these errors. The Codio editor even highlights them to tell us that it is wrong, but it still does it:
 
-![Whitespace in Blank Lines in Code](/cc410/images/e1/28blanklinecode.png)
+![Whitespace in Blank Lines in Code](/images/e1/28blanklinecode.png)
 
 So, we'll also have to remember to completely remove any whitespace from blank lines in our files in order to pass the Flake8 style checker. Before moving on with this example, modify the code in the various Python source files to ensure that everything is able to pass the Flake8 tool. In many professional software development roles, you aren't even able to save your code unless it passes a style checking tool, so it is a very good habit to get into. In this course, part of your grade will depend on your code following the appropriate style!
 
 Once you've resolved all the errors, you should get the following message in the Flake8 report:
 
-![Flake8 Good](/cc410/images/e1/28flake8good.png)
+![Flake8 Good](/images/e1/28flake8good.png)
 
 ## Integrating Flake8 with tox
 

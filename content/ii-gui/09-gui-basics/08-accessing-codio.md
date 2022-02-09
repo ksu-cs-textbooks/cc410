@@ -10,7 +10,7 @@ Before we can learn to write our own GUI programs, we should discuss exactly how
 
 The **X Window System** (sometimes referred to as **X11** or simply **X**) is a windowing system that is used on many Linux-based operating systems, including the Ubuntu system that Codio uses in the background. X handles drawing windows on the screen and passing user input back to the application, but that's about it. Most of the look and feel of the application is handled by the application itself, though different window managers bundled with various operating systems can also provide various themes for applications that are rendered using X.
 
-![X Client Server](/cc410/images/9/x_example.svg)[^1]
+![X Client Server](/images/9/x_example.svg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:X_client_server_example.svg&oldid=485453207
 
@@ -39,11 +39,11 @@ There are a few ways to do this:
 
 3. You can load the viewer in any other browser tab using the url `https://box-name-3000.codio.io/`, where you replace `box-name` with the two word domain name. It can be found in the **Project** menu under **Box Info**. It also appears on the terminal:
 
-![Box Name](/cc410/images/9/boxname.png)
+![Box Name](/images/9/boxname.png)
 
 In this case, the box name is `field-memo`. Once you load the viewer, you should see a window similar to this:
 
-![Viewer](/cc410/images/9/viewer.png)
+![Viewer](/images/9/viewer.png)
 
 Then, when you launch any program that has a GUI, it will appear in this window. 
 

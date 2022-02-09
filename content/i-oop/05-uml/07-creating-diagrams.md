@@ -7,7 +7,7 @@ There are many tools available to help you develop your own UML diagrams. Here a
 
 ## Diagrams.net
 
-![Diagrams.net Interface](/cc410/images/5/diagrams.net.png)
+![Diagrams.net Interface](/images/5/diagrams.net.png)
 
 Most of the graphics used in the Computational Core program, including the UML diagrams in this and previous courses, are made using the free [Diagrams.net](https://www.diagrams.net/) tool. 
 
@@ -31,7 +31,7 @@ Another tool we can use to create UML diagrams is Microsoft Visio.  For Kansas S
 
 Visio is a vector graphics editor for creating flowcharts and diagrams.  it comes preloaded with a UML class diagram template, which can be selected when creating a new file:
 
-![Visio Template](/cc410/images/5/visio.png)
+![Visio Template](/images/5/visio.png)
 
 Class diagrams are built by dragging shapes from the shape toolbox onto the drawing surface. Notice that the shapes include classes, interfaces, enumerations, and all the associations we have discussed. Once in the drawing surface, these can be resized and edited.
 

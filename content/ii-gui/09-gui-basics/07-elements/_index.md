@@ -6,13 +6,13 @@ pre: "7. "
 
 {{% youtube GTkJYwpw4vQ %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Once we've created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we'll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs. Refer to the links for screenshots and examples of how each of these elements can be used in our programs. Examples below are taken from the [TkDocs](https://tkdocs.com/tutorial/index.html) documentation site. 
 
 ## Panel
 
-![Frame](/cc410/images/9/w_frame.png)[^1]
+![Frame](/images/9/w_frame.png)[^1]
 
 [^1]: https://tkdocs.com/tutorial/widgets.html
 
@@ -23,7 +23,7 @@ A panel is the container element in the GUI. It usually doesn't appear to have a
 
 ## Label
 
-![Label](/cc410/images/9/w_label.png)[^1]
+![Label](/images/9/w_label.png)[^1]
 
 * Java: [JLabel](https://docs.oracle.com/javase/8/docs/api/javax/swing/JLabel.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/label.html))
 * Python: [Label](https://tkdocs.com/tutorial/widgets.html#label) ([Tutorial](https://www.geeksforgeeks.org/python-tkinter-label/))
@@ -32,7 +32,7 @@ A label is simply a piece of text added to the GUI that is not editable by the u
 
 ## Single Line Text Input
 
-![Entry](/cc410/images/9/w_entry.png)[^1]
+![Entry](/images/9/w_entry.png)[^1]
 
 * Java: [JTextField](https://docs.oracle.com/javase/8/docs/api/javax/swing/JTextField.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/textfield.html))
 * Python: [Entry](https://tkdocs.com/tutorial/widgets.html#entry) ([Tutorial](https://www.geeksforgeeks.org/python-tkinter-entry-widget/))
@@ -41,7 +41,7 @@ These controls are used for a single line of text input, such as a username or p
 
 ## Multiple Line Text Input
 
-![Text](/cc410/images/9/w_text.png)[^2]
+![Text](/images/9/w_text.png)[^2]
 
 [^2]: https://tkdocs.com/tutorial/morewidgets.html#text
 
@@ -52,7 +52,7 @@ These controls handle multiple lines of text input, such as in a word processing
 
 ## Button
 
-![Button](/cc410/images/9/w_button.png)[^1]
+![Button](/images/9/w_button.png)[^1]
 
 * Java [JButton](https://docs.oracle.com/javase/8/docs/api/javax/swing/JButton.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/button.html))
 * Python [Button](https://tkdocs.com/tutorial/widgets.html#button) ([Tutorial](https://www.geeksforgeeks.org/python-creating-a-button-in-tkinter/))
@@ -61,7 +61,7 @@ A button is one of the simplest controls. When a user clicks on a button in our 
 
 ## Checkbox
 
-![Checkbutton](/cc410/images/9/w_checkbutton.png)[^1]
+![Checkbutton](/images/9/w_checkbutton.png)[^1]
 
 * Java [JCheckBox](https://docs.oracle.com/javase/8/docs/api/javax/swing/JCheckBox.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/button.html))
 * Python [Checkbutton](https://tkdocs.com/tutorial/widgets.html#checkbutton) ([Tutorial](https://www.geeksforgeeks.org/python-tkinter-checkbutton-widget/?ref=lbp))
@@ -70,7 +70,7 @@ A checkbox, sometimes referred to as a toggle, allows the user to manipulate a b
 
 ## Radio Button
 
-![Radiobutton](/cc410/images/9/w_radiobutton.png)[^1]
+![Radiobutton](/images/9/w_radiobutton.png)[^1]
 
 * Java [JRadioButton](https://docs.oracle.com/javase/8/docs/api/javax/swing/JRadioButton.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/button.html))
 * Python [Radiobutton](https://tkdocs.com/tutorial/widgets.html#radiobutton) ([Tutorial](https://www.geeksforgeeks.org/radiobutton-in-tkinter-python/?ref=lbp))
@@ -79,7 +79,7 @@ A radio button is part of a set of buttons that are similar to checkboxes, but o
 
 ## List Box
 
-![Listbox](/cc410/images/9/w_listbox.png)[^2]
+![Listbox](/images/9/w_listbox.png)[^2]
 
 * Java [JList](https://docs.oracle.com/javase/8/docs/api/javax/swing/JList.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/list.html))
 * Python [ListBox](https://tkdocs.com/tutorial/morewidgets.html#listbox) ([Tutorial](https://www.geeksforgeeks.org/python-tkinter-listbox-widget/?ref=lbp))
@@ -88,7 +88,7 @@ A list box displays a list of options to the user, and then the user can choose 
 
 ## Combo Box
 
-![Combobox](/cc410/images/9/w_combobox.png)[^1]
+![Combobox](/images/9/w_combobox.png)[^1]
 
 * Java [JCombBox](https://docs.oracle.com/javase/8/docs/api/javax/swing/JComboBox.html) ([Tutorial](https://docs.oracle.com/javase/tutorial/uiswing/components/combobox.html))
 * Python [Combobox](https://tkdocs.com/tutorial/morewidgets.html#listbox) ([Tutorial](https://www.geeksforgeeks.org/combobox-widget-in-tkinter-python/?ref=lbp))

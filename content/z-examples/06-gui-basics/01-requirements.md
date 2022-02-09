@@ -107,8 +107,8 @@ _a chocolate lovers' dream_
 
 ##### Main Window with Order Panel
 
-![Main Screen](/cc410/images/e6/sketch.svg)
+![Main Screen](/images/e6/sketch.svg)
 
 ##### Main Window with Sundae Panel
 
-![Main Screen](/cc410/images/e6/sketch2.svg)
+![Main Screen](/images/e6/sketch2.svg)

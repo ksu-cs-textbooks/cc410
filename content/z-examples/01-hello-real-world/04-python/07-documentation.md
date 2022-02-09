@@ -245,7 +245,7 @@ pip3 install -r requirements.txt
 
 As before, if everything works correctly we should see that pdoc3 was installed:
 
-![Install pdoc](/cc410/images/e1/27installpdoc.png)
+![Install pdoc](/images/e1/27installpdoc.png)
 
 Once we've installed pdoc3, we can use the following command from within the `python` directory to generate our documentation:
 
@@ -263,15 +263,15 @@ Let's look at that command to understand what it does:
 
 Once it has been executed, we should now see a new directory called `doc` in our `reports` folder:
 
-![Pdoc3 Output](/cc410/images/e1/27pdocreport.png)
+![Pdoc3 Output](/images/e1/27pdocreport.png)
 
 To open the report, we can **right-click** on the `reports/doc/python/index.html` file and choose **Preview Static**. We should see a webpage that looks like this:
 
-![pdoc HTML](/cc410/images/e1/27pdochtml.png)
+![pdoc HTML](/images/e1/27pdochtml.png)
 
 We can follow the links on that page to explore the entirety of our project. For example, if we drill down to the `main` method in the `HelloWorld` class, we can see the "Args" section and how it appears in the documentation. We can even show the original source code for the method directly from the documentation:
 
-![pdoc Main Method](/cc410/images/e1/27pdocmethod.png)
+![pdoc Main Method](/images/e1/27pdocmethod.png)
 
 As we can see, this documentation would be very valuable to anyone who wants to explore and learn more about our code. So, we'll need to make sure we always include helpful docstrings in our Python code!
 

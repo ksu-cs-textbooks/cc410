@@ -6,9 +6,9 @@ pre: "2. "
 
 {{% youtube Pk4U6GE8jnI %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
-![UML Logo](/cc410/images/5/410_5_umllogo.svg)[^1]
+![UML Logo](/images/5/410_5_umllogo.svg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:UML_logo.svg&oldid=519544315]
 

@@ -6,7 +6,7 @@ pre: "3. "
 
 {{% youtube hpBFUcKaSh8 %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 If we think back to the concept of _message passing_ in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an _interface_, i.e., a list of messages you can dispatch to an object created from that class.  When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language's documentation: 
 
@@ -16,7 +16,7 @@ If we think back to the concept of _message passing_ in object-oriented language
 
 ###### Java API
 
-![Java API](/cc410/images/6/java_api.png)
+![Java API](/images/6/java_api.png)
 
 {{% /tab %}}
 
@@ -24,7 +24,7 @@ If we think back to the concept of _message passing_ in object-oriented language
 
 ###### Python API
 
-![Python API](/cc410/images/6/python_api.png)
+![Python API](/images/6/python_api.png)
 
 {{% /tab %}}
 

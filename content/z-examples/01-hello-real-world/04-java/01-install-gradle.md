@@ -47,7 +47,7 @@ java -version
 
 All of these commands can be executed from any directory, but we recommend using the default location of `~/workspace`. We should see output similar to the following:
 
-![Java Version](/cc410/images/e1/5javaver.png)
+![Java Version](/images/e1/5javaver.png)
 
 In this image, we see that we already have Java 8 installed, specifically version `1.8.0_275`. This is included in our standard Codio stack, so we won't have to worry about installing Java. Therefore, we meet the minimum installation requirement. 
 
@@ -61,7 +61,7 @@ curl -s "https://get.sdkman.io" | bash
 
 When we do that, we'll get output that looks like this:
 
-![Install SDKMAN!](/cc410/images/e1/6sdk.png)
+![Install SDKMAN!](/images/e1/6sdk.png)
 
 If it was successful, we'll have to close and reopen the terminal in order to use it. 
 
@@ -73,11 +73,11 @@ Here are three quick comments to explain a bit more about what we just did that 
 
 One point of confusion for many new developers is the inconsistent way Linux terminal commands are denoted in the documentation of various tools. For example, in the Gradle documentation, Linux terminal commands are prefixed by a greater-than symbol `>`:
 
-![Arrow Prefix](/cc410/images/e1/7arrow.png)
+![Arrow Prefix](/images/e1/7arrow.png)
 
 In the [SDKMAN! installation instructions](https://sdkman.io/install), you'll notice that the installation command includes a dollar sign `$` in front of it, as seen below:
 
-![Dollar Sign](/cc410/images/e1/7dollar.png)
+![Dollar Sign](/images/e1/7dollar.png)
 
 However, when we executed those commands, we didn't include the greater-than symbol or dollar sign. Why is that? Many places that include documentation for the Linux terminal helpfully include either the last symbol of the command prompt before the command, or some other symbol like an arrow, indicating that this is a command to be entered in the terminal. Linux typically uses two different types of command prompts:
 
@@ -120,7 +120,7 @@ sdk install gradle
 
 After that command executes, you should get a message similar to the following:
 
-![Gradle Install](/cc410/images/e1/8gradle.png)
+![Gradle Install](/images/e1/8gradle.png)
 
 If you receive that message, then Gradle has been successfully installed. You can test this by running the following command:
 

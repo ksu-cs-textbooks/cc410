@@ -6,7 +6,7 @@ pre: "6. "
 
 {{% youtube kTLQbt3hseI %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 The Python programming language doesn't include direct support for interfaces in the same way as other object-oriented programming languages. However, it is possible to construct the same functionality in Python with just a little bit of work. For the full context, check out [Implementing in Interface in Python](https://realpython.com/python-interface/#using-abstract-method-declaration) from Real Python. It includes a much deeper discussion of the different aspects of this code and why we use it.
 

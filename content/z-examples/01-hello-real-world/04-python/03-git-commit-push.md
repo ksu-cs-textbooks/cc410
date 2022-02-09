@@ -34,7 +34,7 @@ At this point, you might be pretty confused about Git, GitHub, repositories, clo
 
 Git stores data in several different places, and there are several Git commands to transfer the data between those places. It is best summarized in this diagram:
 
-![Git Workflow](/cc410/images/e1/wiki_git.svg)^[https://commons.wikimedia.org/w/index.php?title=File:Git_data_flow_simplified.svg&oldid=511614601]
+![Git Workflow](/images/e1/wiki_git.svg)^[https://commons.wikimedia.org/w/index.php?title=File:Git_data_flow_simplified.svg&oldid=511614601]
 
 Let's look at Git from the bottom up and see how it works.
 
@@ -46,7 +46,7 @@ For this project, our **working directory** in Git is the `python` folder where 
 
 First, we'll need to create a special file called `.gitignore` in the `python` directory, or in the root of our working directory for Git. That file contains information that tells Git what files we want to "ignore" - files that Git shouldn't try to save. Typically we only want Git to store the source code for our program, and not any compiled classes, reports, or temporary files.
 
-![Python Gitignore](/cc410/images/e1/33pythonignore.png)
+![Python Gitignore](/images/e1/33pythonignore.png)
 
 Next, let's place the following content into our `.gitignore` file:
 
@@ -78,7 +78,7 @@ git status
 
 You should see output similar to this:
 
-![Python Git Status](/cc410/images/e1/33pythonstatus.png)
+![Python Git Status](/images/e1/33pythonstatus.png)
 
 At this point, all of the files are "untracked" and listed in red, which means that they aren't part of the index. So, we need to add files to the index before we can commit them. To do that, we can use the `git add` command, followed by the files we'd like to add to the index. Of course, naming each file individually can be time consuming, so we can use the following shortcut to add all of the untracked files in our working directory to the index:
 
@@ -94,7 +94,7 @@ git status
 
 We should now see a whole bunch of files listed as "Changes to be committed":
 
-![Python Git Index](/cc410/images/e1/33pythonindex.png)
+![Python Git Index](/images/e1/33pythonindex.png)
 
 Those files listed in green are now "staged" and ready to commit to our local repository. So, before we move on to the next step, we'll want to make sure that all the files we changed are included in the list of files to be committed. In this case, we see our `HelloWorld.py` file, as well as the other file we modified in the previous step.
 
@@ -116,7 +116,7 @@ git commit
 
 When you do, your terminal will open a text editor program called Nano, which you can use to place your commit message at the top of the file. It will look something like this:
 
-![Python Nano](/cc410/images/e1/33pythonnano.png)
+![Python Nano](/images/e1/33pythonnano.png)
 
 As you can see, we've already entered the message "Commit Message Here" at the top of the file. Once we've done that, we need to save and close the file. To do that, follow these steps:
 
@@ -138,7 +138,7 @@ This is a quick and easy way to add a commit message to our commit without using
 
 Once we've specified our commit message, Git will commit our changes to the local repository. We should see output similar to this if it was successful:
 
-![Python Commit Success](/cc410/images/e1/33pythoncommit.png)
+![Python Commit Success](/images/e1/33pythoncommit.png)
 
 If so, we've just made our first commit to our local repository. Now, if we ever need to restore our code back to that point, we can! As we continue to work with Git in this course, we'll explore some of these more advanced features. For now, we'll just us it to track our work. 
 
@@ -156,11 +156,11 @@ git push
 
 We should then get output that looks like this:
 
-![Python Git Push](/cc410/images/e1/33pythonpush.png)
+![Python Git Push](/images/e1/33pythonpush.png)
 
 There we go! We've now pushed our code to GitHub. Now, let's go check it out. So, navigate to your repository on GitHub classroom, and refresh the page if needed to see your changes. For me, it now looks like this:
 
-![Python GitHub](/cc410/images/e1/33pythongithub.png)
+![Python GitHub](/images/e1/33pythongithub.png)
 
 Now all of our code is visible on GitHub, and we can see our commit message next to all of the files that have changed. As we continue to make commits and push them to GitHub, we can use this website to explore the different versions of each file. In addition, the instructors for this course can explore your repository and help you resolve errors and assign grades based on your work here. 
 

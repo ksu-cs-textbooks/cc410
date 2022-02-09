@@ -5,7 +5,7 @@ pre: "4. "
 ---
 {{% youtube SQUTcxc3RYo %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 {{% notice note note-1 "Inconsistent Naming" %}}
 
@@ -15,7 +15,7 @@ Unfortunately, the naming of many of these test doubles, such as stubs, mocks, a
 
 There are three major types of test doubles that we'll cover in this chapter. The first are **stubs**, sometimes referred to as **stub methods** or **method stubs**. A [stub](https://en.wikipedia.org/wiki/Method_stub) is simply an object that is used to return predefined data when its methods are called, without any internal logic.  
 
-![Stub](/cc410/images/13/stub.png)[^1]
+![Stub](/images/13/stub.png)[^1]
 
 [^1]: https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da
 

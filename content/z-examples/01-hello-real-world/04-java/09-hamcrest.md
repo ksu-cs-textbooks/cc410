@@ -117,11 +117,11 @@ gradle test
 
 When the tests are complete, we can open the report and we should now see that there are 4 tests that executed successfully:
 
-![Hamcrest Test Report](/cc410/images/e1/20tests.png)
+![Hamcrest Test Report](/images/e1/20tests.png)
 
 While we're at it, since we added new code and unit tests we should also check to make sure that our code coverage is still good:
 
-![Hamcrest Code Coverage](/cc410/images/e1/20cov.png)
+![Hamcrest Code Coverage](/images/e1/20cov.png)
 
 And that our code passes all style checks by running:
 

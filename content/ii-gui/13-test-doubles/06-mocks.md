@@ -6,7 +6,7 @@ pre: "6. "
 
 The third type of test double we'll cover is the **mock object**, sometimes referred to as a **test spy**. A mock object is typically used to verify that our code performs the correct actions on other parts of the system. Usually, the mock object will simply listen for any incoming method calls, and then once our action is complete we can verify that the correct methods were called with the correct inputs by examining our mock object. 
 
-![Mock](/cc410/images/13/mock.png)[^1]
+![Mock](/images/13/mock.png)[^1]
 
 [^1]: https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da
 

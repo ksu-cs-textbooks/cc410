@@ -6,13 +6,13 @@ pre: "4. "
 
 {{% youtube wqeJO6S5lJE %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.
 
 ## GUI Sketching
 
-![GUI Sketch](/cc410/images/9/sketch.png)[^1]
+![GUI Sketch](/images/9/sketch.png)[^1]
 
 [^1]: https://uxdesign.cc/ui-ux-sketching-techniques-101-7e91d854ae3d
 
@@ -25,7 +25,7 @@ Once you've got a basic idea of what you'd like your GUI to look like, there are
 
 ## GUI Mockup
 
-![Mockup](/cc410/images/9/mockup.svg)
+![Mockup](/images/9/mockup.svg)
 
 Another type of tool we can use to develop GUI prototypes is a simple drawing tool. Both Microsoft Visio (available through the [Azure Student Portal](https://support.cs.ksu.edu/CISDocs/wiki/FAQ#MSDNAA)) and the [Diagrams.net](https://www.diagrams.net/) drawing app are both well suited to develop GUI prototypes. In fact, they even include some items you can use to mimic what a real GUI would look like. The picture above was created using a few of the built-in mockup designs present in Diagrams.net
 

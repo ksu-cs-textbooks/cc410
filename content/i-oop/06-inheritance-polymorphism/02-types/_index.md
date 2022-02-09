@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube 6X3xXxPNguo %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Before we can discuss polymorphism in detail, we must first understand the concept of _types_.  In computer science, a _type_ is a way of categorizing a variable by its storage strategy, i.e., how it is represented in the computer's memory. It also defines how the value can be treated and what operations can be performed on it. 
 

@@ -14,13 +14,13 @@ A layout manager, put simply, is a piece of code that can automatically resize a
 
 As an example, the Java Swing toolkit includes several different layout managers, and each one can be used to achieve different outcomes. The best resource is [A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html) on the Oracle website, as it shows graphically how each layout manager available in Java Swing operates. 
 
-![Border Layout](/cc410/images/9/border.png)[^1]
+![Border Layout](/images/9/border.png)[^1]
 
 [^1]: https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html
 
 For example, the `BorderLayout` will attach controls to the borders of the screen, growing and shrinking them as the window is resized. 
 
-![Grid Layout](/cc410/images/9/grid.png)[^1]
+![Grid Layout](/images/9/grid.png)[^1]
 
 The `GridLayout` will arrange controls in a grid of rows and columns. 
 
@@ -28,17 +28,17 @@ The `GridLayout` will arrange controls in a grid of rows and columns.
 
 The Python tkinter library includes three layout managers, `place`, `pack`, and `grid`. 
 
-![Place Layout](/cc410/images/9/place.png)[^2]
+![Place Layout](/images/9/place.png)[^2]
 
 [^2]: https://zetcode.com/tkinter/layout/
 
 The `place` layout manager can be used to place elements on the screen at specific x-y coordinates. 
 
-![Pack Layout](/cc410/images/9/pack.png)[^2]
+![Pack Layout](/images/9/pack.png)[^2]
 
 The `pack` layout manager is used to fit controls to the screen, expanding them in various directions as needed to fill the available space.
 
-![Grid Layout](/cc410/images/9/gridpy.png)[^2]
+![Grid Layout](/images/9/gridpy.png)[^2]
 
 Finally, the `grid` layout manager works very similar to the `GridLayout` manager in Java, allowing us to create rows and columns of elements on our screen.
 

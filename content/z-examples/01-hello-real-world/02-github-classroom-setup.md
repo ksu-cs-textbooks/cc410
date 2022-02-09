@@ -18,21 +18,21 @@ First, before you do anything else, you'll need to create an account on [GitHub]
 
 Once you've created your GitHub account, you can also get access to the [GitHub Student Developer Pack](https://education.github.com/pack), which gives you access to a ton of cool tools and free content for developers. We highly recommend checking it out!
 
-![GitHub Student Developer Pack](/cc410/images/e1/31pack.png)
+![GitHub Student Developer Pack](/images/e1/31pack.png)
 
 {{% /notice %}}
 
 Next, click the invitation link in Canvas to accept the assignment in GitHub classroom. The first time you do this, you'll be asked to authorize GitHub Classroom on your GitHub account. You should see a page that looks like this:
 
-![GitHub Classroom Authorize](/cc410/images/e1/31auth.png)
+![GitHub Classroom Authorize](/images/e1/31auth.png)
 
 Next, you'll be asked to accept the invitation itself. Once you do that, GitHub will create a repository for you to store your code, which may take a few minutes. You can refresh the page to see the progress. Once it is done, you'll see a page like this:
 
-![GitHub Classroom Done](/cc410/images/e1/31done.png)
+![GitHub Classroom Done](/images/e1/31done.png)
 
 However, before you can access the assignment, you may need to accept an invite that is sent to your email address that is registered with GitHub. However, once you've done that, you should be able to access your repository! The page should look like this:
 
-![GitHub Classroom Repo](/cc410/images/e1/31repo.png)
+![GitHub Classroom Repo](/images/e1/31repo.png)
 
 You'll need to perform this process for each GitHub Classroom assignment in this course, but after the first time it should be as easy as clicking the link in Canvas and setting up a new repository. 
 
@@ -44,15 +44,15 @@ First, you'll need get to your Codio Account Settings. You can do so by either c
 
 Once there, click on the Applications tab at the top. That should bring you to a page that looks like this:
 
-![Codio Applications](/cc410/images/e1/31apps.png)
+![Codio Applications](/images/e1/31apps.png)
 
 Click the **Connect Account** button to connect your Codio account with GitHub, and then click the button to authorize Codio on the next page. Once that is done, you should be brought back to Codio, where you can click the **Upload Public Key** button to add your SSH key to GitHub. Once again, you'll need to click the button to authorize Codio on GitHub. Once you get back to Codio, you should see a message stating that your public key is uploaded to GitHub. 
 
-![Codio Key Done](/cc410/images/e1/31keydone.png)
+![Codio Key Done](/images/e1/31keydone.png)
 
 There you go! You can confirm that it works by going to your GitHub account settings, finding the **SSH and GPG keys** section, or by navigating to [https://github.com/settings/keys](https://github.com/settings/keys). Once there, you should see an SSH key added by Codio, which would look something like this:
 
-![Codio Key on GitHub](/cc410/images/e1/31githubkey.png)
+![Codio Key on GitHub](/images/e1/31githubkey.png)
 
 {{% notice note note-1 "Manually Adding SSH Keys to GitHub" %}}
 

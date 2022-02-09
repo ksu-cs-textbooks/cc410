@@ -12,7 +12,7 @@ A **window** is the top most level of the user interface for most programs. Basi
 
 We see windows all the time when we work with modern computer interfaces. The [window metaphor](https://en.wikipedia.org/wiki/Windowing_system) is the most dominant interface metaphor in use today, used by nearly all operating systems designed for personal computers. 
 
-![Window Metaphor](/cc410/images/9/window.png)[^1]
+![Window Metaphor](/images/9/window.png)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Window_(windowing_system).svg&oldid=518575036
 

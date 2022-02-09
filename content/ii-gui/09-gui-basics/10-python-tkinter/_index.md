@@ -6,7 +6,7 @@ pre: "10. "
 
 {{% youtube Xfb2VJ2dswM %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Now let's dive into Python tkinter and see how to make our very first GUI application in Tk. 
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
 When we run this code, then open the Codio viewer, we should see this window:
 
-![Python Hello World](/cc410/images/9/pythonhello.png)
+![Python Hello World](/images/9/pythonhello.png)
 
 Let's go through this code and explore what it does. We'll also cover most of this content in the example project for this chapter.
 

@@ -6,7 +6,7 @@ pre: "5. "
 
 {{% youtube oVKZPiGAd4c %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 What if we want to have a bit more control over our programs and use a more powerful tool for finding bugs. In that case, we'll need to use a **debugger**. A debugger is a special application that allows us to inspect another program while it is running. Using a debugger, we can inspect both the state and behavior of an application, and observe the program directly while it runs. Most debuggers can also be configured to pause a program at a particular line of code, and then execute each following line one at a time to quickly find the source of the error. Both Java and Python come with debuggers that we can use.
 
@@ -37,7 +37,7 @@ The [Codio Documentation](https://docs.codio.com/project/ide/features/#debugging
 
 Once the Codio debugger is launched, you'll be given a view similar to this one:
 
-![Debugging Started](/cc410/images/7/debug-started.png)[^1]
+![Debugging Started](/images/7/debug-started.png)[^1]
 
 [^1]: https://docs.codio.com/project/ide/features/#debugging
 

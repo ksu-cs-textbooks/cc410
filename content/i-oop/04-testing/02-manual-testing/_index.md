@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube mFLBP2hW154 %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 As you've developed programs, you've probably run them, supplied input, and observed if what happened was what you wanted. This process is known as _informal testing_.  It's informal, because you don't have a set procedure you follow, i.e. what specific inputs to use, and what results to expect.  _Formal testing_ adds that structure.  In a formal test, you would have a written procedure to follow, which specifies _exactly_ what inputs to supply, and what results should be expected.  This written procedure is known as a _test plan_.
 
@@ -14,7 +14,7 @@ Historically, the test plan was often developed at the same time as the design f
 
 This model of software development has often been referred to as the "waterfall model" as each task depends on the one before it:
 
-![The Waterfall Model of Software Development](/cc410/images/4/waterfall.svg)[^waterfall]
+![The Waterfall Model of Software Development](/images/4/waterfall.svg)[^waterfall]
 
 [^waterfall]: File:Waterfall model.svg. (2020, September 9). Wikimedia Commons, the free media repository. Retrieved 16:48, October 21, 2021 from https://commons.wikimedia.org/w/index.php?title=File:Waterfall_model.svg&oldid=453496509.
 
@@ -22,7 +22,7 @@ Unfortunately, as this model is often implemented, the programmers responsible f
 
 The costs involved in fixing software errors also grow larger the longer the error exists in the software. The table below comes from a NASA report of software error costs throughout the project life cycle: 
 
-![Comparison of System Cost Factors Excluding Operations](/cc410/images/4/costs.png)[^nasa2004]
+![Comparison of System Cost Factors Excluding Operations](/images/4/costs.png)[^nasa2004]
 
 [^nasa2004]: Jonette M. Stecklein, Jim Dabney, Brandon Dick, Bill Haskins, Randy Lovell, and Gregory Maroney. ["Error Cost Escalation Through the Project Life Cycle"](https://ntrs.nasa.gov/citations/20100036670), NASA, June 19, 2014.
 

@@ -6,11 +6,11 @@ pre: "4. "
 
 {{% youtube P-aAi5-wcZw %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 The first pattern we'll look at is the **builder pattern.** The [builder pattern](https://en.wikipedia.org/wiki/Builder_pattern) is used to simplify building complex objects,  where the class that needs the object shouldn't have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.
 
-![Builder Pattern UML](/cc410/images/12/builder.jpg)[^1]
+![Builder Pattern UML](/images/12/builder.jpg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:W3sDesign_Builder_Design_Pattern_UML.jpg&oldid=488851706
 

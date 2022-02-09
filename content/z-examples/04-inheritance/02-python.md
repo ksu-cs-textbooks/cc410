@@ -13,9 +13,9 @@ weight: 25
 
 ## Configuring Codio Debugger
 
-![Python](/cc410/images/e5/python.png)
+![Python](/images/e5/python.png)
 
-![Python 2](/cc410/images/e5/python2.png)
+![Python 2](/images/e5/python2.png)
 
 Edit `src/__main__.py` to set Python path:
 

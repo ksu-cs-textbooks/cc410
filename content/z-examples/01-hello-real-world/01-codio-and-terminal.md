@@ -12,7 +12,7 @@ So, let's cover some basics of using the Codio interface and the terminal.
 
 ## Codio Interface
 
-![File Tree](/cc410/images/e1/1file.png)
+![File Tree](/images/e1/1file.png)
 
 To the left, you should see the Codio file tree interface. If you don't see it for some reason, you can always show it by going to the **View** menu and selecting **File Tree**. 
 
@@ -37,7 +37,7 @@ The example videos will model this behavior. Make sure you pay special attention
 
 ## Linux Terminal
 
-![Linux Terminal](/cc410/images/e1/2terminal.png)
+![Linux Terminal](/images/e1/2terminal.png)
 
 You'll also need to use the Linux terminal from time to time in this course. This is how you can compile and execute your programs, run your tests, and more. Codio includes several ways to open the terminal:
 
@@ -57,11 +57,11 @@ One important thing to keep in mind when working through the Linux terminal and 
 
 In any of the videos and screenshots, you can determine the current working directory of the Linux terminal by looking closely at the prompt. It will be shown between the colon `:` and dollar sign `$` characters, as shown in the image below:
 
-![Path Terminal](/cc410/images/e1/3path.png)
+![Path Terminal](/images/e1/3path.png)
 
 The path `~/workspace` corresponds to the top level of the Codio file tree. So, the full path `~/workspace/java/directory1/directory2` corresponds to the directory highlighted in the image below: 
 
-![Path Directory](/cc410/images/e1/4path.png)
+![Path Directory](/images/e1/4path.png)
 
 Make sure you watch the videos and read the content closely to get the directories correct! The projects in this course are much more complex than previous courses, and include multiple different folders full of files, sometimes with identical names!
 

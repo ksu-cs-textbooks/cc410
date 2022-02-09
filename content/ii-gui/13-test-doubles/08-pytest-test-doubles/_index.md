@@ -6,7 +6,7 @@ pre: "8. "
 
 {{% youtube pNqcrx785Gs %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 To create test doubles in Python, we'll rely on the built-in [unittest.mock](https://docs.python.org/3/library/unittest.mock.html) library. It includes lots of quick and easy methods for creating fake objects in Python, and it is compatible with the pytest testing framework that we're already using.
 

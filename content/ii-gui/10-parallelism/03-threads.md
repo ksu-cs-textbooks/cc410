@@ -3,7 +3,7 @@ title: "Threads"
 weight: 15
 pre: "3. "
 ---
-![Thread](/cc410/images/10/thread.svg)[^1]
+![Thread](/images/10/thread.svg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Multithreaded_process.svg&oldid=515934464
 

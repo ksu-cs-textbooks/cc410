@@ -4,7 +4,7 @@ hidden: true
 ---
 
 <section>
-    <img class="plain stretch" src="/cc410/images/14/ogg_vorbis.svg">
+    <img class="plain stretch" src="/images/14/ogg_vorbis.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Ogg_vorbis_libs_and_application_dia.svg&oldid=456091091">Wikipedia</a></p>
 </section>
 <section>

@@ -6,7 +6,7 @@ pre: "3. "
 
 Thus far, we've mainly discussed the [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) architectural style for web APIs, since it has become commonly used on the internet today. However, let's briefly look at one other architectural style for web APIs and see how it compares to REST. 
 
-![SOAP](/cc410/images/18/soap.png)[^1]
+![SOAP](/images/18/soap.png)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Webservice_xrpc.png&oldid=460901418
 

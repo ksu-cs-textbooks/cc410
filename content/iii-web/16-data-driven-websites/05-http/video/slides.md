@@ -13,7 +13,7 @@ hidden: true
     </ul>
 </section>
 <section>
-    <img class="plain stretch" src="/cc410/images/16/410_16_http.png">
+    <img class="plain stretch" src="/images/16/410_16_http.png">
 </section>
 <section>
     <h3>HTTP Request</h3>

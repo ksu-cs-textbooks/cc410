@@ -8,7 +8,7 @@ The Java programming language has many different libraries available for develop
 
 ## Java Standard Library
 
-![Java Standard Library](/cc410/images/14/java.png)[^1]
+![Java Standard Library](/images/14/java.png)[^1]
 
 [^1]: https://www.oracle.com/java/technologies/platform-glance.html
 

@@ -262,7 +262,7 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 #### Sample Combo Customization GUI
 
-![Combo Window](/cc410/images/m7/410_m7_gui.svg)
+![Combo Window](/images/m7/410_m7_gui.svg)
 
 {{% notice tip %}}
 
@@ -274,4 +274,4 @@ Note that the window above only has a single side option, but the combo for this
 
 You may wish to review the [Spinner](https://docs.oracle.com/javase/tutorial/uiswing/components/spinner.html) (Java) or [Spinbox](https://tkdocs.com/tutorial/morewidgets.html#spinbox) (Python) GUI elements.
 
-![Cash Window](/cc410/images/m7/410_m7_gui_cash.svg)
+![Cash Window](/images/m7/410_m7_gui_cash.svg)

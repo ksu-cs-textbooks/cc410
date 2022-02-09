@@ -6,13 +6,13 @@ pre: "2. "
 
 {{% youtube aDJMUyneWKY %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 First, let's review how modern computers actually handle running multiple applications at once, and what that means for our own programs.
 
 ## Process
 
-![HTOP](/cc410/images/10/htop.png)[^1]
+![HTOP](/images/10/htop.png)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Htop.png&oldid=528715283
 
@@ -22,7 +22,7 @@ At some point during your experience working with a computer, you may have been 
 
 In practice, an operating system may have tens or even hundreds of processes running at any given time. However, the computer it is running on may only have four or eight processor cores available. So, the operating system includes a **scheduler** that determines which processes should be executed at any given time, and most operating systems will switch between running processes thousands of times per second, making it appear to a user that all running processes are executing at the same time. This process of swapping between running processes is known as **context switching**.
 
-![Process States](/cc410/images/10/process_states.svg)[^2]
+![Process States](/images/10/process_states.svg)[^2]
 
 [^2]: https://commons.wikimedia.org/w/index.php?title=File:Process_states.svg&oldid=508079226
 

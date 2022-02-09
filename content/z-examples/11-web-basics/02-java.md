@@ -60,7 +60,7 @@ git push
 
 When using [Spring Initializr](https://start.spring.io/), below is a screenshot showing what it should look like.
 
-![Spring Initializr](/cc410/images/e11/spring.png)
+![Spring Initializr](/images/e11/spring.png)
 
 The generated `build.gradle` file looks like this as of Spring 2021:
 

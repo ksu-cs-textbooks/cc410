@@ -10,7 +10,7 @@ hidden: true
 
 #### Resources
 
-* <a href="slides" target="_blank">Slides</a>
+* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
 
 #### Video Script
 

@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube jOfzarqaQKM %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Java Swing and Python tkinter are libraries and toolkits for creating Graphical User Interfaces - a user interface that is presented as a combination of interactive graphical and text elements, commonly including buttons, menus, and various flavors of editors and inputs.  GUIs represent a major step forward in usability from earlier programs that were interacted with by typing commands into a text-based terminal (the EPIC software we looked at in the beginning of this textbook is an example of this earlier form of user interface).
 
@@ -41,7 +41,7 @@ No doubt you are used to having a wide variety of screen resolutions available a
 
 Many of these libraries were introduced in the early 2000s, at a time where the most popular screen resolution in the United States was transitioning from SVGA to XGA, and screen resolutions (especially for business computers running Windows) had remained remarkably consistent for long periods.  Moreover, these resolutions were all using the 4:3 aspect ratio (the ratio of width to height of the screen). Contrast that with trends since that time:
 
-![Screen Resolutions in US from 2009-2020](/cc410/images/9/sizes.png)[^1]
+![Screen Resolutions in US from 2009-2020](/images/9/sizes.png)[^1]
 
 [^1]: https://gs.statcounter.com/screen-resolution-stats
 

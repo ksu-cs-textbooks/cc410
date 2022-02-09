@@ -6,7 +6,7 @@ pre: "4. "
 
 {{% youtube w6rtzfr1jQ4 %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Writing tests is in many ways just as challenging and creative an endeavor as writing programs.  Tests usually consist of invoking some portion of program code, and then using _assertions_ to determine that the actual results match the expected results.  The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.  
 

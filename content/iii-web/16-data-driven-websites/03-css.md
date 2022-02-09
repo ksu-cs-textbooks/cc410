@@ -54,7 +54,7 @@ A second common use for CSS is to change properties of the element itself.  This
 
 These values provide additional space around the content of the element, following the [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model):
 
-![CSS Box Model](/cc410/images/16/boxmodel.png)[^1]
+![CSS Box Model](/images/16/boxmodel.png)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Boxmodell-detail.png&oldid=480918452
 

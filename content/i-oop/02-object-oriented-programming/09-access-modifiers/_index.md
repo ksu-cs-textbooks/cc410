@@ -6,7 +6,7 @@ pre: "9. "
 
 {{% youtube a1oUEgvW09Y %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 {{% notice note note-0 "Access Modifiers in Python" %}}
 

@@ -67,12 +67,12 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ###### Race
 
-![Race Screenshot](/cc410/images/e7a/race.png)
+![Race Screenshot](/images/e7a/race.png)
 
 ##### Lock
 
-![Lock Screenshot](/cc410/images/e7a/lock.png)
+![Lock Screenshot](/images/e7a/lock.png)
 
 ##### Graph
 
-![Graph](/cc410/images/e7a/graph.png)
+![Graph](/images/e7a/graph.png)

@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
     <h3>Alonzo Church</h3>
-    <img class="plain stretch" src="/cc410/images/8/410_8_church_wiki.jpg">
+    <img class="plain stretch" src="/images/8/410_8_church_wiki.jpg">
     <p class="imagecredit">Image Credit: <a href="https://en.wikipedia.org/wiki/File:Alonzo_Church.jpg">Wikipedia</a></p>
 </section>
 <section>
@@ -18,7 +18,7 @@ hidden: true
 </section>
 <section>
     <h3>Programming Paradigms</h3>
-    <img class="plain stretch" src="/cc410/images/8/410_8_paradigms.svg">
+    <img class="plain stretch" src="/images/8/410_8_paradigms.svg">
 </section>
 <section>
     <h6>Functions as First-Class Citizens</h6>

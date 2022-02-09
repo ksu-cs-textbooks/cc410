@@ -262,7 +262,7 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 #### Sample Combo Customization GUI
 
-![Combo Window](/cc410/images/m7/410_m7_gui.svg)
+![Combo Window](/images/m7/410_m7_gui.svg)
 
 {{% notice tip %}}
 

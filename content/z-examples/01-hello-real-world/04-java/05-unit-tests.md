@@ -14,7 +14,7 @@ In our Java application, the unit tests are stored in the `app/src/test/java` di
 
 However, just like we renamed `App.java` to `HelloWorld.java`, let's do the same with the `AppTest.java` file, found in `app/src/test/java/hello`. After you rename it, it should look like this:
 
-![Rename AppTest](/cc410/images/e1/12renametest.png)
+![Rename AppTest](/images/e1/12renametest.png)
 
 Thankfully, we don't have to do anything else after renaming this file, because, as we'll see shortly, Gradle is able to automatically find all of the unit test classes that exist in the `app/src/test` directory. 
 
@@ -133,19 +133,19 @@ gradle test
 
 When you run this command for the first time, Gradle may take a moment to download the JUnit 5 libraries it needs. Once it is done, you'll get the usual response that the build was successful, as shown below:
 
-![Test Success](/cc410/images/e1/13test.png)
+![Test Success](/images/e1/13test.png)
 
 However, we might want to learn a bit more about what tests were executed and make sure it is working properly. So, we can look for the test report in the `build` folder. Specifically, you'll find it at `app/build/reports/tests/test/index.html`. So, find that file in the Codio file tree to the left and open it. When you do, you'll see a file full of HTML like this one:
 
-![Test Report HTML](/cc410/images/e1/14html.png)
+![Test Report HTML](/images/e1/14html.png)
 
 That's really difficult to read, isn't it? Thankfully, we can tell Codio to open that HTML file as a webpage by **right-clicking** on it and selecting **Preview Static**:
 
-![Preview Static](/cc410/images/e1/14preview.png)
+![Preview Static](/images/e1/14preview.png)
 
 If done correctly, you should see a webpage that looks like this:
 
-![Test Report](/cc410/images/e1/14webpage.png)
+![Test Report](/images/e1/14webpage.png)
 
 Hopefully, we should see that our code passed the test! We can click on the links on that page to dig deeper and see the results for specific tests classes or even individual tests.
 
@@ -159,11 +159,11 @@ gradle test
 
 This time, you'll get some different output:
 
-![Test Fail](/cc410/images/e1/15fail.png)
+![Test Fail](/images/e1/15fail.png)
 
 Here, we can see that JUnit will helpfully tell us the method name of each test that failed. We can now open the test report from before and dig into it to find exactly where the test failed and why. Here's what you might see:
 
-![Test Fail Report](/cc410/images/e1/15failreport.png)
+![Test Fail Report](/images/e1/15failreport.png)
 
 The most important part is at the bottom of that file - it shows the exact assertion that failed and why. Below that, you'll see a full stack trace of what was happening when it fails. We've highlighted the most important parts - the assertion that failed, and the line in the stack trace that shows exactly where in the unit test it failed. 
 

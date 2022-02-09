@@ -6,7 +6,7 @@ pre: "6. "
 
 {{% youtube zJRpJxICl-s %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 To deal with race conditions, we have to somehow synchronize our threads so that only one is able to update the value of a shared variable at once. There are many ways to do this, and they all fit under the banner of **thread synchronization**.
 
@@ -29,13 +29,13 @@ data.lock.release()
 
 Now, let's look at our two possible situations and see how they change when we include a lock in our code. First, we have the situation where the programs are properly interleaved:
 
-![Thread No Race with Lock](/cc410/images/10/thread_norace_lock.svg)
+![Thread No Race with Lock](/images/10/thread_norace_lock.svg)
 
 In this case, the spawned thread is able to acquire the lock when needed, perform its computation, and then release the lock before the other thread needs it. So, the lock really didn't change anything here. 
 
 However, in the next case, where they are interleaved, we'll see a difference:
 
-![Thread Race With Lock](/cc410/images/10/thread_race_lock.svg)
+![Thread Race With Lock](/images/10/thread_race_lock.svg)
 
 Here, the spawned thread immediately acquires the lock and reads the value of `data.x` into `y`, but then it is interrupted. At that same time, the main thread wakes up and starts running, and tries to acquire the lock. When this happens, the operating system will **block** the main thread until the lock has been released. So, instead of waiting, the main thread will be blocked, and the spawned thread will continue to do its work. However, once the spawned thread releases the lock, the operating system will wake up the main thread and allow it to acquire the lock itself. Then, the main thread can perform its computation and update the value in `data.x`. As we can see, we now get the same value that we had previously. This is good! This means that we've come up with a way to defeat the inherent unpredictability in multithreaded programs. 
 

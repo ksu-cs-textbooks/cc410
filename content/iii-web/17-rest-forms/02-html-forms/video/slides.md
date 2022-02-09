@@ -20,7 +20,7 @@ hidden: true
     &lt;button type="submit">Search&lt;/button>
 &lt;/form></code></pre>
     <p>displays as</p>
-    <img class="plain stretch" src="/cc410/images/17/410_17_form.png">
+    <img class="plain stretch" src="/images/17/410_17_form.png">
 </section>
 <section>
     <h3>Input Elements</h3>
@@ -82,23 +82,23 @@ hidden: true
 </section>
 <section>
     <h3>Rendered Form</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_customform.png">
+    <img class="plain stretch" src="/images/17/410_17_customform.png">
 </section>
 <section>
     <h3>Developer Tools</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_devtools.png">
+    <img class="plain stretch" src="/images/17/410_17_devtools.png">
 </section>
 <section>  
     <h3>HTTP POST Request</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_devtools_1.png">
+    <img class="plain stretch" src="/images/17/410_17_devtools_1.png">
 </section>
 <section>
     <h3>HTTP Headers</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_devtools_2.png">
+    <img class="plain stretch" src="/images/17/410_17_devtools_2.png">
 </section>
 <section>
     <h5>Parsed Data</h5>
-    <img class="plain" style="width: 60%" src="/cc410/images/17/410_17_devtools_3.png">
+    <img class="plain" style="width: 60%" src="/images/17/410_17_devtools_3.png">
     <h5>Encoded Data</h5>
-    <img class="plain" style="width: 60%" src="/cc410/images/17/410_17_devtools_4.png">
+    <img class="plain" style="width: 60%" src="/images/17/410_17_devtools_4.png">
 </section>

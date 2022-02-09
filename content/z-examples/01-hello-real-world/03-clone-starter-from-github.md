@@ -12,11 +12,11 @@ Once we have accepted the assignment on GitHub classroom and have access to the 
 
 At this point, you should have access to a repository page that looks like this:
 
-![GitHub Classroom Repository](/cc410/images/e1/32repo.png)
+![GitHub Classroom Repository](/images/e1/32repo.png)
 
 On that page, we need to get the SSH URL of this repository. We can find it by clicking the green **Code** button in the upper right. On the box that appears, make sure you select the SSH option to get the SSH URL. It should look similar to this:
 
-![GitHub Classroom SSH URL](/cc410/images/e1/32sshurl.png)
+![GitHub Classroom SSH URL](/images/e1/32sshurl.png)
 
 The SSH URL should begin with `git@github.com:`. If it starts with `https://` then you need to select the SSH option. Once you have the correct URL, select it and **copy** it to your clipboard.
 
@@ -54,15 +54,15 @@ Of course, your SSH URL will be different, so you must adjust the required comma
 
 When I run that command, I'll get output that looks like this:
 
-![Git Clone Output](/cc410/images/e1/32clone.png)
+![Git Clone Output](/images/e1/32clone.png)
 
 If this is the first time you've used `git` in this Codio project, you'll have to type `yes` and press enter at the prompt to accept the key for `github.com`. Once you do that, then the rest of the command will complete and you'll see the following output:
 
-![Git Clone Success](/cc410/images/e1/32clonedone.png)
+![Git Clone Success](/images/e1/32clonedone.png)
 
 Since I used `java` as the last part of that command, I should now see at least two new items in the `java` folder in the Codio file tree:
 
-![Codio File Tree After Git](/cc410/images/e1/32filetree.png)
+![Codio File Tree After Git](/images/e1/32filetree.png)
 
 If you choose `python`, you'll probably see the same items inside of the `python` directory instead. The `.git` and `.github` folders contain information about the repository and the classroom assignment, and should be left alone. **DO NOT DELETE OR MODIFY THESE FOLDERS!** You may notice that they are not present in many of the screenshots in this assignment, just as a reminder to ignore them completely.
 

@@ -91,7 +91,7 @@ In effect, this is essentially the Python code needed to reproduce the example w
 
 So, what happens when we run this code? As it turns out, sometimes we'll see it get a different result than the one we expect:
 
-![Race Condition in Python](/cc410/images/10/python_race.png)
+![Race Condition in Python](/images/10/python_race.png)
 
 Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into `data.x`, which means that they were running at the same time. 
 
@@ -126,7 +126,7 @@ Here, the `with` statement acquires the **lock** that is associated with the `da
 
 Now, when we execute that program, we'll always get the correct answer!
 
-![Synchronized in Python](/cc410/images/10/python_synch.png)
+![Synchronized in Python](/images/10/python_synch.png)
 
 {{% notice info info-1 "Not Always Random?" %}}
 

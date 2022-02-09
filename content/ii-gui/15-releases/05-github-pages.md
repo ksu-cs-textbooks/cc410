@@ -62,7 +62,7 @@ To enable GitHub pages on our repository, we can follow the instructions on [thi
 3. Next to that, choose the `docs` folder as your publishing source.
 4. Click the **Save** button.
 
-![Github Pages](/cc410/images/15/gh-pages.png)
+![Github Pages](/images/15/gh-pages.png)
 
 After a minute or so, you should be able to visit the URL listed there and you should see your documentation on the web! You can see some examples of what this looks like by reviewing the public repositories in the [K-State Computational Core](https://github.com/K-State-Computational-Core/) organization on GitHub and looking for the documentation links in each `README.md` file. 
 

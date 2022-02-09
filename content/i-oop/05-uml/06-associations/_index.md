@@ -6,11 +6,11 @@ pre: "6. "
 
 {{% youtube gbD5VcZzCIM %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Class diagrams also express the associations _between_ classes by drawing lines between the boxes representing them. 
 
-![UML Association](/cc410/images/5/association.png)
+![UML Association](/images/5/association.png)
 
 There are two basic types of associations we model with UML: **has-a** and **is-a** associations.  We break these into two further categories, based on the strength of the association, which is either **strong** or **weak**.  These associations are:
 
@@ -45,13 +45,13 @@ Is-a associations indicate a relationship where one class __is a__ instance of a
 
 Realization refers to making an interface "real" by implementing the methods it defines. An **interface** is a special type of abstract class that only includes abstract methods. In effect, it is creating an defined list of operations, or an _interface_ (or API), that subclasses must include so that they can all be used in the same way. For Java, this corresponds to a class that implements an `interface`. The Python language doesn't have interfaces, but we'll learn how to create something similar using abstract classes. We call this a **is-a** relationship, because the class can be treated as being the same data type of the interface class.  It is also a **weak** relationship as the same interface can be implemented by otherwise unrelated classes.  In UML, realization is indicated by a dashed arrow in the direction of implementation:
 
-![Realization in UML](/cc410/images/5/410_5_realization.svg)
+![Realization in UML](/images/5/410_5_realization.svg)
 
 ### Generalization
 
 Generalization refers to extracting the shared parts from different classes to make a *general* base class of what they have in common.  For Java and Python, this corresponds to _inheritance_.  We call this a **strong is-a** relationship, because the class has all the same state and behavior as the base class.  In UML, realization is indicated by a solid arrow in the direction of inheritance:
 
-![Generalization in UML](/cc410/images/5/410_5_generalization.svg)
+![Generalization in UML](/images/5/410_5_generalization.svg)
 
 Also notice that we show that `Fruit` and its `blend()` method are abstract by italicizing them. The association tells us that the `Banana` class **is a** `Fruit`. 
 
@@ -63,13 +63,13 @@ Has-a associations indicates that a class holds one or more references to instan
 
 Aggregation refers to collecting references to other classes.   As the aggregating class has references to the other classes, we call this a **has-a** relationship.  It is considered **weak** because the aggregated classes are only collected by the aggregating class, and can exist on their own.  It is indicated in UML by a solid line from the aggregating class to the one it aggregates, with an open diamond "fletching" on the opposite site of the arrow (the arrowhead is optional). 
 
-![Aggregation in UML](/cc410/images/5/410_5_aggregation.svg)
+![Aggregation in UML](/images/5/410_5_aggregation.svg)
 
 ### Composition
 
 Composition refers to assembling a class from other classes, "composing" it.  As the composed class has references to the other classes, we call this a **has-a** relationship.  However, the composing class typically _creates_ the instances of the classes composing it, and they are likewise destroyed when the composing class is destroyed.  For this reason, we call it a **strong** relationship.  It is indicated in UML by a solid line from the composing class to those it is composed of, with a solid diamond "fletching" on the opposite side of the arrow (the arrowhead is optional).
 
-![Composition in UML](/cc410/images/5/410_5_composition.svg)
+![Composition in UML](/images/5/410_5_composition.svg)
 
 {{% notice tip tip-1 "Aggregation vs. Composition" %}}
 
@@ -87,11 +87,11 @@ Additionally, sometimes the attributes containing these external items may be om
 
 With aggregation and composition, we may also place numbers on either end of the association, indicating the number of objects involved.  We call these numbers the _multiplicity_ of the association.
 
-![Composition in UML](/cc410/images/5/410_5_composition.svg)
+![Composition in UML](/images/5/410_5_composition.svg)
 
 For example, the `Frog` class in the composition example has two instances of front and rear legs, so we indicate that each `Frog` instance (by a `1` on the Frog side of the association) has exactly two (by the `2` on the leg side of the association) legs.  The tongue has a `1` to `1` multiplicity as each frog has one tongue.
 
-![Aggregation in UML](/cc410/images/5/410_5_aggregation.svg)
+![Aggregation in UML](/images/5/410_5_aggregation.svg)
 
 Multiplicities can also be represented as a range (indicated by the start and end of the range separated by `..`).  We see this in the `ShoppingCart` example above, where the count of `GroceryItems` in the cart ranges from 0 to infinity (infinity is indicated by an asterisk `*`).
 

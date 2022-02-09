@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" src="/cc410/images/13/410_13_mockito.png">
+    <img class="plain stretch" src="/images/13/410_13_mockito.png">
     <p class="imagecredit">Image Credit: <a href="https://site.mockito.org/">Mockito</a></p>
 </section>
 <section>

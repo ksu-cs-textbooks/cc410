@@ -24,7 +24,7 @@ First, find the `python` folder in the Codio file tree to the left. We'll create
 
 Once you've created those three folders, you should see a structure similar to this:
 
-![Python Folder Structure](/cc410/images/e1/21pythonfolder.png)
+![Python Folder Structure](/images/e1/21pythonfolder.png)
 
 As we work through this example, we'll slowly populate these folders to build our application.
 
@@ -39,7 +39,7 @@ In Python, to create a package we must simply perform two steps:
 
 So, let's create a package called `hello` for our application. First, we'll need to create a directory called `hello` in the `src` directory we created earlier, and then we'll create a blank file called `__init__.py` in that directory. Once we are done, we should see this structure:
 
-![Python Package](/cc410/images/e1/21pythonpackage.png)
+![Python Package](/images/e1/21pythonpackage.png)
 
 In most cases, the `__init__.py` file can be left blank. However, it is executed each time the package is used, so we can include some code in that file to help initialize the package. For now, let's put the following line of code in the `__init__.py` file in the `src/hello` directory:
 

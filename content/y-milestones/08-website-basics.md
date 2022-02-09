@@ -145,4 +145,4 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 Below is a screenshot from a previous model solution for some web design inspiration.
 
-![Main Window](/cc410/images/m8/410_m8_menu.png)
+![Main Window](/images/m8/410_m8_menu.png)

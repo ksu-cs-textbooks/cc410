@@ -12,7 +12,7 @@ One of the major issues with gathering requirements is that many times the users
 
 This problem is well summed up by the following XKCD comic:
 
-![XKCD 1425: Tasks](/cc410/images/20/tasks.png)[^1]
+![XKCD 1425: Tasks](/images/20/tasks.png)[^1]
 
 [^1]: https://xkcd.com/1425/
 

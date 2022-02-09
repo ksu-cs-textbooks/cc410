@@ -62,15 +62,15 @@ gradle test
 
 Once we do that, Gradle will install everything it needs to use JaCoCo, and in the `app/build/reports` folder, we should see a new folder called `jacoco` appear:
 
-![JaCoCo Folder](/cc410/images/e1/16jacoco.png)
+![JaCoCo Folder](/images/e1/16jacoco.png)
 
 Inside of that folder is another `index.html` file. So, let's **right-click** it and select **Preview Static** to open it as a webpage. Hopefully we should see something like this:
 
-![JaCoCo Report](/cc410/images/e1/16jacocoreport.png)
+![JaCoCo Report](/images/e1/16jacocoreport.png)
 
 That tells us that we achieved 100% code coverage with our tests! That's the goal, though it was pretty easy to achieve when our application really only contains one line of code. By clicking the links on the page, we can even see which lines are tested by our program, as shown below:
 
-![JaCoCo Highlight](/cc410/images/e1/16jacocohighlight.png)
+![JaCoCo Highlight](/images/e1/16jacocohighlight.png)
 
 ## More Complex Code
 
@@ -104,11 +104,11 @@ gradle test
 
 Once the tests have finished, we can open the JaCoCo report stored in `app/build/reports/jacoco/index.html` and we should find that it no longer achieves 100% coverage:
 
-![JaCoCo Not Full Coverage](/cc410/images/e1/17coverage.png)
+![JaCoCo Not Full Coverage](/images/e1/17coverage.png)
 
 If we drill down deeper, we can find the lines of code that aren't covered by our tests:
 
-![JaCoCo Missing Lines](/cc410/images/e1/17highlight.png)
+![JaCoCo Missing Lines](/images/e1/17highlight.png)
 
 As we expected, our single unit test is not able to test each and every line of code in our application. That's not good! So, we'll need to update our tests to account for the change in our code. 
 
@@ -152,7 +152,7 @@ gradle test
 
 Once that is done, we can open the JaCoCo report and see if we are back to 100% coverage:
 
-![JaCoCo Fixed Coverage](/cc410/images/e1/17fixed.png)
+![JaCoCo Fixed Coverage](/images/e1/17fixed.png)
 
 If everything is working correctly, we should see that we are back at 100% coverage, and each line of code in our program is tested. 
 

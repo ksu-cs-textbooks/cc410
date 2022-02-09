@@ -31,7 +31,7 @@ pip3 install -r requirements.txt
 
 As you might guess, the `-r` command line argument for `pip3` will allow us to install the requirements listed in a requirements file. Once we run that command, the last line of output will list the packages installed, and we should see that Coverage.py is now installed:
 
-![Install Coverage](/cc410/images/e1/25installcov.png)
+![Install Coverage](/images/e1/25installcov.png)
 
 ## Compute Code Coverage with Coverage.py
 
@@ -51,7 +51,7 @@ This command is getting pretty complex, so let's break it down:
 
 When we execute that command, it will tell Python to run our unit tests and generate a test report. Since we are now using Coverage.py to compute code coverage, we'll also see a new file appear, named `.coverage`:
 
-![Dot Coverage File](/cc410/images/e1/25dotcov.png)
+![Dot Coverage File](/images/e1/25dotcov.png)
 
 This file contains the data the Coverage.py collected from the unit tests. If needed, we can run multiple sets of unit tests and combine the data files using other Coverage.py commands. However, for now we won't worry about that.
 
@@ -63,15 +63,15 @@ python3 -m coverage html -d reports/coverage
 
 The `coverage html` command will generate a report, and the `-d` command line option sets the directory where the report will be stored. Once we execute this command, we should see the `coverage` directory structure appear in `reports`:
 
-![Coverage Report Structure](/cc410/images/e1/25covreport.png)
+![Coverage Report Structure](/images/e1/25covreport.png)
 
 Inside of that folder is another `index.html` file. So, let's **right-click** it and select **Preview Static** to open it as a webpage. Hopefully we should see something like this:
 
-![Coverage Report](/cc410/images/e1/25covhtml.png)
+![Coverage Report](/images/e1/25covhtml.png)
 
 While our test only reports that it achieved 56% code coverage, we can see that it is because the `__main__.py` file was not executed. If we look at the other source files, we'll see that we achieved 100% code coverage with our tests! That's the goal, though it was pretty easy to achieve when our application really only contains one line of code. By clicking the links on the page, we can even see which lines are tested by our program, as shown below:
 
-![Coverage Highlight](/cc410/images/e1/25hello.png)
+![Coverage Highlight](/images/e1/25hello.png)
 
 ## Code Coverage in Tox
 
@@ -94,7 +94,7 @@ That will tell tox to completely rebuild its virtual environment and reinstall a
 
 We should once again be able to see tox execute our tests and generate a report:
 
-![Tox Rebuild](/cc410/images/e1/25toxrebuild.png)
+![Tox Rebuild](/images/e1/25toxrebuild.png)
 
 ## More Complex Code
 
@@ -118,11 +118,11 @@ tox
 
 Once the tests have finished, we can open the Coverage.py report stored in `reports/coverage/index.html` and we should find that it no longer achieves 100% coverage:
 
-![Coverage.py Not Full Coverage](/cc410/images/e1/26badcoverage.png)
+![Coverage.py Not Full Coverage](/images/e1/26badcoverage.png)
 
 If we drill down deeper, we can find the lines of code that aren't covered by our tests:
 
-![Coverage.py Missing Lines](/cc410/images/e1/26highlight.png)
+![Coverage.py Missing Lines](/images/e1/26highlight.png)
 
 As we expected, our single unit test is not able to test each and every line of code in our application. That's not good! So, we'll need to update our tests to account for the change in our code. 
 
@@ -160,7 +160,7 @@ tox
 
 Once that is done, we can open the JaCoCo report and see if we are back to 100% coverage:
 
-![Coverage.py Fixed Coverage](/cc410/images/e1/26goodhighlight.png)
+![Coverage.py Fixed Coverage](/images/e1/26goodhighlight.png)
 
 If everything is working correctly, we should see that we are back at 100% coverage, and each line of code in our program is tested. 
 

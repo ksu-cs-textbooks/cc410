@@ -80,7 +80,7 @@ There we go! We've added type hints to our source code. If you want to learn mor
 
 Unfortunately, the Codio IDE does not properly deal with type hinting in Python, and will tell us that our code contains a syntax error:
 
-![Codio LSP Type Hinting](/cc410/images/e1/29codiotype.png)
+![Codio LSP Type Hinting](/images/e1/29codiotype.png)
 
 We can safely ignore that error, provided that our code passes the Flake8 style checker itself.
 
@@ -114,7 +114,7 @@ pip3 install -r requirements.txt
 
 As always, once we've run that command we can verify that the library was installed by looking at the output:
 
-![Install Mypy](/cc410/images/e1/29installmypy.png)
+![Install Mypy](/images/e1/29installmypy.png)
 
 ## Running Mypy
 
@@ -133,15 +133,15 @@ As always, let's break this command down into its separate parts:
 
 If everything is working correctly, we should get the following output:
 
-![Mypy Success](/cc410/images/e1/29mypygood.png)
+![Mypy Success](/images/e1/29mypygood.png)
 
 We may notice a new `.mypy_cache` folder, which can be safely ignored just like the `.pytest_cache` folder next to it. We can also find an HTML report in `reports/mypy/index.html`:
 
-![Mypy Report](/cc410/images/e1/29mypyreport.png)
+![Mypy Report](/images/e1/29mypyreport.png)
 
 To open that file, simply **right-click** on it and select **Preview Static**. When we do that, we should get a report that looks like this:
 
-![Mypy HTML](/cc410/images/e1/29mypyhtml.png)
+![Mypy HTML](/images/e1/29mypyhtml.png)
 
 As we can see, Mypy shows that we've properly type hinted all of the code! That's great!
 
@@ -200,7 +200,7 @@ python3 -m mypy --strict test
 
 Notice that we are just giving it the name of the directory `test` instead of loading it as a Python meta package. This is because we didn't include an `__init__.py` file inside of the `test` directory itself. Don't worry - Mypy is able to handle it just fine! When we run that command, we'll see output like this:
 
-![Local Variable Types](/cc410/images/e1/29locals.png)
+![Local Variable Types](/images/e1/29locals.png)
 
 In that output, we'll see that the Mypy library was not able to determine the type of the `capsys` and `captured` variables. Instead, it just reports that they could be `Any` type, which is a special type annotation that matches any possible type. This is due to the fact that we didn't actually have to import the `pytest` library to use those variables. This is a powerful feature of Python, but it makes it more difficult to perform proper type checking. It will also complain that we now have method arguments that are missing annotations, so let's see if we can resolve that.
 
@@ -231,7 +231,7 @@ class TestHelloWorld():
 
 Once that is in place, we can rerun our Mypy check and should get the following output:
 
-![Mypy Fixtures](/cc410/images/e1/29fixture.png)
+![Mypy Fixtures](/images/e1/29fixture.png)
 
 That's closer! Now Mypy is finding the correct types for `capsys` and was able to use the information in the `pytest` library to infer the type of the `captured` variable, which is returned from the `capsys.readouterr()` function call. So, let's annotate that variable as well. To do that, we'll need to import the `CaptureResult` class from the `_pytest.capture` library. As you might guess by the underscore at the beginning of the library name, we are importing a class that is meant to be internal to pytest. This is generally considered bad practice, but it helps for type checking, so we'll do it for now. Our updated code looks like this:
 
@@ -253,7 +253,7 @@ class TestHelloWorld():
 
 Notice that we can easily add a type hint to a variable in the same way we added type hints to method parameters - we just place a colon `:` after the variable name and then add the type. Now, when we run the Mypy command, we should get the same output, which confirms that we have the correct type hints:
 
-![Mypy Result](/cc410/images/e1/29result.png)
+![Mypy Result](/images/e1/29result.png)
 
 Once we've done that, we can remove the `reveal_locals()` line to make sure the tests will still execute. 
 

@@ -100,15 +100,15 @@ tox -r
 
 When the tests are complete, we can open the report and we should now see that there are 4 tests that executed successfully:
 
-![Hamcrest Test Report](/cc410/images/e1/30tests.png)
+![Hamcrest Test Report](/images/e1/30tests.png)
 
 While we're at it, since we added new code and unit tests we should also check to make sure that our code coverage is still good:
 
-![Hamcrest Code Coverage](/cc410/images/e1/30cov.png)
+![Hamcrest Code Coverage](/images/e1/30cov.png)
 
 As long as the tox command executes, we also know that the code passed all of our Flake8 style checks, and updated the documentation using pdoc3 as well.
 
-![Hamcrest Flake](/cc410/images/e1/30flake.png)
+![Hamcrest Flake](/images/e1/30flake.png)
 
 If you run into any errors on any of those commands, now is a good time to get them resolved before moving on! This is the last step before we submit our code!
 

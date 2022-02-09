@@ -6,7 +6,7 @@ pre: "7. "
 
 {{% youtube FWR6C6LS-Y8 %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Let's review three other commonly used software design patterns. These are either patterns that we've seen before, or ones that we might end up using soon in our code.
 
@@ -14,7 +14,7 @@ Let's review three other commonly used software design patterns. These are eithe
 
 The first pattern is the **iterator pattern**. The [iterator pattern](https://en.wikipedia.org/wiki/Iterator_pattern) is a behavioral pattern that is used to traverse through a collection of objects stored in a container. We explored this pattern in several of the data structures introduced in earlier data structures courses such as CC 310 and CC 315, as well as CIS 300. 
 
-![Iterator Pattern Diagram](/cc410/images/12/iterator.jpg)[^1]
+![Iterator Pattern Diagram](/images/12/iterator.jpg)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:W3sDesign_Iterator_Design_Pattern_UML.jpg&oldid=488852077
 

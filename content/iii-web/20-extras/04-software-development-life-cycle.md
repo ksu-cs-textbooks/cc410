@@ -12,7 +12,7 @@ On this page, we'll give a brief overview of the major concepts and how they all
 
 ## Steps
 
-![Software Development Life Cycle Steps](/cc410/images/20/sdlc_wiki.gif)[^1]
+![Software Development Life Cycle Steps](/images/20/sdlc_wiki.gif)[^1]
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Systems_Development_Life_Cycle.gif&oldid=534019806
 _Right-click and open image in new tab for larger version_
@@ -50,7 +50,7 @@ Another core concept of software engineering are the **software development meth
 
 ### Waterfall
 
-![Waterfall Model](/cc410/images/20/waterfall.svg)[^2]
+![Waterfall Model](/images/20/waterfall.svg)[^2]
 [^2]: https://commons.wikimedia.org/w/index.php?title=File:Waterfall_model.svg&oldid=453496509
 
 The [Waterfall Model](https://en.wikipedia.org/wiki/Waterfall_model) is a software development methodology that basically works through the software development lifecycle one step at a time. So, in the waterfall model, developers cannot start working on code until both the requirements and design steps are fully complete. And, at any time, if the developers realize that the design is not feasible, development must be paused while the design is reconsidered. 
@@ -59,7 +59,7 @@ The waterfall model is seen as a more traditional model, since it has its roots 
 
 ### Iterative and Incremental Development
 
-![Iterative and Incremental Development Model](/cc410/images/20/iter_wiki.svg)[^3]
+![Iterative and Incremental Development Model](/images/20/iter_wiki.svg)[^3]
 
 [^3]: https://commons.wikimedia.org/w/index.php?title=File:Iterative_development_model.svg&oldid=484829875]
 
@@ -71,7 +71,7 @@ This model has been used successfully in a variety of contexts, including as par
 
 ### Spiral Model
 
-![Spiral Model](/cc410/images/20/spiral.svg)[^4]
+![Spiral Model](/images/20/spiral.svg)[^4]
 
 [^4]: https://commons.wikimedia.org/w/index.php?title=File:Spiral_model_(Boehm,_1988).svg&oldid=480509142]
 

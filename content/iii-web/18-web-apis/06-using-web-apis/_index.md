@@ -6,7 +6,7 @@ pre: "6. "
 
 {{% youtube 38AtVRSdYYE %}}
 
-[Video Materials](video)
+[Video Materials}({{<relref "./video">}})
 
 Finally, now that we've covered all of the aspects related to web APIs and how they are implemented, let's look at a quick example for how we can use a web API to interact with resources stored on the web.
 

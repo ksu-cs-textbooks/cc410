@@ -5,7 +5,7 @@ pre: "8. "
 ---
 The module-based encapsulation suggested by Parnas and his contemporaries grouped state and behavior together into smaller, self-contained units.  Alan Kay and his co-developers took this concept a step farther.  Alan Kay was heavily influenced by ideas from biology, and saw this encapsulation in similar terms to _cells_.  
 
-![Typical Animal Cell](/cc410/images/2/2.8.1.png)[^1]
+![Typical Animal Cell](/images/2/2.8.1.png)[^1]
 
 [^1]:https://commons.wikimedia.org/w/index.php?title=File:Plant_cell_structure-en.svg&oldid=458951778
 

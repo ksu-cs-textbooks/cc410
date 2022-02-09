@@ -13,7 +13,7 @@ hidden: true
     </ul>
 </section>
 <section>
-    <img class="plain stretch" src="/cc410/images/7/debug-started.png">
+    <img class="plain stretch" src="/images/7/debug-started.png">
     <p class="imagecredit">Image Credit: <a href="https://docs.codio.com/project/ide/features/#debugging">Codio</a></p>
 </section>
 <section>

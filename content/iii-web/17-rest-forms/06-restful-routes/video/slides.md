@@ -43,33 +43,33 @@ hidden: true
 </section>
 <section>
     <h3>Example - Canvas!</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_canvas_1.png">
+    <img class="plain stretch" src="/images/17/410_17_canvas_1.png">
 </section>
 <section>
     <h3>Read All</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_canvas_2.png">
+    <img class="plain stretch" src="/images/17/410_17_canvas_2.png">
 </section>
 <section>
     <h3>Create</h3>
-    <img class="plain" style="width: 100%" src="/cc410/images/17/410_17_canvas_3_1.png">
+    <img class="plain" style="width: 100%" src="/images/17/410_17_canvas_3_1.png">
     <p>Payload</p>
-    <img class="plain" style="width: 100%" src="/cc410/images/17/410_17_canvas_3_2.png">
+    <img class="plain" style="width: 100%" src="/images/17/410_17_canvas_3_2.png">
 </section>
 <section>
     <h3>Read One</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_canvas_4.png">
+    <img class="plain stretch" src="/images/17/410_17_canvas_4.png">
 </section>
 <section>
     <h3>Edit</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_canvas_5.png">
+    <img class="plain stretch" src="/images/17/410_17_canvas_5.png">
 </section>
 <section>
     <h3>Update</h3>
-    <img class="plain" style="width: 100%" src="/cc410/images/17/410_17_canvas_7_1.png">
+    <img class="plain" style="width: 100%" src="/images/17/410_17_canvas_7_1.png">
     <p>Payload</p>
-    <img class="plain" style="width: 100%" src="/cc410/images/17/410_17_canvas_7_2.png">
+    <img class="plain" style="width: 100%" src="/images/17/410_17_canvas_7_2.png">
 </section>
 <section>
     <h3>Delete</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_canvas_6.png">
+    <img class="plain stretch" src="/images/17/410_17_canvas_6.png">
 </section>
