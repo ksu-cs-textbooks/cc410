@@ -167,7 +167,7 @@ The `thatsawrap.data.menu.Menu` class should be a class that has static getter m
 * `wraps` - a list of `Item` elements containing an instance of all available wraps (5 in total).
 * `sides` - a list of `Item` elements containing an instance of all available sides. Since each side is available in three sizes, the list should include an instance of all three sizes of each side item (9 in total).
 * `drinks` - a list of `Item` elements containing an instance of all available drinks. Since each drink is available in three sizes, the list should include an instance of all three sizes of each drink item (9 in total).
-* `fullmenu` - a combined list of all menu items (34 in total).
+* `fullmenu` - a combined list of all menu items (23 in total).
 
 In Java, these lists should use a subclass of the [List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html) interface. In Python, these methods should use the built-in Python [list](https://docs.python.org/3/library/stdtypes.html#list) data type. Since they are static methods, they **cannot** be constructed as Python properties using the `@property` decorator.
 
