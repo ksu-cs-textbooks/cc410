@@ -4,6 +4,12 @@ pre: "2.P. "
 weight: 25
 ---
 
+{{% notice warning warning-1 "Update to Python" %}}
+
+If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: [Example 5 Python Updates]({{<relref "03-python-update">}})
+
+{{% /notice %}}
+
 {{% youtube 2nHWIJ1wUDA %}}
 
 ## Resources
