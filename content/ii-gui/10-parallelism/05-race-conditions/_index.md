@@ -6,7 +6,7 @@ pre: "5. "
 
 {{% youtube PasqRhMjmcI %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Unfortunately, the big takeaways we saw on the previous page have very important consequences for our multithreaded programs. One of the most common errors, and also one of the notoriously most difficult errors to debug, is a race condition.
 

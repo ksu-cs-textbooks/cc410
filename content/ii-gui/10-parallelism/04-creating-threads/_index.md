@@ -6,7 +6,7 @@ pre: "4. "
 
 {{% youtube CmbtJtrAOH8 %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Now that we've learned about threads, let's discuss how we can work with them in our programs. Writing a multithreaded program can be significantly more difficult than a single threaded program, but with the extra difficulty comes the ability to write programs that are much more flexible and powerful. 
 

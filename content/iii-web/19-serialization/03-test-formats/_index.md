@@ -5,7 +5,7 @@ pre: "3. "
 ---
 {{% youtube P1wM8NCV-ng %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 So, now that we understand state, let's talk about how we can serialize it in a way that is easy to parse and understand. There are really two major options we can choose from: a **textual** representation of the data, and a **binary** representation. Let's look at text formats first.
 

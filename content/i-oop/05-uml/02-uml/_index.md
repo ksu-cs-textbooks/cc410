@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube Pk4U6GE8jnI %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 ![UML Logo](/images/5/410_5_umllogo.svg)[^1]
 

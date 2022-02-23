@@ -5,7 +5,7 @@ pre: "11. "
 ---
 {{% youtube keEZ55ExLXY %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 The second criteria Alan Kay set for object-oriented languages was [message passing](https://en.wikipedia.org/wiki/Message_passing).  Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.  
 

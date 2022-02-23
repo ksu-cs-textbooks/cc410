@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube mFLBP2hW154 %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 As you've developed programs, you've probably run them, supplied input, and observed if what happened was what you wanted. This process is known as _informal testing_.  It's informal, because you don't have a set procedure you follow, i.e. what specific inputs to use, and what results to expect.  _Formal testing_ adds that structure.  In a formal test, you would have a written procedure to follow, which specifies _exactly_ what inputs to supply, and what results should be expected.  This written procedure is known as a _test plan_.
 

@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube jOfzarqaQKM %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Java Swing and Python tkinter are libraries and toolkits for creating Graphical User Interfaces - a user interface that is presented as a combination of interactive graphical and text elements, commonly including buttons, menus, and various flavors of editors and inputs.  GUIs represent a major step forward in usability from earlier programs that were interacted with by typing commands into a text-based terminal (the EPIC software we looked at in the beginning of this textbook is an example of this earlier form of user interface).
 

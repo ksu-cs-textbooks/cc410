@@ -6,7 +6,7 @@ pre: "9. "
 
 {{% youtube NOAmwPixxuM %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 The term _dispatch_ refers to how a language decides which polymorphic operation (a method or function) a message should trigger.
 

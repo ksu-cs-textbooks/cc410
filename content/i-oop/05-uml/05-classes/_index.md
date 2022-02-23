@@ -6,15 +6,29 @@ pre: "5. "
 
 {{% youtube fKuJNhMIQUE %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:
 
-![Class Diagram example](/images/5/410_5_classbox.svg)
+<!-- ![Class Diagram example](/images/5/410_5_classbox.svg) -->
+
+{{< mermaid zoom="2" >}}
+classDiagram
+class Classname{
+    +Field attributes
+    +operations(methods)
+}
+
+class Fruit{
+    -Boolean blended
+    #blend(): string
+}
+
+{{< /mermaid >}}
 
 The first compartment identifies the class - it contains the name of the class. The second compartment holds the _attributes_ of the class (the _fields_ and _properties_).  And the third compartment holds the _operations_ of the class (the _methods_) of the class.
 
-In the diagram above, we can see the `Fruit` class modeled on the left side. 
+In the diagram above, we can see the `Fruit` class modeled on the right side. 
 
 {{% notice info info-1 "Java vs. Python in UML" %}}
 

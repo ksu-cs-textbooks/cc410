@@ -5,7 +5,7 @@ pre: "4. "
 ---
 {{% youtube SQUTcxc3RYo %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 {{% notice note note-1 "Inconsistent Naming" %}}
 

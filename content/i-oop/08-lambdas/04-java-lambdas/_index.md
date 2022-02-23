@@ -6,7 +6,7 @@ pre: "4. "
 
 {{% youtube AC9siHj92ms %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Java introduced lambda expressions in Java version 8. As we would expect based on the previous pages, it allows us to create anonymous functions that can then be passed as arguments to other functions. Java includes several new types, such as [Predicate](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html) and [Consumer](https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html), all contained in the [java.util.function](https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html) package. 
 

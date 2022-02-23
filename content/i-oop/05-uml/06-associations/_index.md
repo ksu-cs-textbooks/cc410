@@ -6,11 +6,17 @@ pre: "6. "
 
 {{% youtube gbD5VcZzCIM %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Class diagrams also express the associations _between_ classes by drawing lines between the boxes representing them. 
 
-![UML Association](/images/5/association.png)
+<!-- ![UML Association](/images/5/association.png) -->
+
+{{< mermaid zoom="2" >}}
+classDiagram
+  ClassA -- ClassB
+
+{{< /mermaid >}}
 
 There are two basic types of associations we model with UML: **has-a** and **is-a** associations.  We break these into two further categories, based on the strength of the association, which is either **strong** or **weak**.  These associations are:
 
@@ -46,6 +52,20 @@ Is-a associations indicate a relationship where one class __is a__ instance of a
 Realization refers to making an interface "real" by implementing the methods it defines. An **interface** is a special type of abstract class that only includes abstract methods. In effect, it is creating an defined list of operations, or an _interface_ (or API), that subclasses must include so that they can all be used in the same way. For Java, this corresponds to a class that implements an `interface`. The Python language doesn't have interfaces, but we'll learn how to create something similar using abstract classes. We call this a **is-a** relationship, because the class can be treated as being the same data type of the interface class.  It is also a **weak** relationship as the same interface can be implemented by otherwise unrelated classes.  In UML, realization is indicated by a dashed arrow in the direction of implementation:
 
 ![Realization in UML](/images/5/410_5_realization.svg)
+
+{{< mermaid zoom="2" >}}
+classDiagram
+  class CellPhone{
+    +String model
+    +blend(): string
+  }
+  class Blendable{
+    &lt;&lt;interface>>
+    +blend(): String
+  }
+  CellPhone ..|> Blendable
+
+{{< /mermaid >}}
 
 ### Generalization
 

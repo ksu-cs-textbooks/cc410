@@ -5,7 +5,7 @@ pre: "2. "
 ---
 {{% youtube UmAOkkJtAZ8 %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 The first criteria that Alan Kay set for an object-oriented language was _encapsulation_.  In computer science, the term encapsulation refers to organizing code into units, which provide two primary benefits:
 

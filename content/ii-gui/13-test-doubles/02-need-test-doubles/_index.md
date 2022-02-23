@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube mJIS9K260_o %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the **application programming interface** or **API** of the module. 
 

@@ -12,7 +12,7 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% youtube TjtLgwuzrDM %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 At the heart of the world wide web is the Hypertext Transfer Protocol (HTTP).  This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).   
 

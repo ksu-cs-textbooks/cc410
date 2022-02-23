@@ -6,7 +6,7 @@ pre: "6. "
 
 {{% youtube zJRpJxICl-s %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 To deal with race conditions, we have to somehow synchronize our threads so that only one is able to update the value of a shared variable at once. There are many ways to do this, and they all fit under the banner of **thread synchronization**.
 

@@ -6,7 +6,7 @@ pre: "2. "
 
 {{% youtube 9hdiuaZ2wRY %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 The term **software library** can actually mean several things. In essence, a [software library](https://en.wikipedia.org/wiki/Library_(computing)) is a collection of resources that can be used by computer program, either while it is running or while it is being developed. As we've learned so far in this course, it makes sense to think of a large software program as a few smaller packages or subsystems that work together. With that view in mind, a software library simply is a subsystem or package that is **developed outside of our application**. In most cases, it is meant to be reused by many different programs.
 

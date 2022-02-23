@@ -6,7 +6,7 @@ pre: "9. "
 
 {{% youtube hVQuB2upXqQ %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Now let's dive into Java Swing and see how to make our very first GUI application in Swing. 
 

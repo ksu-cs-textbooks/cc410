@@ -6,7 +6,7 @@ pre: "4. "
 
 {{% youtube wqeJO6S5lJE %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.
 

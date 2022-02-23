@@ -6,7 +6,7 @@ pre: "6. "
 
 {{% youtube -USMqm7lgXs %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 In the world of software, we use the term [**open-source**](https://en.wikipedia.org/wiki/Open_source) to refer to any software that has source code that is openly available. This is in contrast to [**proprietary**](https://en.wikipedia.org/wiki/Proprietary_software) software, sometimes referred to as **closed-source** software, which is software with source code that is not publicly available. The software itself may be sold, or even provided for free, but the actual source code is protected by the company. 
 

@@ -6,7 +6,7 @@ pre: "7. "
 
 {{% youtube FWR6C6LS-Y8 %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Let's review three other commonly used software design patterns. These are either patterns that we've seen before, or ones that we might end up using soon in our code.
 

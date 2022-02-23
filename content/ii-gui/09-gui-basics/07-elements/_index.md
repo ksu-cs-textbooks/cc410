@@ -6,7 +6,7 @@ pre: "7. "
 
 {{% youtube GTkJYwpw4vQ %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 Once we've created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we'll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs. Refer to the links for screenshots and examples of how each of these elements can be used in our programs. Examples below are taken from the [TkDocs](https://tkdocs.com/tutorial/index.html) documentation site. 
 

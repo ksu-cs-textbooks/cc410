@@ -12,7 +12,7 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% youtube 0EureiLnik0 %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 As web _sites_ became web _applications_, developers began looking to use ideas and techniques drawn from traditional software development.  These included architectural patterns like [Model-View-Controller (MVC)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) and [Pipeline](https://en.wikipedia.org/wiki/Pipeline_(software)) that simply were not possible with the server page model.  The result was the development of a host of web frameworks across multiple programming languages, including:
 

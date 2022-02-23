@@ -6,7 +6,7 @@ pre: "4. "
 
 {{% youtube P-aAi5-wcZw %}}
 
-[Video Materials}({{<relref "./video">}})
+[Video Materials]({{<relref "./video">}})
 
 The first pattern we'll look at is the **builder pattern.** The [builder pattern](https://en.wikipedia.org/wiki/Builder_pattern) is used to simplify building complex objects,  where the class that needs the object shouldn't have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.
 
