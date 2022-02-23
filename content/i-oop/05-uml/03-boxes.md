@@ -5,9 +5,10 @@ pre: "3. "
 ---
 UML class diagrams are largely composed of _boxes_ - basically a rectangular border containing text. UML class diagrams use boxes to represent units of code - i.e. classes, structs, and enumerations.  These boxes are broken into compartments.  For example, an `Enum` is broken into two compartments:
 
-<!--![A UML Enum representation](/images/5/umlbox.png) -->
+![A UML Enum representation](/images/5/umlbox.png)
 
-{{< mermaid zoom="2" >}}
+<!--
+{{< mermaid >}}
 classDiagram
 class Color{
     &lt;&lt;enum>>
@@ -16,11 +17,11 @@ class Color{
     Blue
     Yellow
     Orange
-    Purple
+    Purple 
 }
 
 {{< /mermaid >}}
-
+-->
 
 ### Stereotypes 
 

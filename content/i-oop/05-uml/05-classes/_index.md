@@ -10,9 +10,10 @@ pre: "5. "
 
 In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:
 
-<!-- ![Class Diagram example](/images/5/410_5_classbox.svg) -->
+![Class Diagram example](/images/5/410_5_classbox.svg)
 
-{{< mermaid zoom="2" >}}
+<!-- 
+{{< mermaid >}}
 classDiagram
 class Classname{
     +Field attributes
@@ -25,6 +26,7 @@ class Fruit{
 }
 
 {{< /mermaid >}}
+ -->
 
 The first compartment identifies the class - it contains the name of the class. The second compartment holds the _attributes_ of the class (the _fields_ and _properties_).  And the third compartment holds the _operations_ of the class (the _methods_) of the class.
 

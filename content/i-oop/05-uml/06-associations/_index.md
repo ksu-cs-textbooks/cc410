@@ -10,13 +10,17 @@ pre: "6. "
 
 Class diagrams also express the associations _between_ classes by drawing lines between the boxes representing them. 
 
-<!-- ![UML Association](/images/5/association.png) -->
+ ![UML Association](/images/5/association.png) 
 
-{{< mermaid zoom="2" >}}
+<!--
+{{< mermaid >}}
 classDiagram
+  direction RL
   ClassA -- ClassB
 
 {{< /mermaid >}}
+-->
+
 
 There are two basic types of associations we model with UML: **has-a** and **is-a** associations.  We break these into two further categories, based on the strength of the association, which is either **strong** or **weak**.  These associations are:
 
@@ -24,22 +28,27 @@ There are two basic types of associations we model with UML: **has-a** and **is-
   <tr>
     <th>Association Name</th>
     <th>Association Type</th>
+    <th>Typical Usage</th>
   </tr>
   <tr>
     <td>Realization</td>
     <td>weak is-a</td>
+    <td>Interfaces</td>
   </tr>
   <tr>
     <td>Generalization</td>
     <td>strong is-a</td>
+    <td>Inheritance</td>
   </tr>
   <tr>
     <td>Aggregation</td>
     <td>weak has-a</td>
+    <td>Collections</td>
   </tr>
   <tr>
     <td>Composition</td>
     <td>strong has-a</td>
+    <td>Encapsulation</td>
   </tr>
 </table>
 
@@ -51,27 +60,46 @@ Is-a associations indicate a relationship where one class __is a__ instance of a
 
 Realization refers to making an interface "real" by implementing the methods it defines. An **interface** is a special type of abstract class that only includes abstract methods. In effect, it is creating an defined list of operations, or an _interface_ (or API), that subclasses must include so that they can all be used in the same way. For Java, this corresponds to a class that implements an `interface`. The Python language doesn't have interfaces, but we'll learn how to create something similar using abstract classes. We call this a **is-a** relationship, because the class can be treated as being the same data type of the interface class.  It is also a **weak** relationship as the same interface can be implemented by otherwise unrelated classes.  In UML, realization is indicated by a dashed arrow in the direction of implementation:
 
-![Realization in UML](/images/5/410_5_realization.svg)
+![Realization in UML](/images/5/410_5_realization.svg) 
 
-{{< mermaid zoom="2" >}}
+<!--
+{{< mermaid >}}
 classDiagram
+  direction RL
   class CellPhone{
-    +String model
-    +blend(): string
+    +model : String
+    +blend() String
   }
   class Blendable{
     &lt;&lt;interface>>
-    +blend(): String
+    +blend() String
   }
   CellPhone ..|> Blendable
 
 {{< /mermaid >}}
+-->
 
 ### Generalization
 
 Generalization refers to extracting the shared parts from different classes to make a *general* base class of what they have in common.  For Java and Python, this corresponds to _inheritance_.  We call this a **strong is-a** relationship, because the class has all the same state and behavior as the base class.  In UML, realization is indicated by a solid arrow in the direction of inheritance:
 
-![Generalization in UML](/images/5/410_5_generalization.svg)
+![Generalization in UML](/images/5/410_5_generalization.svg) 
+
+<!-- 
+{{< mermaid >}}
+classDiagram
+  direction RL
+  class Banana{
+    +blend() String
+  }
+  class Fruit:::abstract {
+    &lt;&lt;abstract>>
+    +blend()* String
+  }
+  Banana --|> Fruit
+
+{{< /mermaid >}}
+-->
 
 Also notice that we show that `Fruit` and its `blend()` method are abstract by italicizing them. The association tells us that the `Banana` class **is a** `Fruit`. 
 
@@ -84,6 +112,23 @@ Has-a associations indicates that a class holds one or more references to instan
 Aggregation refers to collecting references to other classes.   As the aggregating class has references to the other classes, we call this a **has-a** relationship.  It is considered **weak** because the aggregated classes are only collected by the aggregating class, and can exist on their own.  It is indicated in UML by a solid line from the aggregating class to the one it aggregates, with an open diamond "fletching" on the opposite site of the arrow (the arrowhead is optional). 
 
 ![Aggregation in UML](/images/5/410_5_aggregation.svg)
+
+<!--
+{{< mermaid >}}
+classDiagram
+  direction RL
+  class ShoppingCart{
+    +items : List~GroceryItem~ 
+    +totalPrice : double &lt;~get,set~&gt;
+  }
+  class GroceryItem {
+    +price : double &lt;~get~&gt; 
+    +weight : int &lt;~get~&gt; 
+  }
+  GroceryItem "0..*" --o "1" ShoppingCart
+
+{{< /mermaid >}}
+-->
 
 ### Composition
 
