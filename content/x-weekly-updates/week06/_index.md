@@ -1,7 +1,7 @@
 ---
 title: "Spring '22 Week 6"
-pre: "7. "
-weight: 70
+pre: "6. "
+weight: 60
 date: 2021-03-01T00:53:26-05:00
 ---
 
