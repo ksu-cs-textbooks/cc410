@@ -68,7 +68,7 @@ Each of the menu item panels should also implement the following functionality:
 * Classes in the `thatsawrap.gui` package **do require** all appropriate documentation comments, and must be free of style errors. **Every method must include full documentation comments.**
 * Classes in the `thatsawrap.gui` package **do not require** unit tests.
 * Classes in the `thatsawrap.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
-* Create a **new UML diagram** that shows the structure of the `thatsawap.gui` package and how all GUI classes are related. You should also show any links to the classes in the `thatsawrap.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `thatsawrap.data` packages.
+* Create a **new UML diagram** that shows the structure of the `thatsawrap.gui` package and how all GUI classes are related. You should also show any links to the classes in the `thatsawrap.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `thatsawrap.data` packages.
   * For example, you can show that the classes in the `thatsawrap.gui.wraps` package are all related to similar classes in the `thatsawrap.data.wraps` package without listing the individual classes in that package.
 
 ###### Other Instructions
