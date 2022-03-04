@@ -50,7 +50,9 @@ So, as we can see, the term "free" really isn't a great way to discuss software 
 
 ### Public Domain
 
-The least restrictive license is the [public domain](https://en.wikipedia.org/wiki/Public_domain) license, meaning that the software can be used by anyone for any purpose, without any restrictions. However, the lack of a license does not mean that the software is in the public domain - quite the opposite in many cases. In the United States, any work, whether published or not, is automatically copyrighted to the original author^[https://copyright.cornell.edu/publicdomain] until 70 years after the author's death. So, to release software into the public domain, a proper license must be attached to the software.
+The least restrictive license is the [public domain](https://en.wikipedia.org/wiki/Public_domain) license, meaning that the software can be used by anyone for any purpose, without any restrictions. However, the lack of a license does not mean that the software is in the public domain - quite the opposite in many cases. In the United States, any work, whether published or not, is automatically copyrighted to the original author[^2] until 70 years after the author's death. So, to release software into the public domain, a proper license must be attached to the software.
+
+[^2]: https://copyright.cornell.edu/publicdomain
 
 One common public domain license is the [Creative Commons CC0](https://en.wikipedia.org/wiki/Creative_Commons_license#Zero_/_public_domain) license, with basically waives as many legal rights as possible on any work that the license is applied to. GitHub recommends a similar license called the [Unlicense](https://choosealicense.com/licenses/unlicense/). 
 
