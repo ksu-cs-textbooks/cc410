@@ -86,9 +86,15 @@ This assignment will add several new classes to the project
 
 ###### Combo Builder
 
-`thatsawrap.data.order.ComboBuilder` - a class that implements the **Builder Pattern** to build the available combos described below. 
+`thatsawrap.data.order.ComboBuilder` - a class that implements the **Builder Pattern** and **Factory Method Pattern** to build the available combos described below. 
 * It should include a single public **static** method to build a combo that accepts a **string**, and builds and returns the `Combo` object indicated by that string (the name of the combo). 
 * For simplicity, it may also include a public **static** getter for the number of combos available. 
+
+{{% notice tip %}}
+
+You don't have to create individual classes for the builder pattern in the `ComboBuilder` class - it is sufficient to just have a private method for building each combo in the class itself. The full Builder pattern is a bit too much boilerplate code for this simple use.
+
+{{% /notice %}}
 
 ###### Order Number Singleton
 
