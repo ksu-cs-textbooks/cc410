@@ -150,11 +150,11 @@ Your project must only instantiate a `CashDrawer` instance once, when the projec
 
 Cash denominations are listed in the `CashDenomination` enum, which includes both the name and value of each denomination. 
 
-If the customer has not provided enough money to pay for the transaction, your application should now allow it to be finalized. Your application should also handle making appropriate change from the cash drawer when finalizing a transaction. This includes determining the count of each denomination to be given back to the customer. Some tips for completing this portion of the project:
+If the customer has not provided enough money to pay for the transaction, your application should not allow it to be finalized. Your application should also handle making appropriate change from the cash drawer when finalizing a transaction. This includes determining the count of each denomination to be given back to the customer. Some tips for completing this portion of the project:
 
 * The contents of the drawer cannot be queried while the drawer is open, nor can the contents of the drawer be updated while it is closed. The external library will throw exceptions if this rule is violated.
 * To make change, find the amount to be given back and work from the highest denomination to the lowest. Make use of division and modulo arithmetic. (This is exactly backwards to how you were most likely taught to do this in your head!) If you use any online resources to create this algorithm, make sure you cite them in the comments of your code. 
-* The cash drawer contains limited amounts of each denomination. So, when making change, you may find that you don't have enough of a particular denomination. If that is the case, deduct one from the next largest available denomination and use that to refill this denomination. We will assume that you are able to freely convert one denomination to another using an external source. 
+* The cash drawer contains limited amounts of each denomination. So, when making change, you may find that you don't have enough of a particular denomination. If that is the case, deduct one from the next largest available denomination and use that to refill this denomination. We will assume that you are able to freely convert one denomination to another using an external source. **This is more difficult than it may seem. Make sure the rest of the process works before worrying about this edge case - it is not worth very many points!**
 
 {{% notice note %}}
 
@@ -202,7 +202,7 @@ Your application should include **unit tests** to test any functionality provide
 
 You **do not** have to verify that the external library functions correctly. It already contains a complete set of unit tests. You are encouraged to review the source code of the unit tests contained in the external library for examples of how to test your own code!
 
-Instead, you are encouraged to write wrapper classes around the classes in the external library using the **adapter pattern** and test those wrapper classes that contain your logic. 
+Instead, you are **highly** encouraged to write wrapper classes around the classes in the external library using the **adapter pattern** and test those wrapper classes that contain your logic. 
 
 For example:
 
