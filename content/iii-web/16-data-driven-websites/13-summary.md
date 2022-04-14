@@ -60,14 +60,14 @@ HTML consists of **elements** that build from text that is surrounded by what co
 
 Place the opening and closing tags of the elements of a basic HTMl page in the correct order.  (Click and drag to reorder elements)
 
-1. `<html>`
-2. `<head>`
-3. `<title>`
-4. `</title>`
-5. `</head>`
-6. `<body>`
-7. `</body>`
-8. `</html>`
+1. `&lt;html>`
+2. `&lt;head>`
+3. `&lt;title>`
+4. `&lt;/title>`
+5. `&lt;/head>`
+6. `&lt;body>`
+7. `&lt;/body>`
+8. `&lt;/html>`
 
 # CSS
 
