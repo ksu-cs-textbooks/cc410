@@ -43,7 +43,7 @@ Below that, we see three lines of data prefixed by `--data-urlencode`. We can gu
 
 Finally, the last portion `-u <TWILIO_ACCOUNT_SID>:<TWILIO_AUTH_TOKEN>` provides the user authentication information for this request. The first part before the colon `:` is the username, and the second part is the password. So, when this information is sent, it will also include a username and password to authenticate the request. That way, Twilio will know exactly which user is sending the request, and it prevents unauthorized users from sending spam text messages through their system.
 
-Finally, notice that many parts of this command are prefixed by a dollar sign `$`. This simply means that those are meant to be variables, so it is up to the developer to replace those variables with the correct values, either by setting them as shown on the first line, or by some other means. 
+Finally, notice that many parts of this command are enclosed by angle brackets `<>`. This simply means that those are meant to be variables, so it is up to the developer to replace those variables with the correct values, either by setting them as shown on the first line, or by some other means. 
 
 So, it looks like this `curl` command is just sending an HTTP POST request to a specific endpoint in the Twilio API. It will include three data elements, as well as some authentication information.
 
