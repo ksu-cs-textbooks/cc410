@@ -4,7 +4,29 @@ pre: "2.P. "
 weight: 25
 ---
 
+{{% notice warning warn-1 "Errata" %}}
+
+This video uses the `html5` widget module in WTForms, which is no longer present. See below the video for a fix!
+
+{{% /notice %}}
+
 {{% youtube 1b1x94AOO-k %}}
+
+{{% notice note note-1 "Widget Fix" %}}
+
+Since this video was recorded, Flask-WTF updated and is now using a newer version of the underlying WTForms library. That library has since deprecated the `html5` widgets module and moved them into the main `widgets` module.
+
+When running the code as shown in the video, you may receive this error:
+
+![Example 13 Import Error](/images/e13/ex13error.png)
+
+To resolve this, in `MovieForm.py` we can simply change the import to be `from wtforms.widgets import NumberInput` and then remove the `html5` in front of each instance where we use `NumberInput` in the code. See the screenshot below for a corrected version:
+
+![Example 13 Corrected Code](/images/e13/ex13corrected.png)
+
+For more information, check out the [relevant pull request](https://github.com/wtforms/flask-wtf/pull/484) and the [WTForms Widgets Documentation](https://wtforms.readthedocs.io/en/3.0.x/widgets/).
+
+{{% /notice %}}
 
 ## Outline
 
