@@ -70,7 +70,7 @@ For more information on using UML, refer to these resources. The full source cod
 
 ## JSON
 
-To handle JSON data in Python, 
+To handle JSON data in Python, we can use the [json](https://docs.python.org/3/library/json.html) library.
 
 Then, the process for saving and loading JSON data is very similar to working with XML:
 
