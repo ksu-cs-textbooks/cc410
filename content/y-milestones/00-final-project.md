@@ -23,6 +23,11 @@ This assignment allow students to exercise their programming skills by building 
 
 A complete final project should include the following features:
 
+#### Language Requirements
+
+* The final project must be written in the **same programming language** used for the rest of the course, unless given prior permission from the instructor.
+* In general, the structure of the final project should somewhat mirror the structure of the semester-long restaurant project. This includes using the same build tools (`gradle` or `tox`) and test frameworks. The goal is to use the tools learned throughout the semester to build a different project and focus on the design of the code, not the tools used. 
+
 #### Structural Requirements
 
 * Satisfy **all general requirements** listed above.
