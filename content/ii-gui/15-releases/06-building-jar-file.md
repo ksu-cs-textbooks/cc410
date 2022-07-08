@@ -247,7 +247,7 @@ tasks.named('javadocJar') {
 
 Finally, we can run `gradle build` one more time, and then commit our changes to our repository. 
 
-{{% notice info info-1 "Carefully Check Commit" %}}
+{{% notice info "Carefully Check Commit" %}}
 
 In this commit, we'll want to carefully check the output of the `git status` command to make sure we are only committing the files we want to the repository. Ideally, the only changes should be to the `build.gradle` and `settings.gradle` files, as well as all the contents of the new `dist` and `docs` directories.
 

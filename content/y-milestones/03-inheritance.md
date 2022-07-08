@@ -21,11 +21,11 @@ This project is the first that requires **ALL** general requirements introduced 
 
 {{% /notice %}}
 
-{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
+{{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{< include-local "../_includes/a-requirements.md" >}}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Assignment Requirements
 
@@ -68,7 +68,7 @@ This milestone should include the following features:
 
 Completing this project is estimated to require 3-8 hours.
 
-{{% notice note tip-2 "Expected Scope" %}}
+{{% notice note "Expected Scope" %}}
 
 _A rough estimate for this milestone would be around 1000 lines of new or updated code, and around 500 lines of redundant code removed. It could vary widely based on how you choose to implement the inheritance between the base classes and the interface. My model solution for this milestone now contains about 100 more unit tests in total. -Russ_
 
@@ -95,7 +95,7 @@ The following deductions apply:
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
 
-{{% notice note note-31 "Code Review" %}}
+{{% notice note "Code Review" %}}
 
 _As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. - Russ_
 
@@ -150,7 +150,7 @@ Each of the three types of menu items should directly inherit from a new abstrac
   * **Calories** - abstract getter. This should be overridden in the subclass to return the correct calories based on the size.
   * **Instructions** - abstract getter. This should be overridden in the subclass to return the correct list of ingredients changed. 
 
-{{% notice tip tip-3 "Many Valid Approaches" %}}
+{{% notice tip "Many Valid Approaches" %}}
 
 You may choose to implement the `Item` interface on the three base classes described below, which will then be inherited by each menu item, instead of explicitly implementing the interface on each menu item itself. Some of the elements described on these base classes are already defined in the `Item` interface, so if you implement the interface at the base class level you do not need to redefine the abstract methods from the interface within the abstract base classes. Either approach is valid, though going through the base class makes things simpler down the road!
 
@@ -200,7 +200,7 @@ The following updates must be made to the existing unit tests in this project to
   * Check if the object inherits from the correct base class
   * Check if the object implements the `Item` interface
 
-{{% notice tip tip-4 "Checking Types in Unit Tests" %}}
+{{% notice tip "Checking Types in Unit Tests" %}}
 
 To check for type compatibility, use the `object instanceof Class` operator in Java, or the `isinstance(object, Class)` method in Python as part of an assertion statement. Hamcrest also includes a few matchers for this, such as `isA` (Java) or `instance_of()` (Python).
 

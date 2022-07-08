@@ -40,7 +40,7 @@ When we execute that command, we should get output similar to the following:
 
 The `pip` tool will automatically install any additional libraries that are required for pytest, so we might see several items listed. At the bottom of the output, it will list all of the libraries installed. Since we see pytest in that list, we have successfully installed it.
 
-{{% notice info info-1 "Linux Command Prefixes" %}}
+{{% notice info "Linux Command Prefixes" %}}
 
 One point of confusion for many new developers is the inconsistent way Linux terminal commands are denoted in the documentation of various tools. For example, in the pytest documentation, Linux terminal commands are sometimes, but not always, prefixed by a dollar sign `$`:
 
@@ -105,7 +105,7 @@ Typically, most unit tests contain several of these assertions, and there are ma
 
 There we go! That's all it takes to write a simple unit test. However, as you've probably noticed, the code for a unit test is much more complex than the code that we are testing. That's actually pretty typical - many times it is much more difficult to write tests that ensure the code works than writing the code itself. However, the usefulness of those tests will often outweigh the cost, as it can be even _more_ costly to constantly fix bugs and errors that would have been caught by a proper set of unit tests. 
 
-{{% notice note note-1 "pytest Naming Conventions" %}}
+{{% notice note "pytest Naming Conventions" %}}
 
 One important aspect of the pytest tool is how it uses naming conventions to easily find files that contain unit tests. The naming conventions are fully described in the [pytest Documentation](https://docs.pytest.org/en/stable/goodpractices.html#test-discovery). In short, any Python file that matches either `test_*.py` or  `*_test.py` will be included. For this course, we'll use the `test_*.py` convention. 
 
@@ -171,7 +171,7 @@ If everything is configured correctly, we should see output similar to this:
 
 That means our unit tests are working! However, we aren't getting any useful feedback beyond the number of tests that were executed and whether they succeed.
 
-{{% notice note note-3 "Pytest Cache" %}}
+{{% notice note "Pytest Cache" %}}
 
 You might also have noticed a `.pytest_cache` directory appear after running pytest for the first time. This is simply a folder that pytest uses to cache data that it needs, and you can safely ignore it.
 

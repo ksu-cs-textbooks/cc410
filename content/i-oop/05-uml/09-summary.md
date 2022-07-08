@@ -250,37 +250,37 @@ The **composition** association is also known as what association type?
 
 The **realization** association is represented by which arrow?
 
-1. [X] ![Dashed Line with Open Arrow](/images/5/arrow1.svg)
-1. [ ] ![Solid Line with Open Arrow](/images/5/arrow2.svg)
-1. [ ] ![Solid Line with Open Diamond](/images/5/arrow3.svg)
-1. [ ] ![Solid Line with Solid Diamond](/images/5/arrow4.svg)
+1. [X] Dashed Line with Open Arrow
+1. [ ] Solid Line with Open arrow
+1. [ ] Solid Line with Open Diamond
+1. [ ] Solid Line with Solid Diamond
 
 # Generalization Arrow
 
 The **generalization** association is represented by which arrow?
 
-1. [ ] ![Dashed Line with Open Arrow](/images/5/arrow1.svg)
-1. [X] ![Solid Line with Open Arrow](/images/5/arrow2.svg)
-1. [ ] ![Solid Line with Open Diamond](/images/5/arrow3.svg)
-1. [ ] ![Solid Line with Solid Diamond](/images/5/arrow4.svg)
+1. [ ] Dashed Line with Open Arrow
+1. [X] Solid Line with Open Arrow
+1. [ ] Solid Line with Open Diamond
+1. [ ] Solid Line with Solid Diamond
 
 # Aggregation Arrow
 
 The **aggregation** association is represented by which arrow?
 
-1. [ ] ![Dashed Line with Open Arrow](/images/5/arrow1.svg)
-1. [ ] ![Solid Line with Open Arrow](/images/5/arrow2.svg)
-1. [X] ![Solid Line with Open Diamond](/images/5/arrow3.svg)
-1. [ ] ![Solid Line with Solid Diamond](/images/5/arrow4.svg)
+1. [ ] Dashed Line with Open arrow
+1. [ ] Solid Line with Open Arrow
+1. [X] Solid Line with Open Diamond
+1. [ ] Solid Line with Solid Diamond
 
 # Composition Arrow
 
 The **composition** association is represented by which arrow?
 
-1. [ ] ![Dashed Line with Open Arrow](/images/5/arrow1.svg)
-1. [ ] ![Solid Line with Open Arrow](/images/5/arrow2.svg)
-1. [ ] ![Solid Line with Open Diamond](/images/5/arrow3.svg)
-1. [X] ![Solid Line with Solid Diamond](/images/5/arrow4.svg)
+1. [ ] Dashed Line with Open Arrow
+1. [ ] Solid Line with Open Arrow
+1. [ ] Solid Line with Open Diamond
+1. [X] Solid Line with Solid Diamond
 
 # Multiplicity
 

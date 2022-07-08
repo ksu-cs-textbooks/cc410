@@ -174,7 +174,7 @@ would still be allowed since our `Student` class does not define any abstract me
 
 If that method is placed within our `Student` class, we could no longer directly instantiate the class since it contains an abstract method. However, we can still create instances of the derived classes `GraduateStudent` and `UndergraduateStudent`, and treat them as `Student` instances, provided that they override the abstract method `student_type` in their code. It is best practice to make any class that serves only as a base class for derived classes and will never be created directly an abstract class.
 
-{{% notice info info-i "Sealed Classes" %}}
+{{% notice info "Sealed Classes" %}}
 
 Some programming languages, such as C#, include a special keyword `sealed` that can be added to a class declaration. A **sealed** class is not inheritable, so no other classes can extend it. This further adds security to the programming model by preventing developers from even creating their own version of that class that would be compatible with the original version.
 

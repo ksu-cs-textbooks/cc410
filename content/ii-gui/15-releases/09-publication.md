@@ -19,7 +19,7 @@ If you do choose to publish your package to Maven Central, here are some resourc
 * [Open Source Software Repository Hosting (OSSRH)](https://central.sonatype.org/pages/ossrh-guide.html) from Sonatype
 * [Working with PGP Signatures](https://central.sonatype.org/pages/working-with-pgp-signatures.html) from Sonatype
 
-{{% notice note note-1 "Java Package Naming" %}}
+{{% notice note "Java Package Naming" %}}
 
 Java packages that are published to a central repository such as Maven Central must use a group ID based on a DNS domain name that you own or have control over. If the project is hosted on GitHub, you can use `io.github.<username>` as your group ID, since GitHub provides you the website `<username>.github.io` as part of GitHub pages. Otherwise, you may have to perform additional steps to reserve your group ID.
 

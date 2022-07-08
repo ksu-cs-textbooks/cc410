@@ -36,7 +36,7 @@ This milestone must follow these professional coding standards:
 
 The following requirements **ARE NOT** enforced for this milestone, but will be enforced in later milestones that use the same code. We will focus on learning to meet each of these requirements in future modules. However, you are welcome to "plan ahead" by minimizing the number of style errors in your code and adding some basic documentation where desired. 
 
-{{% notice tip tip-0 "Naming Standards" %}}
+{{% notice tip "Naming Standards" %}}
 
 You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
 

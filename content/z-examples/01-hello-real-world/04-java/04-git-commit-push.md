@@ -6,7 +6,7 @@ pre: "4.J.4. "
 
 {{% youtube bAjwHZ6OX3g %}}
 
-{{% notice note note-1 "tl;dr" %}}
+{{% notice note "tl;dr" %}}
 
 If you are familiar with using Git, here is the short version:
 
@@ -71,7 +71,7 @@ build
 
 Sometimes Gradle will create files named `.project` in our code, we want Git to ignore them. So, we can just add that entry to our `.gitignore` file to handle that. 
 
-{{% notice info info-1 "Screenshot Inconsistencies" %}}
+{{% notice info "Screenshot Inconsistencies" %}}
 
 Some of the screenshots in this section were taken later in the creation of this project, so the exact files listed may be a bit different in your version. That's fine - just use these as a baseline for the overall look and feel of the process, and feel free to ask questions if you aren't sure things are correct.
 

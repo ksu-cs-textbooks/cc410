@@ -3,7 +3,7 @@ title: "Summary"
 weight: 35
 pre: "7. "
 ---
-{{% notice info info-1 "Content Note" %}}
+{{% notice info "Content Note" %}}
 
 Portions of the content on this page were adapted from Nathan Bean's [CIS 400](https://textbooks.cs.ksu.edu/cis400/1-object-orientation/00-introduction/02-the-growth-of-computing/) course at K-State, with the author's permission. That content is licensed under a [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 

@@ -15,7 +15,7 @@ This assignment mimics the traditional "Hello World" project that most programme
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "./_includes/a-requirements.md" %}}
+{{< include-local "./_includes/a-requirements.md" >}}
 
 {{% /expand %}}
 

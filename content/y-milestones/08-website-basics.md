@@ -15,11 +15,11 @@ The eighth milestone involves moving into the web by creating a data-driven webs
 
 ## General Requirements
 
-{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
+{{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{< include-local "../_includes/a-requirements.md" >}}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Assignment Requirements
 
@@ -127,7 +127,7 @@ The following deductions apply:
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
 
-{{% notice note note-31 "Code Review" %}}
+{{% notice note "Code Review" %}}
 
 _As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. For any GUI and Web portions, I'll also be testing the functionality of the UI for each class under review. - Russ_
 

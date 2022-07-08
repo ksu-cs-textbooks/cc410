@@ -18,7 +18,7 @@ To create multiplicities, you can simply add text boxes to your arrows.
 
 To export a diagram, click the **File** menu and choose the **Export To** option. You can create both PNG and SVG files!
 
-{{% notice tip tip-1 "Diagrams in Image Files" %}}
+{{% notice tip "Diagrams in Image Files" %}}
 
 One great feature of Diagrams.net is the ability to embed the diagram data directly into an image file exported from the application. In that way, we only have to have access to the image in order to open the diagram and update the image. 
 

@@ -66,7 +66,7 @@ Here is a quick description of the contents of the `java` folder that were added
 
 So, as you can see, the files we'll mostly be concerned about are the ones in the `app` directory. On the next page, we'll start working with those files to build our new "Hello Real World" application.
 
-{{% notice warning warn-1 "JCenter Deprecated" %}}
+{{% notice warning "JCenter Deprecated" %}}
 
 The JCenter package repository was [sunset](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/) in May 2021, and stopped serving packages in early 2022. Some older versions of Gradle will set the JCenter repository as the default location to find packages, but that should be updated to use Maven Central instead.
 

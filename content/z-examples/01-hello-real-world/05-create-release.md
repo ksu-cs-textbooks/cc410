@@ -61,7 +61,7 @@ Once we've filled out that page, it will look like this:
 
 Finally, we can click the **Publish Release** button to create our release!
 
-{{% notice info info-i "Semantic Versioning" %}}
+{{% notice info "Semantic Versioning" %}}
 
 Creating version numbers is actually an important topic to discuss in software development. As we continually make changes to our code, how can we keep track of changes that are compatible with previous versions, or major updates that break old functionality?
 

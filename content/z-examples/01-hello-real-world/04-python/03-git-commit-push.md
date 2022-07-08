@@ -6,7 +6,7 @@ pre: "4.P.3. "
 
 {{% youtube 6EENk4EMO1Q %}}
 
-{{% notice note note-1 "tl;dr" %}}
+{{% notice note "tl;dr" %}}
 
 If you are familiar with using Git, here is the short version:
 
@@ -60,7 +60,7 @@ __pycache__/
 
 These are simply the names of files or folders, but may also include wildcards like an asterisk `*` as well. Anytime we want to ignore anything in our project we can just add its file or folder name or path to this file, and Git will dutifully ignore it. 
 
-{{% notice info info-2 "Screenshot Inconsistencies" %}}
+{{% notice info "Screenshot Inconsistencies" %}}
 
 Some of the screenshots in this section were taken later in the creation of this project, so the exact files listed may be a bit different in your version. That's fine - just use these as a baseline for the overall look and feel of the process, and feel free to ask questions if you aren't sure things are correct.
 

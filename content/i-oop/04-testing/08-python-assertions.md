@@ -45,7 +45,7 @@ Let's look at some examples to see how we can use the `assert` statement in vari
    * `assert actual is expected` - true if both `actual` and `expected` are the same object in memory
    * `assert actual is None` - true if `actual` is the value `None`
 
-{{% notice info info-1 "Floating-Point Arithmetic Error" %}}
+{{% notice info "Floating-Point Arithmetic Error" %}}
 
 Why do we need to deal with approximate floating-point values? This is because floating-point values are by their nature imprecise, and can sometimes lead to strange errors. Consider this example from [GeeksforGeeks](https://www.geeksforgeeks.org/rounding-off-errors-java/):
 

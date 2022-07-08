@@ -136,7 +136,7 @@ Composition refers to assembling a class from other classes, "composing" it.  As
 
 ![Composition in UML](/images/5/410_5_composition.svg)
 
-{{% notice tip tip-1 "Aggregation vs. Composition" %}}
+{{% notice tip "Aggregation vs. Composition" %}}
 
 Aggregation and composition are commonly confused, especially given they both are defined by holding a variable or collection of another class type. Here's a helpful analogy to explain the difference, based on the diagrams listed above:
 

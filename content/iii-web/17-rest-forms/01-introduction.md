@@ -4,7 +4,7 @@ weight: 5
 pre: "1. "
 ---
 
-{{% notice info info-1 "content note" %}}
+{{% notice info "Content Note" %}}
 
 Much of the content in this page was adapted from Nathan Bean's [CIS 400](https://textbooks.cs.ksu.edu/cis400/3-web-development/03-web-data/01-introduction/) course at K-State, with the author's permission. That content is licensed under a [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 

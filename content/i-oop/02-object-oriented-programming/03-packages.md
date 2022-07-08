@@ -68,7 +68,7 @@ To create a class `ClassName` in a package `cc410.package_name`, we would simply
 
 Finally, if we want the `cc410` package to act as a meta-package and be executable we would also include an `__init__.py` and a `__main__.py` file in the `src/cc410` directory as well.
 
-{{% notice note tip-1 "Seeing Double?" %}}
+{{% notice note "Seeing Double?" %}}
 
 In previous textbooks, we created different sections for both Java and Python code, so generally students would only see one or the other.
 

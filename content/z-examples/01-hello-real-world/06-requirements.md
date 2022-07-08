@@ -4,7 +4,7 @@ weight: 60
 pre: "6. "
 ---
 
-{{% notice tip tip-1 "Sample Assignment" %}}
+{{% notice tip "Sample Assignment" %}}
 
 The assignment description below is meant to mimic the structure that you'll find in the larger project milestones in this course. It clearly describes the overall desired outcome of the project and how it will be graded. 
 
@@ -20,11 +20,11 @@ This assignment mimics the traditional "Hello World" project that most programme
 
 ## General Requirements
 
-{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
+{{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{% include-local "../../_includes/a-requirements.md" %}}
+{{< include-local "../../_includes/a-requirements.md" >}}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Assignment Requirements
 

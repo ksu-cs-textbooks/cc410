@@ -80,7 +80,7 @@ When we send that request to Twilio, their documentations says we should expect 
 
 We won't dig too deeply into this response, but we can easily see that it includes lots of useful information about the request itself. We can see when it was sent, what it contained, any if it caused any errors, all directly from the response. The [Twilio API Documentation](https://www.twilio.com/docs/sms/send-messages) describes each of these in detail. 
 
-{{% notice note note-1 "Other Programming Languages" %}}
+{{% notice note "Other Programming Languages" %}}
 
 With this little bit of information, it is very simple to figure out how to send these requests from nearly any programming language. As long as it can construct a valid HTTP POST request and receive the response, it can be used. Thankfully, Twilio has also developed many helper libraries for different programming languages that greatly simplify this process. 
 

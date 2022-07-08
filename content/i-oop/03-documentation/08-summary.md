@@ -50,14 +50,14 @@ Broadly speaking, **documentation** refers to what?
 
 **HTML** documentation uses what marker to denote a block of code?
 
-1. [X] The `<code>` tag
+1. [X] The `&lt;code>` tag
 1. [ ] Three backticks ` ``` `
 
 # Markdown
 
 **Markdown** documentation uses what marker to denote a block of code?
 
-1. [ ] The `<code>` tag
+1. [ ] The `&lt;code>` tag
 1. [X] Three backticks ` ``` `
 
 # Uses Markdown

@@ -47,7 +47,7 @@ This milestone must follow these professional coding standards:
 
 The following requirements **ARE NOT** enforced for this milestone, but will be enforced in later milestones that use the same code. We will focus on learning to meet each of these requirements in future modules. However, you are welcome to "plan ahead" by minimizing the number of style errors in your code and adding some basic documentation where desired. 
 
-{{% notice tip tip-0 "Naming Standards" %}}
+{{% notice tip "Naming Standards" %}}
 
 You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
 
@@ -88,7 +88,7 @@ See the [That's a Wrap Menu](#thats-a-wrap-menu) section below for descriptions 
 
 **Python** - these files should include complete type annotations and achieve a low imprecision percentage in Mypy using strict type checking.
 
-{{% notice tip tip-1 "Python Type Checking" %}}
+{{% notice tip "Python Type Checking" %}}
 
 _In my testing, the only imprecision in type checking should be the first line of the `__eq__` method since it must accept an imprecise `object` type until the `isinstance()` method call. It will also mark the `@property.setter` annotations, but they don't count toward the imprecision total and can be ignored. The total imprecision should be less than 5% overall, and will probably be less than 2% in most cases. -Russ_
 
@@ -98,7 +98,7 @@ _In my testing, the only imprecision in type checking should be the first line o
 
 Completing this project is estimated to require 3-8 hours.
 
-{{% notice note tip-2 "Expected Scope" %}}
+{{% notice note "Expected Scope" %}}
 
 _In my testing, this milestone requires around 1000-1500 lines of pure code without documentation, or around 2000-2500 lines including documentation comments that will be included as part of milestone 2. Much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to do the enumerations first, then pick one of the complex wraps and start there. Once you have the wraps all working, the sides and drinks are pretty easy and use much of the same structure. -Russ_
 
@@ -120,7 +120,7 @@ The following deductions apply:
 
 This is not an exhaustive list of possible deductions. The instructors will strive to provide reasonable and fair grading, but we can't predict all possible defects. It is up to the student to ensure that the project is complete and correct before submission. 
 
-{{% notice note note-31 "Code Review" %}}
+{{% notice note "Code Review" %}}
 
 _As part of the grading of all assignments in this course, I will be doing a deep dive into a few classes in your code. This will include leaving detailed comments on code style and format in GitHub. I will usually choose various classes to review at random, and any issues found in that class will be verified in other classes of the same type. - Russ_
 
@@ -176,7 +176,7 @@ The number of **Calories** for a wrap will remain constant, regardless of other 
 
 The **Price** for a wrap will change based on the value selected for the **Shell**. Each wrap will have a base price listed for the **Default Shell** option. Other shells include an associated upcharge or discount, which must be adjusted.
 
-{{% notice tip tip-3 "Shell Prices" %}}
+{{% notice tip "Shell Prices" %}}
 
 This means that the prices shown on the menu already include the upcharge for the given default shell. You may want to calculate and store a base price for the item by removing the upcharge from the menu price. 
 
@@ -302,7 +302,7 @@ _an excellent setting for a delicious meal_
 
 `thatsawrap.data.enums.Shell` - **Whole Grain** (add $0.75), **Spinach** (add $1.00) or **Stromboli** (add $1.50)
 
-{{% notice tip tip-3 "Enums with Data" %}}
+{{% notice tip "Enums with Data" %}}
 
 It is possible to create an enumeration that also stores additional data associated with each value, and then access that data through the enum value. You may be able to use this to simplify handling the upcharge for each shell. Below are links to some sample code from later in this course that shows how to create such an enum and use that data.
 

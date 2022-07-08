@@ -142,7 +142,7 @@ It now ignores the `build` and any `.egg-info` folders.
 
 If everything looks good, we can save and commit our changes to the git repository for this project.
 
-{{% notice info info-1 "Carefully Check Commit" %}}
+{{% notice info "Carefully Check Commit" %}}
 
 In this commit, we'll want to carefully check the output of the `git status` command to make sure we are only committing the files we want to the repository. Ideally, the only changes should be to the `tox.ini` and `requirements.txt` files, the new `pyproject.toml` and `setup.cfg` files, as well as all the contents of the new `dist` and `docs` directories.
 

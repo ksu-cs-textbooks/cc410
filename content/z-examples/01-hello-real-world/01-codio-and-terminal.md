@@ -27,7 +27,7 @@ Codio has some great documentation for its IDE interface. A few of the more usef
 
 Feel free to play around with the Codio environment and editor, and find the settings that work best for you.
 
-{{% notice note note-1 "Java & Python Folders" %}}
+{{% notice note "Java & Python Folders" %}}
 
 We recommend placing all of your code and contents in either the **`java`** or **`python`** folder, whichever matches the programming language you are using. Those folders are already created for you in most assignments. The assignments in this course are designed to cover both languages, but to keep the files separate we use these folders. This also makes working with tools such as Gradle, Tox and Git much simpler later on.
 
@@ -65,7 +65,7 @@ The path `~/workspace` corresponds to the top level of the Codio file tree. So, 
 
 Make sure you watch the videos and read the content closely to get the directories correct! The projects in this course are much more complex than previous courses, and include multiple different folders full of files, sometimes with identical names!
 
-{{% notice info info-i "Directory vs. Folder" %}}
+{{% notice info "Directory vs. Folder" %}}
 
 Computer programmers tend to use the terms "directory" and "folder" interchangeably when talking about a file system. Most Linux tools use the term "directory," but many other operating systems refer to them colloquially as "folders" since that is the icon most commonly used to represent them. Rest assured that both generally mean the same thing - a location where other files or directories/folders can be stored in a hierarchical file system.
 

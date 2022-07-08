@@ -12,10 +12,10 @@ On this page, we'll give a brief overview of the major concepts and how they all
 
 ## Steps
 
-![Software Development Life Cycle Steps](/images/20/sdlc_wiki.gif)[^1]
+![Software Development Life Cycle Steps](/images/20/sdlc_wiki.gif)[^1] 
+_Right-click and open image in new tab for larger version_
 
 [^1]: https://commons.wikimedia.org/w/index.php?title=File:Systems_Development_Life_Cycle.gif&oldid=534019806
-_Right-click and open image in new tab for larger version_
 
 The software development life cycle consists of many steps, and each of the methodologies discussed below may use a slightly different list of steps, adding or omitting them as needed. However, they generally fit into a few major groupings:
 

@@ -12,7 +12,7 @@ In the world of software, we use the term [**open-source**](https://en.wikipedia
 
 So, before we can use just any software library we find, we should consider what license it uses and how that impacts our ability to use that library. On this page, we'll briefly discuss some of the licenses and terminology used in industry today.
 
-{{% notice warning warning-1 "I Am Not A Lawyer" %}}
+{{% notice warning "I Am Not A Lawyer" %}}
 
 The information below is my best attempt to help simplify the vastly complex legal documents that make up a software license. However, this simple information may not be enough to fully understand all of the nuances of how a particular software license impacts your ability to use it or distribute it with your own software. 
 
@@ -72,7 +72,7 @@ The next level of licenses are the [copyleft](https://en.wikipedia.org/wiki/Copy
 
 The most common copyleft license used in software is the [GNU General Public License](https://en.wikipedia.org/wiki/GNU_General_Public_License), or GPL, which is used by the Linux Kernel and many other applications typically included as part of a Linux distribution. This requires that any derivative works of the Linux Kernel also be made available under a copyleft license. 
 
-{{% notice note note-2 "Copyleft and Derivative Works" %}}
+{{% notice note "Copyleft and Derivative Works" %}}
 
 One major open question with copyleft licenses - if a piece of software uses a library that is licensed with a copyleft license, but doesn't distribute that library directly as part of its package, is it still considered a derivative work?
 

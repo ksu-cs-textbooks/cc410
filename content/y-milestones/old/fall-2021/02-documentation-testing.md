@@ -45,7 +45,7 @@ This milestone must follow these professional coding standards:
 
 The following requirements **ARE NOT** enforced for this milestone, but will be enforced in later milestones that use the same code. We will focus on learning to meet each of these requirements in future modules. However, you are welcome to "plan ahead" by minimizing the number of style errors in your code and adding some basic documentation where desired. 
 
-{{% notice tip tip-0 "Naming Standards" %}}
+{{% notice tip "Naming Standards" %}}
 
 You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
 
@@ -87,7 +87,7 @@ This milestone should include the following features:
   * Make sure it is committed to GitHub and included in your project release.
   * You may include additional materials, such as the source file used to create the image.
 
-{{% notice tip tip-1 "Helpful Hints" %}}
+{{% notice tip "Helpful Hints" %}}
 
 _Some quick tips from when I did this milestone:_
 
@@ -106,7 +106,7 @@ _-Russ_
 
 Completing this project is estimated to require 3-8 hours.
 
-{{% notice note tip-2 "Expected Scope" %}}
+{{% notice note "Expected Scope" %}}
 
 _In my testing, this milestone requires around 3500-4000 lines of code (including very rudimentary documentation comments) in the unit tests directory. As with the prior milestone, much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to pick one of the complex pizzas and start there writing unit tests. Once you have the pizzas all working, the sides and drinks are pretty easy and use much of the same structure. There are several hundred unit tests in my model solution. I ended up finding half a dozen errors in my model solution for milestone 1, showing the importance of unit testing! -Russ_
 

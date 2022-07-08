@@ -89,7 +89,7 @@ When we run this code, then open the Codio viewer, we should see this window:
 
 Let's go through this code and explore what it does. We'll also cover most of this content in the example project for this chapter.
 
-{{% notice info info-1 "Object-Oriented tkinter" %}}
+{{% notice info "Object-Oriented tkinter" %}}
 
 This example uses a very object-oriented format, which is different than many other tutorials you may find online for learning tkinter. 
 

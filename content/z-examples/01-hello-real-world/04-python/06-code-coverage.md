@@ -126,7 +126,7 @@ If we drill down deeper, we can find the lines of code that aren't covered by ou
 
 As we expected, our single unit test is not able to test each and every line of code in our application. That's not good! So, we'll need to update our tests to account for the change in our code. 
 
-{{% notice note note-1 "Test-Driven Development" %}}
+{{% notice note "Test-Driven Development" %}}
 
 As a quick aside, if we were engaging in **test-driven development**, we would write the new unit test before changing the code. We won't model that behavior right now, but it is worth noting that you don't have to do these steps in the order presented here.
 

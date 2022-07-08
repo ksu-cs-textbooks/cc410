@@ -14,7 +14,7 @@ The first step is to accept the assignment on GitHub classroom. You can do this 
 
 First, before you do anything else, you'll need to create an account on [GitHub](https://github.com/) if you don't have one already. Once you've created your account and successfully confirmed your email address, you can move on to the next step.
 
-{{% notice info info-i "GitHub Student Developer Pack" %}}
+{{% notice info "GitHub Student Developer Pack" %}}
 
 Once you've created your GitHub account, you can also get access to the [GitHub Student Developer Pack](https://education.github.com/pack), which gives you access to a ton of cool tools and free content for developers. We highly recommend checking it out!
 
@@ -54,7 +54,7 @@ There you go! You can confirm that it works by going to your GitHub account sett
 
 ![Codio Key on GitHub](/images/e1/31githubkey.png)
 
-{{% notice note note-1 "Manually Adding SSH Keys to GitHub" %}}
+{{% notice note "Manually Adding SSH Keys to GitHub" %}}
 
 If you prefer to do this manually, here are the steps:
 

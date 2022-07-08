@@ -6,7 +6,7 @@ pre: "4.J.1. "
 
 {{% youtube YosEP_LgrcA %}}
 
-{{% notice note note-1 "tl;dr" %}}
+{{% notice note "tl;dr" %}}
 
 If you are reviewing this material or are familiar with these concepts, here's the short version:
 
@@ -25,7 +25,7 @@ sdk install gradle
 
 Working with Java on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we're going to use one such tool, called **Gradle**.
 
-{{% notice info info-2 "Gradle" %}}
+{{% notice info "Gradle" %}}
 
 [Gradle](https://gradle.org/) is a multi-platform build tool that helps automate development and deployment of applications written in a variety of languages. It also includes a very robust set of plugins that allow developers to perform many different tasks, directly through the Gradle command interface. 
 
@@ -65,7 +65,7 @@ When we do that, we'll get output that looks like this:
 
 If it was successful, we'll have to close and reopen the terminal in order to use it. 
 
-{{% notice info info-3 "Three Quick Comments" %}}
+{{% notice info "Three Quick Comments" %}}
 
 Here are three quick comments to explain a bit more about what we just did that may be helpful in the future. 
 
@@ -130,7 +130,7 @@ gradle -version
 
 You should get a message from Gradle telling you what version is installed. If that works, you can move on to the next page.
 
-{{% notice warning warn-4 "Having Issues?" %}}
+{{% notice warning "Having Issues?" %}}
 
 If you are having trouble getting Gradle installed, reach out to the course instructors for assistance. 
 

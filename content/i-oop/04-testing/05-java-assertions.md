@@ -26,7 +26,7 @@ For floating-point values such as the `double` data type, you can also specify a
 * `assertEquals(expected, actual, delta)`
 * `assertNotEquals(expected, actual, delta)`
 
-{{% notice info info-1 "Floating-Point Arithmetic Error" %}}
+{{% notice info "Floating-Point Arithmetic Error" %}}
 
 Why do we need to include a delta value? This is because floating-point values are by their nature imprecise, and can sometimes lead to strange errors. Consider this example from [GeeksforGeeks](https://www.geeksforgeeks.org/rounding-off-errors-java/):
 

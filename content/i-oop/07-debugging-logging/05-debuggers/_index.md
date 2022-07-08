@@ -10,7 +10,7 @@ pre: "5. "
 
 What if we want to have a bit more control over our programs and use a more powerful tool for finding bugs. In that case, we'll need to use a **debugger**. A debugger is a special application that allows us to inspect another program while it is running. Using a debugger, we can inspect both the state and behavior of an application, and observe the program directly while it runs. Most debuggers can also be configured to pause a program at a particular line of code, and then execute each following line one at a time to quickly find the source of the error. Both Java and Python come with debuggers that we can use.
 
-{{% notice note note-1 "Standalone Debuggers" %}}
+{{% notice note "Standalone Debuggers" %}}
 
 In practice, very few developers use a debugger in a standalone way as described below. Instead, typically the debugger is part of their integrated development environment, or IDE. Using a debugger in an IDE is _much_ simpler than using it via the terminal. At the bottom of this page, we'll describe how to use the built-in debugger in Codio, which will be a much simpler experience.
 
@@ -53,7 +53,7 @@ On the right, we can see the debugging window that lists the current call stack,
 
 These five buttons are common to most debuggers, so it is very important to get used to them and how they work. Stepping through your code quickly and efficiently using breakpoints and a debugger is an excellent skill to learn!
 
-{{% notice warning warn-1 "Standard Input for Debugging" %}}
+{{% notice warning "Standard Input for Debugging" %}}
 
 Unfortunately, one major limitation of the Codio debugger is that it does not allow us to accept input via the terminal while the debugger is running. So, we'll have to come up with some other way of providing input to our program if we need to debug it.
 

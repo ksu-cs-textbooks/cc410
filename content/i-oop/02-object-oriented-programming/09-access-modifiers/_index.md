@@ -8,7 +8,7 @@ pre: "9. "
 
 [Video Materials]({{<relref "./video">}})
 
-{{% notice note note-0 "Access Modifiers in Python" %}}
+{{% notice note "Access Modifiers in Python" %}}
 
 Most of the content below will apply to the Java language only. Python does not directly support information hiding through access modifiers, but simulates it by allowing developers to prefix variables with underscores to indicate that they are "protected" and should be left alone. Likewise, prefixing a Python variable or method name with two underscores will make it appear private to the class, but a developer can simply add the class name to the variable or method name in order to access it. So, in places below where we state that an external class "cannot" access a private attribute, keep in mind that in Python it is always possible and "should not" is a better term to use. 
 
@@ -173,7 +173,7 @@ Notice how the `setFirst()` and `setLast()` setters in Java, and the `first()` a
 
 Also, notice that the `wid` field only has a getter. This effectively means once a student's wid is set by the constructor, it cannot be changed (it's read only).  This allows us to share data without allowing it to be changed outside of the class.
 
-{{% notice info info-1 "Getters and Setters vs. Properties" %}}
+{{% notice info "Getters and Setters vs. Properties" %}}
 
 Notice that Java uses methods called `getFirst` and `setFirst` as getters and setters, while Python uses the `@property` decorator and methods that share the same name. These **properties** in Python simplify the use of getters and setters in code. 
 

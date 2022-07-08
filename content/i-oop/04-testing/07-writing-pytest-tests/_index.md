@@ -46,7 +46,7 @@ class TestStove:
         assert stove.burner_one == value, "Burner does not have expected value"
 ```
 
-{{% notice warning warning-1 "Spelling" %}}
+{{% notice warning "Spelling" %}}
 
 Note the creative spelling of the `@parametrize` annotation! Be careful to not misspell it (by spelling it correctly) in your code.
 
@@ -84,7 +84,7 @@ This way, other programmers (and ourselves, if we visit this code years later) w
 
 For a complete guide to parameterized tests in pyunit, refer to the [pyunit Guide](https://docs.pytest.org/en/stable/parametrize.html#parametrize-basics).
 
-{{% notice tip tip-1 "Edge Cases" %}}
+{{% notice tip "Edge Cases" %}}
 
 Recognizing and testing for edge cases is a critical aspect of test writing. But it is also a difficult skill to develop, as we have a tendency to focus on expected values and expected use-cases for our software. But most serious errors occur when values outside these expectations are introduced.  Also, remember special values, like `float("inf"),`, `float("-inf")`, and `float("nan")`.
 

@@ -11,7 +11,7 @@ In this example project, we will go through all the steps to create a new versio
 
 Don't worry if some of this doesn't make sense right now - we'll spend much more time later in this course going into more detail on many of these areas. For now, just follow along so you can see how it all works together. The goal is to give you a bigger picture view first, and then we'll dive into the details later.
 
-{{% notice info info-i "Example vs. Project" %}}
+{{% notice info "Example vs. Project" %}}
 
 You might be wondering: what's the difference between an **example** and a **project** in this course? 
 

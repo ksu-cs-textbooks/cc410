@@ -20,7 +20,7 @@ Likewise, when writing a program to perform statistical analysis or machine lear
 
 In short, it is always worth taking the time to review the libraries and frameworks available for our programming language. We may find that we can easily combine a few of them together to achieve our desired result.
 
-{{% notice note note-1 "A Cautionary Tale" %}}
+{{% notice note "A Cautionary Tale" %}}
 
 Of course, relying on a library developed by someone else does have its pitfalls. For example, what if the original developer suddenly decides to "unpublish" the library, making it unavailable for download in the future? That could cause issues for any developer or application that relies on that library, making them also stop working. As libraries are often built on other libraries, such a cascading effect could have dire consequences.
 

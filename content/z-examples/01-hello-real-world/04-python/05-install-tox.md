@@ -8,7 +8,7 @@ pre: "4.P.5. "
 
 Working with Python on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we're going to use one such tool, called **tox**.
 
-{{% notice note note-1 "Tox" %}}
+{{% notice note "Tox" %}}
 
 [tox](https://tox.readthedocs.io/en/latest/) is a tool that is developed to help automate and standardize the process of testing applications written in Python. It vastly simplifies many of the steps we'd have to follow to do this in our own project.  
 

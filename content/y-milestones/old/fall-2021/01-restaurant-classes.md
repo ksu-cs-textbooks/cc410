@@ -47,7 +47,7 @@ This milestone must follow these professional coding standards:
 
 The following requirements **ARE NOT** enforced for this milestone, but will be enforced in later milestones that use the same code. We will focus on learning to meet each of these requirements in future modules. However, you are welcome to "plan ahead" by minimizing the number of style errors in your code and adding some basic documentation where desired. 
 
-{{% notice tip tip-0 "Naming Standards" %}}
+{{% notice tip "Naming Standards" %}}
 
 You can make things easier on yourself by following proper naming standards for your language of choice, even though we aren't enforcing a style guide for this milestone.
 
@@ -88,7 +88,7 @@ See the [Hero Pizza Menu](#hero-pizza-menu) section below for descriptions of wh
 
 **Python** - these files should include complete type annotations and achieve a low imprecision percentage in Mypy using strict type checking.
 
-{{% notice tip tip-1 "Python Type Checking" %}}
+{{% notice tip "Python Type Checking" %}}
 
 _In my testing, the only imprecision in type checking should be the first line of the `__eq__` method since it must accept an imprecise `object` type until the `isinstance()` method call. It will also mark the `@property.setter` annotations, but they don't count toward the imprecision total and can be ignored. The total imprecision should be less than 5% overall, and will probably be less than 2% in most cases. -Russ_
 
@@ -98,7 +98,7 @@ _In my testing, the only imprecision in type checking should be the first line o
 
 Completing this project is estimated to require 3-8 hours.
 
-{{% notice note tip-2 "Expected Scope" %}}
+{{% notice note "Expected Scope" %}}
 
 _In my testing, this milestone requires around 1000-1500 lines of pure code without documentation, or around 2000-2500 lines including documentation comments that will be included as part of milestone 2. Much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to do the enumerations first, then pick one of the complex pizzas and start there. Once you have the pizzas all working, the sides and drinks are pretty easy and use much of the same structure. -Russ_
 
@@ -319,7 +319,7 @@ _a solid base for a trustworthy pizza slice_
 
 `heropizza.data.enums.Crust` - **Thin**, **Hand Tossed** (add $0.50), **Deep Dish** (add $1.00), **Cheese Stuffed** (add $2.00)
 
-{{% notice tip tip-3 "Enums with Data" %}}
+{{% notice tip "Enums with Data" %}}
 
 It is possible to create an enumeration that also stores additional data associated with each value, and then access that data through the enum value. You may be able to use this to simplify handling the upcharge for each crust type. Below are links to some sample code from later in this course that shows how to create such an enum and use that data.
 

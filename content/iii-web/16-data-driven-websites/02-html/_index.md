@@ -4,7 +4,7 @@ weight: 10
 pre: "2. "
 ---
 
-{{% notice info info-1 "content note" %}}
+{{% notice info "Content Note" %}}
 
 Much of the content in this page was adapted from Nathan Bean's [CIS 400](https://textbooks.cs.ksu.edu/cis400/3-web-development/01-core-web-technologies/03-html/) course at K-State, with the author's permission. That content is licensed under a [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 
@@ -55,9 +55,7 @@ Let's explore the parts of an HTML element in more detail.
 
 The start tag is enclosed in angle brackets (`<` and `>`).  The angle brackets differentiate the text inside them as being HTML elements, rather than text.  This guides the browser to interpret them correctly.  
 
-{{% notice info %}}
-
-# Angle Brackets in HTML
+{{% notice info "Angle Brackets in HTML" %}}
 
 Because angle brackets are interpreted as defining HTML tags, you cannot use those characters to represent greater than and less than signs.  Instead, HTML defines escape character sequences to represent these and other special characters.  Greater than is `&gt;`, less than is `&lt;`.  A full list can be found on [mdn](https://developer.mozilla.org/en-US/docs/Glossary/Entity).
 

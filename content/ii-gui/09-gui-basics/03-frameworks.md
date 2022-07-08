@@ -32,7 +32,7 @@ Like Java Swing, tkinter allows us to build GUIs by inheriting from the default 
 
 On the next few pages, we'll discuss the basic features each of these frameworks has in common, before diving a bit deeper into each one and what makes it unique.
 
-{{% notice info info-1 "Other Frameworks" %}}
+{{% notice info "Other Frameworks" %}}
 
 There are many other frameworks available for both of these languages, but there are a few specific reasons we chose to focus on Java Swing and Python tkinter. 
 

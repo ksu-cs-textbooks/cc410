@@ -23,11 +23,11 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 ## General Requirements
 
-{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
+{{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{< include-local "../_includes/a-requirements.md" >}}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Assignment Requirements
 

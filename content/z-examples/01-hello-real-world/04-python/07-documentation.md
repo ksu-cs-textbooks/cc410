@@ -14,7 +14,7 @@ Unlike most other programming languages, which specify that documentation for cl
 
 The Python programming language specification doesn't include a whole lot of information about the specific structure of docstrings, but there are a few resources that developers can look to for examples. The original docstring format was specified in [PEP 257](https://www.python.org/dev/peps/pep-0257/). However, many Python developers prefer to follow the [Python Style Guide published by Google](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings), which includes examples and specifications for docstrings. 
 
-{{% notice info info-1 "PEPs" %}}
+{{% notice info "PEPs" %}}
 
 In Python documentation, many times you'll see references to various "PEP" documents. "PEP" is short for "Python Enhancement Proposal," and the collected set of PEP documents form the basis for the Python programming language. If you are familiar with the [Requests for Comment](https://www.rfc-editor.org/rfc-index.html), or RFCs, that provide the technical information underpinning much of the Internet, PEPs serve a very similar purpose for Python. The full archive of PEPs can be found in [PEP 0](https://www.python.org/dev/peps/). 
 

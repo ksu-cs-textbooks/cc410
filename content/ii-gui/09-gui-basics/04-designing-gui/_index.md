@@ -31,7 +31,7 @@ Another type of tool we can use to develop GUI prototypes is a simple drawing to
 
 Once we have a good idea for what our GUI should look like, we can start building it.
 
-{{% notice note tip-1 "Terminology" %}}
+{{% notice note "Terminology" %}}
 
 Here are a few terms and acronyms that are used in the GUI world that are important to understand.
 

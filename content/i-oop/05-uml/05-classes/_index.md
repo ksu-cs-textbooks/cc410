@@ -32,7 +32,7 @@ The first compartment identifies the class - it contains the name of the class. 
 
 In the diagram above, we can see the `Fruit` class modeled on the right side. 
 
-{{% notice info info-1 "Java vs. Python in UML" %}}
+{{% notice info "Java vs. Python in UML" %}}
 
 UML is a very flexible tool, but it can become difficult to create UML diagrams that accurately reflect the differences between programming languages. So, different developers might implement the same UML class diagram in slightly different ways. 
 

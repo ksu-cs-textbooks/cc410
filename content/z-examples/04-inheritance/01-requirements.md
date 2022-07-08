@@ -18,11 +18,11 @@ This project is the first that requires **ALL** general requirements introduced 
 
 {{% /notice %}}
 
-{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
+{{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{% include-local "../../_includes/a-requirements.md" %}}
+{{< include-local "../../_includes/a-requirements.md" >}}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Assignment Requirements
 

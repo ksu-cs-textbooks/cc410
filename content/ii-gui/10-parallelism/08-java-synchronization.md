@@ -135,7 +135,7 @@ Now, when we execute that program, we'll always get the correct answer!
 
 ![Synchronized in Java](/images/10/java_synch.png)
 
-{{% notice info info-1 "Not Always Random?" %}}
+{{% notice info "Not Always Random?" %}}
 
 In fact, to get the threads interleaved as shown in this screenshot, we had to add additional `Thread.sleep()` statements to the code! Otherwise, the program always seemed to schedule the threads in the same order on Codio. We cannot guarantee it will always happen like that, but it is an interesting quirk you can observe in multithreaded code. In practice, sometimes race conditions may only happen once in a million operations, making them extremely difficult to debug when they happen.
 

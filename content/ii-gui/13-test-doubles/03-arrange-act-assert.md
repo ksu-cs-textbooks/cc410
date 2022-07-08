@@ -68,7 +68,7 @@ def test_seven_wrong_guesses_should_lose(self):
 
 In both of these tests, we start in the **arrange** portion by instantiating a `GuessingGame` object, which is the object we will be testing. Then, in the **act** phase, we call several methods in the `GuessingGame` object - in this case, we are checking that seven incorrect guesses should cause the game to be lost, so we must make seven incorrect guesses. Finally, in the **assert** section, we use a simple assertion to make sure the game has been lost. 
 
-{{% notice note note-1 "Behavior-Driven Development" %}}
+{{% notice note "Behavior-Driven Development" %}}
 
 One common alternative to this approach comes from [**behavior-driven development**](https://en.wikipedia.org/wiki/Behavior-driven_development). In this development process, which is effectively an extension of the [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) process we've learned about, software specifications are written to match the behaviors that a user might expect to see when the application is running. Such a specification typically follows a [**given, when, then**](https://en.wikipedia.org/wiki/Given-When-Then) structure. Here's a short example of a specification from [Wikipedia](https://en.wikipedia.org/wiki/Behavior-driven_development).
 

@@ -7,7 +7,7 @@ The next major step in releasing a piece of software is to choose a license. Add
 
 In the previous chapter, we discussed various software licenses and what they mean when we try to use a library under that license. Now, let's look at what it means to release our software using those licenses.
 
-{{% notice warning warning-1 "I Am Not A Lawyer" %}}
+{{% notice warning "I Am Not A Lawyer" %}}
 
 The information below is my best attempt to help simplify the vastly complex legal documents that make up a software license. However, this simple information may not be enough to fully understand all of the nuances of how a particular software license impacts other users' ability to interact with your software, and your liabilities when it comes to that use.
 
@@ -53,7 +53,7 @@ Of course, if we choose not to include a license with our software, it will be c
 
 GitHub provides a good [overview](https://choosealicense.com/no-permission/) of what happens when you choose to publish software without a license. That said, it is highly recommended to either choose an open-source license listed above, or make the code private until we are ready to choose a license. 
 
-{{% notice note note-1 "Case Study" %}}
+{{% notice note "Case Study" %}}
 
 #### The CC 410 Course Materials
 

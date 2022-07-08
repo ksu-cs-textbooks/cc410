@@ -34,7 +34,7 @@ This example will cover creating new packages, classes, and enumerations within 
 
 ## Assignment Requirements
 
-{{% notice info info-i "Dice Names" %}}
+{{% notice info "Dice Names" %}}
 
 In this assignment, we'll refer to standard numerical dice following the method used by many RPGs. A  "dx" is a dice with "x" sides, numbered from 1 through x". So, a standard six-sided cube die numbered 1 through 6 is referred to as a "d6".
     

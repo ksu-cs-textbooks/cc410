@@ -76,7 +76,7 @@ There we go! We've added type hints to our source code. If you want to learn mor
 * [Type Hints Cheat Sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html) from Mypy
 * [Type System Reference](https://mypy.readthedocs.io/en/stable/builtin_types.html) from Mypy
 
-{{% notice info info-1 "Codio IDE and Type Hinting" %}}
+{{% notice info "Codio IDE and Type Hinting" %}}
 
 Unfortunately, the Codio IDE does not properly deal with type hinting in Python, and will tell us that our code contains a syntax error:
 
@@ -186,7 +186,7 @@ class TestHelloWorld():
         reveal_locals()
 ```
 
-{{% notice info info-2 "Mypy Expressions" %}}
+{{% notice info "Mypy Expressions" %}}
 
 The line `reveal_locals()` is a handy expression for adding type checking to our Python code. However, the Python interpreter itself won't recognize that line as valid Python code, so we'll have to remove it before we can actually execute our tests again. We're just using it temporarily to help us determine the types that Mypy finds for the variables in our code
 
@@ -204,7 +204,7 @@ Notice that we are just giving it the name of the directory `test` instead of lo
 
 In that output, we'll see that the Mypy library was not able to determine the type of the `capsys` and `captured` variables. Instead, it just reports that they could be `Any` type, which is a special type annotation that matches any possible type. This is due to the fact that we didn't actually have to import the `pytest` library to use those variables. This is a powerful feature of Python, but it makes it more difficult to perform proper type checking. It will also complain that we now have method arguments that are missing annotations, so let's see if we can resolve that.
 
-{{% notice note note-4 "Read the Source, Luke" %}}
+{{% notice note "Read the Source, Luke" %}}
 
 Unfortunately, figuring out the rest of this required lots of poking around the [pytest source code](https://github.com/pytest-dev/pytest/blob/master/src/_pytest/capture.py), specifically in the file for capturing system output. Static type checking in Python is simply more difficult than in other languages because of the way it handles dynamic typing and library imports at runtime. 
 

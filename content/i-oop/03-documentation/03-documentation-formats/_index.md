@@ -79,7 +79,7 @@ Additionally, chat servers like RocketChat and Discord support using markdown in
 
 GitHub even incorporates a markdown compiler into its repository displays.  If your file ends in a `.md` extension, GitHub will evaluate it as Markdown and display it as HTML when you navigate your repository.  If your repository contains a README.md file at the top level of your project, it will also be displayed as the front page of your repository. GitHub uses an expanded list of annotations known as [GitHub-flavored markdown](https://github.github.com/gfm/) that adds support for tables, task item lists, strikethroughs, and others. You can also use Markdown in GitHub pull requests, comments, and more!
 
-{{% notice info info-1 "README and LICENSE files" %}}
+{{% notice info "README and LICENSE files" %}}
 
 It is best practice to include a `README.md` file at the top level of a project stored as Git repository.  This document provides an overview of the project, as well as helpful instructions on how it is to be used and where to go for more information.  For open-source projects, you should also include a LICENSE file that contains the terms of the license the software is released under. For example, much of the content in this course is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). 
 

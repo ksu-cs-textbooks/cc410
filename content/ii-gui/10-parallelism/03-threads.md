@@ -11,7 +11,7 @@ In most modern operating systems, a process can be further divided into **thread
 
 However, it is possible for our program to create multiple threads, and then have them appear to run simultaneously. Of course, as we said before, they may not actually run simultaneously, especially on a computer with only a single processing core. It is all left up to the scheduler in the operating system to determine how these threads are actually scheduled and executed. 
 
-{{% notice info note-1 "Complexity" %}}
+{{% notice info "Complexity" %}}
 
 This description leaves out some of the complexity of how threads and processes work within modern operating systems on modern hardware. In the real world, it is possible for a process to consist of multiple threads, and those threads can be scheduled to run at any time on any processor in any order by the operating system.
 

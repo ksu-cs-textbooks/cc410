@@ -17,7 +17,7 @@ The tenth milestone involves building a RESTful web application that could be us
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "./_includes/a-requirements.md" %}}
+{{< include-local "./_includes/a-requirements.md" >}}
 
 {{% /expand %}}
 

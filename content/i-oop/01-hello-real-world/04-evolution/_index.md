@@ -4,7 +4,7 @@ weight: 20
 pre: "4. "
 ---
 
-{{% notice info info-1 "content note" %}}
+{{% notice info "Content Note" %}}
 
 The content on this page was adapted from Nathan Bean's [CIS 400](https://textbooks.cs.ksu.edu/cis400/1-object-orientation/00-introduction/02-the-growth-of-computing/) course at K-State, with the author's permission. That content is licensed under a [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
 

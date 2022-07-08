@@ -17,7 +17,7 @@ The sixth milestone involves creating combo meals and orders from the items sele
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "./_includes/a-requirements.md" %}}
+{{< include-local "./_includes/a-requirements.md" >}}
 
 {{% /expand %}}
 

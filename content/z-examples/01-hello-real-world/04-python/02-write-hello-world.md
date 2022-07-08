@@ -95,7 +95,7 @@ As we can see, our application actually goes through a few steps before it is ab
 
 There we go! We've successfully built and run our application using Python! If you want, you can test different messages in `HelloWorld.py` to make sure the program is working correctly.
 
-{{% notice info info-1 "Pycache Folders" %}}
+{{% notice info "Pycache Folders" %}}
 
 When Python code is executed, the Python interpreter creates a "compiled" version of the code and stores it in a folder called `__pycache__`. Those folders can be safely ignored, but they may appear in various directories as you develop and test your application. Later in this module we'll discuss how to omit those directories from version control applications such as Git. 
 

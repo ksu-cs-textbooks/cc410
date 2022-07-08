@@ -17,7 +17,7 @@ The eighth milestone involves moving into the web by creating a data-driven webs
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "./_includes/a-requirements.md" %}}
+{{< include-local "./_includes/a-requirements.md" >}}
 
 {{% /expand %}}
 

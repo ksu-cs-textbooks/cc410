@@ -116,7 +116,7 @@ Each sundae panel test class should contain unit tests for the following:
 * `testToppingCheckBoxSetCorrectly(Topping)` - instantiate a panel with an existing item with a given value for topping, and assert that the topping checkbox is set to the correct value. Do this for both `true` and `false`.
 * `testCancelButton()` - instantiate a panel with an existing item, change several values in the GUI, and fire a "cancel" action, then assert that the item is unchanged from its previous state.
 
-{{% notice note note-1 "Update Permissions" %}}
+{{% notice note "Update Permissions" %}}
 
 To allow proper unit testing, you may need to relax the permissions on several elements inside of your GUI classes. I recommend using `package-private` in Java, with no modifier - see [this document](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html). Then, any unit tests that are in the same package can have access to those members. For Python, switching from double underscore private attributes to single underscore protected attributes is sufficient. 
 

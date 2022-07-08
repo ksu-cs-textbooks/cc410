@@ -17,7 +17,7 @@ The eleventh milestone involves adding form validation and serialization to the 
 
 {{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
 
-{{% include-local "./_includes/a-requirements.md" %}}
+{{< include-local "./_includes/a-requirements.md" >}}
 
 {{% /expand %}}
 

@@ -154,7 +154,7 @@ Note how here, `f` is the object receiving the message `normalize`.  There is no
 
 Message passing therefore acts like those special molecular pumps and other gate mechanisms of a cell that control what crosses the cell wall.  The methods defined on a class determine how outside code can interact with the object. An extra benefit of this approach is that a method becomes an _abstraction_ for the behavior of the code, and the associated state changes it embodies.  As a programmer using the method, we don't need to know the exact implementation of that behavior - just what data we need to provide, and what it should return or how it will alter the program state.  This makes it far easier to reason about our program, and also means we can change the internal details of a class (perhaps to make it run faster) without impacting the other aspects of the program.
 
-{{% notice info info-1 "Function vs. Method" %}}
+{{% notice info "Function vs. Method" %}}
 
 You probably have noticed that in many programming languages we speak of _functions_, but in Java and other object-oriented languages, we'll often speak of _methods_.  You might be wondering just what is the difference?
 

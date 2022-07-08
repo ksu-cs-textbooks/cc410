@@ -30,7 +30,7 @@ In fact, if you look closely at many websites today, you'll see this pattern all
 
 We can even explore this by changing the identifier a bit and seeing where that takes us. If we increment the identifier by 1, we get `https://www.imdb.com/title/tt0076760/`, which takes us to the page about the movie _[Starship Invasions](https://www.imdb.com/title/tt0076760/)_, released in the same year as _Star Wars_. In fact, by trying several similar identifiers, we can quickly guess that some of the data on IMDb from movies was loaded alphabetically by year of release!
 
-{{% notice warning warning-1 "Leaking Data via Routes" %}}
+{{% notice warning "Leaking Data via Routes" %}}
 
 While RESTful routes using sequential identifiers such as this one are really useful, they can also cause issues. One common cause of this is attaching sequential identifiers to user uploaded data. In this way, any user who uses the platform can upload a piece of data, and then use the identifier attached to that piece of data to guess the identifier of data from other users. This is referred to as an [Insecure Direct Object Reference](https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html) or IDOR. If the website doesn't properly limit access to this data, it could result in private data being publicly available. 
 

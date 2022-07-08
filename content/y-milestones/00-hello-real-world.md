@@ -13,11 +13,11 @@ This assignment mimics the traditional "Hello World" project that most programme
 
 ## General Requirements
 
-{{% expand "All projects must follow the professional coding standards listed here (click to expand):" %}}
+{{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{% include-local "../_includes/a-requirements.md" %}}
+{{< include-local "../_includes/a-requirements.md" >}}
 
-{{% /expand %}}
+{{< /expand >}}
 
 ## Assignment Requirements
 

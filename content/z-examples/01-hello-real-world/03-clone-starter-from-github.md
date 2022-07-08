@@ -66,7 +66,7 @@ Since I used `java` as the last part of that command, I should now see at least 
 
 If you choose `python`, you'll probably see the same items inside of the `python` directory instead. The `.git` and `.github` folders contain information about the repository and the classroom assignment, and should be left alone. **DO NOT DELETE OR MODIFY THESE FOLDERS!** You may notice that they are not present in many of the screenshots in this assignment, just as a reminder to ignore them completely.
 
-{{% notice info info-1 "Wrong Folder" %}}
+{{% notice info "Wrong Folder" %}}
 
 If you accidentally forget to specify a folder at the end of the `git clone` command, or specify the wrong folder, your repository may not be in the `java` or `python` folder that already exists in Codio. In that case, there are a couple of remedies you may try:
 
@@ -75,13 +75,13 @@ If you accidentally forget to specify a folder at the end of the `git clone` com
 
 {{% /notice %}}
 
-{{% notice info info-2 "Folder Not Empty" %}}
+{{% notice info "Folder Not Empty" %}}
 
 If you try to clone a repository into a folder that is not empty, you'll get an error message. In that case, it is best to completely delete the folder and try again. If the folder doesn't exist, the `git` command will create it for you.
 
 {{% /notice %}}
 
-{{% notice warning warning-1 "Permission Errors" %}}
+{{% notice warning "Permission Errors" %}}
 
 If you receive an error message stating "Could not read from remote repository," double-check your URL and try again. If it still doesn't work, let the instructor know. There is a chance that the instructor simply needs to authorize the Codio SSH keys on the new GitHub classroom instance. We have to do this each semester, and it can easily be forgotten. You may earn some bug bounty points for letting us know about this!
 

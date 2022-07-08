@@ -35,7 +35,7 @@ Notice that the test is simply a method, defined in a class.  This is very commo
 
 Inside the method, we create an instance of stove, and then use the `assertEquals(actual, expected, message)` method to determine that the actual and expected values match.  If they do, the assertion is marked as passing, and the test runner will display this pass.  If it fails, the test runner will report the failure, along with details to help find and fix the problem (what value was expected, what it actually was, and which test contained the assertion).
 
-{{% notice tip tip-2 "Install JUnit 5 Parameters Library" %}}
+{{% notice tip "Install JUnit 5 Parameters Library" %}}
 
 To use the portions listed below, we'll need to modify our `build.gradle` file to include the following dependencies:
 
@@ -109,7 +109,7 @@ This way, other programmers (and ourselves, if we visit this code years later) w
 
 For a complete guide to parameterized tests in JUnit, including how to use enumerations as a value source, refer to the [Guide to JUnit 5 Parameterized Tests](https://www.baeldung.com/parameterized-tests-junit-5) from Baeldung.
 
-{{% notice tip tip-1 "Edge Cases" %}}
+{{% notice tip "Edge Cases" %}}
 
 Recognizing and testing for edge cases is a critical aspect of test writing. But it is also a difficult skill to develop, as we have a tendency to focus on expected values and expected use-cases for our software. But most serious errors occur when values outside these expectations are introduced.  Also, remember special values, like `Double.POSITIVE_INFINITY`, `Double.NEGATIVE_INFINITY`, and `Double.NaN`.
 

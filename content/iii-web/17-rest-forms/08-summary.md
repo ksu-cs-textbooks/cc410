@@ -8,7 +8,7 @@ In this chapter we looked at how data is handled in web applications.  We saw ho
 
 You should now be able to handle creating web forms and processing the submitted data.
 
-{{% notice info info-1 "Web APIs" %}}
+{{% notice info "Web APIs" %}}
 
 Not all web applications are built to be viewed in a browser.  Many are built to be used by other programs.  We call these web applications APIs (Application Programming Interfaces).  These also make HTTP or HTTPS requests against our applications, but usually instead of serving HTML, we serve some form of serialized data instead - most commonly XML or JSON.
 

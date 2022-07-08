@@ -4,7 +4,7 @@ pre: "2.P. "
 weight: 25
 ---
 
-{{% notice warning warn-1 "Errata" %}}
+{{% notice warning "Errata" %}}
 
 This video uses the `html5` widget module in WTForms, which is no longer present. See below the video for a fix!
 
@@ -12,7 +12,7 @@ This video uses the `html5` widget module in WTForms, which is no longer present
 
 {{% youtube 1b1x94AOO-k %}}
 
-{{% notice note note-1 "Widget Fix" %}}
+{{% notice note "Widget Fix" %}}
 
 Since this video was recorded, Flask-WTF updated and is now using a newer version of the underlying WTForms library. That library has since deprecated the `html5` widgets module and moved them into the main `widgets` module.
 
