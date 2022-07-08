@@ -3,4 +3,4 @@
 	url = https://github.com/russfeld/ksucs-hugo-theme.git
 [submodule "themes/hugo-theme-relearn"]
 	path = themes/hugo-theme-relearn
-	url = git@github.com:K-State-Computational-Core/hugo-theme-relearn.git
+	url = https://github.com/K-State-Computational-Core/hugo-theme-relearn.git
