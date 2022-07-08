@@ -1,7 +1,7 @@
 FROM nginx:alpine as build
 
 RUN apk add --update \
-    wget
+    wget git
     
 ARG HUGO_VERSION="0.101.0"
 RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" && \
