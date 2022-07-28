@@ -1,0 +1,104 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>Python Function</h3>
+    <pre class="python" style="font-size: 50px"><code>def addition(x, y):
+    return x + y</code></pre>
+    <h3>Python Lambda</h3>
+    <pre class="python" style="font-size: 50px"><code>addition_lambda = lambda x, y: x + y</code></pre>
+    <ul>
+        <li><code>lambda</code> keyword</li>
+        <li>Parameters list<br>(any valid Python parameters)</li>
+        <li><b>Single expression</b></li>
+    </ul>
+</section>
+<section>
+    <h3>Python Lambda</h3>
+    <pre class="python stretch" style="font-size: 30px"><code>class Calculator:<br>
+    @staticmethod
+    def addition(x, y):
+        return x + y<br>
+    def operate_binary(self, a, b, operation):
+        return operation(a, b)<br>
+    @staticmethod
+    def main():
+        calc = Calculator()
+        subtraction = lambda x, y: x - y
+        print("40 + 2 = {}".format(calc.operate_binary(40, 2, Calculator.addition)))
+        print("20 - 10 = {}".format(calc.operate_binary(20, 10, subtraction)))
+        print("7 * 6 = {}".format(calc.operate_binary(7, 6, lambda: x, y: x * y)))<br>
+if __name__ == "__main__":
+    Calculator.main()</code></pre>
+</section>
+<section>
+    <h3>Python Lambda</h3>
+    <pre class="python stretch" style="font-size: 42px"><code>def process_persons(roster, filter, mapper, action):
+    for p in roster:
+        if filter(p):
+            data = mapper(p)
+            action(data)<br><br>
+process_persons(roster,
+                lambda p: (p.gender == MALE and
+                           p.age >= 18 and
+                           p.age <= 25),
+                lambda p: p.email_address,
+                lambda p: print(email))</code></pre>
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

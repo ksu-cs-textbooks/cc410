@@ -1,0 +1,111 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>Preparing for Release</h3>
+    <ul>
+        <li>Test</li>
+        <li>Document</li>
+        <li>Clean Code - Debug & Log</li>
+        <li>Review Dependencies</li>
+        <li>Test on Multiple Platforms</li>
+        <li>Configurable</li>
+        <li>Sensitive Info</li>
+        <li><i>Create a Name</i></li>
+    </ul>
+</section>
+<section>
+    <h3>Choose a License</h3>
+    <ul>
+        <li>No License: Copyright</li>
+        <li>Public Domain: Unlicense</li>
+        <li>No Restrictions: MIT/BSD/Apache</li>
+        <li>Always Free & Open: GNU GPL</li>
+        <li>Maintain Rights: Proprietary</li>
+    </ul>
+</section>
+<section>
+    <h3>Metadata</h3>
+    <ul>
+        <li>Version</li>
+        <li>Name</li>
+        <li>Package Path</li>
+        <li><i>Other Info</i></li>
+    </ul>
+</section>
+<section>
+    <h3>Documentation</h3>
+    <ul>
+        <li>Publish on GitHub Pages</li>
+        <li>Host your Own</li>
+    </ul>
+</section>
+<section>
+    <h3>Create Package</h3>
+    <p>See example project!</p>
+</section>
+<section>
+    <h3>Publish!</h3>
+    <ul>
+        <li>Upload to GitHub Release</li>
+        <li>Java: Maven Central <i>(Difficult)</i></li>
+        <li>Python: PyPI <i>(Simple)</i></li>
+    </ul>
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

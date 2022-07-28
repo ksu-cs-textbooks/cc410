@@ -1,0 +1,104 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>pytest Tests</h3>
+    <pre class="stretch"><code>from src.shapes.Square import Square<br>
+class TestSquare:<br>    
+    def test_square_constructor_should_set_length(self):
+        square = Square(2.0)
+        assert square.length == 2.0</code></pre>
+</section>
+<section>
+    <h3>pytest Parameterized Tests</h3>
+    <pre class="stretch"><code style="font-size: 38px">from src.shapes.Square import Square
+import pytest<br>
+class TestSquare:<br> 
+    @pytest.mark.parametrize("value", [1.0, 2.1, 3.2, 4.3, 5.9])
+    def test_set_length_to_positive_value(self, value):
+        square = Square(value)
+        assert square.length == value</code></pre></code></pre>
+</section>
+<section>
+    <h3>pytest Assertions</h3>
+    <ul>
+        <li>assert &lt;boolean expression></li>
+        <li>assert actual == pytest.approx(expected)</li>
+        <li>assert actual is expected</li>
+        <li>assert actual is None</li>
+    </ul>
+</section>
+<section>
+    <h3>Catching Exceptions</h3>
+    <pre class="python"><code>def test_zero_division():
+    with pytest.raises(ZeroDivisionError):
+        calculator.divide(1, 0)</code></pre>
+</section>
+<section>
+    <h3>Checking Output</h3>
+    <pre class="stretch python"><code style="font-size: 38px">from pytest import CaptureFixture
+from _pytest.capture import CaptureResult
+from typing import Any
+from src.hello.HelloWorld import HelloWorld<br>
+def test_hello_world(self, capsys: CaptureFixture[Any]) -> None:
+    HelloWorld.main(["HelloWorld"])
+    captured: CaptureResult[Any] = capsys.readouterr()
+    assert captured.out == "Hello World\n", "Unexpected Output"</code></pre>
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>Two Sources of Bugs</h3>
+    <ul>
+        <li>State</li>
+        <li>Behavior</li>
+    </ul>
+    <p class="fragment"><i>It's either in the data, or in the code</i></p>
+</section>
+<section>
+    <h3>State</h3>
+    <ul>
+        <li>Class attributes</li>
+        <li>Input files</li>
+        <li>Method arguments</li>
+    </ul>
+</section>
+<section>
+    <h3>Revealing State</h3>
+    <ul>
+        <li>Print Statements</li>
+        <li>Conditional Statements</li>
+        <li>Logging</li>
+        <li>Debuggers</li>
+    </ul>
+</section>
+<section>
+    <h3>Forcing State</h3>
+    <ul>
+        <li>Unit Tests</li>
+        <li>Sample Inputs</li>
+        <li>Hard-coding <i>with extreme caution</i></li>
+    </ul>
+</section>
+<section>
+    <h3>Behaviors</h3>
+    <ul>
+        <li>Call Stack</li>
+        <li>Debuggers</li>
+        <li>Print Statements</li>
+        <li>Loggers</li>
+        <li>Unit Tests</li>
+    </ul>
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,101 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h2>A Simple Class</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_sim5.svg">
+</section>
+<section>
+    <h2>Everything Public</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_access1.svg">
+</section>
+<section>
+    <h2>Everything Public</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_access2.svg">
+</section>
+<section>
+    <h2>Everything Public</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_access3.svg">
+</section>
+<section>
+    <h2>Everything Public</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_access4.svg">
+</section>
+<section>
+    <h3>Information Hiding</h3>
+    <ul>
+        <li>Protect state from unwanted changes</li>
+        <li>Control access to variables and methods</li>
+        <li>Use accessor methods</li>
+        <li>All state changes are controlled by the class</li>
+    </ul>
+</section>
+<section>
+    <h2>Accessor Methods</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_access5.svg">
+</section>
+<section>
+    <h2>Static</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_stat1.svg">
+</section>
+<section>
+    <h2>Static</h2>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/2/410_2_stat2.svg">
+</section>
+
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

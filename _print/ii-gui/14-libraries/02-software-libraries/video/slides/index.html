@@ -1,0 +1,93 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <img class="plain stretch" src="https://ksu-cs-textbooks.github.io/cc410/images/14/ogg_vorbis.svg">
+    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Ogg_vorbis_libs_and_application_dia.svg&oldid=456091091">Wikipedia</a></p>
+</section>
+<section>
+    <h4>Software Library</h4>
+    <p>A collection of shared resources that can be used by a computer program.</p>
+</section>
+<section>
+    <h3>Library Types</h3>
+    <ul>
+        <li><b>Static:</b> Directly linked in executable</li>
+        <li><b>Dynamic:</b> Linked when executed</li>
+        <li><b>Class:</b> Shared source code classes</li>
+    </ul>
+</section>
+<section>
+    <h3>Library vs. Framework</h3>
+    <ul>
+        <li>A library is imported<br>into our application</li>
+        <li>Our code <i>calls</i> a library</li>
+        <li>A framework is a wrapper<br>around our application</li>
+        <li>A framework <i>calls</i> our code</li>
+    </ul>
+</section>
+<section>
+    <h3>Repository</h3>
+    <ul>
+        <li>Place to find and download<br>shared libraries</li>
+        <li>Java: Maven Central<br><i>JCenter (going away)</i></li>
+        <li>Python: PyPI</li>
+        <li>Both: GitHub!</li>
+    </ul>
+</section>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
