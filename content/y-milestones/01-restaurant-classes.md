@@ -284,11 +284,21 @@ _comes with a little umbrella, but you have to provide the song_
 
 `thatsawrap.data.drinks.Singin` - Flavors: **Cherry** (default), **Strawberry**, **Cola** and **Grape**. Indie: **$2.75** and **360** calories. Studio: **$3.25** and **400** calories. Blockbuster: **$4.00** and **550** calories. 
 
+##### Rocky (Protein Smoothie)
+
+_eye of the tiger not included_
+
+`thatsawrap.data.drinks.Rocky` - Flavors: **Strawberry** (default), **Banana**, **Peach** and **Mango**. Indie: **$5.85** and **665** calories. Studio: **$7.95** and **825** calories. Blockbuster: **$9.45** and **1060** calories. 
+
+<!--
+
 ##### King Kong (Banana Smoothie)
 
 _you'll go bananas for this delicious drink_
 
 `thatsawrap.data.drinks.KingKong` - Flavors: **Banana** (default), **Strawberry**, **Peach** and **Mango**. Indie: **$4.85** and **465** calories. Studio: **$5.95** and **625** calories. Blockbuster: **$7.45** and **860** calories. 
+
+-->
 
 ---
 

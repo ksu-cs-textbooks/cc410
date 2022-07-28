@@ -22,6 +22,7 @@ hidden: true
 	<h3>Other Instructors & TAs</h3>
 	<ul>
 		<li>Nathan Bean</li>
+		<li>GTA: Kavya Kompella</li>
 	</ul>
 </section>
 <section>

@@ -1,12 +1,10 @@
 ---
-title: "Fall 2022 Syllabus"
+title: "Spring 2022 Syllabus"
 weight: 60
 pre: "6. "
 ---
 
-## CC 410 - Advanced Programming - Fall 2022
-
-[Previous Versions]({{<relref "./old">}})
+## CC 410 - Advanced Programming - Spring 2022
 
 ### Instructor Contact Information
 

@@ -2,16 +2,14 @@
 title: "Course Introduction"
 pre: "1. "
 weight: 10
+date: 2018-08-24T10:53:26-05:00
 ---
 
-<!-- TODO Fall 2022 -->
-
-{{< youtube >}}
+{{< youtube 3kby3bxNxOI >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
-* [Previous Versions]({{<relref "./old">}})
+* <a href="{{<relref "./slides-spring2022">}}" target="_blank">Slides</a>
 
 #### Video Script
 
@@ -19,7 +17,7 @@ Hello and welcome to the Computational Core program!
 
 My name is Russ Feldhausen, and I’ll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus
 
-There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program. Specifically, I'd like to recognize the work of Nathan Bean, the developer of the CIS 400 course on which this course is based. 
+There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program. Specifically, I'd like to recognize the work of Nathan Bean, the developer of the CIS 400 course on which this course is based. Currently, we have one graduate teaching assistant, Kavya, who will also be working with us to manage these courses.
 
 In this course we will primarily use a KSU email group (cc410-help or cc410-help@ksuemailprod.onmicrosoft.com) to communicate. Email sent to this address is forwarded to all instructors and TAs.  Our replies to you will also be shared amongst the instructors and TAs so we all have access to the assistance you have already received. We will respond to you within a business day, so be aware that a question emailed Friday night may not receive an answer before Monday. Please read and adhere to the guidance on Netiquette in the syllabus for all electronic communications.
 
