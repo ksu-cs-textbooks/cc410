@@ -2973,7 +2973,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/06-associations/video/</link>
       <pubDate>Wed, 15 Jan 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/06-associations/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Finally, let&amp;rsquo;s look at one other important aspect of any UML class diagram - associations. Associations are arrows that we can add between two classes in a UML class diagram that show that those two classes are related in some way. While there is a generic association arrow that we can use, it is much more common for us to see one of four specialized association types in our diagrams.</description>
+      <description>Resources Slides Video Script Finally, let&amp;rsquo;s look at one other important aspect of any UML class diagram - associations. Associations are arrows that we can add between two classes in a UML class diagram that show that those two classes are related in some way. While there is a generic association arrow that we can use, it is much more common for us to see one of four specialized association types in our diagrams.</description>
     </item>
   </channel>
 </rss>
