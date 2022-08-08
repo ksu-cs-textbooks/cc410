@@ -2973,7 +2973,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/08-adapter/video/</link>
       <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/08-adapter/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Next, let&amp;rsquo;s review one of the structural design patterns. The adapter pattern is used when we&amp;rsquo;d like to adapt an existing interface to match a different, more desirable interface. This could include renaming methods, designing new methods that call multiple methods in the existing interface, or translating data types and values to fit a different use case.
+      <description>Resources Slides Video Script Next, let&amp;rsquo;s review one of the structural design patterns. The adapter pattern is used when we&amp;rsquo;d like to adapt an existing interface to match a different, more desirable interface. This could include renaming methods, designing new methods that call multiple methods in the existing interface, or translating data types and values to fit a different use case.
 Let&amp;rsquo;s look at a quick example - converting temperature from fahrenheit degrees to celsius degrees.</description>
     </item>
   </channel>
