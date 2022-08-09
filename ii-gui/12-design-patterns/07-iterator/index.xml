@@ -2968,12 +2968,5 @@
     <description>Recent content in Iterator Pattern on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/07-iterator/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Behavioral Patterns</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/07-iterator/video/</link>
-      <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/07-iterator/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Finally, let&amp;rsquo;s review two of the behavioral patterns introduced by the &amp;ldquo;Gang of Four&amp;rdquo; in their Design Patterns book. First, we have the iterator pattern, which allows us to make a class iterable like a list or other collection that is built-in to our language. By doing so, we can use our class in special ways, such as within a for each or enhanced for loop, and we can even treat it just like any other collection data type.</description>
-    </item>
   </channel>
 </rss>
