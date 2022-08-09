@@ -4,9 +4,7 @@ pre: "1. "
 weight: 10
 ---
 
-<!-- TODO Fall 2022 -->
-
-{{< youtube >}}
+{{< youtube NEO065a6kpY >}}
 
 #### Resources
 
