@@ -1838,146 +1838,6 @@
 	
 	
 		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
 
 	
 	
@@ -3079,8 +2939,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week01/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week01/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/</loc>
@@ -3173,6 +3033,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/02-encapsulation/</loc>
     <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week01/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/20-extras/02-java-generics/</loc>
@@ -3343,8 +3207,8 @@
     <lastmod>2021-12-15T14:49:13-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week02/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week02/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/01-restaurant-classes/</loc>
@@ -3659,8 +3523,8 @@
     <lastmod>2022-04-27T16:43:58-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week03/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week03/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/02-documentation-testing/</loc>
@@ -3855,8 +3719,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week04/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week04/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/03-inheritance/</loc>
@@ -4011,8 +3875,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week05/</loc>
-    <lastmod>2022-02-14T12:49:56-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week05/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/</loc>
@@ -4091,8 +3955,8 @@
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week05/ex-5-update/</loc>
-    <lastmod>2022-02-14T10:28:31-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week05/ex-5-update/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/05-debugging-logging/03-python-update/</loc>
@@ -4127,16 +3991,16 @@
     <lastmod>2021-10-21T14:07:43-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week05/codio-webpages/</loc>
-    <lastmod>2022-02-16T12:59:38-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week05/codio-webpages/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/</loc>
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week06/</loc>
-    <lastmod>2022-02-28T10:13:35-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week06/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/06-orders-combos/</loc>
@@ -4191,8 +4055,8 @@
     <lastmod>2022-04-14T13:02:05-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week07/</loc>
-    <lastmod>2022-02-28T10:13:35-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week07/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/</loc>
@@ -4227,8 +4091,8 @@
     <lastmod>2021-09-08T15:44:37-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week08/</loc>
-    <lastmod>2022-03-09T11:01:18-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week08/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/</loc>
@@ -4259,8 +4123,8 @@
     <lastmod>2021-08-24T15:17:57-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week09/</loc>
-    <lastmod>2022-03-21T09:39:49-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week09/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/</loc>
@@ -4287,8 +4151,8 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week10/</loc>
-    <lastmod>2022-03-28T12:17:27-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week10/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/20-extras/</loc>
@@ -4311,16 +4175,16 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week11/</loc>
-    <lastmod>2022-04-04T11:42:47-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week11/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/11-web-basics/</loc>
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week12/</loc>
-    <lastmod>2022-04-11T09:52:52-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week12/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/</loc>
@@ -4331,16 +4195,16 @@
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week14/</loc>
-    <lastmod>2022-04-25T10:24:23-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week14/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/14-form-validation/</loc>
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week15/</loc>
-    <lastmod>2022-05-02T13:13:42-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week15/</loc>
+    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iv-extras/</loc>

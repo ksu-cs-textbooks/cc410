@@ -1838,146 +1838,6 @@
 	
 	
 		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
-		
-		
-
-	
-	
-		
-
-	
-	
-		
 
 	
 	
@@ -2968,5 +2828,12 @@
     <description>Recent content in Builder Pattern on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/04-builder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creational Patterns</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/04-builder/video/</link>
+      <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/04-builder/video/</guid>
+      <description>YouTube Video Resources Slides Video Script First, let&amp;rsquo;s review three of the creational patterns introduced in the original Design Patterns book. These are the builder pattern, factory method pattern, and the singleton pattern. Of the three, it makes the most sense to start with the builder pattern. The builder pattern is used when we need to create and instantiate complex objects, which are sometimes made up several independent parts that must all be fit together correctly.</description>
+    </item>
   </channel>
 </rss>
