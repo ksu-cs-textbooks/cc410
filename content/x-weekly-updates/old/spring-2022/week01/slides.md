@@ -20,6 +20,18 @@ hidden: true
 </section>
 
 <section>
+	<h2>New Course</h2>
+	<ul>
+		<li>Updating Assignments</li>
+		<li>Moving Textbook Out of Codio</li>
+		<li>Adding Concept Quizzes</li>
+		<li>May Rework Examples</li>
+		<li>Things May Change</li>
+		<li><b>Feedback Welcome!</b></li>
+	</ul>
+</section>
+
+<section>
 	<h2>Big Picture</h2>
 	<ul>
 		<li>OOP, GUIs, Web</li>
@@ -93,11 +105,11 @@ hidden: true
 	<h3>Week 4 & 5</h3>
 	<ul>
 		<li>Inheritance & Polymorphism</li>
-		<li>Restaurant Milestone 3</li>
+		<li>Restaurant Milestone 3 (2/28)</li>
 		<li><b>~1000 LOC</b></li>
 		<li>Refactor Old Code</li>
 		<li><i>Simplify Structure</i></li>
-		<li>Final Project Milestone 2</li>
+		<li>Final Project Milestone 2 (2/28)</li>
 	</ul>
 </section>
 
@@ -115,7 +127,7 @@ hidden: true
 <section>
 	<h2>Advice</h2>
 	<ul>
-		<li>4 Credit Hours (12+ hours each week)</li>
+		<li>4 Credit Hours (8+ hours each week)</li>
 		<li>Schedule Time Wisely</li>
 		<li>Start Early, Leave Time for Questions</li>
 		<li>Ask Questions & Get Feedback Early</li>
@@ -131,7 +143,9 @@ hidden: true
 	  <li>Discussions on Discord<ul>
 	  <li>https://discordbot.cs.ksu.edu</li>
 	  </ul></li>
-	  <li>"Tea Time" Office Hours</li>
+	  <li>"Tea Time" Office Hours<ul>
+	  <li>Tuesday 3:30 | Friday 10:30</li>
+	  </ul></li>
 	  <li>One-on-One Office Hours</li>
 	</ul>
 </section>
