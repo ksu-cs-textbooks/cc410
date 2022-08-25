@@ -2810,6 +2810,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -2828,12 +2833,5 @@
     <description>Recent content in Art of Debugging on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/02-art-of-debugging/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Art of Debugging</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/02-art-of-debugging/video/</link>
-      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/02-art-of-debugging/video/</guid>
-      <description>YouTube Video Resources Slides Video Script In this chapter, we&amp;rsquo;re going to take a short detour and cover a couple of topics that might of interest as we start to develop our own larger programs. One major task that most developers must do from time to time is find and fix bugs in a program. This becomes even more difficult to do in large scale software projects, and most professionals would tell you that there is an art to it.</description>
-    </item>
   </channel>
 </rss>

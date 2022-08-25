@@ -2810,6 +2810,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -2828,13 +2833,5 @@
     <description>Recent content in Access Modifiers on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Access Modifiers</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/video/</link>
-      <pubDate>Thu, 31 Dec 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Now that we&amp;rsquo;ve explored encapsulation, let&amp;rsquo;s look at another related concept - information hiding. As we discussed earlier, we want to make sure that the behavior of one module cannot affect the state of other modules. To do this, we must restrict access to the state of each module.
-Let&amp;rsquo;s look at a quick example first, where everything in the module is publicly accessible.</description>
-    </item>
   </channel>
 </rss>

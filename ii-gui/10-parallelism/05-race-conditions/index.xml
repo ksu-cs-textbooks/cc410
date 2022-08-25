@@ -2810,6 +2810,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -2828,12 +2833,5 @@
     <description>Recent content in Race Conditions on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/05-race-conditions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Race Conditions</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/05-race-conditions/video/</link>
-      <pubDate>Sun, 16 Feb 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/05-race-conditions/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s take a look at a situation where two threads are trying to modify the same data structure and see how this could possibly lead to one of the major pitfalls of parallel programming - a race condition. Here, we are continuing our diagrams from the previous example, but now we&amp;rsquo;ve added a box in the middle to represent the shared data object, which is contained in the shared memory of the process that our application is running under.</description>
-    </item>
   </channel>
 </rss>

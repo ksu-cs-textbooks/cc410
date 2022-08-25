@@ -2810,6 +2810,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -2833,7 +2838,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/06-restful-routes/video/</link>
       <pubDate>Thu, 09 Apr 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/06-restful-routes/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Another important concept in the design of web applications is REST. REST is short for &amp;ldquo;Representational State Transfer&amp;rdquo; and is a software architectural style that is used in many web applications. REST can be a bit difficult to understand at first, since there are many different moving parts to put together, but hopefully at the end of this video it makes a bit more sense.</description>
+      <description>Resources Slides Video Script Another important concept in the design of web applications is REST. REST is short for &amp;ldquo;Representational State Transfer&amp;rdquo; and is a software architectural style that is used in many web applications. REST can be a bit difficult to understand at first, since there are many different moving parts to put together, but hopefully at the end of this video it makes a bit more sense. The important things to remember about REST is that it creates entirely stateless applications.</description>
     </item>
   </channel>
 </rss>
