@@ -27,7 +27,7 @@ Once we've started a Java debugger session, we can use several commands to contr
 
 ## Python Debugger
 
-Python also includes a debugger, called `pdb`. It can be imported as a library within the code itself, or it can be used as a module when running another script. Similar to the Java debugger, once the debugger is launched, there are many different commands we can use to control the application. The [Python Debugger](https://docs.python.org/3.6/library/pdb.html) documentation is a great source of information for how to use the Python debugger itself.
+Python also includes a debugger, called `pdb`. It can be imported as a library within the code itself, or it can be used as a module when running another script. Similar to the Java debugger, once the debugger is launched, there are many different commands we can use to control the application. The [Python Debugger](https://docs.python.org/3.9/library/pdb.html) documentation is a great source of information for how to use the Python debugger itself.
 
 ## Codio Debugger
 

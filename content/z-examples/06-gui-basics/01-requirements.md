@@ -20,10 +20,10 @@ This milestone must follow these professional coding standards:
   * Classes must be organized into packages based on common usage.
 * **This project must include automation for compilation and execution.**
   * Java: Use Gradle with the `application` and `jacoco` plugins. The project should compile without errors. 
-  * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries. 
+  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries. 
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
     * There are instances where Mypy is unable to determine the type of lambda expressions used as commands with buttons. This error can be ignored.
 * **Unit tests are not required for this example.**
 * **Documentation comments are not required for this example, but they are recommended for your own use.**

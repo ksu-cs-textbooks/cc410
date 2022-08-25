@@ -57,7 +57,7 @@ classifiers =
 
 [options]
 packages = find:
-python_requires = >=3.6
+python_requires = >=3.9
 include-package-data = True
 
 [options.package_data]
@@ -105,7 +105,7 @@ Below is an updated `tox.ini` file showing these changes.
 
 ```ini
 [tox]
-envlist = py36
+envlist = py39
 skipsdist = True
 
 [testenv]

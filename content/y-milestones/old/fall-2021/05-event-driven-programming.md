@@ -210,7 +210,7 @@ An updated `tox.ini` file is given below. I recommend replacing your file with t
 
 ```ini
 [tox]
-envlist = py36
+envlist = py39
 skipsdist = True
 
 [testenv]

@@ -20,10 +20,10 @@ This milestone must follow these professional coding standards:
   * Classes must be organized into packages based on common usage.
 * **This project must include automation for compilation, unit testing, documentation generation, and execution.**
   * Java: Use Gradle with the `application` plugin. The project should compile without errors. You may include a main class in a separate package for testing purposes only.
-  * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
+  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
 
 {{% expand "Unenforced requirements (click to expand):" %}}

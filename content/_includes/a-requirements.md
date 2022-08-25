@@ -4,10 +4,10 @@
   * Classes must be organized into packages based on common usage.
 * **All projects must include automation for testing, style checking, and documentation generation.**
   * Java: Use Gradle with the `application`, `jacoco`, and `checkstyle` plugins.
-  * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries.
+  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries.
 * **All code must properly compile and be executable.**
   * Java: It must compile and execute using Gradle.
-  * Python: It must execute using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must execute using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
 * **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
   * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.

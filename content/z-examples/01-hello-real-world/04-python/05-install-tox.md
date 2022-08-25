@@ -77,7 +77,7 @@ The basics of creating a configuration file for tox are detailed in the [tox doc
 
 ```ini
 [tox]
-envlist = py36
+envlist = py39
 skipsdist = True
 
 [testenv]
@@ -88,7 +88,7 @@ commands = python3 -m pytest --html=reports/pytest/index.html
 Let's go through the settings in this configuration file to understand what it does
 
 1. `[tox]` - the `[tox]` entry is the header for a section of the file. In this case, it stores the global settings for tox.
-2. `envlist = py36` - this tells tox to only use Python version 3.6 for testing. If we want tox to test our program using multiple versions of Python, we can add them to this list.
+2. `envlist = py39` - this tells tox to only use Python version 3.9 for testing. If we want tox to test our program using multiple versions of Python, we can add them to this list.
 3. `skipsdist = True` - this tells tox to skip the step of installing our application in the test environment. We do this because we haven't set configured our application to be installed. We'll cover how to do this later in this course. 
 4. `[testenv]` - this section defines the test environments that tox will create
 5. `deps = -rrequirements.txt` - this tells tox to install the requirements listed in the `requirements.txt` file. We include a `-r` at the beginning to match the `pip` command. There is no space between `-r` and `requirements` for some reason. 
@@ -110,7 +110,7 @@ If everything is working correctly, we should get the following output:
 
 When we execute tox, it performs a few tasks:
 
-1. tox will create a **virtual environment** for Python 3.6 in the `.tox` folder it creates. This allows it to run tests in isolation, away from the version of Python we are using in Codio.
+1. tox will create a **virtual environment** for Python 3.9 in the `.tox` folder it creates. This allows it to run tests in isolation, away from the version of Python we are using in Codio.
 2. It will then install all of the requirements listed in the `requirements.txt` file. This makes sure our application and unit tests can execute.
 3. Then, it will run all of the test commands in the `commands` list in `tox.ini`. Right now there is just one command, so it will run our unit tests with pytest.
 

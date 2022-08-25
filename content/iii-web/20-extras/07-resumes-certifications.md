@@ -42,7 +42,7 @@ For example, consider all of the tools you've worked with just in this course. H
 
 ###### Python
 
-* Python 3.6
+* Python 3.9
 * tox
 * Mypy and Python Type Annotations
 * PyTest

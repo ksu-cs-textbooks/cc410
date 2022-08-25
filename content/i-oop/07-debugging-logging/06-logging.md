@@ -101,9 +101,9 @@ Of course, if we change the level to `Level.SEVERE`, then only the last message 
 
 ###### Python Logger
 
-The Java language includes the [logging](https://docs.python.org/3.6/library/logging.html) library that can be used to create a logger within the code. It includes several common [Logging Levels](https://docs.python.org/3.6/library/logging.html#logging-levels) that we can use, and we can easily configure it to log items to the terminal or a file.
+The Java language includes the [logging](https://docs.python.org/3.9/library/logging.html) library that can be used to create a logger within the code. It includes several common [Logging Levels](https://docs.python.org/3.9/library/logging.html#logging-levels) that we can use, and we can easily configure it to log items to the terminal or a file.
 
-Here's a very simple example of using a logger in our code, adapted from the [Logging HOWTO](https://docs.python.org/3.6/howto/logging.html) in the Python documentation:
+Here's a very simple example of using a logger in our code, adapted from the [Logging HOWTO](https://docs.python.org/3.9/howto/logging.html) in the Python documentation:
 
 ```python
 import logging

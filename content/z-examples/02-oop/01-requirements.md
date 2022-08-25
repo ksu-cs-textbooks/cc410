@@ -26,10 +26,10 @@ This milestone must follow these professional coding standards:
   * Classes must be organized into packages based on common usage.
 * **This project must include automation for compilation and execution.**
   * Java: Use Gradle with the `application` plugin. The project should compile without errors. You may include a main class in a separate package for testing purposes only.
-  * Python: Use tox configured to use Python 3.6 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
+  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.6. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
 
 {{% expand "Unenforced requirements (click to expand):" %}}
@@ -100,15 +100,15 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 Each sundae should be stored in an appropriately named class in the `starfleettreats.data.sundaes` package. Each sundae should include an attribute for the following data:
   * **Container** - a `Container` value (see below). It should have a **getter** and **setter** method.
-  * **Toppings** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.6/library/stdtypes.html#list) of `Topping` values (see below). 
-    * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#frozenset.copy). 
+  * **Toppings** - a Java [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.9/library/stdtypes.html#list) of `Topping` values (see below). 
+    * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html#HashSet-java.util.Collection-) or [set.copy (Python)](https://docs.python.org/3.9/library/stdtypes.html#frozenset.copy). 
     * This attribute should also have methods for **Add Topping** and **Remove Topping** to modify the list of toppings. 
     
 In addition, each sundae should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
   * **Price** - a Java `double` or Python `float` value. 
   * **Calories** - an `int` value.
-  * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.6/library/stdtypes.html#list) of `str` values. 
-    * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.6/library/stdtypes.html#typesseq-mutable). 
+  * **Special Instructions** - a Java [LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.9/library/stdtypes.html#list) of `str` values. 
+    * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html#LinkedList-java.util.Collection-) or [list.copy (Python)](https://docs.python.org/3.9/library/stdtypes.html#typesseq-mutable). 
 
 Each sundae class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the sundae. The string should be formatted as "{sundae name} in a {container}", such as "The Classic in a Waffle Cone".
 
