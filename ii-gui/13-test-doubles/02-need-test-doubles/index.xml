@@ -1838,6 +1838,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2833,5 +2843,12 @@
     <description>Recent content in Need for Test Doubles on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/02-need-test-doubles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/02-need-test-doubles/video/</link>
+      <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/02-need-test-doubles/video/</guid>
+      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to learn about how we can use test doubles in our unit tests to make it easier to test classes in our program that rely heavily on other classes working properly, something which we cannot always guarantee to be the case. First, however, let&amp;rsquo;s take a step back and look at the overall structure of a large software system like the one we are building in the ongoing project in this course.</description>
+    </item>
   </channel>
 </rss>

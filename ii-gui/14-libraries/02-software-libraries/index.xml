@@ -1838,6 +1838,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2833,12 +2843,5 @@
     <description>Recent content in Software Libraries on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/video/</link>
-      <pubDate>Fri, 06 Mar 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/video/</guid>
-      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to look at how we can use external libraries within our own applications. One of the major mantras of most programmers is &amp;ldquo;don&amp;rsquo;t reinvent the wheel&amp;rdquo; and I feel that making ample use of good external libraries is the greatest example of that mantra put into practice. There are libraries out there for nearly any use, from parsing command-line arguments to interfacing with online APIs, that we can easily use.</description>
-    </item>
   </channel>
 </rss>
