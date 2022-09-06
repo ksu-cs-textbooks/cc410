@@ -47,7 +47,7 @@ The term **encapsulation** refers to what part of object-oriented programming?
 
 **Information hiding** is a practice from programming used for what outcome?
 
-1. [X] Protecing data from accidental changes by other parts of the program
+1. [X] Protecting data from accidental changes by other parts of the program
 1. [ ] Encrypting source code to prevent reverse engineering
 1. [ ] Adding unused variables to confuse other developers
 1. [ ] Preventing memory leaks by only using certain data types
@@ -167,7 +167,7 @@ The **behavior** of a program is best described by which statement?
 
 # Class
 
-A **class** is best descibed by what analogy?
+A **class** is best described by what analogy?
 
 1. [X] The "blueprint" of an object
 1. [ ] The "contents" of a variable
