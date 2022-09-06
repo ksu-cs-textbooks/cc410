@@ -1848,6 +1848,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2848,7 +2858,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/</guid>
-      <description>tl;dr If you are reviewing this material or are familiar with these concepts, here&amp;rsquo;s the short version:
+      <description>YouTube Video
+tl;dr If you are reviewing this material or are familiar with these concepts, here&amp;rsquo;s the short version:
 # Install tools on Ubuntu if doing this at home sudo apt update &amp;amp;&amp;amp; sudo apt install zip unzip curl sed # Verify Java SDK version 8 or higher java -version # Install SDKMAN! curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash # Install Gradle sdk install gradle Working with Java on the Linux terminal can be complicated, especially as projects become larger and larger.</description>
     </item>
     <item>
@@ -2856,7 +2867,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/02-create-new-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/02-create-new-project/</guid>
-      <description>Once we have Gradle installed, we can use Gradle to create a scaffold for our new Java project. This is a great starting point for any Java application, but we&amp;rsquo;ll customize it a bit to suit our needs.
+      <description>YouTube Video
+Once we have Gradle installed, we can use Gradle to create a scaffold for our new Java project. This is a great starting point for any Java application, but we&amp;rsquo;ll customize it a bit to suit our needs.
 For this part of the project, we&amp;rsquo;ll loosely follow this guide on Building Java Applications from the Gradle documentation.
 Gradle Init First, we&amp;rsquo;ll run the Gradle init command. This handy script allows us to create a scaffold for all sorts of different programming languages and frameworks supported by Gradle.</description>
     </item>
@@ -2865,7 +2877,8 @@ Gradle Init First, we&amp;rsquo;ll run the Gradle init command. This handy scrip
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/</guid>
-      <description>Now, let&amp;rsquo;s write the basic source code for our &amp;ldquo;Hello Real World&amp;rdquo; application. Thankfully, we can adapt some of the code that is provided by the Gradle init command, but we&amp;rsquo;ll simplify it a bit to meet our needs.
+      <description>YouTube Video
+Now, let&amp;rsquo;s write the basic source code for our &amp;ldquo;Hello Real World&amp;rdquo; application. Thankfully, we can adapt some of the code that is provided by the Gradle init command, but we&amp;rsquo;ll simplify it a bit to meet our needs.
 Rename App.java First, let&amp;rsquo;s rename the App.java file in app/src/main/java/hello to HelloWorld.java. This filename is a better representation of what we want our class to be. Recall that the filenames of .</description>
     </item>
     <item>
@@ -2873,7 +2886,8 @@ Rename App.java First, let&amp;rsquo;s rename the App.java file in app/src/main/
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/</guid>
-      <description>tl;dr If you are familiar with using Git, here is the short version:
+      <description>YouTube Video
+tl;dr If you are familiar with using Git, here is the short version:
 git status git add . # check that the correct files are added git status # update the commit message below git commit -m &amp;#34;Commit Message Here&amp;#34; git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.
 At this point, we&amp;rsquo;ve written some code for our application.</description>
     </item>
@@ -2882,7 +2896,8 @@ At this point, we&amp;rsquo;ve written some code for our application.</descripti
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/</guid>
-      <description>At this point, we&amp;rsquo;ve written the basic code for our &amp;ldquo;Hello World&amp;rdquo; program. However, how can we automatically verify that the source code works properly? To do that, we&amp;rsquo;ll need to create some unit tests that verify our code.
+      <description>YouTube Video
+At this point, we&amp;rsquo;ve written the basic code for our &amp;ldquo;Hello World&amp;rdquo; program. However, how can we automatically verify that the source code works properly? To do that, we&amp;rsquo;ll need to create some unit tests that verify our code.
 Unit Tests In our Java application, the unit tests are stored in the app/src/test/java directory. In that directory, there is a directory for hello that represents a package, just like the hello directory in the app/src/main/java where our program code lives.</description>
     </item>
     <item>
@@ -2890,7 +2905,8 @@ Unit Tests In our Java application, the unit tests are stored in the app/src/tes
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/</guid>
-      <description>We&amp;rsquo;ve now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the code coverage of our unit tests.
+      <description>YouTube Video
+We&amp;rsquo;ve now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the code coverage of our unit tests.
 Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will compute the code coverage of a set of tests.</description>
     </item>
     <item>
@@ -2898,7 +2914,8 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/07-documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/07-documentation/</guid>
-      <description>The next step in writing good code is adding proper documentation and comments to describe the code and what it does. By writing good documentation, we can pass on helpful information to other developers who need to maintain this code, including our future selves!
+      <description>YouTube Video
+The next step in writing good code is adding proper documentation and comments to describe the code and what it does. By writing good documentation, we can pass on helpful information to other developers who need to maintain this code, including our future selves!
 Javadoc The Java platform includes a tool called Javadoc that can be used to generate documentation directly from the comments in a piece of source code.</description>
     </item>
     <item>
@@ -2906,7 +2923,8 @@ Javadoc The Java platform includes a tool called Javadoc that can be used to gen
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/</guid>
-      <description>Finally, we&amp;rsquo;re at the point that we&amp;rsquo;ve written our application, a couple of unit tests, verified that the unit tests achieve a high level of code coverage, and we&amp;rsquo;ve written helpful documentation comments in our code. That&amp;rsquo;s a lot of content we&amp;rsquo;ve written, especially in our source code files. Now let&amp;rsquo;s see how good our coding style is by checking it using a linter.
+      <description>YouTube Video
+Finally, we&amp;rsquo;re at the point that we&amp;rsquo;ve written our application, a couple of unit tests, verified that the unit tests achieve a high level of code coverage, and we&amp;rsquo;ve written helpful documentation comments in our code. That&amp;rsquo;s a lot of content we&amp;rsquo;ve written, especially in our source code files. Now let&amp;rsquo;s see how good our coding style is by checking it using a linter.
 Checkstyle There are many different tools that can be used to check the style of source code.</description>
     </item>
     <item>
@@ -2914,7 +2932,8 @@ Checkstyle There are many different tools that can be used to check the style of
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/</guid>
-      <description>Let&amp;rsquo;s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop.</description>
+      <description>YouTube Video
+Let&amp;rsquo;s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop.</description>
     </item>
   </channel>
 </rss>
