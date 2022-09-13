@@ -1858,6 +1858,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2853,12 +2863,5 @@
     <description>Recent content in Python Lambdas on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/05-python-lambdas/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Lambdas</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/05-python-lambdas/video/</link>
-      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/05-python-lambdas/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Lambda expressions in Python are quite simple. We start with the lambda keyword, followed by a list of parameters. These parameters can be any valid form of Python parameters, including named parameters, variable length parameters, and more. Following that, we have a colon, and then a single expression that represents the value to be returned by the lambda expression. In this case, the lambda will return the sum of the parameters x and y.</description>
-    </item>
   </channel>
 </rss>
