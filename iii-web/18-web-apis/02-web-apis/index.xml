@@ -2888,7 +2888,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/02-web-apis/video/</link>
       <pubDate>Sun, 19 Apr 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/02-web-apis/video/</guid>
-      <description>YouTube Video Resources Slides Video Script In this chapter, we&amp;rsquo;re going to take a deeper look at web APIs and how they work. As you are probably already aware, a web API is an interface to a web application. It defines how we interact with the web server containing the resources of that application, and gives us the ability to access and even sometimes modify those resources. Typically the web API itself defines a set of endpoints, represented as URLs, that we can interact with.</description>
+      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to take a deeper look at web APIs and how they work. As you are probably already aware, a web API is an interface to a web application. It defines how we interact with the web server containing the resources of that application, and gives us the ability to access and even sometimes modify those resources. Typically the web API itself defines a set of endpoints, represented as URLs, that we can interact with.</description>
     </item>
   </channel>
 </rss>

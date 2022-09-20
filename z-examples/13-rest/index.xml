@@ -2897,8 +2897,7 @@ General Requirements All code must be object-oriented. All executable code must 
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/02-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/02-java/</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; java Install SDKMAN Instructions
 curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal to load SDK Man
 Install Gradle
@@ -2911,7 +2910,6 @@ Follow along with the video to update the project.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/02-python/</guid>
       <description>Errata This video uses the html5 widget module in WTForms, which is no longer present. See below the video for a fix!
-YouTube Video
 Widget Fix Since this video was recorded, Flask-WTF updated and is now using a newer version of the underlying WTForms library. That library has since deprecated the html5 widgets module and moved them into the main widgets module.
 When running the code as shown in the video, you may receive this error:</description>
     </item>
