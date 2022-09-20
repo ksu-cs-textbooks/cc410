@@ -2610,6 +2610,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 
 	
@@ -3003,6 +3008,14 @@ For these example projects, you&amp;rsquo;ll be given some starter code via the 
       <description>In this example project, we&amp;rsquo;ll update our previous RESTful web application to perform server-side form validation, making sure that each piece of data submitted to the server is valid.
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.
 For these example projects, you&amp;rsquo;ll be given some starter code via the GitHub Classroom assignment, so make sure you&amp;rsquo;ve accepted the assignment and created your repository in GitHub first.</description>
+    </item>
+    <item>
+      <title>New Project Checklist</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/00-new-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/00-new-project/</guid>
+      <description>Steps to follow when setting up a new project in this course.
+Java New Project Clone empty GitHub repository into java folder: git clone &amp;lt;url&amp;gt; java Install SDKMAN curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal Install Gradle sdk install gradle Change directory to java folder: cd java Initialize Gradle Project gradle init Recommended options: 1. Type of project - 2: application 1. Implementation language - 3: Java 1. Split functionality across multiple subprojects - 1: no - only one application project 1.</description>
     </item>
   </channel>
 </rss>
