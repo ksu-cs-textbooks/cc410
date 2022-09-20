@@ -235,3 +235,13 @@ python3 -m flask run
 ```bash
 tox -r
 ```
+
+## GitHub Commit and Release
+
+1. Git Commit and Push
+```bash
+git add .
+git commit -m "Message"
+git push
+```
+2. On GitHub Site, create [Release]({{< relref "/z-examples/01-hello-real-world/05-create-release/_index.md" >}})
