@@ -56,7 +56,7 @@ This milestone should include the following features:
 * Updated unit tests for each menu item to check for proper typing
   * Each menu item should implement the `Item` interface
   * Each menu item should inherit from the correct base class
-  * Each class except `Menu` and `Food` should report near 100% code coverage. 
+  * Each class except `Menu` and `Item` should report near 100% code coverage. 
 * Add a unit test class for `Menu` to confirm that each possible menu item is present in the menu.
 
 ###### Updated Documentation and Style
