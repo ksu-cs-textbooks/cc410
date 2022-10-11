@@ -1903,6 +1903,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2903,5 +2913,12 @@
     <description>Recent content in Manual Testing on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/02-manual-testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/02-manual-testing/video/</link>
+      <pubDate>Tue, 14 Jan 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/02-manual-testing/video/</guid>
+      <description>YouTube Video Resources Slides Video Script In this chapter, we&amp;rsquo;re discussing the many different ways we can test our code. Before we dive deeply into the test frameworks we&amp;rsquo;re going to be using, let&amp;rsquo;s step back and look at the big picture of software testing. There are two major categories of methods we can use to test our code. The first category is informal testing. For most of us, this is the type of testing we do naturally as we learn to program.</description>
+    </item>
   </channel>
 </rss>
