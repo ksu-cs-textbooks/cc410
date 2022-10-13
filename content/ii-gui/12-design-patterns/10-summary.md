@@ -11,7 +11,7 @@ Software design patterns are loosely grouped into three categories:
 * **Structural Patterns**
 * **Behavioral Patterns**
 
-We studied 5 different design patterns. The first three were **creational patterns**:
+We studied 6 different design patterns. The first three were **creational patterns**:
 * **Builder Pattern** is useful for building complex objects by offloading the work to a special builder class, letting other classes reference the builder as needed.
 * **Factory Method Pattern** is used to construct objects based on a given parameter, making it easy to get the object you need without needing to even explicitly know the exact type. 
 * **Singleton Pattern** allows us to make sure only a single instance of a class is present on a system at any given time.
@@ -80,8 +80,8 @@ Which statement best explains what a **software design pattern** is?
 
 **Structural patterns** are best described by which statement?
 
-1. [X] Patterns to construct instances of objects programmatically
-1. [ ] Patterns to build individual classes using inheritance
+1. [ ] Patterns to construct instances of objects programmatically
+1. [X] Patterns to build individual classes using inheritance
 1. [ ] Patterns to determine how objects act and interact
 1. [ ] Patterns to make programs run faster on old hardware
 
@@ -89,9 +89,9 @@ Which statement best explains what a **software design pattern** is?
 
 **Behavioral patterns** are best described by which statement?
 
-1. [X] Patterns to construct instances of objects programmatically
+1. [ ] Patterns to construct instances of objects programmatically
 1. [ ] Patterns to build individual classes using inheritance
-1. [ ] Patterns to determine how objects act and interact
+1. [X] Patterns to determine how objects act and interact
 1. [ ] Patterns to make programs run faster on old hardware
 
 # Creational Patterns List
