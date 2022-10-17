@@ -222,7 +222,7 @@ The Godfather, The French Connection, Singin' in the Rain
 
 ###### Green
 
-The Wizard of Oz, Snow White, King Kong
+The Wizard of Oz, Snow White, Rocky
 
 ###### Hungry
 
