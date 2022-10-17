@@ -2913,5 +2913,12 @@
     <description>Recent content in Text Formats on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/03-test-formats/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/03-test-formats/video/</link>
+      <pubDate>Sun, 26 Apr 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/03-test-formats/video/</guid>
+      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to discuss serialization, another very important topic to consider when building an application. Earlier in this course, we discussed the fact that object-oriented programs can be thought of as two different parts, the state of the program, consisting of the variables and data stored in memory; and the behavior of the program, which are the functions and source code of the program itself.</description>
+    </item>
   </channel>
 </rss>

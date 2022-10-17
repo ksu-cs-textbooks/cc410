@@ -2913,5 +2913,13 @@
     <description>Recent content in Java Swing on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/09-java-swing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Swing</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/09-java-swing/video/</link>
+      <pubDate>Sat, 08 Feb 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/09-java-swing/video/</guid>
+      <description>Resources Slides Video Script In this video, we&amp;rsquo;ll learn how to create our first GUI using the Java Swing GUI toolkit.
+First, a bit about Swing. Java Swing was developed in the late 1990s as a replacement and upgrade to the existing Abstract Window Toolkit, or AWT, which at the time was the standard way to create graphical user interfaces in Java. Swing improved on AWT by adding several new elements, and allowing the elements to change their look and feel to match the underlying operating system or a variety of themes.</description>
+    </item>
   </channel>
 </rss>
