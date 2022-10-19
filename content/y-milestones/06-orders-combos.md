@@ -33,7 +33,7 @@ This assignment will add several new classes to the project
 * It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
 * It should also support **standard collection methods** such as:
   * Getting the number of items in the collection 
-  * Determining if a given **instance** of an `Food` object is contained in the collection. Recall that this should use the identity test, not the equality test.
+  * Determining if a given **instance** of an `Item` object is contained in the collection. Recall that this should use the identity test, not the equality test.
   * Getting a single item from the collection based on the index of that item.
   * Any other standard collection methods that you feel are helpful. See the [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) interface in Java or [Emulating Container Types](https://docs.python.org/3/reference/datamodel.html#emulating-container-types) in Python for additional methods that may be useful.
 * It should have the following **attributes**:
