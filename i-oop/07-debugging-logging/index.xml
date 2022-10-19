@@ -2929,8 +2929,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/02-art-of-debugging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/02-art-of-debugging/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 First, let&amp;rsquo;s briefly discuss the art of debugging. Finding and fixing bugs in a complex piece of software is indeed an art, meaning that it something that takes a great amount of skill that comes with practice. So, how can we get better at this? Here are some tips. Much of this content was inspired by the talk The Art of Debugging by Remy Sharp.
 Write Fewer Bugs This seems pretty obvious, but as we&amp;rsquo;ve discussed several times in this course, software bugs can be very costly to fix, and the longer they remain in the source code, the harder they can be to fix.</description>
     </item>
@@ -2939,8 +2938,7 @@ Write Fewer Bugs This seems pretty obvious, but as we&amp;rsquo;ve discussed sev
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/03-inspecting-state/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/03-inspecting-state/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Object in our object-oriented programs can really be thought of as two different parts - the state and behavior of the object. When debugging, we may need to consider both parts of the object to determine what is really going on behind the scenes. So, let&amp;rsquo;s look at some ways we can explore the state of our program.
 Print Statement Debugging The quickest and easiest way to explore the state of our program at any particular point during its execution is to simply add a print statement that prints the value of any variables we are interested in.</description>
     </item>
@@ -2949,8 +2947,7 @@ Print Statement Debugging The quickest and easiest way to explore the state of o
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/05-debuggers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/05-debuggers/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 What if we want to have a bit more control over our programs and use a more powerful tool for finding bugs. In that case, we&amp;rsquo;ll need to use a debugger. A debugger is a special application that allows us to inspect another program while it is running. Using a debugger, we can inspect both the state and behavior of an application, and observe the program directly while it runs.</description>
     </item>
     <item>
