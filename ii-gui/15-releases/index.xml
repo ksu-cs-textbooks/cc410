@@ -1923,6 +1923,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2929,7 +2939,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/15-releases/02-preparing-for-release/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/15-releases/02-preparing-for-release/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Before we release our software, there are a few steps that we should perform to make sure it is ready for release. Most of these steps are things that we&amp;rsquo;ve already been doing as part of our development process, but it is always good to review them once again and make sure everything is ready for release.
 Unit Testing: where possible, make sure your project includes adequate unit testing.</description>
     </item>

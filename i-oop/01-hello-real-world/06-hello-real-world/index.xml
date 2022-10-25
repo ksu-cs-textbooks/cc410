@@ -1923,6 +1923,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2923,13 +2933,5 @@
     <description>Recent content in Hello Real World on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/06-hello-real-world/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello Real World Videos</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/06-hello-real-world/video/</link>
-      <pubDate>Mon, 28 Dec 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/06-hello-real-world/video/</guid>
-      <description>These are the videos embedded in the Hello Real World example project in Codio.
-Videos Introduction Linux Terminal GitHub Classroom Setup Clone Starter Project Java Install Gradle Create New Project Write Hello World Git Commit and Push Write Unit Tests Code Coverage Documentation Linting with Checkstyle Hamcrest Python Create New Project Write Hello World Git Commit and Push Write Unit Tests Install Tox Code Coverage Documentation Linting with Flake8 Type Checking Hamcrest Creating GitHub Release </description>
-    </item>
   </channel>
 </rss>
