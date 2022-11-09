@@ -1943,6 +1943,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2943,12 +2953,5 @@
     <description>Recent content in Writing pytest Tests on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/07-writing-pytest-tests/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>pytest</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/07-writing-pytest-tests/video/</link>
-      <pubDate>Wed, 15 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/07-writing-pytest-tests/video/</guid>
-      <description>YouTube Video Resources Slides Video Script For the Python programming language, we&amp;rsquo;re going to use the pytest test framework to develop our unit tests. pytest is one of the most popular unit test frameworks for Python today, and it is very easy to use. On this slide, we have a simple pytest test that could be used to test the Square class we introduced in an earlier chapter. For pytest to find the test methods, we have to follow some specific naming standards.</description>
-    </item>
   </channel>
 </rss>
