@@ -2958,7 +2958,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/06-using-web-apis/video/</link>
       <pubDate>Sun, 19 Apr 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/06-using-web-apis/video/</guid>
-      <description>Resources Slides Video Script Let&amp;rsquo;s take a quick look at an example of using a web API to access some data. When using a web API, there a few things we need to know. First and foremost, we need to know the URL of the API endpoint we are going to access. Next, we need to know if it requires any parameters, and what they are. In addition, if the web API requires authentication for us to access it, we&amp;rsquo;ll need to set that up and get our API key.</description>
+      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s take a quick look at an example of using a web API to access some data. When using a web API, there a few things we need to know. First and foremost, we need to know the URL of the API endpoint we are going to access. Next, we need to know if it requires any parameters, and what they are. In addition, if the web API requires authentication for us to access it, we&amp;rsquo;ll need to set that up and get our API key.</description>
     </item>
   </channel>
 </rss>

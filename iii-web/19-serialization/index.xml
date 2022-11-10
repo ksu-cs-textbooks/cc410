@@ -2959,9 +2959,10 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/03-test-formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/03-test-formats/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 So, now that we understand state, let&amp;rsquo;s talk about how we can serialize it in a way that is easy to parse and understand. There are really two major options we can choose from: a textual representation of the data, and a binary representation. Let&amp;rsquo;s look at text formats first.
-Text Data Formats There are many different ways that we can serialize data into a textual format. In fact, we&amp;rsquo;ve already covered how to read data from and write data to text files many times throughout this curriculum, and it is probably one of first things most programmers learn how to do.</description>
+Text Data Formats There are many different ways that we can serialize data into a textual format.</description>
     </item>
     <item>
       <title>Introduction</title>
