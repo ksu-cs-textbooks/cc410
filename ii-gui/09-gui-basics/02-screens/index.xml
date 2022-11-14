@@ -1953,6 +1953,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2953,5 +2963,12 @@
     <description>Recent content in Screens on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/02-screens/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/02-screens/video/</link>
+      <pubDate>Sat, 08 Feb 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/02-screens/video/</guid>
+      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to look at how we can create graphical user interfaces, or GUIs, for our programs. Thankfully, the technology and frameworks we have available today have greatly simplified this process, but it is still worth looking back at some historical information first, just to get a sense of how things have changed over the years. For example, this slide shows the various standard screen resolutions that have been used on computer systems over the years.</description>
+    </item>
   </channel>
 </rss>

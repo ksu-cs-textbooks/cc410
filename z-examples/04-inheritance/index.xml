@@ -1953,6 +1953,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2967,8 +2977,7 @@ General Requirements Warning This project is the first that requires ALL general
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/04-inheritance/02-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/04-inheritance/02-java/</guid>
-      <description>YouTube Video
-Resources Inheritance from the Oracle Java Tutorials What is an Interface? from the Oracle Java Tutorials Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Resources Inheritance from the Oracle Java Tutorials What is an Interface? from the Oracle Java Tutorials Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; java Install SDKMAN Instructions
 curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal to load SDK Man
 Install Gradle
@@ -2979,8 +2988,7 @@ sdk install gradle Compile, Run &amp;amp; Test Existing Project cd java gradle r
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/04-inheritance/02-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/04-inheritance/02-python/</guid>
-      <description>YouTube Video
-Resources Inheritance &amp;amp; Composition from Real Python Python Interfaces from Real Python Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Resources Inheritance &amp;amp; Composition from Real Python Python Interfaces from Real Python Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; python 2, Run Project
 cd python python3 -m src Install Tox pip3 install tox Check &amp;amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
     </item>

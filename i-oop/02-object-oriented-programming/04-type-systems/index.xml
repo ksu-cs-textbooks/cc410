@@ -1953,6 +1953,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2953,5 +2963,12 @@
     <description>Recent content in Type Systems on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/04-type-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Type Systems</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/04-type-systems/video/</link>
+      <pubDate>Thu, 31 Dec 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/04-type-systems/video/</guid>
+      <description>Resources Slides Video Script Before we dive deeper into object-oriented programming, let&amp;rsquo;s go through a brief refresher about data types and type systems. You most likely learned about this in your first programming course, but at that time it probably didn&amp;rsquo;t make much sense since you were new to everything. However, now that you have some programming experience, you&amp;rsquo;ll be able to better understand these concepts and reframe your knowledge a bit.</description>
+    </item>
   </channel>
 </rss>

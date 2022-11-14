@@ -1953,6 +1953,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2967,8 +2977,7 @@ General Requirements No style or documentation requirements will be enforced for
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/10-releases/02-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/10-releases/02-java/</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; java Install SDKMAN Instructions
 curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal to load SDK Man
 Install Gradle
@@ -2980,8 +2989,7 @@ See the textbook or video for steps to create a release.</description>
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/10-releases/02-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/10-releases/02-python/</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp;amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.
 See the textbook or video for steps to create a release.
 When complete, use Git to commit and push updated code.</description>

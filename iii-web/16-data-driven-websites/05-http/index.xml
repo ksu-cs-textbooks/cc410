@@ -1953,6 +1953,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2958,7 +2968,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/05-http/video/</link>
       <pubDate>Tue, 31 Mar 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/05-http/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Next, let&amp;rsquo;s talk a bit about how we can actually send and receive data across the internet to make our web pages accessible to our users. For that, we use HTTP, or the Hypertext Transfer Protocol. This is another of the key web technologies first developed by Tim Berners-Lee as part of the World Wide Web. In short, HTTP defines how web servers and web browsers can communicate with each other, and it follows a request and response model.</description>
+      <description>Resources Slides Video Script Next, let&amp;rsquo;s talk a bit about how we can actually send and receive data across the internet to make our web pages accessible to our users. For that, we use HTTP, or the Hypertext Transfer Protocol. This is another of the key web technologies first developed by Tim Berners-Lee as part of the World Wide Web. In short, HTTP defines how web servers and web browsers can communicate with each other, and it follows a request and response model.</description>
     </item>
   </channel>
 </rss>
