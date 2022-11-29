@@ -1963,6 +1963,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2963,12 +2973,5 @@
     <description>Recent content in State and Behavior on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/07-state-behavior/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>State and Behavior</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/07-state-behavior/video/</link>
-      <pubDate>Thu, 31 Dec 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/07-state-behavior/video/</guid>
-      <description>Resources Slides Video Script Next, let&amp;rsquo;s review another key concept from object-oriented programming: state and behavior. The state of a computer program refers to the instantaneous values of all of the variables present in the program at any given time during the program&amp;rsquo;s execution. So, in this simple diagram, we would say that the program&amp;rsquo;s state is the current value of the three variables: temp = 30, moisture = 95, and nutrients = 75.</description>
-    </item>
   </channel>
 </rss>

@@ -1963,6 +1963,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2969,7 +2979,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/02-manual-testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/02-manual-testing/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 As you&amp;rsquo;ve developed programs, you&amp;rsquo;ve probably run them, supplied input, and observed if what happened was what you wanted. This process is known as informal testing. It&amp;rsquo;s informal, because you don&amp;rsquo;t have a set procedure you follow, i.e. what specific inputs to use, and what results to expect. Formal testing adds that structure. In a formal test, you would have a written procedure to follow, which specifies exactly what inputs to supply, and what results should be expected.</description>
     </item>
     <item>
@@ -2977,18 +2988,18 @@ As you&amp;rsquo;ve developed programs, you&amp;rsquo;ve probably run them, supp
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/04-writing-junit-tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/04-writing-junit-tests/</guid>
-      <description>Video Materials
-Writing tests is in many ways just as challenging and creative an endeavor as writing programs. Tests usually consist of invoking some portion of program code, and then using assertions to determine that the actual results match the expected results. The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.
-Consider a class that is a software control system for a kitchen stove.</description>
+      <description>YouTube Video
+Video Materials
+Writing tests is in many ways just as challenging and creative an endeavor as writing programs. Tests usually consist of invoking some portion of program code, and then using assertions to determine that the actual results match the expected results. The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.</description>
     </item>
     <item>
       <title>Writing pytest Tests</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/07-writing-pytest-tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/07-writing-pytest-tests/</guid>
-      <description>Video Materials
-Writing tests is in many ways just as challenging and creative an endeavor as writing programs. Tests usually consist of invoking some portion of program code, and then using assertions to determine that the actual results match the expected results. The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.
-Consider a class that is a software control system for a kitchen stove.</description>
+      <description>YouTube Video
+Video Materials
+Writing tests is in many ways just as challenging and creative an endeavor as writing programs. Tests usually consist of invoking some portion of program code, and then using assertions to determine that the actual results match the expected results. The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.</description>
     </item>
     <item>
       <title>Introduction</title>
