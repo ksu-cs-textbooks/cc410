@@ -2738,7 +2738,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2797,6 +2796,12 @@
 
 	
 	
+		
+		
+
+	
+	
+		
 		
 		
 		
@@ -2908,12 +2913,5 @@
     <description>Recent content in Licenses on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/06-licenses/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Licenses</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/06-licenses/video/</link>
-      <pubDate>Fri, 06 Mar 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/06-licenses/video/</guid>
-      <description>Resources Slides Video Script One major aspect of working with external software libraries is the license actually used by the library. A software license is a legal document that describes how the software can be used and what restrictions are placed on it. So, now is a great time to review that topic and discuss some of the more commonly used software licenses in the world today. However, before I do that, a quick disclaimer.</description>
-    </item>
   </channel>
 </rss>

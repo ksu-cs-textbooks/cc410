@@ -2738,7 +2738,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2797,6 +2796,12 @@
 
 	
 	
+		
+		
+
+	
+	
+		
 		
 		
 		
@@ -2908,12 +2913,5 @@
     <description>Recent content in The Gang of Four on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/02-gang-of-four/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduction</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/02-gang-of-four/video/</link>
-      <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/02-gang-of-four/video/</guid>
-      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to cover some basic software design patterns. A design pattern is a reusable structure or solution to a common problem that we can use in our code. By making use of these design patterns, we can build software in a way that is familiar to other developers who know the pattern. Instead of having to describe the overall structure of the code, we can simply say that it follows a particular pattern, which greatly simplifies things.</description>
-    </item>
   </channel>
 </rss>
