@@ -3,7 +3,6 @@ title: "Orders & Combos"
 pre: "6. "
 weight: 60
 date: 2021-02-22T00:53:26-05:00
-hidden: true
 ---
 
 This page lists the milestone requirements for **Milestone 6** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
@@ -18,7 +17,7 @@ The sixth milestone involves creating combo meals and orders from the items sele
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 

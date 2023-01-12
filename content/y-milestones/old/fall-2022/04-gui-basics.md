@@ -3,7 +3,6 @@ title: "GUI Basics"
 pre: "4. "
 weight: 50
 date: 2021-02-09T00:53:26-05:00
-hidden: true
 ---
 
 This page lists the milestone requirements for **Milestone 4** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
@@ -18,7 +17,7 @@ The fourth milestone involves creating the various GUI windows and panels requir
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 

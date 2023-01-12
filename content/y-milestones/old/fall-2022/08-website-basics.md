@@ -3,7 +3,6 @@ title: "Website Basics"
 pre: "8. "
 weight: 80
 date: 2021-03-24T00:53:26-05:00
-hidden: true
 ---
 
 This page lists the milestone requirements for **Milestone 8** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
@@ -18,7 +17,7 @@ The eighth milestone involves moving into the web by creating a data-driven webs
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 

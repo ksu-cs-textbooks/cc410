@@ -11,3 +11,6 @@ noprint = true
 # Instructor Resources
 
 Goodies for Instructors!
+
+<!-- TODO FIx Tox Settings for all examples? -->
+<!-- TODO Check Video Fullscreen on Embedded Videos in Canvas -->

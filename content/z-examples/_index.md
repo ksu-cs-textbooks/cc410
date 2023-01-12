@@ -13,3 +13,5 @@ noprint = true
 Examples to help build experience with code. These project use starter code and additional resources provided to current students only. 
 
 [Previous Semesters Are Here](old)
+
+{{% children depth="1" %}}

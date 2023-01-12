@@ -3,7 +3,6 @@ title: "Checkout"
 pre: "7. "
 weight: 65
 date: 2021-03-06T00:53:26-05:00
-hidden: true
 ---
 
 This page lists the milestone requirements for **Milestone 7** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
@@ -26,7 +25,7 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 

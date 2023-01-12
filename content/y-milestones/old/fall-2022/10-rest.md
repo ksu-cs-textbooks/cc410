@@ -3,7 +3,6 @@ title: "RESTful Architecture"
 pre: "10. "
 weight: 100
 date: 2021-04-12T00:53:26-05:00
-hidden: true
 ---
 
 This page lists the milestone requirements for **Milestone 10** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
@@ -18,7 +17,7 @@ The tenth milestone involves building a RESTful web application that could be us
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
