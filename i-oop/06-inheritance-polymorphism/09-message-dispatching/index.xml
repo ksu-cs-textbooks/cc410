@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2973,12 +2908,5 @@
     <description>Recent content in Message Dispatching on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Message Dispatching</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/video/</link>
-      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Here&amp;rsquo;s one other important topic to cover when learning about inheritance - message dispatching. As we&amp;rsquo;ve already learned, message passing is just another way to think about method calls. One class can call a method in another class by passing it a message. However, when we throw inheritance in the mix, it is more difficult to determine where to send that message. There might be multiple different methods that look the same in the superclass as well as the subclass.</description>
-    </item>
   </channel>
 </rss>

@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2973,12 +2908,5 @@
     <description>Recent content in Interfaces on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Interfaces</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/video/</link>
-      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Next, let&amp;rsquo;s review the concept of interfaces and how they relate to inheritance in our object-oriented languages. This is actually an interesting approach for learning this material, since traditionally we&amp;rsquo;ll introduce pure inheritance first, and then talk about interfaces as a particular type of inheritance. However, the concept of a common interface actually is much older than object-oriented programming, so it makes sense to talk about it first in this context.</description>
-    </item>
   </channel>
 </rss>

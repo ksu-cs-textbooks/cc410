@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2978,7 +2913,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/05-event-loop/video/</link>
       <pubDate>Thu, 20 Feb 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/05-event-loop/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s briefly go through the steps of starting a GUI program, the event loop, and handling an event. I hope this process will help clarify exactly what&amp;rsquo;s going on behind the scenes in our GUI-based programs when an event occurs. First, let&amp;rsquo;s set the stage. Here, we have our application to the right, and it contains some code that gives the overall structure and layout of the GUI.</description>
+      <description>Resources Slides Video Script Let&amp;rsquo;s briefly go through the steps of starting a GUI program, the event loop, and handling an event. I hope this process will help clarify exactly what&amp;rsquo;s going on behind the scenes in our GUI-based programs when an event occurs. First, let&amp;rsquo;s set the stage. Here, we have our application to the right, and it contains some code that gives the overall structure and layout of the GUI.</description>
     </item>
   </channel>
 </rss>

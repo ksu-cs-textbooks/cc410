@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -3169,7 +3104,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/01-introduction/</loc>
-    <lastmod>2022-08-09T12:42:29-05:00</lastmod>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/</loc>
@@ -3184,8 +3119,8 @@
     <lastmod>2022-02-22T19:25:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week01/</loc>
-    <lastmod>2022-08-23T14:15:02-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week01/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/20-extras/02-java-generics/</loc>
@@ -3234,6 +3169,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/</loc>
     <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week01/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/02-state-review/</loc>
@@ -3404,8 +3343,8 @@
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week02/</loc>
-    <lastmod>2022-08-30T11:12:35-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week02/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/04-frameworks/</loc>
@@ -3708,8 +3647,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week03/</loc>
-    <lastmod>2022-09-06T11:45:56-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week03/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/</loc>
@@ -3908,8 +3847,8 @@
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week04/</loc>
-    <lastmod>2022-09-13T10:54:20-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week04/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/</loc>
@@ -4048,10 +3987,6 @@
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/04-gui-basics/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/05-how-to-learn-programming/</loc>
     <lastmod>2022-02-07T19:52:06-06:00</lastmod>
   </url>
@@ -4064,8 +3999,8 @@
     <lastmod>2021-09-08T14:41:54-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week05/</loc>
-    <lastmod>2022-09-20T10:32:58-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week05/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/</loc>
@@ -4124,20 +4059,16 @@
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week05/ex-5-update/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week05/ex-5-update/</loc>
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week05/ex-5-update/</loc>
-    <lastmod>2022-09-20T10:32:58-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/05-debugging-logging/03-python-update/</loc>
     <lastmod>2022-02-22T09:11:44-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/05-event-driven-programming/</loc>
-    <lastmod>2022-08-25T12:02:16-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/11-message-passing/</loc>
@@ -4176,10 +4107,6 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/06-orders-combos/</loc>
-    <lastmod>2022-10-19T11:40:44-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/06-requirements/</loc>
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
@@ -4192,16 +4119,16 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week06/</loc>
-    <lastmod>2022-09-27T11:40:17-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/06-syllabus/</loc>
-    <lastmod>2022-08-02T14:21:49-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week06/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/06-gui-basics/</loc>
     <lastmod>2021-09-08T14:41:54-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/06-syllabus/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/12-summary/</loc>
@@ -4222,10 +4149,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/</loc>
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/07-checkout/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/13-summary/</loc>
@@ -4252,8 +4175,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week07/</loc>
-    <lastmod>2022-10-04T12:44:38-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week07/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/07-next-steps/</loc>
@@ -4280,10 +4203,6 @@
     <lastmod>2021-08-24T15:17:57-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/08-website-basics/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/08-codio-projects/</loc>
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
@@ -4292,8 +4211,8 @@
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week08/</loc>
-    <lastmod>2022-10-13T11:34:38-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week08/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/08-flake8/</loc>
@@ -4316,16 +4235,12 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/09-form-data/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/09-libraries/</loc>
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week09/</loc>
-    <lastmod>2022-10-18T10:22:36-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week09/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/</loc>
@@ -4348,12 +4263,8 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/10-rest/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week10/</loc>
-    <lastmod>2022-10-25T10:12:58-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week10/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/</loc>
@@ -4364,12 +4275,8 @@
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/11-validation-serialization/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week11/</loc>
-    <lastmod>2022-11-01T10:55:14-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week11/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week11/</loc>
@@ -4384,16 +4291,16 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week12/</loc>
-    <lastmod>2022-11-09T10:06:58-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week12/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/</loc>
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week13/</loc>
-    <lastmod>2022-11-14T13:16:13-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week13/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/</loc>
@@ -4404,8 +4311,8 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week14/</loc>
-    <lastmod>2022-11-29T11:03:23-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week14/</loc>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/14-form-validation/</loc>
@@ -4425,15 +4332,15 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/</loc>
-    <lastmod>2022-07-08T16:23:08-05:00</lastmod>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/</loc>
-    <lastmod>2022-07-08T16:23:08-05:00</lastmod>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-instructor-resources/</loc>
-    <lastmod>2022-07-08T16:23:08-05:00</lastmod>
+    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/</loc>

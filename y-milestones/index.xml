@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2975,14 +2910,6 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Dec 2020 00:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc410/y-milestones/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Previous Semesters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/</guid>
-      <description>Previous Semesters
-Spring &amp;amp; Summer 2021 Final Project Hello Real World Restaurant Classes Documentation &amp;amp; Testing Inheritance GUI Basics Event-Driven Programming Orders &amp;amp; Combos Checkout Website Basics Form Data RESTful Architecture Validation &amp;amp; Serialization Fall 2021 Final Project Hello Real World Restaurant Classes Documentation &amp;amp; Testing Inheritance GUI Basics Event-Driven Programming Orders &amp;amp; Combos Checkout Website Basics Form Data RESTful Architecture Validation &amp;amp; Serialization </description>
-    </item>
-    <item>
       <title>Final Project</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-final-project/</link>
       <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
@@ -3024,78 +2951,6 @@ The second milestone involves writing documentation and unit tests for our exist
       <description>This page lists the milestone requirements for Milestone 3 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
 The third milestone involves refactoring our code to take advantage of inheritance and the use of interfaces.</description>
-    </item>
-    <item>
-      <title>GUI Basics</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/04-gui-basics/</link>
-      <pubDate>Tue, 09 Feb 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/04-gui-basics/</guid>
-      <description>This page lists the milestone requirements for Milestone 4 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The fourth milestone involves creating the various GUI windows and panels required for this project.</description>
-    </item>
-    <item>
-      <title>Event-Driven Programming</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/05-event-driven-programming/</link>
-      <pubDate>Tue, 09 Feb 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/05-event-driven-programming/</guid>
-      <description>This page lists the milestone requirements for Milestone 5 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The fifth milestone involves dealing with the various events generated by the GUI and constructing a list of items that represent an order.</description>
-    </item>
-    <item>
-      <title>Orders &amp; Combos</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/06-orders-combos/</link>
-      <pubDate>Mon, 22 Feb 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/06-orders-combos/</guid>
-      <description>This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The sixth milestone involves creating combo meals and orders from the items selected in the GUI.</description>
-    </item>
-    <item>
-      <title>Checkout</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/07-checkout/</link>
-      <pubDate>Sat, 06 Mar 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/07-checkout/</guid>
-      <description>This page lists the milestone requirements for Milestone 7 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The seventh milestone involves finalizing the GUI for creating combos, and handling the steps to check out and pay for an order, including printing a receipt.</description>
-    </item>
-    <item>
-      <title>Website Basics</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/08-website-basics/</link>
-      <pubDate>Wed, 24 Mar 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/08-website-basics/</guid>
-      <description>This page lists the milestone requirements for Milestone 8 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The eighth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.</description>
-    </item>
-    <item>
-      <title>Form Data</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/09-form-data/</link>
-      <pubDate>Mon, 05 Apr 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/09-form-data/</guid>
-      <description>This page lists the milestone requirements for Milestone 9 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The ninth milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.</description>
-    </item>
-    <item>
-      <title>RESTful Architecture</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/10-rest/</link>
-      <pubDate>Mon, 12 Apr 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/10-rest/</guid>
-      <description>This page lists the milestone requirements for Milestone 10 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The tenth milestone involves building a RESTful web application that could be used to manage custom menu items.</description>
-    </item>
-    <item>
-      <title>Validation &amp; Serialization</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/11-validation-serialization/</link>
-      <pubDate>Wed, 21 Apr 2021 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/11-validation-serialization/</guid>
-      <description>This page lists the milestone requirements for Milestone 11 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
-The eleventh milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.</description>
     </item>
   </channel>
 </rss>

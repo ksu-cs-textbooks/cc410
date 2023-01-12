@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2979,8 +2914,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/02-need-test-doubles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/02-need-test-doubles/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the application programming interface or API of the module.
 Ideally, we&amp;rsquo;d like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program.</description>
     </item>
@@ -2989,8 +2923,7 @@ Ideally, we&amp;rsquo;d like each module of the program to be independent from t
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/04-stubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/04-stubs/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Inconsistent Naming Unfortunately, the naming of many of these test doubles, such as stubs, mocks, and fakes, are used either inconsistently or interchangeably within different systems, documentation, and other resources. I&amp;rsquo;m going to stick to one particular naming scheme, which is best described in the resources linked earlier in this chapter. However, in practice, these terms may be used differently in different areas.
 There are three major types of test doubles that we&amp;rsquo;ll cover in this chapter.</description>
     </item>
@@ -2999,8 +2932,7 @@ There are three major types of test doubles that we&amp;rsquo;ll cover in this c
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/07-junit-test-doubles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/07-junit-test-doubles/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 To create test doubles in JUnit, we&amp;rsquo;ll rely on a separate library called Mockito. Mockito is a framework for creating mock objects in Java that works well with JUnit, and has become one of the most commonly used tools for this task.
 Installing Mockito in Gradle To install Mockito, we just update the testImplementation line in our build.gradle file to include both the mockito-inline library, as well as the mockito-junit-jupiter library that allows Mockito and JUnit to work together seamlessly.</description>
     </item>
@@ -3009,8 +2941,7 @@ Installing Mockito in Gradle To install Mockito, we just update the testImplemen
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/08-pytest-test-doubles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/08-pytest-test-doubles/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 To create test doubles in Python, we&amp;rsquo;ll rely on the built-in unittest.mock library. It includes lots of quick and easy methods for creating fake objects in Python, and it is compatible with the pytest testing framework that we&amp;rsquo;re already using.
 Adding Mocks to a Test Class There are many different ways to use the unittest.mock library. One of the easiest ways is to import the patch annotation</description>
     </item>

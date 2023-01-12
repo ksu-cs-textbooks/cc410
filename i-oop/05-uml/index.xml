@@ -108,8 +108,13 @@
 	
 		
 		
+
+	
+	
 		
 		
+		
+		
 
 	
 	
@@ -1837,8 +1842,6 @@
 
 	
 	
-		
-		
 		
 
 	
@@ -1869,12 +1872,7 @@
 	
 		
 		
-
-	
-	
 		
-		
-		
 
 	
 	
@@ -1892,12 +1890,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -1963,15 +1956,7 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
-
-	
-	
 		
 
 	
@@ -2010,6 +1995,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2021,7 +2007,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2075,19 +2060,14 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 		
-		
 
 	
 	
@@ -2125,10 +2105,12 @@
 
 	
 	
+		
 		
 		
 		
 		
+		
 
 	
 	
@@ -2141,42 +2123,46 @@
 	
 	
 		
+
+	
+	
 		
 		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
 		
-		
 
 	
 	
 		
+		
 
 	
 	
@@ -2195,63 +2181,53 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
-		
-		
-		
-		
 		
 		
-
-	
-	
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2276,13 +2252,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2318,10 +2294,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2338,10 +2314,10 @@
 	
 		
 		
+		
 
 	
 	
-		
 		
 
 	
@@ -2353,7 +2329,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2362,13 +2337,13 @@
 
 	
 	
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2509,36 +2484,26 @@
 	
 		
 		
-		
 
 	
 	
 		
-
-	
-	
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
-		
 
 	
 	
@@ -2592,21 +2557,12 @@
 
 	
 	
-		
 		
-		
-
-	
-	
 		
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2627,13 +2583,11 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
@@ -2642,12 +2596,7 @@
 
 	
 	
-		
-		
 		
-
-	
-	
 		
 
 	
@@ -2667,13 +2616,13 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -2694,7 +2643,6 @@
 	
 		
 		
-		
 
 	
 	
@@ -2703,12 +2651,8 @@
 
 	
 	
-		
 		
 		
-
-	
-	
 		
 
 	
@@ -2721,11 +2665,7 @@
 
 	
 	
-		
 		
-
-	
-	
 		
 		
 
@@ -2781,16 +2721,12 @@
 
 	
 	
-		
 		
 		
 
 	
 	
 		
-
-	
-	
 		
 
 	
@@ -2861,7 +2797,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2979,8 +2914,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/02-uml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/02-uml/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 1
 Unified Modeling Language (UML) was introduced to create a standardized way of visualizing a software system design. It was developed by Grady Booch, Ivar Jacobson, and James Rumbah at Rational Software in the mid-nineties. It was adopted as a standard by the Object Management Group in 1997, and also by the International Organization for Standardization (ISO) as an approved ISO standard in 2005.
 The UML standard actually provides many different kinds of diagrams for describing a software system - both structure and behavior:</description>
@@ -2990,18 +2924,17 @@ The UML standard actually provides many different kinds of diagrams for describi
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/05-classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/05-classes/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:
-The first compartment identifies the class - it contains the name of the class. The second compartment holds the attributes of the class (the fields and properties). And the third compartment holds the operations of the class (the methods) of the class.</description>
+The first compartment identifies the class - it contains the name of the class. The second compartment holds the attributes of the class (the fields and properties). And the third compartment holds the operations of the class (the methods) of the class.
+In the diagram above, we can see the Fruit class modeled on the right side.</description>
     </item>
     <item>
       <title>Associations</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/06-associations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/06-associations/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Class diagrams also express the associations between classes by drawing lines between the boxes representing them.
 There are two basic types of associations we model with UML: has-a and is-a associations. We break these into two further categories, based on the strength of the association, which is either strong or weak. These associations are:
 Association NameAssociation TypeTypical UsageRealizationweak is-aInterfacesGeneralizationstrong is-aInheritanceAggregationweak has-aCollectionsCompositionstrong has-aEncapsulationIs-A Associations Is-a associations indicate a relationship where one class is a instance of another class.</description>
