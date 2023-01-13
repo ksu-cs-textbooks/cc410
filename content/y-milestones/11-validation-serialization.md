@@ -10,7 +10,7 @@ This page lists the milestone requirements for **Milestone 11** of the **CC 410 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
 The eleventh milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.
 

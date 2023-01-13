@@ -2,14 +2,13 @@
 title: "Documentation & Testing"
 pre: "2. "
 weight: 30
-date: 2021-08-17T00:53:26-05:00
 ---
 
 This page lists the milestone requirements for **Milestone 2** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _That's a Wrap_, offering wraps of all shapes and sizes to celebrate our favorite movies. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
 The second milestone involves writing documentation and unit tests for our existing code base. Our goal is to adequately test each part of our code via **unit tests**, reaching 100% code coverage at a minimum. In addition, we'll add all of the required **documentation comments** in our existing code. 
 
@@ -29,10 +28,10 @@ This milestone must follow these professional coding standards:
   * Classes must be organized into packages based on common usage.
 * **This project must include automation for compilation, unit testing, documentation generation, and execution.**
   * Java: Use Gradle with the `application` plugin. The project should compile without errors. You may include a main class in a separate package for testing purposes only.
-  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
+  * Python: Use tox configured to use Python 3.10 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.10. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
 * **Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**
   * Java: Use JUnit 5. You may choose to use Hamcrest for assertions.
   * Python: Use pytest. You may choose to use Hamcrest for assertions.
@@ -69,13 +68,13 @@ This milestone should include the following features:
 
 ###### Data Types
 
-* Each Wrap, Side, and Drink class should contain complete typing information.
+* Each Entree, Side, and Drink class should contain complete typing information.
   * Java - this is already handled by the compiler, so no changes are needed.
   * Python - the code should contain complete type annotations and achieve low imprecision percentage in Mypy using strict type checking. 
 
 ###### Unit Tests
 
-* Each Wrap, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
+* Each Entree, Side, and Drink class should have a corresponding class of unit tests that achieve **100% code coverage** and **adequately test all features of those classes**. 
   * See the discussion below for more information on unit tests to be included.
   * Each unit test should be in a matching package in the `test` directory for the class it is testing.
   * Python - unit tests **do not require type annotations**.
@@ -84,7 +83,7 @@ This milestone should include the following features:
 
 ###### Documentation
 
-* Each Wrap, Side, Drink, and Enumeration class should have all required documentation comments.
+* Each Entree, Side, Drink, and Enumeration class should have all required documentation comments.
   * **Every method must be documented, including parameters and return values.**
   * Checkstyle/Flake8 should not give any errors related to documentation in the `src` directory. 
   * You are encouraged, but not required, to create documentation comments for unit tests.
@@ -104,10 +103,10 @@ This milestone should include the following features:
 _Some quick tips from when I did this milestone:_
 
 * **DO NOT COPY FROM YOUR SOURCE CODE FROM MILESTONE 1!** Write your unit tests solely using the menu on the previous milestone and the list of tests needed on this milestone. In that way, you will confirm that your tests match the specification and confirm the code is correct, not that your tests match your existing code! Even I found a few errors in my code through writing these unit tests.
-* You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all wraps test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
-* Generalizing the tests for individual ingredients in wraps and drinks (such as `pepperoni` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
+* You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all entrees test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
+* Generalizing the tests for individual ingredients in entrees and drinks (such as `beans` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
 * **Java** users may wish to review the [EnumSource](https://www.baeldung.com/parameterized-tests-junit-5#3-enum) option for parameterized tests using enums.
-* **Python** users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("crust", Crust)`.
+* **Python** users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("base", Base)`.
 * When following Google's style for Java, you are required to include `default` branches in switch statements across enums, which will be unreached in code coverage. This is fine, but a good reason to avoid switch statements, as you will never get 100% code coverage! I ended up changing my model solution to remove switch statements.
 
 _-Russ_
@@ -120,7 +119,7 @@ Completing this project is estimated to require 3-8 hours.
 
 {{% notice note "Expected Scope" %}}
 
-_In my testing, this milestone requires around 3500-4000 lines of code (including very rudimentary documentation comments) in the unit tests directory. As with the prior milestone, much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to pick one of the complex wraps and start there writing unit tests. Once you have the wraps all working, the sides and drinks are pretty easy and use much of the same structure. There are several hundred unit tests in my model solution. I ended up finding half a dozen errors in my model solution for milestone 1, showing the importance of unit testing! -Russ_
+_In my testing, this milestone requires around 3500-4000 lines of code (including very rudimentary documentation comments) in the unit tests directory. As with the prior milestone, much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to pick one of the complex entrees and start there writing unit tests. Once you have the entrees all working, the sides and drinks are pretty easy and use much of the same structure. There are several hundred unit tests in my model solution. I ended up finding half a dozen errors in my model solution for milestone 1, showing the importance of unit testing! -Russ_
 
 {{% /notice %}}
 
@@ -129,11 +128,11 @@ _In my testing, this milestone requires around 3500-4000 lines of code (includin
 This assignment will be graded based on the rubric below:
 
 * Unit Tests - 60%
-  * Wrap Classes - 30%
+  * Entree Classes - 30%
   * Side Classes - 10%
   * Drink Classes - 20%
 * Documentation Comments - 30%
-  * Wraps Classes - 8%
+  * Entrees Classes - 8%
   * Side Classes - 8%
   * Drink Classes - 8%
   * Enumeration Classes - 6%
@@ -163,29 +162,29 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## Unit Tests
 
-##### Wrap
+##### Entree
 
 Each test class should contain unit tests for the following (this is not an exhaustive list, but should get close to 100% coverage):
 
 * When a new object is created:
   * The instructions list should be empty
-  * The default shell should be set correctly
-  * The addins should be set correctly
+  * The default base should be set correctly
+  * The toppings should be set correctly
   * The calories should be set correctly
-* For every shell option:
-  * The price should be set correctly, including any surcharges for shell types.
+* For every base option:
+  * The price should be set correctly, including any surcharges for base types.
   * The string representation of the item should be correct
 * For every ingredient
   * Each ingredient should be included by default
   * Adding or removing an ingredient adds or removes an item in the instructions list
-* For every addin:
-  * If the addin is included by default, it should be in the addins list on a new object
-  * Adding or removing an addin makes the correct modification to the addins list
+* For every topping:
+  * If the topping is included by default, it should be in the toppings list on a new object
+  * Adding or removing an topping makes the correct modification to the toppings list
 * Equality tests:
   * Two instances of the same object are equal
-  * Two instances with different shells are not equal
+  * Two instances with different bases are not equal
   * Two instances with different ingredients are not equal
-  * Two instances with different addins are not equal
+  * Two instances with different toppings are not equal
   * An instance of another object is not equal to an instance of this object (should not cause an exception)
 * Other tests:
   * Changing multiple ingredients should add or remove multiple items in the instructions list

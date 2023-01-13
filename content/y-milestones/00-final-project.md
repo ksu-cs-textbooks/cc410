@@ -2,7 +2,6 @@
 title: "Final Project"
 pre: "A. "
 weight: 5
-date: 2021-08-17T00:53:26-05:00
 ---
 
 This page lists the milestone requirements for the **Final Project** in CC 410. Read the requirements carefully and discuss any questions with the instructors or TAs. 

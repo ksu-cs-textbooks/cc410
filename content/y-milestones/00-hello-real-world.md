@@ -2,7 +2,6 @@
 title: "Hello Real World"
 pre: "0. "
 weight: 10
-date: 2021-08-17T00:53:26-05:00
 ---
 
 This page lists the milestone requirements for the **Example 1 - Hello Real World** project. Read the requirements carefully and discuss any questions with the instructors or TAs. 
