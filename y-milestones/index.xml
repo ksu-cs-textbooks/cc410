@@ -2912,12 +2912,11 @@
     <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/</link>
     <description>Recent content in Project Milestones on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 29 Dec 2020 00:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc410/y-milestones/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/y-milestones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Final Project</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-final-project/</link>
-      <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-final-project/</guid>
       <description>This page lists the milestone requirements for the Final Project in CC 410. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose This assignment allow students to exercise their programming skills by building a project of their own design. Ideally, the project will be something related to the student&amp;rsquo;s personal interests or area of study. All the requirements listed below are considered flexible and can be adapted to fit the individual project and student.</description>
@@ -2925,7 +2924,7 @@ Purpose This assignment allow students to exercise their programming skills by b
     <item>
       <title>Hello Real World</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-hello-real-world/</link>
-      <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-hello-real-world/</guid>
       <description>This page lists the milestone requirements for the Example 1 - Hello Real World project. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose This assignment mimics the traditional &amp;ldquo;Hello World&amp;rdquo; project that most programmers learn as their first program, but done following professional coding standards and guidelines. In effect, this is how a professional coder would write &amp;ldquo;Hello World&amp;rdquo; as a project for work.</description>
@@ -2933,19 +2932,19 @@ Purpose This assignment mimics the traditional &amp;ldquo;Hello World&amp;rdquo;
     <item>
       <title>Restaurant Classes</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/01-restaurant-classes/</link>
-      <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/01-restaurant-classes/</guid>
       <description>This page lists the milestone requirements for Milestone 1 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 This first milestone involves building the classes that represent items on the restaurant&amp;rsquo;s menu.</description>
     </item>
     <item>
       <title>Documentation &amp; Testing</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/02-documentation-testing/</link>
-      <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/02-documentation-testing/</guid>
       <description>This page lists the milestone requirements for Milestone 2 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The second milestone involves writing documentation and unit tests for our existing code base.</description>
     </item>
     <item>
@@ -2954,7 +2953,7 @@ The second milestone involves writing documentation and unit tests for our exist
       <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/03-inheritance/</guid>
       <description>This page lists the milestone requirements for Milestone 3 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named That&amp;rsquo;s a Wrap, offering wraps of all shapes and sizes to celebrate our favorite movies.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The third milestone involves refactoring our code to take advantage of inheritance and the use of interfaces.</description>
     </item>
   </channel>

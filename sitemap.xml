@@ -2924,16 +2924,16 @@
     <lastmod>2022-02-25T11:10:14-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-final-project/</loc>
-    <lastmod>2022-07-28T12:21:26-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/</loc>
     <lastmod>2021-08-18T00:04:30-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/</loc>
     <lastmod>2021-08-18T00:04:30-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-final-project/</loc>
+    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/01-introduction/</loc>
@@ -3022,10 +3022,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iv-extras/02-installing-python/</loc>
     <lastmod>2022-02-25T11:10:14-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-hello-real-world/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week01/</loc>
@@ -3134,6 +3130,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/02-gui-threads/</loc>
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-hello-real-world/</loc>
+    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/02-html/</loc>
@@ -3304,10 +3304,6 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/01-restaurant-classes/</loc>
-    <lastmod>2022-08-25T12:02:16-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/</loc>
     <lastmod>2021-08-20T16:38:27-05:00</lastmod>
   </url>
@@ -3442,6 +3438,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/02-oop/</loc>
     <lastmod>2021-09-08T14:41:54-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/01-restaurant-classes/</loc>
+    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/20-extras/04-software-development-life-cycle/</loc>
@@ -3624,10 +3624,6 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/02-documentation-testing/</loc>
-    <lastmod>2022-08-25T12:02:16-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/</loc>
     <lastmod>2021-08-20T16:38:27-05:00</lastmod>
   </url>
@@ -3650,6 +3646,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/</loc>
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/02-documentation-testing/</loc>
+    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week03/</loc>
@@ -3825,7 +3825,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/03-inheritance/</loc>
-    <lastmod>2022-09-23T09:57:09-05:00</lastmod>
+    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/</loc>
@@ -4341,7 +4341,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/</loc>
-    <lastmod>2023-01-12T15:55:18-06:00</lastmod>
+    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-instructor-resources/</loc>
