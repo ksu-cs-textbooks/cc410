@@ -22,7 +22,8 @@ hidden: true
 <section>
 	<h2>Big Picture</h2>
 	<ul>
-		<li>OOP, GUIs, Web</li>
+		<li>OOP, Testing, Patterns</li>
+		<li>GUIs, Web & Serialization</li>
 		<li>Examples</li>
 		<li>Restaurant Project</li>
 		<li>Final Project</li>
@@ -109,6 +110,28 @@ hidden: true
 		<li>Web</li>
 		<li>Serialization</li>
 		<li><i>and more!</i></li>
+	</ul>
+</section>
+
+<section>
+	<h2>Big Changes!</h2>
+	<ul>
+		<li>Splitting Larger Milestones</li>
+		<li>Moving Content Around</li>
+		<li>More streamlined?</li>
+		<li>Some hiccups?</li>
+		<li>Starts with Module 6</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Small Updates</h2>
+	<ul>
+		<li>Codio Stack Updated</li>
+		<li>Ubuntu 22.04</li>
+		<li>Java 11 (openjdk)</li>
+		<li>Python 3.10</li>
+		<li>Examples Being Updated & Tested</li>
 	</ul>
 </section>
 
