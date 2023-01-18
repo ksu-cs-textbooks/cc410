@@ -18,9 +18,11 @@ However, just like we renamed `App.java` to `HelloWorld.java`, let's do the same
 
 Thankfully, we don't have to do anything else after renaming this file, because, as we'll see shortly, Gradle is able to automatically find all of the unit test classes that exist in the `app/src/test` directory. 
 
-## Update JUnit to Version 5
+{{% notice info "Update JUnit to Version 5" %}}
 
-Next, let's upgrade the version of JUnit used by Gradle. By default, Gradle builds a project that uses JUnit 4, but now we can switch to the newer JUnit 5, sometimes referred to as JUnit Jupiter. To do this, we need to edit a few lines in the `build.gradle` file, which can be found in the `app` directory. The instructions for this process can be found in the [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/#running-tests-build)
+Older versions of Gradle will default to JUnit 4 instead of JUnit 5, also known as JUnit Jupiter. If your project is set up this way, you'll need to upgrade. 
+
+To do this, we need to edit a few lines in the `build.gradle` file, which can be found in the `app` directory. The instructions for this process can be found in the [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/#running-tests-build)
 
 First, look for the following dependencies section:
 
@@ -60,6 +62,7 @@ tasks.named('test') {
 
 There we go! Now Gradle is configured to use JUnit 5 properly!
 
+{{% /notice %}}
 
 ## Write Code in HelloWorldTest.java
 
