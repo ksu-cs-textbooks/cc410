@@ -34,7 +34,8 @@ This script will ask a few questions about what type of project we'd like to cre
 * Implementation language - `3`: Java
 * Split functionality across multiple subprojects - `1`: no - only one application project
 * Build script DSL - `1`: Groovy
-* Test Framework - `1`: JUnit 4
+* Generate build using new APIs - `no`
+* Test Framework - `4`: JUnit Jupiter
 * Project name - `hello`
 * Source package - `hello`
 
