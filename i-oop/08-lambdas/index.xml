@@ -2919,7 +2919,8 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/02-lambda-calculus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/02-lambda-calculus/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 The basis of lambda expressions comes from a special branch of mathematics known as Lambda Calculus. It was first introduced by Alonzo Church, who is often connected with Alan Turing in the early days of theoretical computer science. (You may have heard of the Church-Turing thesis that relates to the computability of functions on a Turing machine.)
 Lambda Calculus Lambda calculus is a formal notation used to describe computation.</description>
     </item>
@@ -2928,7 +2929,8 @@ Lambda Calculus Lambda calculus is a formal notation used to describe computatio
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/04-java-lambdas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/04-java-lambdas/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Java introduced lambda expressions in Java version 8. As we would expect based on the previous pages, it allows us to create anonymous functions that can then be passed as arguments to other functions. Java includes several new types, such as Predicate and Consumer, all contained in the java.util.function package.
 Lambda Expression Syntax In general, a lambda expression in Java consists of the following syntax:
 A list of formal parameters in parentheses, separated by commas.</description>
@@ -2938,7 +2940,8 @@ A list of formal parameters in parentheses, separated by commas.</description>
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/05-python-lambdas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/05-python-lambdas/</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Lambda expressions, typically called lambda functions in most Python documentation, are effectively a syntactic shortcut for defining a function within Python code. This is because normal Python functions are already first-class citizens in the language - we can already pass existing named functions as arguments to other functions! So, lambdas in Python are simply shortcuts we can use to create a new anonymous function where needed, but we can always use normal functions to perform the same task.</description>
     </item>
     <item>
