@@ -40,14 +40,11 @@ As we can see, it uses version 4.13 of JUnit. Let's update to JUnit 5, and also 
 
 ```groovy
 dependencies {
-    // Use JUnit Jupiter API for testing.
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
-
-    // Use JUnit Jupiter Engine for testing.
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 
     // This dependency is used by the application.
-    implementation 'com.google.guava:guava:29.0-jre'
+    implementation 'com.google.guava:guava:31.1-jre'
 }
 ```
 
