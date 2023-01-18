@@ -43,7 +43,7 @@ Unfortunately, the version of Checkstyle that is included with Gradle is bit out
 ```groovy
 // Force Checkstyle to be more current version
 checkstyle {
-    toolVersion '8.38'
+    toolVersion '10.6.0'
 }
 ```
 
@@ -53,7 +53,7 @@ Checkstyle is a very powerful tool, but it requires a configuration file to oper
 
 Here are the steps we'll follow:
 
-1. Download the Google configuration file for Checkstyle version 8.38. It can be found at this location on [GitHub](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml).
+1. Download the Google configuration file for Checkstyle version 10.6.0. It can be found at this location on [GitHub](https://github.com/checkstyle/checkstyle/blob/checkstyle-10.6.0/src/main/resources/google_checks.xml).
 2. Create a folder named `config` inside of the `java` folder in Codio.
 3. Create a folder named `checkstyle` inside of the `config` folder we just created.
 4. Upload the `google_checks.xml` file that was downloaded in step 1 to the `config/checkstyle` folder in Codio created in step 3. 
