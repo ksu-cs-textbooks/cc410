@@ -825,29 +825,9 @@
 		
 		
 		
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
 
 	
 	
-		
-		
-		
 		
 
 	
@@ -1034,11 +1014,11 @@
 	
 		
 		
+		
+		
 
 	
 	
-		
-		
 		
 
 	
@@ -1078,32 +1058,35 @@
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -1112,25 +1095,34 @@
 
 	
 	
+		
 		
+		
+		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
+
+	
+	
 		
 		
 
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
@@ -1138,6 +1130,9 @@
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -1172,31 +1167,30 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
+		
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
 		
@@ -1204,35 +1198,41 @@
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -2916,38 +2916,24 @@
     <lastBuildDate>Tue, 08 Dec 2020 00:53:05 -0500</lastBuildDate><atom:link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GUI Basics</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/</link>
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/</guid>
-      <description>Chapter 9 GUI Basics Making things visible, graphically!</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/</guid>
+      <description>Chapter 11 GUI Basics Making things visible, graphically!</description>
     </item>
     <item>
       <title>Parallelism</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/</link>
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/</guid>
-      <description>Chapter 10 Parallelism Running multiple threads concurrently!</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/</guid>
+      <description>Chapter 12 Parallelism Running multiple threads concurrently!</description>
     </item>
     <item>
       <title>Event-Driven Programming</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/</link>
+      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/</link>
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/</guid>
-      <description>Chapter 11 Event-Driven Programming Responding to events within our GUIs!</description>
-    </item>
-    <item>
-      <title>Design Patterns</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/</guid>
-      <description>Chapter 12 Design Patterns Building more beautiful and repeatable software!</description>
-    </item>
-    <item>
-      <title>Test Doubles</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/</link>
-      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/</guid>
-      <description>Chapter 13 Test Doubles Mimicking and making a &amp;ldquo;mock&amp;quot;ery of testing!</description>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/</guid>
+      <description>Chapter 13 Event-Driven Programming Responding to events within our GUIs!</description>
     </item>
     <item>
       <title>External Libraries</title>

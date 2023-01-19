@@ -825,29 +825,9 @@
 		
 		
 		
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
 
 	
 	
-		
-		
-		
 		
 
 	
@@ -1034,11 +1014,11 @@
 	
 		
 		
+		
+		
 
 	
 	
-		
-		
 		
 
 	
@@ -1078,32 +1058,35 @@
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -1112,25 +1095,34 @@
 
 	
 	
+		
 		
+		
+		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
+
+	
+	
 		
 		
 
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
@@ -1138,6 +1130,9 @@
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -1172,31 +1167,30 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
+		
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
 		
@@ -1204,35 +1198,41 @@
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -2913,5 +2913,12 @@
     <description>Recent content in Previous Semesters on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fall 2021</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/fall-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/fall-2021/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -825,29 +825,9 @@
 		
 		
 		
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
 
 	
 	
-		
-		
-		
 		
 
 	
@@ -1034,11 +1014,11 @@
 	
 		
 		
+		
+		
 
 	
 	
-		
-		
 		
 
 	
@@ -1078,32 +1058,35 @@
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -1112,25 +1095,34 @@
 
 	
 	
+		
 		
+		
+		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
+
+	
+	
 		
 		
 
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
@@ -1138,6 +1130,9 @@
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -1172,31 +1167,30 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
+		
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
 		
@@ -1204,35 +1198,41 @@
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -2964,24 +2964,24 @@
     <lastmod>2021-08-20T16:38:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/01-introduction/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/01-introduction/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/01-introduction/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/01-introduction/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/01-introduction/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/01-introduction/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/01-introduction/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/01-introduction/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/01-introduction/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/01-introduction/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/01-introduction/</loc>
@@ -3128,8 +3128,8 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/02-gui-threads/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/02-gui-threads/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/00-hello-real-world/</loc>
@@ -3156,20 +3156,20 @@
     <lastmod>2022-02-22T19:25:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/02-need-test-doubles/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/02-need-test-doubles/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/15-releases/02-preparing-for-release/</loc>
     <lastmod>2022-02-22T19:25:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/02-processes/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/02-processes/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/02-screens/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/02-screens/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/</loc>
@@ -3184,8 +3184,8 @@
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/02-gang-of-four/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/02-gang-of-four/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/02-growth/</loc>
@@ -3212,16 +3212,16 @@
     <lastmod>2021-08-20T16:38:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/03-arrange-act-assert/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/03-arrange-act-assert/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/03-automated-testing/</loc>
     <lastmod>2021-08-20T16:38:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/03-binding-events/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/03-binding-events/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/03-boxes/</loc>
@@ -3244,8 +3244,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/03-frameworks/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/03-frameworks/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/03-functions-as-objects/</loc>
@@ -3276,8 +3276,8 @@
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/03-software-design-patterns/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/03-software-design-patterns/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/19-serialization/03-test-formats/</loc>
@@ -3288,8 +3288,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/03-threads/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/03-threads/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iv-extras/04-python-ides/</loc>
@@ -3316,8 +3316,8 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/04-builder/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/04-builder/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/04-code-comments/</loc>
@@ -3328,20 +3328,20 @@
     <lastmod>2023-01-18T12:18:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/04-creating-threads/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/04-creating-threads/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/04-designing-gui/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/04-designing-gui/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/04-documenting-web-apis/</loc>
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/04-event-handlers/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/04-event-handlers/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week02/</loc>
@@ -3452,8 +3452,8 @@
     <lastmod>2021-08-24T15:17:57-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/04-stubs/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/04-stubs/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/04-type-systems/</loc>
@@ -3484,24 +3484,24 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/05-containers/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/05-containers/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/05-debuggers/</loc>
     <lastmod>2022-08-25T12:02:16-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/05-event-loop/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/05-event-loop/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/05-factory-method/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/05-factory-method/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/05-fakes/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/05-fakes/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/05-flask-form-data/</loc>
@@ -3596,8 +3596,8 @@
     <lastmod>2022-02-22T19:25:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/05-race-conditions/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/05-race-conditions/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/05-repositories/</loc>
@@ -3668,8 +3668,8 @@
     <lastmod>2021-10-21T14:07:43-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/06-layout-managers/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/06-layout-managers/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/06-licenses/</loc>
@@ -3680,8 +3680,8 @@
     <lastmod>2022-08-25T12:02:16-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/06-mocks/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/06-mocks/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/06-modules/</loc>
@@ -3708,20 +3708,20 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/06-singleton/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/06-singleton/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/06-static-web-servers/</loc>
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/06-swing-dispatch-thread/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/06-swing-dispatch-thread/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/06-thread-synchronization/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/06-thread-synchronization/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/03-unit-testing/</loc>
@@ -3756,8 +3756,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/07-elements/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/07-elements/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/07-generated-documentation/</loc>
@@ -3768,12 +3768,12 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/07-iterator/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/07-iterator/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/07-java-threads/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/07-java-threads/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/07-python-inheritance/</loc>
@@ -3804,12 +3804,12 @@
     <lastmod>2021-12-01T16:24:14-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/07-junit-test-doubles/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/07-junit-test-doubles/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/07-tkinter-main-loop/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/07-tkinter-main-loop/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/07-validation/</loc>
@@ -3836,12 +3836,12 @@
     <lastmod>2022-02-07T19:52:06-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/08-accessing-codio/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/08-accessing-codio/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/08-adapter/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/08-adapter/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/08-classes-objects/</loc>
@@ -3880,8 +3880,8 @@
     <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/08-java-synchronization/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/08-java-synchronization/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-instructor-resources/04-python39/</loc>
@@ -3896,8 +3896,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/08-summary/</loc>
-    <lastmod>2021-11-30T15:45:11-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/08-summary/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/08-summary/</loc>
@@ -3908,8 +3908,8 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/08-pytest-test-doubles/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/</loc>
@@ -3924,24 +3924,20 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/</loc>
-    <lastmod>2021-08-24T11:52:30-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/</loc>
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/09-dependency-injection/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/09-dependency-injection/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/09-java-libraries/</loc>
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/09-java-swing/</loc>
-    <lastmod>2022-02-22T19:25:40-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/09-java-swing/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/</loc>
@@ -3964,8 +3960,8 @@
     <lastmod>2021-10-21T14:07:43-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/09-python-threads/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/09-python-threads/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/09-summary/</loc>
@@ -3976,8 +3972,8 @@
     <lastmod>2021-12-02T13:20:21-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/09-template-method/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/09-template-method/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/09-web-frameworks/</loc>
@@ -3986,10 +3982,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week05/</loc>
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/05-how-to-learn-programming/</loc>
@@ -4016,12 +4008,12 @@
     <lastmod>2021-09-23T11:17:44-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/10-python-synchronization/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/10-python-synchronization/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/10-python-tkinter/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/10-python-tkinter/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/10-python-wheels/</loc>
@@ -4040,12 +4032,12 @@
     <lastmod>2021-10-26T16:28:41-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/10-summary/</loc>
-    <lastmod>2022-10-13T11:34:38-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/10-summary/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/10-summary/</loc>
-    <lastmod>2021-11-30T15:45:11-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/10-summary/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/15-releases/10-summary/</loc>
@@ -4058,10 +4050,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/</loc>
     <lastmod>2023-01-18T14:17:00-06:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-event-driven-programming/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week05/ex-5-update/</loc>
@@ -4088,12 +4076,12 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/09-gui-basics/11-summary/</loc>
-    <lastmod>2021-11-04T13:47:16-05:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/11-summary/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/10-parallelism/11-summary/</loc>
-    <lastmod>2021-11-30T15:45:11-06:00</lastmod>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/11-summary/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/11-testing-strategies/</loc>
@@ -4102,10 +4090,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week05/codio-webpages/</loc>
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-design-patterns/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week06/</loc>
@@ -4152,20 +4136,12 @@
     <lastmod>2021-08-24T15:17:57-05:00</lastmod>
   </url>
   <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-test-doubles/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/13-summary/</loc>
     <lastmod>2022-04-14T13:02:05-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week07/</loc>
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/07-plagiarism/</loc>
@@ -4190,10 +4166,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/07a-parallel-programming/</loc>
     <lastmod>2021-09-08T15:44:37-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/15-releases/</loc>
-    <lastmod>2021-08-24T13:35:48-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/07b-event-driven-programming/</loc>
@@ -4236,6 +4208,10 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/</loc>
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
@@ -4268,6 +4244,10 @@
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week10/</loc>
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
@@ -4278,6 +4258,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/10-releases/</loc>
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week11/</loc>
@@ -4296,12 +4280,20 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week12/</loc>
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/</loc>
     <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week13/</loc>
@@ -4316,6 +4308,10 @@
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week14/</loc>
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
@@ -4326,6 +4322,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week15/</loc>
     <lastmod>2022-08-23T14:15:02-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/15-releases/</loc>
+    <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iv-extras/</loc>

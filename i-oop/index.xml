@@ -825,29 +825,9 @@
 		
 		
 		
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
-
-	
-	
-		
 
 	
 	
-		
-		
-		
 		
 
 	
@@ -1034,11 +1014,11 @@
 	
 		
 		
+		
+		
 
 	
 	
-		
-		
 		
 
 	
@@ -1078,32 +1058,35 @@
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
 
 	
 	
 		
-		
 
 	
 	
-		
 		
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -1112,25 +1095,34 @@
 
 	
 	
+		
 		
+		
+		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
+
+	
+	
 		
 		
 
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
@@ -1138,6 +1130,9 @@
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -1172,31 +1167,30 @@
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
+		
 
 	
 	
-		
 		
 
 	
 	
 		
-		
 
 	
 	
+		
 		
 		
 		
@@ -1204,35 +1198,41 @@
 	
 	
 		
+		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
-		
 		
 		
-		
 
 	
 	
+		
 		
 
 	
 	
 		
+		
 
 	
 	
 		
 		
 		
+
+	
+	
 		
 
 	
@@ -2969,6 +2969,20 @@
       <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/</guid>
       <description>Chapter 8 Lambda Expressions Because every function deserves to be a first-class citizen!</description>
+    </item>
+    <item>
+      <title>Design Patterns</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/</guid>
+      <description>Chapter 9 Design Patterns Building more beautiful and repeatable software!</description>
+    </item>
+    <item>
+      <title>Test Doubles</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/</guid>
+      <description>Chapter 10 Test Doubles Mimicking and making a &amp;ldquo;mock&amp;quot;ery of testing!</description>
     </item>
   </channel>
 </rss>
