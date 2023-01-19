@@ -20,7 +20,7 @@ Recall from our discussion on the growth of computing that, as computers grew mo
 
 How do we go about writing those complex systems?  We probably wouldn't want to follow the model that the EPIC software gives us. And, thankfully, neither did most software developers at the time - so computer scientists set out to define better ways to write programs.  David Parnas formalized some of the best ideas emerging from those efforts in his 1972 paper "On the Criteria To Be Used in Decomposing Systems into Modules". [^Parnas1972]
 
-[^Parnas1972]: D. L. Parnas, ["On the criteria to be used in decoposing systems into modules"](https://dl-acm-org.er.lib.k-state.edu/doi/10.1145/361598.361623) _Communications of the ACM_, Dec. 1972.
+[^Parnas1972]: D. L. Parnas, ["On the criteria to be used in decomposing systems into modules"](https://dl-acm-org.er.lib.k-state.edu/doi/10.1145/361598.361623) _Communications of the ACM_, Dec. 1972.
 
 <blockquote>
 A <i>data structure</i>, its internal linkings, <i>accessing procedures and modifying procedures</i> are part of a single module.  
