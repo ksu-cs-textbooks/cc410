@@ -1,12 +1,12 @@
 +++
 title = "Parallelism"
 date = 2021-08-17
-weight = 50
+weight = 120
 chapter = true
-pre = "<b>10.  </b>"
+pre = "<b>12.  </b>"
 +++
 
-### Chapter 10
+### Chapter 12
 
 # Parallelism
 

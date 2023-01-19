@@ -1,12 +1,12 @@
 +++
 title = "Test Doubles"
 date = 2021-08-17
-weight = 65
+weight = 100
 chapter = true
-pre = "<b>13.  </b>"
+pre = "<b>10.  </b>"
 +++
 
-### Chapter 13
+### Chapter 10
 
 # Test Doubles
 

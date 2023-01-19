@@ -1,12 +1,12 @@
 +++
 title = "GUI Basics"
 date = 2021-08-17
-weight = 45
+weight = 110
 chapter = true
-pre = "<b>9. </b>"
+pre = "<b>11. </b>"
 +++
 
-### Chapter 9
+### Chapter 11
 
 # GUI Basics
 
