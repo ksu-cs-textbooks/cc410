@@ -26,10 +26,10 @@ This milestone must follow these professional coding standards:
   * Classes must be organized into packages based on common usage.
 * **This project must include automation for compilation and execution.**
   * Java: Use Gradle with the `application` plugin. The project should compile without errors. You may include a main class in a separate package for testing purposes only.
-  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
+  * Python: Use tox configured to use Python 3.10 and a requirements file to install libraries. You may include a main class in a separate package for testing purposes only.
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.109. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
 * Submissions to Canvas should be tagged GitHub releases that are numbered according to [Semantic Versioning](https://semver.org/).
 
 {{% expand "Unenforced requirements (click to expand):" %}}
@@ -48,7 +48,7 @@ It is easier to get this correct from the start, then having to refactor your co
 {{% /notice %}}
 
 * **(Milestone 3) All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
-  * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
+  * Java: Use Checkstyle 10.6.0+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-10.6.0/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
   * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
 * **(Milestone 2) Where specified, code should contain appropriate unit tests that achieve the specified level of code coverage.**

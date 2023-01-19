@@ -110,7 +110,7 @@ If everything is working correctly, we should get the following output:
 
 When we execute tox, it performs a few tasks:
 
-1. tox will create a **virtual environment** for Python 3.9 in the `.tox` folder it creates. This allows it to run tests in isolation, away from the version of Python we are using in Codio.
+1. tox will create a **virtual environment** for Python 3.10 in the `.tox` folder it creates. This allows it to run tests in isolation, away from the version of Python we are using in Codio.
 2. It will then install all of the requirements listed in the `requirements.txt` file. This makes sure our application and unit tests can execute.
 3. Then, it will run all of the test commands in the `commands` list in `tox.ini`. Right now there is just one command, so it will run our unit tests with pytest.
 

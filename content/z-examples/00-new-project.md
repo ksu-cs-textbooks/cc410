@@ -90,10 +90,10 @@ plugins {
 
 // Force Checkstyle to be more current version
 checkstyle {
-    toolVersion '8.38'
+    toolVersion '10.6.0'
 }
 ```
-10. Store [Google Checkstyle XML](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml) at `config/checkstyle/checkstyle.xml`
+10. Store [Google Checkstyle XML](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-10.6.0/src/main/resources/google_checks.xml) at `config/checkstyle/checkstyle.xml`
     1. Optionally update `Indentation` section to match Codio values:
 ```xml
     <module name="Indentation">
@@ -217,6 +217,7 @@ python3 --version
 4. Confirm Python Version matches the `envlist` entry in `tox.ini`
    1. Python 3.6.x - `py36`
    2. Python 3.9.x - `py39`
+   3. Python 3.10.x - `py310`
 5. [Update Packages](https://textbooks.cs.ksu.edu/cc410/z-instructor-resources/03-errata/) in `requirements.txt`
    1. Lock `flake8` to version before 5.0: `flake8<5.0.0`
 5. Install Python Libraries

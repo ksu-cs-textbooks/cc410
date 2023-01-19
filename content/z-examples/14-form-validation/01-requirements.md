@@ -18,16 +18,16 @@ This example will cover updating an existing project to include server-side form
   * Classes must be organized into packages based on common usage.
 * **This project must include automation for compilation and execution.**
   * Java: Use Gradle with the `application` and `jacoco` plugins. The project should compile without errors. 
-  * Python: Use tox configured to use Python 3.9 and a requirements file to install libraries. 
+  * Python: Use tox configured to use Python 3.10 and a requirements file to install libraries. 
 * **All code must properly compile or be interpreted.**
   * Java: It must compile using Gradle.
-  * Python: It must be interpreted using Python 3.9. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
+  * Python: It must be interpreted using Python 3.10. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
     * There are instances where Mypy is unable to determine the type of lambda expressions used as commands with buttons. This error can be ignored.
 * **Unit tests are not required.**
 * **Documentation comments are not required for this example, but they are recommended for your own use.**
 * **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
   * **Style errors related to documentation comments (or lack thereof) will be ignored.**
-  * Java: Use Checkstyle 8.38+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-8.38/src/main/resources/google_checks.xml). 
+  * Java: Use Checkstyle 10.6.0+ and the [Google Style Configuration](https://raw.githubusercontent.com/checkstyle/checkstyle/checkstyle-10.6.0/src/main/resources/google_checks.xml). 
     * You may modify the configuration to allow 4 space indentations instead of 2 space indentations.
   * Python: Use Flake8 with the `flake8-docstrings` and `pep8-naming` plugins. Code should conform to PEP 8 style with Google style docstrings. 
   * **All HTML must conform to the HTML5 standard.** Use the [W3C Validator](https://validator.w3.org/) to check your rendered pages if desired.
