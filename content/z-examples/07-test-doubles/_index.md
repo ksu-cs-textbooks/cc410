@@ -1,12 +1,10 @@
 ---
-title: "Patterns & Mocks"
-pre: "8. "
-weight: 80
+title: "Test Doubles"
+pre: "7. "
+weight: 70
 ---
 
-In this example project, we'll go through the steps of building several creational design patterns in our code: the builder, factory method, and singleton pattern, as well as the iterator behavioral pattern. 
-
-In addition, we'll explore how to use mock objects in our unit tests to help us test these new classes.
+In this example project, we'll go through the steps of adding unit tests to our prior example with design patterns. These unit test will use test doubles to mimic the functionality of various other parts of the program.
 
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process. 
 

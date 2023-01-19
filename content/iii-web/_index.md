@@ -8,6 +8,6 @@ pre = "<b>III. </b>"
 
 ### Part III
 
-# Graphical User Interfaces
+# Web Interfaces
 
 Applications for the World Wide Web!

@@ -4,15 +4,7 @@ pre: "2.J. "
 weight: 20
 ---
 
-###### Part 1
-
-{{% youtube uraNdAf4tmI %}}
-
-###### Part 2
-
 {{% youtube Ptno22ZHfkQ %}}
-
-## Outline
 
 Here is a basic outline of the steps to follow to complete this example.
 
@@ -47,12 +39,8 @@ gradle check
 ```
 
 6. Confirm that project runs. 
-7. Build `DiceSet` class
-8. Build `DiceSetBuilder` interface and implementations
-9. Build `DiceSetFactory`
-10. Update `Main` class
-11. Build unit tests
-12. When complete, use Git to commit and push updated code. 
+7. Build unit tests
+8. When complete, use Git to commit and push updated code. 
 
 ```bash
 git add .
@@ -60,4 +48,4 @@ git commit -m "Example Complete"
 git push
 ```
 
-13. On GitHub, create a release tag and submit URL to Canvas for grading. 
+9. On GitHub, create a release tag and submit URL to Canvas for grading. 

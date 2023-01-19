@@ -4,7 +4,7 @@ weight: 10
 pre: "1. "
 ---
 
-This page lists the example project requirements for **Example 8** in CC 410. Read the requirements carefully and discuss any questions with the instructors or TAs. 
+This page lists the example project requirements for **Example 7** in CC 410. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
@@ -40,26 +40,7 @@ In this assignment, we'll refer to standard numerical dice following the method 
     
 {{% /notice %}}
 
-This milestone should include the following features:
-
-* A `SingleDie` class that implements a single die (this is provided)
-* A `DiceSet` class that implements the iterator pattern (part of this is provided).
-* A `DiceSetBuilder` interface that follows the builder pattern.
-* The following implementations of the `DiceSetBuilder` interface
-  * `TwoDsixBuilder` - A pair of d6
-  * `YachtDiceBuilder` - Five d6's
-  * `RpgDiceBuilder` - A standard set of RPG dice - d4, d6, d8, d10, d12, d20, d100
-  * `HauntedDiceBuilder` - Eight d3's numbered 0 through 2. 
-  * `PigDiceBuilder` - Two d6 with the following faces: nose, tail, feet, back, left, right.
-* A `DiceSetFactory` that implements the singleton and factory method patterns. It should provide a method to build the dice sets above based on the following names:
-  * `2d6`
-  * `yacht`
-  * `rpg`
-  * `haunted`
-  * `pig`
-* `Main` class that includes a `game()` method that will create a set of two d6 dice, roll them, and then return a string of the results in the form `[die 1] + [die 2] = [sum]` (this is provided).
-
-In addition, it should include the following unit test classes and methods:
+This milestone should include the following unit test classes and methods:
 
 * `DiceSet` tests
   * `SumWorksCorrectly` - confirm that the `sum` method in `DiceSet` works properly by using fake dice and method stubs.
@@ -68,18 +49,14 @@ In addition, it should include the following unit test classes and methods:
   
 ## Time Requirements
 
-Completing this project is estimated to require 1-2 hours.
+Completing this project is estimated to require 1 hour.
 
 ## Grading Rubric
 
 This assignment will be graded based on the rubric below:
 
-* `DiceSet` class - 10%
-* `DiceSetBuilder` interface - 10%
-* `DiceSetBuilder` implementations - 20%
-* `DiceSetFactory` class - 20%
-* `DiceSet` unit test - 20%
-* `Main` unit test - 20%
+* `DiceSet` unit test - 50%
+* `Main` unit test - 50%
 
 The following deductions apply:
 
