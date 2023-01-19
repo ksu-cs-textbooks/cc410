@@ -2,6 +2,7 @@
 title: "Combos & Libraries"
 pre: "9. "
 weight: 90
+hidden: true
 ---
 
 In this example project, we'll discuss how to modify our GUI a bit to handle some of the process of building combos. We'll also look at how we can download and install external libraries into our project, and how we can use them directly within our code.

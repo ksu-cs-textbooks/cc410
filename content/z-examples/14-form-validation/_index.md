@@ -2,6 +2,7 @@
 title: "Form Validation"
 pre: "14. "
 weight: 140
+hidden: true
 ---
 
 In this example project, we'll update our previous RESTful web application to perform server-side form validation, making sure that each piece of data submitted to the server is valid. 
