@@ -2890,6 +2890,16 @@
 	
 		
 		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -2933,5 +2943,12 @@
     <description>Recent content in Debuggers on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/05-debuggers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debuggers &amp; Loggers</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/05-debuggers/video/</link>
+      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/07-debugging-logging/05-debuggers/video/</guid>
+      <description>Resources Slides Video Script Finally in this chapter, let&amp;rsquo;s briefly discuss both debuggers and loggers and how we can use them to help us find and fix error in our code. First, we can talk about debuggers. Debuggers are special programs that we can use to interactively examine our program while it is running. Both Java and Python have a debugger we can use, as do most programming languages and integrated development environments, or IDEs, including Codio.</description>
+    </item>
   </channel>
 </rss>

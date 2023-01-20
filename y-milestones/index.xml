@@ -2890,6 +2890,16 @@
 	
 		
 		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
 		
 
 	
@@ -2983,6 +2993,24 @@ The second milestone involves writing documentation and unit tests for our exist
       <description>This page lists the milestone requirements for Milestone 3 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The third milestone involves refactoring our code to take advantage of inheritance and the use of interfaces.</description>
+    </item>
+    <item>
+      <title>Design Patterns</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/04-design-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/04-design-patterns/</guid>
+      <description>This page lists the milestone requirements for Milestone 4 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
+The fourth milestone involves creating a class to track orders made at the restaurant, a class for combo meals, and more.</description>
+    </item>
+    <item>
+      <title>Test Doubles</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/05-test-doubles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/05-test-doubles/</guid>
+      <description>This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
+The fifth milestone involves writing unit tests for the order, combo, and associated classes created in the previous milestone.</description>
     </item>
   </channel>
 </rss>
