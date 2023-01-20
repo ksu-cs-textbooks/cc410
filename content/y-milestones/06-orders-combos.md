@@ -6,6 +6,8 @@ date: 2021-02-22T00:53:26-05:00
 hidden: true
 ---
 
+<!-- TODO ADD PANEL FACTORY SOMEWHERE! -->
+
 This page lists the milestone requirements for **Milestone 6** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
