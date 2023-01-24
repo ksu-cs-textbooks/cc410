@@ -142,7 +142,7 @@ This is a suggested list of unit tests you may wish to implement to test your ne
   * Two empty combos are equal
   * An empty combo is not equal to a combo containing items
   * A combo is not equal to another object (it should not throw an exception)
-  * _You may need to add additional tests to achieve 100% code coverage of the equality method.
+  * _You may need to add additional tests to achieve 100% code coverage of the equality method._
 
 ###### ComboBuilder
 
