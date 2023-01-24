@@ -1843,6 +1843,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2943,5 +2953,12 @@
     <description>Recent content in HTML Forms on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/02-html-forms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML Forms</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/02-html-forms/video/</link>
+      <pubDate>Thu, 09 Apr 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/02-html-forms/video/</guid>
+      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to take a closer look at one part of HTML - building interactive forms that the user can use to send information to our web applications. Do this, we&amp;rsquo;ll use the HTML form element, along with several input elements to collect the data. These HTML form elements are very similar to the GUI elements we&amp;rsquo;ve already worked with in this class, so hopefully many of the concepts feel familiar to you.</description>
+    </item>
   </channel>
 </rss>
