@@ -269,7 +269,7 @@ In addition, drinks may specify default flavors that should be represented using
 
 If all flavors are at their default values, the **Instructions** list should be empty. 
 
-Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Junior`. Changes to the **Size** attribute will not affect the **Instructions** attribute. 
+Each drink description will include a **Price** and number of **Calories** for each **Size**. The drinks will have a default size of `Junior`. Changes to the **Size** attribute will not affect the **Instructions** attribute. 
 
 ##### Candy Land Shake
 
