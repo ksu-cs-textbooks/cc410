@@ -2968,7 +2968,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/03-binding-events/video/</link>
       <pubDate>Thu, 20 Feb 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/03-binding-events/video/</guid>
-      <description>YouTube Video Resources Slides Video Script In this chapter, we&amp;rsquo;re going to learn about how we can use the concepts in the event-driven programming paradigm to update our GUI-based programs to respond to events. To begin, let&amp;rsquo;s look at what those events are and where they come from. When the user interacts with any GUI-based program, the operating system sends events back to our application based on what the user does.</description>
+      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to learn about how we can use the concepts in the event-driven programming paradigm to update our GUI-based programs to respond to events. To begin, let&amp;rsquo;s look at what those events are and where they come from. When the user interacts with any GUI-based program, the operating system sends events back to our application based on what the user does. There are many different types of events that the operating system can tell us about, as we&amp;rsquo;ll see shortly.</description>
     </item>
   </channel>
 </rss>
