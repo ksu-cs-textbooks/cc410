@@ -2968,7 +2968,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/10-python-tkinter/video/</link>
       <pubDate>Sat, 08 Feb 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/10-python-tkinter/video/</guid>
-      <description>Resources Slides Video Script In this video, we&amp;rsquo;ll learn how to create our first GUI using the Python tkinter GUI toolkit.
+      <description>YouTube Video Resources Slides Video Script In this video, we&amp;rsquo;ll learn how to create our first GUI using the Python tkinter GUI toolkit.
 First, a bit about tkinter. Python&amp;rsquo;s tkinter library is a warpper around the Tk GUI framework, which was first developed in the early 1990s. Tk, like many other GUI frameworks, allows the elements to change their look and feel to match the underlying operating system or a variety of themes.</description>
     </item>
   </channel>
