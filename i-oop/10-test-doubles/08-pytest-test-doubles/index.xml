@@ -1863,6 +1863,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2968,7 +2978,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/video/</link>
       <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/video/</guid>
-      <description>YouTube Video Resources Slides Video Script To use test doubles in Python, we&amp;rsquo;re going to rely on the built-in unittest.mock library. This is by far the easiest way to work with fake objects and method stubs in Python, and we don&amp;rsquo;t have to install anything else to use it. So, all we have to do is import a few parts of that library into our code. In most cases, we&amp;rsquo;re going to use the patch annotation, so that&amp;rsquo;s what we&amp;rsquo;ll import initially.</description>
+      <description>Resources Slides Video Script To use test doubles in Python, we&amp;rsquo;re going to rely on the built-in unittest.mock library. This is by far the easiest way to work with fake objects and method stubs in Python, and we don&amp;rsquo;t have to install anything else to use it. So, all we have to do is import a few parts of that library into our code. In most cases, we&amp;rsquo;re going to use the patch annotation, so that&amp;rsquo;s what we&amp;rsquo;ll import initially.</description>
     </item>
   </channel>
 </rss>

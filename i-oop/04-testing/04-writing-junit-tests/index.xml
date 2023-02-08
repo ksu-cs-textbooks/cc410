@@ -1863,6 +1863,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2968,7 +2978,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/04-writing-junit-tests/video/</link>
       <pubDate>Wed, 15 Jan 2020 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/04-testing/04-writing-junit-tests/video/</guid>
-      <description>YouTube Video Resources Slides Video Script For the Java programming language, we&amp;rsquo;re going to use the JUnit test framework to develop our unit tests. JUnit is one of the most popular unit test frameworks for Java today, and it is very easy to use. On this slide, we have a simple JUnit test that could be used to test the Square class we introduced in an earlier chapter. First, we have to import a few items from the JUnit library.</description>
+      <description>Resources Slides Video Script For the Java programming language, we&amp;rsquo;re going to use the JUnit test framework to develop our unit tests. JUnit is one of the most popular unit test frameworks for Java today, and it is very easy to use. On this slide, we have a simple JUnit test that could be used to test the Square class we introduced in an earlier chapter. First, we have to import a few items from the JUnit library.</description>
     </item>
   </channel>
 </rss>
