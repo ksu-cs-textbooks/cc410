@@ -50,7 +50,7 @@ interface IJumpable {
 }
 ```
 
-In some languages, it is common practice to preface Interface names with the character `I`. The `interface` declaration defines an **interface** - the shape of the messages that can be passed to an object implementing the interface - in the form of a method signature.  Note that this signature _does not include a body_, but instead ends in a semicolon (`;`)h.  An interface simply indicates the message to be sent, _not the behavior it will cause!_  We can specify as many methods in an `interface` declaration as we want.
+In some languages, it is common practice to preface Interface names with the character `I`. The `interface` declaration defines an **interface** - the shape of the messages that can be passed to an object implementing the interface - in the form of a method signature.  Note that this signature _does not include a body_, but instead ends in a semicolon (`;`).  An interface simply indicates the message to be sent, _not the behavior it will cause!_  We can specify as many methods in an `interface` declaration as we want.
 
 {{% notice note "Python Interfaces" %}}
 
