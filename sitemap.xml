@@ -4124,6 +4124,10 @@
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/06-gui-basics/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week06/</loc>
     <lastmod>2023-02-21T09:05:58-06:00</lastmod>
   </url>
@@ -4168,6 +4172,10 @@
     <lastmod>2022-07-08T13:34:06-05:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/07-event-driven-programming/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week07/</loc>
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
@@ -4204,6 +4212,10 @@
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/08-orders-combos/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/</loc>
     <lastmod>2021-08-24T15:17:57-05:00</lastmod>
   </url>
@@ -4218,6 +4230,10 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/iii-web/18-web-apis/</loc>
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/09-checkout/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week09/</loc>
@@ -4256,12 +4272,20 @@
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/10-website-basics/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/</loc>
     <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week11/</loc>
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/11-form-data/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week11/</loc>
@@ -4280,12 +4304,20 @@
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
   </url>
   <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/12-rest/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
+  </url>
+  <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/13-event-driven-programming/</loc>
     <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2022/week13/</loc>
     <lastmod>2023-01-12T15:55:18-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://ksu-cs-textbooks.github.io/cc410/y-milestones/13-validation-serialization/</loc>
+    <lastmod>2023-02-23T12:58:35-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2022/week14/</loc>
