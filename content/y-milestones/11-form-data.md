@@ -1,18 +1,16 @@
 ---
 title: "Form Data"
-pre: "9. "
-weight: 90
-date: 2021-04-05T00:53:26-05:00
-hidden: true
+pre: "11. "
+weight: 110
 ---
 
-This page lists the milestone requirements for **Milestone 9** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
+This page lists the milestone requirements for **Milestone 11** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
-The ninth milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.
+The eleventh milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.
 
 ## General Requirements
 
@@ -30,7 +28,7 @@ This milestone adds several pieces of functionality to your existing website, mo
 
 Your website should implement a simple search functionality via keywords, which allows the user to enter one or more words, separated by spaces, in a text input field, and then any menu items containing any of those keywords anywhere in the name of the item should be displayed on a results page. 
 
-You should also handle the case where keyword searches will return a combo if it contains an item that matches the search term. For example, a search for "wizard" should not only return that wrap, but also any combos that include that item. 
+You should also handle the case where keyword searches will return a combo if it contains an item that matches the search term. For example, a search for "chess" should not only return that entree, but also any combos that include that item. 
 
 Your search page should be accessible via the `search` route/URL. If you used a template layout that includes a search box, such as the [Bootstrap Sticky Footer with Navbar](https://getbootstrap.com/docs/4.6/examples/sticky-footer-navbar/), you may implement this search functionality using the search box in the default layout. Make sure that you specify the `action` of the form to point to the correct URL, since it will be available on all pages. The form should use the HTTP `POST` method.
 
@@ -40,7 +38,7 @@ You may choose to use the same template for both the search page and the results
 
 Your website should also implement an advanced search and filter feature. This page will allow the user to find menu items based on the following criteria:
 * Keywords (same as the simple search above)
-* Type (wrap, side, drink, combo)
+* Type (entree, side, drink, combo)
 * Price Range (minimum & maximum)
 * Calories Range (minimum & maximum)
 
@@ -57,7 +55,7 @@ The functions required to search and filter the menu should be implemented in th
 Some recommended functions you may wish to implement:
 
 * `filterKeywords(Iterable<Item> items, String keywords) - returns Iterable<Item>`
-* `filterTypes(Iterable<Item> items, boolean wrap, boolean side, boolean drink, boolean combo) - returns Iterable<Item>`
+* `filterTypes(Iterable<Item> items, boolean entree, boolean side, boolean drink, boolean combo) - returns Iterable<Item>`
   * Alternatively, you could call the appropriate existing methods to collect these types initially before filtering
 * `filterPrice(Iterable<Item> items, float min, float max) - returns Iterable<Item>`
 * `filterCalories(Iterable<Item> items, int min, int max) - returns Iterable<Item>`

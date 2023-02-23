@@ -1,18 +1,16 @@
 ---
 title: "Validation & Serialization"
-pre: "11. "
-weight: 110
-date: 2021-04-21T00:53:26-05:00
-hidden: true
+pre: "13. "
+weight: 130
 ---
 
-This page lists the milestone requirements for **Milestone 11** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
+This page lists the milestone requirements for **Milestone 13** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
-The eleventh milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.
+The thirteenth milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.
 
 ## General Requirements
 

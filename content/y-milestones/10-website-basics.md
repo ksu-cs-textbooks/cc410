@@ -1,18 +1,16 @@
 ---
 title: "Website Basics"
-pre: "8. "
-weight: 80
-date: 2021-03-24T00:53:26-05:00
-hidden: true
+pre: "10. "
+weight: 100
 ---
 
-This page lists the milestone requirements for **Milestone 8** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
+This page lists the milestone requirements for **Milestone 10** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
-The eighth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.
+The tenth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.
 
 ## General Requirements
 
@@ -41,11 +39,11 @@ Add a Web Framework to the existing project.
 
 ###### Web Code
 
-* Create a new `thatsawrap.web` package.
-* Create a `thatsawrap.web.MenuController` class to act as the controller. It should include the following routes:
+* Create a new `gamegrub.web` package.
+* Create a `gamegrub.web.MenuController` class to act as the controller. It should include the following routes:
   * `/` - a home page for the application.
   * `/about` - an about page with the text given at the bottom of the page. You may add additional text and items as desired
-  * `/menu` - a page that includes the entire menu (all predefined combos, wraps, sides, and drinks). 
+  * `/menu` - a page that includes the entire menu (all predefined combos, entrees, sides, and drinks). 
     * It should use the existing `Menu` class to collect these items. 
     * You may add additional methods (with requisite unit tests) to the `Menu` class as desired to make this work.
 * Update the required files to launch the web application properly as shown in the example video.
@@ -55,26 +53,26 @@ Add a Web Framework to the existing project.
 Create a base layout file including the following:
 
 * Valid HTML5 structure
-* A &lt;title&gt; element including the page name, followed by ` - That's a Wrap`
+* A &lt;title&gt; element including the page name, followed by ` - Game Grub`
 * A &lt;body&gt; containing:
   * &lt;nav&gt; that contains links to all pages in the application
   * &lt;main&gt; containing all the content in the page
-  * &lt;footer&gt; containing the following copyright notice: "&copy; 2021 That's a Wrap"
+  * &lt;footer&gt; containing the following copyright notice: "&copy; 2023 Game Grub"
 * It is recommended (but not required) to build upon an existing template. You may wish to review the [Bootstrap 4.6 Examples](https://getbootstrap.com/docs/4.6/examples/). 
 
 Create the following template files to match the routes listed above:
 
 * `index.html` contains an &lt;h1&gt; tag with the title "Homepage" and the following text in a paragraph (you may add additional text as desired):
 
-> Welcome to That's a Wrap! Our motto: be a star - wrap things your way!
+> Welcome to Game Grub! Our motto: play fair, eat well!
 
-* `about.html` contains an &lt;h1&gt; tag with the title "About That's a Wrap" and the following text in a paragraph (you may add additional text as desired):
+* `about.html` contains an &lt;h1&gt; tag with the title "About Game Grub" and the following text in a paragraph (you may add additional text as desired):
 
-> That's a Wrap was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
+> Game Grub was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
 
 * `menu.html` contains the following content:
   * an &lt;h1&gt; containing "Menu"
-  * an &lt;h2&gt; for each of the four categories of menu items (wrap, side, drink, combo)
+  * an &lt;h2&gt; for each of the four categories of menu items (entree, side, drink, combo)
   * Each menu item should be placed in a &lt;div&gt; with the class `menu-item`. It should include:
     * The name of the item
     * The price of the item
@@ -83,7 +81,7 @@ Create the following template files to match the routes listed above:
     * _If the item is a combo, you may also include the contents of the combo!_
   * You may use additional HTML elements & CSS style to improve the readability of this page as you see fit! As with the GUI project, this is your chance to explore a bit. 
     * The model solution uses the [Card](https://getbootstrap.com/docs/4.6/components/card/) component and [Row Columns](https://getbootstrap.com/docs/4.6/layout/grid/#row-columns) in Bootstrap 4.6. 
-  * Under the "Combo" heading, add a note that any wrap, sides, and drink may be combined for a combo discount, and print the current combo discount value as well. (_Hint: you'll have to send this through the controller to the template somehow..._)
+  * Under the "Combo" heading, add a note that any entree, sides, and drink may be combined for a combo discount, and print the current combo discount value as well. (_Hint: you'll have to send this through the controller to the template somehow..._)
 
 {{% notice tip %}}
 

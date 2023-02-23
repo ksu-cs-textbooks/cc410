@@ -1,20 +1,16 @@
 ---
 title: "GUI Basics"
-pre: "4. "
-weight: 50
-date: 2021-02-09T00:53:26-05:00
-hidden: true
+pre: "6. "
+weight: 60
 ---
 
-<!-- TODO ADD PANEL FACTORY SOMEWHERE! -->
-
-This page lists the milestone requirements for **Milestone 4** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
+This page lists the milestone requirements for **Milestone 6** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
-The fourth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.
+The sixth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.
 
 ## General Requirements
 
@@ -30,35 +26,35 @@ This milestone should include the following features:
 
 ###### New Packages
 
-* A `thatsawrap.gui` package to store all GUI code.
-* A `thatsawrap.gui.wraps` package to store all GUI panels for wraps.
-* A `thatsawrap.gui.sides` package to store all GUI panels for sides.
-* A `thatsawrap.gui.drinks` package to store all GUI panels for drinks.
+* A `gamegrub.gui` package to store all GUI code.
+* A `gamegrub.gui.entrees` package to store all GUI panels for entrees.
+* A `gamegrub.gui.sides` package to store all GUI panels for sides.
+* A `gamegrub.gui.drinks` package to store all GUI panels for drinks.
 
 ###### Main GUI Classes 
 
-* A `thatsawrap.Main` class that properly loads and displays the program's GUI.
-* A `thatsawrap.gui.PrimaryWindow` class that represents the main GUI window.
+* A `gamegrub.Main` class that properly loads and displays the program's GUI.
+* A `gamegrub.gui.PrimaryWindow` class that represents the main GUI window.
   * It should contain two panels - a **main panel** and a **sidebar panel**.
   * It should also contain **two methods**: one to load a particular panel into the main panel, and another to load the order screen into the main panel.
-* A `thatsawrap.gui.MenuPanel` class to represent the main ordering screen panel.
-  * It should contain **three panels of buttons**, one each for wraps, sides, and drinks. They may be automatically generated from the menu.
-  * Each wrap will be listed **once**, but each side and drink will have **three buttons** - one for each size.
+* A `gamegrub.gui.MenuPanel` class to represent the main ordering screen panel.
+  * It should contain **three panels of buttons**, one each for entrees, sides, and drinks. They may be automatically generated from the menu.
+  * Each entree will be listed **once**, but each side and drink will have **three buttons** - one for each size.
   * When clicked, those buttons should call a method to load the appropriate panel into the main panel to allow customization of the menu item. 
-* A `thatsawrap.gui.OrderPanel` class to represent the sidebar panel containing a user's order.
+* A `gamegrub.gui.OrderPanel` class to represent the sidebar panel containing a user's order.
   * It should contain labels for **order number, subtotal, tax, and total**. 
   * It should contain an **Edit** button that does nothing when clicked.
   * It should also include a **list box** as a placeholder that can be used to keep track of the order. The list box should expand to **fill all remaining vertical space** in the window.
 
 ###### Menu Item Panels
 
-* A panel class in the `thatsawrap.gui.wraps` package for each wrap.
-  * It should include appropriate controls for modifying the **ingredients, shell, and addins**.
-  * _You may want to include a parent `WrapPanel` class to reduce the amount of duplicate code._
-* A **SINGLE** panel class `SidePanel` in the `thatsawrap.gui.sides` package.
+* A panel class in the `gamegrub.gui.entrees` package for each entree.
+  * It should include appropriate controls for modifying the **ingredients, base, and toppings**.
+  * _You may want to include a parent `EntreePanel` class to reduce the amount of duplicate code._
+* A **SINGLE** panel class `SidePanel` in the `gamegrub.gui.sides` package.
   * It should include appropriate controls for modifying the **size** of the item.
   * _Since each side only has a single option, this panel will be generalized to work with the parent `Side` class instead of individual sides themselves. When the buttons on the menu are clicked, you'll need to make sure an instance of the correct menu item is created._
-* A panel class in the `thatsawrap.gui.drinks` package for each drink item.
+* A panel class in the `gamegrub.gui.drinks` package for each drink item.
   * It should include appropriate controls for modifying the **ingredients and size**.
   * _You may with include a parent `DrinkPanel` class to reduce the amount of duplicate code._
 
@@ -68,15 +64,15 @@ Each of the menu item panels should also implement the following functionality:
 
 ###### Documentation and Tests
 
-* Classes in the `thatsawrap.gui` package **do require** all appropriate documentation comments, and must be free of style errors. **Every method must include full documentation comments.**
-* Classes in the `thatsawrap.gui` package **do not require** unit tests.
-* Classes in the `thatsawrap.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
-* Create a **new UML diagram** that shows the structure of the `thatsawrap.gui` package and how all GUI classes are related. You should also show any links to the classes in the `thatsawrap.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `thatsawrap.data` packages.
-  * For example, you can show that the classes in the `thatsawrap.gui.wraps` package are all related to similar classes in the `thatsawrap.data.wraps` package without listing the individual classes in that package.
+* Classes in the `gamegrub.gui` package **do require** all appropriate documentation comments, and must be free of style errors. **Every method must include full documentation comments.**
+* Classes in the `gamegrub.gui` package **do not require** unit tests at this time.
+* Classes in the `gamegrub.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
+* Create a **new UML diagram** that shows the structure of the `gamegrub.gui` package and how all GUI classes are related. You should also show any links to the classes in the `gamegrub.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `gamegrub.data` packages.
+  * For example, you can show that the classes in the `gamegrub.gui.entrees` package are all related to similar classes in the `gamegrub.data.entrees` package without listing the individual classes in that package.
 
 ###### Other Instructions
 
-You are welcome to add additional methods to the existing content in the `thatsawrap.data` package. If so, make sure you include appropriate documentation, type checking and unit tests.
+You are welcome to add additional methods to the existing content in the `gamegrub.data` package. If so, make sure you include appropriate documentation, type checking and unit tests.
 
 See below for a few sketches of what your GUI might look like.
 
@@ -104,7 +100,7 @@ This assignment will be graded based on the rubric below:
 * `PrimaryWindow` class - 4%
 * `OrderPanel` class - 4%
 * `MenuPanel` class - 20%
-* Wrap Panel classes - 40%
+* Entree Panel classes - 40%
 * `SidePanel` class - 5%
 * Drink Panel classes - 15%
 * Updated UML diagram - 10%
@@ -144,7 +140,7 @@ _I chose to increase the default size of my GUI to 1024x740 pixels, as that made
 
 ![Main Window](/images/m4/410_m6_gui1.svg)
 
-##### Wrap Panel
+##### Entree Panel
 
 ![Main Window](/images/m4/410_m6_gui2.svg)
 
@@ -162,7 +158,7 @@ Here are a couple of helpful pieces of code that you may wish to use in your pro
 
 ##### Java
 
-In many cases, I found it easiest to create private or protected methods that will construct my `GridBagConstraints` objects, either within the class I was working in or in a parent class in the case of wrap and drink panels. Here's an example:
+In many cases, I found it easiest to create private or protected methods that will construct my `GridBagConstraints` objects, either within the class I was working in or in a parent class in the case of entree and drink panels. Here's an example:
 
 ```java
 /**

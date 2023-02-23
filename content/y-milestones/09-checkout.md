@@ -1,18 +1,16 @@
 ---
 title: "Checkout"
-pre: "7. "
-weight: 65
-date: 2021-03-06T00:53:26-05:00
-hidden: true
+pre: "9. "
+weight: 90
 ---
 
-This page lists the milestone requirements for **Milestone 7** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
+This page lists the milestone requirements for **Milestone 9** of the **CC 410 Restaurant Project**. Read the requirements carefully and discuss any questions with the instructors or TAs. 
 
 ## Purpose
 
 The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
-The seventh milestone involves finalizing the GUI for creating combos, and handling the steps to check out and pay for an order, including printing a receipt. The purpose is to continue to learn how to use and modify an existing GUI and interface with an external library. 
+The ninth milestone involves finalizing the GUI for creating orders and combos, and handling the steps to check out and pay for an order, including printing a receipt. The purpose is to continue to learn how to use and modify an existing GUI and interface with an external library. 
 
 {{% notice warning %}}
 
@@ -32,63 +30,9 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 ## Assignment Requirements
 
-It is best to think of this assignment as one consisting of two distinct parts.
+Implement the following features into your existing project.
 
-#### Part 1 - Update GUI Panels to Handle Combos
-
-Add updated buttons and panels to the GUI to facilitate creation and customization of combos created as part of the previous milestone. It should have the following features:
-
-* Users should be able to directly select one of the pre-built combos included in the previous milestone and add it to the order.
-* Users should be able to create a custom combo consisting of a wrap, side, and/or drink of their choice.
-  * You do not have to enforce the requirement that a combo contains all items to be added to the order. However, the combo should only get the discount if all items are populated. The existing `Combo` class should handle this as defined in the previous milestone.
-* Any wrap, side, or drink in the combo should also be customizable.
-* Some of the code in the `OrderPanel` class will need to be updated to properly handle combos.
-  * Combos should be displayed with the title "Combo" as the topmost element in the tree. 
-  * The name of the combo should be the first child node, if set. If not set, a default name may be used.
-  * If the combo is eligible for the discount, that message should be displayed as the second child node of the combo.(Hint: both of these are present in the instructions list returned from the combo class!)
-  * Each item in the combo should be displayed below the combo name and discount message as a child node.
-  * The instructions for each item in the combo should be displayed as child nodes of the appropriate item.
-* In effect, combos will have 3 levels in the tree instead of the usual 2 for other order items.
-*   This means that some of the logic for handling item selection and updates will need to be carefully updated. 
-  * You may choose to simply write special cases for handling combos instead of generalizing or using recursion (the tree will be limited to 3 levels of depth, not including the single hidden root node).
-* Any new functionality should not interfere with previous functionality. This means:
-  * All individual wraps, sides, and drinks can be added to the order and customized.
-  * Any items in the order can be selected and edited.
-    * If an item is part of a combo, you may choose to load the screen for editing the entire combo instead of the item selected - this is up to you!
-
-###### Hints for Part 1
-
-At the bottom of this page is a GUI sketch of one possible way to build a screen for customizing a combo. It is designed to reuse the existing panels for each menu item. We will refer to this class as `ComboPanel` in this document. In your implementation, you are encouraged to reuse existing code whenever possible - try to stick to the [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle. Some hints for this particular implementation:
-
-* Instead of each panel using the `PrimaryWindow` class/type as its parent, we can abstract that to a `ParentPanel` interface that is implemented by both the `PrimaryWindow` class and `ComboPanel`. This allows the existing order item panels to use the new `ComboPanel` as its parent. 
-* Use combo boxes to allow users to select from existing items to add to the combo. Add a listener/event handler for when the combobox is changed, and use that to change the panel for that item.
-* Include a default option representing "no selection" in the combo boxes to allow users to clear out a particular option. 
-* Recall that the panels for each menu item will call a method in the parent panel when the item is saved. This can be used to retrieve the updated item from the panel when the "Save" button is clicked in the combo customization panel. Here's the basic order of events:
-  1. Click "Save" in `ComboPanel`
-  2. Fire "save" event in item panel
-  3. Receive item from panel via the panel calling the save method in its parent (which is now `ComboPanel` instead of `PrimaryWindow`)
-  4. Update the combo order item
-  5. Call the save method in the `PrimaryWindow` to add the item to the order.
-* You may choose to add additional getters to the classes in the `data` package as desired.
-* In Python, you may have a circular reference in your `PanelFactory` since it could be used from within `ComboPanel`, but also will be used to create instances of `ComboPanel`. A way to resolve this would be to create a `ComboPanelFactory` to handle combos, and adapt the code where `PanelFactory` is used to direct combo instances to the new `ComboPanelFactory` instead.
-
-###### Documentation Comments
-
-All new and updated classes in this milestone should contain full documentation comments. **All methods must be fully documented!**
-
-###### Unit Tests
-
-Your new GUI panel(s) should include some basic **unit tests** modeled after the tests used for the item panels. Specifically, you should test the following:
-
-* Selecting a particular wrap, side, or drink in the appropriate GUI element causes a panel of the correct type to be loaded.
-* Receiving a combo as input containing a particular wrap, side, or drink causes the panel of the correct type to be loaded.
-* Selecting a particular wrap, side, or drink to be included in the combo via the GUI causes an item of that type to be added to the resulting `Combo` object when it is saved.
-* Selecting the "no selection" option will remove that item from an existing `Combo` object when it is saved.
-* Cancelling will result in no changes being made to the `Combo` object.
-
-You should use test doubles (stubs, fakes, or mocks) in these unit tests to mimic the other parts of the application, including the order items and associated panels. The goal is to only test the new GUI panel(s) in isolation. This may not be possible in Python due to issues with mocking classes from `tkinter`.
-
-#### Part 2 - Checkout
+#### Checkout
 
 Implement the functionality for a user to checkout and complete an order. This process will make use of an external library to handle credit cards, cash transactions, and printing a receipt. First, you'll need to install the `register` library into your application:
 
@@ -235,17 +179,11 @@ _A rough estimate for this milestone would be around 1500-2000 lines of new or u
 
 This assignment will be graded based on the rubric below:
 
-* Part 1 - 50%
-  * Combo Buttons on Menu Panel - 5%
-  * Combo Interface for selecting/editing items - 25%
-  * Sidebar Handles Combos - 10%
-  * Unit Tests - 10%
-* Part 2 - 50%
-  * Credit Card - 5%
-  * Cash Interface - 5%
-  * Makes Change - 15%
-  * Prints Receipt - 15%
-  * Unit Tests - 10%
+* Credit Card - 10%
+* Cash Interface - 10%
+* Makes Change - 30%
+* Prints Receipt - 30%
+* Unit Tests - 20%
 
 The following deductions apply:
 
@@ -261,15 +199,6 @@ Submit this assignment by creating a release on GitHub and uploading the release
 ---
 ---
 
-#### Sample Combo Customization GUI
-
-![Combo Window](/images/m7/410_m7_gui.svg)
-
-{{% notice tip %}}
-
-Note that the window above only has a single side option, but the combo for this project requires two sides. So, you may have to adapt this layout to work in this case.
-
-{{% /notice %}}
 
 #### Sample Cash Transaction GUI
 
