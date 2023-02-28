@@ -2993,13 +2993,5 @@
     <description>Recent content in Language Evolution on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/04-evolution/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Language Evolution</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/04-evolution/video/</link>
-      <pubDate>Mon, 28 Dec 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/04-evolution/video/</guid>
-      <description>YouTube Video Resources Slides Video Script To understand how programming languages have evolved over the years, let&amp;rsquo;s look at a few examples. On this slide is a small snippet of Fortran code from the EPIC model that is linked in the textbook. Take a minute to look through the code and see if you can determine what it does.
-It&amp;rsquo;s really difficult code to read, isn&amp;rsquo;t it? We might recognize a few of the keywords like &amp;ldquo;do&amp;rdquo; and &amp;ldquo;if&amp;rdquo; but for the most part the variables don&amp;rsquo;t mean anything at all.</description>
-    </item>
   </channel>
 </rss>
