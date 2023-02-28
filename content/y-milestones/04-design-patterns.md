@@ -102,7 +102,7 @@ You don't have to create individual classes for the builder pattern in the `Comb
 * It should have one public **static** method **get next order number** that will return the next order number. 
   * This method should call a private **get instance** method to get the actual singleton instance stored as a static attribute in the class. 
   * It should access the **next order number** attribute through that singleton instance.
-  * This method should also use thread synchronization techniques to ensure that only a single thread can actually access and update the **next order number** attribute (a `synchronized` statement in Java or a lock in a `with` statement in Python).
+  <!--* This method should also use thread synchronization techniques to ensure that only a single thread can actually access and update the **next order number** attribute (a `synchronized` statement in Java or a lock in a `with` statement in Python).-->
 
 #### Updated Classes
 
