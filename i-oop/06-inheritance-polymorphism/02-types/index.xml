@@ -1893,6 +1893,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -2993,12 +3003,5 @@
     <description>Recent content in Types on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/02-types/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Data Types</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/02-types/video/</link>
-      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/02-types/video/</guid>
-      <description>Resources Slides Video Script In this chapter, we&amp;rsquo;re going to cover inheritance and polymorphism in object-oriented programming languages. This is a topic that comes up many times, and you may have already learned about it in the past. In this course, we&amp;rsquo;re going to dive a bit deeper into how it works and some of the theory behind it. Before we can do that, we should spend a little time talking about data types and how that relates to inheritance.</description>
-    </item>
   </channel>
 </rss>
