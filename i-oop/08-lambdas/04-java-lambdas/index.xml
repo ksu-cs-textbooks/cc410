@@ -3003,5 +3003,12 @@
     <description>Recent content in Java Lambdas on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/04-java-lambdas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Lambdas</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/04-java-lambdas/video/</link>
+      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/04-java-lambdas/video/</guid>
+      <description>YouTube Video Resources Slides Video Script Lambda expressions in Java are quite simple. We start with a list of parameters in parentheses. These parameters only include a name, but don&amp;rsquo;t have any types associated with them. Following that, we have an arrow symbol, and then a statement or block of statements in curly braces that explain the value to be returned by the lambda expression. In this case, the lambda will return the sum of the parameters x and y.</description>
+    </item>
   </channel>
 </rss>
