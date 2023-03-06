@@ -35,7 +35,7 @@ Instead, we can use the builder pattern. Let's look a how this could work.
 
 First, we'll assume that we have a very simple `Card` class, consisting of three attributes:
 
-* `SuitOrColor` - the suit or color of the card. We'll use a special color for cards that aren't associate with a group of other carsd
+* `SuitOrColor` - the suit or color of the card. We'll use a special color for cards that aren't associate with a group of other cards
 * `NumberOrName` - the number or name of the card
 * `Rank` - the sorting rank of the card (lowest = 1). 
 
