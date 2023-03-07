@@ -1903,6 +1903,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3009,8 +3019,7 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/02-processes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/02-processes/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 First, let&amp;rsquo;s review how modern computers actually handle running multiple applications at once, and what that means for our own programs.
 Process 1
 When a program is executed on a computer, the operating system loads its code into memory and creates a process to handle running that program. A process is simply an instance of a computer program that is running, just like an object is an instance of a class.</description>
@@ -3020,8 +3029,7 @@ When a program is executed on a computer, the operating system loads its code in
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/04-creating-threads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/04-creating-threads/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Now that we&amp;rsquo;ve learned about threads, let&amp;rsquo;s discuss how we can work with them in our programs. Writing a multithreaded program can be significantly more difficult than a single threaded program, but with the extra difficulty comes the ability to write programs that are much more flexible and powerful.
 Creating a Thread Creating a thread is very simple in many modern programming languages. Both Java and Python include libraries for dealing with threads, and to create a new thread, each one simply requires some sort of function or method to serve as the starting point for the new thread.</description>
     </item>
@@ -3030,8 +3038,7 @@ Creating a Thread Creating a thread is very simple in many modern programming la
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/05-race-conditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/05-race-conditions/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Unfortunately, the big takeaways we saw on the previous page have very important consequences for our multithreaded programs. One of the most common errors, and also one of the notoriously most difficult errors to debug, is a race condition.
 Race Condition A race condition occurs when two threads in a program are trying to update the same value at the same time. If the operating system decides to interrupt one thread at just the wrong time, then a race condition occurs and the value could be given an incorrect value.</description>
     </item>
@@ -3040,8 +3047,7 @@ Race Condition A race condition occurs when two threads in a program are trying 
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/06-thread-synchronization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/06-thread-synchronization/</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 To deal with race conditions, we have to somehow synchronize our threads so that only one is able to update the value of a shared variable at once. There are many ways to do this, and they all fit under the banner of thread synchronization.
 Locks The simplest way to do this is via a special programming construct called a lock. A lock can be thought of as a single object in memory that, when a thread has acquired the lock, it can access the shared memory protected by the lock.</description>
     </item>
