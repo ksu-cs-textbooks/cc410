@@ -1933,6 +1933,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3033,5 +3043,12 @@
     <description>Recent content in Python Docstrings on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/06-docstrings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docstrings</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/06-docstrings/video/</link>
+      <pubDate>Tue, 14 Jan 2020 00:53:26 -0500</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/06-docstrings/video/</guid>
+      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s look at what it takes to create a Python docstring comment for our classes and methods. Each docstring comment can be broken into three basic parts. First is the summary line, which is the first whole sentence in the comment, usually ending with a period. This line gives a short overview of what the class, method, or file represents or is used for.</description>
+    </item>
   </channel>
 </rss>
