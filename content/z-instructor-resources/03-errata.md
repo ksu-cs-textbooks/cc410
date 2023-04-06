@@ -43,3 +43,13 @@ In the meantime, you can fix this by adding the following information to your re
 # https://github.com/lordmauve/flake8-html/pull/24
 jinja2==3.0.*
 ```
+
+### Testing with Tox - 2023-03-29
+
+Running tests that include a graphical interface via Tox may cause issues with x11 permissions.
+
+This can be resolved by installing this PyTest plugin: https://github.com/The-Compiler/pytest-xvfb
+
+Documentation has not been updated to note this.
+
+<!-- TODO Update Documentation  -->
