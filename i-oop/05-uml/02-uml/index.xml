@@ -1943,6 +1943,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3043,12 +3053,5 @@
     <description>Recent content in UML on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/02-uml/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Overview</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/02-uml/video/</link>
-      <pubDate>Wed, 15 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/02-uml/video/</guid>
-      <description>YouTube Video Resources Slides Video Script In this chapter, we&amp;rsquo;re going to discuss the Unified Modeling Language, or UML. UML gives us a standard way that we can represent the structure and behavior of a software system in a set of easy to understand diagrams. Because UML is somewhat standardized in the industry, it makes it easy for a developer to review documentation on any project, even if it is one they haven&amp;rsquo;t seen before.</description>
-    </item>
   </channel>
 </rss>

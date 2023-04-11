@@ -1943,6 +1943,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3122,12 +3132,12 @@
       <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week 11 Announcements video for CC 410 in spring 2023. My apologies for being a little bit behind this week, but I&amp;rsquo;m going to get this video out on Thursday. This week, you&amp;rsquo;re going to be looking at releases, we&amp;rsquo;re going to talk a little bit about how we can actually build a releasable version of our project. So we&amp;rsquo;ll do a quick example around that.</description>
     </item>
     <item>
-      <title>Previous Semesters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/</link>
+      <title>Spring &#39;23 Week 12</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/</guid>
-      <description>Previous Semesters
-Spring 2021 Spring &amp;#39;21 Week 1 Spring &amp;#39;21 Week 2 Spring &amp;#39;21 Week 3 Spring &amp;#39;21 Week 4 Spring &amp;#39;21 Week 5 Update to Example 5 Python Spring &amp;#39;21 Week 6 Spring &amp;#39;21 Week 7 Spring &amp;#39;21 Week 8 Spring &amp;#39;21 Week 9 Spring &amp;#39;21 Week 10 Spring &amp;#39;21 Week 11 Spring &amp;#39;21 Week 12 Spring &amp;#39;21 Week 13 Spring &amp;#39;21 Week 14 Spring &amp;#39;21 Week 15 Fall 2021 CC 310 &amp;amp; 315 Cover Fall &amp;#39;21 Week 1 Fall &amp;#39;21 Week 2 Fall &amp;#39;21 Week 3 Fall &amp;#39;21 Week 4 Fall &amp;#39;21 Week 5 Update to Example 5 Python Fall &amp;#39;21 Week 6 Fall &amp;#39;21 Week 9 Fall &amp;#39;21 Week 10 Fall &amp;#39;21 Week 12 </description>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week12/</guid>
+      <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week 12 Announcements video for CC 410 in spring 2023. This week, we&amp;rsquo;re going to shift gears a little bit and start working on a web graphical user interface instead of a traditional desktop user interface.
+So we&amp;rsquo;re going to start working with data driven websites. Mainly, we&amp;rsquo;ll show you how to install a website framework into our existing projects and how to configure that.</description>
     </item>
   </channel>
 </rss>
