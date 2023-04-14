@@ -2,7 +2,6 @@
 title: "Web Basics"
 pre: "11. "
 weight: 110
-hidden: true
 ---
 
 In this example project, we'll explore taking an existing project and integrating a lightweight web framework into it. In that way, we can use our existing code base within a web application and use it to generate dynamic web pages.

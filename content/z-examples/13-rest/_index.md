@@ -2,7 +2,7 @@
 title: "REST"
 pre: "13. "
 weight: 130
-hidden: true
+
 ---
 
 In this example project, we'll add the ability to update and delete movies in our website using a RESTful architectural style.
