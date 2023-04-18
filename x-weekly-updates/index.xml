@@ -1953,6 +1953,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3140,12 +3150,11 @@
 So we&amp;rsquo;re going to start working with data driven websites. Mainly, we&amp;rsquo;ll show you how to install a website framework into our existing projects and how to configure that.</description>
     </item>
     <item>
-      <title>Previous Semesters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/</link>
+      <title>Spring `23 Week 13</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/</guid>
-      <description>Previous Semesters
-Spring 2021 Spring &amp;#39;21 Week 1 Spring &amp;#39;21 Week 2 Spring &amp;#39;21 Week 3 Spring &amp;#39;21 Week 4 Spring &amp;#39;21 Week 5 Update to Example 5 Python Spring &amp;#39;21 Week 6 Spring &amp;#39;21 Week 7 Spring &amp;#39;21 Week 8 Spring &amp;#39;21 Week 9 Spring &amp;#39;21 Week 10 Spring &amp;#39;21 Week 11 Spring &amp;#39;21 Week 12 Spring &amp;#39;21 Week 13 Spring &amp;#39;21 Week 14 Spring &amp;#39;21 Week 15 Fall 2021 CC 310 &amp;amp; 315 Cover Fall &amp;#39;21 Week 1 Fall &amp;#39;21 Week 2 Fall &amp;#39;21 Week 3 Fall &amp;#39;21 Week 4 Fall &amp;#39;21 Week 5 Update to Example 5 Python Fall &amp;#39;21 Week 6 Fall &amp;#39;21 Week 9 Fall &amp;#39;21 Week 10 Fall &amp;#39;21 Week 12 </description>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week13/</guid>
+      <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week 13 Announcements video for CC 410 In spring 2023. This week, you should continue working on the milestones around adding a web interface to your project. This week, we&amp;rsquo;re going to deal with rest, which is a really important concept in web interfaces. And you&amp;rsquo;ll also learn how to create some forms and deal with form data. And then that all comes together to the restaurant project where you&amp;rsquo;re going to add a form where you can create a custom item and add it to your restaurants menu.</description>
     </item>
   </channel>
 </rss>
