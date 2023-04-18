@@ -211,7 +211,7 @@ Each drink panel test class should contain unit tests for the following:
   * For each size, verify that if the existing item is that size, the size combo box is set correctly.
   * For each ingredient, verify that if the existing item does or does not include that ingredient, the corresponding checkbox is set correctly.
 * Fire the "save" event after changing GUI elements:
-  * For each base, verify that if that base is selected in the base combo box, the saved item now has the correct base value.
+  * For each size, verify that if the existing item is that size, the size combo box is set correctly.
   * For each ingredient, verify that if that ingredient is or is not selected, the saved item now has the correct value for that ingredient.
 * Fire the "cancel" event after changing GUI elements:
   * Instantiate a panel with an existing item, change several values in the GUI, and fire a "cancel" action, then assert that the item is unchanged from its previous state.
