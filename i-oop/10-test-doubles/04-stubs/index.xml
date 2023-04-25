@@ -1963,6 +1963,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3063,12 +3073,5 @@
     <description>Recent content in Stubs on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/04-stubs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Stubs, Fakes, &amp; Mocks</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/04-stubs/video/</link>
-      <pubDate>Fri, 28 Feb 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/10-test-doubles/04-stubs/video/</guid>
-      <description>YouTube Video Resources Slides Video Script Next, let&amp;rsquo;s review the three basic types of test doubles that we&amp;rsquo;ll work with in this chapter. However, before we do that, a quick note on terminology. In this chapter, and throughout this course, I&amp;rsquo;ll try to do my best to use consistent terms for these three items, However, in practice and in industry, these terms are used very loosely and interchangeably. In fact, it seems like there are just as many discussions online pertaining to the use and definition of these terms as there are discussion of how to actually use them properly.</description>
-    </item>
   </channel>
 </rss>
