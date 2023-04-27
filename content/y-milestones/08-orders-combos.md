@@ -103,7 +103,7 @@ There will also be several updates to existing classes.
 
 `OrderPanel` - update to include the following items:
 * When clicking the **Edit** button, it should use the `PanelFactory` class to acquire the appropriate GUI panel based on the item selected in the tree. 
-* This class should now include a private **order** attribute that stores the items in the in the sidebar in an `Order` instance as well. 
+* This class should now include a private **order** attribute that stores the items in the sidebar in an `Order` instance as well. 
   * It should be instantiated by the `OrderPanel` constructor.
   * It should be kept up to date as items are added to and removed from the order in the sidebar.
   * Whenever the order is changed, it should be used to update the order number, subtotal, tax, and total elements in the GUI. Prices should be properly formatted as currency values. 
