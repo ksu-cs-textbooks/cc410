@@ -1973,6 +1973,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3073,12 +3083,5 @@
     <description>Recent content in Java Interfaces on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java Inheritance</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/video/</link>
-      <pubDate>Sat, 25 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/video/</guid>
-      <description>Resources Slides Video Script Let&amp;rsquo;s review inheritance in the Java programming language. First, we&amp;rsquo;ll look at interfaces. In Java, an interface is as special type of class, so we&amp;rsquo;ll use the interface keyword instead of the class keyword when declaring it. Inside of the interface, we typically only include methods that we want to be part of the interface. Any methods included in the interface are automatically public and abstract so we don&amp;rsquo;t have to include those modifiers on your methods.</description>
-    </item>
   </channel>
 </rss>
