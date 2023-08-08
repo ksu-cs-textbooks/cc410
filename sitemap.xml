@@ -3183,7 +3183,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/00-new-project/</loc>
-    <lastmod>2023-01-19T12:53:46-06:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/01-welcome/</loc>
@@ -3315,7 +3315,7 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/</loc>
-    <lastmod>2022-07-08T13:34:06-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/02-lambda-calculus/</loc>
@@ -3531,27 +3531,27 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/02-oop/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/03-unit-testing/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/04-inheritance/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/05-debugging-logging/02-java/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/06-design-patterns/02-java/</loc>
-    <lastmod>2023-01-19T16:41:33-06:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/07-test-doubles/02-java/</loc>
-    <lastmod>2023-01-19T16:41:33-06:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/07a-parallel-programming/02-java/</loc>
@@ -3559,31 +3559,31 @@
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/07b-event-driven-programming/02-java/</loc>
-    <lastmod>2021-09-08T15:44:37-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/08-gui-basics/02-java/</loc>
-    <lastmod>2023-01-19T16:41:33-06:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/09-libraries/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/10-releases/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/11-web-basics/02-java/</loc>
-    <lastmod>2022-02-09T09:32:57-06:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/z-examples/14-form-validation/02-java/</loc>
-    <lastmod>2021-09-08T16:48:27-05:00</lastmod>
+    <lastmod>2023-08-08T10:41:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/</loc>
@@ -4008,10 +4008,6 @@
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/i-oop/08-lambdas/</loc>
     <lastmod>2021-08-20T16:38:27-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://ksu-cs-textbooks.github.io/cc410/00-introduction/04-what-youll-learn/</loc>
-    <lastmod>2022-02-07T19:52:06-06:00</lastmod>
   </url>
   <url>
     <loc>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/08-accessing-codio/</loc>

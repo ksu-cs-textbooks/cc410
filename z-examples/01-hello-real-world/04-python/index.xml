@@ -3088,14 +3088,16 @@
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/</guid>
-      <description>Prior to this course, most of our Python projects consisted of a few source files, all contained in the same directory. However, as projects get larger, it can be very difficult to keep track of all the various source code files. In addition, we&amp;rsquo;ll want to keep our source code separate from other files, such as unit tests and the output from various tools we use. So, let&amp;rsquo;s look at how we can create a more professional structure for our Python &amp;ldquo;Hello Real World&amp;rdquo; project.</description>
+      <description>YouTube Video
+Prior to this course, most of our Python projects consisted of a few source files, all contained in the same directory. However, as projects get larger, it can be very difficult to keep track of all the various source code files. In addition, we&amp;rsquo;ll want to keep our source code separate from other files, such as unit tests and the output from various tools we use. So, let&amp;rsquo;s look at how we can create a more professional structure for our Python &amp;ldquo;Hello Real World&amp;rdquo; project.</description>
     </item>
     <item>
       <title>Write Hello World</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/</guid>
-      <description>Now that we&amp;rsquo;ve created a package for our code, let&amp;rsquo;s write the code for our &amp;ldquo;Hello Real World&amp;rdquo; application. Traditionally, a Python &amp;ldquo;Hello World&amp;rdquo; program is a single line of code, but for this example we&amp;rsquo;ll follow all of the object-oriented standards by creating a class and a method.
+      <description>YouTube Video
+Now that we&amp;rsquo;ve created a package for our code, let&amp;rsquo;s write the code for our &amp;ldquo;Hello Real World&amp;rdquo; application. Traditionally, a Python &amp;ldquo;Hello World&amp;rdquo; program is a single line of code, but for this example we&amp;rsquo;ll follow all of the object-oriented standards by creating a class and a method.
 Create a Class First, we need to create a source code file for our application. We&amp;rsquo;ll place this code inside of the src/hello package we&amp;rsquo;ve already created.</description>
     </item>
     <item>
@@ -3103,7 +3105,8 @@ Create a Class First, we need to create a source code file for our application. 
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/</guid>
-      <description>tl;dr If you are familiar with using Git, here is the short version:
+      <description>YouTube Video
+tl;dr If you are familiar with using Git, here is the short version:
 git status git add . # check that the correct files are added git status # update the commit message below git commit -m &amp;#34;Commit Message Here&amp;#34; git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.
 At this point, we&amp;rsquo;ve written some code for our application.</description>
     </item>
@@ -3112,7 +3115,8 @@ At this point, we&amp;rsquo;ve written some code for our application.</descripti
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/04-unit-tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/04-unit-tests/</guid>
-      <description>At this point, we&amp;rsquo;ve written the basic code for our &amp;ldquo;Hello World&amp;rdquo; program. However, how can we automatically verify that the source code works properly? To do that, we&amp;rsquo;ll need to create some unit tests that verify our code.
+      <description>YouTube Video
+At this point, we&amp;rsquo;ve written the basic code for our &amp;ldquo;Hello World&amp;rdquo; program. However, how can we automatically verify that the source code works properly? To do that, we&amp;rsquo;ll need to create some unit tests that verify our code.
 pytest There are many different libraries that can be used to create unit tests for Python. Python itself includes a package called unittest that can serve this purpose. However, many Python developers choose to use an external application called pytest for unit testing.</description>
     </item>
     <item>
@@ -3120,7 +3124,8 @@ pytest There are many different libraries that can be used to create unit tests 
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/</guid>
-      <description>Working with Python on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we&amp;rsquo;re going to use one such tool, called tox.
+      <description>YouTube Video
+Working with Python on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we&amp;rsquo;re going to use one such tool, called tox.
 Tox tox is a tool that is developed to help automate and standardize the process of testing applications written in Python. It vastly simplifies many of the steps we&amp;rsquo;d have to follow to do this in our own project.</description>
     </item>
     <item>
@@ -3128,7 +3133,8 @@ Tox tox is a tool that is developed to help automate and standardize the process
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/</guid>
-      <description>We&amp;rsquo;ve now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the code coverage of our unit tests.
+      <description>YouTube Video
+We&amp;rsquo;ve now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the code coverage of our unit tests.
 Install Coverage.py Thankfully, there are many easy to use tools that will compute the code coverage of a set of tests.</description>
     </item>
     <item>
@@ -3136,7 +3142,8 @@ Install Coverage.py Thankfully, there are many easy to use tools that will compu
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/07-documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/07-documentation/</guid>
-      <description>The next step in writing good code is adding proper documentation and comments to describe the code and what it does. By writing good documentation, we can pass on helpful information to other developers who need to maintain this code, including our future selves!
+      <description>YouTube Video
+The next step in writing good code is adding proper documentation and comments to describe the code and what it does. By writing good documentation, we can pass on helpful information to other developers who need to maintain this code, including our future selves!
 Python Docstrings Unlike most other programming languages, which specify that documentation for classes and functions should be in a large comment above the class or function, Python uses a different documentation structure known as docstrings.</description>
     </item>
     <item>
@@ -3144,7 +3151,8 @@ Python Docstrings Unlike most other programming languages, which specify that do
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/08-flake8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/08-flake8/</guid>
-      <description>Finally, we&amp;rsquo;re at the point that we&amp;rsquo;ve written our application, a couple of unit tests, verified that the unit tests achieve a high level of code coverage, and we&amp;rsquo;ve written helpful documentation comments in our code. That&amp;rsquo;s a lot of content we&amp;rsquo;ve written, especially in our source code files. Now let&amp;rsquo;s see how good our coding style is by checking it using a linter.
+      <description>YouTube Video
+Finally, we&amp;rsquo;re at the point that we&amp;rsquo;ve written our application, a couple of unit tests, verified that the unit tests achieve a high level of code coverage, and we&amp;rsquo;ve written helpful documentation comments in our code. That&amp;rsquo;s a lot of content we&amp;rsquo;ve written, especially in our source code files. Now let&amp;rsquo;s see how good our coding style is by checking it using a linter.
 Flake8 There are many different tools that can be used to check the style of source code.</description>
     </item>
     <item>
@@ -3152,7 +3160,8 @@ Flake8 There are many different tools that can be used to check the style of sou
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/</guid>
-      <description>One of the major selling points of Python is that it is dynamically typed. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.
+      <description>YouTube Video
+One of the major selling points of Python is that it is dynamically typed. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.
 While this can make development seem quick and easy, it can also cause programmers to make mistakes related to the handling of various data types that wouldn&amp;rsquo;t be present in statically typed languages such as Java, C++, or C#.</description>
     </item>
     <item>
@@ -3160,7 +3169,8 @@ While this can make development seem quick and easy, it can also cause programme
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/</guid>
-      <description>Let&amp;rsquo;s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop.</description>
+      <description>YouTube Video
+Let&amp;rsquo;s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop.</description>
     </item>
   </channel>
 </rss>
