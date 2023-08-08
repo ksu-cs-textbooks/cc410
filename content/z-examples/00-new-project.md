@@ -21,7 +21,7 @@ curl -s "https://get.sdkman.io" | bash
 3. Close and Reopen Terminal
 4. Install Gradle
 ```bash
-sdk install gradle
+sdk install gradle 7.6
 ```
 5. Change directory to `java` folder:
 ```bash
@@ -120,7 +120,7 @@ curl -s "https://get.sdkman.io" | bash
 3. Close and Reopen Terminal
 4. Install Gradle
 ```bash
-sdk install gradle
+sdk install gradle 7.6
 ```
 5. Change directory to `java` folder:
 ```bash

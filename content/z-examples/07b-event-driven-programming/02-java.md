@@ -52,7 +52,7 @@ curl -s "https://get.sdkman.io" | bash
 4. Install Gradle
 
 ```bash
-sdk install gradle
+sdk install gradle 7.6
 ```
 
 5. Compile, Run & Test Existing Project

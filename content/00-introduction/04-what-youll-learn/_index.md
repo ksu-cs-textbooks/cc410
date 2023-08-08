@@ -2,6 +2,7 @@
 title: "What You'll Learn"
 pre: "4. "
 weight: 40
+hidden: true
 date: 2018-08-24T10:53:26-05:00
 ---
 

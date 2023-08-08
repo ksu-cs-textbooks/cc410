@@ -18,7 +18,7 @@ java -version
 # Install SDKMAN!
 curl -s "https://get.sdkman.io" | bash
 # Install Gradle
-sdk install gradle
+sdk install gradle 7.6
 ```
 
 {{% /notice %}}
@@ -115,7 +115,7 @@ sudo apt update && sudo apt install zip unzip curl sed
 Once SDKMAN! is installed, we can use it to install Gradle using this command:
 
 ```bash
-sdk install gradle
+sdk install gradle 7.6
 ```
 
 After that command executes, you should get a message similar to the following:
