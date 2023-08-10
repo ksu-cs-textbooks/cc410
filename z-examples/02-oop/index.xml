@@ -3097,8 +3097,7 @@ General Requirements Warning The first couple of milestones only require a subse
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/02-oop/02-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/02-oop/02-java/index.html</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; java Install SDKMAN Instructions
 curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal to load SDK Man Install Gradle sdk install gradle 7.6 Compile, Run &amp;amp; Test Existing Project cd java gradle run gradle test gradle check gradle javadoc Confirm that project runs, all unit tests pass with 100% coverage, no style errors, and Javadoc generates properly.</description>
     </item>
@@ -3107,8 +3106,7 @@ curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/02-oop/02-python/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/02-oop/02-python/index.html</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp;amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass with 100% coverage, no style errors, no type errors, and documentation generates properly.
 Create New Packages, Classes, and Enums.</description>
     </item>

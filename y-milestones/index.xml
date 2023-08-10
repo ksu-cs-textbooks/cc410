@@ -3216,13 +3216,5 @@ The twelfth milestone involves building a RESTful web application that could be 
 Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The thirteenth milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.</description>
     </item>
-    <item>
-      <title>Previous Semesters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/old/index.html</guid>
-      <description>Previous Semesters
-Spring &amp;amp; Summer 2021 Final Project Hello Real World Restaurant Classes Documentation &amp;amp; Testing Inheritance GUI Basics Event-Driven Programming Orders &amp;amp; Combos Checkout Website Basics Form Data RESTful Architecture Validation &amp;amp; Serialization Fall 2021 Final Project Hello Real World Restaurant Classes Documentation &amp;amp; Testing Inheritance GUI Basics Event-Driven Programming Orders &amp;amp; Combos Checkout Website Basics Form Data RESTful Architecture Validation &amp;amp; Serialization Fall 2022 Final Project Hello Real World Restaurant Classes Documentation &amp;amp; Testing Inheritance GUI Basics Event-Driven Programming Orders &amp;amp; Combos Checkout Website Basics Form Data RESTful Architecture Validation &amp;amp; Serialization </description>
-    </item>
   </channel>
 </rss>

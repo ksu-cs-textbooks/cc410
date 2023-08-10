@@ -3083,12 +3083,5 @@
     <description>Recent content in Classes on CC 410 Textbook</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/05-classes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Class Diagrams</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/05-classes/video/index.html</link>
-      <pubDate>Wed, 15 Jan 2020 00:53:26 -0500</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/05-uml/05-classes/video/index.html</guid>
-      <description>YouTube Video Resources Slides Video Script Let&amp;rsquo;s dive into UML class diagrams a bit. First, we can talk about the basic building block of a Class diagram - the box. Each class in the diagram is represented by a box, and that box has three sections. At the top, we see the name of the class. We may also see a stereotype in the first box if there is something we need to know about the class that is language specific.</description>
-    </item>
   </channel>
 </rss>

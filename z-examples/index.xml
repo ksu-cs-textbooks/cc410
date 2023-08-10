@@ -3097,8 +3097,7 @@ Java New Project Clone empty GitHub repository into java folder: git clone &amp;
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/index.html</guid>
-      <description>YouTube Video
-In this example project, we will go through all the steps to create a new version of the classic &amp;ldquo;Hello World&amp;rdquo; program, called &amp;ldquo;Hello Real World.&amp;rdquo; We&amp;rsquo;ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.
+      <description>In this example project, we will go through all the steps to create a new version of the classic &amp;ldquo;Hello World&amp;rdquo; program, called &amp;ldquo;Hello Real World.&amp;rdquo; We&amp;rsquo;ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.
 Don&amp;rsquo;t worry if some of this doesn&amp;rsquo;t make sense right now - we&amp;rsquo;ll spend much more time later in this course going into more detail on many of these areas.</description>
     </item>
     <item>
@@ -3199,14 +3198,6 @@ The next page will discuss the overall requirements that this example project sh
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.</description>
     </item>
     <item>
-      <title>Forms</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/index.html</guid>
-      <description>In this example project, we&amp;rsquo;ll explore adding a simple search form to our existing movies website. This form will allow us to filter our movies based on a few criteria, and we&amp;rsquo;ll be able to explore how to receive form data in our web applications.
-The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.</description>
-    </item>
-    <item>
       <title>REST</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3223,13 +3214,6 @@ For these example projects, you&amp;rsquo;ll be given some starter code via the 
       <description>In this example project, we&amp;rsquo;ll update our previous RESTful web application to perform server-side form validation, making sure that each piece of data submitted to the server is valid.
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.
 For these example projects, you&amp;rsquo;ll be given some starter code via the GitHub Classroom assignment, so make sure you&amp;rsquo;ve accepted the assignment and created your repository in GitHub first.</description>
-    </item>
-    <item>
-      <title>Previous Semesters</title>
-      <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/old/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/old/index.html</guid>
-      <description>Previous Semesters</description>
     </item>
   </channel>
 </rss>
