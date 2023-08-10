@@ -1,12 +1,10 @@
 ---
-title: "Fall 2023 Syllabus"
+title: "Spring 2023 Syllabus"
 weight: 60
 pre: "6. "
 ---
 
-## CC 410 - Advanced Programming - Fall 2023
-
-[Previous Versions]({{<relref "./old">}})
+## CC 410 - Advanced Programming - Spring 2023
 
 ### Instructor Contact Information
 
