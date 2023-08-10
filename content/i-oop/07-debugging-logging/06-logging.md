@@ -8,7 +8,7 @@ The last major concept we'll introduce around debugging is the use of a formal *
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ###### Java Logger
 
@@ -96,7 +96,7 @@ Of course, if we change the level to `Level.SEVERE`, then only the last message 
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 
 ###### Python Logger

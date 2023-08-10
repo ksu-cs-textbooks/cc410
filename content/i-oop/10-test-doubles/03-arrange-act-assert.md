@@ -18,7 +18,7 @@ Let's go back to a unit test you may have explored in example 3 and see how it f
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 @Test
@@ -42,7 +42,7 @@ public void testSevenWrongGuessesShouldLose() {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def test_seven_wrong_guesses_should_lose(self):

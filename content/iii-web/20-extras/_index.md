@@ -2,12 +2,10 @@
 title = "Extras"
 date = 2021-08-17
 weight = 100
-chapter = true
+archetype = "chapter"
+ordinal = "20"
 pre = "<b>20.  </b>"
 +++
 
-### Chapter 20
-
-# Extras
 
 Everything that didn't fit anywhere else!

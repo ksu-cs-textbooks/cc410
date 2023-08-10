@@ -54,7 +54,7 @@ However, inheritance can cause some challenges in selecting the appropriate poly
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Fruit {
@@ -83,7 +83,7 @@ public class Strawberry extends Fruit {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Fruit:
@@ -112,7 +112,7 @@ Let's add some fruit instances to a list, and invoke their `blend()` methods:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 LinkedList<Fruit> toBlend = new LinkedList<>();
@@ -126,7 +126,7 @@ for(Fruit f : toBlend){
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 to_blend: List[Fruit] = list()

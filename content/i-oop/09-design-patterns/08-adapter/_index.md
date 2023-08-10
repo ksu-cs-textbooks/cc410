@@ -32,7 +32,7 @@ First, let's look at the adapter pattern using the **object adapter** approach. 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.lang.Math;
@@ -70,7 +70,7 @@ public class PetAdapter{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class PetAdapter:
@@ -111,7 +111,7 @@ The other approach we can use is the **class adapter** approach. Here, we'll inh
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.lang.Math;
@@ -141,7 +141,7 @@ public class PetAdapter extends Pet{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class PetAdapter(Pet):

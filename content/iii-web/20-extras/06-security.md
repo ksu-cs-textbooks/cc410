@@ -24,7 +24,7 @@ As we already learned throughout this course, we can write code to carefully han
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public void getString(String input) {
@@ -40,7 +40,7 @@ public void getString(String input) {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def get_string(self, input: str) -> None:

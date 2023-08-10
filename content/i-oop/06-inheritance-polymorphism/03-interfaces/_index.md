@@ -12,7 +12,7 @@ If we think back to the concept of _message passing_ in object-oriented language
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ###### Java API
 
@@ -20,7 +20,7 @@ If we think back to the concept of _message passing_ in object-oriented language
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ###### Python API
 

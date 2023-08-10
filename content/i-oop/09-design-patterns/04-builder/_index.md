@@ -41,7 +41,7 @@ First, we'll assume that we have a very simple `Card` class, consisting of three
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Card{
@@ -59,7 +59,7 @@ public class Card{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Card:
@@ -81,7 +81,7 @@ The `Deck` class could also include generic methods to shuffle, draw, discard, a
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.util.LinkedList;
@@ -103,7 +103,7 @@ public class Deck{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from typing import List
@@ -133,7 +133,7 @@ Finally, we can create our builder classes themselves. These classes will handle
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Standard52Builder implements DeckBuilder {
@@ -163,7 +163,7 @@ public class Standard52Builder implements DeckBuilder {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from typing import List
@@ -201,7 +201,7 @@ Finally, once we've created all of the builders that we'll need, we can use them
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class CardGame{
@@ -217,7 +217,7 @@ public class CardGame{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from typing import List

@@ -13,7 +13,7 @@ For example, consider this code:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Test {
@@ -39,7 +39,7 @@ public class Test {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Test:
@@ -63,7 +63,7 @@ This code includes a chain of three functions, and the innermost function will t
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```
 Exception in thread "main" java.lang.Exception: Test Exception
@@ -75,7 +75,7 @@ Exception in thread "main" java.lang.Exception: Test Exception
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```
 Traceback (most recent call last):
@@ -104,7 +104,7 @@ What if we want to get a call stack without crashing our program? Both Java and 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Thread.dumpStack();
@@ -112,7 +112,7 @@ Thread.dumpStack();
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```
 traceback.print_stack()

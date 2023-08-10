@@ -52,7 +52,7 @@ We indicate fields in our UML diagram with a typed element. So, to create a priv
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```
 - blended: boolean
@@ -60,7 +60,7 @@ We indicate fields in our UML diagram with a typed element. So, to create a priv
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```
 - blended: bool
@@ -86,7 +86,7 @@ A general solution would be to include a _stereotype_ after the element, indicat
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```
 - blended: boolean <<get,set>>
@@ -94,7 +94,7 @@ A general solution would be to include a _stereotype_ after the element, indicat
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```
 - blended: bool <<get,set>>
@@ -124,7 +124,7 @@ Consider a method that adds together two integers and returns the result. The ex
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public int add(int a, int b){
@@ -134,7 +134,7 @@ public int add(int a, int b){
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def add(a: int, b: int) -> int:

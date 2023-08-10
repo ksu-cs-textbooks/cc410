@@ -10,7 +10,7 @@ Consider the following example:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Teacher {
@@ -37,7 +37,7 @@ public class Teacher {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Teacher:
@@ -74,7 +74,7 @@ The first method of dependency injection is via the constructor. We could simply
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public Teacher(Gradebook grade) {
@@ -88,7 +88,7 @@ public Teacher(Gradebook grade) {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def __init__(self, grade: Gradebook) -> None:
@@ -114,7 +114,7 @@ Alternatively, we can provide a setter method and allow injection via the setter
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public void setGradebook (Gradebook grade) {
@@ -127,7 +127,7 @@ public void setGradebook (Gradebook grade) {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def set_gradebook(grade: Gradebook) -> None:

@@ -7,7 +7,7 @@ It might seem like the kind of modules that Parnas was describing don't exist in
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Math.sqrt(9.5);
@@ -15,7 +15,7 @@ Math.sqrt(9.5);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 math.sqrt(9.5)
@@ -30,7 +30,7 @@ We can define our own module-like classes by making them `static`, i.e. we could
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.lang.Math;
@@ -57,7 +57,7 @@ System.out.println(VectorMath.magnitude(vect1));
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 import math

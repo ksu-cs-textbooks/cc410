@@ -14,7 +14,7 @@ It was not long before new technologies sprang up to replace the ad-hoc string c
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 
 ```java
@@ -23,7 +23,7 @@ String output = String.format("%s, %d", "Computer", 410)
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 output: str = "{}, {}".format("Computer, 410)

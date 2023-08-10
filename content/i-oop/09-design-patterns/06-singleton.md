@@ -20,7 +20,7 @@ Let's update our `DeckFactory` class to use the singleton pattern.
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class DeckFactory{
@@ -48,7 +48,7 @@ public class DeckFactory{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 There are actually two different ways to implement this in Python. The first is closer to the implementation seen in Java above and in C++ in the original book. 
 
@@ -107,7 +107,7 @@ Now we can update our main method code to use our singleton `DeckFactory` instan
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class CardGame{
@@ -123,7 +123,7 @@ public class CardGame{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from typing import List

@@ -16,7 +16,7 @@ One of the earliest approaches was to write a program to _dynamically create_ th
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public String GeneratePage() {
@@ -41,7 +41,7 @@ public String GeneratePage() {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def generate_page(self) -> str:
@@ -70,7 +70,7 @@ It generates the HTML of a page showing the current date and time.  Remember too
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public String generateResponse() {
@@ -87,7 +87,7 @@ public String generateResponse() {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 
 ```python

@@ -7,7 +7,7 @@ Many object-oriented languages, such as C++ and C#, include the concept of a **s
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 double[] vector = {3.0, 4.0, 5.0};
@@ -15,7 +15,7 @@ double[] vector = {3.0, 4.0, 5.0};
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 vector: List[float] = [3.0, 4.0, 5.0]
@@ -29,7 +29,7 @@ However, other than the variable name, there is no indication to other programme
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public double dotProduct(double[] a, double[] b){
@@ -41,7 +41,7 @@ public double dotProduct(double[] a, double[] b){
 ```
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def dot_product(a: List[float], b: List[float]) -> float:
@@ -58,7 +58,7 @@ A struct provides a much cleaner option, by allowing us to define a type that is
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Vector3{
@@ -76,7 +76,7 @@ public class Vector3{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Vector3:
@@ -95,7 +95,7 @@ Then, our dot product method can take two arguments of the `Vector3` type:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public double dotProduct(Vector3 a, Vector3 b){
@@ -105,7 +105,7 @@ public double dotProduct(Vector3 a, Vector3 b){
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def dot_product(a: Vector3, b: Vector3) -> float:

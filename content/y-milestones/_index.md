@@ -1,13 +1,11 @@
 +++
 title = "Project Milestones"
 weight = 1000
-chapter = true
+archetype = "chapter"
+ordinal = "Y"
 noprint = true
 +++
 
-### Chapter Y
-
-# Project Milestones
 
 Small steps along the path toward project completion!
 

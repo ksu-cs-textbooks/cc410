@@ -17,7 +17,7 @@ Let's re-write our `Vector3` struct using this concept.
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Vector3{
@@ -45,7 +45,7 @@ public class Vector3{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Vector3:
@@ -78,7 +78,7 @@ We can create as many objects from this class definition as we might want. Each 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Vector3 one = new Vector3(1.0, 1.0, 1.0);
@@ -88,7 +88,7 @@ Vector3 a = new Vector3(5.4, -21.4, 3.11);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 one: Vector3 = Vector3(1.0, 1.0, 1.0)

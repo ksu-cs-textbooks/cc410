@@ -2,12 +2,10 @@
 title = "REST and Forms"
 date = 2021-08-17
 weight = 85
-chapter = true
+archetype = "chapter"
+ordinal = "17"
 pre = "<b>17.  </b>"
 +++
 
-### Chapter 17
-
-# REST and Forms
 
 HTML Form Data and Sensible URL Schemes!

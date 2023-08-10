@@ -23,7 +23,7 @@ In UML _visibility_ (based on access modifiers in Java, or the use of underscore
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 Consider, for example, a private `size` field. In a Java class, we would do the following:
 
@@ -35,7 +35,7 @@ private int size;
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 Consider, for example, a private `size` field. In Python, we might have the following assignment in our constructor:
 

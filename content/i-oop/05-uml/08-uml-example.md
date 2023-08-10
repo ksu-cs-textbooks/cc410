@@ -16,7 +16,7 @@ We'll start by looking at the `Number` interface, which is the basis of all of t
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public interface Number {
@@ -29,7 +29,7 @@ public interface Number {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Number(metaclass=abc.ABCMeta):
@@ -64,7 +64,7 @@ Next is the class for representing real numbers. This class will be a **realizat
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class RealNumber implements Number {
@@ -91,7 +91,7 @@ public class RealNumber implements Number {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class RealNumber(Number):
@@ -132,7 +132,7 @@ At this point, we can add a new class to represent [complex numbers](https://en.
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class ComplexNumber implements Number {
@@ -160,7 +160,7 @@ public class ComplexNumber implements Number {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class ComplexNumber(Number):
@@ -196,7 +196,7 @@ Once we've created all of our number classes, we can quickly create our `View` a
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class View {
@@ -226,7 +226,7 @@ public class Controller {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class View:

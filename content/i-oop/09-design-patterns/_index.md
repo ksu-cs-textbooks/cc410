@@ -2,12 +2,10 @@
 title = "Design Patterns"
 date = 2021-08-17
 weight = 90
-chapter = true
+archetype = "chapter"
+ordinal = "9"
 pre = "<b>9.  </b>"
 +++
 
-### Chapter 9
-
-# Design Patterns
 
 Building more beautiful and repeatable software!

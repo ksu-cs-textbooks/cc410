@@ -28,7 +28,7 @@ Java, along with many other object-oriented languages, use [access modifiers](ht
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Student{
@@ -46,7 +46,7 @@ public class Student{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Student:
@@ -65,7 +65,7 @@ By using the access modifier `private` in Java, or prefixing the attributes with
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 
 ```java
@@ -74,7 +74,7 @@ Student willie = new Student("Willie", "Wildcat", 888888888);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 willie: Student = Student("Willie", "Wildcat", 888888888)
@@ -92,7 +92,7 @@ Instead, in a true object-oriented approach we would write public  **_accessor m
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Student{
@@ -134,7 +134,7 @@ public class Student{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Student:

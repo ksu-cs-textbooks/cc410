@@ -20,7 +20,7 @@ To simplify this process, we'll create a quick enumeration of the possible decks
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public enum DeckType {
@@ -36,7 +36,7 @@ public enum DeckType {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from enum import Enum
@@ -62,7 +62,7 @@ Next, we'll define a simple factory class, which is able to build each type of c
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.lang.IllegalArgumentException;
@@ -93,7 +93,7 @@ public class DeckFactory{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class DeckFactory:
@@ -127,7 +127,7 @@ Now that we've created our factory class, we can update our main method to use i
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class CardGame{
@@ -143,7 +143,7 @@ public class CardGame{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from typing import List
@@ -173,7 +173,7 @@ One of the most common places the factory method pattern appears is in the const
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class DbTest{
@@ -196,7 +196,7 @@ public class DbTest{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class DbTest:

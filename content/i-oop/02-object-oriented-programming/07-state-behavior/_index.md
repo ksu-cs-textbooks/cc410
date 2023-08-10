@@ -52,7 +52,7 @@ On the other hand, with encapsulation we can reason about state and behavior on 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public static Vector3 scale(Vector3 vec, double scale){
@@ -65,7 +65,7 @@ public static Vector3 scale(Vector3 vec, double scale){
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 @staticmethod

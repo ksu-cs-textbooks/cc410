@@ -20,7 +20,7 @@ Each programming language defines its own specification for comments. Here is th
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 // Single line Java comments are prefixed by two slashes.
@@ -54,7 +54,7 @@ int x = 5; // Comments can be placed at the end of a line.
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 # Single line Python comments are prefixed by a hash symbol

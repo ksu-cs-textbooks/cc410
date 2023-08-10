@@ -35,7 +35,7 @@ Here's a more general example in both Java and Python, this time binding the **m
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 _Excerpted in part from [How to Write a Mouse-Motion Listener](https://docs.oracle.com/javase/tutorial/uiswing/events/mousemotionlistener.html) from Oracle._
 
@@ -83,7 +83,7 @@ public class MouseDemo extends JFrame implements MouseMotionListener {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 ```python
 import sys
 import tkinter as tk

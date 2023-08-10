@@ -14,7 +14,7 @@ You've already used types extensively in your programming up to this point.  Con
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 int number = 5;
@@ -22,7 +22,7 @@ int number = 5;
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 number: int = 5
@@ -40,7 +40,7 @@ For example, consider the following code:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 int x = 5;
@@ -52,7 +52,7 @@ System.out.prinltn(x + string); // 5 apples
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 x: int = 5
@@ -77,7 +77,7 @@ In addition to built-in types, most programming languages support _user-defined 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public enum Grade {
@@ -91,7 +91,7 @@ public enum Grade {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from enum import Enum
@@ -113,7 +113,7 @@ This defines a new data type `Grade`.  We can then create variables with that ty
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Grade courseGrade = Grade.A;
@@ -121,7 +121,7 @@ Grade courseGrade = Grade.A;
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 course_grade: Grade = Grade.A
@@ -137,7 +137,7 @@ In an object-oriented programming language, a class also _defines a new type_!  
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Student {
@@ -192,7 +192,7 @@ public class Student {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Student:
@@ -239,7 +239,7 @@ If we want to create a new student, we would create an instance of the class `St
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Student willie = new Student("Willie", "Wildcat");
@@ -247,7 +247,7 @@ Student willie = new Student("Willie", "Wildcat");
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 willie: Student = Student("Willie", "Wildcat")
@@ -282,7 +282,7 @@ Will fail with an error in Java, as a floating point value is a different type t
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 int x = (int)8.9;
@@ -290,7 +290,7 @@ int x = (int)8.9;
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 x: int = int(8.9)

@@ -25,7 +25,7 @@ Then, each individual game can modify that process a bit based on the rules of t
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.util.List;
@@ -55,7 +55,7 @@ public abstract class CardGame {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from abc import ABC, abstractmethod
@@ -97,7 +97,7 @@ Next, let's explore what this subclass might look like for the game [Hearts](htt
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 import java.util.LinkedList;
@@ -135,7 +135,7 @@ public class Hearts extends CardGame {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 from typing import List

@@ -21,7 +21,7 @@ Specifically, we want to copy the folder containing the `index.html` file, as we
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```bash
 # get to the project folder (this may be different)
@@ -34,7 +34,7 @@ cp -r app/build/docs/javadoc/ docs/
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```bash
 # get to the project folder (this may be different)

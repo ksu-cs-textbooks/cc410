@@ -15,7 +15,7 @@ In an object-oriented language, message passing primarily take the form of metho
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public class Vector3{
@@ -43,7 +43,7 @@ public class Vector3{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Vector3:
@@ -70,7 +70,7 @@ We can also create a couple of instances of the class, and use its dot product m
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 
 ```java
@@ -81,7 +81,7 @@ double c = a.dotProduct(b);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 a: Vector3 = Vector3(1.0, 1.0, 2.0)
@@ -99,7 +99,7 @@ Let's define a new method for our Vector3 class that emphasizes the role message
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 public void normalize(){
@@ -112,7 +112,7 @@ public void normalize(){
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 def normalize(self) -> None:
@@ -130,7 +130,7 @@ We can now invoke the `normalize()` method on a `Vector3` object to mutate its s
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Vector3 f = new Vector3(9.0, 3.0, 2.0);
@@ -139,7 +139,7 @@ f.normalize();
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 f: Vector3 = Vector3(9.0, 3.0, 2.0)

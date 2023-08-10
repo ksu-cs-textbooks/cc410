@@ -8,7 +8,7 @@ You have probably used casting to convert numeric values from one type to anothe
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 double a = 5.5;
@@ -17,7 +17,7 @@ int b = (int) a;
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```
 a: float = 5.5
@@ -36,7 +36,7 @@ In some languages, we can also perform an **implicit cast**. This is where the c
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 int a = 5;
@@ -45,7 +45,7 @@ double b = a + 2.5;
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```
 a: int = 5
@@ -92,7 +92,7 @@ Both Java and Python include special methods for determining if a particular obj
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Student u = new UndergraduateStudent("Willie", "Wildcat");
@@ -104,7 +104,7 @@ if (u instanceof UndergraduateStudent) {
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 u: Student = UndergraduateStudent("Willie", "Wildcat")

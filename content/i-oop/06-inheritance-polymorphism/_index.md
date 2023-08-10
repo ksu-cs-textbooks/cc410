@@ -2,12 +2,9 @@
 title = "Inheritance & Polymorphism"
 date = 2021-08-17
 weight = 30
-chapter = true
+archetype = "chapter"
+ordinal = "6"
 pre = "<b>6.  </b>"
 +++
-
-### Chapter 6
-
-# Inheritance & Polymorphism
 
 Like superclass, like subclass! Now, with interfaces!

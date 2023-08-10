@@ -26,7 +26,7 @@ In the examples below, we'll rely on the built-in collection classes in Java and
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 In Java, classes can implement the [Iterable](https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html) interface, which requires them to return an [Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html) object. In doing so, these objects can then be used in the Java **enhanced for** or **for each** loop.
 
@@ -75,7 +75,7 @@ public class CardGame{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 In Python, we can simply provide implementation for the `__iter__()` method in a class to return an iterator object, and that iterator object should implement the `__next__()` method to get the next item, as well as the `__iter__()` method, which just returns the iterator itself. Python does not define an equivalent to the `has_next()` method; instead, the `__next__()` method should raise a `StopIteration` exception when the end of the collection is reached.
 

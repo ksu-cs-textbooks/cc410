@@ -7,7 +7,7 @@ We often talk about the **_class_** as a *blueprint* for an **_object_**.  This 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 ```java
 public class Planet{
     
@@ -30,7 +30,7 @@ public class Planet{
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Planet
@@ -56,7 +56,7 @@ It describes a planet as having a mass and a radius, which will be stored as the
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Planet earth = new Planet(1.0, 1.0);
@@ -64,7 +64,7 @@ Planet earth = new Planet(1.0, 1.0);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 earth: Planet = Planet(1.0, 1.0)
@@ -78,7 +78,7 @@ In this example, `earth` is an *instance* of the class `Planet`.  We can create 
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Planet mars = new Planet(0.107, 0.53);
@@ -86,7 +86,7 @@ Planet mars = new Planet(0.107, 0.53);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 mars: Planet = Planet(0.107, 0.53)
@@ -100,7 +100,7 @@ We can even create a `Planet` instance to represent one of the exoplanets discov
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 Planet hd21749b = new Planet(23.20, 2.836);
@@ -108,7 +108,7 @@ Planet hd21749b = new Planet(23.20, 2.836);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 hd21749b: Planet = Planet(23.20, 2.836)
@@ -122,7 +122,7 @@ Let's think more deeply about the idea of a class as a blueprint.  A blueprint f
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 ```java
 mars.getRadius()
@@ -130,7 +130,7 @@ mars.getRadius()
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 ```python
 mars.radius
 ```
@@ -155,7 +155,7 @@ Consider this simple example class:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 
 
 ```java
@@ -172,7 +172,7 @@ public class Simple:
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 class Simple:
@@ -194,7 +194,7 @@ We can also create a couple of instances:
 
 {{< tabs >}}
 
-{{% tab name="Java" %}}
+{{% tab title="Java" %}}
 ```java
 Simple first = new Simple(10, 12);
 Simple second = new Simple(8, 5);
@@ -202,7 +202,7 @@ Simple second = new Simple(8, 5);
 
 {{% /tab %}}
 
-{{% tab name="Python" %}}
+{{% tab title="Python" %}}
 
 ```python
 first: Simple = Simple(10, 12)
