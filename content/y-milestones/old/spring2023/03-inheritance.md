@@ -9,7 +9,7 @@ This page lists the milestone requirements for **Milestone 3** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
 The third milestone involves refactoring our code to take advantage of **inheritance** and the use of **interfaces**. We'll also need to update our documentation and unit tests accordingly.
 
@@ -23,7 +23,7 @@ This project is the first that requires **ALL** general requirements introduced 
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -33,22 +33,22 @@ This milestone should include the following features:
 
 ###### Interface
 
-* A new `sfsubs.data.Item` interface that is implemented by all entree, side, and drink classes
+* A new `gamegrub.data.Item` interface that is implemented by all entree, side, and drink classes
   * It is highly recommended to do this by implementing the interface on the new base classes listed below.
   * See below for the description of what this interface should contain
 
 ###### Base Classes
 
 * New abstract base classes for each type of menu item:
-  * Entrees should inherit from `sfsubs.data.entrees.Entree` base class
-  * Sides should inherit from the `sfsubs.data.sides.Side` base class
-  * Drinks should inherit from the `sfsubs.data.drinks.Drink` base class
+  * Entrees should inherit from `gamegrub.data.entrees.Entree` base class
+  * Sides should inherit from the `gamegrub.data.sides.Side` base class
+  * Drinks should inherit from the `gamegrub.data.drinks.Drink` base class
 * Each new base class should contain all elements that are shared by each type of menu item
   * See below for the description of what the base classes should contain
 
 ###### Menu Class
 
-* A new **static** class `sfsubs.data.menu.Menu` that contains the full menu
+* A new **static** class `gamegrub.data.menu.Menu` that contains the full menu
   * See below for the description of what this `Menu` class should contain
 
 ###### Unit Tests
@@ -113,7 +113,7 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ##### Item Interface
 
-The `sfsubs.data.Item` class should be created as an interface that can be implemented by all other menu items. It should contain the following elements as abstract methods/properties:
+The `gamegrub.data.Item` class should be created as an interface that can be implemented by all other menu items. It should contain the following elements as abstract methods/properties:
 * A getter for **Price**
 * A getter for **Calories**
 * A getter for **Instructions**
@@ -132,19 +132,19 @@ Accordingly, the **unit tests** for some of these classes will need updated, as 
 
 Each of the three types of menu items should directly inherit from a new abstract base class. These classes should not be instantiated!
 
-* `sfsubs.data.entrees.Entree` is the base class for all entree items. It should include the following elements that are common to all entree classes:
+* `gamegrub.data.entrees.Entree` is the base class for all entree items. It should include the following elements that are common to all entree classes:
   * **Base** - attribute with getter and setter.
   * **Toppings** - attribute with getter, **Add Toppings** and **Remove Toppings** methods.
   * **Price** - abstract getter. This should be overridden in the subclass to return the correct price.
   * **Calories** - abstract getter. This should be overridden in the subclass to return the correct calories.
   * **Instructions** - getter. This should be overridden in the subclass to return the correct list of instructions. 
     * One easy way to do this: the method in the superclass could be used to add the list of toppings to the list, and then the subclass method could call the superclass method as part of its code and then add the ingredient changes itself. 
-* `sfsubs.data.sides.Side` is the base class for all side items. It should include the following elements that are common to all side classes:
+* `gamegrub.data.sides.Side` is the base class for all side items. It should include the following elements that are common to all side classes:
   * **Size** - getter and setter.
   * **Price** - abstract getter. This should be overridden in the subclass to return the correct price based on the size.
   * **Calories** - abstract getter. This should be overridden in the subclass to return the correct calories based on the size.
   * **Instructions** - getter. This should simply return an empty list, and does not need overridden.
-* `sfsubs.data.drinks.Drink` is the base class for all drink items. It should include the following elements that are common to all drink classes:
+* `gamegrub.data.drinks.Drink` is the base class for all drink items. It should include the following elements that are common to all drink classes:
   * **Size** - getter and setter.
   * **Price** - abstract getter. This should be overridden in the subclass to return the correct price based on the size.
   * **Calories** - abstract getter. This should be overridden in the subclass to return the correct calories based on the size.
@@ -156,13 +156,13 @@ You may choose to implement the `Item` interface on the three base classes descr
 
 If you choose to inherit from the `Item` interface in the base classes in Python, the base class should not inherit from `ABC` - that is already covered as part of the interface. If you do, Mypy will present an error stating that it "cannot determine consistent method resolution order."
 
-You may also need to refactor some `private` attributes (with double underscores in Python) to `protected` attributes (single underscores in Python) as they move from the subclass to the superclass. In Java, these are just attributes as expected. In Python, it is simplest to declare those in the constructor of the superclass (such as `self._size = Size.SMALL`), then make sure you call that constructor using `super().__init__()` in the subclass' constructor.
+You may also need to refactor some `private` attributes (with double underscores in Python) to `protected` attributes (single underscores in Python) as they move from the subclass to the superclass. In Java, these are just attributes as expected. In Python, it is simplest to declare those in the constructor of the superclass (such as `self._size = Size.JUNIOR`), then make sure you call that constructor using `super().__init__()` in the subclass' constructor.
 
 {{% /notice %}}
 
 ##### Menu Class
 
-The `sfsubs.data.menu.Menu` class should be a class that has **static, class-level getter methods** for these four elements:
+The `gamegrub.data.menu.Menu` class should be a class that has **static, class-level getter methods** for these four elements:
 
 * `entrees` - a list of `Item` elements containing an instance of all available entrees (5 in total).
 * `sides` - a list of `Item` elements containing an instance of all available sides. Since each side is available in three sizes, the list should include an instance of all three sizes of each side item (9 in total).

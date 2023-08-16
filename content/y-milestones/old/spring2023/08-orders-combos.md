@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 8** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
 The eighth milestone involves creating combo meals and orders from the items selected in the GUI. We'll use this milestone to explore some software design patterns in our code, as well as learn about using test doubles in our unit tests. With this milestone, most of the work on the core functionality of the GUI will be complete.
 
@@ -16,7 +16,7 @@ The eighth milestone involves creating combo meals and orders from the items sel
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -84,7 +84,7 @@ This assignment will add one new class to the project
 
 ###### Panel Factory
 
-`sfsubs.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given entree, side, or drink.
+`gamegrub.gui.PanelFactory` - a class that implements the **Factory Method Pattern** to return an instance of a GUI panel for a given entree, side, or drink.
 * It should include one public **static** method that is overloaded to accept two different sets of parameters:
   * **get panel(String name, `PrimaryWindow` parent)** should accept the name of a menu item item as a string, and return a panel that represents a new instance of that item, with the `parent` GUI element as its parent. You should be able to directly feed an action command from a button click in the GUI directly to this method and get the appropriate panel. If the `name` is not recognized, an exception should be thrown.
   * **get panel(`Item` item, `PrimaryWindow` parent)** should accept an instance of an `Item` and return a panel that represents that item, with the `parent` GUI element as its parent. If the `item` is not recognized, an exception should be thrown.
@@ -123,12 +123,12 @@ Some previous tests may need to be updated to match new requirements.
 
 Once this milestone is complete, all classes in the following packages should continue to have unit tests that achieve at or near 100% code coverage:
 
-* `sfsubs.data.*`
-* `sfsubs.gui.drinks.*`
-* `sfsubs.gui.entrees.*`
-* `sfsubs.gui.sides.*`
+* `gamegrub.data.*`
+* `gamegrub.gui.drinks.*`
+* `gamegrub.gui.entrees.*`
+* `gamegrub.gui.sides.*`
 
-The only classes that do not meet this requirement are `PrimaryWindow`, `OrderPanel`, `PanelFactory`, and `MenuPanel` in the `sfsubs.gui` package. 
+The only classes that do not meet this requirement are `PrimaryWindow`, `OrderPanel`, `PanelFactory`, and `MenuPanel` in the `gamegrub.gui` package. 
 
 Any new classes created to handle editing combos should include unit tests. Refer to the associated example project for some ideas of how to unit test that class.
 

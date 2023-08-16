@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 13** of the **CC 410 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
 The thirteenth milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.
 
@@ -16,7 +16,7 @@ The thirteenth milestone involves adding form validation and serialization to th
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -53,9 +53,9 @@ The code should include proper exception handling when reading and writing files
 
 As proof of working serialization, create the following custom menu item and serialize it to a file, then ensure that file is committed to your Git repository when committing this project.
 
-* **Name**: The Roddenberry
-* **Price**: 8.19
-* **Calories**: 1921
+* **Name**: The Katharine Hepburn
+* **Price**: 12.50
+* **Calories**: 1907
 
 #### Documentation & Testing
 

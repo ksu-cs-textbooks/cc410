@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 6** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
 
 The sixth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.
 
@@ -16,7 +16,7 @@ The sixth milestone involves creating the various GUI windows and panels require
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -26,35 +26,35 @@ This milestone should include the following features:
 
 ###### New Packages
 
-* A `sfsubs.gui` package to store all GUI code.
-* A `sfsubs.gui.entrees` package to store all GUI panels for entrees.
-* A `sfsubs.gui.sides` package to store all GUI panels for sides.
-* A `sfsubs.gui.drinks` package to store all GUI panels for drinks.
+* A `gamegrub.gui` package to store all GUI code.
+* A `gamegrub.gui.entrees` package to store all GUI panels for entrees.
+* A `gamegrub.gui.sides` package to store all GUI panels for sides.
+* A `gamegrub.gui.drinks` package to store all GUI panels for drinks.
 
 ###### Main GUI Classes 
 
-* A `sfsubs.Main` class that properly loads and displays the program's GUI.
-* A `sfsubs.gui.PrimaryWindow` class that represents the main GUI window.
+* A `gamegrub.Main` class that properly loads and displays the program's GUI.
+* A `gamegrub.gui.PrimaryWindow` class that represents the main GUI window.
   * It should contain two panels - a **main panel** and a **sidebar panel**.
   * It should also contain **two methods**: one to load a particular panel into the main panel, and another to load the order screen into the main panel.
-* A `sfsubs.gui.MenuPanel` class to represent the main ordering screen panel.
+* A `gamegrub.gui.MenuPanel` class to represent the main ordering screen panel.
   * It should contain **three panels of buttons**, one each for entrees, sides, and drinks. They may be automatically generated from the menu.
   * Each entree will be listed **once**, but each side and drink will have **three buttons** - one for each size.
   * When clicked, those buttons should call a method to load the appropriate panel into the main panel to allow customization of the menu item. 
-* A `sfsubs.gui.OrderPanel` class to represent the sidebar panel containing a user's order.
+* A `gamegrub.gui.OrderPanel` class to represent the sidebar panel containing a user's order.
   * It should contain labels for **order number, subtotal, tax, and total**. 
   * It should contain an **Edit** button that does nothing when clicked.
   * It should also include a **list box** as a placeholder that can be used to keep track of the order. The list box should expand to **fill all remaining vertical space** in the window.
 
 ###### Menu Item Panels
 
-* A panel class in the `sfsubs.gui.entrees` package for each entree.
+* A panel class in the `gamegrub.gui.entrees` package for each entree.
   * It should include appropriate controls for modifying the **ingredients, base, and toppings**.
   * _You may want to include a parent `EntreePanel` class to reduce the amount of duplicate code._
-* A **SINGLE** panel class `SidePanel` in the `sfsubs.gui.sides` package.
+* A **SINGLE** panel class `SidePanel` in the `gamegrub.gui.sides` package.
   * It should include appropriate controls for modifying the **size** of the item.
   * _Since each side only has a single option, this panel will be generalized to work with the parent `Side` class instead of individual sides themselves. When the buttons on the menu are clicked, you'll need to make sure an instance of the correct menu item is created._
-* A panel class in the `sfsubs.gui.drinks` package for each drink item.
+* A panel class in the `gamegrub.gui.drinks` package for each drink item.
   * It should include appropriate controls for modifying the **ingredients and size**.
   * _You may with include a parent `DrinkPanel` class to reduce the amount of duplicate code._
 
@@ -64,15 +64,15 @@ Each of the menu item panels should also implement the following functionality:
 
 ###### Documentation and Tests
 
-* Classes in the `sfsubs.gui` package **do require** all appropriate documentation comments, and must be free of style errors. **Every method must include full documentation comments.**
-* Classes in the `sfsubs.gui` package **do not require** unit tests at this time.
-* Classes in the `sfsubs.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
-* Create a **new UML diagram** that shows the structure of the `sfsubs.gui` package and how all GUI classes are related. You should also show any links to the classes in the `sfsubs.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `sfsubs.data` packages.
-  * For example, you can show that the classes in the `sfsubs.gui.entrees` package are all related to similar classes in the `sfsubs.data.entrees` package without listing the individual classes in that package.
+* Classes in the `gamegrub.gui` package **do require** all appropriate documentation comments, and must be free of style errors. **Every method must include full documentation comments.**
+* Classes in the `gamegrub.gui` package **do not require** unit tests at this time.
+* Classes in the `gamegrub.gui` package **do not require** type hints in Python, though you may continue to use them if they are helpful. Any errors from Mypy originating in these classes will be ignored.
+* Create a **new UML diagram** that shows the structure of the `gamegrub.gui` package and how all GUI classes are related. You should also show any links to the classes in the `gamegrub.data` package, but you may choose to show simplified links between packages instead of individual classes. You do not have to include full details from classes in the `gamegrub.data` packages.
+  * For example, you can show that the classes in the `gamegrub.gui.entrees` package are all related to similar classes in the `gamegrub.data.entrees` package without listing the individual classes in that package.
 
 ###### Other Instructions
 
-You are welcome to add additional methods to the existing content in the `sfsubs.data` package. If so, make sure you include appropriate documentation, type checking and unit tests.
+You are welcome to add additional methods to the existing content in the `gamegrub.data` package. If so, make sure you include appropriate documentation, type checking and unit tests.
 
 See below for a few sketches of what your GUI might look like.
 
