@@ -114,4 +114,4 @@ If you run into any errors on any of those commands, now is a good time to get t
 
 Click the link below to jump to the end where we submit our code.
 
-[Create GitHub Release](../05-create-release)
+[Create GitHub Release]({{< relref "../05-create-release.md" >}})

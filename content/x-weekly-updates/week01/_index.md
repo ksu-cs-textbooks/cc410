@@ -4,6 +4,12 @@ pre: "1. "
 weight: 10
 ---
 
+{{% notice note "Ed Discussion" %}}
+
+_This video was recorded before I decided to switch to Ed Discussion instead of Discord. So, any mentions of "Discord" in this video can be replaced with "Ed Discussion" instead. Sorry for the confusion! - Russ_
+
+{{% /notice %}}
+
 {{< youtube fg32bzEqkys >}}
 
 #### Resources

@@ -19,7 +19,7 @@ pre: "6. "
 #### Preferred Methods of Communication:
 
 * **Email**: Students should email cc410-help ([cc410-help@KSUemailProd.onmicrosoft.com](mailto:cc410-help@KSUemailProd.onmicrosoft.com)). We will try to respond within one business day. 
-* **Chat**: You may find instructors online via the CS department Discord server and Microsoft Teams. We will try to respond when we can, but if you don't get a response please email cc410-help.
+* **Ed Discussion**: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well.
 * **Phone/Text:** _Emergencies only!_ We will do our best to respond as quickly as we can.
 
 ### Prerequisites
