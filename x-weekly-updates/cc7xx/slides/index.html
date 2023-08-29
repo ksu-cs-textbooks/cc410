@@ -1,0 +1,105 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<h2>Week 2 Announcements</h2>
+</section>
+<section>
+	<h3>GTAs</h3>
+	<ul>
+		<li>Sumaira Ghazal</li>
+		<li>Akhil Joshi</li>
+		<li>Pavan Kumar Reddy Lakkireddy</li>
+	</ul>
+</section>
+<section>
+	<h3>Getting Help</h3>
+	<ul>
+		<li>cc730-help; cc750-help</li>
+		<li>Ed Discussion</li>
+		<li>Office Hours M-F 4-6 PM</li>
+		<li>Appointment</li>
+	</ul>
+</section>
+<section>
+	<h3>CC 730</h3>
+	<ul>
+		<li>1 - Hello World</li>
+		<li>2 - Data Types</li>
+		<li>TLCS 1 - Comp. Thinking</li>
+		<li>TLCS Journal 1</li>
+	</ul>
+</section>
+<section>
+	<h3>CC 750</h3>
+	<ul>
+		<li>1 - Review Control Flow</li>
+		<li>2 - Review OOP</li>
+		<li>3 - Prog. by Contract</li>
+		<li><i>TLCS Coming Soon!</i></li>
+	</ul>
+</section>
+<section>
+	<h3>CC 750 Python</h3>
+	<ul>
+		<li>Review CC 210 Textbook</li>
+		<li>Join Office Hours</li>
+		<li>Ask for Examples!</li>
+	</ul>
+</section>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
