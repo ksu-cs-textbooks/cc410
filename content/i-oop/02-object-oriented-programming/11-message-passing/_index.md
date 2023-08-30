@@ -30,7 +30,7 @@ public class Vector3{
     }
     
     public double dotProduct(Vector3 other){
-        return this.x * other.x + this.y * other.y + this.z + other.z;
+        return this.x * other.x + this.y * other.y + this.z * other.z;
     }
     
     public void scale(double scalar){
