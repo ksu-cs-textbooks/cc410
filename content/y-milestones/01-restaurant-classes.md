@@ -163,7 +163,7 @@ Unfortunately, the Java `clone()` methods can cause an unchecked cast exception 
 
 {{% /notice %}}
 
-Each entree class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entree. The string should be formatted as "{entree name} on {base}", such as "Clue Chili on Spaghetti".
+Each entree class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entree. The string should be formatted as "{entree name} on {base}", such as "The Kirk on White Bread".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal **only if the values of all attributes** are equal. 
 
@@ -222,11 +222,11 @@ In addition, each side should have the ability to return the following data thro
   * **Price** - a Java `double` or Python `float` value. 
   * **Calories** - an `int` value.
 
-Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Junior Potato Dice".
+Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
-Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Junior`. 
+Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. 
 
 ##### Data Chips (Potato Chips)
 
@@ -259,7 +259,7 @@ In addition, each drink should have the ability to return the following data thr
   * **Instructions** - a Java [LinkedList](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.10/library/stdtypes.html#list) of `str` values. 
     * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/LinkedList.html#%3Cinit%3E(java.util.Collection)) or [list.copy (Python)](https://docs.python.org/3.10/library/stdtypes.html#typesseq-mutable). 
 
-Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Junior Candy Land Shake".
+Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Small Picard".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
@@ -315,11 +315,11 @@ It is possible to create an enumeration that also stores additional data associa
 _options to fit any appetite_
 
 `sfsubs.data.enums.Size` - **Small**, **Medium**, **Large**
-##### Toppings
+##### Topping
 
 _don't forget your KHAAAAAANNNNN!-diments_
 
-`sfsubs.data.enums.Toppings` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, **BBQ Sauce**
+`sfsubs.data.enums.Topping` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, **BBQ Sauce**
 
 ---
 
