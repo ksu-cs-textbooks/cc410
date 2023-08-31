@@ -3522,8 +3522,7 @@ General Requirements No style or documentation requirements will be enforced for
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/07a-parallel-programming/02-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/07a-parallel-programming/02-java/index.html</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; java Update ParallelOne to use 4 threads.
 Take a screenshot showing a race condition.
 Update ParallelOne to use a lock.
@@ -3536,8 +3535,7 @@ Run several times with different number of threads (1 - 10) and graph results.</
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/07a-parallel-programming/02-python/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/07a-parallel-programming/02-python/index.html</guid>
-      <description>YouTube Video
-Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; python Update ParallelOne to use 4 threads.
 Take a screenshot showing a race condition.
 Update ParallelOne to use a lock.
