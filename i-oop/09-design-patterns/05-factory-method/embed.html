@@ -1868,6 +1868,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3514,23 +3524,23 @@
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/05-factory-method/index.xml" rel="alternate" type="application/rss+xml" title="Factory Method Pattern :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/05-factory-method/index.print.html" rel="alternate" type="text/html" title="Factory Method Pattern :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/05-factory-method/tele.html" rel="alternate" type="text/html" title="Factory Method Pattern :: CC 410 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1693924173" rel="icon" type="image/x-icon" sizes="any">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1693935006" rel="icon" type="image/x-icon" sizes="any">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693924231" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693924231" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1693924231" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693924231" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693924231" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1693924231" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693924231" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693924231" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1693924231" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693935056" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693935056" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693935056" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1693935056" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1693924231" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1693924231" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1693924231" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1693924231" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1693924231"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1693935056" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1693935056" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1693935056" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1693935056"></script>
     
     
     
@@ -3552,7 +3562,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1693924231" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1693935056" rel="stylesheet">
 
     
   </head>
@@ -3570,10 +3580,10 @@
 <p>The next pattern we&rsquo;ll explore is the <strong>factory method pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Factory_method_pattern" target="_blank">factory method pattern</a>
  is used to allow us to construct an object of a desired type without actually having to specify that type explicitly in our code. Instead, we just provide the factory with an input specifying the type of object we need, and it will return an instance of that type. By making use of the factory method pattern, classes that require access to these object don&rsquo;t need to be updated any time an underlying object type is modified. Instead, they can simply reference the parent or interface data types, and the factory handles creating and returning objects of the correct type whenever needed.</p>
 <p>
-<a href="#image-127efecc3dbb574310440d11b7da7811" class="lightbox-link">
+<a href="#image-13c2a7303c6af8801a3cb7eb9e2a7643" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/12/factory.jpg" alt="factory method pattern UML" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-127efecc3dbb574310440d11b7da7811">
+<a href="javascript:history.back();" class="lightbox" id="image-13c2a7303c6af8801a3cb7eb9e2a7643">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/12/factory.jpg" alt="factory method pattern UML" class="lightbox-image" loading="lazy">
 </a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>As we can see in the UML diagram for this pattern, it looks very similar to the builder pattern we saw previously. There is a <code>Creator</code> interface, which defines the interface that each factory uses. Then, the concrete <code>Creator1</code> class is actually used to create the class required.</p>
@@ -3581,13 +3591,13 @@
 <h3 id="decks-enum">Decks Enum</h3>
 <p>To simplify this process, we&rsquo;ll create a quick enumeration of the possible decks available in our system. This makes it easy to expand later and include more decks of cards.</p>
 
-<div class="tab-panel" data-tab-group="f0d76d0c86887533c59d6698adfdc563">
+<div class="tab-panel" data-tab-group="9a315a4d97ef40c8b112b93630e4347f">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('f0d76d0c86887533c59d6698adfdc563','Java')"
+      onclick="switchTab('9a315a4d97ef40c8b112b93630e4347f','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3597,7 +3607,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('f0d76d0c86887533c59d6698adfdc563','Python')"
+      onclick="switchTab('9a315a4d97ef40c8b112b93630e4347f','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3643,13 +3653,13 @@
 <h3 id="factory-class">Factory Class</h3>
 <p>Next, we&rsquo;ll define a simple factory class, which is able to build each type of card deck. We&rsquo;ll leave out the parent interface for now, since this project will only ever have a single factory object available.</p>
 
-<div class="tab-panel" data-tab-group="88a59498b9f4e72750e28bdfd6465110">
+<div class="tab-panel" data-tab-group="f89bc09849f131e700f0b7ef7aa584fb">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('88a59498b9f4e72750e28bdfd6465110','Java')"
+      onclick="switchTab('f89bc09849f131e700f0b7ef7aa584fb','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3659,7 +3669,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('88a59498b9f4e72750e28bdfd6465110','Python')"
+      onclick="switchTab('f89bc09849f131e700f0b7ef7aa584fb','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3728,13 +3738,13 @@
 <h3 id="using-the-factory">Using the Factory</h3>
 <p>Now that we&rsquo;ve created our factory class, we can update our main method to use it instead. In this case, we&rsquo;ll get the type of deck to be used directly from the user as input:</p>
 
-<div class="tab-panel" data-tab-group="2d0cff99ca1309827ffe1bd70ea43d0f">
+<div class="tab-panel" data-tab-group="2daff73054aec8d6f780ba74944e83ca">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('2d0cff99ca1309827ffe1bd70ea43d0f','Java')"
+      onclick="switchTab('2daff73054aec8d6f780ba74944e83ca','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3744,7 +3754,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('2d0cff99ca1309827ffe1bd70ea43d0f','Python')"
+      onclick="switchTab('2daff73054aec8d6f780ba74944e83ca','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3792,13 +3802,13 @@
 <h2 id="practical-example-database-connections">Practical Example: Database Connections</h2>
 <p>One of the most common places the factory method pattern appears is in the construction of database connections. In theory, we&rsquo;d like any of our applications to be able to use different types of databases, so many database connection libraries use the factory method pattern to create a database connection. Here&rsquo;s what that might look like - this code will not actually work, but is representative of what it looks like in practice:</p>
 
-<div class="tab-panel" data-tab-group="d576eea870b26fbe679435150d7bd02d">
+<div class="tab-panel" data-tab-group="45dd1a7121c6c4d8f9e1e0335d2fc419">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('d576eea870b26fbe679435150d7bd02d','Java')"
+      onclick="switchTab('45dd1a7121c6c4d8f9e1e0335d2fc419','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3808,7 +3818,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('d576eea870b26fbe679435150d7bd02d','Python')"
+      onclick="switchTab('45dd1a7121c6c4d8f9e1e0335d2fc419','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3883,10 +3893,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1693924234" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1693924234" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1693924234" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1693935059" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1693935059" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1693935059" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1693924234 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1693935059 defer"></script>
   </body>
 </html>
