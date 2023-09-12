@@ -1878,6 +1878,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3524,23 +3534,23 @@
     <link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/05-race-conditions/index.xml" rel="alternate" type="application/rss+xml" title="Race Conditions :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/05-race-conditions/index.print.html" rel="alternate" type="text/html" title="Race Conditions :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/05-race-conditions/tele.html" rel="alternate" type="text/html" title="Race Conditions :: CC 410 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1693935006" rel="icon" type="image/x-icon" sizes="any">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1694527448" rel="icon" type="image/x-icon" sizes="any">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693935056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1693935056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693935056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1693935056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693935056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1694527506" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1694527506" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1694527506" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1694527506" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1694527506" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1694527506" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1694527506" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1694527506" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1694527506" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1693935056" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1693935056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1693935056" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1693935056" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1693935056"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1694527506" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1694527506" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1694527506" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1694527506" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1694527506"></script>
     
     
     
@@ -3562,7 +3572,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1694527506" rel="stylesheet">
 
     
   </head>
@@ -3591,29 +3601,29 @@
 </span></span><span style="display:flex;"><span>data<span style="color:#f92672">.</span>x <span style="color:#f92672">=</span> y <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span></span></span></code></pre></div><p>Here, we have some <code>data</code> object stored in memory, which includes an attribute of <code>x</code>. Notice that we are not just adding 1 to the value of <code>x</code> and immediately updating it. Instead, we read the value of <code>x</code> into <code>y</code>, then use <code>y</code> to increase the value of <code>x</code> by 1. This is a very arbitrary example, but it is reflective of code that we might actually use in our applications. For example, we might read the <code>x</code> coordinate position of a sprite in a video game, perform some calculation on that position, and then update the position. It follows a pattern very similar to this.</p>
 <p>So, if we run this code in two separate threads, one way the program could execute is shown below:</p>
 <p>
-<a href="#image-f8e709e168234e7a4d95d378d4555c39" class="lightbox-link">
+<a href="#image-d17f5df034e708f7832931ac45ec7e44" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread_norace.svg" alt="No Race Condition Threading" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-f8e709e168234e7a4d95d378d4555c39">
+<a href="javascript:history.back();" class="lightbox" id="image-d17f5df034e708f7832931ac45ec7e44">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread_norace.svg" alt="No Race Condition Threading" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this case, both pieces of code work like we expect. The spawned thread goes first, and reads the value 0 from <code>data.x</code>. Then, it computes the new value 1 and stores that back in <code>data.x</code>. After that, the main thread is scheduled on the other processor, and it reads 1 from <code>data.x</code>, computers the new value 2, and stores it back in place. So far, so good, right?</p>
 <p>What if the threads get interrupted during the computation? In that case, the program could instead execute like this:</p>
 <p>
-<a href="#image-d5398b64b0f7935c2963fb26be76e7c7" class="lightbox-link">
+<a href="#image-b6262a1b23a9c5f8f475bbf4dac3d573" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread_race.svg" alt="Race Condition" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-d5398b64b0f7935c2963fb26be76e7c7">
+<a href="javascript:history.back();" class="lightbox" id="image-b6262a1b23a9c5f8f475bbf4dac3d573">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread_race.svg" alt="Race Condition" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this case, the spawned thread reads the value 0 from <code>data.x</code>, then stores it in <code>y</code>. Then, it is interrupted on its CPU, while the main thread is scheduled to execute on the other CPU. So, that main thread will also read the value 0 from <code>data.x</code> and store it in <code>y</code>. After that, the spawned thread will run, updating the value in <code>data.x</code> to 1. Finally, the main thread will execute updating the value in <code>data.x</code> to 1 again, even though it was already 1.</p>
 <p>So, as we can see, we&rsquo;ve run the same program, and it has produced two different results, depending on how the threads themselves are scheduled to run on the system. This is the essence of a race condition in our code.</p>
 <p>What if both threads are scheduled to run simultaneously on two different processors, as in this example:</p>
 <p>
-<a href="#image-9ca9aa222b9b1291b8017283b9f9fa6a" class="lightbox-link">
+<a href="#image-0dbc7727aa1423aa75d4cfcbf93bd109" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread_simul.svg" alt="Simultaneous Threads" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-9ca9aa222b9b1291b8017283b9f9fa6a">
+<a href="javascript:history.back();" class="lightbox" id="image-0dbc7727aa1423aa75d4cfcbf93bd109">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread_simul.svg" alt="Simultaneous Threads" class="lightbox-image" loading="lazy">
 </a></p>
 <p>In this case, the main thread is trying to read the value of <code>data.x</code> at the exact same instant that the spawned thread is trying to save that value. In that case, what will the main thread think is stored in <code>data.x</code>? As it turns out, <em>we have no way of predicting</em> what it will read. It could read 0, or 1, or maybe even some intermediate value the CPU uses while it stores the data.</p>
@@ -3629,10 +3639,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1693935076" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1693935076" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1693935076" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1694527529" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1694527529" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1694527529" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1693935076 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1694527529 defer"></script>
   </body>
 </html>

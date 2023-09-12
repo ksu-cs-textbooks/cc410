@@ -1,0 +1,125 @@
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<h2>CC 410 - Week 4</h2>
+</section>
+<section>
+	<h3>Wrapping Up</h3>
+	<ul>
+		<li>Documentation, Testing, UML</li>
+		<li>Doc & Testing Example</li>
+		<li>Restaurant 2</li>
+	</ul>
+</section>
+<section>
+	<h3>This Week</h3>
+	<ul>
+		<li>Inheritance & Polymorphism</li>
+		<li>Inheritance Example</li>
+		<li>Start - Stop - Continue Survey</li>
+		<li>Some Final Project Time</li>
+	</ul>
+</section>
+<section>
+	<h3>Next Week</h3>
+	<ul>
+		<li>Debugging & Logging</li>
+		<li>Lambda Expressions</li>
+		<li>Debugging & Logging Example</li>
+		<li>Restaurant 3</li>
+		<li>Final Project 2</li>
+	</ul>
+</section>
+<section>
+	<h3>Milestone 3</h3>
+	<ul>
+		<li>All General Requirements</li>
+		<li>Add Inheritance</li>
+		<li>Refactor Classes</li>
+		<li>New Unit Tests</li>
+		<li>Update UML Diagram</li>
+		<li>~1500 LOC</li>
+		<li>Feedback Welcome!</li>
+	</ul>
+</section>
+<section>
+	<h3>Milestone 3 Hints</h3>
+	<ul>
+		<li>Work in Small Chunks</li>
+		<li>Commit Early, Commit Often</li>
+		<li>Try Test-Driven Development?</li>
+		<li>Inherit OrderItem on Base Classes</li>
+		<li>Ask Questions on Syntax</li>
+	</ul>
+</section>
+<section>
+	<h3>Looking Ahead</h3>
+	<ul>
+		<li>Module 4 - Inheritance</li>
+		<li>Module 5 - Debugging<br>Final Project 2</li>
+		<li>Module 6 - Design Patterns</li>
+		<li>Module 7 - Test Doubles</li>
+		<li>GUIs, Web APIs, etc.</li>
+	</ul>
+</section>
+<section>
+	<img class="plain stretch" src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif">
+	<p class="imagecredit">Image Credit: <a href="https://giphy.com/gifs/13HgwGsXF0aiGY">Giphy</a></p>
+</section>
+			</div>
+		</div>
+
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/dist/reveal.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="https://ksu-cs-textbooks.github.io/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

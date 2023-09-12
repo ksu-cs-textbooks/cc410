@@ -1878,6 +1878,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3524,23 +3534,23 @@
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/06-singleton/index.xml" rel="alternate" type="application/rss+xml" title="Singleton Pattern :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/06-singleton/index.print.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/06-singleton/tele.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1693935006" rel="icon" type="image/x-icon" sizes="any">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1694527448" rel="icon" type="image/x-icon" sizes="any">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1693935056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1693935056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1693935056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1693935056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693935056" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1693935056" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1694527506" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1694527506" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1694527506" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1694527506" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1694527506" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1694527506" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1694527506" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1694527506" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1694527506" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1693935056" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1693935056" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1693935056" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1693935056" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1693935056"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1694527506" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1694527506" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1694527506" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1694527506" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1694527506"></script>
     
     
     
@@ -3562,7 +3572,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1693935056" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1694527506" rel="stylesheet">
 
     
   </head>
@@ -3580,10 +3590,10 @@
 <p>Finally, let&rsquo;s look at one other common creational pattern: the <strong>singleton pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Singleton_pattern" target="_blank">singleton pattern</a>
  is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simply get a <strong>reference</strong> to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.</p>
 <p>
-<a href="#image-b7c19f479a10119be012339909700d6a" class="lightbox-link">
+<a href="#image-b35ead90977f8c653c311ca232f9d6a0" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/12/singleton.png" alt="Singleton UML" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-b7c19f479a10119be012339909700d6a">
+<a href="javascript:history.back();" class="lightbox" id="image-b35ead90977f8c653c311ca232f9d6a0">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/12/singleton.png" alt="Singleton UML" class="lightbox-image" loading="lazy">
 </a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram for the singleton pattern is super simple. The class implementing the singleton pattern simply defines a private constructor, making sure that no other class can construct it. Instead, it stores a static reference to a single instance of itself, and includes a <code>get</code> method to access that single instance.</p>
@@ -3591,13 +3601,13 @@
 <h3 id="singleton-factory">Singleton Factory</h3>
 <p>Let&rsquo;s update our <code>DeckFactory</code> class to use the singleton pattern.</p>
 
-<div class="tab-panel" data-tab-group="938f721ccb272d73b70e8ada2351abad">
+<div class="tab-panel" data-tab-group="9b9d38864a336c6279cc309c63faf160">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('938f721ccb272d73b70e8ada2351abad','Java')"
+      onclick="switchTab('9b9d38864a336c6279cc309c63faf160','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3607,7 +3617,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('938f721ccb272d73b70e8ada2351abad','Python')"
+      onclick="switchTab('9b9d38864a336c6279cc309c63faf160','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3691,13 +3701,13 @@
 <h3 id="using-a-singleton">Using a Singleton</h3>
 <p>Now we can update our main method code to use our singleton <code>DeckFactory</code> instance instead of creating one when it is needed:</p>
 
-<div class="tab-panel" data-tab-group="68cf512a32c8bd4f81b35f9014a05467">
+<div class="tab-panel" data-tab-group="47cad91742f6e567ca549ff2c3a972a7">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('68cf512a32c8bd4f81b35f9014a05467','Java')"
+      onclick="switchTab('47cad91742f6e567ca549ff2c3a972a7','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3707,7 +3717,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('68cf512a32c8bd4f81b35f9014a05467','Python')"
+      onclick="switchTab('47cad91742f6e567ca549ff2c3a972a7','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3774,10 +3784,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1693935059" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1693935059" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1693935059" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1694527509" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1694527509" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1694527509" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1693935059 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1694527509 defer"></script>
   </body>
 </html>
