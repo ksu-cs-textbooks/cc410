@@ -181,4 +181,4 @@ The Janeway, Borg, The Troi
 
 ###### 4 - Galaxy Class
 
-The Scotty, Enterprise, The Picard
+The Spock, Enterprise, The Picard
