@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Week 5 Announcements</h2>
+	<h2>Week 6 Announcements</h2>
 </section>
 
 <section>
@@ -23,6 +23,7 @@ hidden: true
 		<li>Course Intro</li>
 		<li>1 - What is CS?</li>
 		<li>2 - Early Computing</li>
+		<li>TLCS 1 - Autobiography</li>
 	</ul>
 </section>
 
@@ -31,16 +32,16 @@ hidden: true
 	<ul>
 		<li>Welcome!</li>
 		<li>Course Intro</li>
-		<li>0 - Codio Intro</li>
-		<li>1 - Basic Python</li>
+		<li>Lab 2 - Numbers & Math</li>
+		<li>Lab 3 - Strings & Inpu</li>
 	</ul>
 </section>
 
 <section>
 	<h3>CC 730</h3>
 	<ul>
-		<li>4 - Conditionals</li>
 		<li>5 - Loops</li>
+		<li>6 - Methods</li>
 		<li><i>More Content Coming Soon!</i></li>
 	</ul>
 </section>
@@ -48,7 +49,8 @@ hidden: true
 <section>
 	<h3>CC 750</h3>
 	<ul>
-		<li>5 - Stacks</li>
 		<li>6 - Recursion</li>
+		<li>TLCS A - Pedagogy</li>
+		<li>7 - Searching & Sorting</li>
 	</ul>
 </section>
