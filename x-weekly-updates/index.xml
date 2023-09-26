@@ -1898,6 +1898,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3574,6 +3584,13 @@ Resources Slides Edited Transcript Hello, and welcome to the week one Announceme
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week05/index.html</guid>
       <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC410 in fall 2023. This week you should be wrapping up a module on inheritance and polymorphism and there&amp;rsquo;s also an example on inheritance that&amp;rsquo;s really fun. Also this week you&amp;rsquo;ll be asked to complete the start -stop -continue survey. I talked about that a bit last week. It&amp;rsquo;s a short survey that&amp;rsquo;s kind of an informal T -val in the middle of the semester giving me some advice on things I should either start doing, stop doing, or make sure I continue doing.</description>
+    </item>
+    <item>
+      <title>Fall &#39;23 Week 6</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week06/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/week06/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week six announcements video for CC410 in fall 2023. So this week you should be wrapping up the example on debugging and logging and also an example around Lambda Expressions. You&amp;rsquo;ll be working on the third restaurant milestone, which is quite a big one where we add some inheritance and polymorphism in your project. And you should also now be following all of the guidelines regarding style checking, unit testing, type checking, all of that.</description>
     </item>
   </channel>
 </rss>
