@@ -23,7 +23,7 @@ This example will cover creating various design patterns to represent types of d
   * Java: It must compile using Gradle.
   * Python: It must be interpreted using Python 3.10. Where specified, type hints should be included in the code, and all code should pass a strict Mypy type check.
     * There are instances where Mypy is unable to determine the type of lambda expressions used as commands with buttons. This error can be ignored.
-* **Some unit tests are required for this example - see below.**
+* **No Unit Tests are required for this example. They are added in a later example.**
 * **Documentation comments are not required for this example, but they are recommended for your own use.**
 * **All code submitted must be free of style errors.** We will be using the [Google Style Guide](https://google.github.io/styleguide/) for each language. 
   * **Style errors related to documentation comments (or lack thereof) will be ignored.**
