@@ -1,7 +1,7 @@
 ---
 title: "GUI Basics"
-pre: "6. "
-weight: 60
+pre: "8. "
+weight: 80
 ---
 
 In this example project, we'll go through the steps of creating a simple GUI using either Java Swing or Python tkinter. This builds on top of a sample restaurant project, so many of the things we'll cover in this example can be directly applied to the upcoming milestone.
