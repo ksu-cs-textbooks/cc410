@@ -133,8 +133,6 @@ This is a suggested list of unit tests you may wish to implement to test your ne
 * Instructions list:
   * The instructions list should contain the combo name if set, or a default message if not set.
   * The instructions list should include a discount message if all combo items are populated.
-* Exceptions:
-  * Adding the wrong type to the combo throws an exception (try adding an entree as a side, or adding a combo as an entree, etc.)
 * Equality tests (use test doubles instead of real objects):
   * Two combos containing the same items and name are equal
   * Two combos with different name and same items are not equal
