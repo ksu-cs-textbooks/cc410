@@ -3570,6 +3570,7 @@ By this point, you should be familiar enough with the history of computers to be
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/03-software-crisis/index.html</guid>
       <description>Content Note The content on this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
+YouTube Video
 Video Materials
 At the 1968 NATO Software Engineering Conference held in Garmisch Germany, the term &amp;ldquo;Software Crisis&amp;rdquo; was coined to describe the current state of the software development industry, where common problems included:
 Projects that ran over-budget Projects that ran over-time Software that made inefficient use of calculations and memory Software was of low quality Software that failed to meet the requirements it was developed to meet Projects that became unmanagable and code difficult to maintain Software that never finished development The software development industry sought to counter these problems through a variety of efforts:</description>
@@ -3580,6 +3581,7 @@ Projects that ran over-budget Projects that ran over-time Software that made ine
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/04-evolution/index.html</guid>
       <description>Content Note The content on this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
+YouTube Video
 Video Materials
 One of the strategies that computer scientists employed to counter the software crisis was the development of new programing languages. These new languages would often 1) adopt new techniques intended to make errors harder to make while programming, and 2) remove problematic features that had existed in earlier languages.</description>
     </item>
@@ -3588,7 +3590,8 @@ One of the strategies that computer scientists employed to counter the software 
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/05-professional-code/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/01-hello-real-world/05-professional-code/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 As we saw earlier in this module, the software development industry adopted many new processes and ideas to help combat the issues that arose during the software crisis. One of the major things they focused on was how to write code that is easy to understand, easy to maintain, and works as intended with a minimal amount of bugs. Let&amp;rsquo;s review a few of the concepts that came from those efforts, which we&amp;rsquo;ll learn more about throughout this semester.</description>
     </item>
     <item>

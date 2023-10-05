@@ -3563,7 +3563,8 @@ All code must be object-oriented. All executable code must be within a class Pyt
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/05-debugging-logging/02-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/05-debugging-logging/02-java/index.html</guid>
-      <description>Resources Codio Debugger Java Logging API Tutorial Configuring Codio Debugger Make sure the application section of build.gradle is set to the correct application.
+      <description>YouTube Video
+Resources Codio Debugger Java Logging API Tutorial Configuring Codio Debugger Make sure the application section of build.gradle is set to the correct application.
 Can copy unit test code to a test main function for testing. Codio doesn&amp;rsquo;t have a good way to individually debug a single unit test, but some IDEs do.
 Gradle Changes Added entries in the application section for both programs. Can comment/uncomment as needed.
 application { // Define the main class for the application.</description>
@@ -3574,6 +3575,7 @@ application { // Define the main class for the application.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/05-debugging-logging/02-python/index.html</guid>
       <description>Update to Python If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates
+YouTube Video
 Resources Codio Debugger Logging HOWTO Configuring Codio Debugger Edit src/__main__.py to set Python path:
 import sys sys.path.append(&amp;#34;/home/codio/workspace/python/&amp;#34;) Make sure src/__main__.py imports and calls correct main method.
 Can copy unit test code to a test main function for testing.</description>
