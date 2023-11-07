@@ -1928,6 +1928,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3574,23 +3584,23 @@
     <link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/04-creating-threads/index.xml" rel="alternate" type="application/rss+xml" title="Creating Threads :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/04-creating-threads/index.print.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/ii-gui/12-parallelism/04-creating-threads/tele.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1698247943" rel="icon" type="image/x-icon" sizes="any">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1699376825" rel="icon" type="image/x-icon" sizes="any">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1698247993" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1698247993" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1698247993" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1698247993" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1698247993" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1698247993" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1698247993" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1698247993" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1698247993" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1699376875" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1699376875" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1699376875" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1699376875" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1699376875" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1699376875" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1699376875" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1699376875" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1699376875" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1698247993" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1698247993" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1698247993" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1698247993" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1698247993"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1699376875" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1699376875" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1699376875" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1699376875" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1699376875"></script>
     
     
     
@@ -3612,7 +3622,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1698247993" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1699376875" rel="stylesheet">
 
     
   </head>
@@ -3637,34 +3647,34 @@
 <p>Creating a thread is very simple in many modern programming languages. Both Java and Python include libraries for dealing with threads, and to create a new thread, each one simply requires some sort of function or method to serve as the starting point for the new thread. In a way, this is just like the <code>main()</code> method that is the starting point of most programs - we&rsquo;re just defining a new method to serve as the starting point for a new thread.</p>
 <p>Once we&rsquo;ve created the thread, it is given to the operating system for scheduling. Our main thread can continue to work, and the newly created thread will also start to run as well. So, the theoretical model might look something like this:</p>
 <p>
-<a href="#image-ab7c6d58593329433622237b0d44cd52" class="lightbox-link">
+<a href="#image-b7a5784d5ad948a0f07c48f225ed9d95" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread1.svg" alt="Thread Model" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-ab7c6d58593329433622237b0d44cd52">
+<a href="javascript:history.back();" class="lightbox" id="image-b7a5784d5ad948a0f07c48f225ed9d95">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread1.svg" alt="Thread Model" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Here, it appears that both threads are running simultaneously. However, as we discussed earlier in this chapter, that isn&rsquo;t really the case. For example, if the system only has one processor core, and these are the only two threads running on the system, then the threads might be interleaved on that processor like this:</p>
 <p>
-<a href="#image-2b95b72f7851d53b9167a7d20015b2a9" class="lightbox-link">
+<a href="#image-0a0446e651eeb323d08b1b0da061038c" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread2.svg" alt="Single Core" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-2b95b72f7851d53b9167a7d20015b2a9">
+<a href="javascript:history.back();" class="lightbox" id="image-0a0446e651eeb323d08b1b0da061038c">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread2.svg" alt="Single Core" class="lightbox-image" loading="lazy">
 </a></p>
 <p>If we expand that to two processor cores, then they might actually run simultaneously, like this:</p>
 <p>
-<a href="#image-95ec88cd9c93eeba2f997a18b0fb61f1" class="lightbox-link">
+<a href="#image-f448f6e9917eb34daf432e22122aaf38" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread3.svg" alt="Dual Core" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-95ec88cd9c93eeba2f997a18b0fb61f1">
+<a href="javascript:history.back();" class="lightbox" id="image-f448f6e9917eb34daf432e22122aaf38">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread3.svg" alt="Dual Core" class="lightbox-image" loading="lazy">
 </a></p>
 <p>Of course, this is a <em>very</em> simplified view of this process. In practice, there will be many processes and threads that are competing for access across several cores, so the actual model could look something like this:</p>
 <p>
-<a href="#image-07efdbd887410ecad77f7e4127e6a0cf" class="lightbox-link">
+<a href="#image-bcf8aa5eb333aac338fef4374439497d" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread4.svg" alt="Threading Model" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-07efdbd887410ecad77f7e4127e6a0cf">
+<a href="javascript:history.back();" class="lightbox" id="image-bcf8aa5eb333aac338fef4374439497d">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/10/thread4.svg" alt="Threading Model" class="lightbox-image" loading="lazy">
 </a></p>
 <p>As we can see, the processors are always executing some code, but many times they are executing code in a thread from some other application. Our application&rsquo;s code will be scheduled by the operating system in between the other threads, but we cannot guarantee when it will be scheduled or for how long. Also, while this diagram makes it appear that each thread will only be scheduled on one processor, in fact the thread could be scheduled on ANY processor that is available. On a modern personal computer today, there may be as many as 16 or 32 individual threads available, sometimes multiple threads per CPU core, in the processor!</p>
@@ -3687,10 +3697,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1698248013" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1698248013" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1698248013" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1699376895" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1699376895" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1699376895" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1698248013 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1699376895 defer"></script>
   </body>
 </html>
