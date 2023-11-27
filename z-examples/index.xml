@@ -3693,6 +3693,14 @@ The next page will discuss the overall requirements that this example project sh
 The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.</description>
     </item>
     <item>
+      <title>Forms</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/12-forms/index.html</guid>
+      <description>In this example project, we&amp;rsquo;ll explore adding a simple search form to our existing movies website. This form will allow us to filter our movies based on a few criteria, and we&amp;rsquo;ll be able to explore how to receive form data in our web applications.
+The next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.</description>
+    </item>
+    <item>
       <title>REST</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/13-rest/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
