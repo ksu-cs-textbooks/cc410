@@ -2,7 +2,6 @@
 title: "Forms"
 pre: "12. "
 weight: 120
-hidden: true
 ---
 
 In this example project, we'll explore adding a simple search form to our existing movies website. This form will allow us to filter our movies based on a few criteria, and we'll be able to explore how to receive form data in our web applications.
