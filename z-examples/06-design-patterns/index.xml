@@ -123,6 +123,11 @@
 	
 		
 		
+
+	
+	
+		
+		
 		
 		
 
@@ -3592,7 +3597,8 @@ General Requirements All code must be object-oriented. All executable code must 
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/06-design-patterns/02-java/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/06-design-patterns/02-java/index.html</guid>
-      <description>Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>YouTube Video
+Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; java Install SDKMAN Instructions
 curl -s &amp;#34;https://get.sdkman.io&amp;#34; | bash Close and Reopen Terminal to load SDK Man
 Install Gradle
@@ -3603,7 +3609,8 @@ sdk install gradle 7.6 Compile, Run &amp;amp; Test Existing Project cd java grad
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/06-design-patterns/02-python/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/06-design-patterns/02-python/index.html</guid>
-      <description>Outline Here is a basic outline of the steps to follow to complete this example.
+      <description>YouTube Video
+Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &amp;lt;url&amp;gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp;amp; Test Existing Project python3 -m tox Confirm that project runs. Build DiceSet class Build DiceSetBuilder interface and implementations Build DiceSetFactory Update Main class When complete, use Git to commit and push updated code.</description>
     </item>
   </channel>
