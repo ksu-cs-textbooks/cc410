@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 1** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 This first milestone involves building the classes that represent items on the restaurant's menu. In a traditional [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) software design pattern, these classes would make up the core of the **model**. This content should be mostly review of concepts learned in prior CC courses with the addition of enumerations (enums). It should not be particularly difficult, but it may be repetitive and time consuming. 
 
@@ -75,15 +75,15 @@ It is easier to get this correct from the start, then having to refactor your co
 This milestone should include the following features:
 
 * Entree classes - 5
-  * Declared in the `gamegrub.data.entrees` package
+  * Declared in the `sfsubs.data.entrees` package
 * Side classes - 3
-  * Declared in the `gamegrub.data.sides` package
+  * Declared in the `sfsubs.data.sides` package
 * Drink classes - 3
-  * Declared in the `gamegrub.data.drinks` package
+  * Declared in the `sfsubs.data.drinks` package
 * Enumeration classes - 3
-  * Declared in the `gamegrub.data.enums` package
+  * Declared in the `sfsubs.data.enums` package
 
-See the [Game Grub Menu](#game-grub-menu) section below for descriptions of what each class should contain.
+See the [Starfleet Subs Menu](#starfleet-subs-menu) section below for descriptions of what each class should contain.
 
 **Python** - these files should include complete type annotations and achieve a low imprecision percentage in Mypy using strict type checking.
 
@@ -133,9 +133,9 @@ Submit this assignment by creating a release on GitHub and uploading the release
 ---
 ---
 
-## Game Grub Menu
+## Starfleet Subs Menu
 
-_our motto: play fair, eat well_
+_our motto: to boldly eat a sandwich where no sandwich has been eaten before_
 
 Each attribute described below should be implemented as a private variable within the class. Most attributes will also include a **getter** method, and sometimes a **setter** method, following this naming scheme (using **Price** as an example): 
   * **Java** - The private `price` attribute would have a `getPrice` getter and `setPrice` setter method.
@@ -145,7 +145,7 @@ Each attribute described below should be implemented as a private variable withi
 
 ### Entrees
 
-Each entree should be stored in an appropriately named class in the `gamegrub.data.entrees` package. Each entree should include an attribute for the following data:
+Each entree should be stored in an appropriately named class in the `sfsubs.data.entrees` package. Each entree should include an attribute for the following data:
   * **Base** - a `Base` value (see below). It should have a **getter** and **setter** method.
   * **Topping** - a Java [HashSet](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashSet.html) or a Python [set](https://docs.python.org/3.10/library/stdtypes.html#set) of `Topping` values (see below). 
     * This attribute should have a **getter** method that returns a **shallow copy** of the set to prevent external modification. See [HashSet's Copy Constructor (Java)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/HashSet.html#%3Cinit%3E(java.util.Collection)) or [set.copy (Python)](https://docs.python.org/3.10/library/stdtypes.html#frozenset.copy). 
@@ -163,7 +163,7 @@ Unfortunately, the Java `clone()` methods can cause an unchecked cast exception 
 
 {{% /notice %}}
 
-Each entree class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entree. The string should be formatted as "{entree name} on {base}", such as "Clue Chili on Spaghetti".
+Each entree class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the entree. The string should be formatted as "{entree name} on {base}", such as "The Kirk on White Bread".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal **only if the values of all attributes** are equal. 
 
@@ -181,76 +181,76 @@ This means that the prices shown on the menu already include the upcharge for th
 
 {{% /notice %}}
 
-##### Clue Chili
+##### The Kirk (Ham & Cheese)
 
-_you'll have to discover "whodunit" and created this twist on a classic_
+_just like the man himself, this sandwich "hams" it up and is super "cheesy"_
 
-`gamegrub.data.entrees.Clue` - The price is **$10.45** and it is **1165** calories. Served on a **Spaghetti Base**. Ingredients: **Spicy Beef**, **Chili**, **Red Sauce** and **Beans**. Toppings: **Onion**, **Cheese** and **Hot Sauce**
+`sfsubs.data.entrees.Kirk` - The price is **$7.35** and it is **650** calories. Served on **White Bread** with **Ham** and **Cheese**. Comes with **Lettuce, Tomato, and Mayo**. 
 
-##### Jenga Nachos
+##### The Janeway (Italian)
 
-_stack them higher and higher until it all falls down_
+_a sandwich tasty enough for any "voyager" to enjoy_
 
-`gamegrub.data.entrees.Jenga` - The price is **$11.85** and it is **1470** calories. Served on a **Chips Base**. Ingredients: **Spicy Beef**, and **Beans**. Toppings: **Onion**, **Cheese**, **Sour Cream**, **Hot Sauce** and **Guacamole**
+`sfsubs.data.entrees.Janeway` - The price is **$10.35** and it is **950** calories. Served on **White Bread** with **Ham**, **Pepperoni**, **Salami** and **Cheese**. Comes with **Lettuce, Tomato, Onion, Pickles, Peppers, and Mayo**. 
 
-##### Yahtzee Poké
+##### The bb-Q (BBQ)
 
-_a refreshing dish perfect for a day on the water_
+_the ultimate judgement of humanity, a "continuum" of meats_
 
-`gamegrub.data.entrees.Yahtzee` - The price is **$15.25** and it is **785** calories. Served on a **Rice Base**. Ingredients: **Tuna**, **Veggies**, and **Seaweed**. Toppings:  **Guacamole**, **Soy Sauce**, **Hot Sauce** and **Crispy Strips**
+`sfsubs.data.entrees.Bbq` - The price is **$12.25** and it is **1375** calories. Served on **White Bread** with **Brisket**, **Pulled Pork**, **Sausage**, and **Bacon**. Comes with **Onion, Pickles, and BBQ Sauce**. 
 
-##### Chess Chicken Parmesan
+##### The Riker (Nearly Everything)
 
-_a hearty dish to checkmate any hunger_
+_our "number one" sandwich_
 
-`gamegrub.data.entrees.Chess` - The price is **$13.65** and it is **1555** calories. Served on a **Spaghetti Base**. Ingredients: **Crispy Chicken**, and **Red Sauce**. Toppings: **Cheese** and **Fresh Herbs**
+`sfsubs.data.entrees.Riker` - The price is **$17.01** and it is **1701** calories. Served on **Wheat Bread** with **Ham**, **Turkey**, **Pepperoni**, **Salami**, **Brisket**, **Pulled Pork**, **Bacon** and **Cheese**. Comes with **Lettuce, Tomato, Onion, Pickles, Peppers, Olives, Mayo, Mustard, and BBQ Sauce**
 
-##### Monopoly Bowl
+##### The Spock (Vegetarian)
 
-_a true winner takes home everything_
+_a most logical choice_
 
-`gamegrub.data.entrees.Monopoly` - The price is **$18.65** and it is **1685** calories. Served on a **Rice Base**. Ingredients: **Spicy Beef**, **Crispy Chicken**, **Beans**, and **Veggies**. Toppings: **Onion**, **Cheese**, **Hot Sauce**, **Sour Cream**, **Guacamole**, and **Crispy Strips**
+`sfsubs.data.entrees.Spock` - The price is **$6.50** and it is **700** calories. Served on **Wheat Bread** with **Cheese**. Comes with **Lettuce, Tomato, Onion, Pickles, Peppers, Olives, and Mayo**. 
 
 ---
 
 ### Sides
 
-Each side should be stored in an appropriately named class in the `gamegrub.data.sides` package. Each side should include an attribute for the following data:
+Each side should be stored in an appropriately named class in the `sfsubs.data.sides` package. Each side should include an attribute for the following data:
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
 
 In addition, each side should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
   * **Price** - a Java `double` or Python `float` value. 
   * **Calories** - an `int` value.
 
-Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Junior Potato Dice".
+Each side class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the side. The string should be formatted as "{size} {side name}", such as "Small Data Chips".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
-Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Junior`. 
+Each side description will include a **Price** and number of **Calories** for each **Size**. The sides will have a default size of `Small`. 
 
-##### Potato Dice
+##### Data Chips (Potato Chips)
 
-_a pile of d6 shaped taters, deep fried and tasty_
+_crispy, crunchy potato chips seeking to understand human emotions_
 
-`gamegrub.data.sides.Dice` - Junior: **$2.75** and **350** calories. Classic: **$3.85** and **475** calories. Winner: **$5.35** and **795** calories. 
+`sfsubs.data.sides.Data` - Small: **$2.75** and **250** calories. Medium: **$2.25** and **350** calories. Large: **$3.50** and **550** calories. 
 
-##### Catan Skewers
+##### Enterprise (Cookie & 2 Pickles)
 
-_wheat breaded lamb skewers, baked in a wood-fired clay oven and sprinkled with salt ore - every resource in the game!_
+_a round cookie and two gherkin "nacelles" in honor of the best ship in the fleet_
 
-`gamegrub.data.sides.Catan` - Junior: **$4.45** and **530** calories. Classic: **$6.85** and **815** calories. Winner: **$8.65** and **1045** calories. 
+`sfsubs.data.sides.Enterprise` - Small: **$2.98** and **170** calories. Medium: **$3.77** and **340** calories. Large: **$5.55** and **510** calories. 
 
-##### Risk Bites
+##### Borg (Pretzel Bites)
 
-_deep fried mac & cheese balls, but one has a spicy surprise - are you brave enough to risk it?_
+_it is "futile" to "resist" these identical square pretzel bites wrapped in foil_
 
-`gamegrub.data.sides.Risk` - Junior: **$3.95** and **480** calories. Classic: **$5.15** and **755** calories. Winner: **$6.95** and **940** calories.
+`sfsubs.data.sides.Borg` - Small: **$3.55** and **375** calories. Medium: **$4.15** and **565** calories. Large: **$6.65** and **780** calories. 
 
 ---
 
 ### Drinks
 
-Each drink should be stored in an appropriately named class in the `gamegrub.data.drinks` package. Each drink should include an attribute for the following data:
+Each drink should be stored in an appropriately named class in the `sfsubs.data.drinks` package. Each drink should include an attribute for the following data:
   * **Size** - a `Size` value (see below). It should have a **getter** and **setter** method.
 
 In addition, each drink should have the ability to return the following data through an appropriate **getter** method. The data may be stored as attributes or hard coded directly into the method. 
@@ -259,7 +259,7 @@ In addition, each drink should have the ability to return the following data thr
   * **Instructions** - a Java [LinkedList](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/LinkedList.html) of `String` values or a Python [list](https://docs.python.org/3.10/library/stdtypes.html#list) of `str` values. 
     * If stored as an attribute, it should return a **shallow copy** of the list to prevent external modification. See [LinkedList's Copy Constructor (Java)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/LinkedList.html#%3Cinit%3E(java.util.Collection)) or [list.copy (Python)](https://docs.python.org/3.10/library/stdtypes.html#typesseq-mutable). 
 
-Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Junior Candy Land Shake".
+Each drink class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the drink. The string should be formatted as "{size} {drink name}", such as "Small Picard".
 
 It should also override the default equality method (`equals()` in Java or `__eq__()` in Python). Two items should be considered equal only if the values of all attributes are equal. 
 
@@ -269,37 +269,37 @@ In addition, drinks may specify default flavors that should be represented using
 
 If all flavors are at their default values, the **Instructions** list should be empty. 
 
-Each drink description will include a **Price** and number of **Calories** for each **Size**. The drinks will have a default size of `Junior`. Changes to the **Size** attribute will not affect the **Instructions** attribute. 
+Each drink description will include a **Price** and number of **Calories** for each **Size**. The drinks will have a default size of `Small`. Changes to the **Size** attribute will not affect the **Instructions** attribute. 
 
-##### Candy Land Shake
+##### The Picard (Hot Tea)
 
-_a classic shake with all the candy!_
+_tea, Earl Grey, hot_
 
-`gamegrub.data.drinks.Candy` - Flavors: **Chocolate** (default), **Vanilla**, and **Strawberry**. Junior: **$5.75** and **770** calories. Classic: **$7.45** and **1215** calories. Winner: **$9.55** and **1465** calories.
+`sfsubs.data.drinks.Picard` - Tea served with **Lemon**. Can optionally add **Ice**. Small: **$0.95** and **5** calories. Medium: **$2.35** and **10** calories. Large: **$2.25** and **15** calories.
 
-##### Sorry Soda
+##### The Troi (Latte/Mocha)
 
-_soda fountain for all, no apologies needed_
+_the ultimate comfort drink inspired by a chocolate sundae_
 
-`gamegrub.data.drinks.Sorry` - Flavors: **Cola** (default), **Cherry**, **Grape**, and **Orange**. Junior: **$2.55** and **370** calories. Classic: **$3.85** and **535** calories. Winner: **$5.35** and **765** calories.
+`sfsubs.data.drinks.Troi` - Espresso served with **Chocolate**,  **Whipped Cream** and a **Cherry**. Can optionally add **Extra Espresso Shot**. Small: **$3.75** and **300** calories. Medium: **$4.35** and **425** calories. Large: **$5.25** and **600** calories.
 
-##### Cranium Coffee
+##### The Worf (Prune Juice)
 
-_fuel for the brain to win the game_
+_a warrior's drink_
 
-`gamegrub.data.drinks.Cranium` - Flavors: **Milk** (default), **Caramel**, **Chocolate**, and **Mint**. Junior: **$4.35** and **380** calories. Classic: **$5.25** and **495** calories. Winner: **$6.00** and **585** calories.
+`sfsubs.data.drinks.Worf` - Prune Juice. Can optionally add **Ice**. Small: **$1.25** and **150** calories. Medium: **$2.25** and **225** calories. Large: **$2.55** and **415** calories.
 
 ---
 
 ### Enumerations
 
-Each enumeration should be stored in an appropriately named class in the `gamegrub.data.enums` package. Each enumeration class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the item. Python developers may also wish to override the `__repr__()` method to return this value as well.
+Each enumeration should be stored in an appropriately named class in the `sfsubs.data.enums` package. Each enumeration class should also override the default string representation method (`toString()` in Java or `__str__()` in Python) and return a string that properly describes the item. Python developers may also wish to override the `__repr__()` method to return this value as well.
 
 ##### Base
 
-_an excellent start for a delicious meal_
+_an upper deck and a lower deck is important for any sub_
 
-`gamegrub.data.enums.Base` - **Rice** (add $1.00), **Spaghetti** (add $1.50) or **Chips** (add $2.00)
+`sfsubs.data.enums.Base` - **White Bread** (no upcharge), **Wheat Bread** (add $0.50), **Sourdough Bread** (add $1.00)
 
 {{% notice tip "Enums with Data" %}}
 
@@ -312,16 +312,15 @@ It is possible to create an enumeration that also stores additional data associa
 
 ##### Size
 
-_strategies to win any game and fulfill your hunger_
+_options to fit any appetite_
 
-`gamegrub.data.enums.Size` - **Junior** (Small), **Classic** (Medium), **Winner** (Large)
+`sfsubs.data.enums.Size` - **Small**, **Medium**, **Large**
+##### Topping
 
-##### Toppings
+_don't forget your KHAAAAAANNNNN!-diments_
 
-_complete your meal and win the day_
-
-`gamegrub.data.enums.Toppings` - **Onions**, **Cheese**, **Hot Sauce**, **Sour Cream**, **Guacamole**, **Soy Sauce**, **Crispy Strips**, **Fresh Herbs**
+`sfsubs.data.enums.Topping` - **Lettuce**, **Tomato**, **Onion**, **Pickles**, **Peppers**, **Olives**, **Mayo**, **Mustard**, **BBQ Sauce**
 
 ---
 
-_Special thanks to friends and family for inspiration and menu suggestions!_
+_Special thanks to Nathan, Stephen, Sarah, Kellie, Dan, Jack, Josh, Pascal, Beth, and Vince for inspiration and menu suggestions!_

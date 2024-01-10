@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 10** of the **CC 410 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 The tenth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.
 
@@ -16,7 +16,7 @@ The tenth milestone involves moving into the web by creating a data-driven websi
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -39,8 +39,8 @@ Add a Web Framework to the existing project.
 
 ###### Web Code
 
-* Create a new `gamegrub.web` package.
-* Create a `gamegrub.web.MenuController` class to act as the controller. It should include the following routes:
+* Create a new `sfsubs.web` package.
+* Create a `sfsubs.web.MenuController` class to act as the controller. It should include the following routes:
   * `/` - a home page for the application.
   * `/about` - an about page with the text given at the bottom of the page. You may add additional text and items as desired
   * `/menu` - a page that includes the entire menu (all predefined combos, entrees, sides, and drinks). 
@@ -53,22 +53,22 @@ Add a Web Framework to the existing project.
 Create a base layout file including the following:
 
 * Valid HTML5 structure
-* A &lt;title&gt; element including the page name, followed by ` - Game Grub`
+* A &lt;title&gt; element including the page name, followed by ` - About Starfleet Subs`
 * A &lt;body&gt; containing:
   * &lt;nav&gt; that contains links to all pages in the application
   * &lt;main&gt; containing all the content in the page
-  * &lt;footer&gt; containing the following copyright notice: "&copy; 2023 Game Grub"
+  * &lt;footer&gt; containing the following copyright notice: "&copy; 2023 About Starfleet Subs"
 * It is recommended (but not required) to build upon an existing template. You may wish to review the [Bootstrap 4.6 Examples](https://getbootstrap.com/docs/4.6/examples/). 
 
 Create the following template files to match the routes listed above:
 
 * `index.html` contains an &lt;h1&gt; tag with the title "Homepage" and the following text in a paragraph (you may add additional text as desired):
 
-> Welcome to Game Grub! Our motto: play fair, eat well!
+> Welcome to Starfleet Subs! Our motto: to boldly eat a sandwich where no sandwich has been eaten before!
 
-* `about.html` contains an &lt;h1&gt; tag with the title "About Game Grub" and the following text in a paragraph (you may add additional text as desired):
+* `about.html` contains an &lt;h1&gt; tag with the title "About Starfleet Subs" and the following text in a paragraph (you may add additional text as desired):
 
-> Game Grub was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
+> Starfleet Subs was developed as part of the CC 410 course at Kansas State University by &lt;your name here&gt;.
 
 * `menu.html` contains the following content:
   * an &lt;h1&gt; containing "Menu"

@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 9** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 The ninth milestone involves finalizing the GUI for creating orders and combos, and handling the steps to check out and pay for an order, including printing a receipt. The purpose is to continue to learn how to use and modify an existing GUI and interface with an external library. 
 
@@ -24,7 +24,7 @@ When in doubt, feel free to contact the course instructor to discuss possible id
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 

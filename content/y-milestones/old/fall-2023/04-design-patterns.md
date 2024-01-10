@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 4** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 The fourth milestone involves creating a class to track orders made at the restaurant, a class for combo meals, and more. It also includes many different design patterns to improve the structure of the code. 
 
@@ -16,7 +16,7 @@ The fourth milestone involves creating a class to track orders made at the resta
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -28,7 +28,7 @@ This assignment will add several new classes to the project
 
 ###### Order Class
 
-`gamegrub.data.order.Order` - this class should represent a collection of `Item` objects that make up an order.
+`sfsubs.data.order.Order` - this class should represent a collection of `Item` objects that make up an order.
 * It should implement the **Iterator Pattern**, such that it can be used in a for each loop or enhanced for loop to iterate through all items in the list. 
 * It should also support **standard collection methods** such as:
   * Getting the number of items in the collection 
@@ -52,7 +52,7 @@ This assignment will add several new classes to the project
 
 ###### Combo Class
 
-`gamegrub.data.combo.Combo` - this class should implement the `Item` interface, and represent a combo meal consisting of an entree, a side, and a drink. 
+`sfsubs.data.combo.Combo` - this class should implement the `Item` interface, and represent a combo meal consisting of an entree, a side, and a drink. 
 * The class should have the following **attributes**:
   * String **Name** - the name of the combo
   * A **`Entree`** instance - the entree in the combo
@@ -85,7 +85,7 @@ This assignment will add several new classes to the project
 
 ###### Combo Builder
 
-`gamegrub.data.combo.ComboBuilder` - a class that implements the **Builder Pattern** and **Factory Method Pattern** to build the available combos described below. 
+`sfsubs.data.combo.ComboBuilder` - a class that implements the **Builder Pattern** and **Factory Method Pattern** to build the available combos described below. 
 * It should include a single public **static** method to build a combo that accepts a **string**, and builds and returns the `Combo` object indicated by that string (the name of the combo). 
 * For simplicity, it may also include a public **static** getter for the number of combos available. 
 
@@ -97,7 +97,7 @@ You don't have to create individual classes for the builder pattern in the `Comb
 
 ###### Order Number Singleton
 
-`gamegrub.data.order.OrderNumberSingleton` - a class that implements the **Singleton Pattern** to generate new order numbers.
+`sfsubs.data.order.OrderNumberSingleton` - a class that implements the **Singleton Pattern** to generate new order numbers.
 * The class should have a non-static integer **next order number** attribute, which is initially set to 1
 * It should have one public **static** method **get next order number** that will return the next order number. 
   * This method should call a private **get instance** method to get the actual singleton instance stored as a static attribute in the class. 
@@ -167,18 +167,18 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 ## Combos
 
-###### Game Night
+###### 1 - Original Series
 
-Jenga Nachos, Catan Skewers, Sorry Soda
+The Kirk, Enterprise, The Worf
 
-###### Roll the Dice
+###### 2 - Next Generation
 
-Yahtzee Poke, Potato Dice, Candy Land Shake
+The Riker, Data Chips, The Picard
 
-###### Big Appetite
+###### 3 - Voyage Beyond
 
-Chess Chicken Parmesan, Risk Bites, Cranium Coffee
+The Janeway, Borg, The Troi
 
-###### The Winner
+###### 4 - Galaxy Class
 
-Monopoly Bowl, Potato Dice, Sorry Soda
+The Spock, Enterprise, The Picard

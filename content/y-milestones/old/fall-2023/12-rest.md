@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 12** of the **CC 410 
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 The twelfth milestone involves building a RESTful web application that could be used to manage custom menu items.
 
@@ -16,7 +16,7 @@ The twelfth milestone involves building a RESTful web application that could be 
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -28,13 +28,13 @@ This milestone adds several pieces of functionality to your existing website, fo
 
 ###### Custom Item Class
 
-Create a class `gamegrub.data.custom.CustomItem` that can represent a custom menu item. It should implement the `Item` interface, and should include both getters and setters for all required attributes. The class itself should only store the name, price, and calories of the item. It may simply return an empty list for special instructions. You may add additional utility methods as desired. 
+Create a class `sfsubs.data.custom.CustomItem` that can represent a custom menu item. It should implement the `Item` interface, and should include both getters and setters for all required attributes. The class itself should only store the name, price, and calories of the item. It may simply return an empty list for special instructions. You may add additional utility methods as desired. 
 
 The class should include full documentation comments. You do not have to create any unit tests for this class.
 
 ###### Custom Item List Class
 
-Create a class `gamegrub.data.custom.CustomItemList` that represents a list of custom menu items. This class should implement both the **Iterator** design pattern (using the `Iterable<CustomItem>` type), as well as the **Singleton** design pattern. This class is designed to keep a single list of custom items in memory for the entire application. We are using the singleton pattern so that it can be instantiated in the web controllers as needed, and it will always refer to the same list.
+Create a class `sfsubs.data.custom.CustomItemList` that represents a list of custom menu items. This class should implement both the **Iterator** design pattern (using the `Iterable<CustomItem>` type), as well as the **Singleton** design pattern. This class is designed to keep a single list of custom items in memory for the entire application. We are using the singleton pattern so that it can be instantiated in the web controllers as needed, and it will always refer to the same list.
 
 This class should maintain a list of `CustomItem` objects, and provide methods for adding, retrieving, updating, and deleting those items. You may add additional utility methods as desired. 
 

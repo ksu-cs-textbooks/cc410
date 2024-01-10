@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 6** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 The fifth milestone involves writing unit tests for the order, combo, and associated classes created in the previous milestone. These unit tests will make extensive use of test doubles. 
 
@@ -16,7 +16,7 @@ The fifth milestone involves writing unit tests for the order, combo, and associ
 
 {{< expand "All projects must follow the professional coding standards listed here (click to expand):" >}}
 
-{{< include-local "../_includes/a-requirements.md" >}}
+{{< include-local "../../../_includes/a-requirements.md" >}}
 
 {{< /expand >}}
 
@@ -39,7 +39,7 @@ In addition, some previous tests may need to be updated to match new requirement
 
 Once this milestone is complete, all classes in the following packages should have unit tests that achieve at or near 100% code coverage:
 
-* `gamegrub.data.*`
+* `sfsubs.data.*`
 
 ## Time Requirements
 
@@ -133,8 +133,6 @@ This is a suggested list of unit tests you may wish to implement to test your ne
 * Instructions list:
   * The instructions list should contain the combo name if set, or a default message if not set.
   * The instructions list should include a discount message if all combo items are populated.
-* Exceptions:
-  * Adding the wrong type to the combo throws an exception (try adding an entree as a side, or adding a combo as an entree, etc.)
 * Equality tests (use test doubles instead of real objects):
   * Two combos containing the same items and name are equal
   * Two combos with different name and same items are not equal

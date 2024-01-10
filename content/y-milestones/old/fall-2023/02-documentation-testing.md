@@ -8,7 +8,7 @@ This page lists the milestone requirements for **Milestone 2** of the **CC 410 R
 
 ## Purpose
 
-The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Game Grub_, offering food of all kinds to celebrate our love of games of all kinds. 
+The **CC 410 Restaurant Project** project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named _Starfleet Subs_, based in the [Star Trek](https://en.wikipedia.org/wiki/Star_Trek) universe.
 
 The second milestone involves writing documentation and unit tests for our existing code base. Our goal is to adequately test each part of our code via **unit tests**, reaching 100% code coverage at a minimum. In addition, we'll add all of the required **documentation comments** in our existing code. 
 
@@ -104,7 +104,7 @@ _Some quick tips from when I did this milestone:_
 
 * **DO NOT COPY FROM YOUR SOURCE CODE FROM MILESTONE 1!** Write your unit tests solely using the menu on the previous milestone and the list of tests needed on this milestone. In that way, you will confirm that your tests match the specification and confirm the code is correct, not that your tests match your existing code! Even I found a few errors in my code through writing these unit tests.
 * You may wish to create global attributes in your unit test classes and then generalize your unit tests. For example, add a global `PRICE = 0.50` attribute, and then use that value in your unit test. In that way, when you copy and paste unit test code, you can simply change the global attributes to match the item being tested. Many tests can be generalized in that way such that all entrees test classes share the same code for many tests, referring to global attributes that are changed in each class. The same works for drinks and sides.  
-* Generalizing the tests for individual ingredients in entrees and drinks (such as `beans` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
+* Generalizing the tests for individual ingredients in entrees and drinks (such as `ham` or `cherry`) _can be done_ using reflection or metaprogramming, but **I don't recommend it**. Since each ingredient is an individual attribute, generalization is very complex and prone to errors. Those tests were hard-coded for each individual ingredient in my solution. 
 * **Java** users may wish to review the [EnumSource](https://www.baeldung.com/parameterized-tests-junit-5#3-enum) option for parameterized tests using enums.
 * **Python** users can use enums directly in parameterized tests, as in `@pytest.mark.parametrize("base", Base)`.
 * When following Google's style for Java, you are required to include `default` branches in switch statements across enums, which will be unreached in code coverage. This is fine, but a good reason to avoid switch statements, as you will never get 100% code coverage! I ended up changing my model solution to remove switch statements.
