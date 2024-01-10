@@ -3539,6 +3539,86 @@
 		
 		
 		
+
+	
+	
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+
+	
+	
+		
+		
+		
 		
 		
 
@@ -3605,7 +3685,7 @@ Purpose This assignment mimics the traditional &amp;ldquo;Hello World&amp;rdquo;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/01-restaurant-classes/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 1 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 This first milestone involves building the classes that represent items on the restaurant&amp;rsquo;s menu.</description>
     </item>
     <item>
@@ -3614,7 +3694,7 @@ This first milestone involves building the classes that represent items on the r
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/02-documentation-testing/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 2 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The second milestone involves writing documentation and unit tests for our existing code base.</description>
     </item>
     <item>
@@ -3623,7 +3703,7 @@ The second milestone involves writing documentation and unit tests for our exist
       <pubDate>Tue, 17 Aug 2021 00:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/03-inheritance/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 3 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The third milestone involves refactoring our code to take advantage of inheritance and the use of interfaces.</description>
     </item>
     <item>
@@ -3632,7 +3712,7 @@ The third milestone involves refactoring our code to take advantage of inheritan
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/04-design-patterns/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 4 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The fourth milestone involves creating a class to track orders made at the restaurant, a class for combo meals, and more.</description>
     </item>
     <item>
@@ -3641,7 +3721,7 @@ The fourth milestone involves creating a class to track orders made at the resta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/05-test-doubles/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The fifth milestone involves writing unit tests for the order, combo, and associated classes created in the previous milestone.</description>
     </item>
     <item>
@@ -3650,7 +3730,7 @@ The fifth milestone involves writing unit tests for the order, combo, and associ
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/06-gui-basics/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The sixth milestone involves creating the various GUI windows and panels required for this project.</description>
     </item>
     <item>
@@ -3659,7 +3739,7 @@ The sixth milestone involves creating the various GUI windows and panels require
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/07-event-driven-programming/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 7 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The seventh milestone involves dealing with the various events generated by the GUI and constructing a list of items that represent an order.</description>
     </item>
     <item>
@@ -3668,7 +3748,7 @@ The seventh milestone involves dealing with the various events generated by the 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/08-orders-combos/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 8 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The eighth milestone involves creating combo meals and orders from the items selected in the GUI.</description>
     </item>
     <item>
@@ -3677,7 +3757,7 @@ The eighth milestone involves creating combo meals and orders from the items sel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/09-checkout/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 9 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The ninth milestone involves finalizing the GUI for creating orders and combos, and handling the steps to check out and pay for an order, including printing a receipt.</description>
     </item>
     <item>
@@ -3686,7 +3766,7 @@ The ninth milestone involves finalizing the GUI for creating orders and combos, 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/10-website-basics/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 10 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The tenth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.</description>
     </item>
     <item>
@@ -3695,7 +3775,7 @@ The tenth milestone involves moving into the web by creating a data-driven websi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/11-form-data/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 11 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The eleventh milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.</description>
     </item>
     <item>
@@ -3704,7 +3784,7 @@ The eleventh milestone involves augmenting the menu display from the previous pr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/12-rest/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 12 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The twelfth milestone involves building a RESTful web application that could be used to manage custom menu items.</description>
     </item>
     <item>
@@ -3713,7 +3793,7 @@ The twelfth milestone involves building a RESTful web application that could be 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/y-milestones/13-validation-serialization/index.html</guid>
       <description>This page lists the milestone requirements for Milestone 13 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
-Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
+Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 The thirteenth milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.</description>
     </item>
   </channel>
