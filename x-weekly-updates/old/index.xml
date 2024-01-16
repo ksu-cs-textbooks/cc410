@@ -1863,8 +1863,6 @@
 	
 	
 		
-		
-		
 
 	
 	
@@ -1904,11 +1902,16 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -1942,7 +1945,9 @@
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -1990,7 +1995,12 @@
 
 	
 	
+		
 		
+		
+
+	
+	
 		
 
 	
@@ -2005,8 +2015,13 @@
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -2055,12 +2070,17 @@
 
 	
 	
+		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
 
 	
@@ -2098,7 +2118,6 @@
 		
 		
 		
-		
 
 	
 	
@@ -2106,13 +2125,14 @@
 
 	
 	
+		
+		
+		
 		
 
 	
 	
 		
-		
-		
 
 	
 	
@@ -2166,11 +2186,6 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
 
 	
@@ -2208,11 +2223,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2262,16 +2282,11 @@
 	
 		
 		
-
-	
-	
 		
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -2316,6 +2331,11 @@
 
 	
 	
+		
+
+	
+	
+		
 		
 
 	
@@ -2363,11 +2383,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2405,6 +2430,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2416,7 +2442,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2510,7 +2535,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2522,10 +2546,6 @@
 	
 	
 		
-
-	
-	
-		
 		
 		
 
@@ -2568,15 +2588,10 @@
 		
 		
 		
-
-	
-	
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -3692,10 +3707,17 @@
       <description></description>
     </item>
     <item>
-      <title>Spring 2021</title>
+      <title>Spring 2023</title>
       <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2023/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/spring-2023/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fall 2023</title>
+      <link>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2023/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ksu-cs-textbooks.github.io/cc410/x-weekly-updates/old/fall-2023/index.html</guid>
       <description></description>
     </item>
   </channel>

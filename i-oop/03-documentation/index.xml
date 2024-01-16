@@ -1863,8 +1863,6 @@
 	
 	
 		
-		
-		
 
 	
 	
@@ -1904,11 +1902,16 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -1942,7 +1945,9 @@
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -1990,7 +1995,12 @@
 
 	
 	
+		
 		
+		
+
+	
+	
 		
 
 	
@@ -2005,8 +2015,13 @@
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -2055,12 +2070,17 @@
 
 	
 	
+		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
 
 	
@@ -2098,7 +2118,6 @@
 		
 		
 		
-		
 
 	
 	
@@ -2106,13 +2125,14 @@
 
 	
 	
+		
+		
+		
 		
 
 	
 	
 		
-		
-		
 
 	
 	
@@ -2166,11 +2186,6 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
 
 	
@@ -2208,11 +2223,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2262,16 +2282,11 @@
 	
 		
 		
-
-	
-	
 		
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -2316,6 +2331,11 @@
 
 	
 	
+		
+
+	
+	
+		
 		
 
 	
@@ -2363,11 +2383,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2405,6 +2430,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2416,7 +2442,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2510,7 +2535,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2522,10 +2546,6 @@
 	
 	
 		
-
-	
-	
-		
 		
 		
 
@@ -2568,15 +2588,10 @@
 		
 		
 		
-
-	
-	
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -3685,8 +3700,7 @@ User Documentation is meant for the end-users of the software Developer Document
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/03-documentation-formats/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/03-documentation-formats/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Developer documentation often faces a challenge not present in other kinds of documents - the need to be able to display snippets of code. Ideally, we want code to be formatted in a way that preserves indentation. We also don&amp;rsquo;t want code snippets to be subject to spelling and grammar checks, especially auto-correct versions of these algorithms, as they will alter the snippets. Ideally, we might also apply syntax highlighting to these snippets.</description>
     </item>
     <item>
@@ -3701,8 +3715,7 @@ Developer documentation often faces a challenge not present in other kinds of do
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/05-javadoc/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/05-javadoc/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 The Java software development kit (SDK) includes a tool called Javadoc, which can create documentation based on the documentation comments included in the code. Both the Javadoc Documentation and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
     </item>
     <item>
@@ -3710,8 +3723,7 @@ The Java software development kit (SDK) includes a tool called Javadoc, which ca
       <link>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/06-docstrings/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/i-oop/03-documentation/06-docstrings/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 Many Python developers have standardized on the use of docstrings as documentation comments. Both PEP 257 and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
     </item>
     <item>

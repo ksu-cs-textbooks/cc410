@@ -1863,8 +1863,6 @@
 	
 	
 		
-		
-		
 
 	
 	
@@ -1904,11 +1902,16 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -1942,7 +1945,9 @@
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -1990,7 +1995,12 @@
 
 	
 	
+		
 		
+		
+
+	
+	
 		
 
 	
@@ -2005,8 +2015,13 @@
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -2055,12 +2070,17 @@
 
 	
 	
+		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
 
 	
@@ -2098,7 +2118,6 @@
 		
 		
 		
-		
 
 	
 	
@@ -2106,13 +2125,14 @@
 
 	
 	
+		
+		
+		
 		
 
 	
 	
 		
-		
-		
 
 	
 	
@@ -2166,11 +2186,6 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
 
 	
@@ -2208,11 +2223,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2262,16 +2282,11 @@
 	
 		
 		
-
-	
-	
 		
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -2316,6 +2331,11 @@
 
 	
 	
+		
+
+	
+	
+		
 		
 
 	
@@ -2363,11 +2383,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2405,6 +2430,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2416,7 +2442,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2510,7 +2535,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2522,10 +2546,6 @@
 	
 	
 		
-
-	
-	
-		
 		
 		
 
@@ -2568,15 +2588,10 @@
 		
 		
 		
-
-	
-	
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -3677,8 +3692,7 @@ In this chapter, we&amp;rsquo;re going to explore software libraries and how we 
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/02-software-libraries/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 The term software library can actually mean several things. In essence, a software library is a collection of resources that can be used by computer program, either while it is running or while it is being developed. As we&amp;rsquo;ve learned so far in this course, it makes sense to think of a large software program as a few smaller packages or subsystems that work together. With that view in mind, a software library simply is a subsystem or package that is developed outside of our application.</description>
     </item>
     <item>
@@ -3710,8 +3724,7 @@ Repositories One of the most common ways to find software libraries to include i
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/06-licenses/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/14-libraries/06-licenses/index.html</guid>
-      <description>YouTube Video
-Video Materials
+      <description>Video Materials
 In the world of software, we use the term open-source to refer to any software that has source code that is openly available. This is in contrast to proprietary software, sometimes referred to as closed-source software, which is software with source code that is not publicly available. The software itself may be sold, or even provided for free, but the actual source code is protected by the company.</description>
     </item>
     <item>

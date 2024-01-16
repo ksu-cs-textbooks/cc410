@@ -1863,8 +1863,6 @@
 	
 	
 		
-		
-		
 
 	
 	
@@ -1904,11 +1902,16 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -1942,7 +1945,9 @@
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -1990,7 +1995,12 @@
 
 	
 	
+		
 		
+		
+
+	
+	
 		
 
 	
@@ -2005,8 +2015,13 @@
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -2055,12 +2070,17 @@
 
 	
 	
+		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
 
 	
@@ -2098,7 +2118,6 @@
 		
 		
 		
-		
 
 	
 	
@@ -2106,13 +2125,14 @@
 
 	
 	
+		
+		
+		
 		
 
 	
 	
 		
-		
-		
 
 	
 	
@@ -2166,11 +2186,6 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
 
 	
@@ -2208,11 +2223,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2262,16 +2282,11 @@
 	
 		
 		
-
-	
-	
 		
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -2316,6 +2331,11 @@
 
 	
 	
+		
+
+	
+	
+		
 		
 
 	
@@ -2363,11 +2383,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2405,6 +2430,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2416,7 +2442,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2510,7 +2535,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2522,10 +2546,6 @@
 	
 	
 		
-
-	
-	
-		
 		
 		
 
@@ -2568,15 +2588,10 @@
 		
 		
 		
-
-	
-	
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -3677,7 +3692,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/02-html/index.html</guid>
       <description>Content Note Much of the content in this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
-YouTube Video
 Video Materials
 The World Wide Web was the brainchild of Sir Tim Berners-Lee. It was conceived as a way to share information across the Internet; in Sir Berners-Lee&amp;rsquo;s own words describing the idea as he first conceived it:</description>
     </item>
@@ -3703,7 +3717,6 @@ JavaScript (or ECMAScript, which is the standard JavaScript is derived from), wa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/05-http/index.html</guid>
       <description>Content Note Much of the content in this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
-YouTube Video
 Video Materials
 At the heart of the world wide web is the Hypertext Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).</description>
     </item>
@@ -3737,7 +3750,6 @@ It was not long before new technologies sprang up to replace the ad-hoc string c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/16-data-driven-websites/09-web-frameworks/index.html</guid>
       <description>Content Note Much of the content in this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
-YouTube Video
 Video Materials
 As web sites became web applications, developers began looking to use ideas and techniques drawn from traditional software development. These included architectural patterns like Model-View-Controller (MVC) and Pipeline that simply were not possible with the server page model.</description>
     </item>

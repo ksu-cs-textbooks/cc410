@@ -1863,8 +1863,6 @@
 	
 	
 		
-		
-		
 
 	
 	
@@ -1904,11 +1902,16 @@
 	
 		
 		
+		
+
+	
+	
 		
 
 	
 	
 		
+		
 
 	
 	
@@ -1942,7 +1945,9 @@
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -1990,7 +1995,12 @@
 
 	
 	
+		
 		
+		
+
+	
+	
 		
 
 	
@@ -2005,8 +2015,13 @@
 
 	
 	
+		
+		
 		
 		
+
+	
+	
 		
 
 	
@@ -2055,12 +2070,17 @@
 
 	
 	
+		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
 
 	
@@ -2098,7 +2118,6 @@
 		
 		
 		
-		
 
 	
 	
@@ -2106,13 +2125,14 @@
 
 	
 	
+		
+		
+		
 		
 
 	
 	
 		
-		
-		
 
 	
 	
@@ -2166,11 +2186,6 @@
 	
 	
 		
-		
-		
-
-	
-	
 		
 
 	
@@ -2208,11 +2223,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2262,16 +2282,11 @@
 	
 		
 		
-
-	
-	
 		
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -2316,6 +2331,11 @@
 
 	
 	
+		
+
+	
+	
+		
 		
 
 	
@@ -2363,11 +2383,16 @@
 		
 		
 		
+
+	
+	
 		
 
 	
 	
+		
 		
+		
 
 	
 	
@@ -2405,6 +2430,7 @@
 
 	
 	
+		
 		
 		
 		
@@ -2416,7 +2442,6 @@
 	
 	
 		
-		
 
 	
 	
@@ -2510,7 +2535,6 @@
 
 	
 	
-		
 		
 		
 		
@@ -2522,10 +2546,6 @@
 	
 	
 		
-
-	
-	
-		
 		
 		
 
@@ -2568,15 +2588,10 @@
 		
 		
 		
-
-	
-	
 		
 
 	
 	
-		
-		
 		
 
 	
@@ -3677,8 +3692,7 @@ Java New Project Clone empty GitHub repository into java folder: git clone &amp;
       <link>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/index.html</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/z-examples/01-hello-real-world/index.html</guid>
-      <description>YouTube Video
-In this example project, we will go through all the steps to create a new version of the classic &amp;ldquo;Hello World&amp;rdquo; program, called &amp;ldquo;Hello Real World.&amp;rdquo; We&amp;rsquo;ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.
+      <description>In this example project, we will go through all the steps to create a new version of the classic &amp;ldquo;Hello World&amp;rdquo; program, called &amp;ldquo;Hello Real World.&amp;rdquo; We&amp;rsquo;ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.
 Don&amp;rsquo;t worry if some of this doesn&amp;rsquo;t make sense right now - we&amp;rsquo;ll spend much more time later in this course going into more detail on many of these areas.</description>
     </item>
     <item>
