@@ -3692,7 +3692,8 @@ This chapter will introduce concepts related to building a graphical user interf
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/02-screens/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/02-screens/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Java Swing and Python tkinter are libraries and toolkits for creating Graphical User Interfaces - a user interface that is presented as a combination of interactive graphical and text elements, commonly including buttons, menus, and various flavors of editors and inputs. GUIs represent a major step forward in usability from earlier programs that were interacted with by typing commands into a text-based terminal (the EPIC software we looked at in the beginning of this textbook is an example of this earlier form of user interface).</description>
     </item>
     <item>
@@ -3708,7 +3709,8 @@ Java Swing 1</description>
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/04-designing-gui/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/04-designing-gui/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.
 GUI Sketching 1
 A common technique used when developing a GUI for a program is to simply sketch your design on paper.</description>
@@ -3733,7 +3735,8 @@ Window A window is the top most level of the user interface for most programs. B
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/07-elements/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/07-elements/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Once we&amp;rsquo;ve created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we&amp;rsquo;ll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs.</description>
     </item>
     <item>
@@ -3749,7 +3752,8 @@ X Window System The X Window System (sometimes referred to as X11 or simply X) i
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/09-java-swing/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/09-java-swing/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Now let&amp;rsquo;s dive into Java Swing and see how to make our very first GUI application in Swing.
 Imports At the top of our applications, we&amp;rsquo;ll need to import elements from three different packages:
 import java.awt.*; import java.awt.event.*; import javax.swing.*; The java.awt package includes all of the classes related to the older Abstract Window Toolkit (AWT) in Java, and the java.swing package includes all newer Java Swing packages.</description>
@@ -3759,7 +3763,8 @@ import java.awt.*; import java.awt.event.*; import javax.swing.*; The java.awt p
       <link>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/10-python-tkinter/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/ii-gui/11-gui-basics/10-python-tkinter/index.html</guid>
-      <description>Video Materials
+      <description>YouTube Video
+Video Materials
 Now let&amp;rsquo;s dive into Python tkinter and see how to make our very first GUI application in Tk.
 Imports At the top of our applications, we&amp;rsquo;ll need to import the tkinter library:
 import tkinter as tk This allows us to refer to the tkinter library as tk throughout our application.
