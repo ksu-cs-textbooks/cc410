@@ -63,7 +63,7 @@ hidden: true
 		<li>First Final Project Meeting</li>
 		<li><i>Office Hours</i></li>
 		<li><i>Communication Platforms</i></li>
-		<li><b>Introduce on Ed Discussion</b></li>
+		<li><b>Introduce on Discord</b></li>
 	</ul>
 </section>
 
@@ -151,8 +151,7 @@ hidden: true
 <section>
 	<h3>Keep in Touch!</h3>
 	<ul>
-		<li>Ed Discussion</li>
-	  <li>Discord<ul>
+	  <li>Discussions on Discord<ul>
 	  <li>https://discordbot.cs.ksu.edu</li>
 	  </ul></li>
 	  <li>"Tea Time" Office Hours</li>
