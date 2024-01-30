@@ -1863,6 +1863,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3684,23 +3694,23 @@
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/09-template-method/index.xml" rel="alternate" type="application/rss+xml" title="Template Method Pattern :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/09-template-method/index.print.html" rel="alternate" type="text/html" title="Template Method Pattern :: CC 410 Textbook">
     <link href="https://ksu-cs-textbooks.github.io/cc410/i-oop/09-design-patterns/09-template-method/tele.html" rel="alternate" type="text/html" title="Template Method Pattern :: CC 410 Textbook">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1705426536" rel="icon" type="image/x-icon" sizes="any">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/images/favicon.ico?1706632638" rel="icon" type="image/x-icon" sizes="any">
     
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1705426587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1705426587" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1705426587" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1705426587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1705426587" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1705426587" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1705426587" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1705426587" rel="stylesheet"></noscript>
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1705426587" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1706632691" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fontawesome-all.min.css?1706632691" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/nucleus.css?1706632691" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1706632691" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/auto-complete.css?1706632691" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/perfect-scrollbar.min.css?1706632691" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1706632691" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="https://ksu-cs-textbooks.github.io/cc410/css/fonts.css?1706632691" rel="stylesheet"></noscript>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme.css?1706632691" rel="stylesheet">
     
     
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1705426587" rel="stylesheet" id="variant-style">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1705426587" rel="stylesheet">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1705426587" rel="stylesheet" media="print">
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1705426587" rel="stylesheet">
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1705426587"></script>
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/theme-light-theme.css?1706632691" rel="stylesheet" id="variant-style">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/variant.css?1706632691" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/print.css?1706632691" rel="stylesheet" media="print">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/ie.css?1706632691" rel="stylesheet">
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/url.js?1706632691"></script>
     
     
     
@@ -3722,7 +3732,7 @@
       window.variants && variants.init( [ 'light-theme', 'dark-theme' ] );
     </script>
     
-    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1705426587" rel="stylesheet">
+    <link href="https://ksu-cs-textbooks.github.io/cc410/css/custom.css?1706632691" rel="stylesheet">
 
     
   </head>
@@ -3741,10 +3751,10 @@
  is a pattern that is used to define the outline or skeleton of a method in an abstract parent class, while leaving the actual details of the implementation to the subclasses that inherit from the parent class. In this way, the parent class can enforce a particular structure or ordering of the steps performed in the method, making sure that any subclass will behave similarly.</p>
 <p>In this way, we avoid the problem of the subclass having to include large portions of the code from a method in the parent class when it only needs to change one aspect of the method. If that method is structured as a template method, then the subclass can just override the smaller portion that it needs to change.</p>
 <p>
-<a href="#image-cb79587344e587e8fbde55597901834d" class="lightbox-link">
+<a href="#image-030f616393af8e8f0e43c39520982b33" class="lightbox-link">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/12/template.jpg" alt="Template Method Pattern UML" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-cb79587344e587e8fbde55597901834d">
+<a href="javascript:history.back();" class="lightbox" id="image-030f616393af8e8f0e43c39520982b33">
 <img src="https://ksu-cs-textbooks.github.io/cc410/images/12/template.jpg" alt="Template Method Pattern UML" class="lightbox-image" loading="lazy">
 </a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In the UML diagram above, we see that the parent class contains a method called <code>templateMethod()</code>, which will in part call <code>primitive1()</code> and <code>primitive2()</code> as part of its code. In the subclass, the code for the two <code>primative</code> methods can be overridden, changing how parts of the <code>templateMethod()</code> works, but not the fact that <code>primitive1()</code> will be called before <code>primitive2()</code> within the <code>templateMethod()</code>.</p>
@@ -3757,13 +3767,13 @@
 </ol>
 <p>Then, each individual game can modify that process a bit based on the rules of the game. So, let&rsquo;s see what that might look like in code.</p>
 
-<div class="tab-panel" data-tab-group="e7402436921c922745dd121f4ce2809d">
+<div class="tab-panel" data-tab-group="f931e63ac9c524e7e7819a8486acf86e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('e7402436921c922745dd121f4ce2809d','Java')"
+      onclick="switchTab('f931e63ac9c524e7e7819a8486acf86e','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3773,7 +3783,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e7402436921c922745dd121f4ce2809d','Python')"
+      onclick="switchTab('f931e63ac9c524e7e7819a8486acf86e','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3850,13 +3860,13 @@
 <p>Next, let&rsquo;s explore what this subclass might look like for the game <a href="https://en.wikipedia.org/wiki/Hearts_%28card_game%29" target="_blank">Hearts</a>
 . That game consists of 4 players, uses a standard 52 card deck, and deals 13 cards to each player.</p>
 
-<div class="tab-panel" data-tab-group="ac6cf444bc6a7cd92f026cde2a90b3ae">
+<div class="tab-panel" data-tab-group="11257aff43dcf880e4d9186d71782f35">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="Java"
       class="tab-nav-button tab-panel-style cstyle initial active"
-      onclick="switchTab('ac6cf444bc6a7cd92f026cde2a90b3ae','Java')"
+      onclick="switchTab('11257aff43dcf880e4d9186d71782f35','Java')"
     >
       <div>
         <div class="tab-nav-hidden">Java</div>
@@ -3866,7 +3876,7 @@
     <button
       data-tab-item="Python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('ac6cf444bc6a7cd92f026cde2a90b3ae','Python')"
+      onclick="switchTab('11257aff43dcf880e4d9186d71782f35','Python')"
     >
       <div>
         <div class="tab-nav-hidden">Python</div>
@@ -3964,10 +3974,10 @@
     
     
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1705426590" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1705426590" defer></script>
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1705426590" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/clipboard.min.js?1706632694" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/perfect-scrollbar.min.js?1706632694" defer></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/theme.js?1706632694" defer></script>
     
-    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1705426590 defer"></script>
+    <script src="https://ksu-cs-textbooks.github.io/cc410/js/embed-iframe.js?1706632694 defer"></script>
   </body>
 </html>

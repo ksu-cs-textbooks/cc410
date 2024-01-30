@@ -1863,6 +1863,16 @@
 	
 	
 		
+		
+		
+
+	
+	
+		
+
+	
+	
+		
 
 	
 	
@@ -3693,7 +3703,6 @@ Now that we have explored some ideas about getting data from the web server, let
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/02-html-forms/index.html</guid>
       <description>Content Note Much of the content in this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
-YouTube Video
 Video Materials
 One of the earliest (and still widely used) mechanisms for transferring data from a browser (client) to the server is a form. The &amp;lt;form&amp;gt; is a specific HTML element that contains input fields and buttons the user can interact with.</description>
     </item>
@@ -3730,7 +3739,6 @@ Flask Path Variables In a previous example, we saw how we can create a route tha
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ksu-cs-textbooks.github.io/cc410/iii-web/17-rest-forms/06-restful-routes/index.html</guid>
       <description>Content Note Much of the content in this page was adapted from Nathan Bean&amp;rsquo;s CIS 400 course at K-State, with the author&amp;rsquo;s permission. That content is licensed under a Creative Commons BY-NC-SA license.
-YouTube Video
 Video Materials
 Many web applications deal with some kind of resource, i.e. people, widgets, records. Much like in object-orientation we have organized the program around objects, many web applications are organized around resources. And as we have specialized ways to construct, access, and destroy objects, web applications need to create, read, update, and destroy resource records (we call these CRUD operations).</description>
     </item>
