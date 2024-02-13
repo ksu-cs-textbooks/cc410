@@ -3,7 +3,7 @@ type: "reveal"
 hidden: true
 ---
 <section>
-	<h2>Week 12 Announcements</h2>
+	<h2>Week 5 Announcements</h2>
 </section>
 
 <section>
@@ -12,66 +12,72 @@ hidden: true
 		<li>Sumaira, Akhil, Pavan</li>
 		<li>Office Hours M-Thu 4-6 PM</li>
 		<li><i>Double Coverage Tues & Thurs</i></li>
+		<li>Additional UTA Office Hours</li>
 		<li>Email & Ed Stem</li>
 	</ul>
 </section>
 
 <section>
-	<h3>Video Discussion</h3>
+	<h3>Rolling Enrollment</h3>
 	<ul>
-		<li>Video Posted With this One</li>
+		<li>Welcome New Teachers!</li>
+		<li>Enroll through mid-March</li>
+		<li>No Late Penalties</li>
+		<li>Easy Incomplete Grades</li>
+		<li>Deadlines Not Enforced</li>
 	</ul>
 </section>
 
 <section>
-	<h3>CC 710</h3>
+	<h3>Advice</h3>
 	<ul>
-		<li>13 - HTML</li>
-		<li><i>No Web Programming Exercise</i></li>
-		<li>14 - HPC</li>
-		<li>TLCS 4 - Techniques</li>
+		<li>Make steady progress</li>
+		<li>Try to do something each week</li>
+		<li>Stuck? Ask for Help!</li>
+		<li>Questions & Ideas Welcome</li>
 	</ul>
 </section>
 
 <section>
-	<h3>CC 711</h3>
+	<h3>Upcoming</h3>
 	<ul>
-		<li>Lab 8 - Functions</li>
-		<li>Homework 4 - Decision Tree<li>
-		<li>Lesson Plan 2</li>
-	</ul>
-</section>
-
-<section>
-	<h3>CC 730</h3>
+	  <li>Summer & Fall Enrollment</li>
+		<li>Summer Workshop June 6 - 7</li>
+		<li>KS CSTA Conference June 8</li>
+		<li>Curriculum Requests & Rollout</li>
 	<ul>
-		<li><i>File I/O Coming Soon</i></li>
-		<li><i>Classes Coming Soon</i></li>
-		<li>TLCS B - Educational Standards</li>
-	</ul>
-</section>
-
-<section>
-	<h3>CC 750</h3>
-	<ul>
-		<li>12 - Performance</li>
-	</ul>
-</section>
-
-<section>
-	<h3>Incompletes & Behind Schedule</h3>
-	<ul>
-		<li>Let us know how things are going</li>
-		<li>Ed Discussion & Office Hours</li>
-	</ul>
 </section>
 
 <section>
 	<h3>Enrollment</h3>
 	<ul>
-		<li>CC 710/711 -> CC 730</li>
-		<li>CC 730 -> EDCI 765</li>
-		<li>Certificate -> EDCI 768/769</li>
-		<li>CC 750 next fall</li>
+		<li>CC 710 & CC 711 -><ul>
+			<li>EDCI 765 Summer</li>
+			<li>CC 730 Fall</li>
+		</ul></li>
+		<li>CC 730 -><ul>
+			<li>CC 750 Fall</li>
+			<li>EDCI 768 or 769 Spring</li>
+		</ul></li>
+</section>
+
+<section>
+	<h3>Tuition Payments</h3>
+	<br>
+	<p>Ongoing!</p>
+</section>
+
+<section>
+	<h3>Other Items</h3>
+	<ul>
+		<li>Makerspace Packages</li>
+		<li>Dual Credit</li>
+		<li>AP Credit</li>
+		<li>Research Opportunities</li>
 	</ul>
+</section>
+
+<section>
+	<img class="plain stretch" src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif">
+	<p class="imagecredit">Image Credit: <a href="https://giphy.com/gifs/13HgwGsXF0aiGY">Giphy</a></p>
 </section>
