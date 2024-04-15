@@ -57,7 +57,7 @@ Create a base layout file including the following:
 * A &lt;body&gt; containing:
   * &lt;nav&gt; that contains links to all pages in the application
   * &lt;main&gt; containing all the content in the page
-  * &lt;footer&gt; containing the following copyright notice: "&copy; 2023 Game Grub"
+  * &lt;footer&gt; containing the following copyright notice: "&copy; 2024 Game Grub"
 * It is recommended (but not required) to build upon an existing template. You may wish to review the [Bootstrap 4.6 Examples](https://getbootstrap.com/docs/4.6/examples/). 
 
 Create the following template files to match the routes listed above:
