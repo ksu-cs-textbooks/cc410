@@ -14,7 +14,7 @@ A major area of study is [Defensive Programming](https://en.wikipedia.org/wiki/D
 
 ### Secure Coding
 
-In some programming languages, such as C and C++, the memory for storing data is handled directly by the user, and misuse of this can lead to all sorts of vulnerabilities in the code. We won't cover those here, but if you do decide to learn to program in those languages, it is definitely recommended to also build a strong understanding of how to properly manage memory and avoid these problems. This is known as [secure coding](https://en.wikipedia.org/wiki/Secure_coding)
+In some programming languages, such as C and C++, the memory for storing data is handled directly by the user, and misuse of this can lead to all sorts of vulnerabilities in the code. We won't cover those here, but if you do decide to learn to program in those languages, it is definitely recommended to also build a strong understanding of how to properly manage memory and avoid these problems. This is known as [secure coding](https://en.wikipedia.org/wiki/Secure_coding).
 
 Thankfully, both Java and Python generally handle memory for us, and are much less susceptible to these issues. That doesn't mean that they are immune, and there are situations where a developer can inadvertently expose data, but generally it is difficult to do so.
 
