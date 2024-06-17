@@ -3,9 +3,9 @@ title: "Writing Professional Code"
 weight: 25
 pre: "5. "
 ---
-{{% youtube qIvM_uGgSoE %}}
+{{< youtube qIvM_uGgSoE  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 As we saw earlier in this module, the software development industry adopted many new processes and ideas to help combat the issues that arose during the software crisis. One of the major things they focused on was how to write code that is easy to understand, easy to maintain, and works as intended with a minimal amount of bugs. Let's review a few of the concepts that came from those efforts, which we'll learn more about throughout this semester.
 

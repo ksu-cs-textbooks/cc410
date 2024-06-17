@@ -4,7 +4,7 @@ pre: "2.J. "
 weight: 20
 ---
 
-{{% youtube qail9GqR3gY %}}
+{{< youtube qail9GqR3gY  >}}
 
 ## Resources
 

@@ -1,4 +1,5 @@
 {{/* Place Logo Graphic or Text Here */}}
+{{ $image := resources.Get "images/cc410logo.png" }}
 <a id="logo" href="{{ .Site.Home.RelPermalink | default ("/" | relLangURL) }}">
-    <img src="/images/cc410logo.png" alt="Computational Core Logo" style="width: 100%">
+    <img src="{{ $image.RelPermalink }}" alt="Computational Core Logo" style="width: 100%">
 </a>

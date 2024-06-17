@@ -5,11 +5,11 @@ weight: 10
 date: 2018-08-24T10:53:26-05:00
 ---
 
-{{< youtube 3kby3bxNxOI >}}
+{{< youtube 3kby3bxNxOI   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides-spring2022">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides-spring2022" %}}" target="_blank">Slides</a>
 
 #### Video Script
 

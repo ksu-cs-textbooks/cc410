@@ -4,7 +4,7 @@ weight: 90
 pre: "4.J.9. "
 ---
 
-{{% youtube _0aEv1GDRfQ %}}
+{{< youtube _0aEv1GDRfQ  >}}
 
 Let's introduce one more useful tool as part of this example, the Hamcrest assertion library. [Hamcrest](http://hamcrest.org/JavaHamcrest/) is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop. Let's explore what it takes to add Hamcrest to our project.
 
@@ -133,4 +133,4 @@ If you run into any errors on either of those commands, now is a good time to ge
 
 Click the link below to jump to the end where we submit our code.
 
-[Create GitHub Release]({{< relref "../05-create-release.md" >}})
+[Create GitHub Release]({{% relref "../05-create-release.md"  %}})

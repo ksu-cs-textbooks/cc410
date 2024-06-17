@@ -4,7 +4,7 @@ weight: 10
 pre: "1. "
 ---
 
-{{% youtube 1sWLEF_awoM %}}
+{{< youtube 1sWLEF_awoM  >}}
 
 One thing you'll quickly notice is that the source code files are no longer created for you in this course. Instead, in most cases you'll be responsible for creating the source code files and folders used by your program. 
 

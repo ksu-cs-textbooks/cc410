@@ -4,9 +4,9 @@ weight: 30
 pre: "6. "
 ---
 
-{{% youtube gbD5VcZzCIM %}}
+{{< youtube gbD5VcZzCIM  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Class diagrams also express the associations _between_ classes by drawing lines between the boxes representing them. 
 

@@ -4,7 +4,7 @@ hidden: true
 ---
 <section>
     <h3>Python tkinter</h3>
-    <img class="plain stretch" src="/images/9/410_9_tk.png">
+    <img class="plain stretch" src="/cc410/images/9/410_9_tk.png">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Tk-Demo_using_Tk_8.6.6_on_Windows_10,_November_2016.png&oldid=475248301">Wikipedia</a></p>
 </section>
 <section>
@@ -51,25 +51,25 @@ self.grid_columnconfigure(0, weight=1)</code></pre>
 </section>
 <section>
     <h3>Grid Geometry Manager</h3>
-    <img class="plain stretch" src="/images/9/410_9_grid1.png">
+    <img class="plain stretch" src="/cc410/images/9/410_9_grid1.png">
     <p class="imagecredit">Image Credit: <a href="https://tkdocs.com/tutorial/grid.html">TkDocs</a></p>
 </section>
 <section>
     <h3>Grid Geometry Manager</h3>
     <p>Use <code>sticky</code> option to fill cell</p>
-    <img class="plain stretch" src="/images/9/410_9_grid2.png">
+    <img class="plain stretch" src="/cc410/images/9/410_9_grid2.png">
     <p class="imagecredit">Image Credit: <a href="https://tkdocs.com/tutorial/grid.html">TkDocs</a></p>
 </section>
 <section>
     <h3>Grid Geometry Manager</h3>
     <p>Use <code>weight</code> option to stretch</p>
-    <img class="plain stretch" src="/images/9/410_9_grid3.png">
+    <img class="plain stretch" src="/cc410/images/9/410_9_grid3.png">
     <p class="imagecredit">Image Credit: <a href="https://tkdocs.com/tutorial/grid.html">TkDocs</a></p>
 </section>
 <section>
     <h3>Grid Geometry Manager</h3>
     <p>Use <code>weight</code> option to stretch</p>
-    <img class="plain stretch" src="/images/9/410_9_grid4.png">
+    <img class="plain stretch" src="/cc410/images/9/410_9_grid4.png">
     <p class="imagecredit">Image Credit: <a href="https://tkdocs.com/tutorial/grid.html">TkDocs</a></p>
 </section>
 <section>
@@ -88,7 +88,7 @@ self.__button.grid(row=1, column=0)</code></pre>
 </section>
 <section>
     <h3>Python Example</h3>
-    <img class="plain" width="500px" src="/images/9/410_9_pythonhello.png">
+    <img class="plain" width="500px" src="/cc410/images/9/410_9_pythonhello.png">
 </section>
 <section>
     <h3>Handle Events</h3>

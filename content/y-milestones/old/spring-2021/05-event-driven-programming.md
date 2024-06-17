@@ -147,11 +147,11 @@ Below are some GUI sketches to help you visualize one possible GUI for this proj
 
 ##### Main Window
 
-![Main Window](/images/410_m7_gui1.svg)
+![Main Window](/images/m5/410_m7_gui1.svg)
 
 ##### Entree Panel
 
-![Main Window](/images/410_m7_gui2.svg)
+![Main Window](/images/m5/410_m7_gui2.svg)
 
 ## Helpful Methods
 

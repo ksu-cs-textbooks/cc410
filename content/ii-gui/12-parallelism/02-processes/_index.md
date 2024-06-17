@@ -4,9 +4,9 @@ weight: 10
 pre: "2. "
 ---
 
-{{% youtube aDJMUyneWKY %}}
+{{< youtube aDJMUyneWKY  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 First, let's review how modern computers actually handle running multiple applications at once, and what that means for our own programs.
 

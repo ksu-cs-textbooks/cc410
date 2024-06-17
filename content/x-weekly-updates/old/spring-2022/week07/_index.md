@@ -5,11 +5,11 @@ weight: 70
 date: 2022-02-28T00:53:26-05:00
 ---
 
-{{< youtube D8IjQlb6XWk >}}
+{{< youtube D8IjQlb6XWk   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

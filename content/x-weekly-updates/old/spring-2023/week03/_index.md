@@ -4,11 +4,11 @@ pre: "3. "
 weight: 30
 ---
 
-{{< youtube Ty7rzMwC5FM >}}
+{{< youtube Ty7rzMwC5FM   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

@@ -4,7 +4,7 @@ weight: 80
 pre: "4.P.8. "
 ---
 
-{{% youtube vcClFM560-g %}}
+{{< youtube vcClFM560-g  >}}
 
 Finally, we're at the point that we've written our application, a couple of unit tests, verified that the unit tests achieve a high level of code coverage, and we've written helpful documentation comments in our code. That's a lot of content we've written, especially in our source code files. Now let's see how good our coding style is by checking it using a linter.
 

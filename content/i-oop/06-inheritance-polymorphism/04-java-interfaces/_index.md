@@ -4,9 +4,9 @@ weight: 20
 pre: "4. "
 ---
 
-{{% youtube 0AmFNql48_Y %}}
+{{< youtube 0AmFNql48_Y  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The Java programming language includes direct support for the creation of interfaces via the `interface` keyword. We've already seen one example of an interface created in Java, but let's look at another example and dissect it a bit.
 

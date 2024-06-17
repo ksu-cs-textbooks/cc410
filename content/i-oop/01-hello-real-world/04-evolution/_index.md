@@ -10,9 +10,9 @@ The content on this page was adapted from Nathan Bean's [CIS 400](https://textbo
 
 {{% / notice %}}
 
-{{% youtube O8rBA0ccGj8 %}}
+{{< youtube O8rBA0ccGj8  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 One of the strategies that computer scientists employed to counter the software crisis was the development of new programing languages.  These new languages would often 1) adopt new techniques intended to make errors harder to make while programming, and 2) remove problematic features that had existed in earlier languages.  
 
@@ -50,7 +50,7 @@ However, the actual _functionality_ of a `GOTO` statement remains in higher-orde
 ### Object-Orientation Paradigm
 The object-orientation paradigm was similarly developed to make programming large projects easier and less error-prone.  We'll examine just how it seeks to do so in the next few chapters.  But before we do, you might want to see how language popularity has fared since the onset of the software crisis, and how new languages have appeared and grown in popularity in this animated chart from _Data is Beautiful_:
 
-{{% youtube Og847HVwRSI %}}
+{{< youtube Og847HVwRSI  >}}
 
 Interestingly, the four top languages in 2019 (Python, JavaScript, Java, and C#) all adopt the object-oriented paradigm - though the exact details of how they implement it vary dramatically.
 

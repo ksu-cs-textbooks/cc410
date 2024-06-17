@@ -43,7 +43,7 @@ So, here goes.
 
 When you run `pytest` in Example 5 after adding some logging code as directed in the video, you will see many pages of errors printed to the terminal. In my testing, the terminal in Codio printed errors for several minutes before finally stopping. A screenshot of a small portion of those errors is below.
 
-![Errors](/images/410_e5_errors.png)
+![Errors](/images/e5/410_e5_errors.png)
 
 When this happens, you may be able to use <kbd>CTRL</kbd> + <kbd>C</kbd> to stop the output, but in many cases I simply had to close the terminal tab in Codio.
 
@@ -86,7 +86,7 @@ So, we've now found what we suspect is the error. All we have to do is figure ou
 
 ###### Phase 3 - The Fix
 
-Unfortunately, [issue #5502]((https://github.com/pytest-dev/pytest/issues/5502)) is still open as of this writing, so we needed a way to get around this error. With some quick testing, I was able to confirm the error went away if I removed the `StreamHandler` from the existing logging code. So, I decided that the best way to deal with this was to find some way to disable logging while the code is running as part of a unit test. This is a somewhat common, though discouraged, trick in programming. Ideally you don't want to hide any code from the unit tests, but in some instances you want to make sure that the unit tests don't actually change live data, such as the actual database used by this program. So, you can "protect" the code that connects to the database and make sure it cannot run as part of a unit test.
+Unfortunately, [issue #5502](https://github.com/pytest-dev/pytest/issues/5502) is still open as of this writing, so we needed a way to get around this error. With some quick testing, I was able to confirm the error went away if I removed the `StreamHandler` from the existing logging code. So, I decided that the best way to deal with this was to find some way to disable logging while the code is running as part of a unit test. This is a somewhat common, though discouraged, trick in programming. Ideally you don't want to hide any code from the unit tests, but in some instances you want to make sure that the unit tests don't actually change live data, such as the actual database used by this program. So, you can "protect" the code that connects to the database and make sure it cannot run as part of a unit test.
 
 A quick Google search for `determine if code is running under pytest python` quickly lead me to a [StackOverflow post](https://stackoverflow.com/questions/25188119/test-if-code-is-executed-from-within-a-py-test-session) discussing this very issue. Great! I had quickly found a pretty good resource that might lead me to a solution.
 

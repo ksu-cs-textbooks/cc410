@@ -10,11 +10,11 @@ _This video was recorded before I decided to switch to Ed Discussion instead of 
 
 {{% /notice %}}
 
-{{< youtube fg32bzEqkys >}}
+{{< youtube fg32bzEqkys   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

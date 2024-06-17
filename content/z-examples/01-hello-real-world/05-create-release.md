@@ -4,7 +4,7 @@ weight: 50
 pre: "5. "
 ---
 
-{{% youtube TMiu5OLPq2M %}}
+{{< youtube TMiu5OLPq2M  >}}
 
 The last step in this project is to create a GitHub release containing the completed version of your assignment. This is a common part of the software development process - once we are completely ready to go, we can package our code and make it available for others. We'll cover the process of actually packaging our code for deployment later in this chapter, but for now we'll learn to create a release on GitHub that we can submit for this project.
 

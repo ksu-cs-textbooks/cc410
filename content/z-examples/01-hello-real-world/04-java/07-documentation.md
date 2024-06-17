@@ -4,7 +4,7 @@ weight: 70
 pre: "4.J.7. "
 ---
 
-{{% youtube zd4b8MRvNLI %}}
+{{< youtube zd4b8MRvNLI  >}}
 
 The next step in writing good code is adding proper documentation and comments to describe the code and what it does. By writing good documentation, we can pass on helpful information to other developers who need to maintain this code, including our future selves!
 

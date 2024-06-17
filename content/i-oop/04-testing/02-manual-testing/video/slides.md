@@ -24,7 +24,7 @@ hidden: true
 </section>
 <section>
     <h2>Waterfall Method</h2>
-    <img class="plain stretch" src="/images/4/410_4_waterfall.svg">
+    <img class="plain stretch" src="/cc410/images/4/410_4_waterfall.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Waterfall_model.svg&oldid=453496509">Wikipedia</a></p>
 </section>
 <section>

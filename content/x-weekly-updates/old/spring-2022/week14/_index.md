@@ -5,11 +5,11 @@ weight: 140
 date: 2022-04-25T00:53:26-05:00
 ---
 
-{{< youtube s_iM-nptFBU >}}
+{{< youtube s_iM-nptFBU   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

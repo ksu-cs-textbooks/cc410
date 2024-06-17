@@ -4,9 +4,9 @@ weight: 25
 pre: "5. "
 ---
 
-{{% youtube HlFoT0B0GPk %}}
+{{< youtube HlFoT0B0GPk  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Lambda expressions, typically called **lambda functions** in most Python documentation, are effectively a syntactic shortcut for defining a function within Python code. This is because normal Python functions are already first-class citizens in the language - we can already pass existing named functions as arguments to other functions! So, lambdas in Python are simply shortcuts we can use to create a new anonymous function where needed, but we can always use normal functions to perform the same task.
 

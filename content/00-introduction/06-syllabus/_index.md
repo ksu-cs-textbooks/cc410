@@ -6,7 +6,7 @@ pre: "6. "
 
 ## CC 410 - Advanced Programming - Spring 2024
 
-[Previous Versions]({{<relref "./old">}})
+[Previous Versions]({{% relref "./old" %}})
 
 ### Instructor Contact Information
 

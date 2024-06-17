@@ -5,11 +5,11 @@ weight: 20
 date: 2021-08-30T00:53:26-05:00
 ---
 
-{{< youtube vk7don5FGWo >}}
+{{< youtube vk7don5FGWo   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

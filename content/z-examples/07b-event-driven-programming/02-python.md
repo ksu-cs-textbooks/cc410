@@ -6,11 +6,11 @@ weight: 25
 
 ###### Part 1
 
-{{% youtube -nGEixsWd2I %}}
+{{< youtube -nGEixsWd2I  >}}
 
 ###### Part 2
 
-{{% youtube K4E6duybPMo %}}
+{{< youtube K4E6duybPMo  >}}
 
 ## Tox Changes
 

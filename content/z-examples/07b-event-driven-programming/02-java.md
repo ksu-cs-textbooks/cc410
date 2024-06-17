@@ -6,11 +6,11 @@ weight: 20
 
 ###### Part 1
 
-{{% youtube m3o877yvd1M %}}
+{{< youtube m3o877yvd1M  >}}
 
 ###### Part 2
 
-{{% youtube EP9CzJ-mCkw %}}
+{{< youtube EP9CzJ-mCkw  >}}
 
 ## Gradle Changes
 

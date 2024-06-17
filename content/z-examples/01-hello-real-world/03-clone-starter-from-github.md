@@ -4,7 +4,7 @@ weight: 30
 pre: "3. "
 ---
 
-{{% youtube mZIqb6OQYZg %}}
+{{< youtube mZIqb6OQYZg  >}}
 
 Once we have accepted the assignment on GitHub classroom and have access to the repository, we can "clone" it in Codio, allowing us to access any starter code and then add our own code as we continue to work through this example project. This project doesn't include any starter code, but we'll go ahead and do this step first, just like we would with any other project.
 
@@ -93,6 +93,6 @@ If you were able to successfully clone the project from GitHub Classroom into Co
 
 The next parts of this project are different for Java and Python. Click the link below to jump to the correct section for your language. You can also use the links in the menu to the left. 
 
-[Java](../04-java/)  
-[Python](../04-python/)
+[Java](04-java/)  
+[Python](04-python/)
 

@@ -12,12 +12,12 @@ hidden: true
     </ul>
 </section>
 <section>
-    <img class="plain stretch" src="/images/12/410_12_patterns.jpg">
+    <img class="plain stretch" src="/cc410/images/12/410_12_patterns.jpg">
     <p class="imagecredit">Image Credit: <a href="https://www.journaldev.com/7229/best-design-patterns-book">Journal Dev</a></p>
 </section>
 <section>
     <h3>The "Gang of Four"</h3>
-    <img class="plain stretch" src="/images/12/410_12_gof.png">
+    <img class="plain stretch" src="/cc410/images/12/410_12_gof.png">
     <p class="imagecredit">Image Credit: <a href="https://www.packetflow.co.uk/python-creational-design-patterns/">Packet Flow</a></p>
 </section>
 <section>

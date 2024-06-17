@@ -6,11 +6,11 @@ weight: 20
 
 ###### Part 1
 
-{{% youtube 7eGBj1bAZJ8 %}}
+{{< youtube 7eGBj1bAZJ8  >}}
 
 ###### Part 2
 
-{{% youtube ApWF9H9h3n8 %}}
+{{< youtube ApWF9H9h3n8  >}}
 
 ## Outline
 

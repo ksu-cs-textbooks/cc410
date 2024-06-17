@@ -4,7 +4,7 @@ pre: "2.P. "
 weight: 25
 ---
 
-{{% youtube gcie7xeM6j4 %}}
+{{< youtube gcie7xeM6j4  >}}
 
 ## Resources
 

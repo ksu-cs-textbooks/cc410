@@ -4,9 +4,9 @@ weight: 25
 pre: "5. "
 ---
 
-{{% youtube fKuJNhMIQUE %}}
+{{< youtube fKuJNhMIQUE  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:
 

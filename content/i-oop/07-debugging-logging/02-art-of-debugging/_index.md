@@ -4,9 +4,9 @@ weight: 10
 pre: "2. "
 ---
 
-{{% youtube 7C4_tgqClkw %}}
+{{< youtube 7C4_tgqClkw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 First, let's briefly discuss the art of debugging. Finding and fixing bugs in a complex piece of software is indeed an art, meaning that it something that takes a great amount of skill that comes with practice. So, how can we get better at this? Here are some tips. Much of this content was inspired by the talk [The Art of Debugging](https://remysharp.com/2015/10/14/the-art-of-debugging) by Remy Sharp. 
 

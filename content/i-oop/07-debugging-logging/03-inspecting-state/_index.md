@@ -4,9 +4,9 @@ weight: 15
 pre: "3. "
 ---
 
-{{% youtube ooxRxPAodRw %}}
+{{< youtube ooxRxPAodRw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Object in our object-oriented programs can really be thought of as two different parts - the **state** and **behavior** of the object. When debugging, we may need to consider both parts of the object to determine what is really going on behind the scenes. So, let's look at some ways we can explore the state of our program.
 

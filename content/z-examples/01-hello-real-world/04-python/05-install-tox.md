@@ -4,7 +4,7 @@ weight: 50
 pre: "4.P.5. "
 ---
 
-{{% youtube tBQEX4F_jzE %}}
+{{< youtube tBQEX4F_jzE  >}}
 
 Working with Python on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we're going to use one such tool, called **tox**.
 

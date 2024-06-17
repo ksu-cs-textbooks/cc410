@@ -4,11 +4,11 @@ pre: "7. "
 weight: 70
 ---
 
-{{< youtube YP29-mMGpsY >}}
+{{< youtube YP29-mMGpsY   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

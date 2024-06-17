@@ -5,11 +5,11 @@ weight: 80
 date: 2021-03-15T00:53:26-05:00
 ---
 
-{{< youtube s7kM-x68_I0 >}}
+{{< youtube s7kM-x68_I0   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

@@ -5,11 +5,11 @@ weight: 120
 date: 2021-04-05T00:53:26-05:00
 ---
 
-{{< youtube 1aHD44V-N8c >}}
+{{< youtube 1aHD44V-N8c   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

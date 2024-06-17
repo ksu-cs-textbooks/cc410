@@ -4,9 +4,9 @@ weight: 15
 pre: "3. "
 ---
 
-{{% youtube K3HY0snRb08 %}}
+{{< youtube K3HY0snRb08  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Developer documentation often faces a challenge not present in other kinds of documents - the need to be able to display snippets of code.  Ideally, we want code to be formatted in a way that preserves indentation.  We also don't want code snippets to be subject to spelling and grammar checks, especially auto-correct versions of these algorithms, as they will alter the snippets.  Ideally, we might also apply syntax highlighting to these snippets. Accordingly, a number of textual formats have been developed to support writing text with embedded program code, and these are regularly used to present developer documentation.  Let's take a look at several of the most common.
 

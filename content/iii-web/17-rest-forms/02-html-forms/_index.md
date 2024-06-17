@@ -10,9 +10,9 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% / notice %}}
 
-{{% youtube b0SPMKu5o0A %}}
+{{< youtube b0SPMKu5o0A  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 One of the earliest (and still widely used) mechanisms for transferring data from a browser (client) to the server is a _form_.  The `<form>` is a specific HTML element that contains input fields and buttons the user can interact with.
 

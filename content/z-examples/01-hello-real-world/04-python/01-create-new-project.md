@@ -4,7 +4,7 @@ weight: 10
 pre: "4.P.1. "
 ---
 
-{{% youtube d_KfhEA5Rsc %}}
+{{< youtube d_KfhEA5Rsc  >}}
 
 Prior to this course, most of our Python projects consisted of a few source files, all contained in the same directory. However, as projects get larger, it can be very difficult to keep track of all the various source code files. In addition, we'll want to keep our source code separate from other files, such as unit tests and the output from various tools we use. So, let's look at how we can create a more professional structure for our Python "Hello Real World" project.
 

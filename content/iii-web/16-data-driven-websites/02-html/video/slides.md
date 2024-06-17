@@ -14,7 +14,7 @@ hidden: true
 </section>
 <section>
     <h3>HTML Element</h3>
-    <img class="plain stretch" src="/images/16/410_16_html_element.svg">
+    <img class="plain stretch" src="/cc410/images/16/410_16_html_element.svg">
     <p class="imagecredit">Image Credit: <a href="https://en.wikipedia.org/w/index.php?title=HTML_element&oldid=1012343971">Wikipedia</a></p>
 </section>
 <section>
@@ -42,7 +42,7 @@ hidden: true
 </section>
 <section>
     <h3>CSS Box Model</h3>
-    <img class="plain stretch" src="/images/16/410_16_boxmodel.png">
+    <img class="plain stretch" src="/cc410/images/16/410_16_boxmodel.png">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Boxmodell-detail.png&oldid=480918452">Wikipedia</a></p>
 </section>
 <section>
@@ -70,6 +70,6 @@ element
     </ul>
 </section>
 <section>
-    <img class="plain stretch" src="/images/16/410_16_dom.svg">
+    <img class="plain stretch" src="/cc410/images/16/410_16_dom.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:DOM-model.svg&oldid=546300336">Wikipedia</a></p>
 </section>

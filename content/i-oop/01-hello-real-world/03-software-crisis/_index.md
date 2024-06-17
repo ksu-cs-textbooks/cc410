@@ -10,9 +10,9 @@ The content on this page was adapted from Nathan Bean's [CIS 400](https://textbo
 
 {{% / notice %}}
 
-{{% youtube 3unDinmH3hQ %}}
+{{< youtube 3unDinmH3hQ >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 At the 1968 NATO Software Engineering Conference held in Garmisch Germany, the term "Software Crisis" was coined to describe the current state of the software development industry, where common problems included:
 

@@ -4,7 +4,7 @@ weight: 20
 pre: "2. "
 ---
 
-{{% youtube FF7GQoZRNDc %}}
+{{< youtube FF7GQoZRNDc  >}}
 
 One major new concept in this project is to save the source code of our project on the code sharing website [GitHub](https://github.com/) using a tool called Git. We'll be using a feature of GitHub called [GitHub Classroom](https://classroom.github.com/) to manage several assignments in this course, so let's explore what it takes to get connected to GitHub Classroom and download this project.
 

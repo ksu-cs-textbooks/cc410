@@ -10,4 +10,4 @@ noprint = true
 
 Information for Current Students!
 
-[Previous Semesters Are Here]({{<relref "./old">}})
+[Previous Semesters Are Here]({{% relref "./old" %}})

@@ -9,6 +9,6 @@ noprint = true
 
 Small steps along the path toward project completion!
 
-[Previous Semesters Are Here]({{<relref "./old">}})
+[Previous Semesters Are Here]({{% relref "./old" %}})
 
 {{% children depth="1" %}}

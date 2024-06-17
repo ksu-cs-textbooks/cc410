@@ -6,11 +6,11 @@ date: 2020-01-25T00:53:26-05:00
 hidden: true
 ---
 
-{{< youtube 0AmFNql48_Y >}}
+{{< youtube 0AmFNql48_Y   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Video Script
 

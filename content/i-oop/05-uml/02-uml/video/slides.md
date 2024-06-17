@@ -3,26 +3,26 @@ type: "reveal"
 hidden: true
 ---
 <section>
-    <img class="plain stretch" src="/images/5/410_5_umllogo.svg">
+    <img class="plain stretch" src="/cc410/images/5/410_5_umllogo.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:UML_logo.svg&oldid=519544315">Wikipedia</a></p>
 </section>
 <section>
     <h3>Diagram Hierarchy</h3>
-    <img class="plain stretch" src="/images/5/410_5_diagrams.svg">
+    <img class="plain stretch" src="/cc410/images/5/410_5_diagrams.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:UML_diagrams_overview.svg&oldid=481131528">Wikipedia</a></p>
 </section>
 <section>
     <h3>Class Diagram</h3>
-    <img class="plain stretch" src="/images/5/410_5_class.svg">
+    <img class="plain stretch" src="/cc410/images/5/410_5_class.svg">
 </section>
 <section>
     <h3>Sequence Diagram</h3>
-    <img class="plain stretch" src="/images/5/410_5_sequence.svg">
+    <img class="plain stretch" src="/cc410/images/5/410_5_sequence.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:CheckEmail.svg&oldid=478095044">Wikipedia</a></p>
 </section>
 <section>
     <h3>Use Case Diagram</h3>
-    <img class="plain stretch" src="/images/5/410_5_usecase.svg">
+    <img class="plain stretch" src="/cc410/images/5/410_5_usecase.svg">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:UML_Use_Case_diagram.svg&oldid=447268875">Wikipedia</a></p>
 </section>
 <section>

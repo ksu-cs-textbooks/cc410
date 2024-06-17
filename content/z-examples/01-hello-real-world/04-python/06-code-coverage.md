@@ -4,7 +4,7 @@ weight: 60
 pre: "4.P.6. "
 ---
 
-{{% youtube jB6VoijiOVo %}}
+{{< youtube jB6VoijiOVo  >}}
 
 We've now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the **code coverage** of our unit tests.
 

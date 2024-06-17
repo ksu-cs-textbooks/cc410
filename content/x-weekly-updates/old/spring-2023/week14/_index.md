@@ -4,11 +4,11 @@ pre: "14. "
 weight: 140
 ---
 
-{{< youtube YWEau3SYsLY >}}
+{{< youtube YWEau3SYsLY   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

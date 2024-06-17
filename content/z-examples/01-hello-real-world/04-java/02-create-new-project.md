@@ -4,7 +4,7 @@ weight: 20
 pre: "4.J.2. "
 ---
 
-{{% youtube aCrCQ78B8cw %}}
+{{< youtube aCrCQ78B8cw  >}}
 
 Once we have Gradle installed, we can use Gradle to create a scaffold for our new Java project. This is a great starting point for any Java application, but we'll customize it a bit to suit our needs.
 

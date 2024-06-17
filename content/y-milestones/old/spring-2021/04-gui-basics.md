@@ -135,19 +135,19 @@ _I chose to increase the default size of my GUI to 1024x740 pixels, as that made
 
 ##### Main Window
 
-![Main Window](/images/410_m6_gui1.svg)
+![Main Window](/images/m4/410_m6_gui1.svg)
 
 ##### Entree Panel
 
-![Main Window](/images/410_m6_gui2.svg)
+![Main Window](/images/m4/410_m6_gui2.svg)
 
 ##### Side Panel
 
-![Main Window](/images/410_m6_gui4.svg)
+![Main Window](/images/m4/410_m6_gui4.svg)
 
 ##### Drink Panel
 
-![Main Window](/images/410_m6_gui3.svg)
+![Main Window](/images/m4/410_m6_gui3.svg)
 
 ## Helpful Hints & Code
 

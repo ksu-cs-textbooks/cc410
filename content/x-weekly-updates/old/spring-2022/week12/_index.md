@@ -5,11 +5,11 @@ weight: 120
 date: 2022-04-11T00:53:26-05:00
 ---
 
-{{< youtube elfCwjpYdjM >}}
+{{< youtube elfCwjpYdjM   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

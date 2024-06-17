@@ -4,7 +4,7 @@ weight: 20
 pre: "4.P.2. "
 ---
 
-{{% youtube Gx_nV1Y-0ek %}}
+{{< youtube Gx_nV1Y-0ek  >}}
 
 Now that we've created a package for our code, let's write the code for our "Hello Real World" application. Traditionally, a Python "Hello World" program is a single line of code, but for this example we'll follow all of the object-oriented standards by creating a class and a method. 
 

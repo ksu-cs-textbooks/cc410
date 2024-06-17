@@ -6,11 +6,11 @@ hidden: true
 ---
 
 
-{{< youtube  >}}
+{{< youtube badid  >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

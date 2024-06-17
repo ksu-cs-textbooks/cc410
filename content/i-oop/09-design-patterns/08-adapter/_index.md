@@ -4,9 +4,9 @@ weight: 40
 pre: "8. "
 ---
 
-{{% youtube Ibxsanf8DFc %}}
+{{< youtube Ibxsanf8DFc  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Another pattern is the **adapter pattern**. The [adapter pattern](https://en.wikipedia.org/wiki/Software_design_pattern) is a structural pattern that is used to make an existing interface fit within a different interface. Just like we might use an adapter when traveling abroad to allow our appliances to plug in to different electrical outlets around the world, the adapter pattern lets us use one interface in place of another, similar interface.
 

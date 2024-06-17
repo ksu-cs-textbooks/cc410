@@ -4,7 +4,7 @@ weight: 40
 pre: "4.P.4. "
 ---
 
-{{% youtube OuG9rmdl2_A %}}
+{{< youtube OuG9rmdl2_A  >}}
 
 At this point, we've written the basic code for our "Hello World" program. However, how can we automatically verify that the source code works properly? To do that, we'll need to create some **unit tests** that verify our code.
 

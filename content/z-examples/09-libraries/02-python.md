@@ -6,11 +6,11 @@ weight: 25
 
 ###### Part 1
 
-{{% youtube 13d5-mQGVS8 %}}
+{{< youtube 13d5-mQGVS8  >}}
 
 ###### Part 2
 
-{{% youtube DnWaVWhTXaY %}}
+{{< youtube DnWaVWhTXaY  >}}
 
 ## Outline
 

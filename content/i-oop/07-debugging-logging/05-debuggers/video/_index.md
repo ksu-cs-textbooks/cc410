@@ -6,11 +6,11 @@ date: 2020-01-25T00:53:26-05:00
 hidden: true
 ---
 
-{{< youtube oVKZPiGAd4c >}}
+{{< youtube oVKZPiGAd4c   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 #### Video Script
 
 Finally in this chapter, let's briefly discuss both debuggers and loggers and how we can use them to help us find and fix error in our code. First, we can talk about debuggers. Debuggers are special programs that we can use to interactively examine our program while it is running. Both Java and Python have a debugger we can use, as do most programming languages and integrated development environments, or IDEs, including Codio. We'll see how to use the Codio debugger as part of the example project in this module. In short, a debugger allows us to examine both the state and behavior of our program. We can see the values stored in variables while our program executes, and we can pause the program at a particular line of code and run it line-by-line until we find the error. Learning how to use a debugger effectively is a very powerful skill for developers to develop!

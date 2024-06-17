@@ -5,7 +5,7 @@ weight: 57
 date: 2022-02-16T00:53:26-05:00
 ---
 
-{{< youtube GVclmyubYtQ >}}
+{{< youtube GVclmyubYtQ   >}}
 
 #### Edited Transcript
 

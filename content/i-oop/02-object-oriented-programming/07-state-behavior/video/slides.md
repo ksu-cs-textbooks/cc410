@@ -4,37 +4,37 @@ hidden: true
 ---
 <section>
     <h2>State & Behavior</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim1.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim1.svg">
 </section>
 <section>
 	<h3>Turing Machine</h3>
-	<img class="stretch plain" src="/images/2/turingmachine_wikimedia.png">
+	<img class="stretch plain" src="/cc410/images/2/turingmachine_wikimedia.png">
 	<p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Maquina.png&oldid=118120539">Wikipedia</a></p>
 </section>
 <section>
     <h2>State Machine</h2>
-    <img class="plain stretch" src="/images/2/410_2_statemachine.png">
+    <img class="plain stretch" src="/cc410/images/2/410_2_statemachine.png">
     <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Finite_state_machine_example_with_comments.svg&oldid=465191141">Wikipedia</a></p>
 </section>
 <section>
     <h2>State & Behavior</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim1.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim1.svg">
 </section>
 <section>
     <h2>State & Behavior</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim2.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim2.svg">
 </section>
 <section>
     <h2>State & Behavior</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim3.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim3.svg">
 </section>
 <section>
     <h2>State & Behavior</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim4.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim4.svg">
 </section>
 <section>
     <h2>State & Behavior</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim5.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim5.svg">
 </section>
 <section>
 <h2>Encapsulation</h2>

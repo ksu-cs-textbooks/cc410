@@ -10,9 +10,9 @@ Much of the content in this page was adapted from Nathan Bean's [CIS 400](https:
 
 {{% / notice %}}
 
-{{% youtube KOa9EIvlvOI %}}
+{{< youtube KOa9EIvlvOI  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The World Wide Web was the brainchild of [Sir Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee).  It was conceived as a way to share information across the Internet; in Sir Berners-Lee's own words describing the idea as he first conceived it:
 

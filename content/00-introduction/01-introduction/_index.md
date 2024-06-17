@@ -4,12 +4,12 @@ pre: "1. "
 weight: 10
 ---
 
-{{< youtube 5T4tvnRPxeE >}}
+{{< youtube 5T4tvnRPxeE   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
-* [Previous Versions]({{<relref "./old">}})
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
+* [Previous Versions]({{% relref "./old" %}})
 
 #### Video Script
 

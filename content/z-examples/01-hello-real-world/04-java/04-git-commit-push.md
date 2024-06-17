@@ -4,7 +4,7 @@ weight: 40
 pre: "4.J.4. "
 ---
 
-{{% youtube bAjwHZ6OX3g %}}
+{{< youtube bAjwHZ6OX3g  >}}
 
 {{% notice note "tl;dr" %}}
 

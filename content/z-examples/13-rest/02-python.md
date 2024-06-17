@@ -10,7 +10,7 @@ This video uses the `html5` widget module in WTForms, which is no longer present
 
 {{% /notice %}}
 
-{{% youtube 1b1x94AOO-k %}}
+{{< youtube 1b1x94AOO-k  >}}
 
 {{% notice note "Widget Fix" %}}
 

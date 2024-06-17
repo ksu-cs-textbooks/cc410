@@ -4,7 +4,7 @@ weight: 90
 pre: "4.P.9. "
 ---
 
-{{% youtube MFaEO1cTlck %}}
+{{< youtube MFaEO1cTlck  >}}
 
 One of the major selling points of Python is that it is **dynamically typed**. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.
 

@@ -4,7 +4,7 @@ weight: 10
 pre: "4.J.1. "
 ---
 
-{{% youtube YosEP_LgrcA %}}
+{{< youtube YosEP_LgrcA  >}}
 
 {{% notice note "tl;dr" %}}
 

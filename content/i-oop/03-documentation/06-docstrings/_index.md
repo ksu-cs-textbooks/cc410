@@ -4,9 +4,9 @@ weight: 30
 pre: "6. "
 ---
 
-{{% youtube -aX1FAMnlgw %}}
+{{< youtube -aX1FAMnlgw  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Many Python developers have standardized on the use of docstrings as documentation comments. Both [PEP 257](https://www.python.org/dev/peps/pep-0257/) and the [Google Style Guide](https://google.github.io/styleguide/pyguide.html#s3.8-comments-and-docstrings) include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information. The [flake8](https://flake8.pycqa.org/en/latest/index.html) tool along with the [flake8-docstrings](https://pypi.org/project/flake8-docstrings/) plugin is also a great way to check that the documentation comments are properly structured.
 

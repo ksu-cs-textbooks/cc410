@@ -5,11 +5,11 @@ weight: 100
 date: 2022-03-28T00:53:26-05:00
 ---
 
-{{< youtube aAJyp9_dwIM >}}
+{{< youtube aAJyp9_dwIM   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

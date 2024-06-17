@@ -5,7 +5,7 @@ weight: 10
 date: 2018-08-24T10:53:26-05:00
 ---
 
-{{% youtube qySmU2P1qqo %}}
+{{< youtube qySmU2P1qqo  >}}
 
 In this example project, we will go through all the steps to create a new version of the classic "Hello World" program, called "Hello Real World." We'll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard. 
 

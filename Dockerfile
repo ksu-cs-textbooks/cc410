@@ -1,17 +1,10 @@
-FROM nginx:alpine as build
-
-RUN apk add --update \
-    wget git
-    
-ARG HUGO_VERSION="0.117.0"
-RUN wget --quiet "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz" && \
-    tar xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-    rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-    mv hugo /usr/bin
+FROM hugomods/hugo:0.126.1 as build
 
 COPY ./ /site
 WORKDIR /site
-RUN hugo -b "https://textbooks.cs.ksu.edu/cc410"
+
+RUN hugo mod get
+RUN hugo --minify
 
 #Copy static files to Nginx
 FROM nginx:alpine

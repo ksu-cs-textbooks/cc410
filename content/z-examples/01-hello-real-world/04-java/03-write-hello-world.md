@@ -4,7 +4,7 @@ weight: 30
 pre: "4.J.3. "
 ---
 
-{{% youtube Z86190JddZk %}}
+{{< youtube Z86190JddZk  >}}
 
 Now, let's write the basic source code for our "Hello Real World" application. Thankfully, we can adapt some of the code that is provided by the Gradle `init` command, but we'll simplify it a bit to meet our needs.
 

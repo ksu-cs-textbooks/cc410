@@ -4,7 +4,7 @@ pre: "2.P. "
 weight: 25
 ---
 
-{{% youtube slVbHWYFj90 %}}
+{{< youtube slVbHWYFj90  >}}
 
 ## Outline
 

@@ -4,9 +4,9 @@ weight: 10
 pre: "2. "
 ---
 
-{{% youtube 6dsYPgyzxhk %}}
+{{< youtube 6dsYPgyzxhk  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Before we release our software, there are a few steps that we should perform to make sure it is ready for release. Most of these steps are things that we've already been doing as part of our development process, but it is always good to review them once again and make sure everything is ready for release.
 

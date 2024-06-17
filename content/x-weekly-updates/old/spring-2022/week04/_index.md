@@ -5,11 +5,11 @@ weight: 40
 date: 2022-02-07T00:53:26-05:00
 ---
 
-{{< youtube kKafnWhoLo0 >}}
+{{< youtube kKafnWhoLo0   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

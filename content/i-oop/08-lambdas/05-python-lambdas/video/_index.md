@@ -6,11 +6,11 @@ date: 2020-01-25T00:53:26-05:00
 hidden: true
 ---
 
-{{< youtube HlFoT0B0GPk >}}
+{{< youtube HlFoT0B0GPk   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 #### Video Script
 
 Lambda expressions in Python are quite simple. We start with the lambda keyword, followed by a list of parameters. These parameters can be any valid form of Python parameters, including named parameters, variable length parameters, and more. Following that, we have a colon, and then a single expression that represents the value to be returned by the lambda expression. In this case, the lambda will return the sum of the parameters `x` and `y`.

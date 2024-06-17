@@ -4,9 +4,9 @@ weight: 45
 pre: "9. "
 ---
 
-{{% youtube a1oUEgvW09Y %}}
+{{< youtube a1oUEgvW09Y  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 {{% notice note "Access Modifiers in Python" %}}
 

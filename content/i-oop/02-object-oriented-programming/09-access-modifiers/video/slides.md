@@ -4,23 +4,23 @@ hidden: true
 ---
 <section>
     <h2>A Simple Class</h2>
-    <img class="plain stretch" src="/images/2/410_2_sim5.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_sim5.svg">
 </section>
 <section>
     <h2>Everything Public</h2>
-    <img class="plain stretch" src="/images/2/410_2_access1.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_access1.svg">
 </section>
 <section>
     <h2>Everything Public</h2>
-    <img class="plain stretch" src="/images/2/410_2_access2.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_access2.svg">
 </section>
 <section>
     <h2>Everything Public</h2>
-    <img class="plain stretch" src="/images/2/410_2_access3.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_access3.svg">
 </section>
 <section>
     <h2>Everything Public</h2>
-    <img class="plain stretch" src="/images/2/410_2_access4.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_access4.svg">
 </section>
 <section>
     <h3>Information Hiding</h3>
@@ -33,13 +33,13 @@ hidden: true
 </section>
 <section>
     <h2>Accessor Methods</h2>
-    <img class="plain stretch" src="/images/2/410_2_access5.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_access5.svg">
 </section>
 <section>
     <h2>Static</h2>
-    <img class="plain stretch" src="/images/2/410_2_stat1.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_stat1.svg">
 </section>
 <section>
     <h2>Static</h2>
-    <img class="plain stretch" src="/images/2/410_2_stat2.svg">
+    <img class="plain stretch" src="/cc410/images/2/410_2_stat2.svg">
 </section>

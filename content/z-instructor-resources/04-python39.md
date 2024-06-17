@@ -50,7 +50,7 @@ envlist = py39
 
 {{% notice warning %}}
 
-Check the [errata page](../03-errata) to see if any requirements must be updated.
+Check the [errata page](03-errata) to see if any requirements must be updated.
 
 {{% /notice %}}
 

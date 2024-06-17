@@ -4,9 +4,9 @@ weight: 50
 pre: "10. "
 ---
 
-{{% youtube Xfb2VJ2dswM %}}
+{{< youtube Xfb2VJ2dswM  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 Now let's dive into Python tkinter and see how to make our very first GUI application in Tk. 
 

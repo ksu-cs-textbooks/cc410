@@ -4,11 +4,11 @@ pre: "5. "
 weight: 50
 ---
 
-{{< youtube Awqc5qaUBVk >}}
+{{< youtube Awqc5qaUBVk   >}}
 
 #### Resources
 
-* <a href="{{<relref "./slides">}}" target="_blank">Slides</a>
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
 

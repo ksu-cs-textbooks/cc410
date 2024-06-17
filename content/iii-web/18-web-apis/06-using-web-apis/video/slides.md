@@ -14,7 +14,7 @@ hidden: true
 </section>
 <section>
     <h3>NASA APOD</h3>
-    <img class="plain stretch" src="/images/18/410_18_apod.png">
+    <img class="plain stretch" src="/cc410/images/18/410_18_apod.png">
     <p class="imagecredit">Image Credit: <a href="https://api.nasa.gov/">NASA</a></p>
 </section>
 <section>
@@ -35,6 +35,6 @@ hidden: true
 </section>
 <section>
     <h5>The Galactic Center in Infrared</h5>
-    <img class="plain stretch" src="/images/18/410_18_apod.jpg">
+    <img class="plain stretch" src="/cc410/images/18/410_18_apod.jpg">
     <p class="imagecredit">Image Credit: <a href="https://apod.nasa.gov/apod/ap210419.html">NASA</a></p>
 </section>

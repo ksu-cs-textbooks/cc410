@@ -4,9 +4,9 @@ weight: 10
 pre: "2. "
 ---
 
-{{% youtube DX4RqiA871I %}}
+{{< youtube DX4RqiA871I  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 ![Design Patterns Cover](/images/12/design_patterns.jpg)[^1]
 

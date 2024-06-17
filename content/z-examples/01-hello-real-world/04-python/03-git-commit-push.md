@@ -4,7 +4,7 @@ weight: 30
 pre: "4.P.3. "
 ---
 
-{{% youtube 6EENk4EMO1Q %}}
+{{< youtube 6EENk4EMO1Q  >}}
 
 {{% notice note "tl;dr" %}}
 

@@ -272,10 +272,10 @@ Submit this assignment by creating a release on GitHub and uploading the release
 
 #### Sample Combo Customization GUI
 
-![Combo Window](/images/410_m7_gui.svg)
+![Combo Window](/images/m7/410_m7_gui.svg)
 
 #### Sample Cash Transaction GUI
 
 You may wish to review the [Spinner](https://docs.oracle.com/javase/tutorial/uiswing/components/spinner.html) (Java) or [Spinbox](https://tkdocs.com/tutorial/morewidgets.html#spinbox) (Python) GUI elements.
 
-![Cash Window](/images/410_m7_gui_cash.svg)
+![Cash Window](/images/m7/410_m7_gui_cash.svg)

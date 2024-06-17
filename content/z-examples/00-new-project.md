@@ -245,4 +245,4 @@ git add .
 git commit -m "Message"
 git push
 ```
-2. On GitHub Site, create [Release]({{< relref "/z-examples/01-hello-real-world/05-create-release/_index.md" >}})
+2. On GitHub Site, create [Release]({{% relref "/z-examples/01-hello-real-world/05-create-release/_index.md"  %}})

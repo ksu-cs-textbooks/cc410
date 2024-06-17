@@ -4,9 +4,9 @@ weight: 10
 pre: "2. "
 ---
 
-{{% youtube G3LqkMXfW6A %}}
+{{< youtube G3LqkMXfW6A  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 As the name implies, a web API is simply an interface for accessing and modifying resources stored on a web server. So, from a certain point of view, we could think of the basic HTTP itself as a web API. However, traditionally web APIs are meant to be built on top of HTTP itself -- HTTP defines how web servers and web clients can communicate in general, but a web API uses additional information in the structure of the request, such parameters included as part of the URL or the body of the request, to specify exactly what resources should be affected and the action to be performed on those resources.
 

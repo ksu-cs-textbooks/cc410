@@ -3,9 +3,9 @@ title: "Stubs"
 weight: 20
 pre: "4. "
 ---
-{{% youtube SQUTcxc3RYo %}}
+{{< youtube SQUTcxc3RYo  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 {{% notice note "Inconsistent Naming" %}}
 

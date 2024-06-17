@@ -4,9 +4,9 @@ weight: 10
 pre: "2. "
 ---
 
-{{% youtube ZsJT_pEJEAI %}}
+{{< youtube ZsJT_pEJEAI  >}}
 
-[Video Materials]({{<relref "./video">}})
+[Video Materials]({{% relref "./video" %}})
 
 The basis of lambda expressions comes from a special branch of mathematics known as [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus). It was first introduced by Alonzo Church, who is often connected with Alan Turing in the early days of theoretical computer science. (You may have heard of the [Church-Turing thesis](https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis) that relates to the computability of functions on a Turing machine.)
 

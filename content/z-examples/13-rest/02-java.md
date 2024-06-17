@@ -4,7 +4,7 @@ pre: "2.J. "
 weight: 20
 ---
 
-{{% youtube 27GGpQ4wa4Y %}}
+{{< youtube 27GGpQ4wa4Y  >}}
 
 ## Outline
 
