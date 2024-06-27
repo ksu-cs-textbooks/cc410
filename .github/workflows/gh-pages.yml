@@ -53,7 +53,7 @@ jobs:
       # Build Options Here
       # https://gohugo.io/commands/hugo/
       - name: Build Hugo Site
-        run: hugo --minify
+        run: hugo
 
       # https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GH Pages
