@@ -1,15 +1,71 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>Python Docstrings</h3><ol><li>Summary Line</li><li>Additional Paragraphs</li><li>Optional Sections</li></ol></section><section><h3>Sections</h3><p>File:</p><ul><li style=font-size:65px;line-height:70px>Author</li><li style=font-size:65px;line-height:70px>Version</li></ul><p>Class:</p><ul><li style=font-size:65px;line-height:70px>Attributes</li></ul><p>Method:</p><ul><li style=font-size:65px;line-height:70px>Args</li><li style=font-size:65px;line-height:70px>Returns</li><li style=font-size:65px;line-height:70px>Raises</ul></section><section><h3>File Comment</h3><pre class=python><code>"""Implements a Square shape.<br>
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<h3>Python Docstrings</h3>
+    <ol>
+        <li>Summary Line</li>
+        <li>Additional Paragraphs</li>
+        <li>Optional Sections</li>
+    </ol>
+</section>
+<section>
+    <h3>Sections</h3>
+    <p>File:</p>
+    <ul>
+        <li style="font-size:65px; line-height:70px">Author</li>
+        <li style="font-size:65px; line-height:70px">Version</li>
+    </ul>
+    <p>Class:</p>
+    <ul>
+        <li style="font-size:65px; line-height:70px">Attributes</li>
+    </ul>
+    <p>Method:</p>
+    <ul>
+        <li style="font-size:65px; line-height:70px">Args</li>
+        <li style="font-size:65px; line-height:70px">Returns</li>
+        <li style="font-size:65px; line-height:70px">Raises
+    </ul>
+</section>
+<section>
+    <h3>File Comment</h3>
+    <pre class="python"><code>"""Implements a Square shape.<br>
 This file contains code for the Square shape class.<br>
 Author: Russell Feldhausen russfeld@ksu.edu
 Version: 0.1
-"""</code></pre></section><section><h3>Class Comment</h3><pre class="python stretch"><code>class Square:
+"""</code></pre>
+</section>
+<section>
+    <h3>Class Comment</h3>
+    <pre class="python stretch"><code>class Square:
     """Represents a Square shape.<br>
     This class represents a square,
     storing the side length only.<br>
     Attributes:
         length: the side length of the square
-    """</code></pre></section><section><h3>Method Comment</h3><pre class="python stretch"><code>def area_difference(circle: Circle) -> float:
+    """</code></pre>
+</section>
+<section>
+    <h3>Method Comment</h3>
+    <pre class="python stretch"><code>def area_difference(circle: Circle) -> float:
     """Calculates the area of the square not in the circle.<br>
     This method will place the center of the circle at the 
     center of the square and compute the difference in area.<br>
@@ -19,4 +75,43 @@ Version: 0.1
         the difference in area as a float<br>
     Raises:
         ValueError: if the circle is larger than the square
-    """</code></pre></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+    """</code></pre>
+</section>
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

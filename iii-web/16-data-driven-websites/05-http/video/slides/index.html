@@ -1,5 +1,41 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>HTTP</h3><ul><li>Hypertext Transfer Protocol</li><li>How Web Servers & Web Browsers Interact</li><li>Follows a Request-Response Model</li><li>Text-Based Protocol</li></ul></section><section><img class="plain stretch" src=/cc410/images/16/410_16_http.png></section><section><h3>HTTP Request</h3><pre><code class=plaintext>GET / HTTP/1.1</code></pre><h3>HTTP Response</h3><pre class=stretch style=font-size:35px><code class=nohighlight>HTTP/1.1 200 OK
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>HTTP</h3>
+    <ul>
+        <li>Hypertext Transfer Protocol</li>
+        <li>How Web Servers & Web Browsers Interact</li>
+        <li>Follows a Request-Response Model</li>
+        <li>Text-Based Protocol</li>
+    </ul>
+</section>
+<section>
+    <img class="plain stretch" src="/cc410/images/16/410_16_http.png">
+</section>
+<section>
+    <h3>HTTP Request</h3>
+    <pre><code class="plaintext">GET / HTTP/1.1</code></pre>
+    <h3>HTTP Response</h3>
+    <pre class="stretch" style="font-size: 35px"><code class="nohighlight">HTTP/1.1 200 OK
 Date: Wed, 16 Jan 2019 15:39:33 GMT
 Expires: -1
 Cache-Control: private, max-age=0
@@ -12,4 +48,63 @@ Set-Cookie: 1P_JAR=2019-01-16-15; expires=Fri, 15-Feb-2019 15:39:33 GMT; path=/;
 Set-Cookie: NID=154=XyALfeRzT9rj_55NNa006-Mmszh7T4rIp9Pgr4AVk4zZuQMZIDAj2hWYoYkKU6Etbmjkft5YPW8Fens07MvfxRSw1D9mKZckUiQ--RZJWZyurfJUyRtoJyTfSOMSaniZTtffEBNK7hY2M23GAMyFIRpyQYQtMpCv2D6xHqpKjb4; expires=Thu, 18-Jul-2019 15:39:33 GMT; path=/; domain=.google.com; HttpOnly
 Accept-Ranges: none
 Vary: Accept-Encoding<br>
-&lt;!doctype html&gt;...</code></pre></section><section><h3>Demo</h3></section><section><h3>Web Servers</h3><ul><li>Convert Request Path to File Path</li><li>Load and Respond with File Contents</li><li>Apache, IIS, nginx</li></ul></section><section><h3>Dynamic Web Pages</h3><ul><li>Examine Request Path</li><li>Generate Text on the Fly</li><li>Respond with Generated Text</li><li>Improved with Templates</li></ul></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+&lt;!doctype html&gt;...</code></pre>
+</section>
+<section>
+    <h3>Demo</h3>
+</section>
+<section>
+    <h3>Web Servers</h3>
+    <ul>
+        <li>Convert Request Path to File Path</li>
+        <li>Load and Respond with File Contents</li>
+        <li>Apache, IIS, nginx</li>
+    </ul>
+</section>
+<section>
+    <h3>Dynamic Web Pages</h3>
+    <ul>
+        <li>Examine Request Path</li>
+        <li>Generate Text on the Fly</li>
+        <li>Respond with Generated Text</li>
+        <li>Improved with Templates</li>
+    </ul>
+</section>
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

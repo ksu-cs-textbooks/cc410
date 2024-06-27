@@ -1,70 +1,4163 @@
-<!doctype html><html lang=en-us dir=ltr itemscope itemtype=http://schema.org/Article><head><meta charset=utf-8><meta name=viewport content="height=device-height,width=device-width,initial-scale=1,minimum-scale=1"><meta name=generator content="Hugo 0.128.0"><meta name=generator content="Relearn 6.0.0"><meta name=description content="Because every function deserves to be a first-class citizen!"><meta name=author content="Russell Feldhausen"><meta name=twitter:card content="summary"><meta name=twitter:title content="Lambda Expressions :: CC 410 Textbook"><meta name=twitter:description content="Because every function deserves to be a first-class citizen!"><meta property="og:url" content="https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/"><meta property="og:site_name" content="CC 410 Textbook"><meta property="og:title" content="Lambda Expressions :: CC 410 Textbook"><meta property="og:description" content="Because every function deserves to be a first-class citizen!"><meta property="og:locale" content="en-us"><meta property="og:type" content="website"><meta itemprop=name content="Lambda Expressions :: CC 410 Textbook"><meta itemprop=description content="Because every function deserves to be a first-class citizen!"><meta itemprop=datePublished content="2021-08-17T00:00:00+00:00"><meta itemprop=dateModified content="2023-08-10T16:05:23-05:00"><meta itemprop=wordCount content="9"><title>Lambda Expressions :: CC 410 Textbook</title>
-<link href=https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/ rel=canonical type=text/html title="Lambda Expressions :: CC 410 Textbook"><link href=/cc410/i-oop/08-lambdas/index.xml rel=alternate type=application/rss+xml title="Lambda Expressions :: CC 410 Textbook"><link href=/cc410/i-oop/08-lambdas/tele.html rel=alternate type=text/html title="Lambda Expressions :: CC 410 Textbook"><link href=/cc410/i-oop/08-lambdas/embed.html rel=alternate type=text/html title="Lambda Expressions :: CC 410 Textbook"><link href=/cc410/images/favicon.ico?1719508606 rel=icon type=image/x-icon sizes=any><link href=/cc410/css/fontawesome-all.min.css?1719508715 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=/cc410/css/fontawesome-all.min.css?1719508715 rel=stylesheet></noscript><link href=/cc410/css/nucleus.css?1719508715 rel=stylesheet><link href=/cc410/css/auto-complete.css?1719508715 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=/cc410/css/auto-complete.css?1719508715 rel=stylesheet></noscript><link href=/cc410/css/perfect-scrollbar.min.css?1719508715 rel=stylesheet><link href=/cc410/css/fonts.css?1719508715 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=/cc410/css/fonts.css?1719508715 rel=stylesheet></noscript><link href=/cc410/css/theme.css?1719508715 rel=stylesheet><link href=/cc410/css/theme-auto.css?1719508715 rel=stylesheet id=R-variant-style><link href=/cc410/css/chroma-auto.css?1719508715 rel=stylesheet id=R-variant-chroma-style><link href=/cc410/css/variant.css?1719508715 rel=stylesheet><link href=/cc410/css/print.css?1719508715 rel=stylesheet media=print><link href=/cc410/css/format-print.css?1719508715 rel=stylesheet><script src=/cc410/js/variant.js?1719508715></script><script>window.relearn=window.relearn||{},window.relearn.relBasePath="../..",window.relearn.relBaseUri="../../..",window.relearn.absBaseUri="https://textbooks.cs.ksu.edu/cc410",window.index_js_url="/cc410/index.search.js",window.variants&&variants.init(["auto","light-theme","dark-theme"]),window.T_Copy_to_clipboard=`Copy to clipboard`,window.T_Copied_to_clipboard=`Copied to clipboard!`,window.T_Copy_link_to_clipboard=`Copy link to clipboard`,window.T_Link_copied_to_clipboard=`Copied link to clipboard!`,window.T_Reset_view=`Reset view`,window.T_View_reset=`View reset!`,window.T_No_results_found=`No results found for "{0}"`,window.T_N_results_found=`{1} results found for "{0}"`</script><link href=/cc410/css/custom.css?1719508715 rel=stylesheet></head><body class="mobile-support print disableInlineCopyToClipboard" data-url=/cc410/i-oop/08-lambdas/><div id=R-body class=default-animation><div id=R-body-overlay></div><nav id=R-topbar><div class=topbar-wrapper><div class=topbar-sidebar-divider></div><div class="topbar-area topbar-area-start" data-area=start><div class="topbar-button topbar-button-sidebar" data-content-empty=disable data-width-s=show data-width-m=hide data-width-l=hide><button class=topbar-control onclick=toggleNav() type=button title="Menu (CTRL+ALT+n)"><i class="fa-fw fas fa-bars"></i></button></div></div><ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype=http://schema.org/BreadcrumbList><li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><a itemprop=item href=/cc410/i-oop/><span itemprop=name>OOP</span></a><meta itemprop=position content="1">&nbsp;>&nbsp;</li><li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><span itemprop=name>Lambda Expressions</span><meta itemprop=position content="2"></li></ol><div class="topbar-area topbar-area-end" data-area=end><div class="topbar-button topbar-button-prev" data-content-empty=disable data-width-s=show data-width-m=show data-width-l=show><a class=topbar-control href=/cc410/i-oop/07-debugging-logging/07-summary/ title="Summary (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></div><div class="topbar-button topbar-button-next" data-content-empty=disable data-width-s=show data-width-m=show data-width-l=show><a class=topbar-control href=/cc410/i-oop/08-lambdas/01-introduction/ title="Introduction (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></div></div></div></nav><div id=R-main-overlay></div><main id=R-body-inner class="highlightable chapter narrow" tabindex=-1><div class=flex-block-wrapper><article class=chapter><header class=headline></header><div class=article-subheading>Chapter 8</div><h1 id=lambda-expressions>Lambda Expressions</h1><p>Because every function deserves to be a first-class citizen!</p><footer class=footline></footer></article><section><h1 class=a11y-only>Subsections of Lambda Expressions</h1><article class=default><header class=headline></header><h1 id=introduction>Introduction</h1><p>Once of the more interesting features that has been added to most object-oriented languages over time is <strong>lambda expressions</strong>. Lambda expressions are a unique way to handle functions in our code - basically, we can create a function on the fly, and then pass that function around as a parameter or store it in a variable, just like any other object. In true <a href=https://en.wikipedia.org/wiki/Von_Neumann_architecture rel=external target=_blank>Von Neumann</a> fashion, we are effectively treating the executable code of our program just like data.</p><p>In this chapter, we&rsquo;ll briefly explore lambda expressions and where they came from. We&rsquo;ll see some examples of how they are used in both Java and Python, and then we&rsquo;ll discuss some best practices for when we should, or should not, consider using them in our code.</p><p>In this course, we generally won&rsquo;t need to use lambda expressions in our programs except in a few cases, such as specific types of unit tests in Java. This chapter is meant to simply be informative and let you explore one interesting aspect of programming you may not have worked with up to this point.</p><footer class=footline></footer></article><article class=default><header class=headline></header><h1 id=lambda-calculus>Lambda Calculus</h1><a href="https://www.youtube.com/watch?v=ZsJT_pEJEAI">YouTube Video</a><p><a href=/cc410/i-oop/08-lambdas/02-lambda-calculus/video/>Video Materials</a></p><p>The basis of lambda expressions comes from a special branch of mathematics known as <a href=https://en.wikipedia.org/wiki/Lambda_calculus rel=external target=_blank>Lambda Calculus</a>. It was first introduced by Alonzo Church, who is often connected with Alan Turing in the early days of theoretical computer science. (You may have heard of the <a href=https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis rel=external target=_blank>Church-Turing thesis</a> that relates to the computability of functions on a Turing machine.)</p><h2 id=lambda-calculus>Lambda Calculus</h2><p>Lambda calculus is a formal notation used to describe computation. Recall that most mathematics uses expressions or equations, which express values, but don&rsquo;t necessarily include the information needed to express the process of computation itself. By having a formal notation for computation, we can study the fundamental aspects of computer science and mathematics in a more rigorous way.</p><p>In programming, lambda calculus leads to a particular programming paradigm known as <a href=https://en.wikipedia.org/wiki/Functional_programming rel=external target=_blank>Functional Programming</a>. The programming paradigm we&rsquo;ve been studying, <a href=https://en.wikipedia.org/wiki/Object-oriented_programming rel=external target=_blank>object-oriented programming</a> is usually combined with the <a href=https://en.wikipedia.org/wiki/Procedural_programming rel=external target=_blank>procedural programming</a> paradigm, itself a subset of <a href=https://en.wikipedia.org/wiki/Imperative_programming rel=external target=_blank>imperative programming</a>. In imperative programming, we write code that consists of commands that modify the programs <em>state</em>. So, to compute the square of a number, we would create a variable in our <em>state</em> to store the result, and then modify that state by computing the correct value and storing it in that variable. The commands to do this are typically written as procedures (or <em>functions</em>) in procedural programming, so we can reuse those pieces of code throughout our program. Procedural programming typically follows the <a href=https://en.wikipedia.org/wiki/Structured_programming rel=external target=_blank>structured programming</a> paradigm as well, where programs are constructed of smaller structures such as sequences, conditional statements, and iterative statements. Object-oriented programming, as we&rsquo;ve learned, further refines this process by grouping related <em>state</em> and <em>behaviors</em> (<em>methods</em> which represent functions or procedures in other paradigms) into <em>objects</em> that can be seen as independent pieces of a larger program.</p><p>Functional programming is quite different. Instead of creating an imperative list of steps to be taken to modify the state of the program and achieve a result, functional programming involves constructing and applying mathematical functions, which simply translate values from inputs to outputs. Functional programming is a form of <a href=https://en.wikipedia.org/wiki/Declarative_programming rel=external target=_blank>declarative programming</a>, where computer programs are built simply by expressing the logic of the computation but not the individual steps or control flow necessary to achieve the desired result. In effect, a declarative programming language is used to state <em>what</em> a program does, but not necessarily <em>how</em> to do it.</p><h2 id=functional-programming-example>Functional Programming Example</h2><p>Here is an example of the imperative and functional programming paradigms being used to compute the same value. In this case, the program will multiply all even numbers in an array by 10, and then add them up and store the final result in a variable called <code>result</code>. These examples use the <a href=https://en.wikipedia.org/wiki/JavaScript rel=external target=_blank>JavaScript</a> programming language, which should be somewhat readable to us even though we&rsquo;ve only studied Java or Python. This example is taken directly from the <a href=https://en.wikipedia.org/wiki/Functional_programming rel=external target=_blank>functional programming</a> article on Wikipedia:</p><h6 id=imperative>Imperative</h6><div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kr>const</span> <span class=nx>numList</span> <span class=o>=</span> <span class=p>[</span><span class=mi>1</span><span class=p>,</span> <span class=mi>2</span><span class=p>,</span> <span class=mi>3</span><span class=p>,</span> <span class=mi>4</span><span class=p>,</span> <span class=mi>5</span><span class=p>,</span> <span class=mi>6</span><span class=p>,</span> <span class=mi>7</span><span class=p>,</span> <span class=mi>8</span><span class=p>,</span> <span class=mi>9</span><span class=p>,</span> <span class=mi>10</span><span class=p>];</span>
-</span></span><span class=line><span class=cl><span class=kd>let</span> <span class=nx>result</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
-</span></span><span class=line><span class=cl><span class=k>for</span> <span class=p>(</span><span class=kd>let</span> <span class=nx>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=nx>i</span> <span class=o>&lt;</span> <span class=nx>numList</span><span class=p>.</span><span class=nx>length</span><span class=p>;</span> <span class=nx>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>  <span class=k>if</span> <span class=p>(</span><span class=nx>numList</span><span class=p>[</span><span class=nx>i</span><span class=p>]</span> <span class=o>%</span> <span class=mi>2</span> <span class=o>===</span> <span class=mi>0</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>    <span class=nx>result</span> <span class=o>+=</span> <span class=nx>numList</span><span class=p>[</span><span class=nx>i</span><span class=p>]</span> <span class=o>*</span> <span class=mi>10</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>  <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>}</span></span></span></code></pre></div><h6 id=functional>Functional</h6><div class=highlight><pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=line><span class=cl><span class=kr>const</span> <span class=nx>result</span> <span class=o>=</span> <span class=p>[</span><span class=mi>1</span><span class=p>,</span> <span class=mi>2</span><span class=p>,</span> <span class=mi>3</span><span class=p>,</span> <span class=mi>4</span><span class=p>,</span> <span class=mi>5</span><span class=p>,</span> <span class=mi>6</span><span class=p>,</span> <span class=mi>7</span><span class=p>,</span> <span class=mi>8</span><span class=p>,</span> <span class=mi>9</span><span class=p>,</span> <span class=mi>10</span><span class=p>]</span>
-</span></span><span class=line><span class=cl>               <span class=p>.</span><span class=nx>filter</span><span class=p>(</span><span class=nx>n</span> <span class=p>=&gt;</span> <span class=nx>n</span> <span class=o>%</span> <span class=mi>2</span> <span class=o>===</span> <span class=mi>0</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>               <span class=p>.</span><span class=nx>map</span><span class=p>(</span><span class=nx>a</span> <span class=p>=&gt;</span> <span class=nx>a</span> <span class=o>*</span> <span class=mi>10</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>               <span class=p>.</span><span class=nx>reduce</span><span class=p>((</span><span class=nx>a</span><span class=p>,</span> <span class=nx>b</span><span class=p>)</span> <span class=p>=&gt;</span> <span class=nx>a</span> <span class=o>+</span> <span class=nx>b</span><span class=p>);</span></span></span></code></pre></div><p>The imperative programming code is very similar to what we would write in Java or Python. We start with our array of numbers, then use a for loop to iterate through the entire array. Inside of the for loop, we determine if the individual number is an even number using the modulo operator. If so, we multiply that number by 10 and add that value to the <code>result</code> variable.</p><p>The functional programming code achieves the same result through the use of three <a href=https://en.wikipedia.org/wiki/Higher-order_function rel=external target=_blank>higher-order functions</a>. A higher-order function is a function that can accept a function as input - in this case a <strong>lambda expression</strong> in the form of an anonymous function that converts one or more input parameters into an output value. We&rsquo;ll dig deeper into lambda expressions later in this chapter, but for now we&rsquo;ll just observe what they do.</p><p>So, our functional program can be broken down into four parts:</p><ol><li>We start with our array of numbers from 1 through 10. That is the input we provide to the first function.</li><li>On that array, we apply the <code>filter</code> function. This function accepts a lambda expression as an argument. That lambda should take a value from the array, and convert it to a boolean value, which is used to <strong>filter</strong> the values in the array. In this case, that boolean value will be <code>true</code> if the value <code>n</code> from the array is an even number. The <code>filter</code> function then uses that lambda to return a new array that just contains those values in the original array that return <code>true</code> in the lambda function provided to <code>filter</code>. So, our new array will contain <code>[2, 4, 6, 8, 10]</code>.</li><li>Then, we apply the <code>map</code> function to that new array returned from <code>filter</code>. The <code>map</code> function also takes a lambda as an argument, and that lambda is used to transform, or <strong>map</strong>, the values from the array to new values. In this case, it will convert the existing value <code>a</code> to the value <code>a * 10</code>. So, once the <code>map</code> function is complete, the array would contain <code>[20, 40, 60, 80, 100]</code>. Remember that this value isn&rsquo;t stored as <em>state</em> in the program, per se, but is representing the values that would result from applying these functions to the input array itself.</li><li>Finally, we use the <code>reduce</code> function to reduce all of the values in the array to a single resulting value. The <code>result</code> function uses a lambda expression as an argument. That lambda is used to describe how to combine two values from the array, <code>a</code> and <code>b</code>, to a single resulting value. In this case, we want to sum the values in the array, so the lambda will return in <code>a + b</code> as the result. The <code>reduce</code> function will repeatedly use that lambda to <strong>reduce</strong> two values in the array to a single value until only one value remains. That value will be the result of that function, which will be then represented by the <code>result</code> variable. Notice that it isn&rsquo;t <em>stored</em> in that variable, since again we don&rsquo;t have the concept of <em>state</em>. Instead, we are just stating that the variable <code>result</code> now <strong>represents</strong> the value that is the result of applying these functions to the given input value.</li></ol><p>Functional programming can be challenging to understand at first, especially for programmers that come from an imperative programming paradigm. However, it is very powerful, and has some interesting uses. Once of the more common uses of functional programming is the creation of programs that can be proven to work correctly. This is because there is no actual computation performed, so there can be no side effects from those computations. Therefore, as long as the functional statements yield the correct results via a mathematical proof, we know that the program works correctly.</p><h2 id=functional-programming-today>Functional Programming Today</h2><p>Many programming languages today either support some form of functional programming, or at least support the use of <strong>lambda expressions</strong> within their code. Some languages, such as Python, JavaScript and Go, support the functional programming paradigm directly. Other languages, such as Java and C#, have introduced the ability to do some functional programming over time.</p><p>Other languages, such as Haskell, F#, Erlang, and Lisp are built almost exclusively for functional programming. While they are most used in academia, functional programming is also very commonly used in web back-end development, statistics, data science, and more.</p><footer class=footline></footer></article><section><h1 class=a11y-only>Subsections of Lambda Calculus</h1></section><article class=default><header class=headline></header><h1 id=functions-as-objects>Functions as Objects</h1><p>One of the major concepts from functional programming is that functions are now treated as <a href=https://en.wikipedia.org/wiki/First-class_citizen rel=external target=_blank>first-class citizens</a> within a programming language. A first-class citizen is an element of a programming language that can be treated like any other element - it can be stored in a variable, provided as an argument to another function, returned from a function, and even modified by other code.</p><p>This can be a very strange concept to reason about - we are used to thinking of <em>state</em> and <em>behavior</em> as two separate parts of an object-oriented program. However, functional programming allows us to store a <em>behavior</em> as <em>state</em>, and then use that <em>behavior</em> as input to other parts of the code.</p><h2 id=lambda-expressions>Lambda Expressions</h2><p>In both Java and Python, one of the most common ways to create a behavior that can be stored as state is to use a <strong>lambda expression</strong>. Lambda expressions are sometimes known as <strong>anonymous functions</strong> since they are effectively functions that are not given a name, though some languages like Python allow us to assign names to lambda expressions as well.</p><p>As we saw in the example on the previous page, JavaScript allows us to quickly create lambda expressions that perform a particular task, such as determining if a value meets a given criteria that was used with <code>filter</code>, converting a value to a new value as used with <code>map</code>, or taking two values and reducing them to a single value as used in the <code>reduce</code> function.</p><p>In that example, <code>filter</code>, <code>map</code>, and <code>reduce</code> are examples of <a href=https://en.wikipedia.org/wiki/Higher-order_function rel=external target=_blank>higher-order functions</a> that accept other functions as input. Those higher-order functions can then use the function provided as input to perform their work. In the case of <code>filter</code>, it uses the provided function to determine if each value in the array should be included in the result or not.</p><p>We&rsquo;ve already seen a couple of examples of lambda expressions, or at least something similar, in our programs:</p><ul><li><strong>Java</strong> - in our unit tests, we saw a lambda expression <code>() -> new GameLogic()</code> used as part of a unit test. That lambda is used to create a new object, and is used by the <code>assertThrows</code> assertion, itself a higher-order function, to determine if the code in the lambda expression results in an exception. In effect, that function executes the lambda and observes the result to determine if the exception is thrown.</li><li><strong>Python</strong> - one major feature of Python is list comprehension, such as <code>square_list = [x**2 for x in range(0, 10)]</code>. While list comprehension isn&rsquo;t exactly the same as a lambda expression, it is very similar in concept. We are effectively creating a small anonymous function that is used to populate a list. In fact, we could do the same thing with a lambda expression: <code>square_list = list(map(lambda x: x**2, range(0, 10)))</code></li></ul><p>On the next pages, we&rsquo;ll discuss the specifics of creating and using lambda expressions in both Java and Python. Feel free to read the page for the language you are studying, but it may be very informative to review how both languages handle the same concept.</p><footer class=footline></footer></article><article class=default><header class=headline></header><h1 id=java-lambdas>Java Lambdas</h1><a href="https://www.youtube.com/watch?v=AC9siHj92ms">YouTube Video</a><p><a href=/cc410/i-oop/08-lambdas/04-java-lambdas/video/>Video Materials</a></p><p>Java introduced lambda expressions in Java version 8. As we would expect based on the previous pages, it allows us to create anonymous functions that can then be passed as arguments to other functions. Java includes several new types, such as <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html rel=external target=_blank>Predicate</a> and <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html rel=external target=_blank>Consumer</a>, all contained in the <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html rel=external target=_blank>java.util.function</a> package.</p><h2 id=lambda-expression-syntax>Lambda Expression Syntax</h2><p>In general, a lambda expression in Java consists of the following syntax:</p><ol><li>A list of formal parameters in parentheses, separated by commas. You do not have to specify the data type of the parameters. Likewise, if there is a single parameter, the parentheses may also be omitted.</li><li>An arrow <code>-></code></li><li>A body, which may be either a single expression or a block of statements surrounded by curly braces <code>{}</code></li></ol><h2 id=lambda-expression-example>Lambda Expression Example</h2><p>Let&rsquo;s look at an example of creating and using a lambda expression in our code. This example comes from <a href=https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax rel=external target=_blank>Lambda Expressions</a> from the Oracle Java Tutorials:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span><span class=w> </span><span class=kd>class</span> <span class=nc>Calculator</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>  
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>interface</span> <span class=nc>IntegerMath</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=kt>int</span><span class=w> </span><span class=nf>operation</span><span class=p>(</span><span class=kt>int</span><span class=w> </span><span class=n>a</span><span class=p>,</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=n>b</span><span class=p>);</span><span class=w>   
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>  
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=nf>operateBinary</span><span class=p>(</span><span class=kt>int</span><span class=w> </span><span class=n>a</span><span class=p>,</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=n>b</span><span class=p>,</span><span class=w> </span><span class=n>IntegerMath</span><span class=w> </span><span class=n>op</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=n>op</span><span class=p>.</span><span class=na>operation</span><span class=p>(</span><span class=n>a</span><span class=p>,</span><span class=w> </span><span class=n>b</span><span class=p>);</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w> 
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=kd>static</span><span class=w> </span><span class=kt>void</span><span class=w> </span><span class=nf>main</span><span class=p>(</span><span class=n>String</span><span class=p>...</span><span class=w> </span><span class=n>args</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>Calculator</span><span class=w> </span><span class=n>myApp</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>Calculator</span><span class=p>();</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>IntegerMath</span><span class=w> </span><span class=n>addition</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=p>(</span><span class=n>a</span><span class=p>,</span><span class=w> </span><span class=n>b</span><span class=p>)</span><span class=w> </span><span class=o>-&gt;</span><span class=w> </span><span class=n>a</span><span class=w> </span><span class=o>+</span><span class=w> </span><span class=n>b</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>IntegerMath</span><span class=w> </span><span class=n>subtraction</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=p>(</span><span class=n>a</span><span class=p>,</span><span class=w> </span><span class=n>b</span><span class=p>)</span><span class=w> </span><span class=o>-&gt;</span><span class=w> </span><span class=n>a</span><span class=w> </span><span class=o>-</span><span class=w> </span><span class=n>b</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=s>&#34;40 + 2 = &#34;</span><span class=w> </span><span class=o>+</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=n>myApp</span><span class=p>.</span><span class=na>operateBinary</span><span class=p>(</span><span class=n>40</span><span class=p>,</span><span class=w> </span><span class=n>2</span><span class=p>,</span><span class=w> </span><span class=n>addition</span><span class=p>));</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=s>&#34;20 - 10 = &#34;</span><span class=w> </span><span class=o>+</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=n>myApp</span><span class=p>.</span><span class=na>operateBinary</span><span class=p>(</span><span class=n>20</span><span class=p>,</span><span class=w> </span><span class=n>10</span><span class=p>,</span><span class=w> </span><span class=n>subtraction</span><span class=p>));</span><span class=w>    
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span></span></span></code></pre></div><p>In this simple calculator class, we are defining an internal <code>interface</code> called <code>IntegerMath</code>, which defines one <code>operation</code> between two integers, which also returns an integer. Then, in our <code>Calculator</code> class, we have a function <code>operateBinary</code> that accepts an argument of type <code>IntegerMath</code>.</p><p>So, in our <code>main</code> method, we are creating two lambda expressions that use the type <code>IntegerMath</code>. One is a lambda that accepts two values and returns the sum, and the other accepts two values and returns the difference. Java will automatically recognize that those lambda expressions match the <code>operation</code> method defined in the <code>IntegerMath</code> interface. So, when we call the <code>operateBinary</code> method and provide either <code>addition</code> or <code>subtraction</code> as arguments, it will use those lambda expressions to compute the result.</p><p>As we can see, we were able to create two functions, via lambda expressions, as first-class citizens in our language by storing them in variables, and then passing those functions as arguments to another method, which can then call the function itself.</p><h2 id=lambda-expressions-in-practice>Lambda Expressions In Practice</h2><p>In practice, Java tends to use lambda expressions for tasks such as sorting, filtering, or mapping data in a collection. <a href=https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax rel=external target=_blank>Lambda Expressions</a> from the Oracle Java Tutorials gives another example that can be used to quickly generate a filter that will print a list of email addresses for people in list who are males between the ages of 18 and 25:</p><p>The function that accomplishes this work is shown below:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span><span class=w> </span><span class=kd>static</span><span class=w> </span><span class=kt>void</span><span class=w> </span><span class=nf>processPersonsWithFunction</span><span class=p>(</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>List</span><span class=o>&lt;</span><span class=n>Person</span><span class=o>&gt;</span><span class=w> </span><span class=n>roster</span><span class=p>,</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>Predicate</span><span class=o>&lt;</span><span class=n>Person</span><span class=o>&gt;</span><span class=w> </span><span class=n>tester</span><span class=p>,</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>Function</span><span class=o>&lt;</span><span class=n>Person</span><span class=p>,</span><span class=w> </span><span class=n>String</span><span class=o>&gt;</span><span class=w> </span><span class=n>mapper</span><span class=p>,</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>Consumer</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;</span><span class=w> </span><span class=n>block</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=k>for</span><span class=w> </span><span class=p>(</span><span class=n>Person</span><span class=w> </span><span class=n>p</span><span class=w> </span><span class=p>:</span><span class=w> </span><span class=n>roster</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>if</span><span class=w> </span><span class=p>(</span><span class=n>tester</span><span class=p>.</span><span class=na>test</span><span class=p>(</span><span class=n>p</span><span class=p>))</span><span class=w> </span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=n>String</span><span class=w> </span><span class=n>data</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>mapper</span><span class=p>.</span><span class=na>apply</span><span class=p>(</span><span class=n>p</span><span class=p>);</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>            </span><span class=n>block</span><span class=p>.</span><span class=na>accept</span><span class=p>(</span><span class=n>data</span><span class=p>);</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span></span></span></code></pre></div><p>We can use that function by passing three lambdas, as shown here:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>processPersonsWithFunction</span><span class=p>(</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>roster</span><span class=p>,</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>p</span><span class=w> </span><span class=o>-&gt;</span><span class=w> </span><span class=n>p</span><span class=p>.</span><span class=na>getGender</span><span class=p>()</span><span class=w> </span><span class=o>==</span><span class=w> </span><span class=n>Person</span><span class=p>.</span><span class=na>Sex</span><span class=p>.</span><span class=na>MALE</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=o>&amp;&amp;</span><span class=w> </span><span class=n>p</span><span class=p>.</span><span class=na>getAge</span><span class=p>()</span><span class=w> </span><span class=o>&gt;=</span><span class=w> </span><span class=n>18</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=o>&amp;&amp;</span><span class=w> </span><span class=n>p</span><span class=p>.</span><span class=na>getAge</span><span class=p>()</span><span class=w> </span><span class=o>&lt;=</span><span class=w> </span><span class=n>25</span><span class=p>,</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>p</span><span class=w> </span><span class=o>-&gt;</span><span class=w> </span><span class=n>p</span><span class=p>.</span><span class=na>getEmailAddress</span><span class=p>(),</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>email</span><span class=w> </span><span class=o>-&gt;</span><span class=w> </span><span class=n>System</span><span class=p>.</span><span class=na>out</span><span class=p>.</span><span class=na>println</span><span class=p>(</span><span class=n>email</span><span class=p>)</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>);</span></span></span></code></pre></div><p>In this case, <code>roster</code> is a list of <code>Person</code> objects, and we have created three lambda expressions to filter the list to include only the people we want, them map those people to an email address, and finally print those emails to the terminal.</p><h2 id=referencing-java-methods>Referencing Java Methods</h2><p>Finally, while methods in Java aren&rsquo;t exactly first-class citizens, there is a shorthand that we can use to create lambda expressions that simply call a given method.</p><p>For example, the lambda expression:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>a</span><span class=w> </span><span class=o>-&gt;</span><span class=w> </span><span class=n>a</span><span class=p>.</span><span class=na>toLowerCase</span><span class=p>()</span></span></span></code></pre></div><p>simply calls the <code>toLowerCase()</code> method of the String class. So, we could replace that with this <a href=https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html rel=external target=_blank>method reference</a>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=nl>String</span><span class=p>::</span><span class=n>toLowerCase</span><span class=p>()</span></span></span></code></pre></div><p>In effect, this allows us to reference a function as if it were a first-class citizen, even if we can&rsquo;t truly store it in a variable like other objects in Java.</p><p>There are four different types of <a href=https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html rel=external target=_blank>method references</a>:</p><ul><li><strong>Static Method in a Class</strong> : <code>ClassName::staticMethodName</code></li><li><strong>Instance Method of Particular Object</strong>: <code>objectInstance::instanceMethodName</code></li><li><strong>Instance Method of Arbitrary Object of Given Type</strong>: <code>ClassName::methodName</code></li><li><strong>Constructor</strong>: <code>ClassName::new</code></li></ul><p>Many parts of the Java API accept method references along with lambda expressions, so this is yet another way we can make use of existing or anonymous functions in our code.</p><p>For more information on using lambda expressions and method references in Java, check out the references linked below.</p><h3 id=references>References</h3><ul><li><a href=https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax rel=external target=_blank>Lambda Expressions</a> from the Oracle Java Tutorials</li><li><a href=https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html rel=external target=_blank>Method References</a> from the Oracle Java Tutorials</li><li><a href=https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm rel=external target=_blank>Java 8 - Lambda Expressions</a> from Tutorials Point</li><li><a href=https://www.geeksforgeeks.org/lambda-expressions-java-8/ rel=external target=_blank>Lambda Expressions in Java 8</a> from GeeksforGeeks</li><li><a href=https://www.w3schools.com/java/java_lambda.asp rel=external target=_blank>Java Lambda Expressions</a> from W3Schools</li><li><a href=https://gelopfalcon.medium.com/best-practices-when-you-use-lambda-expressions-in-java-f51e96d44b25 rel=external target=_blank>Best practices when you use Lambda expressions in Java</a> by Gerardo Lopez Falcón on Medium</li></ul><footer class=footline></footer></article><section><h1 class=a11y-only>Subsections of Java Lambdas</h1></section><article class=default><header class=headline></header><h1 id=python-lambdas>Python Lambdas</h1><a href="https://www.youtube.com/watch?v=HlFoT0B0GPk">YouTube Video</a><p><a href=/cc410/i-oop/08-lambdas/05-python-lambdas/video/>Video Materials</a></p><p>Lambda expressions, typically called <strong>lambda functions</strong> in most Python documentation, are effectively a syntactic shortcut for defining a function within Python code. This is because normal Python functions are already first-class citizens in the language - we can already pass existing named functions as arguments to other functions! So, lambdas in Python are simply shortcuts we can use to create a new anonymous function where needed, but we can always use normal functions to perform the same task.</p><h2 id=python-functions-vs-lambdas>Python Functions vs. Lambdas</h2><p>Python lambda functions are effectively the same as Python functions. For example, we can write an addition function in Python in the following way:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>def</span> <span class=nf>addition</span><span class=p>(</span><span class=n>x</span><span class=p>,</span> <span class=n>y</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>x</span> <span class=o>+</span> <span class=n>y</span></span></span></code></pre></div><p>The same concept can be expressed as a lambda function, and we can even store it in a variable:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>addition_lambda</span> <span class=o>=</span> <span class=k>lambda</span> <span class=n>x</span><span class=p>,</span> <span class=n>y</span><span class=p>:</span> <span class=n>x</span> <span class=o>+</span> <span class=n>y</span></span></span></code></pre></div><p>Those two functions are effectively identical - they produce the same result, and can be treated as variables as well as callable functions.</p><p>The basic syntax of a lambda function in Python includes the following:</p><ol><li>The keyword <code>lambda</code></li><li>A list of parameters separated by commas, which can be named, positional, keyword, or variable parameters. Basically, any way you can define the parameters for a normal Python function can also be used for a lambda function.</li><li>A colon after the parameters:</li><li>A <strong>single expression</strong> that creates the result of the lambda function. Lambdas may not include multiple expressions, or any statements such as <code>return</code> or <code>pass</code>.</li></ol><p>In addition, Python lambda functions are <strong>not compatible</strong> with type annotations. So, when working with object-oriented Python, we will almost always prefer to write our own functions using the normal syntax, which allows us to perform type checking using Mypy.</p><h2 id=python-lambda-example>Python Lambda Example</h2><p>Here&rsquo;s a quick example of using both lambda functions and normal class functions as first-class citizens in Python. This example is adapted from a similar example given in <a href=https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax rel=external target=_blank>Lambda Expressions</a> from the Oracle Java Tutorials:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Calculator</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>addition</span><span class=p>(</span><span class=n>x</span><span class=p>,</span> <span class=n>y</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>x</span> <span class=o>+</span> <span class=n>y</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>operate_binary</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>,</span> <span class=n>operation</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>operation</span><span class=p>(</span><span class=n>a</span><span class=p>,</span> <span class=n>b</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>main</span><span class=p>():</span>
-</span></span><span class=line><span class=cl>        <span class=n>calc</span> <span class=o>=</span> <span class=n>Calculator</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>        <span class=n>subtraction</span> <span class=o>=</span> <span class=k>lambda</span> <span class=n>x</span><span class=p>,</span> <span class=n>y</span><span class=p>:</span> <span class=n>x</span> <span class=o>-</span> <span class=n>y</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;40 + 2 = </span><span class=si>{}</span><span class=s2>&#34;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>calc</span><span class=o>.</span><span class=n>operate_binary</span><span class=p>(</span><span class=mi>40</span><span class=p>,</span> <span class=mi>2</span><span class=p>,</span> <span class=n>Calculator</span><span class=o>.</span><span class=n>addition</span><span class=p>)))</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;20 - 10 = </span><span class=si>{}</span><span class=s2>&#34;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>calc</span><span class=o>.</span><span class=n>operate_binary</span><span class=p>(</span><span class=mi>20</span><span class=p>,</span> <span class=mi>10</span><span class=p>,</span> <span class=n>subtraction</span><span class=p>)))</span>
-</span></span><span class=line><span class=cl>        <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;7 * 6 = </span><span class=si>{}</span><span class=s2>&#34;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>calc</span><span class=o>.</span><span class=n>operate_binary</span><span class=p>(</span><span class=mi>7</span><span class=p>,</span> <span class=mi>6</span><span class=p>,</span> <span class=k>lambda</span><span class=p>:</span> <span class=n>x</span><span class=p>,</span> <span class=n>y</span><span class=p>:</span> <span class=n>x</span> <span class=o>*</span> <span class=n>y</span><span class=p>)))</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>if</span> <span class=vm>__name__</span> <span class=o>==</span> <span class=s2>&#34;__main__&#34;</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=n>Calculator</span><span class=o>.</span><span class=n>main</span><span class=p>()</span></span></span></code></pre></div><p>In this code, we are defining two different functions that we&rsquo;ll use later as arguments:</p><ul><li><code>addition</code> is a static method within the <code>Calculator</code> class that adds two values together.</li><li><code>subtraction</code> is a variable in the <code>main</code> function that is storing a <strong>lambda function</strong> that will subtract two values.</li></ul><p>Then, we&rsquo;ve created a higher-order function <code>operate_binary</code> in the <code>Calculator</code> class, which accepts two integers as parameters <code>a</code> and <code>b</code>, as well as a <strong>callable</strong> object in the <code>operation</code> parameter. In effect, the <code>operation</code> parameter is meant to be a function, either a traditional Python function or a lambda function.</p><p>In our <code>main</code> function, we call <code>calc.operate_binary</code> in two different ways. On the first line, we provide <code>Calculator.addition</code> as the third argument. Notice that we <strong>are not</strong> including the parentheses at the end of the function name. In that way, we aren&rsquo;t <em>calling</em> the function <code>Calculator.addition</code>, but we are referencing it as an attribute within the <code>Calculator</code> class. We can do this because functions are first-class citizens in Python, so we can treat them just like any other variable. Inside the <code>calc.operate_binary</code> function, we see that it calls the function stored in the <code>operation</code> variable by putting parentheses after the name, pass in any arguments as needed.</p><p>In the second example, we are passing the <code>subtraction</code> variable, which is a lambda function we created earlier, to the <code>calc.operate_binary</code> higher order function. So, it will be stored in <code>operation</code> and executed there.</p><p>Finally, we can create an anonymous lambda function directly within the function call to <code>calc.operate_binary</code>. This is why, typically, most lambda functions in Python are thought of as <strong>anonymous functions</strong> - we don&rsquo;t give them a name or store them in a variable, we simply create them as needed when we pass them to higher-order functions.</p><p>For more information on using lambda functions in Python, check out the references linked below.</p><h3 id=references>References</h3><ul><li><a href=https://realpython.com/python-lambda/ rel=external target=_blank>How to Use Python Lambda Functions</a> from Real Python</li><li><a href=https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/ rel=external target=_blank>Python Lambda Functions</a> from GeeksforGeeks</li><li><a href=https://www.w3schools.com/python/python_lambda.asp rel=external target=_blank>Python Lambda</a> from w3schools</li><li><a href=https://docs.python.org/3/howto/functional.html rel=external target=_blank>Functional Programming HOWTO</a> from Python Documentation</li></ul><footer class=footline></footer></article><section><h1 class=a11y-only>Subsections of Python Lambdas</h1></section><article class=default><header class=headline></header><h1 id=best-practices>Best Practices</h1><p>Lambda expressions are a very powerful tool that has been added to many different programming languages, including the ones we are studying in this course. However, there are some caveats that we should be aware of, and some best practices to follow.</p><h2 id=readability>Readability</h2><p>For starters, lambda expressions can affect the readability of code. Even though lambda expressions are included in both Java and Python, and have been for quite a while at this point, many developers still have not learned how to use them. This is mainly due to the fact that lambda expressions are closely related to functional programming, which is a completely different programming paradigm than what most programmers are used to.</p><p>In addition, pretty much anything that can be done with a lambda expression can be achieved through strictly procedural code, so there is really nothing to be gained through the use of lambda expressions in terms of functionality or performance.</p><p>Instead, the use of lambda expressions in Java and Python really comes down to readability, and for that reason, many developers tend to avoid them. From a certain point of view, lambda expressions don&rsquo;t really do anything except make the code harder to read for some developers, but possibly easier to read for others.</p><h2 id=scale>Scale</h2><p>If we do choose to use a lambda expression, it is best to keep them as short and concise as possible. In effect, a lambda expression should be thought of as a single operation or expression. In Python, this is required, but Java allows lambda expressions to include multiple statements.</p><p>If we need to write more complex code, it is probably best to do so using procedural code and traditional functions instead of lambda expressions.</p><h2 id=summary>Summary</h2><p>In general, while lambda expressions are very powerful and can be used in many different places in our code, in this course we&rsquo;ll generally avoid their use in places where they are not required. However, as a developer, you are welcome to use your better judgment - if you feel that a piece of code is better expressed as a lambda expression instead of procedural code, you are welcome to do so. When you do, keep in mind that this may make your code more difficult to understand for novice programmers who are not experienced with lambdas, so you may wish to thoroughly document your code to explain how it works.</p><footer class=footline></footer></article><article class=default><header class=headline></header><h1 id=summary>Summary</h1><p>In this chapter, we introduced <strong>lambda calculus</strong> as the basis for the <strong>functional programming</strong> paradigm. In functional programming, programs are written in a <strong>declarative</strong> language, expressing the desired result as a composition of functions instead of a procedural set of steps to execute.</p><p>In Java and Python, this appears as <strong>lambda expressions</strong> or <strong>lambda functions</strong> - small pieces of code that can be used to create <strong>anonymous functions</strong>. In addition, those functions can be treated as <strong>first-class citizens</strong> in our language, so we can store them in variables, pass them as arguments, and more.</p><p>However, due to the fact that lambda expressions are not well understood by a large number of programmers who do not have experience with functional programming, we&rsquo;ll generally avoid their use in our code. In most cases, anything that can be done in a lambda expression can also be done using procedural code and functions, and that is much more readable to the average programmer.</p><h2 id=review-quiz>Review Quiz</h2><p>Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.</p><i>Quizdown quiz omitted from print view.</i><footer class=footline></footer></article></section></div></main><div class=git-footer><p class=theme-version-footer>6.0.0</p><p>Last modified by:
-<i class='fas fa-user'></i> Russell Feldhausen
-<i class='fas fa-calendar'></i> <a href=https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258>Aug 10, 2023</a></p></div></div><script src=/cc410/js/clipboard.min.js?1719508715 defer></script><script src=/cc410/js/perfect-scrollbar.min.js?1719508715 defer></script><script src=/cc410/js/theme.js?1719508715 defer></script></body></html>
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.128.0">
+    <meta name="generator" content="Relearn 6.0.0">
+    <meta name="description" content="Because every function deserves to be a first-class citizen!">
+    <meta name="author" content="Russell Feldhausen">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lambda Expressions :: CC 410 Textbook">
+    <meta name="twitter:description" content="Because every function deserves to be a first-class citizen!">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/">
+    <meta property="og:site_name" content="CC 410 Textbook">
+    <meta property="og:title" content="Lambda Expressions :: CC 410 Textbook">
+    <meta property="og:description" content="Because every function deserves to be a first-class citizen!">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="website">
+    <meta itemprop="name" content="Lambda Expressions :: CC 410 Textbook">
+    <meta itemprop="description" content="Because every function deserves to be a first-class citizen!">
+    <meta itemprop="datePublished" content="2021-08-17T00:00:00+00:00">
+    <meta itemprop="dateModified" content="2023-08-10T16:05:23-05:00">
+    <meta itemprop="wordCount" content="9">
+    <title>Lambda Expressions :: CC 410 Textbook</title>
+    <link href="https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/" rel="canonical" type="text/html" title="Lambda Expressions :: CC 410 Textbook">
+    <link href="/cc410/i-oop/08-lambdas/index.xml" rel="alternate" type="application/rss+xml" title="Lambda Expressions :: CC 410 Textbook">
+    <link href="/cc410/i-oop/08-lambdas/tele.html" rel="alternate" type="text/html" title="Lambda Expressions :: CC 410 Textbook">
+    <link href="/cc410/i-oop/08-lambdas/embed.html" rel="alternate" type="text/html" title="Lambda Expressions :: CC 410 Textbook">
+    <link href="/cc410/images/favicon.ico?1719518909" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1719519019" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1719519019" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1719519019" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1719519019" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1719519019" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1719519019" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1719519019" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1719519019" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1719519019" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1719519019" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1719519019" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1719519019" rel="stylesheet">
+    <link href="/cc410/css/print.css?1719519019" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1719519019" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1719519019"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc410';
+      window.index_js_url="/cc410/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    
+    <link href="/cc410/css/custom.css?1719519019" rel="stylesheet">
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/i-oop/08-lambdas/">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/cc410/i-oop/"><span itemprop="name">OOP</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Lambda Expressions</span><meta itemprop="position" content="2"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/07-debugging-logging/07-summary/" title="Summary (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/08-lambdas/01-introduction/" title="Introduction (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="chapter">
+            <header class="headline">
+            </header>
+
+
+<div class="article-subheading">Chapter 8</div>
+
+<h1 id="lambda-expressions">Lambda Expressions</h1>
+
+<p>Because every function deserves to be a first-class citizen!</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Lambda Expressions</h1>
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Once of the more interesting features that has been added to most object-oriented languages over time is <strong>lambda expressions</strong>. Lambda expressions are a unique way to handle functions in our code - basically, we can create a function on the fly, and then pass that function around as a parameter or store it in a variable, just like any other object. In true <a href="https://en.wikipedia.org/wiki/Von_Neumann_architecture" rel="external" target="_blank">Von Neumann</a> fashion, we are effectively treating the executable code of our program just like data.</p>
+<p>In this chapter, we&rsquo;ll briefly explore lambda expressions and where they came from. We&rsquo;ll see some examples of how they are used in both Java and Python, and then we&rsquo;ll discuss some best practices for when we should, or should not, consider using them in our code.</p>
+<p>In this course, we generally won&rsquo;t need to use lambda expressions in our programs except in a few cases, such as specific types of unit tests in Java. This chapter is meant to simply be informative and let you explore one interesting aspect of programming you may not have worked with up to this point.</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="lambda-calculus">Lambda Calculus</h1>
+
+
+<a href="https://www.youtube.com/watch?v=ZsJT_pEJEAI">YouTube Video</a>
+
+<p><a href="/cc410/i-oop/08-lambdas/02-lambda-calculus/video/">Video Materials</a></p>
+<p>The basis of lambda expressions comes from a special branch of mathematics known as <a href="https://en.wikipedia.org/wiki/Lambda_calculus" rel="external" target="_blank">Lambda Calculus</a>. It was first introduced by Alonzo Church, who is often connected with Alan Turing in the early days of theoretical computer science. (You may have heard of the <a href="https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis" rel="external" target="_blank">Church-Turing thesis</a> that relates to the computability of functions on a Turing machine.)</p>
+<h2 id="lambda-calculus">Lambda Calculus</h2>
+<p>Lambda calculus is a formal notation used to describe computation. Recall that most mathematics uses expressions or equations, which express values, but don&rsquo;t necessarily include the information needed to express the process of computation itself. By having a formal notation for computation, we can study the fundamental aspects of computer science and mathematics in a more rigorous way.</p>
+<p>In programming, lambda calculus leads to a particular programming paradigm known as <a href="https://en.wikipedia.org/wiki/Functional_programming" rel="external" target="_blank">Functional Programming</a>. The programming paradigm we&rsquo;ve been studying, <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" rel="external" target="_blank">object-oriented programming</a> is usually combined with the <a href="https://en.wikipedia.org/wiki/Procedural_programming" rel="external" target="_blank">procedural programming</a> paradigm, itself a subset of <a href="https://en.wikipedia.org/wiki/Imperative_programming" rel="external" target="_blank">imperative programming</a>. In imperative programming, we write code that consists of commands that modify the programs <em>state</em>. So, to compute the square of a number, we would create a variable in our <em>state</em> to store the result, and then modify that state by computing the correct value and storing it in that variable. The commands to do this are typically written as procedures (or <em>functions</em>) in procedural programming, so we can reuse those pieces of code throughout our program. Procedural programming typically follows the <a href="https://en.wikipedia.org/wiki/Structured_programming" rel="external" target="_blank">structured programming</a> paradigm as well, where programs are constructed of smaller structures such as sequences, conditional statements, and iterative statements. Object-oriented programming, as we&rsquo;ve learned, further refines this process by grouping related <em>state</em> and <em>behaviors</em> (<em>methods</em> which represent functions or procedures in other paradigms) into <em>objects</em> that can be seen as independent pieces of a larger program.</p>
+<p>Functional programming is quite different. Instead of creating an imperative list of steps to be taken to modify the state of the program and achieve a result, functional programming involves constructing and applying mathematical functions, which simply translate values from inputs to outputs. Functional programming is a form of <a href="https://en.wikipedia.org/wiki/Declarative_programming" rel="external" target="_blank">declarative programming</a>, where computer programs are built simply by expressing the logic of the computation but not the individual steps or control flow necessary to achieve the desired result. In effect, a declarative programming language is used to state <em>what</em> a program does, but not necessarily <em>how</em> to do it.</p>
+<h2 id="functional-programming-example">Functional Programming Example</h2>
+<p>Here is an example of the imperative and functional programming paradigms being used to compute the same value. In this case, the program will multiply all even numbers in an array by 10, and then add them up and store the final result in a variable called <code>result</code>. These examples use the <a href="https://en.wikipedia.org/wiki/JavaScript" rel="external" target="_blank">JavaScript</a> programming language, which should be somewhat readable to us even though we&rsquo;ve only studied Java or Python. This example is taken directly from the <a href="https://en.wikipedia.org/wiki/Functional_programming" rel="external" target="_blank">functional programming</a> article on Wikipedia:</p>
+<h6 id="imperative">Imperative</h6>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">numList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">numList</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">numList</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">result</span> <span class="o">+=</span> <span class="nx">numList</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div><h6 id="functional">Functional</h6>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">               <span class="p">.</span><span class="nx">filter</span><span class="p">(</span><span class="nx">n</span> <span class="p">=&gt;</span> <span class="nx">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">a</span> <span class="p">=&gt;</span> <span class="nx">a</span> <span class="o">*</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">               <span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">);</span></span></span></code></pre></div><p>The imperative programming code is very similar to what we would write in Java or Python. We start with our array of numbers, then use a for loop to iterate through the entire array. Inside of the for loop, we determine if the individual number is an even number using the modulo operator. If so, we multiply that number by 10 and add that value to the <code>result</code> variable.</p>
+<p>The functional programming code achieves the same result through the use of three <a href="https://en.wikipedia.org/wiki/Higher-order_function" rel="external" target="_blank">higher-order functions</a>. A higher-order function is a function that can accept a function as input - in this case a <strong>lambda expression</strong> in the form of an anonymous function that converts one or more input parameters into an output value. We&rsquo;ll dig deeper into lambda expressions later in this chapter, but for now we&rsquo;ll just observe what they do.</p>
+<p>So, our functional program can be broken down into four parts:</p>
+<ol>
+<li>We start with our array of numbers from 1 through 10. That is the input we provide to the first function.</li>
+<li>On that array, we apply the <code>filter</code> function. This function accepts a lambda expression as an argument. That lambda should take a value from the array, and convert it to a boolean value, which is used to <strong>filter</strong> the values in the array. In this case, that boolean value will be <code>true</code> if the value <code>n</code> from the array is an even number. The <code>filter</code> function then uses that lambda to return a new array that just contains those values in the original array that return <code>true</code> in the lambda function provided to <code>filter</code>. So, our new array will contain <code>[2, 4, 6, 8, 10]</code>.</li>
+<li>Then, we apply the <code>map</code> function to that new array returned from <code>filter</code>. The <code>map</code> function also takes a lambda as an argument, and that lambda is used to transform, or <strong>map</strong>, the values from the array to new values. In this case, it will convert the existing value <code>a</code> to the value <code>a * 10</code>. So, once the <code>map</code> function is complete, the array would contain <code>[20, 40, 60, 80, 100]</code>. Remember that this value isn&rsquo;t stored as <em>state</em> in the program, per se, but is representing the values that would result from applying these functions to the input array itself.</li>
+<li>Finally, we use the <code>reduce</code> function to reduce all of the values in the array to a single resulting value. The <code>result</code> function uses a lambda expression as an argument. That lambda is used to describe how to combine two values from the array, <code>a</code> and <code>b</code>, to a single resulting value. In this case, we want to sum the values in the array, so the lambda will return in <code>a + b</code> as the result. The <code>reduce</code> function will repeatedly use that lambda to <strong>reduce</strong> two values in the array to a single value until only one value remains. That value will be the result of that function, which will be then represented by the <code>result</code> variable. Notice that it isn&rsquo;t <em>stored</em> in that variable, since again we don&rsquo;t have the concept of <em>state</em>. Instead, we are just stating that the variable <code>result</code> now <strong>represents</strong> the value that is the result of applying these functions to the given input value.</li>
+</ol>
+<p>Functional programming can be challenging to understand at first, especially for programmers that come from an imperative programming paradigm. However, it is very powerful, and has some interesting uses. Once of the more common uses of functional programming is the creation of programs that can be proven to work correctly. This is because there is no actual computation performed, so there can be no side effects from those computations. Therefore, as long as the functional statements yield the correct results via a mathematical proof, we know that the program works correctly.</p>
+<h2 id="functional-programming-today">Functional Programming Today</h2>
+<p>Many programming languages today either support some form of functional programming, or at least support the use of <strong>lambda expressions</strong> within their code. Some languages, such as Python, JavaScript and Go, support the functional programming paradigm directly. Other languages, such as Java and C#, have introduced the ability to do some functional programming over time.</p>
+<p>Other languages, such as Haskell, F#, Erlang, and Lisp are built almost exclusively for functional programming. While they are most used in academia, functional programming is also very commonly used in web back-end development, statistics, data science, and more.</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Lambda Calculus</h1>
+    
+    
+          </section>
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="functions-as-objects">Functions as Objects</h1>
+
+<p>One of the major concepts from functional programming is that functions are now treated as <a href="https://en.wikipedia.org/wiki/First-class_citizen" rel="external" target="_blank">first-class citizens</a> within a programming language. A first-class citizen is an element of a programming language that can be treated like any other element - it can be stored in a variable, provided as an argument to another function, returned from a function, and even modified by other code.</p>
+<p>This can be a very strange concept to reason about - we are used to thinking of <em>state</em> and <em>behavior</em> as two separate parts of an object-oriented program. However, functional programming allows us to store a <em>behavior</em> as <em>state</em>, and then use that <em>behavior</em> as input to other parts of the code.</p>
+<h2 id="lambda-expressions">Lambda Expressions</h2>
+<p>In both Java and Python, one of the most common ways to create a behavior that can be stored as state is to use a <strong>lambda expression</strong>. Lambda expressions are sometimes known as <strong>anonymous functions</strong> since they are effectively functions that are not given a name, though some languages like Python allow us to assign names to lambda expressions as well.</p>
+<p>As we saw in the example on the previous page, JavaScript allows us to quickly create lambda expressions that perform a particular task, such as determining if a value meets a given criteria that was used with <code>filter</code>, converting a value to a new value as used with <code>map</code>, or taking two values and reducing them to a single value as used in the <code>reduce</code> function.</p>
+<p>In that example, <code>filter</code>, <code>map</code>, and <code>reduce</code> are examples of <a href="https://en.wikipedia.org/wiki/Higher-order_function" rel="external" target="_blank">higher-order functions</a> that accept other functions as input. Those higher-order functions can then use the function provided as input to perform their work. In the case of <code>filter</code>, it uses the provided function to determine if each value in the array should be included in the result or not.</p>
+<p>We&rsquo;ve already seen a couple of examples of lambda expressions, or at least something similar, in our programs:</p>
+<ul>
+<li><strong>Java</strong> - in our unit tests, we saw a lambda expression <code>() -&gt; new GameLogic()</code> used as part of a unit test. That lambda is used to create a new object, and is used by the <code>assertThrows</code> assertion, itself a higher-order function, to determine if the code in the lambda expression results in an exception. In effect, that function executes the lambda and observes the result to determine if the exception is thrown.</li>
+<li><strong>Python</strong> - one major feature of Python is list comprehension, such as <code>square_list = [x**2 for x in range(0, 10)]</code>. While list comprehension isn&rsquo;t exactly the same as a lambda expression, it is very similar in concept. We are effectively creating a small anonymous function that is used to populate a list. In fact, we could do the same thing with a lambda expression: <code>square_list = list(map(lambda x: x**2, range(0, 10)))</code></li>
+</ul>
+<p>On the next pages, we&rsquo;ll discuss the specifics of creating and using lambda expressions in both Java and Python. Feel free to read the page for the language you are studying, but it may be very informative to review how both languages handle the same concept.</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="java-lambdas">Java Lambdas</h1>
+
+
+<a href="https://www.youtube.com/watch?v=AC9siHj92ms">YouTube Video</a>
+
+<p><a href="/cc410/i-oop/08-lambdas/04-java-lambdas/video/">Video Materials</a></p>
+<p>Java introduced lambda expressions in Java version 8. As we would expect based on the previous pages, it allows us to create anonymous functions that can then be passed as arguments to other functions. Java includes several new types, such as <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html" rel="external" target="_blank">Predicate</a> and <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html" rel="external" target="_blank">Consumer</a>, all contained in the <a href="https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html" rel="external" target="_blank">java.util.function</a> package.</p>
+<h2 id="lambda-expression-syntax">Lambda Expression Syntax</h2>
+<p>In general, a lambda expression in Java consists of the following syntax:</p>
+<ol>
+<li>A list of formal parameters in parentheses, separated by commas. You do not have to specify the data type of the parameters. Likewise, if there is a single parameter, the parentheses may also be omitted.</li>
+<li>An arrow <code>-&gt;</code></li>
+<li>A body, which may be either a single expression or a block of statements surrounded by curly braces <code>{}</code></li>
+</ol>
+<h2 id="lambda-expression-example">Lambda Expression Example</h2>
+<p>Let&rsquo;s look at an example of creating and using a lambda expression in our code. This example comes from <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax" rel="external" target="_blank">Lambda Expressions</a> from the Oracle Java Tutorials:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Calculator</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">interface</span> <span class="nc">IntegerMath</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="nf">operation</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">);</span><span class="w">   
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">operateBinary</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">IntegerMath</span><span class="w"> </span><span class="n">op</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">op</span><span class="p">.</span><span class="na">operation</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="p">...</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Calculator</span><span class="w"> </span><span class="n">myApp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Calculator</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">IntegerMath</span><span class="w"> </span><span class="n">addition</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">IntegerMath</span><span class="w"> </span><span class="n">subtraction</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;40 + 2 = &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">myApp</span><span class="p">.</span><span class="na">operateBinary</span><span class="p">(</span><span class="n">40</span><span class="p">,</span><span class="w"> </span><span class="n">2</span><span class="p">,</span><span class="w"> </span><span class="n">addition</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;20 - 10 = &#34;</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">myApp</span><span class="p">.</span><span class="na">operateBinary</span><span class="p">(</span><span class="n">20</span><span class="p">,</span><span class="w"> </span><span class="n">10</span><span class="p">,</span><span class="w"> </span><span class="n">subtraction</span><span class="p">));</span><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>In this simple calculator class, we are defining an internal <code>interface</code> called <code>IntegerMath</code>, which defines one <code>operation</code> between two integers, which also returns an integer. Then, in our <code>Calculator</code> class, we have a function <code>operateBinary</code> that accepts an argument of type <code>IntegerMath</code>.</p>
+<p>So, in our <code>main</code> method, we are creating two lambda expressions that use the type <code>IntegerMath</code>. One is a lambda that accepts two values and returns the sum, and the other accepts two values and returns the difference. Java will automatically recognize that those lambda expressions match the <code>operation</code> method defined in the <code>IntegerMath</code> interface. So, when we call the <code>operateBinary</code> method and provide either <code>addition</code> or <code>subtraction</code> as arguments, it will use those lambda expressions to compute the result.</p>
+<p>As we can see, we were able to create two functions, via lambda expressions, as first-class citizens in our language by storing them in variables, and then passing those functions as arguments to another method, which can then call the function itself.</p>
+<h2 id="lambda-expressions-in-practice">Lambda Expressions In Practice</h2>
+<p>In practice, Java tends to use lambda expressions for tasks such as sorting, filtering, or mapping data in a collection. <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax" rel="external" target="_blank">Lambda Expressions</a> from the Oracle Java Tutorials gives another example that can be used to quickly generate a filter that will print a list of email addresses for people in list who are males between the ages of 18 and 25:</p>
+<p>The function that accomplishes this work is shown below:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">processPersonsWithFunction</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">List</span><span class="o">&lt;</span><span class="n">Person</span><span class="o">&gt;</span><span class="w"> </span><span class="n">roster</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Predicate</span><span class="o">&lt;</span><span class="n">Person</span><span class="o">&gt;</span><span class="w"> </span><span class="n">tester</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Function</span><span class="o">&lt;</span><span class="n">Person</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">mapper</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Consumer</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">block</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Person</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">roster</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">tester</span><span class="p">.</span><span class="na">test</span><span class="p">(</span><span class="n">p</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">String</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mapper</span><span class="p">.</span><span class="na">apply</span><span class="p">(</span><span class="n">p</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">block</span><span class="p">.</span><span class="na">accept</span><span class="p">(</span><span class="n">data</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div><p>We can use that function by passing three lambdas, as shown here:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">processPersonsWithFunction</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">roster</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">p</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="na">getGender</span><span class="p">()</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">Person</span><span class="p">.</span><span class="na">Sex</span><span class="p">.</span><span class="na">MALE</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="na">getAge</span><span class="p">()</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">18</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="na">getAge</span><span class="p">()</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">25</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">p</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">p</span><span class="p">.</span><span class="na">getEmailAddress</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">email</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">email</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">);</span></span></span></code></pre></div><p>In this case, <code>roster</code> is a list of <code>Person</code> objects, and we have created three lambda expressions to filter the list to include only the people we want, them map those people to an email address, and finally print those emails to the terminal.</p>
+<h2 id="referencing-java-methods">Referencing Java Methods</h2>
+<p>Finally, while methods in Java aren&rsquo;t exactly first-class citizens, there is a shorthand that we can use to create lambda expressions that simply call a given method.</p>
+<p>For example, the lambda expression:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">a</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="na">toLowerCase</span><span class="p">()</span></span></span></code></pre></div><p>simply calls the <code>toLowerCase()</code> method of the String class. So, we could replace that with this <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html" rel="external" target="_blank">method reference</a>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="nl">String</span><span class="p">::</span><span class="n">toLowerCase</span><span class="p">()</span></span></span></code></pre></div><p>In effect, this allows us to reference a function as if it were a first-class citizen, even if we can&rsquo;t truly store it in a variable like other objects in Java.</p>
+<p>There are four different types of <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html" rel="external" target="_blank">method references</a>:</p>
+<ul>
+<li><strong>Static Method in a Class</strong> : <code>ClassName::staticMethodName</code></li>
+<li><strong>Instance Method of Particular Object</strong>: <code>objectInstance::instanceMethodName</code></li>
+<li><strong>Instance Method of Arbitrary Object of Given Type</strong>: <code>ClassName::methodName</code></li>
+<li><strong>Constructor</strong>: <code>ClassName::new</code></li>
+</ul>
+<p>Many parts of the Java API accept method references along with lambda expressions, so this is yet another way we can make use of existing or anonymous functions in our code.</p>
+<p>For more information on using lambda expressions and method references in Java, check out the references linked below.</p>
+<h3 id="references">References</h3>
+<ul>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax" rel="external" target="_blank">Lambda Expressions</a> from the Oracle Java Tutorials</li>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html" rel="external" target="_blank">Method References</a> from the Oracle Java Tutorials</li>
+<li><a href="https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm" rel="external" target="_blank">Java 8 - Lambda Expressions</a> from Tutorials Point</li>
+<li><a href="https://www.geeksforgeeks.org/lambda-expressions-java-8/" rel="external" target="_blank">Lambda Expressions in Java 8</a> from GeeksforGeeks</li>
+<li><a href="https://www.w3schools.com/java/java_lambda.asp" rel="external" target="_blank">Java Lambda Expressions</a> from W3Schools</li>
+<li><a href="https://gelopfalcon.medium.com/best-practices-when-you-use-lambda-expressions-in-java-f51e96d44b25" rel="external" target="_blank">Best practices when you use Lambda expressions in Java</a> by Gerardo Lopez Falcón on Medium</li>
+</ul>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Java Lambdas</h1>
+    
+    
+          </section>
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="python-lambdas">Python Lambdas</h1>
+
+
+<a href="https://www.youtube.com/watch?v=HlFoT0B0GPk">YouTube Video</a>
+
+<p><a href="/cc410/i-oop/08-lambdas/05-python-lambdas/video/">Video Materials</a></p>
+<p>Lambda expressions, typically called <strong>lambda functions</strong> in most Python documentation, are effectively a syntactic shortcut for defining a function within Python code. This is because normal Python functions are already first-class citizens in the language - we can already pass existing named functions as arguments to other functions! So, lambdas in Python are simply shortcuts we can use to create a new anonymous function where needed, but we can always use normal functions to perform the same task.</p>
+<h2 id="python-functions-vs-lambdas">Python Functions vs. Lambdas</h2>
+<p>Python lambda functions are effectively the same as Python functions. For example, we can write an addition function in Python in the following way:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">addition</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span></span></span></code></pre></div><p>The same concept can be expressed as a lambda function, and we can even store it in a variable:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">addition_lambda</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span></span></span></code></pre></div><p>Those two functions are effectively identical - they produce the same result, and can be treated as variables as well as callable functions.</p>
+<p>The basic syntax of a lambda function in Python includes the following:</p>
+<ol>
+<li>The keyword <code>lambda</code></li>
+<li>A list of parameters separated by commas, which can be named, positional, keyword, or variable parameters. Basically, any way you can define the parameters for a normal Python function can also be used for a lambda function.</li>
+<li>A colon after the parameters:</li>
+<li>A <strong>single expression</strong> that creates the result of the lambda function. Lambdas may not include multiple expressions, or any statements such as <code>return</code> or <code>pass</code>.</li>
+</ol>
+<p>In addition, Python lambda functions are <strong>not compatible</strong> with type annotations. So, when working with object-oriented Python, we will almost always prefer to write our own functions using the normal syntax, which allows us to perform type checking using Mypy.</p>
+<h2 id="python-lambda-example">Python Lambda Example</h2>
+<p>Here&rsquo;s a quick example of using both lambda functions and normal class functions as first-class citizens in Python. This example is adapted from a similar example given in <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html#syntax" rel="external" target="_blank">Lambda Expressions</a> from the Oracle Java Tutorials:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Calculator</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="nd">@staticmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">addition</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">operate_binary</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">operation</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">operation</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="nd">@staticmethod</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">        <span class="n">calc</span> <span class="o">=</span> <span class="n">Calculator</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="n">subtraction</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;40 + 2 = </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">calc</span><span class="o">.</span><span class="n">operate_binary</span><span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">Calculator</span><span class="o">.</span><span class="n">addition</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;20 - 10 = </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">calc</span><span class="o">.</span><span class="n">operate_binary</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="n">subtraction</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;7 * 6 = </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">calc</span><span class="o">.</span><span class="n">operate_binary</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="k">lambda</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Calculator</span><span class="o">.</span><span class="n">main</span><span class="p">()</span></span></span></code></pre></div><p>In this code, we are defining two different functions that we&rsquo;ll use later as arguments:</p>
+<ul>
+<li><code>addition</code> is a static method within the <code>Calculator</code> class that adds two values together.</li>
+<li><code>subtraction</code> is a variable in the <code>main</code> function that is storing a <strong>lambda function</strong> that will subtract two values.</li>
+</ul>
+<p>Then, we&rsquo;ve created a higher-order function <code>operate_binary</code> in the <code>Calculator</code> class, which accepts two integers as parameters <code>a</code> and <code>b</code>, as well as a <strong>callable</strong> object in the <code>operation</code> parameter. In effect, the <code>operation</code> parameter is meant to be a function, either a traditional Python function or a lambda function.</p>
+<p>In our <code>main</code> function, we call <code>calc.operate_binary</code> in two different ways. On the first line, we provide <code>Calculator.addition</code> as the third argument. Notice that we <strong>are not</strong> including the parentheses at the end of the function name. In that way, we aren&rsquo;t <em>calling</em> the function <code>Calculator.addition</code>, but we are referencing it as an attribute within the <code>Calculator</code> class. We can do this because functions are first-class citizens in Python, so we can treat them just like any other variable. Inside the <code>calc.operate_binary</code> function, we see that it calls the function stored in the <code>operation</code> variable by putting parentheses after the name, pass in any arguments as needed.</p>
+<p>In the second example, we are passing the <code>subtraction</code> variable, which is a lambda function we created earlier, to the <code>calc.operate_binary</code> higher order function. So, it will be stored in <code>operation</code> and executed there.</p>
+<p>Finally, we can create an anonymous lambda function directly within the function call to <code>calc.operate_binary</code>. This is why, typically, most lambda functions in Python are thought of as <strong>anonymous functions</strong> - we don&rsquo;t give them a name or store them in a variable, we simply create them as needed when we pass them to higher-order functions.</p>
+<p>For more information on using lambda functions in Python, check out the references linked below.</p>
+<h3 id="references">References</h3>
+<ul>
+<li><a href="https://realpython.com/python-lambda/" rel="external" target="_blank">How to Use Python Lambda Functions</a> from Real Python</li>
+<li><a href="https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/" rel="external" target="_blank">Python Lambda Functions</a> from GeeksforGeeks</li>
+<li><a href="https://www.w3schools.com/python/python_lambda.asp" rel="external" target="_blank">Python Lambda</a> from w3schools</li>
+<li><a href="https://docs.python.org/3/howto/functional.html" rel="external" target="_blank">Functional Programming HOWTO</a> from Python Documentation</li>
+</ul>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Python Lambdas</h1>
+    
+    
+          </section>
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="best-practices">Best Practices</h1>
+
+<p>Lambda expressions are a very powerful tool that has been added to many different programming languages, including the ones we are studying in this course. However, there are some caveats that we should be aware of, and some best practices to follow.</p>
+<h2 id="readability">Readability</h2>
+<p>For starters, lambda expressions can affect the readability of code. Even though lambda expressions are included in both Java and Python, and have been for quite a while at this point, many developers still have not learned how to use them. This is mainly due to the fact that lambda expressions are closely related to functional programming, which is a completely different programming paradigm than what most programmers are used to.</p>
+<p>In addition, pretty much anything that can be done with a lambda expression can be achieved through strictly procedural code, so there is really nothing to be gained through the use of lambda expressions in terms of functionality or performance.</p>
+<p>Instead, the use of lambda expressions in Java and Python really comes down to readability, and for that reason, many developers tend to avoid them. From a certain point of view, lambda expressions don&rsquo;t really do anything except make the code harder to read for some developers, but possibly easier to read for others.</p>
+<h2 id="scale">Scale</h2>
+<p>If we do choose to use a lambda expression, it is best to keep them as short and concise as possible. In effect, a lambda expression should be thought of as a single operation or expression. In Python, this is required, but Java allows lambda expressions to include multiple statements.</p>
+<p>If we need to write more complex code, it is probably best to do so using procedural code and traditional functions instead of lambda expressions.</p>
+<h2 id="summary">Summary</h2>
+<p>In general, while lambda expressions are very powerful and can be used in many different places in our code, in this course we&rsquo;ll generally avoid their use in places where they are not required. However, as a developer, you are welcome to use your better judgment - if you feel that a piece of code is better expressed as a lambda expression instead of procedural code, you are welcome to do so. When you do, keep in mind that this may make your code more difficult to understand for novice programmers who are not experienced with lambdas, so you may wish to thoroughly document your code to explain how it works.</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+    
+    
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="summary">Summary</h1>
+
+<p>In this chapter, we introduced <strong>lambda calculus</strong> as the basis for the <strong>functional programming</strong> paradigm. In functional programming, programs are written in a <strong>declarative</strong> language, expressing the desired result as a composition of functions instead of a procedural set of steps to execute.</p>
+<p>In Java and Python, this appears as <strong>lambda expressions</strong> or <strong>lambda functions</strong> - small pieces of code that can be used to create <strong>anonymous functions</strong>. In addition, those functions can be treated as <strong>first-class citizens</strong> in our language, so we can store them in variables, pass them as arguments, and more.</p>
+<p>However, due to the fact that lambda expressions are not well understood by a large number of programmers who do not have experience with functional programming, we&rsquo;ll generally avoid their use in our code. In most cases, anything that can be done in a lambda expression can also be done using procedural code and functions, and that is much more readable to the average programmer.</p>
+<h2 id="review-quiz">Review Quiz</h2>
+<p>Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.</p>
+
+
+
+
+
+
+<i>Quizdown quiz omitted from print view.</i>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    
+<div class="git-footer">
+  <p class="theme-version-footer">6.0.0</p>
+  <p>Last modified by: 
+              <i class='fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
+  </p>
+  </div>
+  
+    
+    </div>
+    <script src="/cc410/js/clipboard.min.js?1719519019" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1719519019" defer></script>
+    <script src="/cc410/js/theme.js?1719519019" defer></script>
+  </body>
+</html>

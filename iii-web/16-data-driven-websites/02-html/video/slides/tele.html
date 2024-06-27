@@ -1,5 +1,41 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>HTML</h3><ul><li>Hypertext Markup Language</li><li>Developed by Tim Berners-Lee</li><li>Defines the <i>structure</i> and <i>content</i> of the page</li><li>Based on SGML, like XML</li></ul></section><section><h3>HTML Element</h3><img class="plain stretch" src=/cc410/images/16/410_16_html_element.svg><p class=imagecredit>Image Credit: <a href="https://en.wikipedia.org/w/index.php?title=HTML_element&oldid=1012343971">Wikipedia</a></p></section><section><h3>Basic HTML Page</h3><pre class=stretch style=font-size:40px><code>&lt;!DOCTYPE html&gt;
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>HTML</h3>
+    <ul>
+        <li>Hypertext Markup Language</li>
+        <li>Developed by Tim Berners-Lee</li>
+        <li>Defines the <i>structure</i> and <i>content</i> of the page</li>
+        <li>Based on SGML, like XML</li>
+    </ul>
+</section>
+<section>
+    <h3>HTML Element</h3>
+    <img class="plain stretch" src="/cc410/images/16/410_16_html_element.svg">
+    <p class="imagecredit">Image Credit: <a href="https://en.wikipedia.org/w/index.php?title=HTML_element&oldid=1012343971">Wikipedia</a></p>
+</section>
+<section>
+    <h3>Basic HTML Page</h3>
+    <pre class="stretch" style="font-size: 40px"><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
     &lt;head&gt;
         &lt;title&gt;&lt;!-- The title of your page goes here --&gt;&lt;/title&gt;
@@ -9,12 +45,86 @@
         &lt;!-- The contents of your page go here --&gt;
     &lt;/body&gt;
 &lt;/html&gt;  
-    </code></pre></section><section><h3>CSS</h3><ul><li>Cascading Style Sheets</li><li>Defines the <i>style</i> of the page</li><li>Stored in a Separate File</li><li>Can be applied to multiple pages</li></ul></section><section><h3>CSS Box Model</h3><img class="plain stretch" src=/cc410/images/16/410_16_boxmodel.png><p class=imagecredit>Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Boxmodell-detail.png&oldid=480918452">Wikipedia</a></p></section><section><h3>CSS Basics</h3><pre class=stretch><code>h1 {
+    </code></pre>
+</section>
+<section>
+    <h3>CSS</h3>
+    <ul>
+        <li>Cascading Style Sheets</li>
+        <li>Defines the <i>style</i> of the page</li>
+        <li>Stored in a Separate File</li>
+        <li>Can be applied to multiple pages</li>
+    </ul>
+</section>
+<section>
+    <h3>CSS Box Model</h3>
+    <img class="plain stretch" src="/cc410/images/16/410_16_boxmodel.png">
+    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Boxmodell-detail.png&oldid=480918452">Wikipedia</a></p>
+</section>
+<section>
+    <h3>CSS Basics</h3>
+    <pre class="stretch"><code>h1 {
     color: red;
     font-weight: bold;
-}<br>
+}<br />
 /* CSS Selectors */
 element
 #id
 .class
-    </code></pre><p>Selectors can be combined<br>in many ways</p></section><section><h3>JavaScript</h3><ul><li>Based on the ECMAScript Standard</li><li><i>Not related to Java</i></li><li>Java-like Syntax</li><li>Some Functional & Object-Oriented Elements</li><li>Event-Driven</li><li>Used to Manipulate the DOM</li></ul></section><section><img class="plain stretch" src=/cc410/images/16/410_16_dom.svg><p class=imagecredit>Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:DOM-model.svg&oldid=546300336">Wikipedia</a></p></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+    </code></pre>
+    <p>Selectors can be combined<br>in many ways</p>
+</section>
+<section>
+    <h3>JavaScript</h3>
+    <ul>
+        <li>Based on the ECMAScript Standard</li>
+        <li><i>Not related to Java</i></li>
+        <li>Java-like Syntax</li>
+        <li>Some Functional & Object-Oriented Elements</li>
+        <li>Event-Driven</li>
+        <li>Used to Manipulate the DOM</li>
+    </ul>
+</section>
+<section>
+    <img class="plain stretch" src="/cc410/images/16/410_16_dom.svg">
+    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:DOM-model.svg&oldid=546300336">Wikipedia</a></p>
+</section>
+
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

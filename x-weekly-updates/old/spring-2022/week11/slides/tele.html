@@ -1,2 +1,108 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h2>CC 410 - Week 11</h2></section><section><h3>This Week</h3><ul><li>4/11 - Releases</li><li>4/11 - Releases Example</li><li>4/11 - Restaurant 7: Checkout</li></ul></section><section><h3>Milestone 7</h3><ul><li>Part 1 - Combo GUI<ul><li>GUI to Edit Combos</li><li>Update Other GUI Panels</li></ul></li><li>Part 2- Checkout!<ul><li>External Register Library</li><li>Cash or Credit Card</li><li>Make Change</li><li>Print Receipt</li></ul></li></ul></section><section><h3>Milestone 7 Hints</h3><ul><li>Combo GUIs - Reuse Panels</li><li>See Example Project</li><li>Making Change is Hard</li><li>Receipts - Limited Length</li><li>Use Adapter Pattern</li><li>Read Library Unit Tests</li></ul></section><section><h3>Looking Ahead</h3><ul><li>Next Modules - Web Interface</li><li>Smaller Milestones</li><li>More Final Project Time</li></ul></section><section><img class="plain stretch" src=https://media.giphy.com/media/iTjhKpMF50fNS/giphy.gif><p class=imagecredit>Image Credit: <a href=https://giphy.com/gifs/target-lady-snl-excited-iTjhKpMF50fNS>Giphy</a></p></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<h2>CC 410 - Week 11</h2>
+</section>
+<section>
+	<h3>This Week</h3>
+	<ul>
+		<li>4/11 - Releases</li>
+		<li>4/11 - Releases Example</li>
+		<li>4/11 - Restaurant 7: Checkout</li>
+	</ul>
+</section>
+<section>
+	<h3>Milestone 7</h3>
+	<ul>
+		<li>Part 1 - Combo GUI<ul>
+			<li>GUI to Edit Combos</li>
+			<li>Update Other GUI Panels</li>
+		</ul></li>
+		<li>Part 2- Checkout!<ul>
+			<li>External Register Library</li>
+			<li>Cash or Credit Card</li>
+			<li>Make Change</li>
+			<li>Print Receipt</li>
+		</ul></li>
+	</ul>
+</section>
+<section>
+	<h3>Milestone 7 Hints</h3>
+	<ul>
+		<li>Combo GUIs - Reuse Panels</li>
+		<li>See Example Project</li>
+		<li>Making Change is Hard</li>
+		<li>Receipts - Limited Length</li>
+		<li>Use Adapter Pattern</li>
+		<li>Read Library Unit Tests</li>
+	</ul>
+</section>
+<section>
+	<h3>Looking Ahead</h3>
+	<ul>
+		<li>Next Modules - Web Interface</li>
+		<li>Smaller Milestones</li>
+		<li>More Final Project Time</li>
+	</ul>
+</section>
+<section>
+	<img class="plain stretch" src="https://media.giphy.com/media/iTjhKpMF50fNS/giphy.gif">
+	<p class="imagecredit">Image Credit: <a href="https://giphy.com/gifs/target-lady-snl-excited-iTjhKpMF50fNS">Giphy</a></p>
+</section>
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

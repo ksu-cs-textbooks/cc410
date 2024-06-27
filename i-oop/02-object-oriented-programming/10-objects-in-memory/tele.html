@@ -1,78 +1,4116 @@
-<!doctype html><html lang=en-us dir=ltr itemscope itemtype=http://schema.org/Article><head><meta charset=utf-8><meta name=viewport content="height=device-height,width=device-width,initial-scale=1,minimum-scale=1"><meta name=generator content="Hugo 0.128.0"><meta name=generator content="Relearn 6.0.0"><meta name=description content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
-​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -> float: return self."><meta name=author content="Russell Feldhausen"><meta name=twitter:card content="summary"><meta name=twitter:title content="Objects in Memory :: CC 410 Textbook"><meta name=twitter:description content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
-​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -> float: return self."><meta property="og:url" content="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/"><meta property="og:site_name" content="CC 410 Textbook"><meta property="og:title" content="Objects in Memory :: CC 410 Textbook"><meta property="og:description" content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
-​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -> float: return self."><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="OOP"><meta property="article:modified_time" content="2023-08-10T16:05:23-05:00"><meta itemprop=name content="Objects in Memory :: CC 410 Textbook"><meta itemprop=description content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
-​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -> float: return self."><meta itemprop=dateModified content="2023-08-10T16:05:23-05:00"><meta itemprop=wordCount content="837"><title>Objects in Memory :: CC 410 Textbook</title>
-<link href=https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/ rel=canonical type=text/html title="Objects in Memory :: CC 410 Textbook"><link href=/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.xml rel=alternate type=application/rss+xml title="Objects in Memory :: CC 410 Textbook"><link href=/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.print.html rel=alternate type=text/html title="Objects in Memory :: CC 410 Textbook"><link href=/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/embed.html rel=alternate type=text/html title="Objects in Memory :: CC 410 Textbook"><link href=/cc410/images/favicon.ico?1719508606 rel=icon type=image/x-icon sizes=any><link href=/cc410/css/fontawesome-all.min.css?1719508783 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=/cc410/css/fontawesome-all.min.css?1719508783 rel=stylesheet></noscript><link href=/cc410/css/nucleus.css?1719508783 rel=stylesheet><link href=/cc410/css/auto-complete.css?1719508783 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=/cc410/css/auto-complete.css?1719508783 rel=stylesheet></noscript><link href=/cc410/css/perfect-scrollbar.min.css?1719508783 rel=stylesheet><link href=/cc410/css/fonts.css?1719508783 rel=stylesheet media=print onload='this.media="all",this.onload=null'><noscript><link href=/cc410/css/fonts.css?1719508783 rel=stylesheet></noscript><link href=/cc410/css/theme.css?1719508783 rel=stylesheet><link href=/cc410/css/theme-auto.css?1719508783 rel=stylesheet id=R-variant-style><link href=/cc410/css/chroma-auto.css?1719508783 rel=stylesheet id=R-variant-chroma-style><link href=/cc410/css/variant.css?1719508783 rel=stylesheet><link href=/cc410/css/print.css?1719508783 rel=stylesheet media=print><script src=/cc410/js/variant.js?1719508783></script><script>window.relearn=window.relearn||{},window.relearn.relBasePath="../../..",window.relearn.relBaseUri="../../../..",window.relearn.absBaseUri="https://textbooks.cs.ksu.edu/cc410",window.index_js_url="/cc410/index.search.js",window.variants&&variants.init(["auto","light-theme","dark-theme"]),window.T_Copy_to_clipboard=`Copy to clipboard`,window.T_Copied_to_clipboard=`Copied to clipboard!`,window.T_Copy_link_to_clipboard=`Copy link to clipboard`,window.T_Link_copied_to_clipboard=`Copied link to clipboard!`,window.T_Reset_view=`Reset view`,window.T_View_reset=`View reset!`,window.T_No_results_found=`No results found for "{0}"`,window.T_N_results_found=`{1} results found for "{0}"`</script><link href=/cc410/css/custom.css?1719508783 rel=stylesheet></head><body class="mobile-support tele disableInlineCopyToClipboard" data-url=/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/><div id=tele class="tele mirror"><div id=R-body class=default-animation><div id=R-body-overlay></div><div id=R-main-overlay></div><main id=R-body-inner class="highlightable default" tabindex=-1><div class=flex-block-wrapper><article class=default><header class=headline></header><h1 id=objects-in-memory>Objects in Memory</h1><p>We often talk about the <strong><em>class</em></strong> as a <em>blueprint</em> for an <strong><em>object</em></strong>. This is because classes define what properties and methods an object should have, in the form of a <strong><em>constructor</em></strong>. Consider this class representing a planet:</p><div class=tab-panel data-tab-group=cf623962ba26aea2e289cda2a793603a><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("cf623962ba26aea2e289cda2a793603a","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("cf623962ba26aea2e289cda2a793603a","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span><span class=w> </span><span class=kd>class</span> <span class=nc>Planet</span><span class=p>{</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>private</span><span class=w> </span><span class=kt>double</span><span class=w> </span><span class=n>mass</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=kt>double</span><span class=w> </span><span class=nf>getMass</span><span class=p>(){</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>this</span><span class=p>.</span><span class=na>mass</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>private</span><span class=w> </span><span class=kt>double</span><span class=w> </span><span class=n>radius</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=kt>double</span><span class=w> </span><span class=nf>getRadius</span><span class=p>(){</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>this</span><span class=p>.</span><span class=na>radius</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=nf>Planet</span><span class=p>(</span><span class=kt>double</span><span class=w> </span><span class=n>mass</span><span class=p>,</span><span class=w> </span><span class=kt>double</span><span class=w> </span><span class=n>radius</span><span class=p>){</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>mass</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>mass</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>radius</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>radius</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Planet</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=nd>@property</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>mass</span><span class=p>(</span><span class=bp>self</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>float</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>__mass</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=nd>@property</span>
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>radius</span><span class=p>(</span><span class=bp>self</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=nb>float</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>__radius</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>mass</span><span class=p>:</span> <span class=nb>float</span><span class=p>,</span> <span class=n>radius</span><span class=p>:</span> <span class=nb>float</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=kc>None</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>__mass</span> <span class=o>=</span> <span class=n>mass</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>__radius</span> <span class=o>=</span> <span class=n>radius</span></span></span></code></pre></div></div></div></div></div><p>It describes a planet as having a mass and a radius, which will be stored as the ratio of this planet&rsquo;s attribute compared to Earth. We can create a specific planet by invoking its constructor, i.e.:</p><div class=tab-panel data-tab-group=e5abc9edfd7cc4997398f185dc7f3a88><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("e5abc9edfd7cc4997398f185dc7f3a88","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("e5abc9edfd7cc4997398f185dc7f3a88","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>Planet</span><span class=w> </span><span class=n>earth</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>Planet</span><span class=p>(</span><span class=n>1</span><span class=p>.</span><span class=na>0</span><span class=p>,</span><span class=w> </span><span class=n>1</span><span class=p>.</span><span class=na>0</span><span class=p>);</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>earth</span><span class=p>:</span> <span class=n>Planet</span> <span class=o>=</span> <span class=n>Planet</span><span class=p>(</span><span class=mf>1.0</span><span class=p>,</span> <span class=mf>1.0</span><span class=p>)</span></span></span></code></pre></div></div></div></div></div><p>In this example, <code>earth</code> is an <em>instance</em> of the class <code>Planet</code>. We can create other instances, i.e.</p><div class=tab-panel data-tab-group=233e0e6025c59c5ef2ee601be85d5fa5><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("233e0e6025c59c5ef2ee601be85d5fa5","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("233e0e6025c59c5ef2ee601be85d5fa5","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>Planet</span><span class=w> </span><span class=n>mars</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>Planet</span><span class=p>(</span><span class=n>0</span><span class=p>.</span><span class=na>107</span><span class=p>,</span><span class=w> </span><span class=n>0</span><span class=p>.</span><span class=na>53</span><span class=p>);</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>mars</span><span class=p>:</span> <span class=n>Planet</span> <span class=o>=</span> <span class=n>Planet</span><span class=p>(</span><span class=mf>0.107</span><span class=p>,</span> <span class=mf>0.53</span><span class=p>)</span></span></span></code></pre></div></div></div></div></div><p>We can even create a <code>Planet</code> instance to represent one of the exoplanets discovered by <a href=https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite rel=external target=_blank title="Transiting Extoplanet Survey Satelite">NASA’s TESS</a>:</p><div class=tab-panel data-tab-group=5550b88fb2f8d88451bf4606ab3c6c00><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("5550b88fb2f8d88451bf4606ab3c6c00","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("5550b88fb2f8d88451bf4606ab3c6c00","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>Planet</span><span class=w> </span><span class=n>hd21749b</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>Planet</span><span class=p>(</span><span class=n>23</span><span class=p>.</span><span class=na>20</span><span class=p>,</span><span class=w> </span><span class=n>2</span><span class=p>.</span><span class=na>836</span><span class=p>);</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>hd21749b</span><span class=p>:</span> <span class=n>Planet</span> <span class=o>=</span> <span class=n>Planet</span><span class=p>(</span><span class=mf>23.20</span><span class=p>,</span> <span class=mf>2.836</span><span class=p>)</span></span></span></code></pre></div></div></div></div></div><p>Let&rsquo;s think more deeply about the idea of a class as a blueprint. A blueprint for what, exactly? For one thing, it serves to describe the <em>state</em> of the object, and helps us label that state. If we were to check the radius of our variable <code>mars</code>, we would access the getter for the <code>radius</code> field:</p><div class=tab-panel data-tab-group=b3f47ebcc2a91638999e4e1e20d91586><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("b3f47ebcc2a91638999e4e1e20d91586","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("b3f47ebcc2a91638999e4e1e20d91586","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>mars</span><span class=p>.</span><span class=na>getRadius</span><span class=p>()</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>mars</span><span class=o>.</span><span class=n>radius</span></span></span></code></pre></div></div></div></div></div><p>But a class does more than just labeling the properties and fields and providing methods to mutate the state they contain. It also specifies how <em>memory needs to be allocated</em> to hold those values as the program runs.</p><p>Looking at our <code>Planet</code> class again, we can see it contains two floating point values. So, when we run the constructor for that class, our computer will know that it needs to allocate enough space in memory for those two values (8 bytes each in Java, and 24 bytes each in Python).</p><p>State and memory are clearly related - the current state is what data is stored in memory. It is possible to take that memory&rsquo;s current state, write it to persistent storage (like the hard drive), and then read it back out at a later point in time and restore the program to exactly the state we left it with. This is actually what your operating system does when you put it into hibernation mode.</p><p>The process of writing out the state is known as <em>serialization</em>, and it&rsquo;s a topic we&rsquo;ll revisit later.</p><h2 id=static-modifier>Static Modifier</h2><p>You might have wondered how the <code>static</code> modifier plays into objects. Essentially, the <code>static</code> keyword indicates the field or method it modifies <em>exists in only one memory location</em>. I.e. a static field references the <em>same</em> memory location for all objects that possess it.</p><p>Consider this simple example class:</p><div class=tab-panel data-tab-group=c13a65c095cb5dc0be7a219c4b0f963c><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("c13a65c095cb5dc0be7a219c4b0f963c","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("c13a65c095cb5dc0be7a219c4b0f963c","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span><span class=w> </span><span class=kd>class</span> <span class=nc>Simple</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=kd>static</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=n>x</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=n>y</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=nf>Simple</span><span class=p>(</span><span class=kt>int</span><span class=w> </span><span class=n>x</span><span class=p>,</span><span class=w> </span><span class=kt>int</span><span class=w> </span><span class=n>y</span><span class=p>){</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>x</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>x</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>y</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>y</span><span class=p>;</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=p>}</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>Simple</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=n>x</span><span class=p>:</span> <span class=nb>int</span> <span class=o>=</span> <span class=mi>0</span>
-</span></span><span class=line><span class=cl>        
-</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>x</span><span class=p>:</span> <span class=nb>int</span><span class=p>,</span> <span class=n>y</span><span class=p>:</span> <span class=nb>int</span><span class=p>)</span> <span class=o>-&gt;</span> <span class=kc>None</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>        <span class=n>Simple</span><span class=o>.</span><span class=n>x</span> <span class=o>=</span> <span class=n>x</span>
-</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>y</span> <span class=o>=</span> <span class=n>y</span></span></span></code></pre></div></div></div></div></div><p>Notice that the Java language uses the <code>static</code> keyword for fields, whereas in Python the field is simply defined outside of the constructor, and only attached to the class name and not <code>self</code>.</p><p>We can also create a couple of instances:</p><div class=tab-panel data-tab-group=c7c1da52f903a4ca3d70eba729e0b436><div class=tab-nav><div class=tab-nav-title>&#8203;</div><button data-tab-item=java class="tab-nav-button tab-panel-style cstyle initial active" tabindex=-1 onclick='switchTab("c7c1da52f903a4ca3d70eba729e0b436","java")'>
-<span class=tab-nav-text>Java</span>
-</button>
-<button data-tab-item=python class="tab-nav-button tab-panel-style cstyle initial" onclick='switchTab("c7c1da52f903a4ca3d70eba729e0b436","python")'>
-<span class=tab-nav-text>Python</span></button></div><div class=tab-content-container><div data-tab-item=java class="tab-content tab-panel-style cstyle initial active"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>Simple</span><span class=w> </span><span class=n>first</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>Simple</span><span class=p>(</span><span class=n>10</span><span class=p>,</span><span class=w> </span><span class=n>12</span><span class=p>);</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=n>Simple</span><span class=w> </span><span class=n>second</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>Simple</span><span class=p>(</span><span class=n>8</span><span class=p>,</span><span class=w> </span><span class=n>5</span><span class=p>);</span></span></span></code></pre></div></div></div><div data-tab-item=python class="tab-content tab-panel-style cstyle initial"><div class=tab-content-text><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>first</span><span class=p>:</span> <span class=n>Simple</span> <span class=o>=</span> <span class=n>Simple</span><span class=p>(</span><span class=mi>10</span><span class=p>,</span> <span class=mi>12</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=n>second</span><span class=p>:</span> <span class=n>Simple</span> <span class=o>=</span> <span class=n>Simple</span><span class=p>(</span><span class=mi>8</span><span class=p>,</span> <span class=mi>5</span><span class=p>)</span></span></span></code></pre></div></div></div></div></div><p>Once we&rsquo;ve created both instances, the value of <code>first.x</code> would be 8 - because <code>first.x</code> and <code>second.x</code> reference the <em>same</em> memory location (a <em>static</em> unchanging location), and <code>second.x</code> was set <em>after</em> <code>first.x</code>. If we changed it again:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=n>first</span><span class=p>.</span><span class=na>x</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>3</span></span></span></code></pre></div><p>Then both <code>first.x</code> and <code>second.x</code> would have the value 3, as they share the same memory location. <code>first.y</code> would still be 12, and <code>second.y</code> would still be 5.</p><p>Another way to think about <code>static</code> is that it means the field or method we are modifying belongs to the <em>class</em> and not the individual <em>object</em>. Hence, each object <em>shares</em> a <code>static</code> variable, because it belongs to their class.</p><p>Used on a method, the <code>static</code> keyword in Java or the <code>@staticmethod</code> decorator in Python indicates that the method belongs to the class definition, not the object instance. Hence, we must invoke it <em>from the class</em>, not an object instance: i.e. <code>Math.pow()</code>.</p><p>Finally, when used with a class in Java, <code>static</code> indicates we can&rsquo;t create objects from the class - the class definition exists on its own. Hence, the <code>Math m = new Math();</code> is actually an error, as the <code>Math</code> class is declared static. Python does not directly support the <code>static</code> keyword for classes themselves, but classes which only contain static attributes and methods could be considered static classes.</p><footer class=footline></footer></article></div></main></div></div><script src=/cc410/js/clipboard.min.js?1719508783 defer></script><script src=/cc410/js/perfect-scrollbar.min.js?1719508783 defer></script><script src=/cc410/js/theme.js?1719508783 defer></script><script src=/cc410/js/tele-scroll.js?1719508783 defer></script></body></html>
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.128.0">
+    <meta name="generator" content="Relearn 6.0.0">
+    <meta name="description" content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
+​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -&gt; float: return self.">
+    <meta name="author" content="Russell Feldhausen">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Objects in Memory :: CC 410 Textbook">
+    <meta name="twitter:description" content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
+​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -&gt; float: return self.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/">
+    <meta property="og:site_name" content="CC 410 Textbook">
+    <meta property="og:title" content="Objects in Memory :: CC 410 Textbook">
+    <meta property="og:description" content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
+​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -&gt; float: return self.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="OOP">
+    <meta property="article:modified_time" content="2023-08-10T16:05:23-05:00">
+    <meta itemprop="name" content="Objects in Memory :: CC 410 Textbook">
+    <meta itemprop="description" content="We often talk about the class as a blueprint for an object. This is because classes define what properties and methods an object should have, in the form of a constructor. Consider this class representing a planet:
+​ Java Python public class Planet{ private double mass; public double getMass(){ return this.mass; } private double radius; public double getRadius(){ return this.radius; } public Planet(double mass, double radius){ this.mass = mass; this.radius = radius; } } class Planet @property def mass(self) -&gt; float: return self.">
+    <meta itemprop="dateModified" content="2023-08-10T16:05:23-05:00">
+    <meta itemprop="wordCount" content="837">
+    <title>Objects in Memory :: CC 410 Textbook</title>
+    <link href="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/" rel="canonical" type="text/html" title="Objects in Memory :: CC 410 Textbook">
+    <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.xml" rel="alternate" type="application/rss+xml" title="Objects in Memory :: CC 410 Textbook">
+    <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.print.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
+    <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/embed.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
+    <link href="/cc410/images/favicon.ico?1719518909" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1719519088" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1719519088" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1719519088" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1719519088" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1719519088" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1719519088" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1719519088" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1719519088" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1719519088" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1719519088" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1719519088" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1719519088" rel="stylesheet">
+    <link href="/cc410/css/print.css?1719519088" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1719519088"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc410';
+      window.index_js_url="/cc410/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    
+    <link href="/cc410/css/custom.css?1719519088" rel="stylesheet">
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id="objects-in-memory">Objects in Memory</h1>
+
+<p>We often talk about the <strong><em>class</em></strong> as a <em>blueprint</em> for an <strong><em>object</em></strong>.  This is because classes define what properties and methods an object should have, in the form of a <strong><em>constructor</em></strong>.  Consider this class representing a planet:</p>
+
+<div class="tab-panel" data-tab-group="f5e6bcb6e44e54b43e9b42913d2da477">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('f5e6bcb6e44e54b43e9b42913d2da477','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('f5e6bcb6e44e54b43e9b42913d2da477','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Planet</span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">mass</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">getMass</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">mass</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">radius</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="nf">getRadius</span><span class="p">(){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">radius</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">Planet</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">mass</span><span class="p">,</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">radius</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">mass</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mass</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">radius</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">radius</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Planet</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@property</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">mass</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__mass</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="nd">@property</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">radius</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__radius</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">mass</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">radius</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">__mass</span> <span class="o">=</span> <span class="n">mass</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">__radius</span> <span class="o">=</span> <span class="n">radius</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>It describes a planet as having a mass and a radius, which will be stored as the ratio of this planet&rsquo;s attribute compared to Earth. We can create a specific planet by invoking its constructor, i.e.:</p>
+
+<div class="tab-panel" data-tab-group="2fb978241f6438cf71fdd97d8fb9f282">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('2fb978241f6438cf71fdd97d8fb9f282','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('2fb978241f6438cf71fdd97d8fb9f282','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Planet</span><span class="w"> </span><span class="n">earth</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Planet</span><span class="p">(</span><span class="n">1</span><span class="p">.</span><span class="na">0</span><span class="p">,</span><span class="w"> </span><span class="n">1</span><span class="p">.</span><span class="na">0</span><span class="p">);</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">earth</span><span class="p">:</span> <span class="n">Planet</span> <span class="o">=</span> <span class="n">Planet</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">)</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>In this example, <code>earth</code> is an <em>instance</em> of the class <code>Planet</code>.  We can create other instances, i.e.</p>
+
+<div class="tab-panel" data-tab-group="7e419701be3f0604a84e6fdcd20b8460">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('7e419701be3f0604a84e6fdcd20b8460','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('7e419701be3f0604a84e6fdcd20b8460','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Planet</span><span class="w"> </span><span class="n">mars</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Planet</span><span class="p">(</span><span class="n">0</span><span class="p">.</span><span class="na">107</span><span class="p">,</span><span class="w"> </span><span class="n">0</span><span class="p">.</span><span class="na">53</span><span class="p">);</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mars</span><span class="p">:</span> <span class="n">Planet</span> <span class="o">=</span> <span class="n">Planet</span><span class="p">(</span><span class="mf">0.107</span><span class="p">,</span> <span class="mf">0.53</span><span class="p">)</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>We can even create a <code>Planet</code> instance to represent one of the exoplanets discovered by <a href="https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite" rel="external" target="_blank" title="Transiting Extoplanet Survey Satelite">NASA’s TESS</a>:</p>
+
+<div class="tab-panel" data-tab-group="046b44bdd5fe3a858005cdf5777ef85f">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('046b44bdd5fe3a858005cdf5777ef85f','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('046b44bdd5fe3a858005cdf5777ef85f','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Planet</span><span class="w"> </span><span class="n">hd21749b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Planet</span><span class="p">(</span><span class="n">23</span><span class="p">.</span><span class="na">20</span><span class="p">,</span><span class="w"> </span><span class="n">2</span><span class="p">.</span><span class="na">836</span><span class="p">);</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">hd21749b</span><span class="p">:</span> <span class="n">Planet</span> <span class="o">=</span> <span class="n">Planet</span><span class="p">(</span><span class="mf">23.20</span><span class="p">,</span> <span class="mf">2.836</span><span class="p">)</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>Let&rsquo;s think more deeply about the idea of a class as a blueprint.  A blueprint for what, exactly?  For one thing, it serves to describe the <em>state</em> of the object, and helps us label that state.  If we were to check the radius of our variable <code>mars</code>, we would access the getter for the <code>radius</code> field:</p>
+
+<div class="tab-panel" data-tab-group="b63b0375303afa918218120579e52077">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('b63b0375303afa918218120579e52077','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('b63b0375303afa918218120579e52077','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">mars</span><span class="p">.</span><span class="na">getRadius</span><span class="p">()</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mars</span><span class="o">.</span><span class="n">radius</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>But a class does more than just labeling the properties and fields and providing methods to mutate the state they contain.  It also specifies how <em>memory needs to be allocated</em> to hold those values as the program runs.</p>
+<p>Looking at our <code>Planet</code> class again, we can see it contains two floating point values. So, when we run the constructor for that class, our computer will know that it needs to allocate enough space in memory for those two values (8 bytes each in Java, and 24 bytes each in Python).</p>
+<p>State and memory are clearly related - the current state is what data is stored in memory.  It is possible to take that memory&rsquo;s current state, write it to persistent storage (like the hard drive), and then read it back out at a later point in time and restore the program to exactly the state we left it with.  This is actually what your operating system does when you put it into hibernation mode.</p>
+<p>The process of writing out the state is known as <em>serialization</em>, and it&rsquo;s a topic we&rsquo;ll revisit later.</p>
+<h2 id="static-modifier">Static Modifier</h2>
+<p>You might have wondered how the <code>static</code> modifier plays into objects.  Essentially, the <code>static</code> keyword indicates the field or method it modifies <em>exists in only one memory location</em>.  I.e. a static field references the <em>same</em> memory location for all objects that possess it.</p>
+<p>Consider this simple example class:</p>
+
+<div class="tab-panel" data-tab-group="203752702522d91ce018d23b3124f675">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('203752702522d91ce018d23b3124f675','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('203752702522d91ce018d23b3124f675','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Simple</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">Simple</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">y</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Simple</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">x</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Simple</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>Notice that the Java language uses the <code>static</code> keyword for fields, whereas in Python the field is simply defined outside of the constructor, and only attached to the class name and not <code>self</code>.</p>
+<p>We can also create a couple of instances:</p>
+
+<div class="tab-panel" data-tab-group="497ddd6bbf0545f42b740e359b3cb9c2">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="java"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('497ddd6bbf0545f42b740e359b3cb9c2','java')"
+    >
+      <span class="tab-nav-text">Java</span>
+    </button>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('497ddd6bbf0545f42b740e359b3cb9c2','python')"
+    >
+      <span class="tab-nav-text">Python</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="java"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Simple</span><span class="w"> </span><span class="n">first</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Simple</span><span class="p">(</span><span class="n">10</span><span class="p">,</span><span class="w"> </span><span class="n">12</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">Simple</span><span class="w"> </span><span class="n">second</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Simple</span><span class="p">(</span><span class="n">8</span><span class="p">,</span><span class="w"> </span><span class="n">5</span><span class="p">);</span></span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">first</span><span class="p">:</span> <span class="n">Simple</span> <span class="o">=</span> <span class="n">Simple</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">12</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">second</span><span class="p">:</span> <span class="n">Simple</span> <span class="o">=</span> <span class="n">Simple</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span></span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+<p>Once we&rsquo;ve created both instances, the value of <code>first.x</code> would be 8 - because <code>first.x</code> and <code>second.x</code> reference the <em>same</em> memory location (a <em>static</em> unchanging location), and <code>second.x</code> was set <em>after</em> <code>first.x</code>.  If we changed it again:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">first</span><span class="p">.</span><span class="na">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">3</span></span></span></code></pre></div><p>Then both <code>first.x</code> and <code>second.x</code> would have the value 3, as they share the same memory location. <code>first.y</code> would still be 12, and <code>second.y</code> would still be 5.</p>
+<p>Another way to think about <code>static</code> is that it means the field or method we are modifying belongs to the <em>class</em> and not the individual <em>object</em>.  Hence, each object <em>shares</em> a <code>static</code> variable, because it belongs to their class.</p>
+<p>Used on a method, the <code>static</code> keyword in Java or the <code>@staticmethod</code> decorator in Python indicates that the method belongs to the class definition, not the object instance.  Hence, we must invoke it <em>from the class</em>, not an object instance: i.e. <code>Math.pow()</code>.</p>
+<p>Finally, when used with a class in Java, <code>static</code> indicates we can&rsquo;t create objects from the class - the class definition exists on its own.  Hence, the <code>Math m = new Math();</code>  is actually an error, as the <code>Math</code> class is declared static. Python does not directly support the <code>static</code> keyword for classes themselves, but classes which only contain static attributes and methods could be considered static classes.</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+</div>
+</main>
+</div>
+
+</div>
+
+
+
+
+<script src="/cc410/js/clipboard.min.js?1719519088" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1719519088" defer></script>
+<script src="/cc410/js/theme.js?1719519088" defer></script>
+
+<script src="/cc410/js/tele-scroll.js?1719519088" defer></script>
+
+</body>
+</html>

@@ -1,5 +1,27 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>JUnit Tests</h3><pre class=stretch><code>import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>JUnit Tests</h3>
+    <pre class="stretch"><code>import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;<br>
 public class SquareTest{<br>
     &commat;Test
@@ -7,7 +29,11 @@ public class SquareTest{<br>
         Square square = new Square(2.0);
         assertEquals(2.0, square.getLength());
     }
-}</code></pre></section><section><h3>Install Parameters Library</h3><pre class="stretch java"><code style=font-size:37px>dependencies {
+}</code></pre>
+</section>
+<section>
+    <h3>Install Parameters Library</h3>
+    <pre class="stretch java"><code style="font-size: 37px">dependencies {
     // Use JUnit Jupiter API for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2', 
         'org.hamcrest:hamcrest:2.2', 
@@ -16,7 +42,11 @@ public class SquareTest{<br>
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'<br>
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
-}</code></pre></section><section><h3>JUnit Parameterized Tests</h3><pre class=stretch><code style=font-size:38px>import static org.junit.jupiter.api.Assertions.assertEquals;
+}</code></pre>
+</section>
+<section>
+    <h3>JUnit Parameterized Tests</h3>
+    <pre class="stretch"><code style="font-size: 38px">import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;<br>
@@ -27,14 +57,33 @@ public class StoveTest{<br>
         Square square = new Square(setting);
         assertEquals(setting, square.getLength());
     }
-}</code></pre></section><section><h3>JUnit Assertions</h3><ul><li>assertTrue | assertFalse</li><li>assertEquals | assertNotEquals</li><li>assertArrayEquals</li><li>assertLinesMatch</li><li>assertNull | assertNotNull</li><li>assertSame | assertNotSame</li></ul></section><section><h3>Catching Exceptions</h3><pre class="stretch java"><code>@Test
+}</code></pre>
+</section>
+<section>
+    <h3>JUnit Assertions</h3>
+    <ul>
+        <li>assertTrue | assertFalse</li>
+        <li>assertEquals | assertNotEquals</li>
+        <li>assertArrayEquals</li>
+        <li>assertLinesMatch</li>
+        <li>assertNull | assertNotNull</li>
+        <li>assertSame | assertNotSame</li>
+    </ul>
+</section>
+<section>
+    <h3>Catching Exceptions</h3>
+    <pre class="stretch java"><code>@Test
 void exceptionTesting() {
     Exception exception = assertThrows(
         IllegalArgumentException.class, 
         () -> new Square(-1.0));
     assertEquals("Length cannot be negative", 
         exception.getMessage());
-}</code></pre></section><section><h3>Checking Output</h3><pre class="stretch java"><code style=font-size:38px>@Test 
+}</code></pre>
+</section>
+<section>
+    <h3>Checking Output</h3>
+    <pre class="stretch java"><code style="font-size: 38px">@Test 
 public void testHelloWorldMain() {
     HelloWorld hw = new HelloWorld();<br>
     final PrintStream systemOut = System.out;
@@ -43,4 +92,44 @@ public void testHelloWorldMain() {
     hw.main(new String[]{});<br>
     System.setOut(systemOut);<br>
     assertEquals(testOut.toString(), "Hello World\n");
-}</code></pre></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+}</code></pre>
+</section>
+
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

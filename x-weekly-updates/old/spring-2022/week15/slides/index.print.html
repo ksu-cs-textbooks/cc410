@@ -1,2 +1,119 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h2>CC 410 - Week 15</h2></section><section><h3>Due Today</h3><ul><li>Concept Quiz 2</li><li>REST Example</li><li>Milestone 10 - REST</li></ul></section><section><h3>Next Week 5/9</h3><ul><li>Form Validation Example</li><li>Milestone 11 - Validation & Serialization</li></ul><br><br><h3>End of Finals 5/13</h3><ul><li>Final Project!</li></ul></section><section><h3>Final Project Deliverables</h3><ul><li>Release Tag on GitHub<ul><li>Read Requirements Page!</li></ul></li><li>Code Documentation</li><li><i>README</i></li><li><i>User Documentation</i></li><li>Presentation</li></ul></section><section><h3>Presentation Details</h3><ul><li>~30 minutes</li><li>Prerecord or Present Live</li><li>Present May 11 or 12</li><li>Let me know soon!</li></ul></section><section><h3>Suggested Outline</h3><ul><li>Introduction</li><li>Background</li><li>Implementation</li><li>Evaluation</li><li>Future Work</li><li>Conclusion</li><li><b>DEMO!</b></li></ul></section><section><img class="plain stretch" src=https://media.giphy.com/media/VQ77RNKX0nyaA/source.gif><p class=imagecredit>Image Credit: <a href=https://giphy.com/gifs/flag-finish-line-VQ77RNKX0nyaA>Giphy</a></p></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<h2>CC 410 - Week 15</h2>
+</section>
+<section>
+	<h3>Due Today</h3>
+	<ul>
+		<li>Concept Quiz 2</li>
+		<li>REST Example</li>
+		<li>Milestone 10 - REST</li>
+	</ul>
+</section>
+<section>
+	<h3>Next Week 5/9</h3>
+	<ul>
+		<li>Form Validation Example</li>
+		<li>Milestone 11 - Validation & Serialization</li>
+	</ul>
+	<br><br>
+	<h3>End of Finals 5/13</h3>
+	<ul>
+		<li>Final Project!</li>
+	</ul>
+</section>
+<section>
+	<h3>Final Project Deliverables</h3>
+	<ul>
+		<li>Release Tag on GitHub<ul>
+			<li>Read Requirements Page!</li>
+		</ul></li>
+		<li>Code Documentation</li>
+		<li><i>README</i></li>
+		<li><i>User Documentation</i></li>
+		<li>Presentation</li>
+	</ul>
+</section>
+<section>
+	<h3>Presentation Details</h3>
+	<ul>
+		<li>~30 minutes</li>
+		<li>Prerecord or Present Live</li>
+		<li>Present May 11 or 12</li>
+		<li>Let me know soon!</li>
+	</ul>
+</section>
+<section>
+	<h3>Suggested Outline</h3>
+	<ul>
+		<li>Introduction</li>
+		<li>Background</li>
+		<li>Implementation</li>
+		<li>Evaluation</li>
+		<li>Future Work</li>
+		<li>Conclusion</li>
+		<li><b>DEMO!</b></li>
+	</ul>
+</section>
+<section>
+	<img class="plain stretch" src="https://media.giphy.com/media/VQ77RNKX0nyaA/source.gif">
+	<p class="imagecredit">Image Credit: <a href="https://giphy.com/gifs/flag-finish-line-VQ77RNKX0nyaA">Giphy</a></p>
+</section>
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

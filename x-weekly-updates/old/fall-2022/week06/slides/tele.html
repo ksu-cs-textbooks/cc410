@@ -1,2 +1,113 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h2>CC 410 - Week 6</h2></section><section><h3>Wrapping Up</h3><ul><li>Debugging & Logging</li><li>Lambda Expressions</li><li>Debugging & Logging Example</li><li>Restaurant 3</li><li>Final Project 2</li></ul></section><section><h3>This Week</h3><ul><li>GUI Basics Example</li><li>Restaurant 4</li><li>Concept Quiz 1</li></ul></section><section><h3>Milestone 4</h3><ul><li>GUI Basics</li><li>Create Overall GUI Structure</li><li>I Give One Example</li><li>Read Helpful Hints</li><li><i>feel free to get creative</i></li></section><section><h3>Concept Quiz 1</h3><ul><li>2 hour time limit</li><li>OOP Theory</li><li>Code Comprehension</li><li>UML Comprehension</li><li>Unit Testing</li><li>Open Book/Notes/Code</li></ul></section><section><h3>Looking Ahead</h3><ul><li>Module 7 - Event-Driven Programming</li><li>Module 8 - <b>Design Patterns & Mocks</b></li><li>Module 9 - Combos</li><li>Web APIs, etc.</li></ul></section><section><img class="plain stretch" src=https://media.giphy.com/media/13YkBrhLJdziXm/source.gif><p class=imagecredit>Image Credit: <a href=https://giphy.com/gifs/peanuts-charlie-brown-a-christmas-13YkBrhLJdziXm/media>Giphy</a></p></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+	<h2>CC 410 - Week 6</h2>
+</section>
+<section>
+	<h3>Wrapping Up</h3>
+	<ul>
+		<li>Debugging & Logging</li>
+		<li>Lambda Expressions</li>
+		<li>Debugging & Logging Example</li>
+		<li>Restaurant 3</li>
+		<li>Final Project 2</li>
+	</ul>
+</section>
+<section>
+	<h3>This Week</h3>
+	<ul>
+		<li>GUI Basics Example</li>
+		<li>Restaurant 4</li>
+		<li>Concept Quiz 1</li>
+	</ul>
+</section>
+<section>
+	<h3>Milestone 4</h3>
+	<ul>
+		<li>GUI Basics</li>
+		<li>Create Overall GUI Structure</li>
+		<li>I Give One Example</li>
+		<li>Read Helpful Hints</li>
+		<li><i>feel free to get creative</i></li>
+</section>
+<section>
+	<h3>Concept Quiz 1</h3>
+	<ul>
+		<li>2 hour time limit</li>
+		<li>OOP Theory</li>
+		<li>Code Comprehension</li>
+		<li>UML Comprehension</li>
+		<li>Unit Testing</li>
+		<li>Open Book/Notes/Code</li>
+	</ul>
+</section>
+<section>
+	<h3>Looking Ahead</h3>
+	<ul>
+		<li>Module 7 - Event-Driven Programming</li>
+		<li>Module 8 - <b>Design Patterns & Mocks</b></li>
+		<li>Module 9 - Combos</li>
+		<li>Web APIs, etc.</li>
+	</ul>
+</section>
+<section>
+	<img class="plain stretch" src="https://media.giphy.com/media/13YkBrhLJdziXm/source.gif">
+	<p class="imagecredit">Image Credit: <a href="https://giphy.com/gifs/peanuts-charlie-brown-a-christmas-13YkBrhLJdziXm/media">Giphy</a></p>
+</section>
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>

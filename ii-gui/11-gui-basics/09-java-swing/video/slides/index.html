@@ -1,7 +1,49 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
-<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>Java Swing</h3><img class="plain stretch" src=/cc410/images/9/410_9_swing.png><p class=imagecredit>Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Gui-widgets.png&oldid=458387263">Wikipedia</a></p></section><section><h3>Java Swing</h3><ul><li>Developed in late 1990s</li><li>Upgrade to<br>Abstract Window Toolkit (AWT)</li><li>Object-Oriented, Inheritable</li><li>Change Look and Feel</li><li>Cross-Platform</li></ul></section><section><h3>Imports</h3><pre class=java><code>import java.awt.*;
+
+
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title></title>
+
+		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
+		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
+		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
+
+		
+		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+    <h3>Java Swing</h3>
+    <img class="plain stretch" src="/cc410/images/9/410_9_swing.png">
+    <p class="imagecredit">Image Credit: <a href="https://commons.wikimedia.org/w/index.php?title=File:Gui-widgets.png&oldid=458387263">Wikipedia</a></p>
+</section>
+<section>
+    <h3>Java Swing</h3>
+    <ul>
+        <li>Developed in late 1990s</li>
+        <li>Upgrade to<br>
+            Abstract Window Toolkit (AWT)</li>
+        <li>Object-Oriented, Inheritable</li>
+        <li>Change Look and Feel</li>
+        <li>Cross-Platform</li>
+    </ul>
+</section>
+<section>
+    <h3>Imports</h3>
+    <pre class="java"><code>import java.awt.*;
 import java.awt.event.*;
-import javax.swing.*;</code></pre></section><section><h3>Class Structure</h3><pre class="java stretch"><code>public class MainWindow extends JFrame 
+import javax.swing.*;</code></pre>
+</section>
+<section>
+    <h3>Class Structure</h3>
+    <pre class="java stretch"><code>public class MainWindow extends JFrame 
                         implements ActionListener {<br>
     public MainWindow() {
         // create GUI
@@ -13,19 +55,48 @@ import javax.swing.*;</code></pre></section><section><h3>Class Structure</h3><pr
     public static void main(String[] args){
         // start program
     }
-}</code></pre></section><section><h3>Layout</h3><pre class="java stretch"><code>// sets the size of this window
+}</code></pre>
+</section>
+<section>
+    <h3>Layout</h3>
+    <pre class="java stretch"><code>// sets the size of this window
 this.setSize(new Dimension(200, 100));<br>
 // tell the program to exit when this window is closed
 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);<br>
 // set the layout manager
 this.setLayout(new GridBagLayout());<br>
 // Create the constraints for the GridBagLayout manager
-GridBagConstraints gbc = new GridBagConstraints();</code></pre></section><section><h3>GridBagLayout</h3><img class="plain stretch" src=/cc410/images/9/410_9_gridbag1.png><p class=imagecredit>Image Credit: <a href=https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html>Oracle</a></p></section><section><h3>GridBagLayout</h3><p>Uses Rows & Columns</p><img class="plain stretch" src=/cc410/images/9/410_9_gridbag2.jpg><p class=imagecredit>Image Credit: <a href=https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html>Oracle</a></p></section><section><h3>GridBagLayout</h3><p>Can Grow to Fit Screen</p><img class="plain stretch" src=/cc410/images/9/410_9_gridbag3.png><p class=imagecredit>Image Credit: <a href=https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html>Oracle</a></p></section><section><h3>Label</h3><pre class=java><code>// set the constraints for the label
+GridBagConstraints gbc = new GridBagConstraints();</code></pre>
+</section>
+<section>
+    <h3>GridBagLayout</h3>
+    <img class="plain stretch" src="/cc410/images/9/410_9_gridbag1.png">
+    <p class="imagecredit">Image Credit: <a href="https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html">Oracle</a></p>
+</section>
+<section>
+    <h3>GridBagLayout</h3>
+    <p>Uses Rows & Columns</p>
+    <img class="plain stretch" src="/cc410/images/9/410_9_gridbag2.jpg">
+    <p class="imagecredit">Image Credit: <a href="https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html">Oracle</a></p>
+</section>
+<section>
+    <h3>GridBagLayout</h3>
+    <p>Can Grow to Fit Screen</p>
+    <img class="plain stretch" src="/cc410/images/9/410_9_gridbag3.png">
+    <p class="imagecredit">Image Credit: <a href="https://docs.oracle.com/javase/tutorial/uiswing/layout/gridbag.html">Oracle</a></p>
+</section>
+<section>
+    <h3>Label</h3>
+    <pre class="java"><code>// set the constraints for the label
 gbc.fill = GridBagConstraints.HORIZONTAL;
 gbc.gridx = 0;
 gbc.gridy = 0;<br>
 // add a label
-this.add(new JLabel("Hello World!"), gbc);</code></pre></section><section><h3>Button</h3><pre class="java stretch"><code>// reset the constraints for the button
+this.add(new JLabel("Hello World!"), gbc);</code></pre>
+</section>
+<section>
+    <h3>Button</h3>
+    <pre class="java stretch"><code>// reset the constraints for the button
 gbc.gridx = 0;
 gbc.gridy = 1;<br>
 // create a button 
@@ -35,16 +106,69 @@ button.setActionCommand("close");
 // send the clicked event to this object
 button.addActionListener(this);
 // add the button
-this.add(button, gbc);</code></pre></section><section><h3>Java Example</h3><img class=plain width=500px src=/cc410/images/9/410_9_javahello.png></section><section><h3>Handle Events</h3><p>Specified by <code>ActionListener</code> interface</code></p><pre class=java style=font-size:37px><code>@Override
+this.add(button, gbc);</code></pre>
+</section>
+<section>
+    <h3>Java Example</h3>
+    <img class="plain" width="500px" src="/cc410/images/9/410_9_javahello.png">
+</section>
+<section>
+    <h3>Handle Events</h3>
+    <p>Specified by <code>ActionListener</code> interface</code></p>
+    <pre class="java" style="font-size: 37px"><code>@Override
 public void actionPerformed(ActionEvent e) {
     if ("close".equals(e.getActionCommand())) {
         // close button was clicked, so exit the application
         System.exit(0);
     }
-}</code></pre></section><section><h3>Start Application</h3><p>Use a Thread!</p><pre class=java style=font-size:37px><code>public static void main(String[] args){
+}</code></pre>
+</section>
+<section>
+    <h3>Start Application</h3>
+    <p>Use a Thread!</p>
+    <pre class="java" style="font-size: 37px"><code>public static void main(String[] args){
     SwingUtilities.invokeLater(new Runnable() {
         public void run() {
             new MainWindow().setVisible(true);
         }
     });
-}</code></pre></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
+}</code></pre>
+</section>
+			</div>
+		</div>
+
+		<script src="/cc410/reveal/dist/reveal.js"></script>
+		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
+		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
+		<script src="/cc410/reveal/plugin/math/math.js"></script>
+		<script>
+			
+			
+			
+			Reveal.initialize({
+				hash: true,
+				controls: false,
+				controlsTutorial:false,
+				progress: false,
+				transition: 'fade',
+				width: 1440,
+				height: 1080,
+				highlight: {
+					escapeHTML: false
+				},
+
+				
+				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+			});
+
+			window.addEventListener("mousedown", handleClick, false);
+			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+			function handleClick(e) {
+				e.preventDefault();
+				if(e.button === 0) Reveal.next();
+				if(e.button === 2) Reveal.prev();
+			}
+		</script>
+	</body>
+</html>
