@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java :: CC 410 Textbook</title><link>https://textbooks.cs.ksu.edu/cc410/z-examples/06-design-patterns/02-java/</link><description>YouTube Video Outline Here is a basic outline of the steps to follow to complete this example.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java :: CC 410 Textbook</title><link>https://textbooks.cs.ksu.edu/cc410/z-examples/06-design-patterns/02-java/</link><description>Outline Here is a basic outline of the steps to follow to complete this example.
 Clone Starter Code from GitHub git clone &lt;url> java Install SDKMAN Instructions
 curl -s "https://get.sdkman.io" | bash Close and Reopen Terminal to load SDK Man
 Install Gradle
