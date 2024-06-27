@@ -171,7 +171,7 @@ cleanDestinationDir = true
   # in the pages frontmatter. This is useful if you want to give the opportunity
   # for people to create merge request for your content.
   # TODO changeme
-  editURL = "https://gitlab.cs.ksu.edu/-/ide/project/cc/410/generic/textbook/edit/master/-/content/${FilePath}"
+  editURL = "https://github.com/ksu-cs-textbooks/cc410/edit/main/content/${FilePath}"
 
   #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   # Menu
@@ -484,7 +484,7 @@ cleanDestinationDir = true
   # This is for linking directly to the GitHub Commit where the most recent
   # edit on a page was made. 
   # TODO changeme
-  commitURL = "https://gitlab.cs.ksu.edu/cc/410/generic/textbook/-/commit/"
+  commitURL = "https://github.com/ksu-cs-textbooks/cc410/commit/"
 
 [markup]
   [markup.highlight]
