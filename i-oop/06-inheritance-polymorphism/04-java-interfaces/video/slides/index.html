@@ -1,46 +1,10 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <h3>Java Interfaces</h3>
-    <ul>
-        <li>Use the <code>interface</code> keyword</li>
-        <li>Usually only methods</li>
-        <li>All methods <code>public abstract</code></li>
-        <li>All attributes <code>public static final</code></li>
-        <li>No constructor, no code</li>
-    </ul>
-</section>
-<section>
-    <h3>Java Interface Example</h3>
-    <pre class="java"><code>public interface IMyQueue {
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>Java Interfaces</h3><ul><li>Use the <code>interface</code> keyword</li><li>Usually only methods</li><li>All methods <code>public abstract</code></li><li>All attributes <code>public static final</code></li><li>No constructor, no code</li></ul></section><section><h3>Java Interface Example</h3><pre class=java><code>public interface IMyQueue {
     void enqueue(Object o);
     Object dequeue();
     Object peek();
     int size();
-}</code></pre>
-</section>
-<section>
-    <h3>Using a Java Interface</h3>
-    <pre class="java stretch"><code>public class WaitingList implements IMyQueue {
+}</code></pre></section><section><h3>Using a Java Interface</h3><pre class="java stretch"><code>public class WaitingList implements IMyQueue {
     public void enqueue(Object o) {
         //code here
     }<br>
@@ -53,26 +17,9 @@
     public int size() {
         //code here
     }
-}</code></pre>
-</section>
-<section>
-    <h3>Interfaces are Types</h3>
-    <pre class="java"><code>IMyQueue wait = new WaitingList();
+}</code></pre></section><section><h3>Interfaces are Types</h3><pre class=java><code>IMyQueue wait = new WaitingList();
 wait.enqueue(new Person());
-wait.dequeue();</pre></code>
-    <p>We can call any methods<br>defined by the interface</p>
-</section>
-<section>
-    <h3>Java Inheritance</h3>
-    <ul style="font-size: 70px;">
-        <li>Subclass inherits all <b>state</b> and <b>behavior</b></li>
-        <li>Subclass has all <code>public</code> and <code>protected</code> attributes and methods of superclass</li>
-        <li>Subclass constructor can call <code>super()</code> constructor</li>
-        <li>Subclass can <b>override</b> superclass methods with new code</li>
-    </ul>
-</section>
-<section>
-    <pre class="java stretch"><code>public class Canine {
+wait.dequeue();</pre></code><p>We can call any methods<br>defined by the interface</p></section><section><h3>Java Inheritance</h3><ul style=font-size:70px><li>Subclass inherits all <b>state</b> and <b>behavior</b></li><li>Subclass has all <code>public</code> and <code>protected</code> attributes and methods of superclass</li><li>Subclass constructor can call <code>super()</code> constructor</li><li>Subclass can <b>override</b> superclass methods with new code</li></ul></section><section><pre class="java stretch"><code>public class Canine {
     protected name;
     public void bark() {
         //code here
@@ -89,55 +36,7 @@ public class GuideDog extends Dog {
     public void guide() {
         //code here
     }
-}</code></pre>
-</section>
-<section>
-    <h6>Subclass has all Superclass behaviors</h6>
-    <pre class="java"><code>GuideDog lassie = new GuideDog();
+}</code></pre></section><section><h6>Subclass has all Superclass behaviors</h6><pre class=java><code>GuideDog lassie = new GuideDog();
 lassie.bark();
 lassie.pet();
-lassie.guide();</code></pre>
-</section>
-<section>
-    <h3>Multiple Inheritance</h3>
-    <p>Classes in Java can only<br>directly inherit from one superclass</p>
-    <p>Classes may implement<br>any number of interfaces</p>
-</section>
-			</div>
-		</div>
-
-		<script src="/cc410/reveal/dist/reveal.js"></script>
-		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
-		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
-		<script src="/cc410/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+lassie.guide();</code></pre></section><section><h3>Multiple Inheritance</h3><p>Classes in Java can only<br>directly inherit from one superclass</p><p>Classes may implement<br>any number of interfaces</p></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>

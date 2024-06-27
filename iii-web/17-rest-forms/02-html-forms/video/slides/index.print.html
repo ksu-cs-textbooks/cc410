@@ -1,78 +1,9 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <h3>HTML Forms</h3>
-    <ul>
-        <li>Collect Information from User</li>
-        <li>HTML <code>&lt;input&gt;</code> Elements</li>
-        <li>Similar to GUI Elements</li>
-        <li>Send Data to Web Server/Application</li>
-    </ul>
-</section>
-<section>
-    <h3>Simple Input Form</h3>
-    <pre><code>&lt;form action="/search" method="POST">
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>HTML Forms</h3><ul><li>Collect Information from User</li><li>HTML <code>&lt;input></code> Elements</li><li>Similar to GUI Elements</li><li>Send Data to Web Server/Application</li></ul></section><section><h3>Simple Input Form</h3><pre><code>&lt;form action="/search" method="POST">
     &lt;label for="keywords">Search Keywords&lt;/label>
     &lt;input type="text" id="keywords" name="keywords">
     &lt;button type="submit">Search&lt;/button>
-&lt;/form></code></pre>
-    <p>displays as</p>
-    <img class="plain stretch" src="/cc410/images/17/410_17_form.png">
-</section>
-<section>
-    <h3>Input Elements</h3>
-    <ul>
-        <li><code>text</code> - text input</li>
-        <li><code>checkbox</code> - boolean checkbox</li>
-        <li><code>date</code> - date picker</li>
-        <li><code>file</code> - file chooser</li>
-        <li><code>number</code> - numerical input</li>
-        <li><code>password</code> - password field</li>
-        <li><code>select</code> - drop-down box</li>
-        <li><code>submit</code> - submit button</li>
-    </ul>
-</section>
-<section>
-    <h3>Related Elements</h3>
-    <ul>
-        <li><code>label</code> - caption for element</li>
-        <li><code>fieldset</code> - group similar fields</li>
-        <li><code>legend</code> - caption for fieldset</li>
-    </ul>
-</section>
-<section>
-    <h3>Form Submission</h3>
-    <ol>
-        <li>User Submits Form</li>
-        <li>Data Encoded by Browser</li>
-        <li>Data Sent to Server via HTTP</li>
-        <li>Server Decodes Data</li>
-        <li><i>Server Validates Data</i></li>
-        <li>Response Returned via HTTP</li>
-    </ol>
-</section>
-<section>
-    <h3>HTML Form Example</h3>
-    <pre><code class="stretch html" style="font-size: 20px; line-height: 27px">
+&lt;/form></code></pre><p>displays as</p><img class="plain stretch" src=/cc410/images/17/410_17_form.png></section><section><h3>Input Elements</h3><ul><li><code>text</code> - text input</li><li><code>checkbox</code> - boolean checkbox</li><li><code>date</code> - date picker</li><li><code>file</code> - file chooser</li><li><code>number</code> - numerical input</li><li><code>password</code> - password field</li><li><code>select</code> - drop-down box</li><li><code>submit</code> - submit button</li></ul></section><section><h3>Related Elements</h3><ul><li><code>label</code> - caption for element</li><li><code>fieldset</code> - group similar fields</li><li><code>legend</code> - caption for fieldset</li></ul></section><section><h3>Form Submission</h3><ol><li>User Submits Form</li><li>Data Encoded by Browser</li><li>Data Sent to Server via HTTP</li><li>Server Decodes Data</li><li><i>Server Validates Data</i></li><li>Response Returned via HTTP</li></ol></section><section><h3>HTML Form Example</h3><pre><code class="stretch html" style=font-size:20px;line-height:27px>
     &lt;form action="/customitems" method="POST" >
         &lt;div class="form-row">
             &lt;div class="col form-group">
@@ -94,65 +25,4 @@
         &lt;/div>
         &lt;button type="submit" class="btn btn-primary">Submit&lt;/button>
     &lt;/form>
-    </code></pre>
-</section>
-<section>
-    <h3>Rendered Form</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_customform.png">
-</section>
-<section>
-    <h3>Developer Tools</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_devtools.png">
-</section>
-<section>  
-    <h3>HTTP POST Request</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_devtools_1.png">
-</section>
-<section>
-    <h3>HTTP Headers</h3>
-    <img class="plain stretch" src="/cc410/images/17/410_17_devtools_2.png">
-</section>
-<section>
-    <h5>Parsed Data</h5>
-    <img class="plain" style="width: 60%" src="/cc410/images/17/410_17_devtools_3.png">
-    <h5>Encoded Data</h5>
-    <img class="plain" style="width: 60%" src="/cc410/images/17/410_17_devtools_4.png">
-</section>
-			</div>
-		</div>
-
-		<script src="/cc410/reveal/dist/reveal.js"></script>
-		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
-		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
-		<script src="/cc410/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+    </code></pre></section><section><h3>Rendered Form</h3><img class="plain stretch" src=/cc410/images/17/410_17_customform.png></section><section><h3>Developer Tools</h3><img class="plain stretch" src=/cc410/images/17/410_17_devtools.png></section><section><h3>HTTP POST Request</h3><img class="plain stretch" src=/cc410/images/17/410_17_devtools_1.png></section><section><h3>HTTP Headers</h3><img class="plain stretch" src=/cc410/images/17/410_17_devtools_2.png></section><section><h5>Parsed Data</h5><img class=plain style=width:60% src=/cc410/images/17/410_17_devtools_3.png><h5>Encoded Data</h5><img class=plain style=width:60% src=/cc410/images/17/410_17_devtools_4.png></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>

@@ -1,40 +1,10 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <img class="plain stretch" src="/cc410/images/13/410_13_mockito.png">
-    <p class="imagecredit">Image Credit: <a href="https://site.mockito.org/">Mockito</a></p>
-</section>
-<section>
-    <h3>Install in Gradle</h3>
-    <pre><code class="java" style="font-size: 35px">dependencies {
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><img class="plain stretch" src=/cc410/images/13/410_13_mockito.png><p class=imagecredit>Image Credit: <a href=https://site.mockito.org/>Mockito</a></p></section><section><h3>Install in Gradle</h3><pre><code class=java style=font-size:35px>dependencies {
     // Use JUnit Jupiter API for testing.
     testImplementation ..., 'org.mockito:mockito-inline:3.8.0',
     'org.mockito:mockito-junit-jupiter:3.8.0'<br>
     ...
-}</code></pre>
-</section>
-<section>
-    <h3>Add Mockito to Test Class</h3>
-    <pre><code class="java stretch" style="font-size: 38px">import static org.junit.jupiter.api.Assertions.assertTrue;
+}</code></pre></section><section><h3>Add Mockito to Test Class</h3><pre><code class="java stretch" style=font-size:38px>import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;<br>
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -43,11 +13,7 @@ import org.mockito.junit.jupiter.MockitoExtension;<br>
 @ExtendWith(MockitoExtension.class)
 public class UnitTestClass {
     // tests here
-}</code></pre>
-</section>
-<section>
-    <h3>Use Strict Stubs</h3>
-    <pre><code class="java stretch" style="font-size: 38px">import static org.junit.jupiter.api.Assertions.assertTrue;
+}</code></pre></section><section><h3>Use Strict Stubs</h3><pre><code class="java stretch" style=font-size:38px>import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;<br>
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -56,11 +22,7 @@ import org.mockito.quality.Strictness;<br>
 @MockitoSettings(strictness = Strictness.STRICT_STUBS)
 public class UnitTestClass {
     // tests here
-}</code></pre>
-</section>
-<section>
-    <h3>Creating Fake Objects</h3>
-    <pre><code class="java stretch" style="font-size: 38px">@MockitoSettings(strictness = Strictness.STRICT_STUBS)
+}</code></pre></section><section><h3>Creating Fake Objects</h3><pre><code class="java stretch" style=font-size:38px>@MockitoSettings(strictness = Strictness.STRICT_STUBS)
 public class UnitTestClass {<br>
     @Mock
     Person mockPerson;
@@ -72,11 +34,7 @@ public class UnitTestClass {<br>
         classroom.addTeacher(mockTeacher);
         assertTrue(classroom.hasTeacher() == true);
     }
-}</code></pre>
-</section>
-<section>
-    <h3>Adding a Stub</h3>
-    <pre><code class="java stretch" style="font-size: 31px">@MockitoSettings(strictness = Strictness.STRICT_STUBS)
+}</code></pre></section><section><h3>Adding a Stub</h3><pre><code class="java stretch" style=font-size:31px>@MockitoSettings(strictness = Strictness.STRICT_STUBS)
 public class ClassroomTest {<br>
     @Mock
     Person mockPerson;
@@ -91,14 +49,10 @@ public class ClassroomTest {<br>
         // assert that the classroom returns the teacher's name
         assertTrue(classroom.getTeacherName().equals("Teacher Person"));
     }
-}</code></pre>
-</section>
-<section>
-    <h3>Static Classes</h3>
-    <pre><code class="java stretch" style="font-size: 24px">@Test
+}</code></pre></section><section><h3>Static Classes</h3><pre><code class="java stretch" style=font-size:24px>@Test
 public void testTeacherFailsMinimumAgeRequirement() {
     // Create mock static class
-    try (MockedStatic<TeacherRules> mockTeacherRules = Mockito.mockStatic(TeacherRules.class)) {<br>
+    try (MockedStatic<teacherrules> mockTeacherRules = Mockito.mockStatic(TeacherRules.class)) {<br>
         // Create method stub for static class
         mockTeacherRules.when(() -> TeacherRules.getMinAge()).thenReturn(16);<br>
         // Create method stub for fake Teacher
@@ -107,44 +61,4 @@ public void testTeacherFailsMinimumAgeRequirement() {
         Classroom classroom = new Classroom();
         assertThrows(IllegalArgumentException.class, () -> classroom.addTeacher(mockTeacher));
     }
-}</code></pre>
-</section>
-
-			</div>
-		</div>
-
-		<script src="/cc410/reveal/dist/reveal.js"></script>
-		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
-		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
-		<script src="/cc410/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+}</code></pre></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>

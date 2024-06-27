@@ -1,45 +1,10 @@
-
-
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title></title>
-
-		<link rel="stylesheet" href="/cc410/reveal/dist/reset.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/reveal.css">
-		<link rel="stylesheet" href="/cc410/reveal/dist/theme/black.css">
-		<link rel="stylesheet" href="/cc410/css/reveal-theme.css">
-
-		
-		<link rel="stylesheet" href="/cc410/reveal/plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>
-    <h3>Web APIs</h3>
-    <ul>
-        <li>Interface to Web Application</li>
-        <li>Access & Modify Server Resources</li>
-        <li>Defines Endpoints, Parameters, Responses</li>
-        <li>Built on HTTP</li>
-    </ul>
-</section>
-<section>
-    <h3>Example - Twilio</h3>
-    <pre class=""><code class="sh">EXCLAMATION_MARK='!'
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title></title>
+<link rel=stylesheet href=/cc410/reveal/dist/reset.css><link rel=stylesheet href=/cc410/reveal/dist/reveal.css><link rel=stylesheet href=/cc410/reveal/dist/theme/black.css><link rel=stylesheet href=/cc410/css/reveal-theme.css><link rel=stylesheet href=/cc410/reveal/plugin/highlight/monokai.css></head><body><div class=reveal><div class=slides><section><h3>Web APIs</h3><ul><li>Interface to Web Application</li><li>Access & Modify Server Resources</li><li>Defines Endpoints, Parameters, Responses</li><li>Built on HTTP</li></ul></section><section><h3>Example - Twilio</h3><pre><code class=sh>EXCLAMATION_MARK='!'
 curl -X POST https://api.twilio.com/2010-04-01/Accounts/$TWILIO_ACCOUNT_SID/Messages.json \
 --data-urlencode "Body=Hi there$EXCLAMATION_MARK" \
 --data-urlencode "From=+15017122661" \
 --data-urlencode "To=+15558675310" \
--u $TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN</code></pre>
-</section>
-<section>
-    <h3>Response</h3>
-    <pre class="stretch" style="font-size: 29px"><code class="js">{
+-u $TWILIO_ACCOUNT_SID:$TWILIO_AUTH_TOKEN</code></pre></section><section><h3>Response</h3><pre class=stretch style=font-size:29px><code class=js>{
     "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "api_version": "2010-04-01",
     "body": "Hi there!",
@@ -62,40 +27,7 @@ curl -X POST https://api.twilio.com/2010-04-01/Accounts/$TWILIO_ACCOUNT_SID/Mess
     },
     "to": "+14155552345",
     "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
-}</code></pre>
-</section>
-<section>
-    <div style="float: right; width: 50%">
-        <h3>REST</h3>
-        <ul>
-            <li>Arch. Style</li>
-            <li>JSON, HTML, etc.</li>
-            <li>HTTP</li>
-            <li>Suggested Interaction Model</li>
-        </ul>
-    </div>
-    <div style="float: left; width: 50%">
-        <h3>SOAP</h3>
-        <ul>
-            <li>Web Standard</li>
-            <li>XML</li>
-            <li>Structured</li>
-            <li>No Interaction Model</li>
-        </ul>
-    </div>
-</section>
-<section>
-    <h3>Documentation</h3>
-    <ul>
-        <li>RESTful API DLs</li>
-        <li>Endpoints</li>
-        <li>Parameters</li>
-        <li>Responses</li>
-    </ul>
-</section>
-<section>
-    <h3>OpenAPI Example</h3>
-    <pre class="stretch" style="font-size: 20px"><code class="yaml">
+}</code></pre></section><section><div style=float:right;width:50%><h3>REST</h3><ul><li>Arch. Style</li><li>JSON, HTML, etc.</li><li>HTTP</li><li>Suggested Interaction Model</li></ul></div><div style=float:left;width:50%><h3>SOAP</h3><ul><li>Web Standard</li><li>XML</li><li>Structured</li><li>No Interaction Model</li></ul></div></section><section><h3>Documentation</h3><ul><li>RESTful API DLs</li><li>Endpoints</li><li>Parameters</li><li>Responses</li></ul></section><section><h3>OpenAPI Example</h3><pre class=stretch style=font-size:20px><code class=yaml>
 paths:
     # Whole board operations
     /board:
@@ -130,51 +62,4 @@ schemas:
         enum: [".", "X", "O"]
         description: Winner of the game. `.` means nobody has won yet.
         example: "."
-    </code></pre>
-</section>
-<section>
-    <h3>Authentication</h3>
-    <ul>
-        <li>HTTP Authentication</li>
-        <li>API Keys</li>
-        <li>OAuth</li>
-    </ul>
-</section>
-			</div>
-		</div>
-
-		<script src="/cc410/reveal/dist/reveal.js"></script>
-		<script src="/cc410/reveal/plugin/markdown/markdown.js"></script>
-		<script src="/cc410/reveal/plugin/highlight/highlight.js"></script>
-		<script src="/cc410/reveal/plugin/math/math.js"></script>
-		<script>
-			
-			
-			
-			Reveal.initialize({
-				hash: true,
-				controls: false,
-				controlsTutorial:false,
-				progress: false,
-				transition: 'fade',
-				width: 1440,
-				height: 1080,
-				highlight: {
-					escapeHTML: false
-				},
-
-				
-				plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
-			});
-
-			window.addEventListener("mousedown", handleClick, false);
-			window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-
-			function handleClick(e) {
-				e.preventDefault();
-				if(e.button === 0) Reveal.next();
-				if(e.button === 2) Reveal.prev();
-			}
-		</script>
-	</body>
-</html>
+    </code></pre></section><section><h3>Authentication</h3><ul><li>HTTP Authentication</li><li>API Keys</li><li>OAuth</li></ul></section></div></div><script src=/cc410/reveal/dist/reveal.js></script><script src=/cc410/reveal/plugin/markdown/markdown.js></script><script src=/cc410/reveal/plugin/highlight/highlight.js></script><script src=/cc410/reveal/plugin/math/math.js></script><script>Reveal.initialize({hash:!0,controls:!1,controlsTutorial:!1,progress:!1,transition:"fade",width:1440,height:1080,highlight:{escapeHTML:!1},plugins:[RevealMarkdown,RevealHighlight,RevealMath]}),window.addEventListener("mousedown",handleClick,!1),window.addEventListener("contextmenu",function(e){e.preventDefault()},!1);function handleClick(e){e.preventDefault(),e.button===0&&Reveal.next(),e.button===2&&Reveal.prev()}</script></body></html>
