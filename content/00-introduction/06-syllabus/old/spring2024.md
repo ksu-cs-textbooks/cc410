@@ -1,12 +1,10 @@
 ---
-title: "Fall 2024 Syllabus"
+title: "Spring 2024 Syllabus"
 weight: 60
 pre: "6. "
 ---
 
-## CC 410 - Advanced Programming - Fall 2024
-
-[Previous Versions]({{% relref "./old" %}})
+## CC 410 - Advanced Programming - Spring 2024
 
 ### Instructor Contact Information
 
@@ -24,8 +22,7 @@ pre: "6. "
 
 ### Prerequisites
 
-* CC 310 - Data Structures & Algorithms I (taken on or after Fall 2024)
-* CC 315 - Data Structures & Algorithms II (taken prior to Fall 2024)
+* CC 315 - Data Structures & Algorithms II
 
 ### Course Overview
 
