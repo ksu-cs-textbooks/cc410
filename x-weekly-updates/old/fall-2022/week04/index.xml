@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Fall &#39;22 Week 4 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2022/week04/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week for announcements video for CC 410 in Fall 2022. This week, you should be wrapping up the documentation and testing portion of the class as well as the portion that deals with UML. There’s an example all about documentation and testing in your code. And then the second restaurant milestone is all about adding a lot of unit tests and documentation directly to the code that you wrote for the first milestone.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week for announcements video for CC 410 in Fall 2022. This week, you should be wrapping up the documentation and testing portion of the class as well as the portion that deals with UML. There’s an example all about documentation and testing in your code. And then the second restaurant milestone is all about adding a lot of unit tests and documentation directly to the code that you wrote for the first milestone.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2022/week04/index.xml" rel="self" type="application/rss+xml" />

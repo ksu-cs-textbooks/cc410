@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -4041,6 +4061,10 @@
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/</loc>
+    <lastmod>2024-08-05T13:56:02-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/20-extras/02-java-generics/</loc>
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
@@ -4105,8 +4129,8 @@
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/</loc>
-    <lastmod>2024-06-17T14:13:48-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week01/</loc>
+    <lastmod>2024-08-05T13:56:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/19-serialization/02-state-review/</loc>
@@ -4841,8 +4865,8 @@
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/</loc>
-    <lastmod>2024-06-17T14:13:48-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week03/</loc>
+    <lastmod>2024-08-05T13:56:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/06-static-web-servers/</loc>
@@ -5293,8 +5317,8 @@
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/</loc>
-    <lastmod>2024-06-17T14:13:48-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week05/</loc>
+    <lastmod>2024-08-05T13:56:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/10-summary/</loc>
@@ -5441,6 +5465,10 @@
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/</loc>
+    <lastmod>2024-08-05T13:56:02-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/06-gui-basics/</loc>
     <lastmod>2024-01-10T09:40:40-06:00</lastmod>
   </url>
@@ -5454,10 +5482,6 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2023/week06/</loc>
-    <lastmod>2024-06-17T14:13:48-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
@@ -5975,6 +5999,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/old/fall-2023/</loc>
     <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/</loc>
+    <lastmod>2024-08-05T13:56:02-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/categories/</loc>

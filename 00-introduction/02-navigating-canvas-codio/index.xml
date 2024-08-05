@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Navigating Canvas &amp; Codio :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/02-navigating-canvas-codio/</link>
-    <description>Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.&#xA;When you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus and Piazza discussion boards.</description>
+    <description>YouTube Video Resources Codio Documentation Video Script This course makes extensive use of several features of Canvas which you may or may not have worked with before. To give you the best experience in this course, this video will briefly describe those features and the best way to access them.&#xA;When you first access the course on Canvas, you will be shown this homepage. It contains quick links to the course syllabus and Piazza discussion boards.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

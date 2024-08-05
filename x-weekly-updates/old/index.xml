@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Previous Semesters :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/</link>
-    <description>Previous Semesters&#xA;Spring 2021 Spring &#39;21 Week 1 Spring &#39;21 Week 2 Spring &#39;21 Week 3 Spring &#39;21 Week 4 Spring &#39;21 Week 5 Update to Example 5 Python Spring &#39;21 Week 6 Spring &#39;21 Week 7 Spring &#39;21 Week 8 Spring &#39;21 Week 9 Spring &#39;21 Week 10 Spring &#39;21 Week 11 Spring &#39;21 Week 12 Spring &#39;21 Week 13 Spring &#39;21 Week 14 Spring &#39;21 Week 15 Fall 2021 CC 310 &amp; 315 Cover Fall &#39;21 Week 1 Fall &#39;21 Week 2 Fall &#39;21 Week 3 Fall &#39;21 Week 4 Fall &#39;21 Week 5 Update to Example 5 Python Fall &#39;21 Week 6 Fall &#39;21 Week 9 Fall &#39;21 Week 10 Fall &#39;21 Week 12 Spring 2022 Spring &#39;22 Week 1 Spring &#39;22 Week 2 Spring &#39;22 Week 3 Spring &#39;22 Week 4 Spring &#39;22 Week 5 Update to Example 5 Python Codio Webpages Spring &#39;22 Week 6 Spring &#39;22 Week 7 Spring &#39;22 Week 8 Spring &#39;22 Week 9 Spring &#39;22 Week 10 Spring &#39;22 Week 11 Spring &#39;22 Week 12 Spring &#39;22 Week 14 Spring &#39;22 Week 15 Fall 2022 Fall &#39;22 Week 1 Fall &#39;22 Week 2 Fall &#39;22 Week 3 Fall &#39;22 Week 4 Fall &#39;22 Week 5 Update to Example 5 Python Fall &#39;22 Week 6 Fall &#39;22 Week 7 Fall &#39;22 Week 8 Fall &#39;22 Week 9 Fall &#39;22 Week 10 Fall &#39;22 Week 11 Fall &#39;22 Week 12 Fall &#39;22 Week 13 Fall &#39;22 Week 14 Spring 2023 Spring &#39;23 Week 1 Spring &#39;23 Week 2 Spring &#39;23 Week 3 Spring &#39;23 Week 4 Spring &#39;23 Week 5 Spring &#39;23 Week 6 Spring &#39;23 Week 7 Spring &#39;23 Week 8 Spring &#39;23 Week 9 Spring &#39;23 Week 10 Spring &#39;23 Week 11 Spring &#39;23 Week 12 Spring `23 Week 13 Spring &#39;23 Week 14 Spring &#39;23 Week 15 Fall 2023 Fall &#39;23 Week 1 Fall &#39;23 Week 2 Fall &#39;23 Week 3 Fall &#39;23 Week 4 Fall &#39;23 Week 5 Fall &#39;23 Week 6 Fall &#39;23 Week 8 Fall &#39;23 Week 10 Fall &#39;23 Week 12 </description>
+    <description>Previous Semesters&#xA;Spring 2021 Spring &#39;21 Week 1 Spring &#39;21 Week 2 Spring &#39;21 Week 3 Spring &#39;21 Week 4 Spring &#39;21 Week 5 Update to Example 5 Python Spring &#39;21 Week 6 Spring &#39;21 Week 7 Spring &#39;21 Week 8 Spring &#39;21 Week 9 Spring &#39;21 Week 10 Spring &#39;21 Week 11 Spring &#39;21 Week 12 Spring &#39;21 Week 13 Spring &#39;21 Week 14 Spring &#39;21 Week 15 Fall 2021 CC 310 &amp; 315 Cover Fall &#39;21 Week 1 Fall &#39;21 Week 2 Fall &#39;21 Week 3 Fall &#39;21 Week 4 Fall &#39;21 Week 5 Update to Example 5 Python Fall &#39;21 Week 6 Fall &#39;21 Week 9 Fall &#39;21 Week 10 Fall &#39;21 Week 12 Spring 2022 Spring &#39;22 Week 1 Spring &#39;22 Week 2 Spring &#39;22 Week 3 Spring &#39;22 Week 4 Spring &#39;22 Week 5 Update to Example 5 Python Codio Webpages Spring &#39;22 Week 6 Spring &#39;22 Week 7 Spring &#39;22 Week 8 Spring &#39;22 Week 9 Spring &#39;22 Week 10 Spring &#39;22 Week 11 Spring &#39;22 Week 12 Spring &#39;22 Week 14 Spring &#39;22 Week 15 Fall 2022 Fall &#39;22 Week 1 Fall &#39;22 Week 2 Fall &#39;22 Week 3 Fall &#39;22 Week 4 Fall &#39;22 Week 5 Update to Example 5 Python Fall &#39;22 Week 6 Fall &#39;22 Week 7 Fall &#39;22 Week 8 Fall &#39;22 Week 9 Fall &#39;22 Week 10 Fall &#39;22 Week 11 Fall &#39;22 Week 12 Fall &#39;22 Week 13 Fall &#39;22 Week 14 Spring 2023 Spring &#39;23 Week 1 Spring &#39;23 Week 2 Spring &#39;23 Week 3 Spring &#39;23 Week 4 Spring &#39;23 Week 5 Spring &#39;23 Week 6 Spring &#39;23 Week 7 Spring &#39;23 Week 8 Spring &#39;23 Week 9 Spring &#39;23 Week 10 Spring &#39;23 Week 11 Spring &#39;23 Week 12 Spring `23 Week 13 Spring &#39;23 Week 14 Spring &#39;23 Week 15 Fall 2023 Fall &#39;23 Week 1 Fall &#39;23 Week 2 Fall &#39;23 Week 3 Fall &#39;23 Week 4 Fall &#39;23 Week 5 Fall &#39;23 Week 6 Fall &#39;23 Week 8 Fall &#39;23 Week 10 Fall &#39;23 Week 12 Spring 2024 Spring &#39;24 Week 1 Spring &#39;24 Week 3 Spring &#39;24 Week 5 </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/index.xml" rel="self" type="application/rss+xml" />
@@ -3739,6 +3759,13 @@
       <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2023/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spring 2024</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/</guid>
       <description></description>
     </item>
   </channel>

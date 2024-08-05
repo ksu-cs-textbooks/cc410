@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Preparing for Release :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/15-releases/02-preparing-for-release/</link>
-    <description>Video Materials&#xA;Before we release our software, there are a few steps that we should perform to make sure it is ready for release. Most of these steps are things that we’ve already been doing as part of our development process, but it is always good to review them once again and make sure everything is ready for release.&#xA;Unit Testing: where possible, make sure your project includes adequate unit testing.</description>
+    <description>YouTube Video Video Materials&#xA;Before we release our software, there are a few steps that we should perform to make sure it is ready for release. Most of these steps are things that we’ve already been doing as part of our development process, but it is always good to review them once again and make sure everything is ready for release.&#xA;Unit Testing: where possible, make sure your project includes adequate unit testing.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/15-releases/02-preparing-for-release/index.xml" rel="self" type="application/rss+xml" />

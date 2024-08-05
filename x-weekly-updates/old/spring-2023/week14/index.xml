@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Spring &#39;23 Week 14 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2023/week14/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week 14 Announcements video for CC 410 in Spring 2023, as you can see, I’ve got the green screen behind me, I’m getting ready to record some new videos for some other classes. So this week, you should be working on your fourth Final Project milestone, which is talking about ways you’re going to integrate libraries and API’s. So make sure you’re scheduling that meeting with me over the next week or so.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week 14 Announcements video for CC 410 in Spring 2023, as you can see, I’ve got the green screen behind me, I’m getting ready to record some new videos for some other classes. So this week, you should be working on your fourth Final Project milestone, which is talking about ways you’re going to integrate libraries and API’s. So make sure you’re scheduling that meeting with me over the next week or so.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2023/week14/index.xml" rel="self" type="application/rss+xml" />

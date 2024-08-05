@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3719,21 +3739,21 @@
     <link href="/cc410/ii-gui/13-event-driven-programming/02-gui-threads/index.xml" rel="alternate" type="application/rss+xml" title="GUI Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/13-event-driven-programming/02-gui-threads/index.print.html" rel="alternate" type="text/html" title="GUI Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/13-event-driven-programming/02-gui-threads/tele.html" rel="alternate" type="text/html" title="GUI Threads :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1719518909" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1722884255" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1719518987" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1719518987" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1719518987" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1719518987" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1719518987" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1719518987" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1719518987" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1719518987" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1719518987" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1722884334" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1722884334" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1722884334" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1722884334" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1722884334" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1722884334" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1722884334" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1722884334" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1722884334" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1719518987" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1719518987" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1719518987" rel="stylesheet">
-  <link href="/cc410/css/print.css?1719518987" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1722884334" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1722884334" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1722884334" rel="stylesheet">
+  <link href="/cc410/css/print.css?1722884334" rel="stylesheet" media="print">
   
   
   
@@ -3756,7 +3776,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1719518987" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1722884334" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/ii-gui/13-event-driven-programming/02-gui-threads/embed.html">
@@ -3776,8 +3796,8 @@
 <p>Up to this point, we&rsquo;ve only created applications that use a single thread. However, now that we are writing applications that include a GUI, we must start to build applications that use multiple threads to manage its work. Otherwise, if the application is busy working on a particular task while the user clicks a button in the GUI, the GUI won&rsquo;t respond to the user until our task is complete.</p>
 <p>To resolve this, we typically build our GUI applications in a way that the GUI runs in a separate thread from the rest of our application. In that way, the GUI is always responsive to the user, and our application can continue to do whatever it needs in additional threads. Those threads won&rsquo;t impact the responsiveness of our GUI, at least if they are constructed properly.</p>
 <h2 id="event-driven-programming">Event-Driven Programming</h2>
-<p><a href="#R-image-dbae62ca9aff2092c46bacf129e56f69" class="lightbox-link"><img alt="Event Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/11/event_loop.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dbae62ca9aff2092c46bacf129e56f69"><img alt="Event Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/11/event_loop.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-8f748e66604977e9836c6116783d0aa6" class="lightbox-link"><img alt="Event Loop" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/11/event_loop.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8f748e66604977e9836c6116783d0aa6"><img alt="Event Loop" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/11/event_loop.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>This leads to a new programming paradigm called <a href="https://en.wikipedia.org/wiki/Event-driven_programming" rel="external" target="_blank"><strong>event-driven programming</strong></a>. Event-driven programming can be thought of as an alternative to <a href="https://en.wikipedia.org/wiki/Imperative_programming" rel="external" target="_blank">imperative programming</a>, though in practice both paradigms are used within the same program. In imperative programming, the program follows a set sequence of steps to perform an action, directly as defined in the program&rsquo;s source code. In event-driven programming, the steps a program takes are determined by an external factor that generates <strong>events</strong> within the system. The program will receive those events, and then use the event received to decide what steps, if any, to perform. Of course, the process of waiting for events, receiving them, and acting upon them, is usually all done through imperative code.</p>
 <p>Consider the diagram above. In it, a user interacts with a button in an application, which is an event. That event triggers some piece of code, which is typically called an <strong>event handler</strong>, to react to that event. The event handler examines the event, and performs the requested action.</p>
 <p>Behind the scenes, there is another piece of code, called the <strong>event loop</strong>, that is actually watching for these events and calling the appropriate event handlers for us.</p>
@@ -3804,10 +3824,10 @@
 
 
 
-<script src="/cc410/js/clipboard.min.js?1719518987" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1719518987" defer></script>
-<script src="/cc410/js/theme.js?1719518987" defer></script>
+<script src="/cc410/js/clipboard.min.js?1722884334" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1722884334" defer></script>
+<script src="/cc410/js/theme.js?1722884334" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1719518987" defer></script>
+<script src="/cc410/js/embed-iframe.js?1722884334" defer></script>
 </body>
 </html>

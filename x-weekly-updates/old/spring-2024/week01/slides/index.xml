@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3693,11 +3713,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spring &#39;24 Week 3 :: CC 410 Textbook</title>
-    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/</link>
-    <description>Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2024. This week, you should be wrapping up module two, which is all on object -oriented programming. You will have done a quick example of doing object -oriented programming in a smaller scale, and then you should be working on the first actual restaurant milestone where we’re going to build out the object -oriented classes for all of the items on the menu.</description>
+    <title></title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week01/slides/</link>
+    <description>Welcome to CC 410!&#xD;Russell Feldhausen&#xD;Pronouns: he/him&#xA;(785) 292-3121 (Call/Text)&#xA;2213 Engineering Hall&#xA;(working remotely)&#xA;russfeld AT ksu DOT edu&#xA;https://russfeld.me - @russfeld&#xA;Big Picture&#xD;OOP, Testing, Patterns&#xD;GUIs, Web &amp; Serialization&#xD;Examples&#xD;Restaurant Project&#xD;Final Project&#xD;New Technologies&#xD;Git, GitHub Classroom&#xD;Gradle &amp; Tox&#xD;Type Checking&#xD;Unit Testing&#xD;Style Checking&#xD;Documentation&#xD;Final Project&#xD;You Choose Topic&#xD;Align With Interests&#xD;Use New Skills&#xD;We Discuss Scope&#xD;4 Milestones&#xD;Present to Class&#xD;Week 1&#xD;Administrivia&#xD;Hello Real World&#xD;First Final Project Meeting&#xD;Office Hours&#xD;Communication Platforms&#xD;Introduce on Ed Discussion&#xD;Week 2&#xD;OOP Class Library&#xD;Restaurant Milestone 1&#xD;2000-2500 LOC!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week01/slides/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

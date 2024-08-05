@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-python/</link>
-    <description>Update to Python If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates&#xA;Resources Codio Debugger Logging HOWTO Configuring Codio Debugger Edit src/__main__.py to set Python path:&#xA;import sys sys.path.append(&#34;/home/codio/workspace/python/&#34;) Make sure src/__main__.py imports and calls correct main method.&#xA;Can copy unit test code to a test main function for testing.</description>
+    <description>Update to Python If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates&#xA;YouTube Video Resources Codio Debugger Logging HOWTO Configuring Codio Debugger Edit src/__main__.py to set Python path:&#xA;import sys sys.path.append(&#34;/home/codio/workspace/python/&#34;) Make sure src/__main__.py imports and calls correct main method.&#xA;Can copy unit test code to a test main function for testing.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-python/index.xml" rel="self" type="application/rss+xml" />

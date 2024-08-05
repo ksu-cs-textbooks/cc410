@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Introduction :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iii-web/19-serialization/03-test-formats/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re going to discuss serialization, another very important topic to consider when building an application. Earlier in this course, we discussed the fact that object-oriented programs can be thought of as two different parts, the state of the program, consisting of the variables and data stored in memory; and the behavior of the program, which are the functions and source code of the program itself.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to discuss serialization, another very important topic to consider when building an application. Earlier in this course, we discussed the fact that object-oriented programs can be thought of as two different parts, the state of the program, consisting of the variables and data stored in memory; and the behavior of the program, which are the functions and source code of the program itself.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Aug 2021 16:30:20 -0500</lastBuildDate>

@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Creating GitHub Release :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/05-create-release/</link>
-    <description>The last step in this project is to create a GitHub release containing the completed version of your assignment. This is a common part of the software development process - once we are completely ready to go, we can package our code and make it available for others. We’ll cover the process of actually packaging our code for deployment later in this chapter, but for now we’ll learn to create a release on GitHub that we can submit for this project.</description>
+    <description>YouTube Video The last step in this project is to create a GitHub release containing the completed version of your assignment. This is a common part of the software development process - once we are completely ready to go, we can package our code and make it available for others. We’ll cover the process of actually packaging our code for deployment later in this chapter, but for now we’ll learn to create a release on GitHub that we can submit for this project.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/05-create-release/index.xml" rel="self" type="application/rss+xml" />

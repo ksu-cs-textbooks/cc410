@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3725,21 +3745,21 @@ There are three major types of test doubles that we’ll cover in this chapter."
     <link href="/cc410/i-oop/10-test-doubles/04-stubs/index.xml" rel="alternate" type="application/rss+xml" title="Stubs :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/04-stubs/index.print.html" rel="alternate" type="text/html" title="Stubs :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/04-stubs/tele.html" rel="alternate" type="text/html" title="Stubs :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1719518909" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1722884255" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1719518984" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1719518984" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1719518984" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1719518984" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1719518984" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1719518984" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1719518984" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1719518984" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1719518984" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1722884332" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1722884332" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1722884332" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1722884332" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1722884332" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1722884332" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1722884332" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1722884332" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1722884332" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1719518984" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1719518984" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1719518984" rel="stylesheet">
-  <link href="/cc410/css/print.css?1719518984" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1722884332" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1722884332" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1722884332" rel="stylesheet">
+  <link href="/cc410/css/print.css?1722884332" rel="stylesheet" media="print">
   
   
   
@@ -3762,7 +3782,7 @@ There are three major types of test doubles that we’ll cover in this chapter."
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1719518984" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1722884332" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/10-test-doubles/04-stubs/embed.html">
@@ -3796,8 +3816,8 @@ There are three major types of test doubles that we’ll cover in this chapter."
 </div>
 </div>
 <p>There are three major types of test doubles that we&rsquo;ll cover in this chapter. The first are <strong>stubs</strong>, sometimes referred to as <strong>stub methods</strong> or <strong>method stubs</strong>. A <a href="https://en.wikipedia.org/wiki/Method_stub" rel="external" target="_blank">stub</a> is simply an object that is used to return predefined data when its methods are called, without any internal logic.</p>
-<p><a href="#R-image-9c3aef66b4639467beb955d2ca4ab8da" class="lightbox-link"><img alt="Stub" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/13/stub.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c3aef66b4639467beb955d2ca4ab8da"><img alt="Stub" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/13/stub.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-c04e09d5fe8235c9b97409476aa3b723" class="lightbox-link"><img alt="Stub" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/13/stub.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c04e09d5fe8235c9b97409476aa3b723"><img alt="Stub" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/13/stub.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>For example, if the methods we are testing should sum up the data that results from several calls to a method that is outside of our module, we could create a stub that simply returns the values 1 - 5, and then verify that our method calculates the sum of 15. In this way, we&rsquo;re verifying that our code works as intended (it sums the values), without really worrying whether the other module returns correct data or not.</p>
 <p>The only thing we must be careful with when creating these stubs is that the data they return is plausible for the test we are performing. If the data should be valid, then we should be careful to return values that are the correct type and within the correct range. Likewise, if we want to test any possible error conditions or invalid values, we&rsquo;ll have to make sure our stub returns the appropriate values as the real object would.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -3822,10 +3842,10 @@ There are three major types of test doubles that we’ll cover in this chapter."
 
 
 
-<script src="/cc410/js/clipboard.min.js?1719518984" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1719518984" defer></script>
-<script src="/cc410/js/theme.js?1719518984" defer></script>
+<script src="/cc410/js/clipboard.min.js?1722884332" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1722884332" defer></script>
+<script src="/cc410/js/theme.js?1722884332" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1719518984" defer></script>
+<script src="/cc410/js/embed-iframe.js?1722884332" defer></script>
 </body>
 </html>

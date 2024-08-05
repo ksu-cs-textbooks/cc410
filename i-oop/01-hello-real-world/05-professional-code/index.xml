@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Writing Professional Code :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/01-hello-real-world/05-professional-code/</link>
-    <description>Video Materials&#xA;As we saw earlier in this module, the software development industry adopted many new processes and ideas to help combat the issues that arose during the software crisis. One of the major things they focused on was how to write code that is easy to understand, easy to maintain, and works as intended with a minimal amount of bugs. Let’s review a few of the concepts that came from those efforts, which we’ll learn more about throughout this semester.</description>
+    <description>YouTube Video Video Materials&#xA;As we saw earlier in this module, the software development industry adopted many new processes and ideas to help combat the issues that arose during the software crisis. One of the major things they focused on was how to write code that is easy to understand, easy to maintain, and works as intended with a minimal amount of bugs. Let’s review a few of the concepts that came from those efforts, which we’ll learn more about throughout this semester.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/01-hello-real-world/05-professional-code/index.xml" rel="self" type="application/rss+xml" />

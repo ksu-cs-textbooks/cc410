@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Spring &#39;21 Week 12 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2021/week12/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the CC 410 announcements video for week 12 in spring 2021, so we’ve made it to week 12. And this week we’re working on HTML forms and the REST architecture. Most of them are going to focus on HTML forms in the example and in the project. But we’re going to talk a little bit about REST and some other things that will set the stage for what we’re going to do in the next milestone.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the CC 410 announcements video for week 12 in spring 2021, so we’ve made it to week 12. And this week we’re working on HTML forms and the REST architecture. Most of them are going to focus on HTML forms in the example and in the project. But we’re going to talk a little bit about REST and some other things that will set the stage for what we’re going to do in the next milestone.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Aug 2021 22:29:50 -0500</lastBuildDate>

@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Fall &#39;21 Week 12 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2021/week12/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week 12 Announcements video for CC 410 in fall 2021. So this week, we’ll be pivoting from working on our graphical user interfaces to starting working on the web. And so the example this week, we’ll introduce you to web frameworks and how you can build data driven websites using the same set of code that we’ve been using throughout this semester.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week 12 Announcements video for CC 410 in fall 2021. So this week, we’ll be pivoting from working on our graphical user interfaces to starting working on the web. And so the example this week, we’ll introduce you to web frameworks and how you can build data driven websites using the same set of code that we’ve been using throughout this semester.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Jan 2022 12:39:00 -0600</lastBuildDate>

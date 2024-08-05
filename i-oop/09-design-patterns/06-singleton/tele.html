@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3719,18 +3739,18 @@
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/index.xml" rel="alternate" type="application/rss+xml" title="Singleton Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/index.print.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/embed.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1719518909" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1719519091" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1719519091" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1719519091" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1719519091" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1719519091" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1719519091" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1719519091" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1719519091" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1719519091" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1719519091" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1719519091" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1719519091" rel="stylesheet">
-    <link href="/cc410/css/print.css?1719519091" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1719519091"></script>
+    <link href="/cc410/images/favicon.ico?1722884255" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1722884439" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1722884439" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1722884439" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1722884439" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1722884439" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1722884439" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1722884439" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1722884439" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1722884439" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1722884439" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1722884439" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1722884439" rel="stylesheet">
+    <link href="/cc410/css/print.css?1722884439" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1722884439"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3750,7 +3770,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1719519091" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1722884439" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc410/i-oop/09-design-patterns/06-singleton/">
     
@@ -3771,27 +3791,27 @@
 <h1 id="singleton-pattern">Singleton Pattern</h1>
 
 <p>Finally, let&rsquo;s look at one other common creational pattern: the <strong>singleton pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Singleton_pattern" rel="external" target="_blank">singleton pattern</a> is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simply get a <strong>reference</strong> to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.</p>
-<p><a href="#R-image-f4482d6391a6c09a5580fb633c107ad1" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f4482d6391a6c09a5580fb633c107ad1"><img alt="Singleton UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-d7b82ec726973c30247aec020eb65afd" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d7b82ec726973c30247aec020eb65afd"><img alt="Singleton UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram for the singleton pattern is super simple. The class implementing the singleton pattern simply defines a private constructor, making sure that no other class can construct it. Instead, it stores a static reference to a single instance of itself, and includes a <code>get</code> method to access that single instance.</p>
 <p>Let&rsquo;s look at how this could work in our ongoing example.</p>
 <h3 id="singleton-factory">Singleton Factory</h3>
 <p>Let&rsquo;s update our <code>DeckFactory</code> class to use the singleton pattern.</p>
 
-<div class="tab-panel" data-tab-group="480ff26fd5b6260c71e1831ddae7df7b">
+<div class="tab-panel" data-tab-group="a853b22b108d2e8fed9c14734f4faad4">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('480ff26fd5b6260c71e1831ddae7df7b','java')"
+      onclick="switchTab('a853b22b108d2e8fed9c14734f4faad4','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('480ff26fd5b6260c71e1831ddae7df7b','python')"
+      onclick="switchTab('a853b22b108d2e8fed9c14734f4faad4','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3871,20 +3891,20 @@
 <h3 id="using-a-singleton">Using a Singleton</h3>
 <p>Now we can update our main method code to use our singleton <code>DeckFactory</code> instance instead of creating one when it is needed:</p>
 
-<div class="tab-panel" data-tab-group="98907723c1c4c785f2809919f59bd2af">
+<div class="tab-panel" data-tab-group="d3af5beb8e35f37cb261f7b5be00d6b7">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('98907723c1c4c785f2809919f59bd2af','java')"
+      onclick="switchTab('d3af5beb8e35f37cb261f7b5be00d6b7','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('98907723c1c4c785f2809919f59bd2af','python')"
+      onclick="switchTab('d3af5beb8e35f37cb261f7b5be00d6b7','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3953,11 +3973,11 @@
 
 
 
-<script src="/cc410/js/clipboard.min.js?1719519091" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1719519091" defer></script>
-<script src="/cc410/js/theme.js?1719519091" defer></script>
+<script src="/cc410/js/clipboard.min.js?1722884439" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1722884439" defer></script>
+<script src="/cc410/js/theme.js?1722884439" defer></script>
 
-<script src="/cc410/js/tele-scroll.js?1719519091" defer></script>
+<script src="/cc410/js/tele-scroll.js?1722884439" defer></script>
 
 </body>
 </html>

@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3693,9 +3713,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spring 2024 Syllabus :: CC 410 Textbook</title>
+    <title>Fall 2024 Syllabus :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/</link>
-    <description>CC 410 - Advanced Programming - Spring 2024 Previous Versions&#xA;Instructor Contact Information Instructor: Russell Feldhausen (russfeld AT ksu DOT edu)&#xA;I use he/him pronouns. Feel free to share your own pronouns with me, and I’ll do my best to use them! Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Schedule a meeting at https://calendly.</description>
+    <description>CC 410 - Advanced Programming - Fall 2024 Previous Versions&#xA;Instructor Contact Information Instructor: Russell Feldhausen (russfeld AT ksu DOT edu)&#xA;I use he/him pronouns. Feel free to share your own pronouns with me, and I’ll do my best to use them! Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Schedule a meeting at https://calendly.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/index.xml" rel="self" type="application/rss+xml" />

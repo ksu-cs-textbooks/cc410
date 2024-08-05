@@ -127,6 +127,11 @@
   
 	
 		
+	  
+
+  
+	
+		
 		
 		
 	  
@@ -1800,15 +1805,10 @@
 		
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -1828,32 +1828,17 @@
 
   
 	
-		
 		
-	  
-
-  
-	
 	  
 
   
 	
-	  
-
-  
-	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
-		
 	  
 
   
@@ -2453,10 +2438,20 @@
 		
 		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2597,6 +2592,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2605,13 +2605,28 @@
 
   
 	
+		
 		
+	  
+
+  
+	
+	  
+
+  
+	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
+		
 	  
 
   
@@ -2670,8 +2685,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -3695,7 +3715,7 @@
   <channel>
     <title>Spring &#39;22 Week 14 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2022/week14/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the Week 14 Announcements video for CC 410 in spring 2022. So this week, you should be scheduling your fourth and final final project meeting with me, we’re going to talk a little bit about using external libraries and API’s and generally just checking to see where you’re at on the project and make sure you’re making good progress. Because we’re getting really close to the end of the semester, you’ll also be continuing to work on the restaurant project.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the Week 14 Announcements video for CC 410 in spring 2022. So this week, you should be scheduling your fourth and final final project meeting with me, we’re going to talk a little bit about using external libraries and API’s and generally just checking to see where you’re at on the project and make sure you’re making good progress. Because we’re getting really close to the end of the semester, you’ll also be continuing to work on the restaurant project.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Aug 2022 14:15:02 -0500</lastBuildDate>
