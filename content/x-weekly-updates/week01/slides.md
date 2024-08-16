@@ -152,9 +152,7 @@ hidden: true
 	<h3>Keep in Touch!</h3>
 	<ul>
 		<li>Ed Discussion</li>
-	  <li>Discord<ul>
-	  <li>https://discordbot.cs.ksu.edu</li>
-	  </ul></li>
+	  <li>Discord & Teams</li>
 	  <li>"Tea Time" Office Hours</li>
 	  <li>One-on-One Office Hours</li>
 	</ul>
