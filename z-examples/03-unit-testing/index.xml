@@ -3731,14 +3731,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-java/</guid>
-      <description>YouTube Video Resources JUnit 5 Assertions Hamcrest Matchers Gradle Changes In the build.gradle file, the JUnit 5 parameters library was added:&#xA;dependencies { // Use JUnit Jupiter API for testing. testImplementation &#39;org.junit.jupiter:junit-jupiter-api:5.6.2&#39;, &#39;org.hamcrest:hamcrest:2.2&#39;, &#39;org.junit.jupiter:junit-jupiter-params&#39; // Use JUnit Jupiter Engine for testing. testRuntimeOnly &#39;org.junit.jupiter:junit-jupiter-engine&#39; // This dependency is used by the application. implementation &#39;com.google.guava:guava:29.0-jre&#39; } Also, we added a quick section at the bottom to allow Gradle tasks to read input from System.</description>
+      <description>Resources JUnit 5 Assertions Hamcrest Matchers Gradle Changes In the build.gradle file, the JUnit 5 parameters library was added:&#xA;dependencies { // Use JUnit Jupiter API for testing. testImplementation &#39;org.junit.jupiter:junit-jupiter-api:5.6.2&#39;, &#39;org.hamcrest:hamcrest:2.2&#39;, &#39;org.junit.jupiter:junit-jupiter-params&#39; // Use JUnit Jupiter Engine for testing. testRuntimeOnly &#39;org.junit.jupiter:junit-jupiter-engine&#39; // This dependency is used by the application. implementation &#39;com.google.guava:guava:29.0-jre&#39; } Also, we added a quick section at the bottom to allow Gradle tasks to read input from System.</description>
     </item>
     <item>
       <title>Python</title>
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-python/</guid>
-      <description>YouTube Video Resources pytest Assertions Hamcrest Matchers Tox Changes In the tox.ini file, we added the following line under the [testenv] heading:&#xA;ignore_errors = True This will allow the full Tox script to execute, even if there are errors earlier in the process.&#xA;Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
+      <description>Resources pytest Assertions Hamcrest Matchers Tox Changes In the tox.ini file, we added the following line under the [testenv] heading:&#xA;ignore_errors = True This will allow the full Tox script to execute, even if there are errors earlier in the process.&#xA;Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
     </item>
   </channel>
 </rss>

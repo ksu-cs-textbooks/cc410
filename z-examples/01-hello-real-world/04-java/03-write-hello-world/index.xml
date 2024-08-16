@@ -3715,7 +3715,7 @@
   <channel>
     <title>Write Hello World :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/</link>
-    <description>YouTube Video Now, let’s write the basic source code for our “Hello Real World” application. Thankfully, we can adapt some of the code that is provided by the Gradle init command, but we’ll simplify it a bit to meet our needs.&#xA;Rename App.java First, let’s rename the App.java file in app/src/main/java/hello to HelloWorld.java. This filename is a better representation of what we want our class to be. Recall that the filenames of .</description>
+    <description>Now, let’s write the basic source code for our “Hello Real World” application. Thankfully, we can adapt some of the code that is provided by the Gradle init command, but we’ll simplify it a bit to meet our needs.&#xA;Rename App.java First, let’s rename the App.java file in app/src/main/java/hello to HelloWorld.java. This filename is a better representation of what we want our class to be. Recall that the filenames of .</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/index.xml" rel="self" type="application/rss+xml" />

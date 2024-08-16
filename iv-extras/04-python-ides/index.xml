@@ -3715,7 +3715,7 @@
   <channel>
     <title>Python IDEs :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iv-extras/04-python-ides/</link>
-    <description>YouTube Video Resources Download PyCharm Download Visual Studio Code Python in Visual Studio Code Video Script Now let’s look at a couple of common IDEs for Python and see how we can use those with the projects that we’ve already configured. For this example, I’m going to install both PyCharm and Visual Studio Code. So to do that, I’m going to begin by installing both of those IDEs. When you’re installing PyCharm, it does present you with a quite a few options that you can choose from.</description>
+    <description>Resources Download PyCharm Download Visual Studio Code Python in Visual Studio Code Video Script Now let’s look at a couple of common IDEs for Python and see how we can use those with the projects that we’ve already configured. For this example, I’m going to install both PyCharm and Visual Studio Code. So to do that, I’m going to begin by installing both of those IDEs. When you’re installing PyCharm, it does present you with a quite a few options that you can choose from.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

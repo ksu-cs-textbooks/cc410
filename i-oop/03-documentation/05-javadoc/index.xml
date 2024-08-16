@@ -3715,7 +3715,7 @@
   <channel>
     <title>Javadoc :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/05-javadoc/</link>
-    <description>YouTube Video Video Materials&#xA;The Java software development kit (SDK) includes a tool called Javadoc, which can create documentation based on the documentation comments included in the code. Both the Javadoc Documentation and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
+    <description>Video Materials&#xA;The Java software development kit (SDK) includes a tool called Javadoc, which can create documentation based on the documentation comments included in the code. Both the Javadoc Documentation and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/05-javadoc/index.xml" rel="self" type="application/rss+xml" />

@@ -3732,7 +3732,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/02-screens/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/02-screens/</guid>
-      <description>YouTube Video Video Materials&#xA;Java Swing and Python tkinter are libraries and toolkits for creating Graphical User Interfaces - a user interface that is presented as a combination of interactive graphical and text elements, commonly including buttons, menus, and various flavors of editors and inputs. GUIs represent a major step forward in usability from earlier programs that were interacted with by typing commands into a text-based terminal (the EPIC software we looked at in the beginning of this textbook is an example of this earlier form of user interface).</description>
+      <description>Video Materials&#xA;Java Swing and Python tkinter are libraries and toolkits for creating Graphical User Interfaces - a user interface that is presented as a combination of interactive graphical and text elements, commonly including buttons, menus, and various flavors of editors and inputs. GUIs represent a major step forward in usability from earlier programs that were interacted with by typing commands into a text-based terminal (the EPIC software we looked at in the beginning of this textbook is an example of this earlier form of user interface).</description>
     </item>
     <item>
       <title>Frameworks</title>
@@ -3746,7 +3746,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/04-designing-gui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/04-designing-gui/</guid>
-      <description>YouTube Video Video Materials&#xA;One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.&#xA;GUI Sketching 1&#xA;A common technique used when developing a GUI for a program is to simply sketch your design on paper.</description>
+      <description>Video Materials&#xA;One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.&#xA;GUI Sketching 1&#xA;A common technique used when developing a GUI for a program is to simply sketch your design on paper.</description>
     </item>
     <item>
       <title>Containers</title>
@@ -3767,7 +3767,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/07-elements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/07-elements/</guid>
-      <description>YouTube Video Video Materials&#xA;Once we’ve created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we’ll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs.</description>
+      <description>Video Materials&#xA;Once we’ve created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we’ll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs.</description>
     </item>
     <item>
       <title>Accessing GUI in Codio</title>
@@ -3781,14 +3781,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/09-java-swing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/09-java-swing/</guid>
-      <description>YouTube Video Video Materials&#xA;Now let’s dive into Java Swing and see how to make our very first GUI application in Swing.&#xA;Imports At the top of our applications, we’ll need to import elements from three different packages:&#xA;import java.awt.*; import java.awt.event.*; import javax.swing.*; The java.awt package includes all of the classes related to the older Abstract Window Toolkit (AWT) in Java, and the java.swing package includes all newer Java Swing packages.</description>
+      <description>Video Materials&#xA;Now let’s dive into Java Swing and see how to make our very first GUI application in Swing.&#xA;Imports At the top of our applications, we’ll need to import elements from three different packages:&#xA;import java.awt.*; import java.awt.event.*; import javax.swing.*; The java.awt package includes all of the classes related to the older Abstract Window Toolkit (AWT) in Java, and the java.swing package includes all newer Java Swing packages.</description>
     </item>
     <item>
       <title>Python tkinter</title>
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/10-python-tkinter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/10-python-tkinter/</guid>
-      <description>YouTube Video Video Materials&#xA;Now let’s dive into Python tkinter and see how to make our very first GUI application in Tk.&#xA;Imports At the top of our applications, we’ll need to import the tkinter library:&#xA;import tkinter as tk This allows us to refer to the tkinter library as tk throughout our application.&#xA;For some more advanced elements, such as the combo box, we may also need to import the themed Tk (ttk) package as well:</description>
+      <description>Video Materials&#xA;Now let’s dive into Python tkinter and see how to make our very first GUI application in Tk.&#xA;Imports At the top of our applications, we’ll need to import the tkinter library:&#xA;import tkinter as tk This allows us to refer to the tkinter library as tk throughout our application.&#xA;For some more advanced elements, such as the combo box, we may also need to import the themed Tk (ttk) package as well:</description>
     </item>
     <item>
       <title>Summary</title>

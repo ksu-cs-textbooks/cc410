@@ -3715,7 +3715,7 @@
   <channel>
     <title>Installing Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iv-extras/02-installing-python/</link>
-    <description>YouTube Video Resources Python Installers Virtual Environments and Packages Python venv Package Video Script In this video, we’re going to go through the process of installing Python on Windows and configuring it to work with our CC 410 projects. To begin, I’ve downloaded the latest Python installer from the Python website, and I’m going to run that installer to install Python on Windows. In the Python installer, there are a couple of options that are not checked by default that we absolutely want to make sure we check.</description>
+    <description>Resources Python Installers Virtual Environments and Packages Python venv Package Video Script In this video, we’re going to go through the process of installing Python on Windows and configuring it to work with our CC 410 projects. To begin, I’ve downloaded the latest Python installer from the Python website, and I’m going to run that installer to install Python on Windows. In the Python installer, there are a couple of options that are not checked by default that we absolutely want to make sure we check.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
