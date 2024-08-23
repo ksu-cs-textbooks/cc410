@@ -3715,7 +3715,7 @@
   <channel>
     <title>Processes :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/02-processes/</link>
-    <description>Video Materials&#xA;First, let’s review how modern computers actually handle running multiple applications at once, and what that means for our own programs.&#xA;Process 1&#xA;When a program is executed on a computer, the operating system loads its code into memory and creates a process to handle running that program. A process is simply an instance of a computer program that is running, just like an object is an instance of a class.</description>
+    <description>YouTube Video Video Materials&#xA;First, let’s review how modern computers actually handle running multiple applications at once, and what that means for our own programs.&#xA;Process 1&#xA;When a program is executed on a computer, the operating system loads its code into memory and creates a process to handle running that program. A process is simply an instance of a computer program that is running, just like an object is an instance of a class.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/02-processes/index.xml" rel="self" type="application/rss+xml" />

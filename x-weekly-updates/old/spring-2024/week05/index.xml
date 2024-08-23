@@ -3715,7 +3715,7 @@
   <channel>
     <title>Spring &#39;24 Week 5 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week05/</link>
-    <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC410 in spring 2024. This week you should be wrapping up a module on inheritance and polymorphism. We do a quick inheritance example where we use some different things to see how inheritance affects your classes. There’s also a start -stop -continue survey in these modules. That survey is just a quick check -in for me throughout the semester to see how things are going.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC410 in spring 2024. This week you should be wrapping up a module on inheritance and polymorphism. We do a quick inheritance example where we use some different things to see how inheritance affects your classes. There’s also a start -stop -continue survey in these modules. That survey is just a quick check -in for me throughout the semester to see how things are going.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2024/week05/index.xml" rel="self" type="application/rss+xml" />

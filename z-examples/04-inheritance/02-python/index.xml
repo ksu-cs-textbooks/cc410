@@ -3715,7 +3715,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/04-inheritance/02-python/</link>
-    <description>Resources Inheritance &amp; Composition from Real Python Python Interfaces from Real Python Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python 2, Run Project&#xA;cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
+    <description>YouTube Video Resources Inheritance &amp; Composition from Real Python Python Interfaces from Real Python Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python 2, Run Project&#xA;cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/04-inheritance/02-python/index.xml" rel="self" type="application/rss+xml" />

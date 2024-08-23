@@ -3715,7 +3715,7 @@
   <channel>
     <title>Create New Project :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/</link>
-    <description>Prior to this course, most of our Python projects consisted of a few source files, all contained in the same directory. However, as projects get larger, it can be very difficult to keep track of all the various source code files. In addition, we’ll want to keep our source code separate from other files, such as unit tests and the output from various tools we use. So, let’s look at how we can create a more professional structure for our Python “Hello Real World” project.</description>
+    <description>YouTube Video Prior to this course, most of our Python projects consisted of a few source files, all contained in the same directory. However, as projects get larger, it can be very difficult to keep track of all the various source code files. In addition, we’ll want to keep our source code separate from other files, such as unit tests and the output from various tools we use. So, let’s look at how we can create a more professional structure for our Python “Hello Real World” project.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/index.xml" rel="self" type="application/rss+xml" />

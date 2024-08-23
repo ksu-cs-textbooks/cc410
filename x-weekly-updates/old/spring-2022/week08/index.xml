@@ -3715,7 +3715,7 @@
   <channel>
     <title>Spring &#39;22 Week 8 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2022/week08/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week eight announcements video for CC 410 in Spring 2022. So this week coming up is spring break. So we’re talking about things that are happening after spring break. This is one of the larger modules where this week you’ll be covering things like design patterns and test doubles, you might also know them as mock objects. And so this whole milestone is about a lot of cool programming concepts that are related to object oriented programming, but help extend your ability to develop programs that people can understand and to develop your ability to write unit tests that can actually test around those objects.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week eight announcements video for CC 410 in Spring 2022. So this week coming up is spring break. So we’re talking about things that are happening after spring break. This is one of the larger modules where this week you’ll be covering things like design patterns and test doubles, you might also know them as mock objects. And so this whole milestone is about a lot of cool programming concepts that are related to object oriented programming, but help extend your ability to develop programs that people can understand and to develop your ability to write unit tests that can actually test around those objects.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Aug 2022 14:15:02 -0500</lastBuildDate>

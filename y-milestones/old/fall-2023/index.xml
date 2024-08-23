@@ -3715,7 +3715,7 @@
   <channel>
     <title>Fall 2023 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/y-milestones/old/fall-2023/</link>
-    <description></description>
+    <description> Final Project Hello Real World Restaurant Classes Documentation &amp; Testing Inheritance Design Patterns Test Doubles GUI Basics Event-Driven Programming Orders &amp; Combos Checkout Website Basics Form Data RESTful Architecture Validation &amp; Serialization </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/y-milestones/old/fall-2023/index.xml" rel="self" type="application/rss+xml" />
