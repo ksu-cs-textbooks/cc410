@@ -1867,6 +1867,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3743,18 +3753,18 @@
     <link href="/cc410/i-oop/07-debugging-logging/06-logging/index.xml" rel="alternate" type="application/rss+xml" title="Logging :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/06-logging/index.print.html" rel="alternate" type="text/html" title="Logging :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/06-logging/embed.html" rel="alternate" type="text/html" title="Logging :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1724426200" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1724426380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1724426380" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1724426380" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1724426380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1724426380" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1724426380" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1724426380" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1724426380" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1724426380" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1724426380" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1724426380" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1724426380" rel="stylesheet">
-    <link href="/cc410/css/print.css?1724426380" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1724426380"></script>
+    <link href="/cc410/images/favicon.ico?1724769167" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1724769351" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1724769351" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1724769351" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1724769351" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1724769351" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1724769351" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1724769351" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1724769351" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1724769351" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1724769351" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1724769351" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1724769351" rel="stylesheet">
+    <link href="/cc410/css/print.css?1724769351" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1724769351"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3774,7 +3784,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1724426380" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1724769351" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc410/i-oop/07-debugging-logging/06-logging/">
     
@@ -3796,20 +3806,20 @@
 
 <p>The last major concept we&rsquo;ll introduce around debugging is the use of a formal <strong>logger</strong> in our code. A logger allows us to collect debugging information throughout our program in a way that is lightweight, highly configurable, and surprisingly easy to use. Both Java and Python include some standard ways to create a simple log file.</p>
 
-<div class="tab-panel" data-tab-group="e8a97e3c26ed977b792f1a45798ddf3a">
+<div class="tab-panel" data-tab-group="d2fd04e952a3290107df21fd261467ba">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('e8a97e3c26ed977b792f1a45798ddf3a','java')"
+      onclick="switchTab('d2fd04e952a3290107df21fd261467ba','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e8a97e3c26ed977b792f1a45798ddf3a','python')"
+      onclick="switchTab('d2fd04e952a3290107df21fd261467ba','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3951,11 +3961,11 @@ CRITICAL: This is a critical message, THIS IS BAD!</code></pre></div><p>We shoul
 
 
 
-<script src="/cc410/js/clipboard.min.js?1724426380" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1724426380" defer></script>
-<script src="/cc410/js/theme.js?1724426380" defer></script>
+<script src="/cc410/js/clipboard.min.js?1724769351" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1724769351" defer></script>
+<script src="/cc410/js/theme.js?1724769351" defer></script>
 
-<script src="/cc410/js/tele-scroll.js?1724426380" defer></script>
+<script src="/cc410/js/tele-scroll.js?1724769351" defer></script>
 
 </body>
 </html>
