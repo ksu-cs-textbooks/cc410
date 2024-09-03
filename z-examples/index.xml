@@ -1877,6 +1877,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3742,7 +3752,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/</link>
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/</guid>
-      <description>YouTube Video In this example project, we will go through all the steps to create a new version of the classic “Hello World” program, called “Hello Real World.” We’ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.&#xA;Don’t worry if some of this doesn’t make sense right now - we’ll spend much more time later in this course going into more detail on many of these areas.</description>
+      <description>In this example project, we will go through all the steps to create a new version of the classic “Hello World” program, called “Hello Real World.” We’ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.&#xA;Don’t worry if some of this doesn’t make sense right now - we’ll spend much more time later in this course going into more detail on many of these areas.</description>
     </item>
     <item>
       <title>Object-Oriented Programming</title>

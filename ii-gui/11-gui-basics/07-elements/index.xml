@@ -1877,6 +1877,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3725,7 +3735,7 @@
   <channel>
     <title>Elements :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/07-elements/</link>
-    <description>YouTube Video Video Materials&#xA;Once we’ve created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we’ll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs.</description>
+    <description>Video Materials&#xA;Once we’ve created a window, a panel, and selected our layout manager, we can finally start to add elements to our GUI. This page will list some of the common GUI elements that we can choose, and describe how they can be used best in our applications. Where possible, we’ll also link to official documentation and some tutorial resources so we can learn how to use each of these in our programs.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/07-elements/index.xml" rel="self" type="application/rss+xml" />

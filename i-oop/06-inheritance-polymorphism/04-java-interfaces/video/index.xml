@@ -1877,6 +1877,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3725,7 +3735,7 @@
   <channel>
     <title>Java Inheritance :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s review inheritance in the Java programming language. First, we’ll look at interfaces. In Java, an interface is as special type of class, so we’ll use the interface keyword instead of the class keyword when declaring it. Inside of the interface, we typically only include methods that we want to be part of the interface. Any methods included in the interface are automatically public and abstract so we don’t have to include those modifiers on your methods.</description>
+    <description>Resources Slides Video Script Let’s review inheritance in the Java programming language. First, we’ll look at interfaces. In Java, an interface is as special type of class, so we’ll use the interface keyword instead of the class keyword when declaring it. Inside of the interface, we typically only include methods that we want to be part of the interface. Any methods included in the interface are automatically public and abstract so we don’t have to include those modifiers on your methods.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Aug 2021 16:38:27 -0500</lastBuildDate>

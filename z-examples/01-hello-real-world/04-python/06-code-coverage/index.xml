@@ -1877,6 +1877,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3725,7 +3735,7 @@
   <channel>
     <title>Code Coverage :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/</link>
-    <description>YouTube Video We’ve now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the code coverage of our unit tests.&#xA;Install Coverage.py Thankfully, there are many easy to use tools that will compute the code coverage of a set of tests.</description>
+    <description>We’ve now written our program, as well as a unit test that runs our program and make sure it works. But, how can we be sure that our unit tests are adequately testing every part of our program? For that, we have to rely on another tool to help us calculate the code coverage of our unit tests.&#xA;Install Coverage.py Thankfully, there are many easy to use tools that will compute the code coverage of a set of tests.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/index.xml" rel="self" type="application/rss+xml" />
