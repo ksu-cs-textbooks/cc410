@@ -1887,6 +1887,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3735,7 +3745,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-python/</link>
-    <description>Resources pytest Assertions Hamcrest Matchers Tox Changes In the tox.ini file, we added the following line under the [testenv] heading:&#xA;ignore_errors = True This will allow the full Tox script to execute, even if there are errors earlier in the process.&#xA;Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
+    <description>YouTube Video Resources pytest Assertions Hamcrest Matchers Tox Changes In the tox.ini file, we added the following line under the [testenv] heading:&#xA;ignore_errors = True This will allow the full Tox script to execute, even if there are errors earlier in the process.&#xA;Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs, all unit tests pass, no style errors, no type errors, and documentation generates properly.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-python/index.xml" rel="self" type="application/rss+xml" />

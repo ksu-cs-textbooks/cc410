@@ -1887,6 +1887,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3735,7 +3745,7 @@
   <channel>
     <title>Introduction :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/02-software-libraries/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re going to look at how we can use external libraries within our own applications. One of the major mantras of most programmers is “don’t reinvent the wheel” and I feel that making ample use of good external libraries is the greatest example of that mantra put into practice. There are libraries out there for nearly any use, from parsing command-line arguments to interfacing with online APIs, that we can easily use.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to look at how we can use external libraries within our own applications. One of the major mantras of most programmers is “don’t reinvent the wheel” and I feel that making ample use of good external libraries is the greatest example of that mantra put into practice. There are libraries out there for nearly any use, from parsing command-line arguments to interfacing with online APIs, that we can easily use.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

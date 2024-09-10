@@ -1887,6 +1887,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3735,7 +3745,7 @@
   <channel>
     <title>Overview :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/02-uml/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re going to discuss the Unified Modeling Language, or UML. UML gives us a standard way that we can represent the structure and behavior of a software system in a set of easy to understand diagrams. Because UML is somewhat standardized in the industry, it makes it easy for a developer to review documentation on any project, even if it is one they haven’t seen before.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to discuss the Unified Modeling Language, or UML. UML gives us a standard way that we can represent the structure and behavior of a software system in a set of easy to understand diagrams. Because UML is somewhat standardized in the industry, it makes it easy for a developer to review documentation on any project, even if it is one they haven’t seen before.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

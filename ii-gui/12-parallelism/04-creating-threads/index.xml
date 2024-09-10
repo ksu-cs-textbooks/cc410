@@ -1887,6 +1887,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3735,7 +3745,7 @@
   <channel>
     <title>Creating Threads :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/04-creating-threads/</link>
-    <description>Video Materials&#xA;Now that we’ve learned about threads, let’s discuss how we can work with them in our programs. Writing a multithreaded program can be significantly more difficult than a single threaded program, but with the extra difficulty comes the ability to write programs that are much more flexible and powerful.&#xA;Creating a Thread Creating a thread is very simple in many modern programming languages. Both Java and Python include libraries for dealing with threads, and to create a new thread, each one simply requires some sort of function or method to serve as the starting point for the new thread.</description>
+    <description>YouTube Video Video Materials&#xA;Now that we’ve learned about threads, let’s discuss how we can work with them in our programs. Writing a multithreaded program can be significantly more difficult than a single threaded program, but with the extra difficulty comes the ability to write programs that are much more flexible and powerful.&#xA;Creating a Thread Creating a thread is very simple in many modern programming languages. Both Java and Python include libraries for dealing with threads, and to create a new thread, each one simply requires some sort of function or method to serve as the starting point for the new thread.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/04-creating-threads/index.xml" rel="self" type="application/rss+xml" />

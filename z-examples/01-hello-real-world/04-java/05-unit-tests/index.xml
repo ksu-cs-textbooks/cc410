@@ -1887,6 +1887,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3735,7 +3745,7 @@
   <channel>
     <title>Unit Tests :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/</link>
-    <description>At this point, we’ve written the basic code for our “Hello World” program. However, how can we automatically verify that the source code works properly? To do that, we’ll need to create some unit tests that verify our code.&#xA;Unit Tests In our Java application, the unit tests are stored in the app/src/test/java directory. In that directory, there is a directory for hello that represents a package, just like the hello directory in the app/src/main/java where our program code lives.</description>
+    <description>YouTube Video At this point, we’ve written the basic code for our “Hello World” program. However, how can we automatically verify that the source code works properly? To do that, we’ll need to create some unit tests that verify our code.&#xA;Unit Tests In our Java application, the unit tests are stored in the app/src/test/java directory. In that directory, there is a directory for hello that represents a package, just like the hello directory in the app/src/main/java where our program code lives.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.xml" rel="self" type="application/rss+xml" />
