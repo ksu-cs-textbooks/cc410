@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3769,7 +3779,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/03-documentation-formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/03-documentation-formats/</guid>
-      <description>YouTube Video Video Materials&#xA;Developer documentation often faces a challenge not present in other kinds of documents - the need to be able to display snippets of code. Ideally, we want code to be formatted in a way that preserves indentation. We also don’t want code snippets to be subject to spelling and grammar checks, especially auto-correct versions of these algorithms, as they will alter the snippets. Ideally, we might also apply syntax highlighting to these snippets.</description>
+      <description>Video Materials&#xA;Developer documentation often faces a challenge not present in other kinds of documents - the need to be able to display snippets of code. Ideally, we want code to be formatted in a way that preserves indentation. We also don’t want code snippets to be subject to spelling and grammar checks, especially auto-correct versions of these algorithms, as they will alter the snippets. Ideally, we might also apply syntax highlighting to these snippets.</description>
     </item>
     <item>
       <title>Code Comments</title>
@@ -3783,14 +3793,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/05-javadoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/05-javadoc/</guid>
-      <description>YouTube Video Video Materials&#xA;The Java software development kit (SDK) includes a tool called Javadoc, which can create documentation based on the documentation comments included in the code. Both the Javadoc Documentation and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
+      <description>Video Materials&#xA;The Java software development kit (SDK) includes a tool called Javadoc, which can create documentation based on the documentation comments included in the code. Both the Javadoc Documentation and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
     </item>
     <item>
       <title>Python Docstrings</title>
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/06-docstrings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/06-docstrings/</guid>
-      <description>YouTube Video Video Materials&#xA;Many Python developers have standardized on the use of docstrings as documentation comments. Both PEP 257 and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
+      <description>Video Materials&#xA;Many Python developers have standardized on the use of docstrings as documentation comments. Both PEP 257 and the Google Style Guide include information about how those documentation comments should be structured and the information each should contain. This page will serve as a quick guide for the most common use cases, but you may wish to refer to the documentation linked above for more specific examples and information.</description>
     </item>
     <item>
       <title>Generated Documentation</title>

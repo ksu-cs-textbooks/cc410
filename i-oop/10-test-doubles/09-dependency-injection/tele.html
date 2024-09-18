@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3777,18 +3787,18 @@ Consider the following example:
     <link href="/cc410/i-oop/10-test-doubles/09-dependency-injection/index.xml" rel="alternate" type="application/rss+xml" title="Dependency Injection :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/09-dependency-injection/index.print.html" rel="alternate" type="text/html" title="Dependency Injection :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/09-dependency-injection/embed.html" rel="alternate" type="text/html" title="Dependency Injection :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1725979361" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1725979545" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1725979545" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1725979545" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1725979545" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1725979545" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1725979545" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1725979545" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1725979545" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1725979545" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1725979545" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1725979545" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1725979545" rel="stylesheet">
-    <link href="/cc410/css/print.css?1725979545" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1725979545"></script>
+    <link href="/cc410/images/favicon.ico?1726667945" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1726668135" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1726668135" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1726668135" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1726668135" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1726668135" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1726668135" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1726668135" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1726668135" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1726668135" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1726668135" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1726668135" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1726668135" rel="stylesheet">
+    <link href="/cc410/css/print.css?1726668135" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1726668135"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3808,7 +3818,7 @@ Consider the following example:
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1725979545" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1726668135" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc410/i-oop/10-test-doubles/09-dependency-injection/">
     
@@ -3831,20 +3841,20 @@ Consider the following example:
 <p>One other important topic to cover in unit tests is <strong>dependency injection</strong>. In short, <a href="https://en.wikipedia.org/wiki/Dependency_injection" rel="external" target="_blank">dependency injection</a> is a way that we can build our classes so that the objects they depend on can be added to the class from outside. In that way, we can change them as needed in our unit tests as a way to test functionality using test doubles.</p>
 <p>Consider the following example:</p>
 
-<div class="tab-panel" data-tab-group="9d92380eb36fd07192916fc5d7f8b8c8">
+<div class="tab-panel" data-tab-group="314a43e01448d8339d97f62b0924f216">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9d92380eb36fd07192916fc5d7f8b8c8','java')"
+      onclick="switchTab('314a43e01448d8339d97f62b0924f216','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9d92380eb36fd07192916fc5d7f8b8c8','python')"
+      onclick="switchTab('314a43e01448d8339d97f62b0924f216','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3904,20 +3914,20 @@ Consider the following example:
 <h3 id="constructor-injection">Constructor Injection</h3>
 <p>The first method of dependency injection is via the constructor. We could simply pass in a reference to a <code>Gradebook</code> object in the constructor, as in this example:</p>
 
-<div class="tab-panel" data-tab-group="cbc92a747f424cd52b9d58edc6874148">
+<div class="tab-panel" data-tab-group="24f0a3e8093c13bb823e958c35852a04">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('cbc92a747f424cd52b9d58edc6874148','java')"
+      onclick="switchTab('24f0a3e8093c13bb823e958c35852a04','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('cbc92a747f424cd52b9d58edc6874148','python')"
+      onclick="switchTab('24f0a3e8093c13bb823e958c35852a04','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3955,20 +3965,20 @@ Consider the following example:
 <h3 id="setter-injection">Setter Injection</h3>
 <p>Alternatively, we can provide a setter method and allow injection via the setter. This could be done either in lieu of building a <code>Gradebook</code> object in the constructor, or in addition to it.</p>
 
-<div class="tab-panel" data-tab-group="98d038c135b41d2e7e23decc541026d7">
+<div class="tab-panel" data-tab-group="b111a45d4cbf436a3bcde2bc57985164">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('98d038c135b41d2e7e23decc541026d7','java')"
+      onclick="switchTab('b111a45d4cbf436a3bcde2bc57985164','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('98d038c135b41d2e7e23decc541026d7','python')"
+      onclick="switchTab('b111a45d4cbf436a3bcde2bc57985164','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4034,11 +4044,11 @@ Consider the following example:
 
 
 
-<script src="/cc410/js/clipboard.min.js?1725979545" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1725979545" defer></script>
-<script src="/cc410/js/theme.js?1725979545" defer></script>
+<script src="/cc410/js/clipboard.min.js?1726668135" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1726668135" defer></script>
+<script src="/cc410/js/theme.js?1726668135" defer></script>
 
-<script src="/cc410/js/tele-scroll.js?1725979545" defer></script>
+<script src="/cc410/js/tele-scroll.js?1726668135" defer></script>
 
 </body>
 </html>

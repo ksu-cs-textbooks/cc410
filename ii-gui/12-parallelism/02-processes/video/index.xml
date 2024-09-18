@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3745,7 +3755,7 @@
   <channel>
     <title>Introduction :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/02-processes/video/</link>
-    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to take a quick detour to discuss parallelism in programming. This will help us better understand the next topic related to GUIs, which is event-driven programming. So, what is parallelism? In short, parallelism involves writing our programs in a way that they can perform multiple tasks simultaneously. We typically do this through the use of threads, contained within the process that our application is running under.</description>
+    <description>Resources Slides Video Script In this chapter, we’re going to take a quick detour to discuss parallelism in programming. This will help us better understand the next topic related to GUIs, which is event-driven programming. So, what is parallelism? In short, parallelism involves writing our programs in a way that they can perform multiple tasks simultaneously. We typically do this through the use of threads, contained within the process that our application is running under.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

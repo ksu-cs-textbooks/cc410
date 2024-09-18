@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3745,7 +3755,7 @@
   <channel>
     <title>Using a Web API :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iii-web/18-web-apis/06-using-web-apis/</link>
-    <description>YouTube Video Video Materials&#xA;Finally, now that we’ve covered all of the aspects related to web APIs and how they are implemented, let’s look at a quick example for how we can use a web API to interact with resources stored on the web.&#xA;Finding an API There are many great resources that can be used to locate a particular web API on the internet. Using search engines such as Google is one option, but there have also been many attempts to generate a directory of the most used and most useful web APIs such as the Public APIs project on GitHub.</description>
+    <description>Video Materials&#xA;Finally, now that we’ve covered all of the aspects related to web APIs and how they are implemented, let’s look at a quick example for how we can use a web API to interact with resources stored on the web.&#xA;Finding an API There are many great resources that can be used to locate a particular web API on the internet. Using search engines such as Google is one option, but there have also been many attempts to generate a directory of the most used and most useful web APIs such as the Public APIs project on GitHub.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/iii-web/18-web-apis/06-using-web-apis/index.xml" rel="self" type="application/rss+xml" />

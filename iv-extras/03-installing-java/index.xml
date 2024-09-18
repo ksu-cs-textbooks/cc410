@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3745,7 +3755,7 @@
   <channel>
     <title>Installing Java :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iv-extras/03-installing-java/</link>
-    <description>YouTube Video Resources Java JDK Installers Gradle Downloads Video Script In this video, I’m going to go over installing Java and Gradle on Windows. So I’ve already downloaded the Java Development Kit directly from the Oracle website. So I’m going to briefly double click to install that.&#xA;I’ll also install Gradle. However, Gradle does not come with an installer, it just has a ZIP file. So to install Gradle, we’re going to extract this ZIP file, and we’re going to extract it to the folder C:\Gradle.</description>
+    <description>Resources Java JDK Installers Gradle Downloads Video Script In this video, I’m going to go over installing Java and Gradle on Windows. So I’ve already downloaded the Java Development Kit directly from the Oracle website. So I’m going to briefly double click to install that.&#xA;I’ll also install Gradle. However, Gradle does not come with an installer, it just has a ZIP file. So to install Gradle, we’re going to extract this ZIP file, and we’re going to extract it to the folder C:\Gradle.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

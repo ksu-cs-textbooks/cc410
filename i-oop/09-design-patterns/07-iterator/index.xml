@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3745,7 +3755,7 @@
   <channel>
     <title>Iterator Pattern :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/07-iterator/</link>
-    <description>YouTube Video Video Materials&#xA;Let’s review three other commonly used software design patterns. These are either patterns that we’ve seen before, or ones that we might end up using soon in our code.&#xA;Iterator Pattern The first pattern is the iterator pattern. The iterator pattern is a behavioral pattern that is used to traverse through a collection of objects stored in a container. We explored this pattern in several of the data structures introduced in earlier data structures courses such as CC 310 and CC 315, as well as CIS 300.</description>
+    <description>Video Materials&#xA;Let’s review three other commonly used software design patterns. These are either patterns that we’ve seen before, or ones that we might end up using soon in our code.&#xA;Iterator Pattern The first pattern is the iterator pattern. The iterator pattern is a behavioral pattern that is used to traverse through a collection of objects stored in a container. We explored this pattern in several of the data structures introduced in earlier data structures courses such as CC 310 and CC 315, as well as CIS 300.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/07-iterator/index.xml" rel="self" type="application/rss+xml" />

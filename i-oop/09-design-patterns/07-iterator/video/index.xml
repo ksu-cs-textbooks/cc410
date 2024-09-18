@@ -1897,6 +1897,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3745,7 +3755,7 @@
   <channel>
     <title>Behavioral Patterns :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/07-iterator/video/</link>
-    <description>YouTube Video Resources Slides Video Script Finally, let’s review two of the behavioral patterns introduced by the “Gang of Four” in their Design Patterns book. First, we have the iterator pattern, which allows us to make a class iterable like a list or other collection that is built-in to our language. By doing so, we can use our class in special ways, such as within a for each or enhanced for loop, and we can even treat it just like any other collection data type.</description>
+    <description>Resources Slides Video Script Finally, let’s review two of the behavioral patterns introduced by the “Gang of Four” in their Design Patterns book. First, we have the iterator pattern, which allows us to make a class iterable like a list or other collection that is built-in to our language. By doing so, we can use our class in special ways, such as within a for each or enhanced for loop, and we can even treat it just like any other collection data type.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 16:21:53 -0600</lastBuildDate>
