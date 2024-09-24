@@ -1907,6 +1907,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3755,7 +3765,7 @@
   <channel>
     <title>Installing Git on Windows :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iv-extras/01-installing-git/</link>
-    <description>Resources Git Installers Install Git from GitHub Git Guides GitHub Desktop Adding a new SSH Key to your GitHub Account from GitHub Video Script Hello and welcome to the first of a series of videos where I’m going to show you everything you need to know to be able to bring your CC 410 projects and other Computational Core projects outside of Codio and onto your local system. For these videos, I’m doing this all on Windows, which is the most complicated system to set up.</description>
+    <description>YouTube Video Resources Git Installers Install Git from GitHub Git Guides GitHub Desktop Adding a new SSH Key to your GitHub Account from GitHub Video Script Hello and welcome to the first of a series of videos where I’m going to show you everything you need to know to be able to bring your CC 410 projects and other Computational Core projects outside of Codio and onto your local system.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

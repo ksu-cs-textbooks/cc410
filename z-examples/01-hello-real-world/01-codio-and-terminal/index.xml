@@ -1907,6 +1907,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3755,7 +3765,7 @@
   <channel>
     <title>Codio and Terminal :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/</link>
-    <description>One thing you’ll quickly notice is that the source code files are no longer created for you in this course. Instead, in most cases you’ll be responsible for creating the source code files and folders used by your program.&#xA;So, let’s cover some basics of using the Codio interface and the terminal.&#xA;Codio Interface To the left, you should see the Codio file tree interface. If you don’t see it for some reason, you can always show it by going to the View menu and selecting File Tree.</description>
+    <description>YouTube Video One thing you’ll quickly notice is that the source code files are no longer created for you in this course. Instead, in most cases you’ll be responsible for creating the source code files and folders used by your program.&#xA;So, let’s cover some basics of using the Codio interface and the terminal.&#xA;Codio Interface To the left, you should see the Codio file tree interface. If you don’t see it for some reason, you can always show it by going to the View menu and selecting File Tree.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/index.xml" rel="self" type="application/rss+xml" />

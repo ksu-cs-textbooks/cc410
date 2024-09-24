@@ -1907,6 +1907,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3755,7 +3765,7 @@
   <channel>
     <title>Clone Starter from GitHub :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/</link>
-    <description>Once we have accepted the assignment on GitHub classroom and have access to the repository, we can “clone” it in Codio, allowing us to access any starter code and then add our own code as we continue to work through this example project. This project doesn’t include any starter code, but we’ll go ahead and do this step first, just like we would with any other project.&#xA;Find GitHub Repository URL At this point, you should have access to a repository page that looks like this:</description>
+    <description>YouTube Video Once we have accepted the assignment on GitHub classroom and have access to the repository, we can “clone” it in Codio, allowing us to access any starter code and then add our own code as we continue to work through this example project. This project doesn’t include any starter code, but we’ll go ahead and do this step first, just like we would with any other project.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/index.xml" rel="self" type="application/rss+xml" />

@@ -1907,6 +1907,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3785,18 +3795,18 @@ You’ve already used types extensively in your programming up to this point.">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/02-types/index.xml" rel="alternate" type="application/rss+xml" title="Types :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/02-types/index.print.html" rel="alternate" type="text/html" title="Types :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/02-types/embed.html" rel="alternate" type="text/html" title="Types :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1726667945" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1726668131" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1726668131" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1726668131" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1726668131" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1726668131" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1726668131" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1726668131" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1726668131" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1726668131" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1726668131" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1726668131" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1726668131" rel="stylesheet">
-    <link href="/cc410/css/print.css?1726668131" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1726668131"></script>
+    <link href="/cc410/images/favicon.ico?1727188760" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1727188949" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727188949" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1727188949" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1727188949" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727188949" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1727188949" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1727188949" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727188949" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1727188949" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1727188949" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1727188949" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1727188949" rel="stylesheet">
+    <link href="/cc410/css/print.css?1727188949" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1727188949"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3816,7 +3826,7 @@ You’ve already used types extensively in your programming up to this point.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1726668131" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1727188949" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc410/i-oop/06-inheritance-polymorphism/02-types/">
     
@@ -3843,20 +3853,20 @@ You’ve already used types extensively in your programming up to this point.">
 <p>Before we can discuss polymorphism in detail, we must first understand the concept of <em>types</em>.  In computer science, a <em>type</em> is a way of categorizing a variable by its storage strategy, i.e., how it is represented in the computer&rsquo;s memory. It also defines how the value can be treated and what operations can be performed on it.</p>
 <p>You&rsquo;ve already used types extensively in your programming up to this point.  Consider the declaration:</p>
 
-<div class="tab-panel" data-tab-group="96f1227f72beb5630f800ef17ec90acc">
+<div class="tab-panel" data-tab-group="8fbdbdfa81774f21327312a580cd1e17">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('96f1227f72beb5630f800ef17ec90acc','java')"
+      onclick="switchTab('8fbdbdfa81774f21327312a580cd1e17','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('96f1227f72beb5630f800ef17ec90acc','python')"
+      onclick="switchTab('8fbdbdfa81774f21327312a580cd1e17','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3882,20 +3892,20 @@ You’ve already used types extensively in your programming up to this point.">
 <p>Each language stores these values in memory differently, and we won&rsquo;t worry about those technical differences in this course. What is important to remember is that the variable&rsquo;s data type tells the computer how to store that value, and also what operations can be performed on that value.</p>
 <p>For example, consider the following code:</p>
 
-<div class="tab-panel" data-tab-group="ad78f6869bdb4def26c21f434781723b">
+<div class="tab-panel" data-tab-group="66637ffce8370159f1faa8c0d66f1acd">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('ad78f6869bdb4def26c21f434781723b','java')"
+      onclick="switchTab('66637ffce8370159f1faa8c0d66f1acd','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('ad78f6869bdb4def26c21f434781723b','python')"
+      onclick="switchTab('66637ffce8370159f1faa8c0d66f1acd','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3931,20 +3941,20 @@ You’ve already used types extensively in your programming up to this point.">
 <h2 id="user-defined-types">User-Defined Types</h2>
 <p>In addition to built-in types, most programming languages support <em>user-defined types</em>, that is, new types defined by the programmer.  For example, we could define an enumerator called <code>Grade</code>:</p>
 
-<div class="tab-panel" data-tab-group="4ae8502775aa7f0e474bccf199e9343f">
+<div class="tab-panel" data-tab-group="f63e6e332f4961e3864f70da7af23524">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('4ae8502775aa7f0e474bccf199e9343f','java')"
+      onclick="switchTab('f63e6e332f4961e3864f70da7af23524','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('4ae8502775aa7f0e474bccf199e9343f','python')"
+      onclick="switchTab('f63e6e332f4961e3864f70da7af23524','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3982,20 +3992,20 @@ You’ve already used types extensively in your programming up to this point.">
 </div>
 <p>This defines a new data type <code>Grade</code>.  We can then create variables with that type:</p>
 
-<div class="tab-panel" data-tab-group="50757d2fe85d819d63071b183e1e8c5f">
+<div class="tab-panel" data-tab-group="c675d4ce1c1587126d73497380dd2644">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('50757d2fe85d819d63071b183e1e8c5f','java')"
+      onclick="switchTab('c675d4ce1c1587126d73497380dd2644','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('50757d2fe85d819d63071b183e1e8c5f','python')"
+      onclick="switchTab('c675d4ce1c1587126d73497380dd2644','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4020,20 +4030,20 @@ You’ve already used types extensively in your programming up to this point.">
 <h2 id="classes-are-types">Classes are Types</h2>
 <p>In an object-oriented programming language, a class also <em>defines a new type</em>!  As we discussed in an earlier chapter, a class defines the structure for the <em>state</em> for objects implementing that type. Consider a class named <code>Student</code> as shown in this example:</p>
 
-<div class="tab-panel" data-tab-group="bacb5a1baf52475805ad65eb91f59e56">
+<div class="tab-panel" data-tab-group="c37acf46604033fb382011fdabd0f153">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('bacb5a1baf52475805ad65eb91f59e56','java')"
+      onclick="switchTab('c37acf46604033fb382011fdabd0f153','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('bacb5a1baf52475805ad65eb91f59e56','python')"
+      onclick="switchTab('c37acf46604033fb382011fdabd0f153','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4137,20 +4147,20 @@ You’ve already used types extensively in your programming up to this point.">
 </div>
 <p>If we want to create a new student, we would create an instance of the class <code>Student</code> which is an object of <em>type</em> <code>Student</code>:</p>
 
-<div class="tab-panel" data-tab-group="6bc6912ed93fdcd97497409f8d7ba105">
+<div class="tab-panel" data-tab-group="8fd1e972bd495a89c85bf9af1a5567c8">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('6bc6912ed93fdcd97497409f8d7ba105','java')"
+      onclick="switchTab('8fd1e972bd495a89c85bf9af1a5567c8','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('6bc6912ed93fdcd97497409f8d7ba105','python')"
+      onclick="switchTab('8fd1e972bd495a89c85bf9af1a5567c8','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4179,20 +4189,20 @@ You’ve already used types extensively in your programming up to this point.">
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">bar</span> <span class="p">=</span> <span class="m">6</span><span class="p">;</span></span></span></code></pre></div><p>In a statically typed language, a variable <em>cannot</em> be assigned a value of a different type, i.e.:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">8</span><span class="p">.</span><span class="na">3</span><span class="p">;</span></span></span></code></pre></div><p>Will fail with an error in Java, as a floating point value is a different type than an integer. However, we can <em>cast</em> the value to a new type (changing how it is represented), i.e.:</p>
 
-<div class="tab-panel" data-tab-group="1fc8727040a30f54d8400e23739fc135">
+<div class="tab-panel" data-tab-group="23f7df3e1b287e9059e5a9700bb8e619">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1fc8727040a30f54d8400e23739fc135','java')"
+      onclick="switchTab('23f7df3e1b287e9059e5a9700bb8e619','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1fc8727040a30f54d8400e23739fc135','python')"
+      onclick="switchTab('23f7df3e1b287e9059e5a9700bb8e619','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4237,11 +4247,11 @@ You’ve already used types extensively in your programming up to this point.">
 
 
 
-<script src="/cc410/js/clipboard.min.js?1726668131" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1726668131" defer></script>
-<script src="/cc410/js/theme.js?1726668131" defer></script>
+<script src="/cc410/js/clipboard.min.js?1727188949" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1727188949" defer></script>
+<script src="/cc410/js/theme.js?1727188949" defer></script>
 
-<script src="/cc410/js/tele-scroll.js?1726668131" defer></script>
+<script src="/cc410/js/tele-scroll.js?1727188949" defer></script>
 
 </body>
 </html>

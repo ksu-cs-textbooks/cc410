@@ -1907,6 +1907,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3772,7 +3782,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/iii-web/17-rest-forms/02-html-forms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/iii-web/17-rest-forms/02-html-forms/</guid>
-      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;One of the earliest (and still widely used) mechanisms for transferring data from a browser (client) to the server is a form. The &lt;form&gt; is a specific HTML element that contains input fields and buttons the user can interact with.</description>
+      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;One of the earliest (and still widely used) mechanisms for transferring data from a browser (client) to the server is a form. The &lt;form&gt; is a specific HTML element that contains input fields and buttons the user can interact with.</description>
     </item>
     <item>
       <title>Form Data</title>
@@ -3800,7 +3810,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/iii-web/17-rest-forms/06-restful-routes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/iii-web/17-rest-forms/06-restful-routes/</guid>
-      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;Many web applications deal with some kind of resource, i.e. people, widgets, records. Much like in object-orientation we have organized the program around objects, many web applications are organized around resources. And as we have specialized ways to construct, access, and destroy objects, web applications need to create, read, update, and destroy resource records (we call these CRUD operations).</description>
+      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;Many web applications deal with some kind of resource, i.e. people, widgets, records. Much like in object-orientation we have organized the program around objects, many web applications are organized around resources. And as we have specialized ways to construct, access, and destroy objects, web applications need to create, read, update, and destroy resource records (we call these CRUD operations).</description>
     </item>
     <item>
       <title>Validation</title>
