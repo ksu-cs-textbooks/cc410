@@ -1917,6 +1917,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3797,18 +3807,18 @@ At this point, we’ve written some code for our application.">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/index.print.html" rel="alternate" type="text/html" title="Git Commit &amp; Push :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/tele.html" rel="alternate" type="text/html" title="Git Commit &amp; Push :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/embed.html" rel="alternate" type="text/html" title="Git Commit &amp; Push :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1727188760" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1727188821" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727188821" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1727188821" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1727188821" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727188821" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1727188821" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1727188821" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727188821" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1727188821" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1727188821" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1727188821" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1727188821" rel="stylesheet">
-    <link href="/cc410/css/print.css?1727188821" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1727188821"></script>
+    <link href="/cc410/images/favicon.ico?1727884491" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1727884552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727884552" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1727884552" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1727884552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727884552" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1727884552" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1727884552" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727884552" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1727884552" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1727884552" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1727884552" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1727884552" rel="stylesheet">
+    <link href="/cc410/css/print.css?1727884552" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1727884552"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..\/..';
@@ -3828,7 +3838,7 @@ At this point, we’ve written some code for our application.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1727188821" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1727884552" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/">
     <div id="R-body" class="default-animation">
@@ -3929,15 +3939,15 @@ At this point, we’ve written some code for our application.">
 <p>At this point, you might be pretty confused about Git, GitHub, repositories, cloning, and everything that we&rsquo;ve done so far. That&rsquo;s fine! We&rsquo;ve found that one of the best ways to learn how to use Git and GitHub is simply by doing it and observing what it does, then slowly building up your knowledge by trying new things. However, let&rsquo;s take a few minutes to explain some of the basics so you know what we are talking about.</p>
 <p><a href="https://git.wiki.kernel.org/index.php/Git" rel="external" target="_blank">Git</a> is the name of a &ldquo;distributed version control system&rdquo; that was created initially by Linus Torvalds (the originator of the Linux operating system kernel). It was meant to solve a lot of the problems that he experienced when working with other version control systems of the time, such as <a href="https://subversion.apache.org/" rel="external" target="_blank">Subversion</a> and <a href="https://www.mercurial-scm.org/" rel="external" target="_blank">Mercurial</a>.</p>
 <p>Git stores data in several different places, and there are several Git commands to transfer the data between those places. It is best summarized in this diagram:</p>
-<p><a href="#R-image-9fb3d4f27b3bceb5a814d8d8e26f5f2a" class="lightbox-link"><img alt="Git Workflow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9fb3d4f27b3bceb5a814d8d8e26f5f2a"><img alt="Git Workflow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg"></a>^[https://commons.wikimedia.org/w/index.php?title=File:Git_data_flow_simplified.svg&amp;oldid=511614601]</p>
+<p><a href="#R-image-24345d0310b6e1a100483bb5eb2208d0" class="lightbox-link"><img alt="Git Workflow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-24345d0310b6e1a100483bb5eb2208d0"><img alt="Git Workflow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg"></a>^[https://commons.wikimedia.org/w/index.php?title=File:Git_data_flow_simplified.svg&amp;oldid=511614601]</p>
 <p>Let&rsquo;s look at Git from the bottom up and see how it works.</p>
 <h2 id="working-directory">Working Directory</h2>
 <p>For this project, our <strong>working directory</strong> in Git is the <code>python</code> folder where we&rsquo;ve been storing all of our code. This is the folder that we cloned our initial repository from GitHub Classroom into, and its where we&rsquo;re actually <em>doing</em> all of the coding. At this point, we&rsquo;ve created several new files and directories, but we&rsquo;ve not added them to our local Git repository yet. Before we can do that, we must discuss one other thing - the <code>.gitignore</code> file.</p>
 <h2 id="gitignore-file">.gitignore File</h2>
 <p>First, we&rsquo;ll need to create a special file called <code>.gitignore</code> in the <code>python</code> directory, or in the root of our working directory for Git. That file contains information that tells Git what files we want to &ldquo;ignore&rdquo; - files that Git shouldn&rsquo;t try to save. Typically we only want Git to store the source code for our program, and not any compiled classes, reports, or temporary files.</p>
-<p><a href="#R-image-036a06f5d8331859cab2d9a94d333362" class="lightbox-link"><img alt="Python Gitignore" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonignore.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-036a06f5d8331859cab2d9a94d333362"><img alt="Python Gitignore" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonignore.png"></a></p>
+<p><a href="#R-image-a74b9fd5e43fccb671d3e649465e0192" class="lightbox-link"><img alt="Python Gitignore" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonignore.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a74b9fd5e43fccb671d3e649465e0192"><img alt="Python Gitignore" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonignore.png"></a></p>
 <p>Next, let&rsquo;s place the following content into our <code>.gitignore</code> file:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl">.mypy<span class="nb">_</span>cache
 </span></span><span class="line"><span class="cl">.tox
@@ -3958,13 +3968,13 @@ At this point, we’ve written some code for our application.">
 <p>The next level of Git is the <strong>index</strong>, sometimes referred to as the <strong>stage</strong>. The index contains a list of files that we&rsquo;ve modified and would like to store in our local repository. We can add and remove items from the index at any time, and it won&rsquo;t affect our working directory.</p>
 <p>To see what is in the index, we can use the following command from within the <code>python</code> folder:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status</span></span></code></pre></div><p>You should see output similar to this:</p>
-<p><a href="#R-image-00e0013d0518c0b1a1825fb060b701e8" class="lightbox-link"><img alt="Python Git Status" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonstatus.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-00e0013d0518c0b1a1825fb060b701e8"><img alt="Python Git Status" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonstatus.png"></a></p>
+<p><a href="#R-image-935331d2ea4e1200215f950ef366ac63" class="lightbox-link"><img alt="Python Git Status" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonstatus.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-935331d2ea4e1200215f950ef366ac63"><img alt="Python Git Status" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonstatus.png"></a></p>
 <p>At this point, all of the files are &ldquo;untracked&rdquo; and listed in red, which means that they aren&rsquo;t part of the index. So, we need to add files to the index before we can commit them. To do that, we can use the <code>git add</code> command, followed by the files we&rsquo;d like to add to the index. Of course, naming each file individually can be time consuming, so we can use the following shortcut to add all of the untracked files in our working directory to the index:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .</span></span></code></pre></div><p>In Linux, a single period <code>.</code> on the command line refers to the current working directory, so in this case it will add all of the files in the <code>python</code> folder to the Git index. When we run that command, we won&rsquo;t see any output. But, if we run this command again:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status</span></span></code></pre></div><p>We should now see a whole bunch of files listed as &ldquo;Changes to be committed&rdquo;:</p>
-<p><a href="#R-image-1b7f078b282093ce036079f09d2bc1b0" class="lightbox-link"><img alt="Python Git Index" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonindex.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1b7f078b282093ce036079f09d2bc1b0"><img alt="Python Git Index" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonindex.png"></a></p>
+<p><a href="#R-image-b9713e6afa1203bd6a1fda64a126cc9e" class="lightbox-link"><img alt="Python Git Index" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonindex.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b9713e6afa1203bd6a1fda64a126cc9e"><img alt="Python Git Index" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonindex.png"></a></p>
 <p>Those files listed in green are now &ldquo;staged&rdquo; and ready to commit to our local repository. So, before we move on to the next step, we&rsquo;ll want to make sure that all the files we changed are included in the list of files to be committed. In this case, we see our <code>HelloWorld.py</code> file, as well as the other file we modified in the previous step.</p>
 <h2 id="committing-to-the-local-repository">Committing to the Local Repository</h2>
 <p>Once we&rsquo;ve added the new and updated files to the index, the next step is to <strong>commit</strong>, or <strong>save</strong>, those files in our local repository. This will permanently^[There are ways to undo a commit once it is made, but in general it is poor practice to do so unless a major mistake has been made. For now, we&rsquo;ll consider it permanent.] save these changes in our local repository, helping us keep track of the changes we&rsquo;ve made to the code.</p>
@@ -3973,8 +3983,8 @@ At this point, we’ve written some code for our application.">
 <h4 id="using-nano">Using Nano</h4>
 <p>The first method just calls for you to execute the following command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit</span></span></code></pre></div><p>When you do, your terminal will open a text editor program called Nano, which you can use to place your commit message at the top of the file. It will look something like this:</p>
-<p><a href="#R-image-645e4639b68bc7f1b70dd6f666ea7c0d" class="lightbox-link"><img alt="Python Nano" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonnano.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-645e4639b68bc7f1b70dd6f666ea7c0d"><img alt="Python Nano" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonnano.png"></a></p>
+<p><a href="#R-image-c95ed14af0ec17c68957a0e05235bb14" class="lightbox-link"><img alt="Python Nano" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonnano.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c95ed14af0ec17c68957a0e05235bb14"><img alt="Python Nano" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonnano.png"></a></p>
 <p>As you can see, we&rsquo;ve already entered the message &ldquo;Commit Message Here&rdquo; at the top of the file. Once we&rsquo;ve done that, we need to save and close the file. To do that, follow these steps:</p>
 <ol>
 <li>Press <strong>CTRL+X</strong> to exit Nano. That will open a message at the bottom that says &ldquo;Save modified buffer?&rdquo;</li>
@@ -3986,19 +3996,19 @@ At this point, we’ve written some code for our application.">
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Commit Message Here&#34;</span></span></span></code></pre></div><p>This is a quick and easy way to add a commit message to our commit without using a text editor.</p>
 <h2 id="successful-commit">Successful Commit</h2>
 <p>Once we&rsquo;ve specified our commit message, Git will commit our changes to the local repository. We should see output similar to this if it was successful:</p>
-<p><a href="#R-image-b0ff567249d2ec0781e8091a5ebaf764" class="lightbox-link"><img alt="Python Commit Success" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythoncommit.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b0ff567249d2ec0781e8091a5ebaf764"><img alt="Python Commit Success" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythoncommit.png"></a></p>
+<p><a href="#R-image-bc9defca2e138964423763c0e0e1ba8c" class="lightbox-link"><img alt="Python Commit Success" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythoncommit.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bc9defca2e138964423763c0e0e1ba8c"><img alt="Python Commit Success" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythoncommit.png"></a></p>
 <p>If so, we&rsquo;ve just made our first commit to our local repository. Now, if we ever need to restore our code back to that point, we can! As we continue to work with Git in this course, we&rsquo;ll explore some of these more advanced features. For now, we&rsquo;ll just us it to track our work.</p>
 <h2 id="pushing-to-a-remote">Pushing to a Remote</h2>
 <p>The last step we can take is to <strong>push</strong> our local repository to a remote location, called a <strong>remote</strong>. <a href="https://github.com" rel="external" target="_blank">GitHub</a> is a great example of a remote that works with Git, but there are many others as well. For this course, since we are using GitHub Classroom, we&rsquo;ll be using GitHub as our remote.</p>
 <p>Thankfully, because we&rsquo;ve already <strong>cloned</strong> this assignment from GitHub Classroom, we don&rsquo;t have to do anything to be able to use it. In Git, <strong>cloning</strong> is the term we use for the first time we download a remote repository and store it on our computer. Once we&rsquo;ve downloaded it the first time, we can get access to any changes by <strong>pulling</strong> from the remote.</p>
 <p>So, to push a copy of our local repository to the remote, we can run this command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push</span></span></code></pre></div><p>We should then get output that looks like this:</p>
-<p><a href="#R-image-172738dd49d5c952ee21527381b92224" class="lightbox-link"><img alt="Python Git Push" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonpush.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-172738dd49d5c952ee21527381b92224"><img alt="Python Git Push" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonpush.png"></a></p>
+<p><a href="#R-image-ab3e6a73f90afda5fedba952fcfc37aa" class="lightbox-link"><img alt="Python Git Push" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythonpush.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ab3e6a73f90afda5fedba952fcfc37aa"><img alt="Python Git Push" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythonpush.png"></a></p>
 <p>There we go! We&rsquo;ve now pushed our code to GitHub. Now, let&rsquo;s go check it out. So, navigate to your repository on GitHub classroom, and refresh the page if needed to see your changes. For me, it now looks like this:</p>
-<p><a href="#R-image-b7b2084a3376c8ec8e913f8392754896" class="lightbox-link"><img alt="Python GitHub" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythongithub.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b7b2084a3376c8ec8e913f8392754896"><img alt="Python GitHub" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythongithub.png"></a></p>
+<p><a href="#R-image-315daf8dc8c6b968d2bb58c1f13a23a7" class="lightbox-link"><img alt="Python GitHub" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33pythongithub.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-315daf8dc8c6b968d2bb58c1f13a23a7"><img alt="Python GitHub" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33pythongithub.png"></a></p>
 <p>Now all of our code is visible on GitHub, and we can see our commit message next to all of the files that have changed. As we continue to make commits and push them to GitHub, we can use this website to explore the different versions of each file. In addition, the instructors for this course can explore your repository and help you resolve errors and assign grades based on your work here.</p>
 <p>At the end of this example project, you&rsquo;ll create a <strong>release</strong> on GitHub to signify that you are done with the assignment. We&rsquo;ll cover how to do that later in this example. For now, let&rsquo;s forge ahead and learn about unit tests.</p>
 
@@ -4045,12 +4055,12 @@ At this point, we’ve written some code for our application.">
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1727188821" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1727188821" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1727188821" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1727188821" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1727188821" defer></script>
-        <script src="/cc410/js/search.js?1727188821" defer></script>
+        <script src="/cc410/js/auto-complete.js?1727884552" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1727884552" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1727884552" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1727884552" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1727884552" defer></script>
+        <script src="/cc410/js/search.js?1727884552" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4292,7 +4302,8 @@ At this point, we’ve written some code for our application.">
           <li data-nav-id="/cc410/x-weekly-updates/week03/" class=""><a class="padding" href="/cc410/x-weekly-updates/week03/">3. Fall &#39;24 Week 3</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week04/" class=""><a class="padding" href="/cc410/x-weekly-updates/week04/">4. Fall &#39;24 Week 4</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week05/" class=""><a class="padding" href="/cc410/x-weekly-updates/week05/">5. Fall &#39;24 Week 5</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week06/" class=""><a class="padding" href="/cc410/x-weekly-updates/week06/">6. Fall &#39;24 Week 6</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week06/" class=""><a class="padding" href="/cc410/x-weekly-updates/week06/">6. Fall &#39;24 Week 6</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week07/" class=""><a class="padding" href="/cc410/x-weekly-updates/week07/">7. Fall &#39;24 Week 7</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class="parent "><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757" checked><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class="parent "><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" checked><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4459,8 +4470,8 @@ At this point, we’ve written some code for our application.">
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1727188821" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1727188821" defer></script>
-    <script src="/cc410/js/theme.js?1727188821" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1727884552" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1727884552" defer></script>
+    <script src="/cc410/js/theme.js?1727884552" defer></script>
   </body>
 </html>

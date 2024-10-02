@@ -1917,6 +1917,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3793,18 +3803,18 @@
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.print.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/tele.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/embed.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1727188760" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1727188774" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727188774" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1727188774" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1727188774" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727188774" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1727188774" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1727188774" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727188774" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1727188774" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1727188774" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1727188774" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1727188774" rel="stylesheet">
-    <link href="/cc410/css/print.css?1727188774" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1727188774"></script>
+    <link href="/cc410/images/favicon.ico?1727884491" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1727884505" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727884505" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1727884505" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1727884505" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727884505" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1727884505" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1727884505" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727884505" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1727884505" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1727884505" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1727884505" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1727884505" rel="stylesheet">
+    <link href="/cc410/css/print.css?1727884505" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1727884505"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3824,7 +3834,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1727188774" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1727884505" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/">
     <div id="R-body" class="default-animation">
@@ -3887,20 +3897,20 @@
 
 <p>You have probably used casting to convert numeric values from one type to another, i.e.:</p>
 
-<div class="tab-panel" data-tab-group="1ed7a509ac6f3e7cab0f721336035303">
+<div class="tab-panel" data-tab-group="83886dabb34d42100810b5bc0aa4cbec">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1ed7a509ac6f3e7cab0f721336035303','java')"
+      onclick="switchTab('83886dabb34d42100810b5bc0aa4cbec','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1ed7a509ac6f3e7cab0f721336035303','python')"
+      onclick="switchTab('83886dabb34d42100810b5bc0aa4cbec','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3928,20 +3938,20 @@ b: int = int(a)</code></pre></div></div>
 <p>Both of these are examples of an <strong>explicit cast</strong>, since we are explicitly stating the type that we&rsquo;d like to convert our existing value to.</p>
 <p>In some languages, we can also perform an <strong>implicit cast</strong>. This is where the compiler or interpreter changes the type of our value behind the scenes for us.</p>
 
-<div class="tab-panel" data-tab-group="66d12fc30611305c0d43e714635fefaa">
+<div class="tab-panel" data-tab-group="69a48ef576f943755eec767e3a9d929d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('66d12fc30611305c0d43e714635fefaa','java')"
+      onclick="switchTab('69a48ef576f943755eec767e3a9d929d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('66d12fc30611305c0d43e714635fefaa','python')"
+      onclick="switchTab('69a48ef576f943755eec767e3a9d929d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3977,20 +3987,20 @@ b: float = a + 2.5;</code></pre></div></div>
 <h2 id="checking-types">Checking Types</h2>
 <p>Both Java and Python include special methods for determining if a particular object is compatible with a certain type.</p>
 
-<div class="tab-panel" data-tab-group="1cf8650a80d345660908d9fe9580bd85">
+<div class="tab-panel" data-tab-group="64dff2aebce7b2dc63bc36088d459a92">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1cf8650a80d345660908d9fe9580bd85','java')"
+      onclick="switchTab('64dff2aebce7b2dc63bc36088d459a92','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1cf8650a80d345660908d9fe9580bd85','python')"
+      onclick="switchTab('64dff2aebce7b2dc63bc36088d459a92','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4064,12 +4074,12 @@ b: float = a + 2.5;</code></pre></div></div>
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1727188774" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1727188774" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1727188774" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1727188774" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1727188774" defer></script>
-        <script src="/cc410/js/search.js?1727188774" defer></script>
+        <script src="/cc410/js/auto-complete.js?1727884505" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1727884505" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1727884505" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1727884505" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1727884505" defer></script>
+        <script src="/cc410/js/search.js?1727884505" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4311,7 +4321,8 @@ b: float = a + 2.5;</code></pre></div></div>
           <li data-nav-id="/cc410/x-weekly-updates/week03/" class=""><a class="padding" href="/cc410/x-weekly-updates/week03/">3. Fall &#39;24 Week 3</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week04/" class=""><a class="padding" href="/cc410/x-weekly-updates/week04/">4. Fall &#39;24 Week 4</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week05/" class=""><a class="padding" href="/cc410/x-weekly-updates/week05/">5. Fall &#39;24 Week 5</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week06/" class=""><a class="padding" href="/cc410/x-weekly-updates/week06/">6. Fall &#39;24 Week 6</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week06/" class=""><a class="padding" href="/cc410/x-weekly-updates/week06/">6. Fall &#39;24 Week 6</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week07/" class=""><a class="padding" href="/cc410/x-weekly-updates/week07/">7. Fall &#39;24 Week 7</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4478,8 +4489,8 @@ b: float = a + 2.5;</code></pre></div></div>
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1727188774" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1727188774" defer></script>
-    <script src="/cc410/js/theme.js?1727188774" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1727884505" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1727884505" defer></script>
+    <script src="/cc410/js/theme.js?1727884505" defer></script>
   </body>
 </html>
