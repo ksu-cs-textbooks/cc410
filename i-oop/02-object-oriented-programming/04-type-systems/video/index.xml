@@ -3775,7 +3775,7 @@
   <channel>
     <title>Type Systems :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/04-type-systems/video/</link>
-    <description>YouTube Video Resources Slides Video Script Before we dive deeper into object-oriented programming, let’s go through a brief refresher about data types and type systems. You most likely learned about this in your first programming course, but at that time it probably didn’t make much sense since you were new to everything. However, now that you have some programming experience, you’ll be able to better understand these concepts and reframe your knowledge a bit.</description>
+    <description>Resources Slides Video Script Before we dive deeper into object-oriented programming, let’s go through a brief refresher about data types and type systems. You most likely learned about this in your first programming course, but at that time it probably didn’t make much sense since you were new to everything. However, now that you have some programming experience, you’ll be able to better understand these concepts and reframe your knowledge a bit.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Aug 2021 00:04:30 -0500</lastBuildDate>

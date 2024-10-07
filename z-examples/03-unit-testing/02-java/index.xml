@@ -3775,7 +3775,7 @@
   <channel>
     <title>Java :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-java/</link>
-    <description>YouTube Video Resources JUnit 5 Assertions Hamcrest Matchers Gradle Changes In the build.gradle file, the JUnit 5 parameters library was added:&#xA;dependencies { // Use JUnit Jupiter API for testing. testImplementation &#39;org.junit.jupiter:junit-jupiter-api:5.6.2&#39;, &#39;org.hamcrest:hamcrest:2.2&#39;, &#39;org.junit.jupiter:junit-jupiter-params&#39; // Use JUnit Jupiter Engine for testing. testRuntimeOnly &#39;org.junit.jupiter:junit-jupiter-engine&#39; // This dependency is used by the application. implementation &#39;com.google.guava:guava:29.0-jre&#39; } Also, we added a quick section at the bottom to allow Gradle tasks to read input from System.</description>
+    <description>Resources JUnit 5 Assertions Hamcrest Matchers Gradle Changes In the build.gradle file, the JUnit 5 parameters library was added:&#xA;dependencies { // Use JUnit Jupiter API for testing. testImplementation &#39;org.junit.jupiter:junit-jupiter-api:5.6.2&#39;, &#39;org.hamcrest:hamcrest:2.2&#39;, &#39;org.junit.jupiter:junit-jupiter-params&#39; // Use JUnit Jupiter Engine for testing. testRuntimeOnly &#39;org.junit.jupiter:junit-jupiter-engine&#39; // This dependency is used by the application. implementation &#39;com.google.guava:guava:29.0-jre&#39; } Also, we added a quick section at the bottom to allow Gradle tasks to read input from System.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/03-unit-testing/02-java/index.xml" rel="self" type="application/rss+xml" />

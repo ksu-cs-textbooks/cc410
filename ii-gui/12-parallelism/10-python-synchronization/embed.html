@@ -3807,21 +3807,21 @@ import threading import time import sys class MyData: def __init__(self): self.x
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.xml" rel="alternate" type="application/rss+xml" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.print.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/tele.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1727884491" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1728327425" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1727884573" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727884573" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1727884573" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1727884573" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727884573" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1727884573" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1727884573" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727884573" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1727884573" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1728327508" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1728327508" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1728327508" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1728327508" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1728327508" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1728327508" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1728327508" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1728327508" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1728327508" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1727884573" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1727884573" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1727884573" rel="stylesheet">
-  <link href="/cc410/css/print.css?1727884573" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1728327508" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1728327508" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1728327508" rel="stylesheet">
+  <link href="/cc410/css/print.css?1728327508" rel="stylesheet" media="print">
   
   
   
@@ -3844,7 +3844,7 @@ import threading import time import sys class MyData: def __init__(self): self.x
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1727884573" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1728327508" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/10-python-synchronization/embed.html">
@@ -3931,8 +3931,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 <p>In effect, this is essentially the Python code needed to reproduce the example we saw earlier in this class.</p>
 <h4 id="execution">Execution</h4>
 <p>So, what happens when we run this code? As it turns out, sometimes we&rsquo;ll see it get a different result than the one we expect:</p>
-<p><a href="#R-image-7b26cb9c6795dd07b5986852558028c5" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7b26cb9c6795dd07b5986852558028c5"><img alt="Race Condition in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
+<p><a href="#R-image-aa87e7ae1a9b27bed08ff7b799a0d365" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-aa87e7ae1a9b27bed08ff7b799a0d365"><img alt="Race Condition in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
 <p>Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into <code>data.x</code>, which means that they were running at the same time.</p>
 <h2 id="python-lock">Python Lock</h2>
 <p>To fix this, Python includes a <strong>lock</strong> that we can use as part of a <code>with</code> statement, which is simply a wrapper around a block of code that we&rsquo;d like to be <strong>atomic</strong>. An atomic block is one that shouldn&rsquo;t be broken apart and interrupted by other threads accessing the same object. In effect, using a <code>with</code> statement along with a lock will handle acquiring and releasing the lock for us.</p>
@@ -3951,8 +3951,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 </span></span><span class="line"><span class="cl">                <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">{}</span><span class="s2"> : data.x = </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__name</span><span class="p">,</span> <span class="n">MyThread</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">x</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></span></span></code></pre></div><p>Here, the <code>with</code> statement acquires the <strong>lock</strong> that is associated with the <code>data</code> object in the <code>MyThread</code> class. Only one thread can hold that lock at a time, and by associating it with an object, we can easily keep track of which thread is able to access that object.</p>
 <p>Now, when we execute that program, we&rsquo;ll always get the correct answer!</p>
-<p><a href="#R-image-4558316226cada7397392374d088546e" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4558316226cada7397392374d088546e"><img alt="Synchronized in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
+<p><a href="#R-image-fcb34b003042b6143c017f3d20e66afa" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fcb34b003042b6143c017f3d20e66afa"><img alt="Synchronized in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
 
   
   
@@ -3977,10 +3977,10 @@ import threading import time import sys class MyData: def __init__(self): self.x
 
 
 
-<script src="/cc410/js/clipboard.min.js?1727884573" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1727884573" defer></script>
-<script src="/cc410/js/theme.js?1727884573" defer></script>
+<script src="/cc410/js/clipboard.min.js?1728327508" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1728327508" defer></script>
+<script src="/cc410/js/theme.js?1728327508" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1727884573" defer></script>
+<script src="/cc410/js/embed-iframe.js?1728327508" defer></script>
 </body>
 </html>

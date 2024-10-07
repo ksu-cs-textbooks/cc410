@@ -3805,21 +3805,21 @@ Iterator Pattern The first pattern is the iterator pattern. The iterator pattern
     <link href="/cc410/i-oop/09-design-patterns/07-iterator/index.xml" rel="alternate" type="application/rss+xml" title="Iterator Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/07-iterator/index.print.html" rel="alternate" type="text/html" title="Iterator Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/07-iterator/tele.html" rel="alternate" type="text/html" title="Iterator Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1727884491" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1728327425" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1727884569" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1727884569" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1727884569" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1727884569" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1727884569" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1727884569" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1727884569" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1727884569" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1727884569" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1728327505" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1728327505" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1728327505" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1728327505" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1728327505" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1728327505" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1728327505" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1728327505" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1728327505" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1727884569" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1727884569" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1727884569" rel="stylesheet">
-  <link href="/cc410/css/print.css?1727884569" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1728327505" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1728327505" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1728327505" rel="stylesheet">
+  <link href="/cc410/css/print.css?1728327505" rel="stylesheet" media="print">
   
   
   
@@ -3842,7 +3842,7 @@ Iterator Pattern The first pattern is the iterator pattern. The iterator pattern
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1727884569" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1728327505" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/09-design-patterns/07-iterator/embed.html">
@@ -3868,26 +3868,26 @@ Iterator Pattern The first pattern is the iterator pattern. The iterator pattern
 <p>Let&rsquo;s review three other commonly used software design patterns. These are either patterns that we&rsquo;ve seen before, or ones that we might end up using soon in our code.</p>
 <h2 id="iterator-pattern">Iterator Pattern</h2>
 <p>The first pattern is the <strong>iterator pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Iterator_pattern" rel="external" target="_blank">iterator pattern</a> is a behavioral pattern that is used to traverse through a collection of objects stored in a container. We explored this pattern in several of the data structures introduced in earlier data structures courses such as CC 310 and CC 315, as well as CIS 300.</p>
-<p><a href="#R-image-233a4da3770cb4ad02012569cb68e407" class="lightbox-link"><img alt="Iterator Pattern Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/iterator.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-233a4da3770cb4ad02012569cb68e407"><img alt="Iterator Pattern Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/iterator.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-1332a41392e60599efa959ab2045dfd9" class="lightbox-link"><img alt="Iterator Pattern Diagram" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/iterator.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1332a41392e60599efa959ab2045dfd9"><img alt="Iterator Pattern Diagram" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/iterator.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In it&rsquo;s simplest form, the iterator pattern simply includes a <code>hasNext()</code> and <code>next()</code> method, though many implementations may also include a way to reset the iterator back to the beginning of the collection.</p>
 <p>Classes that use the iterator can use the <code>hasNext()</code> method to determine if there are additional elements in the collection, and then the <code>next()</code> method is used to actually access that element.</p>
 <p>In the examples below, we&rsquo;ll rely on the built-in collection classes in Java and Python to provide their own iterators, but if we must write our own collection class that doesn&rsquo;t use the built-in ones, we can easily develop our own iterators using documentation found online.</p>
 
-<div class="tab-panel" data-tab-group="84a10262fa4154a2fa6605a051a64282">
+<div class="tab-panel" data-tab-group="4421ffa0e19897b3ca7951aa43d5444d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('84a10262fa4154a2fa6605a051a64282','java')"
+      onclick="switchTab('4421ffa0e19897b3ca7951aa43d5444d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('84a10262fa4154a2fa6605a051a64282','python')"
+      onclick="switchTab('4421ffa0e19897b3ca7951aa43d5444d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3998,10 +3998,10 @@ Iterator Pattern The first pattern is the iterator pattern. The iterator pattern
 
 
 
-<script src="/cc410/js/clipboard.min.js?1727884569" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1727884569" defer></script>
-<script src="/cc410/js/theme.js?1727884569" defer></script>
+<script src="/cc410/js/clipboard.min.js?1728327505" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1728327505" defer></script>
+<script src="/cc410/js/theme.js?1728327505" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1727884569" defer></script>
+<script src="/cc410/js/embed-iframe.js?1728327505" defer></script>
 </body>
 </html>

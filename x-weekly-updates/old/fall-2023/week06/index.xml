@@ -3775,7 +3775,7 @@
   <channel>
     <title>Fall &#39;23 Week 6 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2023/week06/</link>
-    <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the week six announcements video for CC410 in fall 2023. So this week you should be wrapping up the example on debugging and logging and also an example around Lambda Expressions. You’ll be working on the third restaurant milestone, which is quite a big one where we add some inheritance and polymorphism in your project. And you should also now be following all of the guidelines regarding style checking, unit testing, type checking, all of that.</description>
+    <description>Resources Slides Edited Transcript Hello and welcome to the week six announcements video for CC410 in fall 2023. So this week you should be wrapping up the example on debugging and logging and also an example around Lambda Expressions. You’ll be working on the third restaurant milestone, which is quite a big one where we add some inheritance and polymorphism in your project. And you should also now be following all of the guidelines regarding style checking, unit testing, type checking, all of that.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2023/week06/index.xml" rel="self" type="application/rss+xml" />

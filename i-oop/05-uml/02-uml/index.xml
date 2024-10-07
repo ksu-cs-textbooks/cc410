@@ -3775,7 +3775,7 @@
   <channel>
     <title>UML :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/02-uml/</link>
-    <description>YouTube Video Video Materials&#xA;1&#xA;Unified Modeling Language (UML) was introduced to create a standardized way of visualizing a software system design. It was developed by Grady Booch, Ivar Jacobson, and James Rumbah at Rational Software in the mid-nineties. It was adopted as a standard by the Object Management Group in 1997, and also by the International Organization for Standardization (ISO) as an approved ISO standard in 2005.&#xA;The UML standard actually provides many different kinds of diagrams for describing a software system - both structure and behavior:</description>
+    <description>Video Materials&#xA;1&#xA;Unified Modeling Language (UML) was introduced to create a standardized way of visualizing a software system design. It was developed by Grady Booch, Ivar Jacobson, and James Rumbah at Rational Software in the mid-nineties. It was adopted as a standard by the Object Management Group in 1997, and also by the International Organization for Standardization (ISO) as an approved ISO standard in 2005.&#xA;The UML standard actually provides many different kinds of diagrams for describing a software system - both structure and behavior:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/02-uml/index.xml" rel="self" type="application/rss+xml" />
