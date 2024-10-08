@@ -1927,6 +1927,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3778,7 +3788,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Oct 2024 10:53:22 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 09:29:12 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;24 Week 1</title>
@@ -3828,6 +3838,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the Week 7 Announcements video for CC410 in Fall 2024. This week, you should be working on a Restaurant Milestone all about adding test doubles, which allows us to add mock or fake objects into our unit tests so that we can better test those design patterns that we’ve been working on. This really allows us to write more powerful and more expressive unit tests, which are really useful for actually measuring how we’re going to use our project in the future.</description>
+    </item>
+    <item>
+      <title>Fall &#39;24 Week 8</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the Week 8 announcements video for CC410 in fall 2024. This week you should be wrapping up the module on test doubles. You should have also scheduled a meeting with me for your second final project milestone where we’ll talk a little bit more about final project ideas. And hopefully you should have also completed the first concept quiz, which goes over some of the big concepts in this class.</description>
     </item>
   </channel>
 </rss>
