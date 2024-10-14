@@ -1937,6 +1937,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3785,7 +3795,7 @@
   <channel>
     <title>Builder Pattern :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/04-builder/</link>
-    <description>Video Materials&#xA;The first pattern we’ll look at is the builder pattern. The builder pattern is used to simplify building complex objects, where the class that needs the object shouldn’t have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.</description>
+    <description>YouTube Video Video Materials&#xA;The first pattern we’ll look at is the builder pattern. The builder pattern is used to simplify building complex objects, where the class that needs the object shouldn’t have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/04-builder/index.xml" rel="self" type="application/rss+xml" />

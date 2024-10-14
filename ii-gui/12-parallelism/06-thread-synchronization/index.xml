@@ -1937,6 +1937,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3785,7 +3795,7 @@
   <channel>
     <title>Thread Synchronization :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/06-thread-synchronization/</link>
-    <description>Video Materials&#xA;To deal with race conditions, we have to somehow synchronize our threads so that only one is able to update the value of a shared variable at once. There are many ways to do this, and they all fit under the banner of thread synchronization.&#xA;Locks The simplest way to do this is via a special programming construct called a lock. A lock can be thought of as a single object in memory that, when a thread has acquired the lock, it can access the shared memory protected by the lock.</description>
+    <description>YouTube Video Video Materials&#xA;To deal with race conditions, we have to somehow synchronize our threads so that only one is able to update the value of a shared variable at once. There are many ways to do this, and they all fit under the banner of thread synchronization.&#xA;Locks The simplest way to do this is via a special programming construct called a lock. A lock can be thought of as a single object in memory that, when a thread has acquired the lock, it can access the shared memory protected by the lock.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/06-thread-synchronization/index.xml" rel="self" type="application/rss+xml" />

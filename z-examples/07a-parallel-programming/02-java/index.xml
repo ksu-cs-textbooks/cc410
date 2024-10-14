@@ -1937,6 +1937,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3785,7 +3795,7 @@
   <channel>
     <title>Java :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/07a-parallel-programming/02-java/</link>
-    <description>Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; java Update ParallelOne to use 4 threads.&#xA;Take a screenshot showing a race condition.&#xA;Update ParallelOne to use a lock.&#xA;Take a screenshot showing no race condition.&#xA;Update ParallelTwo to use blocking and an arbitrary number of threads.&#xA;Run several times with different number of threads (1 - 10) and graph results.</description>
+    <description>YouTube Video Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; java Update ParallelOne to use 4 threads.&#xA;Take a screenshot showing a race condition.&#xA;Update ParallelOne to use a lock.&#xA;Take a screenshot showing no race condition.&#xA;Update ParallelTwo to use blocking and an arbitrary number of threads.&#xA;Run several times with different number of threads (1 - 10) and graph results.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/07a-parallel-programming/02-java/index.xml" rel="self" type="application/rss+xml" />

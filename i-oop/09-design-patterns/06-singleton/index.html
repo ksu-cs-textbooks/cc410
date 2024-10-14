@@ -1937,6 +1937,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3809,18 +3819,18 @@
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/index.print.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/tele.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/embed.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1728397834" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1728397852" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1728397852" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1728397852" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1728397852" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1728397852" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1728397852" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1728397852" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1728397852" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1728397852" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1728397852" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1728397852" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1728397852" rel="stylesheet">
-    <link href="/cc410/css/print.css?1728397852" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1728397852"></script>
+    <link href="/cc410/images/favicon.ico?1728927966" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1728927984" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1728927984" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1728927984" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1728927984" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1728927984" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1728927984" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1728927984" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1728927984" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1728927984" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1728927984" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1728927984" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1728927984" rel="stylesheet">
+    <link href="/cc410/css/print.css?1728927984" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1728927984"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3840,7 +3850,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1728397852" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1728927984" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/i-oop/09-design-patterns/06-singleton/">
     <div id="R-body" class="default-animation">
@@ -3906,27 +3916,27 @@
 <h1 id="singleton-pattern">Singleton Pattern</h1>
 
 <p>Finally, let&rsquo;s look at one other common creational pattern: the <strong>singleton pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Singleton_pattern" rel="external" target="_blank">singleton pattern</a> is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simply get a <strong>reference</strong> to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.</p>
-<p><a href="#R-image-0ce94a526e8e3a196e0e06ad2cfd3ccb" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ce94a526e8e3a196e0e06ad2cfd3ccb"><img alt="Singleton UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-6d80b243b1e4de6da36f963a2dc07015" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6d80b243b1e4de6da36f963a2dc07015"><img alt="Singleton UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram for the singleton pattern is super simple. The class implementing the singleton pattern simply defines a private constructor, making sure that no other class can construct it. Instead, it stores a static reference to a single instance of itself, and includes a <code>get</code> method to access that single instance.</p>
 <p>Let&rsquo;s look at how this could work in our ongoing example.</p>
 <h3 id="singleton-factory">Singleton Factory</h3>
 <p>Let&rsquo;s update our <code>DeckFactory</code> class to use the singleton pattern.</p>
 
-<div class="tab-panel" data-tab-group="c6c34117431a211b98791115950a412b">
+<div class="tab-panel" data-tab-group="f23638562ba21020fc92d9689213a1bb">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c6c34117431a211b98791115950a412b','java')"
+      onclick="switchTab('f23638562ba21020fc92d9689213a1bb','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c6c34117431a211b98791115950a412b','python')"
+      onclick="switchTab('f23638562ba21020fc92d9689213a1bb','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4006,20 +4016,20 @@
 <h3 id="using-a-singleton">Using a Singleton</h3>
 <p>Now we can update our main method code to use our singleton <code>DeckFactory</code> instance instead of creating one when it is needed:</p>
 
-<div class="tab-panel" data-tab-group="301d5e3105bcee264e9f46507fde7779">
+<div class="tab-panel" data-tab-group="8192f822650f68225bc10c54eebe6b24">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('301d5e3105bcee264e9f46507fde7779','java')"
+      onclick="switchTab('8192f822650f68225bc10c54eebe6b24','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('301d5e3105bcee264e9f46507fde7779','python')"
+      onclick="switchTab('8192f822650f68225bc10c54eebe6b24','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4115,12 +4125,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1728397852" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1728397852" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1728397852" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1728397852" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1728397852" defer></script>
-        <script src="/cc410/js/search.js?1728397852" defer></script>
+        <script src="/cc410/js/auto-complete.js?1728927984" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1728927984" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1728927984" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1728927984" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1728927984" defer></script>
+        <script src="/cc410/js/search.js?1728927984" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4364,7 +4374,8 @@
           <li data-nav-id="/cc410/x-weekly-updates/week05/" class=""><a class="padding" href="/cc410/x-weekly-updates/week05/">5. Fall &#39;24 Week 5</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week06/" class=""><a class="padding" href="/cc410/x-weekly-updates/week06/">6. Fall &#39;24 Week 6</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week07/" class=""><a class="padding" href="/cc410/x-weekly-updates/week07/">7. Fall &#39;24 Week 7</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week08/" class=""><a class="padding" href="/cc410/x-weekly-updates/week08/">8. Fall &#39;24 Week 8</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week08/" class=""><a class="padding" href="/cc410/x-weekly-updates/week08/">8. Fall &#39;24 Week 8</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week09/" class=""><a class="padding" href="/cc410/x-weekly-updates/week09/">9. Fall &#39;24 Week 9</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4531,8 +4542,8 @@
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1728397852" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1728397852" defer></script>
-    <script src="/cc410/js/theme.js?1728397852" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1728927984" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1728927984" defer></script>
+    <script src="/cc410/js/theme.js?1728927984" defer></script>
   </body>
 </html>

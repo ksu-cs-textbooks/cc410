@@ -1937,6 +1937,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3785,7 +3795,7 @@
   <channel>
     <title>Spring &#39;23 Week 9 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2023/week09/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week nine Announcements video for CC 410 In spring 2023. This week we’re going to go through a couple of different examples. The first one is about parallel programming, which is an important concept for us to learn when working with user interfaces. We’ll also do an example around event driven programming, which allows us to make our interfaces interactive. And then finally, we’ll have another milestone for the restaurant project.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week nine Announcements video for CC 410 In spring 2023. This week we’re going to go through a couple of different examples. The first one is about parallel programming, which is an important concept for us to learn when working with user interfaces. We’ll also do an example around event driven programming, which allows us to make our interfaces interactive.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2023/week09/index.xml" rel="self" type="application/rss+xml" />
