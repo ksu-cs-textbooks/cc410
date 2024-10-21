@@ -32,4 +32,4 @@ To update the Hugo version, install a new version locally for testing and also u
 
 ## Questions?
 
-Contact [Russell Feldhausen](https://russfeld.me) - russfeld@ksu.edu
+Contact [Russell Feldhausen](https://russfeld.me) - russfeld@ksu.edu.
