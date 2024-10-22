@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3812,21 +3822,21 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/02-types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/02-types/</guid>
-      <description>YouTube Video Video Materials&#xA;Before we can discuss polymorphism in detail, we must first understand the concept of types. In computer science, a type is a way of categorizing a variable by its storage strategy, i.e., how it is represented in the computer’s memory. It also defines how the value can be treated and what operations can be performed on it.&#xA;You’ve already used types extensively in your programming up to this point.</description>
+      <description>Video Materials&#xA;Before we can discuss polymorphism in detail, we must first understand the concept of types. In computer science, a type is a way of categorizing a variable by its storage strategy, i.e., how it is represented in the computer’s memory. It also defines how the value can be treated and what operations can be performed on it.&#xA;You’ve already used types extensively in your programming up to this point.</description>
     </item>
     <item>
       <title>Interfaces</title>
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/</guid>
-      <description>YouTube Video Video Materials&#xA;If we think back to the concept of message passing in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an interface, i.e., a list of messages you can dispatch to an object created from that class. When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language’s documentation:</description>
+      <description>Video Materials&#xA;If we think back to the concept of message passing in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an interface, i.e., a list of messages you can dispatch to an object created from that class. When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language’s documentation:</description>
     </item>
     <item>
       <title>Java Interfaces</title>
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/04-java-interfaces/</guid>
-      <description>YouTube Video Video Materials&#xA;The Java programming language includes direct support for the creation of interfaces via the interface keyword. We’ve already seen one example of an interface created in Java, but let’s look at another example and dissect it a bit.&#xA;Interface Example Here is a simple interface for a set of classes that are based on the Collection interface in Java 8:&#xA;public interface IMyCollection { int size(); boolean isEmpty(); boolean add(Object o); boolean remove(int i); Object get(int i); boolean contains(Object o); } You may also review the full Collection interface source code from the OpenJDK library.</description>
+      <description>Video Materials&#xA;The Java programming language includes direct support for the creation of interfaces via the interface keyword. We’ve already seen one example of an interface created in Java, but let’s look at another example and dissect it a bit.&#xA;Interface Example Here is a simple interface for a set of classes that are based on the Collection interface in Java 8:&#xA;public interface IMyCollection { int size(); boolean isEmpty(); boolean add(Object o); boolean remove(int i); Object get(int i); boolean contains(Object o); } You may also review the full Collection interface source code from the OpenJDK library.</description>
     </item>
     <item>
       <title>Java Inheritance</title>
@@ -3840,7 +3850,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/06-python-interfaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/06-python-interfaces/</guid>
-      <description>YouTube Video Video Materials&#xA;The Python programming language doesn’t include direct support for interfaces in the same way as other object-oriented programming languages. However, it is possible to construct the same functionality in Python with just a little bit of work. For the full context, check out Implementing in Interface in Python from Real Python. It includes a much deeper discussion of the different aspects of this code and why we use it.</description>
+      <description>Video Materials&#xA;The Python programming language doesn’t include direct support for interfaces in the same way as other object-oriented programming languages. However, it is possible to construct the same functionality in Python with just a little bit of work. For the full context, check out Implementing in Interface in Python from Real Python. It includes a much deeper discussion of the different aspects of this code and why we use it.</description>
     </item>
     <item>
       <title>Python Inheritance</title>
@@ -3861,7 +3871,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/</guid>
-      <description>YouTube Video Video Materials&#xA;The term dispatch refers to how a language decides which polymorphic operation (a method or function) a message should trigger.&#xA;Consider polymorphic functions in Java, also known as method overloading, where multiple methods use the same name but have different parameters. Here’s an example for calculating the rounded sum of an array of numbers:&#xA;Java public int roundedSum(int[] a){ int sum = 0; for (int i : a) { sum += i; } return sum } public int roundedSum(double[] a){ double sum = 0; for (double i : a) { sum += i; } return Math.</description>
+      <description>Video Materials&#xA;The term dispatch refers to how a language decides which polymorphic operation (a method or function) a message should trigger.&#xA;Consider polymorphic functions in Java, also known as method overloading, where multiple methods use the same name but have different parameters. Here’s an example for calculating the rounded sum of an array of numbers:&#xA;Java public int roundedSum(int[] a){ int sum = 0; for (int i : a) { sum += i; } return sum } public int roundedSum(double[] a){ double sum = 0; for (double i : a) { sum += i; } return Math.</description>
     </item>
     <item>
       <title>Summary</title>

@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3795,7 +3805,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/08-gui-basics/02-python/</link>
-    <description>YouTube Video Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.&#xA;Create New GUI Classes. Continuously commit to Git as changes are made!&#xA;Update Main.py to use new GUI.</description>
+    <description>Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.&#xA;Create New GUI Classes. Continuously commit to Git as changes are made!&#xA;Update Main.py to use new GUI.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/08-gui-basics/02-python/index.xml" rel="self" type="application/rss+xml" />

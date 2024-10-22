@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3795,7 +3805,7 @@
   <channel>
     <title>Web Frameworks :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/09-web-frameworks/</link>
-    <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;As web sites became web applications, developers began looking to use ideas and techniques drawn from traditional software development. These included architectural patterns like Model-View-Controller (MVC) and Pipeline that simply were not possible with the server page model.</description>
+    <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;As web sites became web applications, developers began looking to use ideas and techniques drawn from traditional software development. These included architectural patterns like Model-View-Controller (MVC) and Pipeline that simply were not possible with the server page model.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/09-web-frameworks/index.xml" rel="self" type="application/rss+xml" />

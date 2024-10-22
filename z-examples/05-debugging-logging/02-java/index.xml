@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3795,7 +3805,7 @@
   <channel>
     <title>Java :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-java/</link>
-    <description>YouTube Video Resources Codio Debugger Java Logging API Tutorial Configuring Codio Debugger Make sure the application section of build.gradle is set to the correct application.&#xA;Can copy unit test code to a test main function for testing. Codio doesn’t have a good way to individually debug a single unit test, but some IDEs do.&#xA;Gradle Changes Added entries in the application section for both programs. Can comment/uncomment as needed.</description>
+    <description>Resources Codio Debugger Java Logging API Tutorial Configuring Codio Debugger Make sure the application section of build.gradle is set to the correct application.&#xA;Can copy unit test code to a test main function for testing. Codio doesn’t have a good way to individually debug a single unit test, but some IDEs do.&#xA;Gradle Changes Added entries in the application section for both programs. Can comment/uncomment as needed.&#xA;application { // Define the main class for the application.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-java/index.xml" rel="self" type="application/rss+xml" />

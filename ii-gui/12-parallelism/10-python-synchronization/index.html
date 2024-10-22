@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3827,18 +3837,18 @@ import threading import time import sys class MyData: def __init__(self): self.x
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.print.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/tele.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/embed.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1729517008" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1729517031" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1729517031" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1729517031" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1729517031" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1729517031" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1729517031" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1729517031" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1729517031" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1729517031" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1729517031" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1729517031" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1729517031" rel="stylesheet">
-    <link href="/cc410/css/print.css?1729517031" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1729517031"></script>
+    <link href="/cc410/images/favicon.ico?1729609836" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1729609847" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1729609847" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1729609847" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1729609847" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1729609847" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1729609847" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1729609847" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1729609847" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1729609847" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1729609847" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1729609847" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1729609847" rel="stylesheet">
+    <link href="/cc410/css/print.css?1729609847" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1729609847"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3858,7 +3868,7 @@ import threading import time import sys class MyData: def __init__(self): self.x
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1729517031" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1729609847" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/10-python-synchronization/">
     <div id="R-body" class="default-animation">
@@ -3993,8 +4003,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 <p>In effect, this is essentially the Python code needed to reproduce the example we saw earlier in this class.</p>
 <h4 id="execution">Execution</h4>
 <p>So, what happens when we run this code? As it turns out, sometimes we&rsquo;ll see it get a different result than the one we expect:</p>
-<p><a href="#R-image-4aafca611e684da708a4f2dbea13c725" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4aafca611e684da708a4f2dbea13c725"><img alt="Race Condition in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
+<p><a href="#R-image-b3879202f03da3728d58daa7db2952e2" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b3879202f03da3728d58daa7db2952e2"><img alt="Race Condition in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
 <p>Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into <code>data.x</code>, which means that they were running at the same time.</p>
 <h2 id="python-lock">Python Lock</h2>
 <p>To fix this, Python includes a <strong>lock</strong> that we can use as part of a <code>with</code> statement, which is simply a wrapper around a block of code that we&rsquo;d like to be <strong>atomic</strong>. An atomic block is one that shouldn&rsquo;t be broken apart and interrupted by other threads accessing the same object. In effect, using a <code>with</code> statement along with a lock will handle acquiring and releasing the lock for us.</p>
@@ -4013,8 +4023,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 </span></span><span class="line"><span class="cl">                <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="si">{}</span><span class="s2"> : data.x = </span><span class="si">{}</span><span class="s2">&#34;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__name</span><span class="p">,</span> <span class="n">MyThread</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">x</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span></span></span></code></pre></div><p>Here, the <code>with</code> statement acquires the <strong>lock</strong> that is associated with the <code>data</code> object in the <code>MyThread</code> class. Only one thread can hold that lock at a time, and by associating it with an object, we can easily keep track of which thread is able to access that object.</p>
 <p>Now, when we execute that program, we&rsquo;ll always get the correct answer!</p>
-<p><a href="#R-image-bbd213ba3479f5b01a08f915d4317092" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bbd213ba3479f5b01a08f915d4317092"><img alt="Synchronized in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
+<p><a href="#R-image-06a85379dd85b61e4e19574f1599df01" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06a85379dd85b61e4e19574f1599df01"><img alt="Synchronized in Python" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
 
   
   
@@ -4069,12 +4079,12 @@ import threading import time import sys class MyData: def __init__(self): self.x
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1729517031" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1729517031" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1729517031" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1729517031" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1729517031" defer></script>
-        <script src="/cc410/js/search.js?1729517031" defer></script>
+        <script src="/cc410/js/auto-complete.js?1729609847" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1729609847" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1729609847" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1729609847" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1729609847" defer></script>
+        <script src="/cc410/js/search.js?1729609847" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4319,7 +4329,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
           <li data-nav-id="/cc410/x-weekly-updates/week06/" class=""><a class="padding" href="/cc410/x-weekly-updates/week06/">6. Fall &#39;24 Week 6</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week07/" class=""><a class="padding" href="/cc410/x-weekly-updates/week07/">7. Fall &#39;24 Week 7</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week08/" class=""><a class="padding" href="/cc410/x-weekly-updates/week08/">8. Fall &#39;24 Week 8</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week09/" class=""><a class="padding" href="/cc410/x-weekly-updates/week09/">9. Fall &#39;24 Week 9</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week09/" class=""><a class="padding" href="/cc410/x-weekly-updates/week09/">9. Fall &#39;24 Week 9</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week10/" class=""><a class="padding" href="/cc410/x-weekly-updates/week10/">10. Fall &#39;24 Week 10</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4486,8 +4497,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1729517031" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1729517031" defer></script>
-    <script src="/cc410/js/theme.js?1729517031" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1729609847" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1729609847" defer></script>
+    <script src="/cc410/js/theme.js?1729609847" defer></script>
   </body>
 </html>

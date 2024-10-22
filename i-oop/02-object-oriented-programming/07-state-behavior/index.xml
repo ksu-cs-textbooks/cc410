@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3795,7 +3805,7 @@
   <channel>
     <title>State and Behavior :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/07-state-behavior/</link>
-    <description>YouTube Video Video Materials&#xA;The data stored in a program at any given moment (in the form of variables, objects, etc.) is the state of the program. Consider a variable:&#xA;int a = 5; The state of the variable a after this line is 5. If we then run:&#xA;a = a * 3; The state is now 15. Consider the Vector3 struct we defined earlier. If we create an instance of that struct in the variable b:</description>
+    <description>Video Materials&#xA;The data stored in a program at any given moment (in the form of variables, objects, etc.) is the state of the program. Consider a variable:&#xA;int a = 5; The state of the variable a after this line is 5. If we then run:&#xA;a = a * 3; The state is now 15. Consider the Vector3 struct we defined earlier. If we create an instance of that struct in the variable b:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/07-state-behavior/index.xml" rel="self" type="application/rss+xml" />

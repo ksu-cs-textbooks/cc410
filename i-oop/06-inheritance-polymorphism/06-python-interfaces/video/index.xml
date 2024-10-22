@@ -1947,6 +1947,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3795,7 +3805,7 @@
   <channel>
     <title>Python Inheritance :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/06-python-interfaces/video/</link>
-    <description>YouTube Video Resources Slides Video Script Let’s review inheritance in the Python programming language. First, we’ll look at interfaces. Python doesn’t include a special type of class for interfaces like many other object-oriented programming languages, but we can achieve the same effect with a few neat coding tricks. First, in our interface class, we’ll set the metaclass to be abc.ABCMeta. This allows us to perform a couple of neat metaprogramming tricks to make sure any class that uses this interface is inheriting the correct methods.</description>
+    <description>Resources Slides Video Script Let’s review inheritance in the Python programming language. First, we’ll look at interfaces. Python doesn’t include a special type of class for interfaces like many other object-oriented programming languages, but we can achieve the same effect with a few neat coding tricks. First, in our interface class, we’ll set the metaclass to be abc.ABCMeta. This allows us to perform a couple of neat metaprogramming tricks to make sure any class that uses this interface is inheriting the correct methods.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Aug 2021 16:38:27 -0500</lastBuildDate>
