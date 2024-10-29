@@ -1957,6 +1957,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3833,19 +3843,19 @@ In most modern operating systems, a process can be further divided into threads,
     <link href="/cc410/ii-gui/12-parallelism/03-threads/index.xml" rel="alternate" type="application/rss+xml" title="Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/03-threads/tele.html" rel="alternate" type="text/html" title="Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/03-threads/embed.html" rel="alternate" type="text/html" title="Threads :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1729609836" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1729609894" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1729609894" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1729609894" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1729609894" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1729609894" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1729609894" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1729609894" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1729609894" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1729609894" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1729609894" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1729609894" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1729609894" rel="stylesheet">
-    <link href="/cc410/css/print.css?1729609894" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1729609894" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1729609894"></script>
+    <link href="/cc410/images/favicon.ico?1730212079" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1730212137" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730212137" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1730212137" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1730212137" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730212137" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1730212137" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1730212137" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730212137" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1730212137" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1730212137" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1730212137" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1730212137" rel="stylesheet">
+    <link href="/cc410/css/print.css?1730212137" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1730212137" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1730212137"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3865,7 +3875,7 @@ In most modern operating systems, a process can be further divided into threads,
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1729609894" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1730212137" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/03-threads/">
     <div id="R-body" class="default-animation">
@@ -3899,8 +3909,8 @@ In most modern operating systems, a process can be further divided into threads,
 
 <h1 id="threads">Threads</h1>
 
-<p><a href="#R-image-4aa3c22557b67b4f877ac8ac676ef00a" class="lightbox-link"><img alt="Thread" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4aa3c22557b67b4f877ac8ac676ef00a"><img alt="Thread" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-3f8a64f1f0451877d5131dd7dfb38f0c" class="lightbox-link"><img alt="Thread" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3f8a64f1f0451877d5131dd7dfb38f0c"><img alt="Thread" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In most modern operating systems, a process can be further divided into <strong>threads</strong>, which are individual sequences of instructions that the program can follow. A great way to think of a thread is an individual line of code that you can trace through your program, starting at the beginning and going all the way to the end. Up to this point, we&rsquo;ve only written programs that contain a single thread, so you should only be able to trace a single line of code all the way through the program.</p>
 <p>However, it is possible for our program to create multiple threads, and then have them appear to run simultaneously. Of course, as we said before, they may not actually run simultaneously, especially on a computer with only a single processing core. It is all left up to the scheduler in the operating system to determine how these threads are actually scheduled and executed.</p>
 
@@ -3952,8 +3962,8 @@ In most modern operating systems, a process can be further divided into threads,
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1729609894" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1729609894" defer></script>
-    <script src="/cc410/js/theme.js?1729609894" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1730212137" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1730212137" defer></script>
+    <script src="/cc410/js/theme.js?1730212137" defer></script>
   </body>
 </html>

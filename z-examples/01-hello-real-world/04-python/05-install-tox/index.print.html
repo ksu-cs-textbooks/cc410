@@ -1957,6 +1957,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3833,19 +3843,19 @@ Tox tox is a tool that is developed to help automate and standardize the process
     <link href="/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/index.xml" rel="alternate" type="application/rss+xml" title="Install Tox :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/tele.html" rel="alternate" type="text/html" title="Install Tox :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/embed.html" rel="alternate" type="text/html" title="Install Tox :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1729609836" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1729609905" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1729609905" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1729609905" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1729609905" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1729609905" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1729609905" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1729609905" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1729609905" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1729609905" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1729609905" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1729609905" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1729609905" rel="stylesheet">
-    <link href="/cc410/css/print.css?1729609905" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1729609905" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1729609905"></script>
+    <link href="/cc410/images/favicon.ico?1730212079" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1730212148" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730212148" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1730212148" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1730212148" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730212148" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1730212148" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1730212148" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730212148" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1730212148" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1730212148" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1730212148" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1730212148" rel="stylesheet">
+    <link href="/cc410/css/print.css?1730212148" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1730212148" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1730212148"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..\/..';
@@ -3865,7 +3875,7 @@ Tox tox is a tool that is developed to help automate and standardize the process
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1729609905" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1730212148" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/">
     <div id="R-body" class="default-animation">
@@ -3923,8 +3933,8 @@ Tox tox is a tool that is developed to help automate and standardize the process
 <p>One of the things that we&rsquo;ll need in order to use tox is a <strong>requirements</strong> file. A requirements file simply lists the libraries that we&rsquo;ve installed via <code>pip</code> as part of this project. Then, if we decide to work on this project either on a different computer or within a virtual test environment, like the one we&rsquo;ll create with tox, we can easily reinstall all of those libraries again. You can learn more about requirements files in the <a href="https://pip.pypa.io/en/stable/user_guide/#requirements-files" rel="external" target="_blank">pip Documentation</a></p>
 <p>To create a requirements file, navigate to the <code>python</code> directory in the Linux terminal, and then run the following command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip3 freeze &gt; requirements.txt</span></span></code></pre></div><p>That should create a file called <code>requirements.txt</code> in the <code>python</code> directory. When we open it, we should see contents similar to this:</p>
-<p><a href="#R-image-6ffc22528cb33040b99ca71deb3a40d8" class="lightbox-link"><img alt="Requirements File" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/24req.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6ffc22528cb33040b99ca71deb3a40d8"><img alt="Requirements File" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/24req.png"></a></p>
+<p><a href="#R-image-d518bbb77d1815704f2d6f2746598608" class="lightbox-link"><img alt="Requirements File" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/24req.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d518bbb77d1815704f2d6f2746598608"><img alt="Requirements File" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/24req.png"></a></p>
 <p>As we can see, there are a lot of libraries already installed - many more than we installed manually. This is because the <code>pip3 freeze</code> command will list all libraries installed, even if they were installed as a dependency for another library.</p>
 <p>There are some pros and cons to this approach:</p>
 <ul>
@@ -3939,8 +3949,8 @@ Tox tox is a tool that is developed to help automate and standardize the process
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip3 install -r requirements.txt</span></span></code></pre></div><p>tox will also use this requirements file to set up our test environment, as we&rsquo;ll see in the next section.</p>
 <h2 id="tox-configuration">tox Configuration</h2>
 <p>Next, we&rsquo;ll need to create a configuration file for tox. The tox configuration file should be stored directly in the <code>python</code> directory with the name <code>tox.ini</code>. So, we should have the following structure once that file is created:</p>
-<p><a href="#R-image-843d0dadcba255f7275c71b029da2dea" class="lightbox-link"><img alt="Tox Config File" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/24toxconfig.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-843d0dadcba255f7275c71b029da2dea"><img alt="Tox Config File" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/24toxconfig.png"></a></p>
+<p><a href="#R-image-036b52f273e1172fe362e02df64db06a" class="lightbox-link"><img alt="Tox Config File" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/24toxconfig.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-036b52f273e1172fe362e02df64db06a"><img alt="Tox Config File" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/24toxconfig.png"></a></p>
 <p>The basics of creating a configuration file for tox are detailed in the <a href="https://tox.readthedocs.io/en/latest/config.html" rel="external" target="_blank">tox documentation</a>. For now, we can use a quick starter file. So, place the following contents in the <code>tox.ini</code> file:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[tox]</span>
 </span></span><span class="line"><span class="cl"><span class="na">envlist</span> <span class="o">=</span> <span class="s">py310</span>
@@ -3961,8 +3971,8 @@ Tox tox is a tool that is developed to help automate and standardize the process
 <h2 id="running-tox">Running tox</h2>
 <p>Now that we&rsquo;ve configured tox, let&rsquo;s try to run it. Thankfully, running tox is super simple. In a Linux terminal that is in the <code>python</code> directory, simply run this command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tox</span></span></code></pre></div><p>If everything is working correctly, we should get the following output:</p>
-<p><a href="#R-image-4c99e43e92a585a7885c7396a9ed9ec0" class="lightbox-link"><img alt="Tox Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/24toxout.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4c99e43e92a585a7885c7396a9ed9ec0"><img alt="Tox Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/24toxout.png"></a></p>
+<p><a href="#R-image-c82cd4d0407fc2b3d0bcab6e2e682b12" class="lightbox-link"><img alt="Tox Output" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/24toxout.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c82cd4d0407fc2b3d0bcab6e2e682b12"><img alt="Tox Output" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/24toxout.png"></a></p>
 <p>When we execute tox, it performs a few tasks:</p>
 <ol>
 <li>tox will create a <strong>virtual environment</strong> for Python 3.10 in the <code>.tox</code> folder it creates. This allows it to run tests in isolation, away from the version of Python we are using in Codio.</li>
@@ -3994,8 +4004,8 @@ Tox tox is a tool that is developed to help automate and standardize the process
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1729609905" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1729609905" defer></script>
-    <script src="/cc410/js/theme.js?1729609905" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1730212148" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1730212148" defer></script>
+    <script src="/cc410/js/theme.js?1730212148" defer></script>
   </body>
 </html>

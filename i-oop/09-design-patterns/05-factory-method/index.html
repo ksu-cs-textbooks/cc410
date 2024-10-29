@@ -1957,6 +1957,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3829,18 +3839,18 @@
     <link href="/cc410/i-oop/09-design-patterns/05-factory-method/index.print.html" rel="alternate" type="text/html" title="Factory Method Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/05-factory-method/tele.html" rel="alternate" type="text/html" title="Factory Method Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/05-factory-method/embed.html" rel="alternate" type="text/html" title="Factory Method Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1729609836" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1729609845" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1729609845" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1729609845" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1729609845" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1729609845" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1729609845" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1729609845" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1729609845" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1729609845" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1729609845" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1729609845" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1729609845" rel="stylesheet">
-    <link href="/cc410/css/print.css?1729609845" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1729609845"></script>
+    <link href="/cc410/images/favicon.ico?1730212079" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1730212086" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730212086" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1730212086" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1730212086" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730212086" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1730212086" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1730212086" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730212086" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1730212086" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1730212086" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1730212086" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1730212086" rel="stylesheet">
+    <link href="/cc410/css/print.css?1730212086" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1730212086"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3860,7 +3870,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1729609845" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1730212086" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/i-oop/09-design-patterns/05-factory-method/">
     <div id="R-body" class="default-animation">
@@ -3928,27 +3938,27 @@
 <h1 id="factory-method-pattern">Factory Method Pattern</h1>
 
 <p>The next pattern we&rsquo;ll explore is the <strong>factory method pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Factory_method_pattern" rel="external" target="_blank">factory method pattern</a> is used to allow us to construct an object of a desired type without actually having to specify that type explicitly in our code. Instead, we just provide the factory with an input specifying the type of object we need, and it will return an instance of that type. By making use of the factory method pattern, classes that require access to these object don&rsquo;t need to be updated any time an underlying object type is modified. Instead, they can simply reference the parent or interface data types, and the factory handles creating and returning objects of the correct type whenever needed.</p>
-<p><a href="#R-image-ff5d4bc3966a58b97eee7395bda42cba" class="lightbox-link"><img alt="factory method pattern UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/factory.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff5d4bc3966a58b97eee7395bda42cba"><img alt="factory method pattern UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/factory.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-6872bed5dc1682d4e794f836e114d486" class="lightbox-link"><img alt="factory method pattern UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/factory.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6872bed5dc1682d4e794f836e114d486"><img alt="factory method pattern UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/factory.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>As we can see in the UML diagram for this pattern, it looks very similar to the builder pattern we saw previously. There is a <code>Creator</code> interface, which defines the interface that each factory uses. Then, the concrete <code>Creator1</code> class is actually used to create the class required.</p>
 <p>Let&rsquo;s continue our deck of cards example from the previous page to include the factory method pattern.</p>
 <h3 id="decks-enum">Decks Enum</h3>
 <p>To simplify this process, we&rsquo;ll create a quick enumeration of the possible decks available in our system. This makes it easy to expand later and include more decks of cards.</p>
 
-<div class="tab-panel" data-tab-group="9dee86efc782c8f08c5da3498f9bee21">
+<div class="tab-panel" data-tab-group="72e37bd832b2f4e78d6a77bca266e08e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9dee86efc782c8f08c5da3498f9bee21','java')"
+      onclick="switchTab('72e37bd832b2f4e78d6a77bca266e08e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9dee86efc782c8f08c5da3498f9bee21','python')"
+      onclick="switchTab('72e37bd832b2f4e78d6a77bca266e08e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3991,20 +4001,20 @@
 <h3 id="factory-class">Factory Class</h3>
 <p>Next, we&rsquo;ll define a simple factory class, which is able to build each type of card deck. We&rsquo;ll leave out the parent interface for now, since this project will only ever have a single factory object available.</p>
 
-<div class="tab-panel" data-tab-group="63e926077731f8353ba56137fcb0fabf">
+<div class="tab-panel" data-tab-group="2c52505bbd46f4821a8ac99ffd14dd0e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('63e926077731f8353ba56137fcb0fabf','java')"
+      onclick="switchTab('2c52505bbd46f4821a8ac99ffd14dd0e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('63e926077731f8353ba56137fcb0fabf','python')"
+      onclick="switchTab('2c52505bbd46f4821a8ac99ffd14dd0e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4070,20 +4080,20 @@
 <h3 id="using-the-factory">Using the Factory</h3>
 <p>Now that we&rsquo;ve created our factory class, we can update our main method to use it instead. In this case, we&rsquo;ll get the type of deck to be used directly from the user as input:</p>
 
-<div class="tab-panel" data-tab-group="935c79df1340a77508dcf2f8f746b6bc">
+<div class="tab-panel" data-tab-group="3a74fdc3b58df51b6291a934f4c6331c">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('935c79df1340a77508dcf2f8f746b6bc','java')"
+      onclick="switchTab('3a74fdc3b58df51b6291a934f4c6331c','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('935c79df1340a77508dcf2f8f746b6bc','python')"
+      onclick="switchTab('3a74fdc3b58df51b6291a934f4c6331c','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4128,20 +4138,20 @@
 <h2 id="practical-example-database-connections">Practical Example: Database Connections</h2>
 <p>One of the most common places the factory method pattern appears is in the construction of database connections. In theory, we&rsquo;d like any of our applications to be able to use different types of databases, so many database connection libraries use the factory method pattern to create a database connection. Here&rsquo;s what that might look like - this code will not actually work, but is representative of what it looks like in practice:</p>
 
-<div class="tab-panel" data-tab-group="001118b4d5c8fb3731e4de03631a7669">
+<div class="tab-panel" data-tab-group="a6626541839787bc7071b9e8b5bd3630">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('001118b4d5c8fb3731e4de03631a7669','java')"
+      onclick="switchTab('a6626541839787bc7071b9e8b5bd3630','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('001118b4d5c8fb3731e4de03631a7669','python')"
+      onclick="switchTab('a6626541839787bc7071b9e8b5bd3630','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4245,12 +4255,12 @@
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1729609845" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1729609845" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1729609845" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1729609845" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1729609845" defer></script>
-        <script src="/cc410/js/search.js?1729609845" defer></script>
+        <script src="/cc410/js/auto-complete.js?1730212086" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1730212086" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1730212086" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1730212086" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1730212086" defer></script>
+        <script src="/cc410/js/search.js?1730212086" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4496,7 +4506,8 @@
           <li data-nav-id="/cc410/x-weekly-updates/week07/" class=""><a class="padding" href="/cc410/x-weekly-updates/week07/">7. Fall &#39;24 Week 7</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week08/" class=""><a class="padding" href="/cc410/x-weekly-updates/week08/">8. Fall &#39;24 Week 8</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week09/" class=""><a class="padding" href="/cc410/x-weekly-updates/week09/">9. Fall &#39;24 Week 9</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week10/" class=""><a class="padding" href="/cc410/x-weekly-updates/week10/">10. Fall &#39;24 Week 10</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week10/" class=""><a class="padding" href="/cc410/x-weekly-updates/week10/">10. Fall &#39;24 Week 10</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week11/" class=""><a class="padding" href="/cc410/x-weekly-updates/week11/">11. Fall &#39;24 Week 11</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4663,8 +4674,8 @@
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1729609845" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1729609845" defer></script>
-    <script src="/cc410/js/theme.js?1729609845" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1730212086" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1730212086" defer></script>
+    <script src="/cc410/js/theme.js?1730212086" defer></script>
   </body>
 </html>

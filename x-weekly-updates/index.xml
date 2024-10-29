@@ -1957,6 +1957,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3808,7 +3818,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2024 10:09:22 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2024 09:26:59 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;24 Week 1</title>
@@ -3879,6 +3889,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC 410 in Fall 2024. This week we’re working on parallel programming, so you’ll do a short example around that. We’ll also work a little bit on event -driven programming, and you’ll do an example around that. And then you’ll work on the seventh restaurant milestone. This is the milestone where you’re going to add event -driven programming to your user interface so that you can actually switch between windows, you can save objects, and you can actually update the order itself.</description>
+    </item>
+    <item>
+      <title>Fall &#39;24 Week 11</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 11 announcements video for CC 410 in fall 2024. This week you’re going to be working on an example around releases. We’re going to talk about how we can actually build a releasable version of our code that others can easily use. You’ll do a small example around building a release and then you’ll switch over to the restaurant project where you’re going to add an external library to help us actually go through the checkout process.</description>
     </item>
   </channel>
 </rss>
