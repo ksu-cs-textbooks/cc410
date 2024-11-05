@@ -1967,6 +1967,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3839,21 +3849,21 @@
     <link href="/cc410/i-oop/10-test-doubles/06-mocks/index.xml" rel="alternate" type="application/rss+xml" title="Mocks :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/06-mocks/index.print.html" rel="alternate" type="text/html" title="Mocks :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/06-mocks/tele.html" rel="alternate" type="text/html" title="Mocks :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1730212079" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1730818758" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1730212118" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730212118" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1730212118" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1730212118" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730212118" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1730212118" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1730212118" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730212118" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1730212118" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1730818797" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730818797" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1730818797" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1730818797" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730818797" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1730818797" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1730818797" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730818797" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1730818797" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1730212118" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1730212118" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1730212118" rel="stylesheet">
-  <link href="/cc410/css/print.css?1730212118" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1730818797" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1730818797" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1730818797" rel="stylesheet">
+  <link href="/cc410/css/print.css?1730818797" rel="stylesheet" media="print">
   
   
   
@@ -3876,7 +3886,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1730212118" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1730818797" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/10-test-doubles/06-mocks/embed.html">
@@ -3894,8 +3904,8 @@
     
 
 <p>The third type of test double we&rsquo;ll cover is the <strong>mock object</strong>, sometimes referred to as a <strong>test spy</strong>. A mock object is typically used to verify that our code performs the correct actions on other parts of the system. Usually, the mock object will simply listen for any incoming method calls, and then once our action is complete we can verify that the correct methods were called with the correct inputs by examining our mock object.</p>
-<p><a href="#R-image-a2511807901bee90b867b97d773a63a8" class="lightbox-link"><img alt="Mock" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/13/mock.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a2511807901bee90b867b97d773a63a8"><img alt="Mock" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/13/mock.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-b894df81a53dfe86da470957602ac28f" class="lightbox-link"><img alt="Mock" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/13/mock.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b894df81a53dfe86da470957602ac28f"><img alt="Mock" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/13/mock.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>For example, if the code we are testing is responsible for calling a method in another module to update the GUI for our application, we can replace that GUI with a mock object, run the code, and then verify that the correct method in our mock object was called during the test. Likewise, we can make sure that other methods were not called.</p>
 <p>This is another great example of an &ldquo;indirect output&rdquo; of our code. However, instead of data being the output, the messages sent as method calls are the data that our code is producing.</p>
 <p>As we can see, test doubles are powerful tools we can use to enhance our ability to perform unit tests on our system. On the following pages, we&rsquo;ll briefly review how to use different test doubles in both Java and Python. As always, feel free to skip to the page for the language you are learning, but both pages may contain helpful information.</p>
@@ -3921,10 +3931,10 @@
 
 
 
-<script src="/cc410/js/clipboard.min.js?1730212118" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1730212118" defer></script>
-<script src="/cc410/js/theme.js?1730212118" defer></script>
+<script src="/cc410/js/clipboard.min.js?1730818797" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1730818797" defer></script>
+<script src="/cc410/js/theme.js?1730818797" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1730212118" defer></script>
+<script src="/cc410/js/embed-iframe.js?1730818797" defer></script>
 </body>
 </html>

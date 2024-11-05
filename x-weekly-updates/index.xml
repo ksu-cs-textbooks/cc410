@@ -1967,6 +1967,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3818,7 +3828,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Oct 2024 09:26:59 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 08:58:14 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;24 Week 1</title>
@@ -3896,6 +3906,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/</guid>
       <description>Resources Slides Edited Transcript Hello and welcome to the week 11 announcements video for CC 410 in fall 2024. This week you’re going to be working on an example around releases. We’re going to talk about how we can actually build a releasable version of our code that others can easily use. You’ll do a small example around building a release and then you’ll switch over to the restaurant project where you’re going to add an external library to help us actually go through the checkout process.</description>
+    </item>
+    <item>
+      <title>Fall &#39;24 Week 12</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 12 announcements video for CC 410 in fall 2024. This week you should be working on data driven websites. We’re going to introduce how to build a website using our same framework and so this first milestone is just adding the basics for the website so that we can produce a menu on the website. We’re not going to handle ordering items or anything on the website, we’re just going to create a data driven menu.</description>
     </item>
   </channel>
 </rss>
