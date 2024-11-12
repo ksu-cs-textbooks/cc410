@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Python Test Doubles :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/video/</link>
-    <description>Resources Slides Video Script To use test doubles in Python, we’re going to rely on the built-in unittest.mock library. This is by far the easiest way to work with fake objects and method stubs in Python, and we don’t have to install anything else to use it. So, all we have to do is import a few parts of that library into our code. In most cases, we’re going to use the patch annotation, so that’s what we’ll import initially.</description>
+    <description>YouTube Video Resources Slides Video Script To use test doubles in Python, we’re going to rely on the built-in unittest.mock library. This is by far the easiest way to work with fake objects and method stubs in Python, and we don’t have to install anything else to use it. So, all we have to do is import a few parts of that library into our code. In most cases, we’re going to use the patch annotation, so that’s what we’ll import initially.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 16:21:53 -0600</lastBuildDate>

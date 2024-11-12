@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Licenses :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/06-licenses/</link>
-    <description>Video Materials&#xA;In the world of software, we use the term open-source to refer to any software that has source code that is openly available. This is in contrast to proprietary software, sometimes referred to as closed-source software, which is software with source code that is not publicly available. The software itself may be sold, or even provided for free, but the actual source code is protected by the company.</description>
+    <description>YouTube Video Video Materials&#xA;In the world of software, we use the term open-source to refer to any software that has source code that is openly available. This is in contrast to proprietary software, sometimes referred to as closed-source software, which is software with source code that is not publicly available. The software itself may be sold, or even provided for free, but the actual source code is protected by the company.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/06-licenses/index.xml" rel="self" type="application/rss+xml" />

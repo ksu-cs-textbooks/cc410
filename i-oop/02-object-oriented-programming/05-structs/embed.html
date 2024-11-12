@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3849,21 +3859,21 @@
     <link href="/cc410/i-oop/02-object-oriented-programming/05-structs/index.xml" rel="alternate" type="application/rss+xml" title="Structs :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/05-structs/index.print.html" rel="alternate" type="text/html" title="Structs :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/05-structs/tele.html" rel="alternate" type="text/html" title="Structs :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1730818758" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1731425514" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1730818794" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730818794" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1730818794" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1730818794" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730818794" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1730818794" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1730818794" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730818794" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1730818794" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1731425551" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1731425551" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1731425551" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1731425551" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1731425551" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1731425551" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1731425551" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1731425551" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1731425551" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1730818794" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1730818794" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1730818794" rel="stylesheet">
-  <link href="/cc410/css/print.css?1730818794" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1731425551" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1731425551" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1731425551" rel="stylesheet">
+  <link href="/cc410/css/print.css?1731425551" rel="stylesheet" media="print">
   
   
   
@@ -3886,7 +3896,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1730818794" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1731425551" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/02-object-oriented-programming/05-structs/embed.html">
@@ -3905,20 +3915,20 @@
 
 <p>Many object-oriented languages, such as C++ and C#, include the concept of a <strong>struct</strong> that form the basis of objects. A struct is an example of a <a href="https://en.wikipedia.org/wiki/Composite_data_type" rel="external" target="_blank">compound data type</a>, a data type <em>composed</em> from other types.  This allows us to represent data in more complex ways by combining multiple primitive data types into a new type. This too, is a form of encapsulation, as it allows us to collect several values into a single data structure.  Consider the concept of a vector from mathematics - if we wanted to store three-dimensional vectors in a program, we could do so in several ways.  Perhaps the easiest would be as an array or list:</p>
 
-<div class="tab-panel" data-tab-group="8d404727ce08076a27684c0a7480c4ea">
+<div class="tab-panel" data-tab-group="dd6d7b8ec29e5a76aceeba2965c96fd9">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('8d404727ce08076a27684c0a7480c4ea','java')"
+      onclick="switchTab('dd6d7b8ec29e5a76aceeba2965c96fd9','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('8d404727ce08076a27684c0a7480c4ea','python')"
+      onclick="switchTab('dd6d7b8ec29e5a76aceeba2965c96fd9','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3942,20 +3952,20 @@
 </div>
 <p>However, other than the variable name, there is no indication to other programmers that this is intended to be a three-element vector.  And, if we were to accept it in a function, say a dot product, we&rsquo;d need to check that the length of both arrays or lists was exactly 3:</p>
 
-<div class="tab-panel" data-tab-group="04e5fa70aca3e697262d0558cf02c66a">
+<div class="tab-panel" data-tab-group="ee01fccc36b2b0491e2afd67003e1bce">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('04e5fa70aca3e697262d0558cf02c66a','java')"
+      onclick="switchTab('ee01fccc36b2b0491e2afd67003e1bce','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('04e5fa70aca3e697262d0558cf02c66a','python')"
+      onclick="switchTab('ee01fccc36b2b0491e2afd67003e1bce','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3987,20 +3997,20 @@
 </div>
 <p>A struct provides a much cleaner option, by allowing us to define a type that is composed of exactly three integers. Java and Python don&rsquo;t directly support structs, but we can use classes with just variables and a constructor to mimic a struct in those languages:</p>
 
-<div class="tab-panel" data-tab-group="0fa41a0549eb410c953e1e40698d8d98">
+<div class="tab-panel" data-tab-group="5c197c22f2562b1a815bcb22e3614b3e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('0fa41a0549eb410c953e1e40698d8d98','java')"
+      onclick="switchTab('5c197c22f2562b1a815bcb22e3614b3e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('0fa41a0549eb410c953e1e40698d8d98','python')"
+      onclick="switchTab('5c197c22f2562b1a815bcb22e3614b3e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4039,20 +4049,20 @@
 </div>
 <p>Then, our dot product method can take two arguments of the <code>Vector3</code> type:</p>
 
-<div class="tab-panel" data-tab-group="29d66d4c61f8713908c3dde039bb0ecf">
+<div class="tab-panel" data-tab-group="b43193b583d27ce098f5b7f3db2af509">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('29d66d4c61f8713908c3dde039bb0ecf','java')"
+      onclick="switchTab('b43193b583d27ce098f5b7f3db2af509','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('29d66d4c61f8713908c3dde039bb0ecf','python')"
+      onclick="switchTab('b43193b583d27ce098f5b7f3db2af509','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4093,10 +4103,10 @@
 
 
 
-<script src="/cc410/js/clipboard.min.js?1730818794" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1730818794" defer></script>
-<script src="/cc410/js/theme.js?1730818794" defer></script>
+<script src="/cc410/js/clipboard.min.js?1731425551" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1731425551" defer></script>
+<script src="/cc410/js/theme.js?1731425551" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1730818794" defer></script>
+<script src="/cc410/js/embed-iframe.js?1731425551" defer></script>
 </body>
 </html>

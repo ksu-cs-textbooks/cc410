@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Access Modifiers :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/video/</link>
-    <description>Resources Slides Video Script Now that we’ve explored encapsulation, let’s look at another related concept - information hiding. As we discussed earlier, we want to make sure that the behavior of one module cannot affect the state of other modules. To do this, we must restrict access to the state of each module.&#xA;Let’s look at a quick example first, where everything in the module is publicly accessible. On the surface, this seems like a great idea - if external code cannot read the state of our module or access its behaviors, then what good is it?</description>
+    <description>YouTube Video Resources Slides Video Script Now that we’ve explored encapsulation, let’s look at another related concept - information hiding. As we discussed earlier, we want to make sure that the behavior of one module cannot affect the state of other modules. To do this, we must restrict access to the state of each module.&#xA;Let’s look at a quick example first, where everything in the module is publicly accessible.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

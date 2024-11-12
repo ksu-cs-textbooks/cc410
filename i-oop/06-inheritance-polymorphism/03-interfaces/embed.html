@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3851,21 +3861,21 @@ If we think back to the concept of message passing in object-oriented languages,
     <link href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/index.xml" rel="alternate" type="application/rss+xml" title="Interfaces :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/index.print.html" rel="alternate" type="text/html" title="Interfaces :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/tele.html" rel="alternate" type="text/html" title="Interfaces :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1730818758" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1731425514" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1730818795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730818795" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1730818795" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1730818795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730818795" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1730818795" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1730818795" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730818795" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1730818795" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1731425553" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1731425553" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1731425553" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1731425553" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1731425553" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1731425553" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1731425553" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1731425553" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1731425553" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1730818795" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1730818795" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1730818795" rel="stylesheet">
-  <link href="/cc410/css/print.css?1730818795" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1731425553" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1731425553" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1731425553" rel="stylesheet">
+  <link href="/cc410/css/print.css?1731425553" rel="stylesheet" media="print">
   
   
   
@@ -3888,7 +3898,7 @@ If we think back to the concept of message passing in object-oriented languages,
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1730818795" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1731425553" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/embed.html">
@@ -3913,20 +3923,20 @@ If we think back to the concept of message passing in object-oriented languages,
 <p><a href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/video/embed.html">Video Materials</a></p>
 <p>If we think back to the concept of <em>message passing</em> in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an <em>interface</em>, i.e., a list of messages you can dispatch to an object created from that class.  When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language&rsquo;s documentation:</p>
 
-<div class="tab-panel" data-tab-group="a3bbef5be4d753a8798f70ec3db77b13">
+<div class="tab-panel" data-tab-group="5d26526f23f0262d9f3983e7289f3eb3">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('a3bbef5be4d753a8798f70ec3db77b13','java')"
+      onclick="switchTab('5d26526f23f0262d9f3983e7289f3eb3','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('a3bbef5be4d753a8798f70ec3db77b13','python')"
+      onclick="switchTab('5d26526f23f0262d9f3983e7289f3eb3','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3938,8 +3948,8 @@ If we think back to the concept of message passing in object-oriented languages,
       <div class="tab-content-text">
 
 <h6 id="java-api">Java API</h6>
-<p><a href="#R-image-8498dac3f8e66fc5ccfb2fe02c66ca31" class="lightbox-link"><img alt="Java API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/java_api.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8498dac3f8e66fc5ccfb2fe02c66ca31"><img alt="Java API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/java_api.png"></a></p>
+<p><a href="#R-image-abfeed961504a1bdb3cefe17242ed2e7" class="lightbox-link"><img alt="Java API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/java_api.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-abfeed961504a1bdb3cefe17242ed2e7"><img alt="Java API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/java_api.png"></a></p>
 </div>
     </div>
     <div
@@ -3948,8 +3958,8 @@ If we think back to the concept of message passing in object-oriented languages,
       <div class="tab-content-text">
 
 <h6 id="python-api">Python API</h6>
-<p><a href="#R-image-0709ff83d520e20c68aa69118b0b4594" class="lightbox-link"><img alt="Python API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/python_api.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0709ff83d520e20c68aa69118b0b4594"><img alt="Python API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/python_api.png"></a></p>
+<p><a href="#R-image-ff615bcefa7b0ae509f838268a891e7d" class="lightbox-link"><img alt="Python API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/python_api.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ff615bcefa7b0ae509f838268a891e7d"><img alt="Python API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/python_api.png"></a></p>
 </div>
     </div>
   </div>
@@ -4014,10 +4024,10 @@ If we think back to the concept of message passing in object-oriented languages,
 
 
 
-<script src="/cc410/js/clipboard.min.js?1730818795" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1730818795" defer></script>
-<script src="/cc410/js/theme.js?1730818795" defer></script>
+<script src="/cc410/js/clipboard.min.js?1731425553" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1731425553" defer></script>
+<script src="/cc410/js/theme.js?1731425553" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1730818795" defer></script>
+<script src="/cc410/js/embed-iframe.js?1731425553" defer></script>
 </body>
 </html>

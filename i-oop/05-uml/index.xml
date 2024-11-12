@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3842,7 +3852,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/02-uml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/02-uml/</guid>
-      <description>Video Materials&#xA;1&#xA;Unified Modeling Language (UML) was introduced to create a standardized way of visualizing a software system design. It was developed by Grady Booch, Ivar Jacobson, and James Rumbah at Rational Software in the mid-nineties. It was adopted as a standard by the Object Management Group in 1997, and also by the International Organization for Standardization (ISO) as an approved ISO standard in 2005.&#xA;The UML standard actually provides many different kinds of diagrams for describing a software system - both structure and behavior:</description>
+      <description>YouTube Video Video Materials&#xA;1&#xA;Unified Modeling Language (UML) was introduced to create a standardized way of visualizing a software system design. It was developed by Grady Booch, Ivar Jacobson, and James Rumbah at Rational Software in the mid-nineties. It was adopted as a standard by the Object Management Group in 1997, and also by the International Organization for Standardization (ISO) as an approved ISO standard in 2005.&#xA;The UML standard actually provides many different kinds of diagrams for describing a software system - both structure and behavior:</description>
     </item>
     <item>
       <title>Boxes</title>
@@ -3863,14 +3873,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/05-classes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/05-classes/</guid>
-      <description>Video Materials&#xA;In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:&#xA;The first compartment identifies the class - it contains the name of the class. The second compartment holds the attributes of the class (the fields and properties). And the third compartment holds the operations of the class (the methods) of the class.&#xA;In the diagram above, we can see the Fruit class modeled on the right side.</description>
+      <description>YouTube Video Video Materials&#xA;In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:&#xA;The first compartment identifies the class - it contains the name of the class. The second compartment holds the attributes of the class (the fields and properties). And the third compartment holds the operations of the class (the methods) of the class.</description>
     </item>
     <item>
       <title>Associations</title>
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/06-associations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/06-associations/</guid>
-      <description>Video Materials&#xA;Class diagrams also express the associations between classes by drawing lines between the boxes representing them.&#xA;There are two basic types of associations we model with UML: has-a and is-a associations. We break these into two further categories, based on the strength of the association, which is either strong or weak. These associations are:&#xA;Association Name&#xD;Association Type&#xD;Typical Usage&#xD;Realization&#xD;weak is-a&#xD;Interfaces&#xD;Generalization&#xD;strong is-a&#xD;Inheritance&#xD;Aggregation&#xD;weak has-a&#xD;Collections&#xD;Composition&#xD;strong has-a&#xD;Encapsulation&#xD;Is-A Associations Is-a associations indicate a relationship where one class is a instance of another class.</description>
+      <description>YouTube Video Video Materials&#xA;Class diagrams also express the associations between classes by drawing lines between the boxes representing them.&#xA;There are two basic types of associations we model with UML: has-a and is-a associations. We break these into two further categories, based on the strength of the association, which is either strong or weak. These associations are:&#xA;Association Name&#xD;Association Type&#xD;Typical Usage&#xD;Realization&#xD;weak is-a&#xD;Interfaces&#xD;Generalization&#xD;strong is-a&#xD;Inheritance&#xD;Aggregation&#xD;weak has-a&#xD;Collections&#xD;Composition&#xD;strong has-a&#xD;Encapsulation&#xD;Is-A Associations Is-a associations indicate a relationship where one class is a instance of another class.</description>
     </item>
     <item>
       <title>Creating UML Diagrams</title>

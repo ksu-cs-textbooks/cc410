@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Test Doubles in pytest :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/</link>
-    <description>Video Materials&#xA;To create test doubles in Python, we’ll rely on the built-in unittest.mock library. It includes lots of quick and easy methods for creating fake objects in Python, and it is compatible with the pytest testing framework that we’re already using.&#xA;Adding Mocks to a Test Class There are many different ways to use the unittest.mock library. One of the easiest ways is to import the patch annotation</description>
+    <description>YouTube Video Video Materials&#xA;To create test doubles in Python, we’ll rely on the built-in unittest.mock library. It includes lots of quick and easy methods for creating fake objects in Python, and it is compatible with the pytest testing framework that we’re already using.&#xA;Adding Mocks to a Test Class There are many different ways to use the unittest.mock library. One of the easiest ways is to import the patch annotation</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/index.xml" rel="self" type="application/rss+xml" />

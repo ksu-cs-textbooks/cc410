@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Hello Real World :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/</link>
-    <description>In this example project, we will go through all the steps to create a new version of the classic “Hello World” program, called “Hello Real World.” We’ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.&#xA;Don’t worry if some of this doesn’t make sense right now - we’ll spend much more time later in this course going into more detail on many of these areas.</description>
+    <description>YouTube Video In this example project, we will go through all the steps to create a new version of the classic “Hello World” program, called “Hello Real World.” We’ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.&#xA;Don’t worry if some of this doesn’t make sense right now - we’ll spend much more time later in this course going into more detail on many of these areas.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>
@@ -3835,21 +3845,21 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/</guid>
-      <description>One thing you’ll quickly notice is that the source code files are no longer created for you in this course. Instead, in most cases you’ll be responsible for creating the source code files and folders used by your program.&#xA;So, let’s cover some basics of using the Codio interface and the terminal.&#xA;Codio Interface To the left, you should see the Codio file tree interface. If you don’t see it for some reason, you can always show it by going to the View menu and selecting File Tree.</description>
+      <description>YouTube Video One thing you’ll quickly notice is that the source code files are no longer created for you in this course. Instead, in most cases you’ll be responsible for creating the source code files and folders used by your program.&#xA;So, let’s cover some basics of using the Codio interface and the terminal.&#xA;Codio Interface To the left, you should see the Codio file tree interface. If you don’t see it for some reason, you can always show it by going to the View menu and selecting File Tree.</description>
     </item>
     <item>
       <title>GitHub Classroom Setup</title>
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/02-github-classroom-setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/02-github-classroom-setup/</guid>
-      <description>One major new concept in this project is to save the source code of our project on the code sharing website GitHub using a tool called Git. We’ll be using a feature of GitHub called GitHub Classroom to manage several assignments in this course, so let’s explore what it takes to get connected to GitHub Classroom and download this project.&#xA;Accept the Assignment on GitHub Classroom The first step is to accept the assignment on GitHub classroom.</description>
+      <description>YouTube Video One major new concept in this project is to save the source code of our project on the code sharing website GitHub using a tool called Git. We’ll be using a feature of GitHub called GitHub Classroom to manage several assignments in this course, so let’s explore what it takes to get connected to GitHub Classroom and download this project.&#xA;Accept the Assignment on GitHub Classroom The first step is to accept the assignment on GitHub classroom.</description>
     </item>
     <item>
       <title>Clone Starter from GitHub</title>
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/</guid>
-      <description>Once we have accepted the assignment on GitHub classroom and have access to the repository, we can “clone” it in Codio, allowing us to access any starter code and then add our own code as we continue to work through this example project. This project doesn’t include any starter code, but we’ll go ahead and do this step first, just like we would with any other project.&#xA;Find GitHub Repository URL At this point, you should have access to a repository page that looks like this:</description>
+      <description>YouTube Video Once we have accepted the assignment on GitHub classroom and have access to the repository, we can “clone” it in Codio, allowing us to access any starter code and then add our own code as we continue to work through this example project. This project doesn’t include any starter code, but we’ll go ahead and do this step first, just like we would with any other project.</description>
     </item>
     <item>
       <title>Java</title>
@@ -3870,7 +3880,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/05-create-release/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/05-create-release/</guid>
-      <description>The last step in this project is to create a GitHub release containing the completed version of your assignment. This is a common part of the software development process - once we are completely ready to go, we can package our code and make it available for others. We’ll cover the process of actually packaging our code for deployment later in this chapter, but for now we’ll learn to create a release on GitHub that we can submit for this project.</description>
+      <description>YouTube Video The last step in this project is to create a GitHub release containing the completed version of your assignment. This is a common part of the software development process - once we are completely ready to go, we can package our code and make it available for others. We’ll cover the process of actually packaging our code for deployment later in this chapter, but for now we’ll learn to create a release on GitHub that we can submit for this project.</description>
     </item>
     <item>
       <title>Assignment Requirements</title>

@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Lambda Calculus :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/02-lambda-calculus/</link>
-    <description>Video Materials&#xA;The basis of lambda expressions comes from a special branch of mathematics known as Lambda Calculus. It was first introduced by Alonzo Church, who is often connected with Alan Turing in the early days of theoretical computer science. (You may have heard of the Church-Turing thesis that relates to the computability of functions on a Turing machine.)&#xA;Lambda Calculus Lambda calculus is a formal notation used to describe computation.</description>
+    <description>YouTube Video Video Materials&#xA;The basis of lambda expressions comes from a special branch of mathematics known as Lambda Calculus. It was first introduced by Alonzo Church, who is often connected with Alan Turing in the early days of theoretical computer science. (You may have heard of the Church-Turing thesis that relates to the computability of functions on a Turing machine.)&#xA;Lambda Calculus Lambda calculus is a formal notation used to describe computation.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/02-lambda-calculus/index.xml" rel="self" type="application/rss+xml" />

@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3857,21 +3867,21 @@ public class MyData { public int x; }import java.lang.Runnable; import java.lang
     <link href="/cc410/ii-gui/12-parallelism/08-java-synchronization/index.xml" rel="alternate" type="application/rss+xml" title="Java Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/08-java-synchronization/index.print.html" rel="alternate" type="text/html" title="Java Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/08-java-synchronization/tele.html" rel="alternate" type="text/html" title="Java Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1730818758" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1731425514" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1730818798" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1730818798" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1730818798" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1730818798" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1730818798" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1730818798" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1730818798" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1730818798" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1730818798" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1731425556" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1731425556" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1731425556" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1731425556" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1731425556" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1731425556" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1731425556" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1731425556" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1731425556" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1730818798" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1730818798" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1730818798" rel="stylesheet">
-  <link href="/cc410/css/print.css?1730818798" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1731425556" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1731425556" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1731425556" rel="stylesheet">
+  <link href="/cc410/css/print.css?1731425556" rel="stylesheet" media="print">
   
   
   
@@ -3894,7 +3904,7 @@ public class MyData { public int x; }import java.lang.Runnable; import java.lang
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1730818798" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1731425556" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/08-java-synchronization/embed.html">
@@ -3991,8 +4001,8 @@ public class MyData { public int x; }import java.lang.Runnable; import java.lang
 <p>In effect, this is essentially the Java code needed to reproduce the example we saw earlier in this class.</p>
 <h4 id="execution">Execution</h4>
 <p>So, what happens when we run this code? As it turns out, sometimes we&rsquo;ll see it get a different result than the one we expect:</p>
-<p><a href="#R-image-ed81142241c4694d718118e57e1857d9" class="lightbox-link"><img alt="Race Condition in Java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/java_race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ed81142241c4694d718118e57e1857d9"><img alt="Race Condition in Java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/java_race.png"></a></p>
+<p><a href="#R-image-8db1a0d056a5e2507b5dd4197b53b8ef" class="lightbox-link"><img alt="Race Condition in Java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/java_race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8db1a0d056a5e2507b5dd4197b53b8ef"><img alt="Race Condition in Java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/java_race.png"></a></p>
 <p>Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into <code>data.x</code>, which means that they were running at the same time.</p>
 <h2 id="java-synchronized-blocks">Java Synchronized Blocks</h2>
 <p>To fix this, Java includes couple of special methods for dealing with synchronization. First, we can use the <code>synchronized</code> statement, which is simply a wrapper around a block of code that we&rsquo;d like to be <strong>atomic</strong>. An atomic block is one that shouldn&rsquo;t be broken apart and interrupted by other threads accessing the same object. In effect, the <code>synchronized</code> statement will handle acquiring and releasing a lock for us, based on the item used in the statement.</p>
@@ -4010,8 +4020,8 @@ public class MyData { public int x; }import java.lang.Runnable; import java.lang
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span></span></span></code></pre></div><p>Here, the <code>synchronized</code> statement creates a <strong>lock</strong> that is associated with the <code>data</code> object in memory. Only one thread can hold that lock at a time, and by associating it with an object, we can easily keep track of which thread is able to access that object.</p>
 <p>Now, when we execute that program, we&rsquo;ll always get the correct answer!</p>
-<p><a href="#R-image-e1a13824daef9c2ae61372e73edfa4e3" class="lightbox-link"><img alt="Synchronized in Java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/java_synch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e1a13824daef9c2ae61372e73edfa4e3"><img alt="Synchronized in Java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/java_synch.png"></a></p>
+<p><a href="#R-image-e431ec3a5c3d452a180c499c8c2b2052" class="lightbox-link"><img alt="Synchronized in Java" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/java_synch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e431ec3a5c3d452a180c499c8c2b2052"><img alt="Synchronized in Java" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/java_synch.png"></a></p>
 
   
   
@@ -4036,10 +4046,10 @@ public class MyData { public int x; }import java.lang.Runnable; import java.lang
 
 
 
-<script src="/cc410/js/clipboard.min.js?1730818798" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1730818798" defer></script>
-<script src="/cc410/js/theme.js?1730818798" defer></script>
+<script src="/cc410/js/clipboard.min.js?1731425556" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1731425556" defer></script>
+<script src="/cc410/js/theme.js?1731425556" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1730818798" defer></script>
+<script src="/cc410/js/embed-iframe.js?1731425556" defer></script>
 </body>
 </html>

@@ -1977,6 +1977,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3825,7 +3835,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/13-rest/02-python/</link>
-    <description>Errata This video uses the html5 widget module in WTForms, which is no longer present. See below the video for a fix!&#xA;Widget Fix Since this video was recorded, Flask-WTF updated and is now using a newer version of the underlying WTForms library. That library has since deprecated the html5 widgets module and moved them into the main widgets module.&#xA;When running the code as shown in the video, you may receive this error:</description>
+    <description>Errata This video uses the html5 widget module in WTForms, which is no longer present. See below the video for a fix!&#xA;YouTube Video Widget Fix Since this video was recorded, Flask-WTF updated and is now using a newer version of the underlying WTForms library. That library has since deprecated the html5 widgets module and moved them into the main widgets module.&#xA;When running the code as shown in the video, you may receive this error:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/13-rest/02-python/index.xml" rel="self" type="application/rss+xml" />
