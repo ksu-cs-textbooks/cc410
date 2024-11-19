@@ -1987,6 +1987,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3835,7 +3845,7 @@
   <channel>
     <title>Need for Test Doubles :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/02-need-test-doubles/</link>
-    <description>YouTube Video Video Materials&#xA;As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the application programming interface or API of the module.&#xA;Ideally, we’d like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program.</description>
+    <description>Video Materials&#xA;As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the application programming interface or API of the module.&#xA;Ideally, we’d like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/02-need-test-doubles/index.xml" rel="self" type="application/rss+xml" />

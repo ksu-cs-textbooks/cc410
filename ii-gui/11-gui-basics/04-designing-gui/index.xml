@@ -1987,6 +1987,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3835,7 +3845,7 @@
   <channel>
     <title>Designing a GUI :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/04-designing-gui/</link>
-    <description>YouTube Video Video Materials&#xA;One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.&#xA;GUI Sketching 1&#xA;A common technique used when developing a GUI for a program is to simply sketch your design on paper.</description>
+    <description>Video Materials&#xA;One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.&#xA;GUI Sketching 1&#xA;A common technique used when developing a GUI for a program is to simply sketch your design on paper.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/04-designing-gui/index.xml" rel="self" type="application/rss+xml" />

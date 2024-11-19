@@ -1987,6 +1987,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3867,19 +3877,19 @@ At this point, we’ve written some code for our application.">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.xml" rel="alternate" type="application/rss+xml" title="Git Commit &amp; Push :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/tele.html" rel="alternate" type="text/html" title="Git Commit &amp; Push :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/embed.html" rel="alternate" type="text/html" title="Git Commit &amp; Push :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1731425514" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1731425586" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1731425586" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1731425586" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1731425586" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1731425586" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1731425586" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1731425586" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1731425586" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1731425586" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1731425586" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1731425586" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1731425586" rel="stylesheet">
-    <link href="/cc410/css/print.css?1731425586" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1731425586" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1731425586"></script>
+    <link href="/cc410/images/favicon.ico?1732040853" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1732040923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1732040923" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1732040923" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1732040923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1732040923" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1732040923" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1732040923" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1732040923" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1732040923" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1732040923" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1732040923" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1732040923" rel="stylesheet">
+    <link href="/cc410/css/print.css?1732040923" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1732040923" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1732040923"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..\/..';
@@ -3899,7 +3909,7 @@ At this point, we’ve written some code for our application.">
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1731425586" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1732040923" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/">
     <div id="R-body" class="default-animation">
@@ -3959,8 +3969,8 @@ At this point, we’ve written some code for our application.">
 <p>At this point, you might be pretty confused about Git, GitHub, repositories, cloning, and everything that we&rsquo;ve done so far. That&rsquo;s fine! We&rsquo;ve found that one of the best ways to learn how to use Git and GitHub is simply by doing it and observing what it does, then slowly building up your knowledge by trying new things. However, let&rsquo;s take a few minutes to explain some of the basics so you know what we are talking about.</p>
 <p><a href="https://git.wiki.kernel.org/index.php/Git" rel="external" target="_blank">Git</a> is the name of a &ldquo;distributed version control system&rdquo; that was created initially by Linus Torvalds (the originator of the Linux operating system kernel). It was meant to solve a lot of the problems that he experienced when working with other version control systems of the time, such as <a href="https://subversion.apache.org/" rel="external" target="_blank">Subversion</a> and <a href="https://www.mercurial-scm.org/" rel="external" target="_blank">Mercurial</a>.</p>
 <p>Git stores data in several different places, and there are several Git commands to transfer the data between those places. It is best summarized in this diagram:</p>
-<p><a href="#R-image-db61ff78a5d7e88a08525b69a5d17adf" class="lightbox-link"><img alt="Git Workflow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-db61ff78a5d7e88a08525b69a5d17adf"><img alt="Git Workflow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg"></a>^[https://commons.wikimedia.org/w/index.php?title=File:Git_data_flow_simplified.svg&amp;oldid=511614601]</p>
+<p><a href="#R-image-12c10bac95553f8c74e016f0da99b2cd" class="lightbox-link"><img alt="Git Workflow" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-12c10bac95553f8c74e016f0da99b2cd"><img alt="Git Workflow" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/wiki_git.svg"></a>^[https://commons.wikimedia.org/w/index.php?title=File:Git_data_flow_simplified.svg&amp;oldid=511614601]</p>
 <p>Let&rsquo;s look at Git from the bottom up and see how it works.</p>
 <h2 id="working-directory">Working Directory</h2>
 <p>For this project, our <strong>working directory</strong> in Git is the <code>java</code> folder where we&rsquo;ve been storing all of our code. This is the folder that we cloned our initial repository from GitHub Classroom into, and its where we&rsquo;re actually <em>doing</em> all of the coding. At this point, we&rsquo;ve created several new files and directories, but we&rsquo;ve not added them to our local Git repository yet. Before we can do that, we must discuss one other thing - the <code>.gitignore</code> file.</p>
@@ -3994,13 +4004,13 @@ At this point, we’ve written some code for our application.">
 <p>The next level of Git is the <strong>index</strong>, sometimes referred to as the <strong>stage</strong>. The index contains a list of files that we&rsquo;ve modified and would like to store in our local repository. We can add and remove items from the index at any time, and it won&rsquo;t affect our working directory.</p>
 <p>To see what is in the index, we can use the following command from within the <code>java</code> folder:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status</span></span></code></pre></div><p>You should see output similar to this:</p>
-<p><a href="#R-image-e7c4131ce90acc10f5fb859fa0b64b66" class="lightbox-link"><img alt="Java Git Status" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javastatus.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e7c4131ce90acc10f5fb859fa0b64b66"><img alt="Java Git Status" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javastatus.png"></a></p>
+<p><a href="#R-image-b1067a5b5bb04c2628e86b88b18f13c6" class="lightbox-link"><img alt="Java Git Status" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javastatus.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1067a5b5bb04c2628e86b88b18f13c6"><img alt="Java Git Status" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javastatus.png"></a></p>
 <p>At this point, all of the files are &ldquo;untracked&rdquo; and listed in red, which means that they aren&rsquo;t part of the index. So, we need to add files to the index before we can commit them. To do that, we can use the <code>git add</code> command, followed by the files we&rsquo;d like to add to the index. Of course, naming each file individually can be time consuming, so we can use the following shortcut to add all of the untracked files in our working directory to the index:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .</span></span></code></pre></div><p>In Linux, a single period <code>.</code> on the command line refers to the current working directory, so in this case it will add all of the files in the <code>java</code> folder to the Git index. When we run that command, we won&rsquo;t see any output. But, if we run this command again:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status</span></span></code></pre></div><p>We should now see a whole bunch of files listed as &ldquo;Changes to be committed&rdquo;:</p>
-<p><a href="#R-image-0408cd7e1c8c69d23340f26fd3bcbe6e" class="lightbox-link"><img alt="Java Git Index" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javaindex.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0408cd7e1c8c69d23340f26fd3bcbe6e"><img alt="Java Git Index" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javaindex.png"></a></p>
+<p><a href="#R-image-5620db32682cdd12b7c4c237d173e297" class="lightbox-link"><img alt="Java Git Index" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javaindex.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5620db32682cdd12b7c4c237d173e297"><img alt="Java Git Index" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javaindex.png"></a></p>
 <p>Those files listed in green are now &ldquo;staged&rdquo; and ready to commit to our local repository. So, before we move on to the next step, we&rsquo;ll want to make sure that all the files we changed are included in the list of files to be committed. In this case, we see our <code>HelloWorld.java</code> file, as well as the <code>build.gradle</code> file we modified in the previous step. We may also see additional files that were created by Gradle - we&rsquo;ll want to make sure those are included as well.</p>
 <h2 id="committing-to-the-local-repository">Committing to the Local Repository</h2>
 <p>Once we&rsquo;ve added the new and updated files to the index, the next step is to <strong>commit</strong>, or <strong>save</strong>, those files in our local repository. This will permanently^[There are ways to undo a commit once it is made, but in general it is poor practice to do so unless a major mistake has been made. For now, we&rsquo;ll consider it permanent.] save these changes in our local repository, helping us keep track of the changes we&rsquo;ve made to the code.</p>
@@ -4009,8 +4019,8 @@ At this point, we’ve written some code for our application.">
 <h4 id="using-nano">Using Nano</h4>
 <p>The first method just calls for you to execute the following command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit</span></span></code></pre></div><p>When you do, your terminal will open a text editor program called Nano, which you can use to place your commit message at the top of the file. It will look something like this:</p>
-<p><a href="#R-image-11439895bc53f510a62c6f56d377714f" class="lightbox-link"><img alt="Java Nano" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javanano.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-11439895bc53f510a62c6f56d377714f"><img alt="Java Nano" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javanano.png"></a></p>
+<p><a href="#R-image-75233548dbf26d6e74e0e74fa47cede6" class="lightbox-link"><img alt="Java Nano" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javanano.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-75233548dbf26d6e74e0e74fa47cede6"><img alt="Java Nano" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javanano.png"></a></p>
 <p>As you can see, we&rsquo;ve already entered the message &ldquo;Commit Message Here&rdquo; at the top of the file. Once we&rsquo;ve done that, we need to save and close the file. To do that, follow these steps:</p>
 <ol>
 <li>Press <strong>CTRL+X</strong> to exit Nano. That will open a message at the bottom that says &ldquo;Save modified buffer?&rdquo;</li>
@@ -4022,19 +4032,19 @@ At this point, we’ve written some code for our application.">
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;Commit Message Here&#34;</span></span></span></code></pre></div><p>This is a quick and easy way to add a commit message to our commit without using a text editor.</p>
 <h2 id="successful-commit">Successful Commit</h2>
 <p>Once we&rsquo;ve specified our commit message, Git will commit our changes to the local repository. We should see output similar to this if it was successful:</p>
-<p><a href="#R-image-b77d47ae69f26a9d86e774925b82ecf5" class="lightbox-link"><img alt="Java Commit Success" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javacommit.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b77d47ae69f26a9d86e774925b82ecf5"><img alt="Java Commit Success" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javacommit.png"></a></p>
+<p><a href="#R-image-bf886bc5f0af386bddc4efa65e031537" class="lightbox-link"><img alt="Java Commit Success" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javacommit.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bf886bc5f0af386bddc4efa65e031537"><img alt="Java Commit Success" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javacommit.png"></a></p>
 <p>If so, we&rsquo;ve just made our first commit to our local repository. Now, if we ever need to restore our code back to that point, we can! As we continue to work with Git in this course, we&rsquo;ll explore some of these more advanced features. For now, we&rsquo;ll just us it to track our work.</p>
 <h2 id="pushing-to-a-remote">Pushing to a Remote</h2>
 <p>The last step we can take is to <strong>push</strong> our local repository to a remote location, called a <strong>remote</strong>. <a href="https://github.com" rel="external" target="_blank">GitHub</a> is a great example of a remote that works with Git, but there are many others as well. For this course, since we are using GitHub Classroom, we&rsquo;ll be using GitHub as our remote.</p>
 <p>Thankfully, because we&rsquo;ve already <strong>cloned</strong> this assignment from GitHub Classroom, we don&rsquo;t have to do anything to be able to use it. In Git, <strong>cloning</strong> is the term we use for the first time we download a remote repository and store it on our computer. Once we&rsquo;ve downloaded it the first time, we can get access to any changes by <strong>pulling</strong> from the remote.</p>
 <p>So, to push a copy of our local repository to the remote, we can run this command:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push</span></span></code></pre></div><p>We should then get output that looks like this:</p>
-<p><a href="#R-image-dece5f4c31d0a4232054c6d19badcffd" class="lightbox-link"><img alt="Java Git Push" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javapush.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dece5f4c31d0a4232054c6d19badcffd"><img alt="Java Git Push" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javapush.png"></a></p>
+<p><a href="#R-image-f16dfc6c354e2024a2671fac4e3f888b" class="lightbox-link"><img alt="Java Git Push" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javapush.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f16dfc6c354e2024a2671fac4e3f888b"><img alt="Java Git Push" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javapush.png"></a></p>
 <p>There we go! We&rsquo;ve now pushed our code to GitHub. Now, let&rsquo;s go check it out. So, navigate to your repository on GitHub classroom, and refresh the page if needed to see your changes. For me, it now looks like this:</p>
-<p><a href="#R-image-ca988992390a3cb75e2adfc7e5788fc5" class="lightbox-link"><img alt="Java GitHub" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javagithub.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ca988992390a3cb75e2adfc7e5788fc5"><img alt="Java GitHub" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javagithub.png"></a></p>
+<p><a href="#R-image-c480d7469c57870ec10d4aee7b26cd6a" class="lightbox-link"><img alt="Java GitHub" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/e1/33javagithub.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c480d7469c57870ec10d4aee7b26cd6a"><img alt="Java GitHub" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/e1/33javagithub.png"></a></p>
 <p>Now all of our code is visible on GitHub, and we can see our commit message next to all of the files that have changed. As we continue to make commits and push them to GitHub, we can use this website to explore the different versions of each file. In addition, the instructors for this course can explore your repository and help you resolve errors and assign grades based on your work here.</p>
 <p>At the end of this example project, you&rsquo;ll create a <strong>release</strong> on GitHub to signify that you are done with the assignment. We&rsquo;ll cover how to do that later in this example. For now, let&rsquo;s forge ahead and learn about unit tests.</p>
 
@@ -4059,8 +4069,8 @@ At this point, we’ve written some code for our application.">
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1731425586" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1731425586" defer></script>
-    <script src="/cc410/js/theme.js?1731425586" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1732040923" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1732040923" defer></script>
+    <script src="/cc410/js/theme.js?1732040923" defer></script>
   </body>
 </html>
