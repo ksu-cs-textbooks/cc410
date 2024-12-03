@@ -1997,6 +1997,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3845,7 +3855,7 @@
   <channel>
     <title>Git Commit &amp; Push :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/</link>
-    <description>tl;dr If you are familiar with using Git, here is the short version:&#xA;git status git add . # check that the correct files are added git status # update the commit message below git commit -m &#34;Commit Message Here&#34; git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.&#xA;At this point, we’ve written some code for our application.</description>
+    <description>YouTube Video tl;dr If you are familiar with using Git, here is the short version:&#xA;git status git add . # check that the correct files are added git status # update the commit message below git commit -m &#34;Commit Message Here&#34; git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.&#xA;At this point, we’ve written some code for our application.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.xml" rel="self" type="application/rss+xml" />

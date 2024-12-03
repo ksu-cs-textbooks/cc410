@@ -1997,6 +1997,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3873,18 +3883,18 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/index.print.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/tele.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/embed.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1732040853" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1732040861" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1732040861" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1732040861" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1732040861" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1732040861" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1732040861" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1732040861" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1732040861" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1732040861" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1732040861" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1732040861" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1732040861" rel="stylesheet">
-    <link href="/cc410/css/print.css?1732040861" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1732040861"></script>
+    <link href="/cc410/images/favicon.ico?1733246736" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1733246743" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1733246743" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1733246743" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1733246743" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1733246743" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1733246743" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1733246743" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1733246743" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1733246743" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1733246743" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1733246743" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1733246743" rel="stylesheet">
+    <link href="/cc410/css/print.css?1733246743" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1733246743"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3904,7 +3914,7 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1732040861" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1733246743" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/">
     <div id="R-body" class="default-animation">
@@ -3969,20 +3979,20 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
 <p>One of the most useful ways to inspect the behavior of our application is to look at the <strong>call stack</strong> or <strong>stack trace</strong> of the program when it reaches an exception. The call stack will list all of the functions currently being executed, even including the individual line numbers of the currently executed piece of code.</p>
 <p>For example, consider this code:</p>
 
-<div class="tab-panel" data-tab-group="4049f256dbcb4125927c13e8a0049bb4">
+<div class="tab-panel" data-tab-group="6d30c6ed101704ea52d9adb70ae33de7">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('4049f256dbcb4125927c13e8a0049bb4','java')"
+      onclick="switchTab('6d30c6ed101704ea52d9adb70ae33de7','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('4049f256dbcb4125927c13e8a0049bb4','python')"
+      onclick="switchTab('6d30c6ed101704ea52d9adb70ae33de7','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4034,20 +4044,20 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
 </div>
 <p>This code includes a chain of three functions, and the innermost function will throw an exception. When we run this code, we&rsquo;ll get the following error messages:</p>
 
-<div class="tab-panel" data-tab-group="6cb46b2072e60a9abd35852c7f936891">
+<div class="tab-panel" data-tab-group="7989b7586d40f613028413c1233d7c91">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('6cb46b2072e60a9abd35852c7f936891','java')"
+      onclick="switchTab('7989b7586d40f613028413c1233d7c91','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('6cb46b2072e60a9abd35852c7f936891','python')"
+      onclick="switchTab('7989b7586d40f613028413c1233d7c91','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4083,25 +4093,25 @@ Exception: Test Exception</code></pre></div></div>
   </div>
 </div>
 <p>As we can see, both Java and Python will automatically print a <strong>stack trace</strong> of the exact functions and lines of code that we executed when we were reaching the error. Recall that this relates to the call stack in memory that is created while this program is executed:</p>
-<p><a href="#R-image-f88473fdd161af90a3de1a6bdc4c6ed1" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f88473fdd161af90a3de1a6bdc4c6ed1"><img alt="Call Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
+<p><a href="#R-image-10f25fafaf74f77555209840f1f9f212" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-10f25fafaf74f77555209840f1f9f212"><img alt="Call Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
 <p>As we can see, Java will print the innermost call at the top of the call stack, whereas Python will invert the order and put the innermost call at the end. So, you&rsquo;ll have to read carefully to make sure you are interpreting the call stack correctly.</p>
 <p>What if we want to get a call stack without crashing our program? Both Java and Python support a method for this:</p>
 
-<div class="tab-panel" data-tab-group="5f97444a62defbb7e3565f5b542dfb80">
+<div class="tab-panel" data-tab-group="1f4b9358ec4861f0b7fb1518b80f7148">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('5f97444a62defbb7e3565f5b542dfb80','java')"
+      onclick="switchTab('1f4b9358ec4861f0b7fb1518b80f7148','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('5f97444a62defbb7e3565f5b542dfb80','python')"
+      onclick="switchTab('1f4b9358ec4861f0b7fb1518b80f7148','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4168,12 +4178,12 @@ Exception: Test Exception</code></pre></div></div>
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1732040861" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1732040861" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1732040861" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1732040861" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1732040861" defer></script>
-        <script src="/cc410/js/search.js?1732040861" defer></script>
+        <script src="/cc410/js/auto-complete.js?1733246743" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1733246743" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1733246743" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1733246743" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1733246743" defer></script>
+        <script src="/cc410/js/search.js?1733246743" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4422,8 +4432,9 @@ Exception: Test Exception</code></pre></div></div>
           <li data-nav-id="/cc410/x-weekly-updates/week10/" class=""><a class="padding" href="/cc410/x-weekly-updates/week10/">10. Fall &#39;24 Week 10</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week11/" class=""><a class="padding" href="/cc410/x-weekly-updates/week11/">11. Fall &#39;24 Week 11</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week12/" class=""><a class="padding" href="/cc410/x-weekly-updates/week12/">12. Fall &#39;24 Week 12</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week13/" class=""><a class="padding" href="/cc410/x-weekly-updates/week13/">13. Fall `24 Week 13</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week14/" class=""><a class="padding" href="/cc410/x-weekly-updates/week14/">14. Fall &#39;24 Week 14</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week13/" class=""><a class="padding" href="/cc410/x-weekly-updates/week13/">13. Fall &#39;24 Week 13</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week14/" class=""><a class="padding" href="/cc410/x-weekly-updates/week14/">14. Fall &#39;24 Week 14</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week15/" class=""><a class="padding" href="/cc410/x-weekly-updates/week15/">15. Fall &#39;24 Week 15</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4590,8 +4601,8 @@ Exception: Test Exception</code></pre></div></div>
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1732040861" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1732040861" defer></script>
-    <script src="/cc410/js/theme.js?1732040861" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1733246743" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1733246743" defer></script>
+    <script src="/cc410/js/theme.js?1733246743" defer></script>
   </body>
 </html>

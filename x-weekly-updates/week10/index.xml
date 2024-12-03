@@ -1997,6 +1997,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3845,7 +3855,7 @@
   <channel>
     <title>Fall &#39;24 Week 10 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC 410 in Fall 2024. This week we’re working on parallel programming, so you’ll do a short example around that. We’ll also work a little bit on event -driven programming, and you’ll do an example around that. And then you’ll work on the seventh restaurant milestone. This is the milestone where you’re going to add event -driven programming to your user interface so that you can actually switch between windows, you can save objects, and you can actually update the order itself.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC 410 in Fall 2024. This week we’re working on parallel programming, so you’ll do a short example around that. We’ll also work a little bit on event -driven programming, and you’ll do an example around that. And then you’ll work on the seventh restaurant milestone. This is the milestone where you’re going to add event -driven programming to your user interface so that you can actually switch between windows, you can save objects, and you can actually update the order itself.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.xml" rel="self" type="application/rss+xml" />

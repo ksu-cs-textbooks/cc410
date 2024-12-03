@@ -1997,6 +1997,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3845,7 +3855,7 @@
   <channel>
     <title>Test Doubles in JUnit :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/07-junit-test-doubles/</link>
-    <description>Video Materials&#xA;To create test doubles in JUnit, we’ll rely on a separate library called Mockito. Mockito is a framework for creating mock objects in Java that works well with JUnit, and has become one of the most commonly used tools for this task.&#xA;Installing Mockito in Gradle To install Mockito, we just update the testImplementation line in our build.gradle file to include both the mockito-inline library, as well as the mockito-junit-jupiter library that allows Mockito and JUnit to work together seamlessly.</description>
+    <description>YouTube Video Video Materials&#xA;To create test doubles in JUnit, we’ll rely on a separate library called Mockito. Mockito is a framework for creating mock objects in Java that works well with JUnit, and has become one of the most commonly used tools for this task.&#xA;Installing Mockito in Gradle To install Mockito, we just update the testImplementation line in our build.gradle file to include both the mockito-inline library, as well as the mockito-junit-jupiter library that allows Mockito and JUnit to work together seamlessly.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/07-junit-test-doubles/index.xml" rel="self" type="application/rss+xml" />

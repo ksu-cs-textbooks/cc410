@@ -1997,6 +1997,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3845,7 +3855,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/07b-event-driven-programming/02-python/</link>
-    <description>Part 1 Part 2 Tox Changes The tox.ini file has been updated to allow testing with a display, and will now run the full unit test suite.&#xA;[testenv] deps = -rrequirements.txt ignore_errors = True passenv = DISPLAY commands = python3 -m mypy -p src --html-report reports/mypy python3 -m coverage run --source src -m pytest --html=reports/pytest/index.html python3 -m coverage html -d reports/coverage python3 -m flake8 --docstring-convention google --format=html --htmldir=reports/flake Outline Here is a basic outline of the steps to follow to complete this example.</description>
+    <description>Part 1 YouTube Video Part 2 YouTube Video Tox Changes The tox.ini file has been updated to allow testing with a display, and will now run the full unit test suite.&#xA;[testenv] deps = -rrequirements.txt ignore_errors = True passenv = DISPLAY commands = python3 -m mypy -p src --html-report reports/mypy python3 -m coverage run --source src -m pytest --html=reports/pytest/index.html python3 -m coverage html -d reports/coverage python3 -m flake8 --docstring-convention google --format=html --htmldir=reports/flake Outline Here is a basic outline of the steps to follow to complete this example.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/07b-event-driven-programming/02-python/index.xml" rel="self" type="application/rss+xml" />

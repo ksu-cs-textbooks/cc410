@@ -1997,6 +1997,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3877,18 +3887,18 @@ Consider the following example:
     <link href="/cc410/i-oop/10-test-doubles/09-dependency-injection/index.print.html" rel="alternate" type="text/html" title="Dependency Injection :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/09-dependency-injection/tele.html" rel="alternate" type="text/html" title="Dependency Injection :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/09-dependency-injection/embed.html" rel="alternate" type="text/html" title="Dependency Injection :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1732040853" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1732040863" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1732040863" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1732040863" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1732040863" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1732040863" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1732040863" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1732040863" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1732040863" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1732040863" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1732040863" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1732040863" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1732040863" rel="stylesheet">
-    <link href="/cc410/css/print.css?1732040863" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1732040863"></script>
+    <link href="/cc410/images/favicon.ico?1733246736" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1733246745" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1733246745" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1733246745" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1733246745" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1733246745" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1733246745" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1733246745" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1733246745" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1733246745" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1733246745" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1733246745" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1733246745" rel="stylesheet">
+    <link href="/cc410/css/print.css?1733246745" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1733246745"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3908,7 +3918,7 @@ Consider the following example:
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1732040863" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1733246745" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/i-oop/10-test-doubles/09-dependency-injection/">
     <div id="R-body" class="default-animation">
@@ -3979,20 +3989,20 @@ Consider the following example:
 <p>One other important topic to cover in unit tests is <strong>dependency injection</strong>. In short, <a href="https://en.wikipedia.org/wiki/Dependency_injection" rel="external" target="_blank">dependency injection</a> is a way that we can build our classes so that the objects they depend on can be added to the class from outside. In that way, we can change them as needed in our unit tests as a way to test functionality using test doubles.</p>
 <p>Consider the following example:</p>
 
-<div class="tab-panel" data-tab-group="27c906033096a5bc5a13dea924dd06b1">
+<div class="tab-panel" data-tab-group="626aa56b0acd347474ec7e08f68a5f3e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('27c906033096a5bc5a13dea924dd06b1','java')"
+      onclick="switchTab('626aa56b0acd347474ec7e08f68a5f3e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('27c906033096a5bc5a13dea924dd06b1','python')"
+      onclick="switchTab('626aa56b0acd347474ec7e08f68a5f3e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4052,20 +4062,20 @@ Consider the following example:
 <h3 id="constructor-injection">Constructor Injection</h3>
 <p>The first method of dependency injection is via the constructor. We could simply pass in a reference to a <code>Gradebook</code> object in the constructor, as in this example:</p>
 
-<div class="tab-panel" data-tab-group="3d077d91c767a2d828be1f2b25ec52d2">
+<div class="tab-panel" data-tab-group="1274bc3d01eb42b679316263f27d05b5">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('3d077d91c767a2d828be1f2b25ec52d2','java')"
+      onclick="switchTab('1274bc3d01eb42b679316263f27d05b5','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('3d077d91c767a2d828be1f2b25ec52d2','python')"
+      onclick="switchTab('1274bc3d01eb42b679316263f27d05b5','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4103,20 +4113,20 @@ Consider the following example:
 <h3 id="setter-injection">Setter Injection</h3>
 <p>Alternatively, we can provide a setter method and allow injection via the setter. This could be done either in lieu of building a <code>Gradebook</code> object in the constructor, or in addition to it.</p>
 
-<div class="tab-panel" data-tab-group="d7529d45d5d1778e123a0bbada2271cf">
+<div class="tab-panel" data-tab-group="32bb81e99a93cbf17245afb4a360e183">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('d7529d45d5d1778e123a0bbada2271cf','java')"
+      onclick="switchTab('32bb81e99a93cbf17245afb4a360e183','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('d7529d45d5d1778e123a0bbada2271cf','python')"
+      onclick="switchTab('32bb81e99a93cbf17245afb4a360e183','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4209,12 +4219,12 @@ Consider the following example:
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1732040863" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1732040863" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1732040863" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1732040863" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1732040863" defer></script>
-        <script src="/cc410/js/search.js?1732040863" defer></script>
+        <script src="/cc410/js/auto-complete.js?1733246745" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1733246745" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1733246745" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1733246745" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1733246745" defer></script>
+        <script src="/cc410/js/search.js?1733246745" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4463,8 +4473,9 @@ Consider the following example:
           <li data-nav-id="/cc410/x-weekly-updates/week10/" class=""><a class="padding" href="/cc410/x-weekly-updates/week10/">10. Fall &#39;24 Week 10</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week11/" class=""><a class="padding" href="/cc410/x-weekly-updates/week11/">11. Fall &#39;24 Week 11</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week12/" class=""><a class="padding" href="/cc410/x-weekly-updates/week12/">12. Fall &#39;24 Week 12</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week13/" class=""><a class="padding" href="/cc410/x-weekly-updates/week13/">13. Fall `24 Week 13</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week14/" class=""><a class="padding" href="/cc410/x-weekly-updates/week14/">14. Fall &#39;24 Week 14</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week13/" class=""><a class="padding" href="/cc410/x-weekly-updates/week13/">13. Fall &#39;24 Week 13</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week14/" class=""><a class="padding" href="/cc410/x-weekly-updates/week14/">14. Fall &#39;24 Week 14</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week15/" class=""><a class="padding" href="/cc410/x-weekly-updates/week15/">15. Fall &#39;24 Week 15</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4631,8 +4642,8 @@ Consider the following example:
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1732040863" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1732040863" defer></script>
-    <script src="/cc410/js/theme.js?1732040863" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1733246746" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1733246746" defer></script>
+    <script src="/cc410/js/theme.js?1733246746" defer></script>
   </body>
 </html>
