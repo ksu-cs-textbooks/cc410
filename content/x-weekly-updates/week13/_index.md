@@ -1,5 +1,5 @@
 ---
-title: "Fall `24 Week 13"
+title: "Fall '24 Week 13"
 pre: "13. "
 weight: 130
 ---
