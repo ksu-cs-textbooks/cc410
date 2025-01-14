@@ -132,8 +132,13 @@
   
 	
 		
+	  
+
+  
+	
 		
 		
+		
 	  
 
   
@@ -1867,8 +1872,6 @@
 
   
 	
-		
-		
 	  
 
   
@@ -1909,10 +1912,15 @@
 	
 		
 		
+	  
+
+  
+	
 	  
 
   
 	
+		
 	  
 
   
@@ -2007,6 +2015,8 @@
 
   
 	
+		
+		
 	  
 
   
@@ -2015,8 +2025,13 @@
 
   
 	
+		
 		
 		
+	  
+
+  
+	
 	  
 
   
@@ -2055,27 +2070,27 @@
 
   
 	
+		
 		
 	  
 
   
 	
-		
-		
 	  
 
   
 	
+		
+		
 	  
 
   
 	
-		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -2122,6 +2137,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2162,11 +2182,6 @@
 	
 		
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -2176,11 +2191,11 @@
   
 	
 		
-		
 	  
 
   
 	
+		
 	  
 
   
@@ -2226,6 +2241,11 @@
   
 	
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2317,15 +2337,10 @@
 	
 		
 		
-	  
-
-  
-	
 	  
 
   
 	
-		
 	  
 
   
@@ -2480,11 +2495,16 @@
 
   
 	
+		
 		
 	  
 
   
 	
+	  
+
+  
+	
 		
 		
 	  
@@ -2670,6 +2690,7 @@
 
   
 	
+		
 		
 		
 	  
@@ -2680,6 +2701,10 @@
 
   
 	
+	  
+
+  
+	
 		
 		
 	  
@@ -2702,6 +2727,11 @@
 	
 		
 		
+		
+	  
+
+  
+	
 	  
 
   
@@ -2732,11 +2762,6 @@
 	
 		
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -2827,11 +2852,6 @@
 	
 		
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -3858,7 +3878,7 @@
     <description>Welcome to CC 410!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Aug 2024 13:56:02 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 19:03:45 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/00-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Introduction</title>
@@ -3889,11 +3909,11 @@
       <description>YouTube Video Resources Slides The Science of Learning Programming from Nathan Bean’s CIS 400 Textbook The Power of Believing You Can Improve | Carol Dweck - TED Talk on Mindsets and the Power of “Yet” The New Science of Learning: How to Learn in Haromony with your Brain by Terry Doyle and Todd Zakrajsek - Great Book on Learning Constructivism on Wikipedia - Article about Jean Piaget’s Learning Philosophy Toward a Developmental Epistemology of Computer Programming by Raymond Lister - Introduces the Stages of Learning to Program Video Script Before we launch into the course itself, I wanted to take a few minutes to share some information with you regarding what we know about how students learn to program.</description>
     </item>
     <item>
-      <title>Fall 2024 Syllabus</title>
+      <title>Spring 2025 Syllabus</title>
       <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/</guid>
-      <description>CC 410 - Advanced Programming - Fall 2024 Previous Versions&#xA;Instructor Contact Information Instructor: Russell Feldhausen (russfeld AT ksu DOT edu)&#xA;I use he/him pronouns. Feel free to share your own pronouns with me, and I’ll do my best to use them! Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Schedule a meeting at https://calendly.</description>
+      <description>CC 410 - Advanced Programming - Spring 2025 Previous Versions&#xA;Instructor Contact Information Instructor: Russell Feldhausen (russfeld AT ksu DOT edu)&#xA;I use he/him pronouns. Feel free to share your own pronouns with me, and I’ll do my best to use them! Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Schedule a meeting at https://calendly.</description>
     </item>
     <item>
       <title>Plagiarism Policy</title>
