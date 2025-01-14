@@ -114,12 +114,24 @@ hidden: true
 </section>
 
 <section>
-	<h2>Choose your Restaurant!</h2>
+	<h2>Big Changes!</h2>
 	<ul>
-		<li><i>Game Grub</i></li>
-		<li>Current Semester & Linked in Canvas</li>
-		<li><i>Starfleet Subs</i></li>
-		<li>Prior Semester - Available Online</li>
+		<li>Splitting Larger Milestones</li>
+		<li>Moving Content Around</li>
+		<li>More streamlined?</li>
+		<li>Some hiccups?</li>
+		<li>Starts with Module 6</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Small Updates</h2>
+	<ul>
+		<li>Codio Stack Updated</li>
+		<li>Ubuntu 22.04</li>
+		<li>Java 11 (openjdk)</li>
+		<li>Python 3.10</li>
+		<li>Examples Being Updated & Tested</li>
 	</ul>
 </section>
 
@@ -140,7 +152,7 @@ hidden: true
 	<h3>Keep in Touch!</h3>
 	<ul>
 		<li>Ed Discussion</li>
-	  <li>Teams</li>
+	  <li>Discord & Teams</li>
 	  <li>"Tea Time" Office Hours</li>
 	  <li>One-on-One Office Hours</li>
 	</ul>
