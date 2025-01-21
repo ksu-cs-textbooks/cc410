@@ -3875,7 +3875,7 @@
   <channel>
     <title>Event Loop :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/13-event-driven-programming/05-event-loop/video/</link>
-    <description>Resources Slides Video Script Let’s briefly go through the steps of starting a GUI program, the event loop, and handling an event. I hope this process will help clarify exactly what’s going on behind the scenes in our GUI-based programs when an event occurs. First, let’s set the stage. Here, we have our application to the right, and it contains some code that gives the overall structure and layout of the GUI.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s briefly go through the steps of starting a GUI program, the event loop, and handling an event. I hope this process will help clarify exactly what’s going on behind the scenes in our GUI-based programs when an event occurs. First, let’s set the stage. Here, we have our application to the right, and it contains some code that gives the overall structure and layout of the GUI.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

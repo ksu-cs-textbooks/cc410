@@ -3875,7 +3875,7 @@
   <channel>
     <title>Introduction :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iii-web/18-web-apis/02-web-apis/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re going to take a deeper look at web APIs and how they work. As you are probably already aware, a web API is an interface to a web application. It defines how we interact with the web server containing the resources of that application, and gives us the ability to access and even sometimes modify those resources. Typically the web API itself defines a set of endpoints, represented as URLs, that we can interact with.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to take a deeper look at web APIs and how they work. As you are probably already aware, a web API is an interface to a web application. It defines how we interact with the web server containing the resources of that application, and gives us the ability to access and even sometimes modify those resources. Typically the web API itself defines a set of endpoints, represented as URLs, that we can interact with.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Aug 2021 16:30:20 -0500</lastBuildDate>

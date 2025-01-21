@@ -3907,19 +3907,19 @@ import threading import time import sys class MyThread: def __init__(self, name)
     <link href="/cc410/ii-gui/12-parallelism/09-python-threads/index.xml" rel="alternate" type="application/rss+xml" title="Python Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/09-python-threads/tele.html" rel="alternate" type="text/html" title="Python Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/09-python-threads/embed.html" rel="alternate" type="text/html" title="Python Threads :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1737477309" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1737477371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737477371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1737477371" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1737477371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737477371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1737477371" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1737477371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737477371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1737477371" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1737477371" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1737477371" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1737477371" rel="stylesheet">
-    <link href="/cc410/css/print.css?1737477371" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1737477371" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1737477371"></script>
+    <link href="/cc410/images/favicon.ico?1737485125" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1737485186" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737485186" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1737485186" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1737485186" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737485186" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1737485186" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1737485186" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737485186" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1737485186" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1737485186" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1737485186" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1737485186" rel="stylesheet">
+    <link href="/cc410/css/print.css?1737485186" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1737485186" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1737485186"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3939,7 +3939,7 @@ import threading import time import sys class MyThread: def __init__(self, name)
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1737477371" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1737485186" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/09-python-threads/">
     <div id="R-body" class="default-animation">
@@ -4067,8 +4067,8 @@ import threading import time import sys class MyThread: def __init__(self, name)
 <p>That&rsquo;s all there is to this example!</p>
 <h4 id="execution">Execution</h4>
 <p>When we execute this example, we can see many different outputs, depending on how the threads are scheduled with the operating system. Below are a few that were observed when this program was executed during testing.</p>
-<p><a href="#R-image-03ae30c81dd7deb1db180e6071a1177b" class="lightbox-link"><img alt="Python Threads" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_thread.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-03ae30c81dd7deb1db180e6071a1177b"><img alt="Python Threads" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_thread.png"></a></p>
+<p><a href="#R-image-9b13f9df1a1b576d131af9253925a76d" class="lightbox-link"><img alt="Python Threads" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/python_thread.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b13f9df1a1b576d131af9253925a76d"><img alt="Python Threads" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/python_thread.png"></a></p>
 <p>If you look closely at these four lists, no two of them are exactly the same. This is because of how the operating system schedules threads - we cannot predict how it will work, and because of this a multithreaded program could run differently each time it is executed!</p>
 
             <footer class="footline">
@@ -4092,8 +4092,8 @@ import threading import time import sys class MyThread: def __init__(self, name)
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1737477371" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1737477371" defer></script>
-    <script src="/cc410/js/theme.js?1737477371" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1737485186" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1737485186" defer></script>
+    <script src="/cc410/js/theme.js?1737485186" defer></script>
   </body>
 </html>

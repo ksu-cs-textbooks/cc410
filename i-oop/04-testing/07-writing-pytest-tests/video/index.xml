@@ -3875,7 +3875,7 @@
   <channel>
     <title>pytest :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/04-testing/07-writing-pytest-tests/video/</link>
-    <description>Resources Slides Video Script For the Python programming language, we’re going to use the pytest test framework to develop our unit tests. pytest is one of the most popular unit test frameworks for Python today, and it is very easy to use. On this slide, we have a simple pytest test that could be used to test the Square class we introduced in an earlier chapter. For pytest to find the test methods, we have to follow some specific naming standards.</description>
+    <description>YouTube Video Resources Slides Video Script For the Python programming language, we’re going to use the pytest test framework to develop our unit tests. pytest is one of the most popular unit test frameworks for Python today, and it is very easy to use. On this slide, we have a simple pytest test that could be used to test the Square class we introduced in an earlier chapter. For pytest to find the test methods, we have to follow some specific naming standards.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Aug 2021 16:38:27 -0500</lastBuildDate>
