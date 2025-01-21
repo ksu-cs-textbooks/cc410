@@ -71,7 +71,7 @@ One way is through the use of [Semantic Versioning](https://semver.org/). Semant
 MAJOR.MINOR.PATCH
 ```
 
-So, when we used "v0.1.0" in our tag, we are stating that our code is at MAJOR version 0, MINOR version 1, and PATH 0.
+So, when we used "v0.1.0" in our tag, we are stating that our code is at MAJOR version 0, MINOR version 1, and PATCH 0.
 
 Then, following the rules outlined on the [Semantic Versioning](https://semver.org/) website, we would increment those numbers following these rules:
 
