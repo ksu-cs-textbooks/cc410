@@ -3891,14 +3891,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/12-forms/02-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/12-forms/02-java/</guid>
-      <description>YouTube Video Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; java Install SDKMAN Instructions&#xA;curl -s &#34;https://get.sdkman.io&#34; | bash Close and Reopen Terminal to load SDK Man&#xA;Install Gradle&#xA;sdk install gradle 7.6 Compile, Run &amp; Test Existing Project cd java gradle run gradle check Confirm that project runs and has no style errors.</description>
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; java Install SDKMAN Instructions&#xA;curl -s &#34;https://get.sdkman.io&#34; | bash Close and Reopen Terminal to load SDK Man&#xA;Install Gradle&#xA;sdk install gradle 7.6 Compile, Run &amp; Test Existing Project cd java gradle run gradle check Confirm that project runs and has no style errors.&#xA;Follow along with the video to update the project.</description>
     </item>
     <item>
       <title>Python</title>
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/12-forms/02-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/12-forms/02-python/</guid>
-      <description>YouTube Video Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.&#xA;Follow along with the video to update the project.&#xA;Add the option to filter by Rotten Tomatoes Rating and Genre yourself.</description>
+      <description>Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.&#xA;Follow along with the video to update the project.&#xA;Add the option to filter by Rotten Tomatoes Rating and Genre yourself.</description>
     </item>
   </channel>
 </rss>

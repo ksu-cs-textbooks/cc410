@@ -3903,21 +3903,21 @@ The pytest framework can leverage the assertions already present in other Python
     <link href="/cc410/i-oop/04-testing/08-python-assertions/index.xml" rel="alternate" type="application/rss+xml" title="Python Assertions :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/08-python-assertions/index.print.html" rel="alternate" type="text/html" title="Python Assertions :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/08-python-assertions/tele.html" rel="alternate" type="text/html" title="Python Assertions :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1737134555" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1737477309" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1737134593" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737134593" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1737134593" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1737134593" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737134593" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1737134593" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1737134593" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737134593" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1737134593" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1737477347" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737477347" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1737477347" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1737477347" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737477347" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1737477347" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1737477347" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737477347" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1737477347" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1737134593" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1737134593" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1737134593" rel="stylesheet">
-  <link href="/cc410/css/print.css?1737134593" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1737477347" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1737477347" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1737477347" rel="stylesheet">
+  <link href="/cc410/css/print.css?1737477347" rel="stylesheet" media="print">
   
   
   
@@ -3940,7 +3940,7 @@ The pytest framework can leverage the assertions already present in other Python
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1737134593" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1737477347" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/04-testing/08-python-assertions/embed.html">
@@ -4006,8 +4006,8 @@ The pytest framework can leverage the assertions already present in other Python
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="n">y</span><span class="p">)</span></span></span></code></pre></div><p>While we would expect both <code>x</code> and <code>y</code> to store the same value, they are actually slightly different.</p>
-<p><a href="#R-image-fd9cfd16f1a30c0cf34b3289a9f878eb" class="lightbox-link"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/pythonerror.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fd9cfd16f1a30c0cf34b3289a9f878eb"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/pythonerror.png"></a></p>
+<p><a href="#R-image-126cb19b240517a868b9212d4d606208" class="lightbox-link"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/pythonerror.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-126cb19b240517a868b9212d4d606208"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/pythonerror.png"></a></p>
 <p>So, we may need to account for this imprecision in our unit tests. We could also rewrite our code to avoid the use of floating point values. For example, many programs that deal with monetary values actually store them as integers based on cents instead of dollars, and simply add the decimal point only when the value is printed.</p>
 </div>
 </div>
@@ -4050,10 +4050,10 @@ The pytest framework can leverage the assertions already present in other Python
 
 
 
-<script src="/cc410/js/clipboard.min.js?1737134593" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1737134593" defer></script>
-<script src="/cc410/js/theme.js?1737134593" defer></script>
+<script src="/cc410/js/clipboard.min.js?1737477347" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1737477347" defer></script>
+<script src="/cc410/js/theme.js?1737477347" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1737134593" defer></script>
+<script src="/cc410/js/embed-iframe.js?1737477347" defer></script>
 </body>
 </html>

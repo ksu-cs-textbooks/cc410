@@ -3875,7 +3875,7 @@
   <channel>
     <title>Text Formats :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iii-web/19-serialization/03-test-formats/</link>
-    <description>YouTube Video Video Materials&#xA;So, now that we understand state, let’s talk about how we can serialize it in a way that is easy to parse and understand. There are really two major options we can choose from: a textual representation of the data, and a binary representation. Let’s look at text formats first.&#xA;Text Data Formats There are many different ways that we can serialize data into a textual format.</description>
+    <description>Video Materials&#xA;So, now that we understand state, let’s talk about how we can serialize it in a way that is easy to parse and understand. There are really two major options we can choose from: a textual representation of the data, and a binary representation. Let’s look at text formats first.&#xA;Text Data Formats There are many different ways that we can serialize data into a textual format. In fact, we’ve already covered how to read data from and write data to text files many times throughout this curriculum, and it is probably one of first things most programmers learn how to do.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/iii-web/19-serialization/03-test-formats/index.xml" rel="self" type="application/rss+xml" />

@@ -3875,7 +3875,7 @@
   <channel>
     <title>Stubs :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/04-stubs/</link>
-    <description>YouTube Video Video Materials&#xA;Inconsistent Naming Unfortunately, the naming of many of these test doubles, such as stubs, mocks, and fakes, are used either inconsistently or interchangeably within different systems, documentation, and other resources. I’m going to stick to one particular naming scheme, which is best described in the resources linked earlier in this chapter. However, in practice, these terms may be used differently in different areas.&#xA;There are three major types of test doubles that we’ll cover in this chapter.</description>
+    <description>Video Materials&#xA;Inconsistent Naming Unfortunately, the naming of many of these test doubles, such as stubs, mocks, and fakes, are used either inconsistently or interchangeably within different systems, documentation, and other resources. I’m going to stick to one particular naming scheme, which is best described in the resources linked earlier in this chapter. However, in practice, these terms may be used differently in different areas.&#xA;There are three major types of test doubles that we’ll cover in this chapter.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/04-stubs/index.xml" rel="self" type="application/rss+xml" />

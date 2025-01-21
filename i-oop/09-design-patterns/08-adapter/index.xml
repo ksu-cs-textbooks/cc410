@@ -3875,7 +3875,7 @@
   <channel>
     <title>Adapter Pattern :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/08-adapter/</link>
-    <description>YouTube Video Video Materials&#xA;Another pattern is the adapter pattern. The adapter pattern is a structural pattern that is used to make an existing interface fit within a different interface. Just like we might use an adapter when traveling abroad to allow our appliances to plug in to different electrical outlets around the world, the adapter pattern lets us use one interface in place of another, similar interface.&#xA;1</description>
+    <description>Video Materials&#xA;Another pattern is the adapter pattern. The adapter pattern is a structural pattern that is used to make an existing interface fit within a different interface. Just like we might use an adapter when traveling abroad to allow our appliances to plug in to different electrical outlets around the world, the adapter pattern lets us use one interface in place of another, similar interface.&#xA;1&#xA;In the UML diagram above, we see two different approaches to using the adapter pattern.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/08-adapter/index.xml" rel="self" type="application/rss+xml" />

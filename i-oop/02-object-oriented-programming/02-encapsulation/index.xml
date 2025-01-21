@@ -3875,7 +3875,7 @@
   <channel>
     <title>Encapsulation :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/02-encapsulation/</link>
-    <description>YouTube Video Video Materials&#xA;The first criteria that Alan Kay set for an object-oriented language was encapsulation. In computer science, the term encapsulation refers to organizing code into units, which provide two primary benefits:&#xA;Providing a mechanism for organizing complex software The ability to control access to encapsulated data and functionality Think back to the FORTRAN EPIC model we introduced in an earlier module. All of the variables in that program were declared globally, and there were thousands of them.</description>
+    <description>Video Materials&#xA;The first criteria that Alan Kay set for an object-oriented language was encapsulation. In computer science, the term encapsulation refers to organizing code into units, which provide two primary benefits:&#xA;Providing a mechanism for organizing complex software The ability to control access to encapsulated data and functionality Think back to the FORTRAN EPIC model we introduced in an earlier module. All of the variables in that program were declared globally, and there were thousands of them.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/02-encapsulation/index.xml" rel="self" type="application/rss+xml" />
