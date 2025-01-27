@@ -1872,6 +1872,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3901,19 +3911,19 @@ If we think back to the concept of message passing in object-oriented languages,
     <link href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/index.xml" rel="alternate" type="application/rss+xml" title="Interfaces :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/tele.html" rel="alternate" type="text/html" title="Interfaces :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/embed.html" rel="alternate" type="text/html" title="Interfaces :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1737485125" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1737485183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737485183" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1737485183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737485183" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1737485183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737485183" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1737485183" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1737485183" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/print.css?1737485183" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1737485183" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1737485183"></script>
+    <link href="/cc410/images/favicon.ico?1737993772" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737993830" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737993830" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737993830" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1737993830" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1737993830" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/print.css?1737993830" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1737993830" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1737993830"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3933,7 +3943,7 @@ If we think back to the concept of message passing in object-oriented languages,
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1737485183" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1737993830" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/">
     <div id="R-body" class="default-animation">
@@ -3973,20 +3983,20 @@ If we think back to the concept of message passing in object-oriented languages,
 <p><a href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/video/">Video Materials</a></p>
 <p>If we think back to the concept of <em>message passing</em> in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an <em>interface</em>, i.e., a list of messages you can dispatch to an object created from that class.  When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language&rsquo;s documentation:</p>
 
-<div class="tab-panel" data-tab-group="b50ae1a18b21068a30f25459545980ba">
+<div class="tab-panel" data-tab-group="6d829822d3de1e3279f3a803ea192f11">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b50ae1a18b21068a30f25459545980ba','java')"
+      onclick="switchTab('6d829822d3de1e3279f3a803ea192f11','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b50ae1a18b21068a30f25459545980ba','python')"
+      onclick="switchTab('6d829822d3de1e3279f3a803ea192f11','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -3998,8 +4008,8 @@ If we think back to the concept of message passing in object-oriented languages,
       <div class="tab-content-text">
 
 <h6 id="java-api">Java API</h6>
-<p><a href="#R-image-fda9a8d3357eca9968e5b500b49e341b" class="lightbox-link"><img alt="Java API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/java_api.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fda9a8d3357eca9968e5b500b49e341b"><img alt="Java API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/java_api.png"></a></p>
+<p><a href="#R-image-093a39de67df7eb5eba890ee5d35a718" class="lightbox-link"><img alt="Java API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/java_api.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-093a39de67df7eb5eba890ee5d35a718"><img alt="Java API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/java_api.png"></a></p>
 </div>
     </div>
     <div
@@ -4008,8 +4018,8 @@ If we think back to the concept of message passing in object-oriented languages,
       <div class="tab-content-text">
 
 <h6 id="python-api">Python API</h6>
-<p><a href="#R-image-05b4f81d1e912f01c9df921c676a7488" class="lightbox-link"><img alt="Python API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/python_api.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-05b4f81d1e912f01c9df921c676a7488"><img alt="Python API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/python_api.png"></a></p>
+<p><a href="#R-image-e00e3ef1208811ddc4c67b62b2104d55" class="lightbox-link"><img alt="Python API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/python_api.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e00e3ef1208811ddc4c67b62b2104d55"><img alt="Python API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/python_api.png"></a></p>
 </div>
     </div>
   </div>
@@ -4087,8 +4097,8 @@ If we think back to the concept of message passing in object-oriented languages,
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1737485183" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1737485183" defer></script>
-    <script src="/cc410/js/theme.js?1737485183" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1737993830" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1737993830" defer></script>
+    <script src="/cc410/js/theme.js?1737993830" defer></script>
   </body>
 </html>

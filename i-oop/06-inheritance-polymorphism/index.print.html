@@ -1872,6 +1872,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3898,19 +3908,19 @@
     <link href="/cc410/i-oop/06-inheritance-polymorphism/index.xml" rel="alternate" type="application/rss+xml" title="Inheritance &amp; Polymorphism :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/tele.html" rel="alternate" type="text/html" title="Inheritance &amp; Polymorphism :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/embed.html" rel="alternate" type="text/html" title="Inheritance &amp; Polymorphism :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1737485125" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1737485183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737485183" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1737485183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737485183" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1737485183" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737485183" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1737485183" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1737485183" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1737485183" rel="stylesheet">
-    <link href="/cc410/css/print.css?1737485183" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1737485183" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1737485183"></script>
+    <link href="/cc410/images/favicon.ico?1737993772" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737993830" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737993830" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737993830" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1737993830" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1737993830" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/print.css?1737993830" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1737993830" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1737993830"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -3930,7 +3940,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1737485183" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1737993830" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/i-oop/06-inheritance-polymorphism/">
     <div id="R-body" class="default-animation">
@@ -4037,20 +4047,20 @@
 <p>Before we can discuss polymorphism in detail, we must first understand the concept of <em>types</em>.  In computer science, a <em>type</em> is a way of categorizing a variable by its storage strategy, i.e., how it is represented in the computer&rsquo;s memory. It also defines how the value can be treated and what operations can be performed on it.</p>
 <p>You&rsquo;ve already used types extensively in your programming up to this point.  Consider the declaration:</p>
 
-<div class="tab-panel" data-tab-group="bede0c1a03821e21e117952f472980f8">
+<div class="tab-panel" data-tab-group="82ad0626b4d7985d490859cb78dde53c">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('bede0c1a03821e21e117952f472980f8','java')"
+      onclick="switchTab('82ad0626b4d7985d490859cb78dde53c','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('bede0c1a03821e21e117952f472980f8','python')"
+      onclick="switchTab('82ad0626b4d7985d490859cb78dde53c','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4076,20 +4086,20 @@
 <p>Each language stores these values in memory differently, and we won&rsquo;t worry about those technical differences in this course. What is important to remember is that the variable&rsquo;s data type tells the computer how to store that value, and also what operations can be performed on that value.</p>
 <p>For example, consider the following code:</p>
 
-<div class="tab-panel" data-tab-group="c6b097a81c654a428b505d31e02098fd">
+<div class="tab-panel" data-tab-group="b9207d953dfe3281e59f6754bc1d198e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c6b097a81c654a428b505d31e02098fd','java')"
+      onclick="switchTab('b9207d953dfe3281e59f6754bc1d198e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c6b097a81c654a428b505d31e02098fd','python')"
+      onclick="switchTab('b9207d953dfe3281e59f6754bc1d198e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4125,20 +4135,20 @@
 <h2 id="user-defined-types">User-Defined Types</h2>
 <p>In addition to built-in types, most programming languages support <em>user-defined types</em>, that is, new types defined by the programmer.  For example, we could define an enumerator called <code>Grade</code>:</p>
 
-<div class="tab-panel" data-tab-group="1b1a00e7319e0c9364d968c570b7637e">
+<div class="tab-panel" data-tab-group="7d19c472c212dcad574815339d9f6d00">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1b1a00e7319e0c9364d968c570b7637e','java')"
+      onclick="switchTab('7d19c472c212dcad574815339d9f6d00','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1b1a00e7319e0c9364d968c570b7637e','python')"
+      onclick="switchTab('7d19c472c212dcad574815339d9f6d00','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4176,20 +4186,20 @@
 </div>
 <p>This defines a new data type <code>Grade</code>.  We can then create variables with that type:</p>
 
-<div class="tab-panel" data-tab-group="92ad2acfaa8580a4c69f6caa017758a7">
+<div class="tab-panel" data-tab-group="e8e296ef763048825a2f73e50732aee8">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('92ad2acfaa8580a4c69f6caa017758a7','java')"
+      onclick="switchTab('e8e296ef763048825a2f73e50732aee8','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('92ad2acfaa8580a4c69f6caa017758a7','python')"
+      onclick="switchTab('e8e296ef763048825a2f73e50732aee8','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4214,20 +4224,20 @@
 <h2 id="classes-are-types">Classes are Types</h2>
 <p>In an object-oriented programming language, a class also <em>defines a new type</em>!  As we discussed in an earlier chapter, a class defines the structure for the <em>state</em> for objects implementing that type. Consider a class named <code>Student</code> as shown in this example:</p>
 
-<div class="tab-panel" data-tab-group="62a9f21eabc8d66b03bffc1192423c70">
+<div class="tab-panel" data-tab-group="ad1ab147216d0d9f4bd92930aed111e3">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('62a9f21eabc8d66b03bffc1192423c70','java')"
+      onclick="switchTab('ad1ab147216d0d9f4bd92930aed111e3','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('62a9f21eabc8d66b03bffc1192423c70','python')"
+      onclick="switchTab('ad1ab147216d0d9f4bd92930aed111e3','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4331,20 +4341,20 @@
 </div>
 <p>If we want to create a new student, we would create an instance of the class <code>Student</code> which is an object of <em>type</em> <code>Student</code>:</p>
 
-<div class="tab-panel" data-tab-group="60fe37c0cab58e1ddb1a84ea13e5a960">
+<div class="tab-panel" data-tab-group="fdb42d250e68a9a22bbf49cb0f7950b7">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('60fe37c0cab58e1ddb1a84ea13e5a960','java')"
+      onclick="switchTab('fdb42d250e68a9a22bbf49cb0f7950b7','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('60fe37c0cab58e1ddb1a84ea13e5a960','python')"
+      onclick="switchTab('fdb42d250e68a9a22bbf49cb0f7950b7','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4373,20 +4383,20 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">bar</span> <span class="p">=</span> <span class="m">6</span><span class="p">;</span></span></span></code></pre></div><p>In a statically typed language, a variable <em>cannot</em> be assigned a value of a different type, i.e.:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">foo</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">8</span><span class="p">.</span><span class="na">3</span><span class="p">;</span></span></span></code></pre></div><p>Will fail with an error in Java, as a floating point value is a different type than an integer. However, we can <em>cast</em> the value to a new type (changing how it is represented), i.e.:</p>
 
-<div class="tab-panel" data-tab-group="81899fc82d745496352375e3249b98fd">
+<div class="tab-panel" data-tab-group="e7cfc5a35677e48a68098f5c34bf5e8d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('81899fc82d745496352375e3249b98fd','java')"
+      onclick="switchTab('e7cfc5a35677e48a68098f5c34bf5e8d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('81899fc82d745496352375e3249b98fd','python')"
+      onclick="switchTab('e7cfc5a35677e48a68098f5c34bf5e8d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4442,20 +4452,20 @@
 <p><a href="/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/video/">Video Materials</a></p>
 <p>If we think back to the concept of <em>message passing</em> in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an <em>interface</em>, i.e., a list of messages you can dispatch to an object created from that class.  When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language&rsquo;s documentation:</p>
 
-<div class="tab-panel" data-tab-group="b50ae1a18b21068a30f25459545980ba">
+<div class="tab-panel" data-tab-group="6d829822d3de1e3279f3a803ea192f11">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b50ae1a18b21068a30f25459545980ba','java')"
+      onclick="switchTab('6d829822d3de1e3279f3a803ea192f11','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b50ae1a18b21068a30f25459545980ba','python')"
+      onclick="switchTab('6d829822d3de1e3279f3a803ea192f11','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4467,8 +4477,8 @@
       <div class="tab-content-text">
 
 <h6 id="java-api">Java API</h6>
-<p><a href="#R-image-fda9a8d3357eca9968e5b500b49e341b" class="lightbox-link"><img alt="Java API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/java_api.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fda9a8d3357eca9968e5b500b49e341b"><img alt="Java API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/java_api.png"></a></p>
+<p><a href="#R-image-093a39de67df7eb5eba890ee5d35a718" class="lightbox-link"><img alt="Java API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/java_api.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-093a39de67df7eb5eba890ee5d35a718"><img alt="Java API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/java_api.png"></a></p>
 </div>
     </div>
     <div
@@ -4477,8 +4487,8 @@
       <div class="tab-content-text">
 
 <h6 id="python-api">Python API</h6>
-<p><a href="#R-image-05b4f81d1e912f01c9df921c676a7488" class="lightbox-link"><img alt="Python API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/python_api.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-05b4f81d1e912f01c9df921c676a7488"><img alt="Python API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/python_api.png"></a></p>
+<p><a href="#R-image-e00e3ef1208811ddc4c67b62b2104d55" class="lightbox-link"><img alt="Python API" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/6/python_api.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e00e3ef1208811ddc4c67b62b2104d55"><img alt="Python API" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/6/python_api.png"></a></p>
 </div>
     </div>
   </div>
@@ -5207,20 +5217,20 @@
 
 <p>You have probably used casting to convert numeric values from one type to another, i.e.:</p>
 
-<div class="tab-panel" data-tab-group="7210d3b803e699ed0f196932e47e1951">
+<div class="tab-panel" data-tab-group="18440e4e12e0bbf3c291f9f5979a9410">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('7210d3b803e699ed0f196932e47e1951','java')"
+      onclick="switchTab('18440e4e12e0bbf3c291f9f5979a9410','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('7210d3b803e699ed0f196932e47e1951','python')"
+      onclick="switchTab('18440e4e12e0bbf3c291f9f5979a9410','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -5248,20 +5258,20 @@ b: int = int(a)</code></pre></div></div>
 <p>Both of these are examples of an <strong>explicit cast</strong>, since we are explicitly stating the type that we&rsquo;d like to convert our existing value to.</p>
 <p>In some languages, we can also perform an <strong>implicit cast</strong>. This is where the compiler or interpreter changes the type of our value behind the scenes for us.</p>
 
-<div class="tab-panel" data-tab-group="665dfe0d5713ea046a1242fcaa49a7e2">
+<div class="tab-panel" data-tab-group="42c9880b5c7cf7e3187da5b9456d945e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('665dfe0d5713ea046a1242fcaa49a7e2','java')"
+      onclick="switchTab('42c9880b5c7cf7e3187da5b9456d945e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('665dfe0d5713ea046a1242fcaa49a7e2','python')"
+      onclick="switchTab('42c9880b5c7cf7e3187da5b9456d945e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -5297,20 +5307,20 @@ b: float = a + 2.5;</code></pre></div></div>
 <h2 id="checking-types">Checking Types</h2>
 <p>Both Java and Python include special methods for determining if a particular object is compatible with a certain type.</p>
 
-<div class="tab-panel" data-tab-group="dd1833b848ba753d56f875a702a77d7d">
+<div class="tab-panel" data-tab-group="b359f24235f1b499569b49551e8ed3f6">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('dd1833b848ba753d56f875a702a77d7d','java')"
+      onclick="switchTab('b359f24235f1b499569b49551e8ed3f6','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('dd1833b848ba753d56f875a702a77d7d','python')"
+      onclick="switchTab('b359f24235f1b499569b49551e8ed3f6','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -5389,20 +5399,20 @@ b: float = a + 2.5;</code></pre></div></div>
 <h2 id="object-oriented-polymorphism">Object-Oriented Polymorphism</h2>
 <p>However, inheritance can cause some challenges in selecting the appropriate polymorphic form.  Consider the following fruit implementations that feature a <code>blend()</code> method:</p>
 
-<div class="tab-panel" data-tab-group="0fd12bd190c970bdba7d3622b5bfa292">
+<div class="tab-panel" data-tab-group="817c6fc1a0e2c7b1f8c482be626d58c9">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('0fd12bd190c970bdba7d3622b5bfa292','java')"
+      onclick="switchTab('817c6fc1a0e2c7b1f8c482be626d58c9','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('0fd12bd190c970bdba7d3622b5bfa292','python')"
+      onclick="switchTab('817c6fc1a0e2c7b1f8c482be626d58c9','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -5462,20 +5472,20 @@ b: float = a + 2.5;</code></pre></div></div>
 </div>
 <p>Let&rsquo;s add some fruit instances to a list, and invoke their <code>blend()</code> methods:</p>
 
-<div class="tab-panel" data-tab-group="9c4d891f776951f81f047eb75cbd4960">
+<div class="tab-panel" data-tab-group="8277d70bb232d7d5640f8615b40fdba0">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9c4d891f776951f81f047eb75cbd4960','java')"
+      onclick="switchTab('8277d70bb232d7d5640f8615b40fdba0','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9c4d891f776951f81f047eb75cbd4960','python')"
+      onclick="switchTab('8277d70bb232d7d5640f8615b40fdba0','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -5578,8 +5588,8 @@ Gooey red sweetness!</code></pre></div><p>In both Java and Python, we see an exa
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1737485183" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1737485183" defer></script>
-    <script src="/cc410/js/theme.js?1737485183" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1737993830" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1737993830" defer></script>
+    <script src="/cc410/js/theme.js?1737993830" defer></script>
   </body>
 </html>

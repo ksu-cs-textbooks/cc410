@@ -1872,6 +1872,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3878,7 +3888,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 10:34:02 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 10:01:44 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;25 Week 1</title>
@@ -3886,6 +3896,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/</guid>
       <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to CC 410 Advanced Programming, the first week of the course in spring 2025. My name is Russell Feldhausen. I’ll be your instructor for this semester. My contact information is here on the screen. I work mostly remotely from the Kansas City area, so I’m not on campus very often. Generally, you can find me on campus on Mondays throughout the semester, although for the first couple of weeks of class, I’ll actually be on campus on Wednesdays.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 2</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/</guid>
+      <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the week two announcements for CC410 in spring 2025. So this week you should be wrapping up the first module, which is the Hello Real World project. It introduces some of the coding style and some of the things we’re going to use in this class. Thankfully, that project is mostly just a follow along with me on the videos project, so you should be getting that wrapped up today.</description>
     </item>
   </channel>
 </rss>

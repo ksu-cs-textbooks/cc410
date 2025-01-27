@@ -1872,6 +1872,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3875,7 +3885,7 @@
   <channel>
     <title>Summary :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iii-web/20-extras/10-summary/</link>
-    <description>This chapter covers many helpful topics in programming that don’t fit neatly anywhere else in the book. We hope that a few of these items will be useful to you as you continue to build your programming skill.&#xA;Review Quiz Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.&#xA;Quizdown quiz omitted from teleprompter view.</description>
+    <description>This chapter covers many helpful topics in programming that don’t fit neatly anywhere else in the book. We hope that a few of these items will be useful to you as you continue to build your programming skill.&#xA;Review Quiz Check your understanding of the new content introduced in this chapter below - this quiz is not graded and you can retake it as many times as you want.&#xA;---&#xD;primaryColor: &#39;#512888&#39;&#xD;secondaryColor: &#39;#cccccc&#39;&#xD;textColor: black&#xD;shuffleQuestions: true&#xD;shuffleAnswers: true&#xD;locale: en&#xD;---&#xD;# Generic Types&#xD;A **generic type** is best described by which of the following statements?</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/iii-web/20-extras/10-summary/index.xml" rel="self" type="application/rss+xml" />
