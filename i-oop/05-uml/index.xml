@@ -1882,6 +1882,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3888,7 +3898,7 @@
     <description>A unified way to model your software’s structure!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 09:58:15 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>

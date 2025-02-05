@@ -1882,6 +1882,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3902,30 +3912,30 @@ The pytest framework can leverage the assertions already present in other Python
     <meta property="og:locale" content="en-us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="OOP">
-    <meta property="article:modified_time" content="2022-07-08T13:34:06-05:00">
+    <meta property="article:modified_time" content="2025-02-05T09:58:15-06:00">
     <meta itemprop="name" content="Python Assertions :: CC 410 Textbook">
     <meta itemprop="description" content="Unlike many testing frameworks, the pytest framework by default only uses the built-in assert statement in Python. It doesn’t include a large number of specialized assertions, and instead relies on the developer to write Boolean logic statements to perform the desired testing. More information can be found in the pytest documentation
 The pytest framework can leverage the assertions already present in other Python unit testing libraries such as the built-in unittest library.">
-    <meta itemprop="dateModified" content="2022-07-08T13:34:06-05:00">
+    <meta itemprop="dateModified" content="2025-02-05T09:58:15-06:00">
     <meta itemprop="wordCount" content="792">
     <title>Python Assertions :: CC 410 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc410/i-oop/04-testing/08-python-assertions/" rel="canonical" type="text/html" title="Python Assertions :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/08-python-assertions/index.xml" rel="alternate" type="application/rss+xml" title="Python Assertions :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/08-python-assertions/tele.html" rel="alternate" type="text/html" title="Python Assertions :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/08-python-assertions/embed.html" rel="alternate" type="text/html" title="Python Assertions :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1737993772" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1737993830" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1737993830" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1737993830" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1737993830" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1737993830" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1737993830" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1737993830" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1737993830" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1737993830" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1737993830" rel="stylesheet">
-    <link href="/cc410/css/print.css?1737993830" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1737993830" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1737993830"></script>
+    <link href="/cc410/images/favicon.ico?1738771165" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1738771223" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1738771223" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1738771223" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1738771223" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1738771223" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1738771223" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1738771223" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1738771223" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1738771223" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1738771223" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1738771223" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1738771223" rel="stylesheet">
+    <link href="/cc410/css/print.css?1738771223" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1738771223" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1738771223"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3945,7 +3955,7 @@ The pytest framework can leverage the assertions already present in other Python
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1737993830" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1738771223" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/i-oop/04-testing/08-python-assertions/">
     <div id="R-body" class="default-animation">
@@ -4028,8 +4038,8 @@ The pytest framework can leverage the assertions already present in other Python
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="n">y</span><span class="p">)</span></span></span></code></pre></div><p>While we would expect both <code>x</code> and <code>y</code> to store the same value, they are actually slightly different.</p>
-<p><a href="#R-image-899cac2221ca71736a65dc8e86a1c69b" class="lightbox-link"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/pythonerror.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-899cac2221ca71736a65dc8e86a1c69b"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/pythonerror.png"></a></p>
+<p><a href="#R-image-b875eabb9949550641534b0d92a3f3d5" class="lightbox-link"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/pythonerror.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b875eabb9949550641534b0d92a3f3d5"><img alt="Python Floating Point Error" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/pythonerror.png"></a></p>
 <p>So, we may need to account for this imprecision in our unit tests. We could also rewrite our code to avoid the use of floating point values. For example, many programs that deal with monetary values actually store them as integers based on cents instead of dollars, and simply add the decimal point only when the value is printed.</p>
 </div>
 </div>
@@ -4057,7 +4067,7 @@ The pytest framework can leverage the assertions already present in other Python
 </span></span><span class="line"><span class="cl">    <span class="n">HelloWorld</span><span class="o">.</span><span class="n">main</span><span class="p">([</span><span class="s2">&#34;HelloWorld&#34;</span><span class="p">])</span>
 </span></span><span class="line"><span class="cl">    <span class="n">captured</span><span class="p">:</span> <span class="n">CaptureResult</span><span class="p">[</span><span class="n">Any</span><span class="p">]</span> <span class="o">=</span> <span class="n">capsys</span><span class="o">.</span><span class="n">readouterr</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="k">assert</span> <span class="n">captured</span><span class="o">.</span><span class="n">out</span> <span class="o">==</span> <span class="s2">&#34;Hello World</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="s2">&#34;Unexpected Output&#34;</span></span></span></code></pre></div><p>In that code, we start by adding a parameter named <code>capsys</code> to the test method declaration. <code>capsys</code> is an example of a <a href="https://docs.pytest.org/en/stable/fixture.html" rel="external" target="_blank">fixture</a> in pytest. Fixtures allow us to do build more advanced test functions. The <code>capsys</code> fixture is described in the <a href="https://docs.pytest.org/en/stable/capture.html" rel="external" target="_blank">pytest documentation</a>.</p>
-<p>So, by including that parameter in our test function, we&rsquo;ll gain access to all of the features of the <code>capsys</code> fixture. When we execute our code, we can then use <code>capsys.readouterror()</code> to get a <code>CaptureResult</code> object that contains the text that was output by our program. Then, using <code>captured.out</code>, we can check that text and make sure it matches our expectation in an assertion.</p>
+<p>So, by including that parameter in our test function, we&rsquo;ll gain access to all of the features of the <code>capsys</code> fixture. When we execute our code, we can then use <code>capsys.readouterr()</code> to get a <code>CaptureResult</code> object that contains the text that was output by our program. Then, using <code>captured.out</code>, we can check that text and make sure it matches our expectation in an assertion.</p>
 
             <footer class="footline">
               
@@ -4074,14 +4084,14 @@ The pytest framework can leverage the assertions already present in other Python
   <p class="theme-version-footer">6.0.0</p>
   <p>Last modified by: 
               <i class='fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/03ba252e18ed587e51ea2500ba8f3e984dbfd525">Jul 8, 2022</a>
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/ae75b8c7ff7cc6ccfd767722ec16d051070db34d">Feb 5, 2025</a>
   </p>
   </div>
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1737993830" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1737993830" defer></script>
-    <script src="/cc410/js/theme.js?1737993830" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1738771223" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1738771223" defer></script>
+    <script src="/cc410/js/theme.js?1738771223" defer></script>
   </body>
 </html>

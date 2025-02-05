@@ -1882,6 +1882,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3888,7 +3898,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 10:01:44 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 09:58:15 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;25 Week 1</title>
@@ -3903,6 +3913,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/</guid>
       <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the week two announcements for CC410 in spring 2025. So this week you should be wrapping up the first module, which is the Hello Real World project. It introduces some of the coding style and some of the things we’re going to use in this class. Thankfully, that project is mostly just a follow along with me on the videos project, so you should be getting that wrapped up today.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 3</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/</guid>
+      <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself.</description>
     </item>
   </channel>
 </rss>
