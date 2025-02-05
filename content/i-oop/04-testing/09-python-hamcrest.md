@@ -34,7 +34,7 @@ Here are a few of the most commonly used Hamcrest matchers, as listed in the [Ha
 * `has_item(item)` - matcher for sequence types like [lists](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 * `close_to(expected, delta)` - matcher for testing floating-point values within a range
 * `greater_than(expected)`, `greater_than_or_equal_to(expected)`, `less_than(expected)`, `less_than_or_equal_to(expected)` - numerical matchers
-* `equal_to_ignoring_case(expected)`, `equal_to_ignoring_whitespace(expected)`, `cotnains_string(string)`, `ends_with(string)`, `starts_with(string)` - string matchers
+* `equal_to_ignoring_case(expected)`, `equal_to_ignoring_whitespace(expected)`, `contains_string(string)`, `ends_with(string)`, `starts_with(string)` - string matchers
 * `all_of(matcher1, matcher2, ...)`, `any_of(matcher1, matcher2, ...)`, `is_not(matcher)` - boolean logic operators used to combine multiple matchers
 
 ### Syntactic Sugar
