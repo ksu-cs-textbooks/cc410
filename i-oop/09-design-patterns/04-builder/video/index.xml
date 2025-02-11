@@ -1892,6 +1892,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3895,7 +3905,7 @@
   <channel>
     <title>Creational Patterns :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/04-builder/video/</link>
-    <description>YouTube Video Resources Slides Video Script First, let’s review three of the creational patterns introduced in the original Design Patterns book. These are the builder pattern, factory method pattern, and the singleton pattern. Of the three, it makes the most sense to start with the builder pattern. The builder pattern is used when we need to create and instantiate complex objects, which are sometimes made up several independent parts that must all be fit together correctly.</description>
+    <description>Resources Slides Video Script First, let’s review three of the creational patterns introduced in the original Design Patterns book. These are the builder pattern, factory method pattern, and the singleton pattern. Of the three, it makes the most sense to start with the builder pattern. The builder pattern is used when we need to create and instantiate complex objects, which are sometimes made up several independent parts that must all be fit together correctly.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 16:21:53 -0600</lastBuildDate>

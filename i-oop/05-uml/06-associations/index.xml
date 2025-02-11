@@ -1892,6 +1892,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3895,7 +3905,7 @@
   <channel>
     <title>Associations :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/06-associations/</link>
-    <description>YouTube Video Video Materials&#xA;Class diagrams also express the associations between classes by drawing lines between the boxes representing them.&#xA;There are two basic types of associations we model with UML: has-a and is-a associations. We break these into two further categories, based on the strength of the association, which is either strong or weak. These associations are:&#xA;Association Name&#xD;Association Type&#xD;Typical Usage&#xD;Realization&#xD;weak is-a&#xD;Interfaces&#xD;Generalization&#xD;strong is-a&#xD;Inheritance&#xD;Aggregation&#xD;weak has-a&#xD;Collections&#xD;Composition&#xD;strong has-a&#xD;Encapsulation&#xD;Is-A Associations Is-a associations indicate a relationship where one class is a instance of another class.</description>
+    <description>Video Materials&#xA;Class diagrams also express the associations between classes by drawing lines between the boxes representing them.&#xA;There are two basic types of associations we model with UML: has-a and is-a associations. We break these into two further categories, based on the strength of the association, which is either strong or weak. These associations are:&#xA;Association Name&#xD;Association Type&#xD;Typical Usage&#xD;Realization&#xD;weak is-a&#xD;Interfaces&#xD;Generalization&#xD;strong is-a&#xD;Inheritance&#xD;Aggregation&#xD;weak has-a&#xD;Collections&#xD;Composition&#xD;strong has-a&#xD;Encapsulation&#xD;Is-A Associations Is-a associations indicate a relationship where one class is a instance of another class.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/06-associations/index.xml" rel="self" type="application/rss+xml" />

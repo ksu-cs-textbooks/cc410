@@ -1892,6 +1892,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3912,7 +3922,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/02-software-libraries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/02-software-libraries/</guid>
-      <description>YouTube Video Video Materials&#xA;The term software library can actually mean several things. In essence, a software library is a collection of resources that can be used by computer program, either while it is running or while it is being developed. As we’ve learned so far in this course, it makes sense to think of a large software program as a few smaller packages or subsystems that work together. With that view in mind, a software library simply is a subsystem or package that is developed outside of our application.</description>
+      <description>Video Materials&#xA;The term software library can actually mean several things. In essence, a software library is a collection of resources that can be used by computer program, either while it is running or while it is being developed. As we’ve learned so far in this course, it makes sense to think of a large software program as a few smaller packages or subsystems that work together. With that view in mind, a software library simply is a subsystem or package that is developed outside of our application.</description>
     </item>
     <item>
       <title>Library Types</title>
@@ -3940,7 +3950,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/06-licenses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/06-licenses/</guid>
-      <description>YouTube Video Video Materials&#xA;In the world of software, we use the term open-source to refer to any software that has source code that is openly available. This is in contrast to proprietary software, sometimes referred to as closed-source software, which is software with source code that is not publicly available. The software itself may be sold, or even provided for free, but the actual source code is protected by the company.</description>
+      <description>Video Materials&#xA;In the world of software, we use the term open-source to refer to any software that has source code that is openly available. This is in contrast to proprietary software, sometimes referred to as closed-source software, which is software with source code that is not publicly available. The software itself may be sold, or even provided for free, but the actual source code is protected by the company.</description>
     </item>
     <item>
       <title>Don&#39;t Reinvent the Wheel</title>

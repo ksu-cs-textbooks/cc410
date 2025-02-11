@@ -1892,6 +1892,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3895,7 +3905,7 @@
   <channel>
     <title>The Gang of Four :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/02-gang-of-four/</link>
-    <description>YouTube Video Video Materials&#xA;1&#xA;While the first discussions of patterns in software architecture occurred much earlier, the concept was popularized in 1994 with the publication of Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Collectively, the four authors of this book have been referred to as the “Gang of Four” or “GoF” within the software development community, so it is common to see references to that name when discussing the particular software design patterns discussed in the book.</description>
+    <description>Video Materials&#xA;1&#xA;While the first discussions of patterns in software architecture occurred much earlier, the concept was popularized in 1994 with the publication of Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Collectively, the four authors of this book have been referred to as the “Gang of Four” or “GoF” within the software development community, so it is common to see references to that name when discussing the particular software design patterns discussed in the book.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/02-gang-of-four/index.xml" rel="self" type="application/rss+xml" />

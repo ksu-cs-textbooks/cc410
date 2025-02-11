@@ -1892,6 +1892,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3895,7 +3905,7 @@
   <channel>
     <title>Python tkinter :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/10-python-tkinter/</link>
-    <description>YouTube Video Video Materials&#xA;Now let’s dive into Python tkinter and see how to make our very first GUI application in Tk.&#xA;Imports At the top of our applications, we’ll need to import the tkinter library:&#xA;import tkinter as tk This allows us to refer to the tkinter library as tk throughout our application.&#xA;For some more advanced elements, such as the combo box, we may also need to import the themed Tk (ttk) package as well:</description>
+    <description>Video Materials&#xA;Now let’s dive into Python tkinter and see how to make our very first GUI application in Tk.&#xA;Imports At the top of our applications, we’ll need to import the tkinter library:&#xA;import tkinter as tk This allows us to refer to the tkinter library as tk throughout our application.&#xA;For some more advanced elements, such as the combo box, we may also need to import the themed Tk (ttk) package as well:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/10-python-tkinter/index.xml" rel="self" type="application/rss+xml" />
