@@ -1902,6 +1902,26 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3908,7 +3928,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Feb 2025 10:08:47 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2025 14:43:35 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;25 Week 1</title>
@@ -3937,6 +3957,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/</guid>
       <description>A Repeat Good morning! Unfortunately I’m not feeling very photogenic this morning so I won’t record a new announcements video. Instead, here is a repeat from last semester that has all the pertinent information about the upcoming milestone. Best of luck!&#xA;Resources Slides Edited Transcript Hello and welcome to the week four announcements video for CC 410 in fall 2024. So this week you should be wrapping up the second restaurant project milestone, which involves adding documentation, unit testing, and a UML diagram to your project.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 5</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC 410 in spring 2025. My apologies for not being here last week. I was under the weather, but hopefully last year’s video worked out really well. So this week you’re going to be wrapping up a module on inheritance and polymorphism. You did a small example exploring inheritance using a blender and a bunch of fruit.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 6</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week06/</guid>
+      <description>A Repeat Good morning! I am travelling this week and won’t be able to record a new announcements video. Instead, here is a repeat from last semester that has all the pertinent information about the upcoming milestone. Best of luck!&#xA;Resources Slides Edited Transcript Hello and welcome to the week six announcements video for CC410 in fall 2024. So this week you should be wrapping up the modules on debugging, logging and Lambda expressions.</description>
     </item>
   </channel>
 </rss>
