@@ -1922,6 +1922,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3925,7 +3935,7 @@
   <channel>
     <title>Class Diagrams :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/05-classes/video/</link>
-    <description>Resources Slides Video Script Let’s dive into UML class diagrams a bit. First, we can talk about the basic building block of a Class diagram - the box. Each class in the diagram is represented by a box, and that box has three sections. At the top, we see the name of the class. We may also see a stereotype in the first box if there is something we need to know about the class that is language specific.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s dive into UML class diagrams a bit. First, we can talk about the basic building block of a Class diagram - the box. Each class in the diagram is represented by a box, and that box has three sections. At the top, we see the name of the class. We may also see a stereotype in the first box if there is something we need to know about the class that is language specific.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

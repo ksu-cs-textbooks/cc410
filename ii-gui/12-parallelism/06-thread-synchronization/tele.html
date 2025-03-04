@@ -1922,6 +1922,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,18 +3965,18 @@ Locks The simplest way to do this is via a special programming construct called 
     <link href="/cc410/ii-gui/12-parallelism/06-thread-synchronization/index.xml" rel="alternate" type="application/rss+xml" title="Thread Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/06-thread-synchronization/index.print.html" rel="alternate" type="text/html" title="Thread Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/06-thread-synchronization/embed.html" rel="alternate" type="text/html" title="Thread Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1739911486" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1739911590" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1739911590" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1739911590" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1739911590" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1739911590" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1739911590" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1739911590" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1739911590" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1739911590" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1739911590" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1739911590" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1739911590" rel="stylesheet">
-    <link href="/cc410/css/print.css?1739911590" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1739911590"></script>
+    <link href="/cc410/images/favicon.ico?1741113617" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1741113721" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1741113721" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1741113721" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1741113721" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1741113721" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1741113721" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1741113721" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1741113721" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1741113721" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1741113721" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1741113721" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1741113721" rel="stylesheet">
+    <link href="/cc410/css/print.css?1741113721" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1741113721"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -3986,7 +3996,7 @@ Locks The simplest way to do this is via a special programming construct called 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1739911590" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1741113721" rel="stylesheet">
   </head>
   <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/06-thread-synchronization/">
     
@@ -4020,12 +4030,12 @@ Locks The simplest way to do this is via a special programming construct called 
 </span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">x</span>
 </span></span><span class="line"><span class="cl"><span class="n">data</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">1</span>
 </span></span><span class="line"><span class="cl"><span class="n">data</span><span class="o">.</span><span class="n">lock</span><span class="o">.</span><span class="n">release</span><span class="p">()</span></span></span></code></pre></div><p>Now, let&rsquo;s look at our two possible situations and see how they change when we include a lock in our code. First, we have the situation where the programs are properly interleaved:</p>
-<p><a href="#R-image-f8c274a46356b76f4409fe8a83123200" class="lightbox-link"><img alt="Thread No Race with Lock" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread_norace_lock.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f8c274a46356b76f4409fe8a83123200"><img alt="Thread No Race with Lock" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread_norace_lock.svg"></a></p>
+<p><a href="#R-image-2f018f8536e8aa013eb6a029b7ceaa3a" class="lightbox-link"><img alt="Thread No Race with Lock" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread_norace_lock.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2f018f8536e8aa013eb6a029b7ceaa3a"><img alt="Thread No Race with Lock" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread_norace_lock.svg"></a></p>
 <p>In this case, the spawned thread is able to acquire the lock when needed, perform its computation, and then release the lock before the other thread needs it. So, the lock really didn&rsquo;t change anything here.</p>
 <p>However, in the next case, where they are interleaved, we&rsquo;ll see a difference:</p>
-<p><a href="#R-image-c4029b93cf5d18ea694d12647e648e64" class="lightbox-link"><img alt="Thread Race With Lock" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread_race_lock.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c4029b93cf5d18ea694d12647e648e64"><img alt="Thread Race With Lock" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread_race_lock.svg"></a></p>
+<p><a href="#R-image-b4e899d8229336e21d43dc5008577fe1" class="lightbox-link"><img alt="Thread Race With Lock" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread_race_lock.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b4e899d8229336e21d43dc5008577fe1"><img alt="Thread Race With Lock" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread_race_lock.svg"></a></p>
 <p>Here, the spawned thread immediately acquires the lock and reads the value of <code>data.x</code> into <code>y</code>, but then it is interrupted. At that same time, the main thread wakes up and starts running, and tries to acquire the lock. When this happens, the operating system will <strong>block</strong> the main thread until the lock has been released. So, instead of waiting, the main thread will be blocked, and the spawned thread will continue to do its work. However, once the spawned thread releases the lock, the operating system will wake up the main thread and allow it to acquire the lock itself. Then, the main thread can perform its computation and update the value in <code>data.x</code>. As we can see, we now get the same value that we had previously. This is good! This means that we&rsquo;ve come up with a way to defeat the inherent unpredictability in multithreaded programs.</p>
 <p>The same holds for the third example on the previous page, when both threads run simultaneously. If both threads try to acquire the lock at the same time, the operating system will determine which thread gets it, and block any other threads trying to access the lock until it is released.</p>
 <p>Of course, this introduces another interesting concept - if our threads must share data in this way, then is this any better than just having a single thread? If we look at this example, it seems that the threads can only run sequentially because of the lock, and that is true here. So, to make our multithreaded programs effective, each thread must be able to perform work that is independent of the other threads and any shared memory. Otherwise, the program will be even more inefficient than if we&rsquo;d just written it as a single thread!</p>
@@ -4047,11 +4057,11 @@ Locks The simplest way to do this is via a special programming construct called 
 
 
 
-<script src="/cc410/js/clipboard.min.js?1739911590" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1739911590" defer></script>
-<script src="/cc410/js/theme.js?1739911591" defer></script>
+<script src="/cc410/js/clipboard.min.js?1741113721" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1741113721" defer></script>
+<script src="/cc410/js/theme.js?1741113721" defer></script>
 
-<script src="/cc410/js/tele-scroll.js?1739911591" defer></script>
+<script src="/cc410/js/tele-scroll.js?1741113721" defer></script>
 
 </body>
 </html>

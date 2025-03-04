@@ -1922,6 +1922,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3925,7 +3935,7 @@
   <channel>
     <title>Java Swing :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/09-java-swing/</link>
-    <description>Video Materials&#xA;Now let’s dive into Java Swing and see how to make our very first GUI application in Swing.&#xA;Imports At the top of our applications, we’ll need to import elements from three different packages:&#xA;import java.awt.*; import java.awt.event.*; import javax.swing.*; The java.awt package includes all of the classes related to the older Abstract Window Toolkit (AWT) in Java, and the java.swing package includes all newer Java Swing packages.</description>
+    <description>YouTube Video Video Materials&#xA;Now let’s dive into Java Swing and see how to make our very first GUI application in Swing.&#xA;Imports At the top of our applications, we’ll need to import elements from three different packages:&#xA;import java.awt.*; import java.awt.event.*; import javax.swing.*; The java.awt package includes all of the classes related to the older Abstract Window Toolkit (AWT) in Java, and the java.swing package includes all newer Java Swing packages.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/09-java-swing/index.xml" rel="self" type="application/rss+xml" />
