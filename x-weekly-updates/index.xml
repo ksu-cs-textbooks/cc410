@@ -1932,6 +1932,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3938,7 +3948,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2025 12:39:11 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 11:34:14 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;25 Week 1</title>
@@ -3988,6 +3998,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/</guid>
       <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the Week 7 Announcements video for CC410 in Spring 2025. This week you’ll be working on a module about test doubles, which I think are one of the most important parts in this class outside of the design patterns that you worked on previously. We’ll be doing a restaurant milestone that implements a lot of these test doubles in unit tests, and you’ll also be completing the first concept quiz.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 8</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/</guid>
+      <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the Week 8 announcements video for CC410 in Spring 2025. So this week you should be wrapping up the module on test doubles. I believe most everybody already has that submitted, so that’s great. That module builds really nicely on the previous module working with design patterns. And so those two modules kind of go together. I’ll work on getting caught up on grading those now that I’m back from my conference.</description>
     </item>
   </channel>
 </rss>
