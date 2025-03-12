@@ -8,7 +8,7 @@ weight: 20
 
 ## Resources
 
-* [Codio Debugger](https://docs.codio.com/project/ide/features/#debugging)
+* [Codio Debugger](https://docs.codio.com/develop/develop/ide/debugger/debugger.html)
 * [Java Logging API Tutorial](https://www.vogella.com/tutorials/Logging/article.html)
 
 ## Configuring Codio Debugger

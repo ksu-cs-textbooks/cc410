@@ -14,7 +14,7 @@ If you run into issues running Python unit tests with Tox after enabling the log
 
 ## Resources
 
-* [Codio Debugger](https://docs.codio.com/project/ide/features/#debugging)
+* [Codio Debugger](https://docs.codio.com/develop/develop/ide/debugger/debugger.html)
 * [Logging HOWTO](https://docs.python.org/3/howto/logging.html)
 
 ## Configuring Codio Debugger

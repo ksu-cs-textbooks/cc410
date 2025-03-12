@@ -33,17 +33,17 @@ Python also includes a debugger, called `pdb`. It can be imported as a library w
 
 Of course, as you might guess, using a debugger directly on the terminal is a very complex, time-consuming, and painful process. Thankfully, most modern integrated development environments, or IDEs, include a graphical interface for various debuggers, and Codio is no exception. Codio includes a built-in debugger that is capable of debugging both Java and Python code.
 
-The [Codio Documentation](https://docs.codio.com/project/ide/features/#debugging) is a great place to learn about how to use the Codio debugger and all of the features it provides. In the example project for this module, we'll also learn how to quickly integrate a debugger into our larger project in Codio.
+The [Codio Documentation](https://docs.codio.com/develop/develop/ide/debugger/debugger.html) is a great place to learn about how to use the Codio debugger and all of the features it provides. In the example project for this module, we'll also learn how to quickly integrate a debugger into our larger project in Codio.
 
 Once the Codio debugger is launched, you'll be given a view similar to this one:
 
 ![Debugging Started](/images/7/debug-started.png)[^1]
 
-[^1]: https://docs.codio.com/project/ide/features/#debugging
+[^1]: https://docs.codio.com/develop/develop/ide/debugger/debugger.html
 
 On the right, we can see the debugging window that lists the current call stack, any local variables that are visible, as well as watches and breakpoints. A **breakpoint** is a line of code that we've marked in the debugger that causes execution to stop, or _break_, when it reaches that line. Basically, we are telling the debugger that we'd like to execute the program up to that point. Once the program is paused, we can examine the state and call stack, and decide how we'd like to proceed. There are 5 buttons at the top of the debugger panel, and they are described in the Codio documentation[^2] as follows:
 
-[^2]: https://docs.codio.com/project/ide/features/#debugging
+[^2]: https://docs.codio.com/develop/develop/ide/debugger/debugger.html
 
 * **Resume** - this tells the debugger to carry on execution without stopping until another breakpoint is encountered.
 * **Stop** - execution will stop and the debug window will be closed.
