@@ -3973,21 +3973,21 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/index.xml" rel="alternate" type="application/rss+xml" title="Inspecting Behavior :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/index.print.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/tele.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1741710926" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1741818964" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1741710968" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1741710968" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1741710968" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1741710968" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1741710968" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1741710968" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1741710968" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1741710968" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1741710968" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1741819005" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1741819005" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1741819005" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1741819005" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1741819005" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1741819005" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1741819005" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1741819005" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1741819005" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1741710968" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1741710968" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1741710968" rel="stylesheet">
-  <link href="/cc410/css/print.css?1741710968" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1741819005" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1741819005" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1741819005" rel="stylesheet">
+  <link href="/cc410/css/print.css?1741819005" rel="stylesheet" media="print">
   
   
   
@@ -4010,7 +4010,7 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1741710968" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1741819005" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/embed.html">
@@ -4032,20 +4032,20 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
 <p>One of the most useful ways to inspect the behavior of our application is to look at the <strong>call stack</strong> or <strong>stack trace</strong> of the program when it reaches an exception. The call stack will list all of the functions currently being executed, even including the individual line numbers of the currently executed piece of code.</p>
 <p>For example, consider this code:</p>
 
-<div class="tab-panel" data-tab-group="fc6d079ed0b2872bf485b523b4dc9ff5">
+<div class="tab-panel" data-tab-group="ccbf39a2d6423fa3bd3b4570a35167aa">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('fc6d079ed0b2872bf485b523b4dc9ff5','java')"
+      onclick="switchTab('ccbf39a2d6423fa3bd3b4570a35167aa','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('fc6d079ed0b2872bf485b523b4dc9ff5','python')"
+      onclick="switchTab('ccbf39a2d6423fa3bd3b4570a35167aa','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4097,20 +4097,20 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
 </div>
 <p>This code includes a chain of three functions, and the innermost function will throw an exception. When we run this code, we&rsquo;ll get the following error messages:</p>
 
-<div class="tab-panel" data-tab-group="5816dcee662f61a30eeaa46f1979adff">
+<div class="tab-panel" data-tab-group="05c186a1d2c51f23f05433b78d721904">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('5816dcee662f61a30eeaa46f1979adff','java')"
+      onclick="switchTab('05c186a1d2c51f23f05433b78d721904','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('5816dcee662f61a30eeaa46f1979adff','python')"
+      onclick="switchTab('05c186a1d2c51f23f05433b78d721904','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4146,25 +4146,25 @@ Exception: Test Exception</code></pre></div></div>
   </div>
 </div>
 <p>As we can see, both Java and Python will automatically print a <strong>stack trace</strong> of the exact functions and lines of code that we executed when we were reaching the error. Recall that this relates to the call stack in memory that is created while this program is executed:</p>
-<p><a href="#R-image-8d2ea555395a092c07aab02d22217656" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8d2ea555395a092c07aab02d22217656"><img alt="Call Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
+<p><a href="#R-image-8a68a8c20b5005b01c2c036beed93362" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8a68a8c20b5005b01c2c036beed93362"><img alt="Call Stack" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
 <p>As we can see, Java will print the innermost call at the top of the call stack, whereas Python will invert the order and put the innermost call at the end. So, you&rsquo;ll have to read carefully to make sure you are interpreting the call stack correctly.</p>
 <p>What if we want to get a call stack without crashing our program? Both Java and Python support a method for this:</p>
 
-<div class="tab-panel" data-tab-group="b965d9f95eea2ac7e31de72a39d4064c">
+<div class="tab-panel" data-tab-group="2b231a126b5d4a5485c2b83ee7c61ff0">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b965d9f95eea2ac7e31de72a39d4064c','java')"
+      onclick="switchTab('2b231a126b5d4a5485c2b83ee7c61ff0','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b965d9f95eea2ac7e31de72a39d4064c','python')"
+      onclick="switchTab('2b231a126b5d4a5485c2b83ee7c61ff0','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4201,10 +4201,10 @@ Exception: Test Exception</code></pre></div></div>
 
 
 
-<script src="/cc410/js/clipboard.min.js?1741710968" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1741710968" defer></script>
-<script src="/cc410/js/theme.js?1741710968" defer></script>
+<script src="/cc410/js/clipboard.min.js?1741819005" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1741819005" defer></script>
+<script src="/cc410/js/theme.js?1741819005" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1741710968" defer></script>
+<script src="/cc410/js/embed-iframe.js?1741819005" defer></script>
 </body>
 </html>

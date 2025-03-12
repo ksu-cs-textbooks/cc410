@@ -3969,21 +3969,21 @@
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/index.xml" rel="alternate" type="application/rss+xml" title="Singleton Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/index.print.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/06-singleton/tele.html" rel="alternate" type="text/html" title="Singleton Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1741710926" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1741818964" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1741710969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1741710969" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1741710969" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1741710969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1741710969" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1741710969" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1741710969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1741710969" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1741710969" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1741819006" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1741819006" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1741819006" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1741819006" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1741819006" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1741819006" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1741819006" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1741819006" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1741819006" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1741710969" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1741710969" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1741710969" rel="stylesheet">
-  <link href="/cc410/css/print.css?1741710969" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1741819006" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1741819006" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1741819006" rel="stylesheet">
+  <link href="/cc410/css/print.css?1741819006" rel="stylesheet" media="print">
   
   
   
@@ -4006,7 +4006,7 @@
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1741710969" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1741819006" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/i-oop/09-design-patterns/06-singleton/embed.html">
@@ -4024,27 +4024,27 @@
     
 
 <p>Finally, let&rsquo;s look at one other common creational pattern: the <strong>singleton pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Singleton_pattern" rel="external" target="_blank">singleton pattern</a> is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simply get a <strong>reference</strong> to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.</p>
-<p><a href="#R-image-5fb47ad90bf7e5be2d3beda327464973" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5fb47ad90bf7e5be2d3beda327464973"><img alt="Singleton UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-8e6a3a68fedd71755c08eb99a2b884e5" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e6a3a68fedd71755c08eb99a2b884e5"><img alt="Singleton UML" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram for the singleton pattern is super simple. The class implementing the singleton pattern simply defines a private constructor, making sure that no other class can construct it. Instead, it stores a static reference to a single instance of itself, and includes a <code>get</code> method to access that single instance.</p>
 <p>Let&rsquo;s look at how this could work in our ongoing example.</p>
 <h3 id="singleton-factory">Singleton Factory</h3>
 <p>Let&rsquo;s update our <code>DeckFactory</code> class to use the singleton pattern.</p>
 
-<div class="tab-panel" data-tab-group="c00d3a84420b5d11402578d85ed97d95">
+<div class="tab-panel" data-tab-group="a87cf8baa638a260bff29e96fa9b4e2c">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c00d3a84420b5d11402578d85ed97d95','java')"
+      onclick="switchTab('a87cf8baa638a260bff29e96fa9b4e2c','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c00d3a84420b5d11402578d85ed97d95','python')"
+      onclick="switchTab('a87cf8baa638a260bff29e96fa9b4e2c','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4124,20 +4124,20 @@
 <h3 id="using-a-singleton">Using a Singleton</h3>
 <p>Now we can update our main method code to use our singleton <code>DeckFactory</code> instance instead of creating one when it is needed:</p>
 
-<div class="tab-panel" data-tab-group="6274547834c0acbf420514e78ea2a2e2">
+<div class="tab-panel" data-tab-group="80e2174b9810db51fedb288541a75ffc">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('6274547834c0acbf420514e78ea2a2e2','java')"
+      onclick="switchTab('80e2174b9810db51fedb288541a75ffc','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('6274547834c0acbf420514e78ea2a2e2','python')"
+      onclick="switchTab('80e2174b9810db51fedb288541a75ffc','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4203,10 +4203,10 @@
 
 
 
-<script src="/cc410/js/clipboard.min.js?1741710969" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1741710969" defer></script>
-<script src="/cc410/js/theme.js?1741710969" defer></script>
+<script src="/cc410/js/clipboard.min.js?1741819006" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1741819006" defer></script>
+<script src="/cc410/js/theme.js?1741819006" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1741710969" defer></script>
+<script src="/cc410/js/embed-iframe.js?1741819006" defer></script>
 </body>
 </html>
