@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>Structural Patterns :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/09-design-patterns/08-adapter/video/</link>
-    <description>YouTube Video Resources Slides Video Script Next, let’s review one of the structural design patterns. The adapter pattern is used when we’d like to adapt an existing interface to match a different, more desirable interface. This could include renaming methods, designing new methods that call multiple methods in the existing interface, or translating data types and values to fit a different use case.&#xA;Let’s look at a quick example - converting temperature from fahrenheit degrees to celsius degrees.</description>
+    <description>Resources Slides Video Script Next, let’s review one of the structural design patterns. The adapter pattern is used when we’d like to adapt an existing interface to match a different, more desirable interface. This could include renaming methods, designing new methods that call multiple methods in the existing interface, or translating data types and values to fit a different use case.&#xA;Let’s look at a quick example - converting temperature from fahrenheit degrees to celsius degrees.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 16:21:53 -0600</lastBuildDate>

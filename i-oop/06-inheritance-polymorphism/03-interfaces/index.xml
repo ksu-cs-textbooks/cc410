@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>Interfaces :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/</link>
-    <description>YouTube Video Video Materials&#xA;If we think back to the concept of message passing in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an interface, i.e., a list of messages you can dispatch to an object created from that class. When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language’s documentation:</description>
+    <description>Video Materials&#xA;If we think back to the concept of message passing in object-oriented languages, it can be useful to think of the collection of public methods available in a class as an interface, i.e., a list of messages you can dispatch to an object created from that class. When you were first learning a language (and probably even now), you find yourself referring to these kinds of lists, usually in the language’s documentation:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/03-interfaces/index.xml" rel="self" type="application/rss+xml" />

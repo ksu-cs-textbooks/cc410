@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>Classes :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/05-classes/</link>
-    <description>YouTube Video Video Materials&#xA;In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:&#xA;The first compartment identifies the class - it contains the name of the class. The second compartment holds the attributes of the class (the fields and properties). And the third compartment holds the operations of the class (the methods) of the class.</description>
+    <description>Video Materials&#xA;In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:&#xA;The first compartment identifies the class - it contains the name of the class. The second compartment holds the attributes of the class (the fields and properties). And the third compartment holds the operations of the class (the methods) of the class.&#xA;In the diagram above, we can see the Fruit class modeled on the right side.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/05-uml/05-classes/index.xml" rel="self" type="application/rss+xml" />

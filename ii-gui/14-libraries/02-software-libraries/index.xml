@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>Software Libraries :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/02-software-libraries/</link>
-    <description>YouTube Video Video Materials&#xA;The term software library can actually mean several things. In essence, a software library is a collection of resources that can be used by computer program, either while it is running or while it is being developed. As we’ve learned so far in this course, it makes sense to think of a large software program as a few smaller packages or subsystems that work together. With that view in mind, a software library simply is a subsystem or package that is developed outside of our application.</description>
+    <description>Video Materials&#xA;The term software library can actually mean several things. In essence, a software library is a collection of resources that can be used by computer program, either while it is running or while it is being developed. As we’ve learned so far in this course, it makes sense to think of a large software program as a few smaller packages or subsystems that work together. With that view in mind, a software library simply is a subsystem or package that is developed outside of our application.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/02-software-libraries/index.xml" rel="self" type="application/rss+xml" />

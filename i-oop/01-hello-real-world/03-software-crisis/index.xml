@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>The Software Crisis :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/01-hello-real-world/03-software-crisis/</link>
-    <description>Content Note The content on this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;At the 1968 NATO Software Engineering Conference held in Garmisch Germany, the term “Software Crisis” was coined to describe the current state of the software development industry, where common problems included:&#xA;Projects that ran over-budget Projects that ran over-time Software that made inefficient use of calculations and memory Software was of low quality Software that failed to meet the requirements it was developed to meet Projects that became unmanagable and code difficult to maintain Software that never finished development The software development industry sought to counter these problems through a variety of efforts:</description>
+    <description>Content Note The content on this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;At the 1968 NATO Software Engineering Conference held in Garmisch Germany, the term “Software Crisis” was coined to describe the current state of the software development industry, where common problems included:&#xA;Projects that ran over-budget Projects that ran over-time Software that made inefficient use of calculations and memory Software was of low quality Software that failed to meet the requirements it was developed to meet Projects that became unmanagable and code difficult to maintain Software that never finished development The software development industry sought to counter these problems through a variety of efforts:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/01-hello-real-world/03-software-crisis/index.xml" rel="self" type="application/rss+xml" />

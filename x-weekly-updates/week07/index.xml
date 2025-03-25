@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>Spring &#39;25 Week 7 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/</link>
-    <description>YouTube Video Resources Slides Edited Transcript Hello and welcome to the Week 7 Announcements video for CC410 in Spring 2025. This week you’ll be working on a module about test doubles, which I think are one of the most important parts in this class outside of the design patterns that you worked on previously. We’ll be doing a restaurant milestone that implements a lot of these test doubles in unit tests, and you’ll also be completing the first concept quiz.</description>
+    <description>Resources Slides Edited Transcript Hello and welcome to the Week 7 Announcements video for CC410 in Spring 2025. This week you’ll be working on a module about test doubles, which I think are one of the most important parts in this class outside of the design patterns that you worked on previously. We’ll be doing a restaurant milestone that implements a lot of these test doubles in unit tests, and you’ll also be completing the first concept quiz.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/index.xml" rel="self" type="application/rss+xml" />

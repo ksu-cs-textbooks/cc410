@@ -1942,6 +1942,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3945,7 +3955,7 @@
   <channel>
     <title>Data Types :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/02-types/video/</link>
-    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to cover inheritance and polymorphism in object-oriented programming languages. This is a topic that comes up many times, and you may have already learned about it in the past. In this course, we’re going to dive a bit deeper into how it works and some of the theory behind it. Before we can do that, we should spend a little time talking about data types and how that relates to inheritance.</description>
+    <description>Resources Slides Video Script In this chapter, we’re going to cover inheritance and polymorphism in object-oriented programming languages. This is a topic that comes up many times, and you may have already learned about it in the past. In this course, we’re going to dive a bit deeper into how it works and some of the theory behind it. Before we can do that, we should spend a little time talking about data types and how that relates to inheritance.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Aug 2021 16:38:27 -0500</lastBuildDate>
