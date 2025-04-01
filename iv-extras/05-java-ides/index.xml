@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Java IDEs :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/iv-extras/05-java-ides/</link>
-    <description>Resources Download IntelliJ Download Visual Studio Code Java in Visual Studio Code Java Build Tools in VS Code Video Script In this video, I’m going to discuss how to install and configure two popular IDEs for Java to work with our projects. Those IDEs are IntelliJ and VS Code. First, let’s look at installing those two IDEs. I’ve already downloaded the installers, and so now I’m going to install both the IntelliJ IDE, and Visual Studio code.</description>
+    <description>YouTube Video Resources Download IntelliJ Download Visual Studio Code Java in Visual Studio Code Java Build Tools in VS Code Video Script In this video, I’m going to discuss how to install and configure two popular IDEs for Java to work with our projects. Those IDEs are IntelliJ and VS Code. First, let’s look at installing those two IDEs. I’ve already downloaded the installers, and so now I’m going to install both the IntelliJ IDE, and Visual Studio code.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

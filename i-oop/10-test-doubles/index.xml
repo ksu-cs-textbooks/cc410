@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3972,7 +3982,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/02-need-test-doubles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/02-need-test-doubles/</guid>
-      <description>Video Materials&#xA;As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the application programming interface or API of the module.&#xA;Ideally, we’d like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program.</description>
+      <description>YouTube Video Video Materials&#xA;As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the application programming interface or API of the module.&#xA;Ideally, we’d like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program.</description>
     </item>
     <item>
       <title>Arrange, Act, Assert</title>
@@ -3986,7 +3996,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/04-stubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/04-stubs/</guid>
-      <description>Video Materials&#xA;Inconsistent Naming Unfortunately, the naming of many of these test doubles, such as stubs, mocks, and fakes, are used either inconsistently or interchangeably within different systems, documentation, and other resources. I’m going to stick to one particular naming scheme, which is best described in the resources linked earlier in this chapter. However, in practice, these terms may be used differently in different areas.&#xA;There are three major types of test doubles that we’ll cover in this chapter.</description>
+      <description>YouTube Video Video Materials&#xA;Inconsistent Naming Unfortunately, the naming of many of these test doubles, such as stubs, mocks, and fakes, are used either inconsistently or interchangeably within different systems, documentation, and other resources. I’m going to stick to one particular naming scheme, which is best described in the resources linked earlier in this chapter. However, in practice, these terms may be used differently in different areas.&#xA;There are three major types of test doubles that we’ll cover in this chapter.</description>
     </item>
     <item>
       <title>Fakes</title>
@@ -4007,14 +4017,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/07-junit-test-doubles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/07-junit-test-doubles/</guid>
-      <description>Video Materials&#xA;To create test doubles in JUnit, we’ll rely on a separate library called Mockito. Mockito is a framework for creating mock objects in Java that works well with JUnit, and has become one of the most commonly used tools for this task.&#xA;Installing Mockito in Gradle To install Mockito, we just update the testImplementation line in our build.gradle file to include both the mockito-inline library, as well as the mockito-junit-jupiter library that allows Mockito and JUnit to work together seamlessly.</description>
+      <description>YouTube Video Video Materials&#xA;To create test doubles in JUnit, we’ll rely on a separate library called Mockito. Mockito is a framework for creating mock objects in Java that works well with JUnit, and has become one of the most commonly used tools for this task.&#xA;Installing Mockito in Gradle To install Mockito, we just update the testImplementation line in our build.gradle file to include both the mockito-inline library, as well as the mockito-junit-jupiter library that allows Mockito and JUnit to work together seamlessly.</description>
     </item>
     <item>
       <title>Test Doubles in pytest</title>
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/10-test-doubles/08-pytest-test-doubles/</guid>
-      <description>Video Materials&#xA;To create test doubles in Python, we’ll rely on the built-in unittest.mock library. It includes lots of quick and easy methods for creating fake objects in Python, and it is compatible with the pytest testing framework that we’re already using.&#xA;Adding Mocks to a Test Class There are many different ways to use the unittest.mock library. One of the easiest ways is to import the patch annotation</description>
+      <description>YouTube Video Video Materials&#xA;To create test doubles in Python, we’ll rely on the built-in unittest.mock library. It includes lots of quick and easy methods for creating fake objects in Python, and it is compatible with the pytest testing framework that we’re already using.&#xA;Adding Mocks to a Test Class There are many different ways to use the unittest.mock library. One of the easiest ways is to import the patch annotation</description>
     </item>
     <item>
       <title>Dependency Injection</title>

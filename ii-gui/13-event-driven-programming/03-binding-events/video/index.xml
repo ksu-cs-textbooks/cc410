@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Event Binding :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/ii-gui/13-event-driven-programming/03-binding-events/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re going to learn about how we can use the concepts in the event-driven programming paradigm to update our GUI-based programs to respond to events. To begin, let’s look at what those events are and where they come from. When the user interacts with any GUI-based program, the operating system sends events back to our application based on what the user does. There are many different types of events that the operating system can tell us about, as we’ll see shortly.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re going to learn about how we can use the concepts in the event-driven programming paradigm to update our GUI-based programs to respond to events. To begin, let’s look at what those events are and where they come from. When the user interacts with any GUI-based program, the operating system sends events back to our application based on what the user does.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2023 16:21:53 -0600</lastBuildDate>

@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Type Systems :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/04-type-systems/</link>
-    <description>Video Materials&#xA;Before we go further into some object-oriented concepts, let’s briefly review one important concept in programming - data types and type systems.&#xA;Primitive Data Types Most programming languages include several primitive data types, which are the fundamental units of data that can be stored and represented by that programming language. Here’s a short list of those primitive data types for each language:&#xA;Data Java Python Whole Numbers int (byte, short, long) int Floating-point Numbers double (float) float Boolean Values boolean bool Single Character char str^[A string of length 1] String of Characters String^[This is not a primitive, but the String class.</description>
+    <description>YouTube Video Video Materials&#xA;Before we go further into some object-oriented concepts, let’s briefly review one important concept in programming - data types and type systems.&#xA;Primitive Data Types Most programming languages include several primitive data types, which are the fundamental units of data that can be stored and represented by that programming language. Here’s a short list of those primitive data types for each language:&#xA;Data Java Python Whole Numbers int (byte, short, long) int Floating-point Numbers double (float) float Boolean Values boolean bool Single Character char str^[A string of length 1] String of Characters String^[This is not a primitive, but the String class.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/04-type-systems/index.xml" rel="self" type="application/rss+xml" />

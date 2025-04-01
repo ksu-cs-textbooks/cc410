@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Message Passing :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/11-message-passing/</link>
-    <description>Video Materials&#xA;The second criteria Alan Kay set for object-oriented languages was message passing. Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.&#xA;Consider the real-world analogue of a letter sent via the postal service. Such a message consists of: an address the message needs to be sent to, a return address, the message itself (the letter), and any data that needs to accompany the letter (the enclosures).</description>
+    <description>YouTube Video Video Materials&#xA;The second criteria Alan Kay set for object-oriented languages was message passing. Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.&#xA;Consider the real-world analogue of a letter sent via the postal service. Such a message consists of: an address the message needs to be sent to, a return address, the message itself (the letter), and any data that needs to accompany the letter (the enclosures).</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.xml" rel="self" type="application/rss+xml" />

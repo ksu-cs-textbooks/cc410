@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Language Evolution :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/01-hello-real-world/04-evolution/</link>
-    <description>Content Note The content on this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;One of the strategies that computer scientists employed to counter the software crisis was the development of new programing languages. These new languages would often 1) adopt new techniques intended to make errors harder to make while programming, and 2) remove problematic features that had existed in earlier languages.</description>
+    <description>Content Note The content on this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;One of the strategies that computer scientists employed to counter the software crisis was the development of new programing languages. These new languages would often 1) adopt new techniques intended to make errors harder to make while programming, and 2) remove problematic features that had existed in earlier languages.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/01-hello-real-world/04-evolution/index.xml" rel="self" type="application/rss+xml" />

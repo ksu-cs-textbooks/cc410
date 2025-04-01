@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Inspecting State :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/07-debugging-logging/03-inspecting-state/</link>
-    <description>Video Materials&#xA;Object in our object-oriented programs can really be thought of as two different parts - the state and behavior of the object. When debugging, we may need to consider both parts of the object to determine what is really going on behind the scenes. So, let’s look at some ways we can explore the state of our program.&#xA;Print Statement Debugging The quickest and easiest way to explore the state of our program at any particular point during its execution is to simply add a print statement that prints the value of any variables we are interested in.</description>
+    <description>YouTube Video Video Materials&#xA;Object in our object-oriented programs can really be thought of as two different parts - the state and behavior of the object. When debugging, we may need to consider both parts of the object to determine what is really going on behind the scenes. So, let’s look at some ways we can explore the state of our program.&#xA;Print Statement Debugging The quickest and easiest way to explore the state of our program at any particular point during its execution is to simply add a print statement that prints the value of any variables we are interested in.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/07-debugging-logging/03-inspecting-state/index.xml" rel="self" type="application/rss+xml" />

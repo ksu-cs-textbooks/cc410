@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3972,7 +3982,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/02-encapsulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/02-encapsulation/</guid>
-      <description>Video Materials&#xA;The first criteria that Alan Kay set for an object-oriented language was encapsulation. In computer science, the term encapsulation refers to organizing code into units, which provide two primary benefits:&#xA;Providing a mechanism for organizing complex software The ability to control access to encapsulated data and functionality Think back to the FORTRAN EPIC model we introduced in an earlier module. All of the variables in that program were declared globally, and there were thousands of them.</description>
+      <description>YouTube Video Video Materials&#xA;The first criteria that Alan Kay set for an object-oriented language was encapsulation. In computer science, the term encapsulation refers to organizing code into units, which provide two primary benefits:&#xA;Providing a mechanism for organizing complex software The ability to control access to encapsulated data and functionality Think back to the FORTRAN EPIC model we introduced in an earlier module. All of the variables in that program were declared globally, and there were thousands of them.</description>
     </item>
     <item>
       <title>Packages</title>
@@ -3986,7 +3996,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/04-type-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/04-type-systems/</guid>
-      <description>Video Materials&#xA;Before we go further into some object-oriented concepts, let’s briefly review one important concept in programming - data types and type systems.&#xA;Primitive Data Types Most programming languages include several primitive data types, which are the fundamental units of data that can be stored and represented by that programming language. Here’s a short list of those primitive data types for each language:&#xA;Data Java Python Whole Numbers int (byte, short, long) int Floating-point Numbers double (float) float Boolean Values boolean bool Single Character char str^[A string of length 1] String of Characters String^[This is not a primitive, but the String class.</description>
+      <description>YouTube Video Video Materials&#xA;Before we go further into some object-oriented concepts, let’s briefly review one important concept in programming - data types and type systems.&#xA;Primitive Data Types Most programming languages include several primitive data types, which are the fundamental units of data that can be stored and represented by that programming language. Here’s a short list of those primitive data types for each language:&#xA;Data Java Python Whole Numbers int (byte, short, long) int Floating-point Numbers double (float) float Boolean Values boolean bool Single Character char str^[A string of length 1] String of Characters String^[This is not a primitive, but the String class.</description>
     </item>
     <item>
       <title>Structs</title>
@@ -4007,7 +4017,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/07-state-behavior/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/07-state-behavior/</guid>
-      <description>Video Materials&#xA;The data stored in a program at any given moment (in the form of variables, objects, etc.) is the state of the program. Consider a variable:&#xA;int a = 5; The state of the variable a after this line is 5. If we then run:&#xA;a = a * 3; The state is now 15. Consider the Vector3 struct we defined earlier. If we create an instance of that struct in the variable b:</description>
+      <description>YouTube Video Video Materials&#xA;The data stored in a program at any given moment (in the form of variables, objects, etc.) is the state of the program. Consider a variable:&#xA;int a = 5; The state of the variable a after this line is 5. If we then run:&#xA;a = a * 3; The state is now 15. Consider the Vector3 struct we defined earlier. If we create an instance of that struct in the variable b:</description>
     </item>
     <item>
       <title>Classes and Objects</title>
@@ -4021,7 +4031,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/</guid>
-      <description>Video Materials&#xA;Access Modifiers in Python Most of the content below will apply to the Java language only. Python does not directly support information hiding through access modifiers, but simulates it by allowing developers to prefix variables with underscores to indicate that they are “protected” and should be left alone. Likewise, prefixing a Python variable or method name with two underscores will make it appear private to the class, but a developer can simply add the class name to the variable or method name in order to access it.</description>
+      <description>YouTube Video Video Materials&#xA;Access Modifiers in Python Most of the content below will apply to the Java language only. Python does not directly support information hiding through access modifiers, but simulates it by allowing developers to prefix variables with underscores to indicate that they are “protected” and should be left alone. Likewise, prefixing a Python variable or method name with two underscores will make it appear private to the class, but a developer can simply add the class name to the variable or method name in order to access it.</description>
     </item>
     <item>
       <title>Objects in Memory</title>
@@ -4035,7 +4045,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/11-message-passing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/11-message-passing/</guid>
-      <description>Video Materials&#xA;The second criteria Alan Kay set for object-oriented languages was message passing. Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.&#xA;Consider the real-world analogue of a letter sent via the postal service. Such a message consists of: an address the message needs to be sent to, a return address, the message itself (the letter), and any data that needs to accompany the letter (the enclosures).</description>
+      <description>YouTube Video Video Materials&#xA;The second criteria Alan Kay set for object-oriented languages was message passing. Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.&#xA;Consider the real-world analogue of a letter sent via the postal service. Such a message consists of: an address the message needs to be sent to, a return address, the message itself (the letter), and any data that needs to accompany the letter (the enclosures).</description>
     </item>
     <item>
       <title>Summary</title>

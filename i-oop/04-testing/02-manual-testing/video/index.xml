@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Overview :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/04-testing/02-manual-testing/video/</link>
-    <description>Resources Slides Video Script In this chapter, we’re discussing the many different ways we can test our code. Before we dive deeply into the test frameworks we’re going to be using, let’s step back and look at the big picture of software testing. There are two major categories of methods we can use to test our code. The first category is informal testing. For most of us, this is the type of testing we do naturally as we learn to program.</description>
+    <description>YouTube Video Resources Slides Video Script In this chapter, we’re discussing the many different ways we can test our code. Before we dive deeply into the test frameworks we’re going to be using, let’s step back and look at the big picture of software testing. There are two major categories of methods we can use to test our code. The first category is informal testing. For most of us, this is the type of testing we do naturally as we learn to program.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Jun 2024 14:13:48 -0500</lastBuildDate>

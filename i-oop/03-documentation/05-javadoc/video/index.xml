@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3955,7 +3965,7 @@
   <channel>
     <title>Javadoc :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/05-javadoc/video/</link>
-    <description>Resources Slides Video Script Let’s look at what it takes to create a Javadoc comment for our classes and methods. Each Javadoc comment can be broken into three basic parts. First is the summary fragment, which is the first whole sentence in the comment, usually ending with a period. This line gives a short overview of what the class, method, or attribute represents or is used for. Then, after that, we can optionally add additional paragraphs that further explain the element.</description>
+    <description>YouTube Video Resources Slides Video Script Let’s look at what it takes to create a Javadoc comment for our classes and methods. Each Javadoc comment can be broken into three basic parts. First is the summary fragment, which is the first whole sentence in the comment, usually ending with a period. This line gives a short overview of what the class, method, or attribute represents or is used for. Then, after that, we can optionally add additional paragraphs that further explain the element.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Aug 2021 16:38:27 -0500</lastBuildDate>

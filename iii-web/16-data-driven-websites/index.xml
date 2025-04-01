@@ -1952,6 +1952,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3972,7 +3982,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/02-html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/02-html/</guid>
-      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;The World Wide Web was the brainchild of Sir Tim Berners-Lee. It was conceived as a way to share information across the Internet; in Sir Berners-Lee’s own words describing the idea as he first conceived it:</description>
+      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;The World Wide Web was the brainchild of Sir Tim Berners-Lee. It was conceived as a way to share information across the Internet; in Sir Berners-Lee’s own words describing the idea as he first conceived it:</description>
     </item>
     <item>
       <title>CSS</title>
@@ -3993,7 +4003,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/05-http/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/05-http/</guid>
-      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;At the heart of the world wide web is the Hypertext Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).</description>
+      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;At the heart of the world wide web is the Hypertext Transfer Protocol (HTTP). This is a protocol defining how HTTP servers (which host web pages) interact with HTTP clients (which display web pages).</description>
     </item>
     <item>
       <title>Static Web Servers</title>
@@ -4021,7 +4031,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/09-web-frameworks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/09-web-frameworks/</guid>
-      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;Video Materials&#xA;As web sites became web applications, developers began looking to use ideas and techniques drawn from traditional software development. These included architectural patterns like Model-View-Controller (MVC) and Pipeline that simply were not possible with the server page model.</description>
+      <description>Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.&#xA;YouTube Video Video Materials&#xA;As web sites became web applications, developers began looking to use ideas and techniques drawn from traditional software development. These included architectural patterns like Model-View-Controller (MVC) and Pipeline that simply were not possible with the server page model.</description>
     </item>
     <item>
       <title>Request &amp; Response</title>
