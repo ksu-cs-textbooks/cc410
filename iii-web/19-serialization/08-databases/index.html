@@ -1972,6 +1972,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -4011,18 +4021,18 @@ While most database systems are thought of as stand-alone applications that we c
     <link href="/cc410/iii-web/19-serialization/08-databases/index.print.html" rel="alternate" type="text/html" title="Databases :: CC 410 Textbook">
     <link href="/cc410/iii-web/19-serialization/08-databases/tele.html" rel="alternate" type="text/html" title="Databases :: CC 410 Textbook">
     <link href="/cc410/iii-web/19-serialization/08-databases/embed.html" rel="alternate" type="text/html" title="Databases :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1744134357" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1744134374" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1744134374" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1744134374" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1744134374" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1744134374" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1744134374" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1744134374" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1744134374" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1744134374" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1744134374" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1744134374" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1744134374" rel="stylesheet">
-    <link href="/cc410/css/print.css?1744134374" rel="stylesheet" media="print">
-    <script src="/cc410/js/variant.js?1744134374"></script>
+    <link href="/cc410/images/favicon.ico?1744734176" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1744734192" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1744734192" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1744734192" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1744734192" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1744734192" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1744734192" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1744734192" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1744734192" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1744734192" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1744734192" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1744734192" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1744734192" rel="stylesheet">
+    <link href="/cc410/css/print.css?1744734192" rel="stylesheet" media="print">
+    <script src="/cc410/js/variant.js?1744734192"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -4042,7 +4052,7 @@ While most database systems are thought of as stand-alone applications that we c
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1744134374" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1744734192" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/cc410/iii-web/19-serialization/08-databases/">
     <div id="R-body" class="default-animation">
@@ -4103,8 +4113,8 @@ While most database systems are thought of as stand-alone applications that we c
 <h1 id="databases">Databases</h1>
 
 <p>Finally, we really cannot talk about data serialization without briefly mentioning what might be the penultimate example of serialization - databases.</p>
-<p><a href="#R-image-2a1d5b519d85426aa7eee8fadca00514" class="lightbox-link"><img alt="Database" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/19/db.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2a1d5b519d85426aa7eee8fadca00514"><img alt="Database" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/19/db.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-4b60f5403e345f1a9b5bcc0c17c04154" class="lightbox-link"><img alt="Database" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/19/db.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4b60f5403e345f1a9b5bcc0c17c04154"><img alt="Database" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/19/db.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h2 id="database">Database</h2>
 <p>A database is a specialized piece of software that is designed to store and retrieve large amounts of data. For many applications, especially web applications, a database is the primary method for storing data long-term, and takes the place of any data serialization to a file.</p>
 <p>While most database systems are thought of as stand-alone applications that we connect to from our application, there are also smaller databases that can be stored and accessed from a single file, such as <a href="https://www.sqlite.org/index.html" rel="external" target="_blank">SQLite</a>, which is supported directly in Python</p>
@@ -4163,12 +4173,12 @@ While most database systems are thought of as stand-alone applications that we c
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/cc410/js/auto-complete.js?1744134374" defer></script>
-        <script src="/cc410/js/lunr/lunr.min.js?1744134374" defer></script>
-        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1744134374" defer></script>
-        <script src="/cc410/js/lunr/lunr.multi.min.js?1744134374" defer></script>
-        <script src="/cc410/js/lunr/lunr.en.min.js?1744134374" defer></script>
-        <script src="/cc410/js/search.js?1744134374" defer></script>
+        <script src="/cc410/js/auto-complete.js?1744734192" defer></script>
+        <script src="/cc410/js/lunr/lunr.min.js?1744734192" defer></script>
+        <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1744734192" defer></script>
+        <script src="/cc410/js/lunr/lunr.multi.min.js?1744734192" defer></script>
+        <script src="/cc410/js/lunr/lunr.en.min.js?1744734192" defer></script>
+        <script src="/cc410/js/search.js?1744734192" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -4415,7 +4425,8 @@ While most database systems are thought of as stand-alone applications that we c
           <li data-nav-id="/cc410/x-weekly-updates/week08/" class=""><a class="padding" href="/cc410/x-weekly-updates/week08/">8. Spring &#39;25 Week 8</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week09/" class=""><a class="padding" href="/cc410/x-weekly-updates/week09/">9. Spring &#39;25 Week 9</a></li>
           <li data-nav-id="/cc410/x-weekly-updates/week10/" class=""><a class="padding" href="/cc410/x-weekly-updates/week10/">10. Spring &#39;25 Week 10</a></li>
-          <li data-nav-id="/cc410/x-weekly-updates/week11/" class=""><a class="padding" href="/cc410/x-weekly-updates/week11/">11. Spring &#39;25 Week 11</a></li></ul></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week11/" class=""><a class="padding" href="/cc410/x-weekly-updates/week11/">11. Spring &#39;25 Week 11</a></li>
+          <li data-nav-id="/cc410/x-weekly-updates/week12/" class=""><a class="padding" href="/cc410/x-weekly-updates/week12/">12. Spring &#39;25 Week 12</a></li></ul></li>
           <li data-nav-id="/cc410/z-examples/" class=""><input type="checkbox" id="R-section-761de094af9e725c4e28aa98154d0757" aria-controls="R-subsections-761de094af9e725c4e28aa98154d0757"><label for="R-section-761de094af9e725c4e28aa98154d0757"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/">Example Projects</a><ul id="R-subsections-761de094af9e725c4e28aa98154d0757" class="morespace collapsible-menu">
           <li data-nav-id="/cc410/z-examples/00-new-project/" class=""><a class="padding" href="/cc410/z-examples/00-new-project/">0. New Project Checklist</a></li>
           <li data-nav-id="/cc410/z-examples/01-hello-real-world/" class=""><input type="checkbox" id="R-section-0d4154db8857ac05dd3b4c0b7ba38066" aria-controls="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066"><label for="R-section-0d4154db8857ac05dd3b4c0b7ba38066"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/">1. Hello Real World</a><ul id="R-subsections-0d4154db8857ac05dd3b4c0b7ba38066" class="morespace collapsible-menu">
@@ -4582,8 +4593,8 @@ While most database systems are thought of as stand-alone applications that we c
         </div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard.min.js?1744134374" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1744134374" defer></script>
-    <script src="/cc410/js/theme.js?1744134374" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1744734192" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1744734192" defer></script>
+    <script src="/cc410/js/theme.js?1744734192" defer></script>
   </body>
 </html>

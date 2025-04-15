@@ -1972,6 +1972,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -4001,19 +4011,19 @@ As you’ve developed programs, you’ve probably run them, supplied input, and 
     <link href="/cc410/i-oop/04-testing/02-manual-testing/index.xml" rel="alternate" type="application/rss+xml" title="Manual Testing :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/02-manual-testing/tele.html" rel="alternate" type="text/html" title="Manual Testing :: CC 410 Textbook">
     <link href="/cc410/i-oop/04-testing/02-manual-testing/embed.html" rel="alternate" type="text/html" title="Manual Testing :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1744134357" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1744134416" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1744134416" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1744134416" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1744134416" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1744134416" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1744134416" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1744134416" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1744134416" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1744134416" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1744134416" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1744134416" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1744134416" rel="stylesheet">
-    <link href="/cc410/css/print.css?1744134416" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1744134416" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1744134416"></script>
+    <link href="/cc410/images/favicon.ico?1744734176" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1744734235" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1744734235" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1744734235" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1744734235" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1744734235" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1744734235" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1744734235" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1744734235" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1744734235" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1744734235" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1744734235" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1744734235" rel="stylesheet">
+    <link href="/cc410/css/print.css?1744734235" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1744734235" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1744734235"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -4033,7 +4043,7 @@ As you’ve developed programs, you’ve probably run them, supplied input, and 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1744134416" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1744734235" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/i-oop/04-testing/02-manual-testing/">
     <div id="R-body" class="default-animation">
@@ -4074,12 +4084,12 @@ As you’ve developed programs, you’ve probably run them, supplied input, and 
 <p>As you&rsquo;ve developed programs, you&rsquo;ve probably run them, supplied input, and observed if what happened was what you wanted. This process is known as <em>informal testing</em>.  It&rsquo;s informal, because you don&rsquo;t have a set procedure you follow, i.e. what specific inputs to use, and what results to expect.  <em>Formal testing</em> adds that structure.  In a formal test, you would have a written procedure to follow, which specifies <em>exactly</em> what inputs to supply, and what results should be expected.  This written procedure is known as a <em>test plan</em>.</p>
 <p>Historically, the test plan was often developed at the same time as the design for the software (but before the actual programming).  The programmers would then build the software to match the design, and the completed software and the test plan would be passed onto a testing team that would follow the step-by-step testing procedures laid out in the testing plan.  When a test failed, they would make a detailed record of the failure, and the software would be sent back to the programmers to fix.</p>
 <p>This model of software development has often been referred to as the &ldquo;waterfall model&rdquo; as each task depends on the one before it:</p>
-<p><a href="#R-image-7aff479f58a7479d3966f8b298d42bb5" class="lightbox-link"><img alt="The Waterfall Model of Software Development" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/waterfall.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7aff479f58a7479d3966f8b298d42bb5"><img alt="The Waterfall Model of Software Development" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/waterfall.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-37457137af515bacb02ec80dfd86c70b" class="lightbox-link"><img alt="The Waterfall Model of Software Development" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/waterfall.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-37457137af515bacb02ec80dfd86c70b"><img alt="The Waterfall Model of Software Development" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/waterfall.svg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Unfortunately, as this model is often implemented, the programmers responsible for writing the software are reassigned to other projects as the software moves into the testing phase.  Rather than employ valuable programmers as testers, most companies will hire less expensive workers to carry out the testing.  So either a skeleton crew of programmers is left to fix any errors that are found during the tests, or these are passed back to programmers already deeply involved in a new project.</p>
 <p>The costs involved in fixing software errors also grow larger the longer the error exists in the software. The table below comes from a NASA report of software error costs throughout the project life cycle:</p>
-<p><a href="#R-image-c4618826ae964573596164d1b185b48d" class="lightbox-link"><img alt="Comparison of System Cost Factors Excluding Operations" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/costs.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c4618826ae964573596164d1b185b48d"><img alt="Comparison of System Cost Factors Excluding Operations" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/costs.png"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-4a899f16883723d86b734e654a2344a6" class="lightbox-link"><img alt="Comparison of System Cost Factors Excluding Operations" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/4/costs.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4a899f16883723d86b734e654a2344a6"><img alt="Comparison of System Cost Factors Excluding Operations" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/4/costs.png"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>It is clear from the graph and the paper that the cost to fix a software error grows exponentially if the fix is delayed.  You probably have instances in your own experience that also speak to this - have you ever had a bug in a program you didn&rsquo;t realize was there until your project was nearly complete?  How hard was it to fix, compared to a error you found and fixed right away?</p>
 <p>It was realizations like these, along with growing computing power, that led to the development of <em>automated testing</em>, which we&rsquo;ll discuss next.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -4120,8 +4130,8 @@ As you’ve developed programs, you’ve probably run them, supplied input, and 
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1744134416" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1744134416" defer></script>
-    <script src="/cc410/js/theme.js?1744134416" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1744734235" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1744734235" defer></script>
+    <script src="/cc410/js/theme.js?1744734235" defer></script>
   </body>
 </html>
