@@ -1992,6 +1992,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -4011,14 +4021,14 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-java/</guid>
-      <description>YouTube Video Resources Codio Debugger Java Logging API Tutorial Configuring Codio Debugger Make sure the application section of build.gradle is set to the correct application.&#xA;Can copy unit test code to a test main function for testing. Codio doesn’t have a good way to individually debug a single unit test, but some IDEs do.&#xA;Gradle Changes Added entries in the application section for both programs. Can comment/uncomment as needed.</description>
+      <description>Resources Codio Debugger Java Logging API Tutorial Configuring Codio Debugger Make sure the application section of build.gradle is set to the correct application.&#xA;Can copy unit test code to a test main function for testing. Codio doesn’t have a good way to individually debug a single unit test, but some IDEs do.&#xA;Gradle Changes Added entries in the application section for both programs. Can comment/uncomment as needed.&#xA;application { // Define the main class for the application.</description>
     </item>
     <item>
       <title>Python</title>
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-python/</guid>
-      <description>Update to Python If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates&#xA;YouTube Video Resources Codio Debugger Logging HOWTO Configuring Codio Debugger Edit src/__main__.py to set Python path:&#xA;import sys sys.path.append(&#34;/home/codio/workspace/python/&#34;) Make sure src/__main__.py imports and calls correct main method.&#xA;Can copy unit test code to a test main function for testing.</description>
+      <description>Update to Python If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates&#xA;Resources Codio Debugger Logging HOWTO Configuring Codio Debugger Edit src/__main__.py to set Python path:&#xA;import sys sys.path.append(&#34;/home/codio/workspace/python/&#34;) Make sure src/__main__.py imports and calls correct main method.&#xA;Can copy unit test code to a test main function for testing.</description>
     </item>
     <item>
       <title>Update to Example 5 Python</title>

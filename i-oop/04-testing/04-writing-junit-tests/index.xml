@@ -1992,6 +1992,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3995,7 +4005,7 @@
   <channel>
     <title>Writing JUnit Tests :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/04-testing/04-writing-junit-tests/</link>
-    <description>YouTube Video Video Materials&#xA;Writing tests is in many ways just as challenging and creative an endeavor as writing programs. Tests usually consist of invoking some portion of program code, and then using assertions to determine that the actual results match the expected results. The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.</description>
+    <description>Video Materials&#xA;Writing tests is in many ways just as challenging and creative an endeavor as writing programs. Tests usually consist of invoking some portion of program code, and then using assertions to determine that the actual results match the expected results. The result of these assertions are typically reported on a per-test basis, which makes it easy to see where your program is not behaving as expected.&#xA;Consider a class that is a software control system for a kitchen stove.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/04-testing/04-writing-junit-tests/index.xml" rel="self" type="application/rss+xml" />

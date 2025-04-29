@@ -1992,6 +1992,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3995,7 +4005,7 @@
   <channel>
     <title>Type Checking :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/</link>
-    <description>YouTube Video One of the major selling points of Python is that it is dynamically typed. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.&#xA;While this can make development seem quick and easy, it can also cause programmers to make mistakes related to the handling of various data types that wouldn’t be present in statically typed languages such as Java, C++, or C#.</description>
+    <description>One of the major selling points of Python is that it is dynamically typed. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.&#xA;While this can make development seem quick and easy, it can also cause programmers to make mistakes related to the handling of various data types that wouldn’t be present in statically typed languages such as Java, C++, or C#.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.xml" rel="self" type="application/rss+xml" />

@@ -1992,6 +1992,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3995,7 +4005,7 @@
   <channel>
     <title>Hamcrest :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/</link>
-    <description>YouTube Video Let’s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop.</description>
+    <description>Let’s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.xml" rel="self" type="application/rss+xml" />

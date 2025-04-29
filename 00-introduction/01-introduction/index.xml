@@ -1992,6 +1992,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -3995,7 +4005,7 @@
   <channel>
     <title>Course Introduction :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/01-introduction/</link>
-    <description>YouTube Video Resources Slides Previous Versions Video Script Hello and welcome to the Computational Core program!&#xA;My name is Russ Feldhausen, and I’ll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus&#xA;[Slide 2]&#xA;There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program.</description>
+    <description>Resources Slides Previous Versions Video Script Hello and welcome to the Computational Core program!&#xA;My name is Russ Feldhausen, and I’ll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus&#xA;[Slide 2]&#xA;There are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/00-introduction/01-introduction/index.xml" rel="self" type="application/rss+xml" />
