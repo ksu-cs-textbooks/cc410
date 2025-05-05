@@ -2002,6 +2002,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -4035,21 +4045,21 @@ Creating a Thread Creating a thread is very simple in many modern programming la
     <link href="/cc410/ii-gui/12-parallelism/04-creating-threads/index.xml" rel="alternate" type="application/rss+xml" title="Creating Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/04-creating-threads/index.print.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/04-creating-threads/tele.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1745939504" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/images/favicon.ico?1746462942" rel="icon" type="image/x-icon" sizes="any">
     
-  <link href="/cc410/css/fontawesome-all.min.css?1745939547" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1745939547" rel="stylesheet"></noscript>
-  <link href="/cc410/css/nucleus.css?1745939547" rel="stylesheet">
-  <link href="/cc410/css/auto-complete.css?1745939547" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1745939547" rel="stylesheet"></noscript>
-  <link href="/cc410/css/perfect-scrollbar.min.css?1745939547" rel="stylesheet">
-  <link href="/cc410/css/fonts.css?1745939547" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1745939547" rel="stylesheet"></noscript>
-  <link href="/cc410/css/theme.css?1745939547" rel="stylesheet">
+  <link href="/cc410/css/fontawesome-all.min.css?1746462986" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1746462986" rel="stylesheet"></noscript>
+  <link href="/cc410/css/nucleus.css?1746462986" rel="stylesheet">
+  <link href="/cc410/css/auto-complete.css?1746462986" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1746462986" rel="stylesheet"></noscript>
+  <link href="/cc410/css/perfect-scrollbar.min.css?1746462986" rel="stylesheet">
+  <link href="/cc410/css/fonts.css?1746462986" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1746462986" rel="stylesheet"></noscript>
+  <link href="/cc410/css/theme.css?1746462986" rel="stylesheet">
   
   
   
-  <link href="/cc410/css/theme-light-theme.css?1745939547" rel="stylesheet" id="R-variant-style">
-  <link href="/cc410/css/chroma-relearn-light.css?1745939547" rel="stylesheet" id="R-variant-chroma-style">
-  <link href="/cc410/css/variant.css?1745939547" rel="stylesheet">
-  <link href="/cc410/css/print.css?1745939547" rel="stylesheet" media="print">
+  <link href="/cc410/css/theme-light-theme.css?1746462986" rel="stylesheet" id="R-variant-style">
+  <link href="/cc410/css/chroma-relearn-light.css?1746462986" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/cc410/css/variant.css?1746462986" rel="stylesheet">
+  <link href="/cc410/css/print.css?1746462986" rel="stylesheet" media="print">
   
   
   
@@ -4072,7 +4082,7 @@ Creating a Thread Creating a thread is very simple in many modern programming la
     window.T_N_results_found = `{1} results found for "{0}"`;
   </script>
   
-  <link href="/cc410/css/custom.css?1745939547" rel="stylesheet">
+  <link href="/cc410/css/custom.css?1746462986" rel="stylesheet">
     
   </head>
   <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/cc410/ii-gui/12-parallelism/04-creating-threads/embed.html">
@@ -4099,17 +4109,17 @@ Creating a Thread Creating a thread is very simple in many modern programming la
 <h2 id="creating-a-thread">Creating a Thread</h2>
 <p>Creating a thread is very simple in many modern programming languages. Both Java and Python include libraries for dealing with threads, and to create a new thread, each one simply requires some sort of function or method to serve as the starting point for the new thread. In a way, this is just like the <code>main()</code> method that is the starting point of most programs - we&rsquo;re just defining a new method to serve as the starting point for a new thread.</p>
 <p>Once we&rsquo;ve created the thread, it is given to the operating system for scheduling. Our main thread can continue to work, and the newly created thread will also start to run as well. So, the theoretical model might look something like this:</p>
-<p><a href="#R-image-d1bcb4bc6dc302557a79cb1a492e1213" class="lightbox-link"><img alt="Thread Model" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d1bcb4bc6dc302557a79cb1a492e1213"><img alt="Thread Model" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread1.svg"></a></p>
+<p><a href="#R-image-d32d4366c23a758c2951cb096f593afe" class="lightbox-link"><img alt="Thread Model" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d32d4366c23a758c2951cb096f593afe"><img alt="Thread Model" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread1.svg"></a></p>
 <p>Here, it appears that both threads are running simultaneously. However, as we discussed earlier in this chapter, that isn&rsquo;t really the case. For example, if the system only has one processor core, and these are the only two threads running on the system, then the threads might be interleaved on that processor like this:</p>
-<p><a href="#R-image-011f215347bc5271678148c6a9e53baa" class="lightbox-link"><img alt="Single Core" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread2.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-011f215347bc5271678148c6a9e53baa"><img alt="Single Core" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread2.svg"></a></p>
+<p><a href="#R-image-0ee5fe704708f7f04cf71e66b36fcd20" class="lightbox-link"><img alt="Single Core" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread2.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ee5fe704708f7f04cf71e66b36fcd20"><img alt="Single Core" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread2.svg"></a></p>
 <p>If we expand that to two processor cores, then they might actually run simultaneously, like this:</p>
-<p><a href="#R-image-046b9923267bcc06b124614742e4cdf3" class="lightbox-link"><img alt="Dual Core" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread3.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-046b9923267bcc06b124614742e4cdf3"><img alt="Dual Core" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread3.svg"></a></p>
+<p><a href="#R-image-bd7c55085e4eea191ca9c8af2e81199d" class="lightbox-link"><img alt="Dual Core" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread3.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bd7c55085e4eea191ca9c8af2e81199d"><img alt="Dual Core" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread3.svg"></a></p>
 <p>Of course, this is a <em>very</em> simplified view of this process. In practice, there will be many processes and threads that are competing for access across several cores, so the actual model could look something like this:</p>
-<p><a href="#R-image-ba17f303b3edbd8db68b4ddd3c1c85ca" class="lightbox-link"><img alt="Threading Model" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread4.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ba17f303b3edbd8db68b4ddd3c1c85ca"><img alt="Threading Model" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread4.svg"></a></p>
+<p><a href="#R-image-3b765bcfa0052ebabc9d6a13ea9a2c5e" class="lightbox-link"><img alt="Threading Model" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/cc410/images/10/thread4.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3b765bcfa0052ebabc9d6a13ea9a2c5e"><img alt="Threading Model" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/cc410/images/10/thread4.svg"></a></p>
 <p>As we can see, the processors are always executing some code, but many times they are executing code in a thread from some other application. Our application&rsquo;s code will be scheduled by the operating system in between the other threads, but we cannot guarantee when it will be scheduled or for how long. Also, while this diagram makes it appear that each thread will only be scheduled on one processor, in fact the thread could be scheduled on ANY processor that is available. On a modern personal computer today, there may be as many as 16 or 32 individual threads available, sometimes multiple threads per CPU core, in the processor!</p>
 <p>So, the big takeaways here:</p>
 <ol>
@@ -4133,10 +4143,10 @@ Creating a Thread Creating a thread is very simple in many modern programming la
 
 
 
-<script src="/cc410/js/clipboard.min.js?1745939547" defer></script>
-<script src="/cc410/js/perfect-scrollbar.min.js?1745939547" defer></script>
-<script src="/cc410/js/theme.js?1745939547" defer></script>
+<script src="/cc410/js/clipboard.min.js?1746462986" defer></script>
+<script src="/cc410/js/perfect-scrollbar.min.js?1746462986" defer></script>
+<script src="/cc410/js/theme.js?1746462986" defer></script>
 
-<script src="/cc410/js/embed-iframe.js?1745939547" defer></script>
+<script src="/cc410/js/embed-iframe.js?1746462986" defer></script>
 </body>
 </html>

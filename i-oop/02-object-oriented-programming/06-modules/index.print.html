@@ -2002,6 +2002,16 @@
 
   
 	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
 	  
 
   
@@ -4033,19 +4043,19 @@
     <link href="/cc410/i-oop/02-object-oriented-programming/06-modules/index.xml" rel="alternate" type="application/rss+xml" title="Modules :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/06-modules/tele.html" rel="alternate" type="text/html" title="Modules :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/06-modules/embed.html" rel="alternate" type="text/html" title="Modules :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1745939504" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/fontawesome-all.min.css?1745939563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1745939563" rel="stylesheet"></noscript>
-    <link href="/cc410/css/nucleus.css?1745939563" rel="stylesheet">
-    <link href="/cc410/css/auto-complete.css?1745939563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1745939563" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar.min.css?1745939563" rel="stylesheet">
-    <link href="/cc410/css/fonts.css?1745939563" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1745939563" rel="stylesheet"></noscript>
-    <link href="/cc410/css/theme.css?1745939563" rel="stylesheet">
-    <link href="/cc410/css/theme-auto.css?1745939563" rel="stylesheet" id="R-variant-style">
-    <link href="/cc410/css/chroma-auto.css?1745939563" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/cc410/css/variant.css?1745939563" rel="stylesheet">
-    <link href="/cc410/css/print.css?1745939563" rel="stylesheet" media="print">
-    <link href="/cc410/css/format-print.css?1745939563" rel="stylesheet">
-    <script src="/cc410/js/variant.js?1745939563"></script>
+    <link href="/cc410/images/favicon.ico?1746462942" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/fontawesome-all.min.css?1746463003" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fontawesome-all.min.css?1746463003" rel="stylesheet"></noscript>
+    <link href="/cc410/css/nucleus.css?1746463003" rel="stylesheet">
+    <link href="/cc410/css/auto-complete.css?1746463003" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/auto-complete.css?1746463003" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar.min.css?1746463003" rel="stylesheet">
+    <link href="/cc410/css/fonts.css?1746463003" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/css/fonts.css?1746463003" rel="stylesheet"></noscript>
+    <link href="/cc410/css/theme.css?1746463003" rel="stylesheet">
+    <link href="/cc410/css/theme-auto.css?1746463003" rel="stylesheet" id="R-variant-style">
+    <link href="/cc410/css/chroma-auto.css?1746463003" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/cc410/css/variant.css?1746463003" rel="stylesheet">
+    <link href="/cc410/css/print.css?1746463003" rel="stylesheet" media="print">
+    <link href="/cc410/css/format-print.css?1746463003" rel="stylesheet">
+    <script src="/cc410/js/variant.js?1746463003"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -4065,7 +4075,7 @@
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/cc410/css/custom.css?1745939563" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1746463003" rel="stylesheet">
   </head>
   <body class="mobile-support print disableInlineCopyToClipboard" data-url="/cc410/i-oop/02-object-oriented-programming/06-modules/">
     <div id="R-body" class="default-animation">
@@ -4101,20 +4111,20 @@
 
 <p>It might seem like the kind of modules that Parnas was describing don&rsquo;t exist in Java or Python, but they actually do - we just don&rsquo;t call them &ldquo;modules&rdquo;.  Consider how you would compute the square root of a number:</p>
 
-<div class="tab-panel" data-tab-group="b80beefa96a4b8240e858e2c0c0f35eb">
+<div class="tab-panel" data-tab-group="32873ce276553c166a658a646d3cb8e8">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b80beefa96a4b8240e858e2c0c0f35eb','java')"
+      onclick="switchTab('32873ce276553c166a658a646d3cb8e8','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b80beefa96a4b8240e858e2c0c0f35eb','python')"
+      onclick="switchTab('32873ce276553c166a658a646d3cb8e8','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4139,20 +4149,20 @@
 <p>The <code>Math</code> or <code>math</code> class in this example is actually used <em>just like a module!</em>  We can&rsquo;t see the underlying implementation of the <code>sqrt()</code> method, it just provides to us a well-defined interface (i.e. you call it with the symbol <code>sqrt</code> and a value as a parameter). This method and other related math functions are encapsulated within the <code>Math</code> or <code>math</code> class.</p>
 <p>We can define our own module-like classes by making them <code>static</code>, i.e. we could group our vector math functions into a static <code>VectorMath</code> class.</p>
 
-<div class="tab-panel" data-tab-group="bc4ba482066c3173e354576c5c8a4a6b">
+<div class="tab-panel" data-tab-group="d52c4dfa4684b6c8a6e67c8f948d50ca">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('bc4ba482066c3173e354576c5c8a4a6b','java')"
+      onclick="switchTab('d52c4dfa4684b6c8a6e67c8f948d50ca','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('bc4ba482066c3173e354576c5c8a4a6b','python')"
+      onclick="switchTab('d52c4dfa4684b6c8a6e67c8f948d50ca','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -4225,8 +4235,8 @@
   
     
     </div>
-    <script src="/cc410/js/clipboard.min.js?1745939563" defer></script>
-    <script src="/cc410/js/perfect-scrollbar.min.js?1745939563" defer></script>
-    <script src="/cc410/js/theme.js?1745939563" defer></script>
+    <script src="/cc410/js/clipboard.min.js?1746463003" defer></script>
+    <script src="/cc410/js/perfect-scrollbar.min.js?1746463003" defer></script>
+    <script src="/cc410/js/theme.js?1746463003" defer></script>
   </body>
 </html>
