@@ -4015,7 +4015,7 @@
   <channel>
     <title>Message Dispatching :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/</link>
-    <description>Video Materials&#xA;The term dispatch refers to how a language decides which polymorphic operation (a method or function) a message should trigger.&#xA;Consider polymorphic functions in Java, also known as method overloading, where multiple methods use the same name but have different parameters. Here’s an example for calculating the rounded sum of an array of numbers:&#xA;Java public int roundedSum(int[] a){ int sum = 0; for (int i : a) { sum += i; } return sum } public int roundedSum(double[] a){ double sum = 0; for (double i : a) { sum += i; } return Math.</description>
+    <description>YouTube Video Video Materials&#xA;The term dispatch refers to how a language decides which polymorphic operation (a method or function) a message should trigger.&#xA;Consider polymorphic functions in Java, also known as method overloading, where multiple methods use the same name but have different parameters. Here’s an example for calculating the rounded sum of an array of numbers:&#xA;Java public int roundedSum(int[] a){ int sum = 0; for (int i : a) { sum += i; } return sum } public int roundedSum(double[] a){ double sum = 0; for (double i : a) { sum += i; } return Math.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/06-inheritance-polymorphism/09-message-dispatching/index.xml" rel="self" type="application/rss+xml" />

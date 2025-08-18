@@ -4015,7 +4015,7 @@
   <channel>
     <title>Spring &#39;25 Week 12 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the Week 12 Announcements video for CC410 in Spring 2025. As promised, this week we’re going to shift gears from building a traditional desktop user interface to start building a web user interface. So this week we’re going to start talking about data-driven websites. You’ll go through a quick example to install a website framework on top of your existing project, and you’ll do that in your restaurant project as well.</description>
+    <description>YouTube Video Resources Slides Edited Transcript Hello, and welcome to the Week 12 Announcements video for CC410 in Spring 2025. As promised, this week we’re going to shift gears from building a traditional desktop user interface to start building a web user interface. So this week we’re going to start talking about data-driven websites. You’ll go through a quick example to install a website framework on top of your existing project, and you’ll do that in your restaurant project as well.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.xml" rel="self" type="application/rss+xml" />

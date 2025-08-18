@@ -4015,7 +4015,7 @@
   <channel>
     <title>Art of Debugging :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/07-debugging-logging/02-art-of-debugging/</link>
-    <description>Video Materials&#xA;First, let’s briefly discuss the art of debugging. Finding and fixing bugs in a complex piece of software is indeed an art, meaning that it something that takes a great amount of skill that comes with practice. So, how can we get better at this? Here are some tips. Much of this content was inspired by the talk The Art of Debugging by Remy Sharp.&#xA;Write Fewer Bugs This seems pretty obvious, but as we’ve discussed several times in this course, software bugs can be very costly to fix, and the longer they remain in the source code, the harder they can be to fix.</description>
+    <description>YouTube Video Video Materials&#xA;First, let’s briefly discuss the art of debugging. Finding and fixing bugs in a complex piece of software is indeed an art, meaning that it something that takes a great amount of skill that comes with practice. So, how can we get better at this? Here are some tips. Much of this content was inspired by the talk The Art of Debugging by Remy Sharp.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/07-debugging-logging/02-art-of-debugging/index.xml" rel="self" type="application/rss+xml" />

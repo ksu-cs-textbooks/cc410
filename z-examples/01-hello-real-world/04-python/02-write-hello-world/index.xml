@@ -4015,7 +4015,7 @@
   <channel>
     <title>Write Hello World :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/</link>
-    <description>Now that we’ve created a package for our code, let’s write the code for our “Hello Real World” application. Traditionally, a Python “Hello World” program is a single line of code, but for this example we’ll follow all of the object-oriented standards by creating a class and a method.&#xA;Create a Class First, we need to create a source code file for our application. We’ll place this code inside of the src/hello package we’ve already created.</description>
+    <description>YouTube Video Now that we’ve created a package for our code, let’s write the code for our “Hello Real World” application. Traditionally, a Python “Hello World” program is a single line of code, but for this example we’ll follow all of the object-oriented standards by creating a class and a method.&#xA;Create a Class First, we need to create a source code file for our application. We’ll place this code inside of the src/hello package we’ve already created.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/index.xml" rel="self" type="application/rss+xml" />

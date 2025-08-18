@@ -4015,7 +4015,7 @@
   <channel>
     <title>Documentation Formats :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/03-documentation-formats/</link>
-    <description>Video Materials&#xA;Developer documentation often faces a challenge not present in other kinds of documents - the need to be able to display snippets of code. Ideally, we want code to be formatted in a way that preserves indentation. We also don’t want code snippets to be subject to spelling and grammar checks, especially auto-correct versions of these algorithms, as they will alter the snippets. Ideally, we might also apply syntax highlighting to these snippets.</description>
+    <description>YouTube Video Video Materials&#xA;Developer documentation often faces a challenge not present in other kinds of documents - the need to be able to display snippets of code. Ideally, we want code to be formatted in a way that preserves indentation. We also don’t want code snippets to be subject to spelling and grammar checks, especially auto-correct versions of these algorithms, as they will alter the snippets. Ideally, we might also apply syntax highlighting to these snippets.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/i-oop/03-documentation/03-documentation-formats/index.xml" rel="self" type="application/rss+xml" />

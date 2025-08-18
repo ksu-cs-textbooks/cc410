@@ -4015,7 +4015,7 @@
   <channel>
     <title>State &amp; Behavior :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/i-oop/07-debugging-logging/03-inspecting-state/video/</link>
-    <description>Resources Slides Video Script Throughout this course, we’ve continually talked about objects in our programs consisting of two parts - state and behavior. So, it only makes sense for us to realize that there are really only two possible sources of bugs in our program - the state of the program, or the behavior.&#xA;Put another way, the bug is either in the data we are using, or the code that is running.</description>
+    <description>YouTube Video Resources Slides Video Script Throughout this course, we’ve continually talked about objects in our programs consisting of two parts - state and behavior. So, it only makes sense for us to realize that there are really only two possible sources of bugs in our program - the state of the program, or the behavior.&#xA;Put another way, the bug is either in the data we are using, or the code that is running.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Aug 2021 16:38:27 -0500</lastBuildDate>
