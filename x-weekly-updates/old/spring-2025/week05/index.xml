@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;25 Week 5 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week05/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC 410 in spring 2025. My apologies for not being here last week. I was under the weather, but hopefully last year’s video worked out really well. So this week you’re going to be wrapping up a module on inheritance and polymorphism. You did a small example exploring inheritance using a blender and a bunch of fruit. And then we also have in this class a start, stop, continue survey that’s out there. I’ve already seen a couple of responses from students. Basically I use that as a short little chance for you to give anonymous feedback to me throughout the semester of things you want me to start doing that I’m not doing, something you want me to stop doing that I’m doing that you don’t like, or something you want me to continue doing if you think it’s really important to your success. It’s just a great way for me to get some feedback and see what’s working and what’s not in the class. You also have some time this week to start thinking about your final project because there’s not a big restaurant milestone that’s due right now. So start thinking about how your final project idea might fit into some of the stuff we’ve already done with the restaurant milestones.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week05/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;25 Week 8 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week08/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the Week 8 announcements video for CC410 in Spring 2025. So this week you should be wrapping up the module on test doubles. I believe most everybody already has that submitted, so that’s great. That module builds really nicely on the previous module working with design patterns. And so those two modules kind of go together. I’ll work on getting caught up on grading those now that I’m back from my conference. You also should have scheduled and hopefully already had your second final project meeting. If not, make sure you get that scheduled soon. And then you just completed the first concept quiz. And so I’ll work on getting that graded this week as well and get caught up on all of that grading.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week08/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

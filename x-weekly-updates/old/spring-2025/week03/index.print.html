@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="YouTube Video Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we’re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We’ll do a documentation and testing example. And then for your second restaurant milestone, you’re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it’s correct.">
+    <meta name="author" content="Russell Feldhausen">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
+    <meta name="twitter:title" content="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <meta name="twitter:description" content="YouTube Video Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we’re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We’ll do a documentation and testing example. And then for your second restaurant milestone, you’re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it’s correct.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week03/index.html">
+    <meta property="og:site_name" content="CC 410 Textbook">
+    <meta property="og:title" content="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <meta property="og:description" content="YouTube Video Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we’re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We’ll do a documentation and testing example. And then for your second restaurant milestone, you’re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it’s correct.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
+    <meta itemprop="name" content="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <meta itemprop="description" content="YouTube Video Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we’re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We’ll do a documentation and testing example. And then for your second restaurant milestone, you’re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it’s correct.">
+    <meta itemprop="dateModified" content="2025-08-20T11:49:46-05:00">
+    <meta itemprop="wordCount" content="1014">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
+    <title>Spring &#39;25 Week 3 :: CC 410 Textbook</title>
+    <link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week03/index.html" rel="canonical" type="text/html" title="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <link href="/cc410/x-weekly-updates/old/spring-2025/week03/index.xml" rel="alternate" type="application/rss+xml" title="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <link href="/cc410/x-weekly-updates/old/spring-2025/week03/tele.html" rel="alternate" type="text/html" title="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <link href="/cc410/x-weekly-updates/old/spring-2025/week03/embed.html" rel="alternate" type="text/html" title="Spring &#39;25 Week 3 :: CC 410 Textbook">
+    <link href="/cc410/images/favicon.ico?1755708720" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1755708720" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1755708720" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1755708720" defer></script>
+    <script src="/cc410/js/search.min.js?1755708720" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1755708720";
+    </script>
+    <script src="/cc410/js/lunr/lunr.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1755708720" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1755708720" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/x-weekly-updates\/old\/spring-2025\/week03\/index.html';
+      window.relearn.relBasePath='..\/..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc410';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/cc410/css/custom.css?1755708720" rel="stylesheet">
+  </head>
+  <body class="mobile-support embed print" data-url="/cc410/x-weekly-updates/old/spring-2025/week03/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable x-weekly-updates" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="spring-25-week-3">Spring &#39;25 Week 3</h1>
+
+
+<a href="https://www.youtube.com/watch?v=CRmwOn87LoY">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we&rsquo;re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We&rsquo;ll do a documentation and testing example. And then for your second restaurant milestone, you&rsquo;re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it&rsquo;s correct.</p>
+<p>So for the second milestone, you&rsquo;re going to be writing unit tests. The number of unit tests that you write may vary. My model solution has around 400 unit tests, but it may be a little bit overkill. So in the range of three to 400, I think is what&rsquo;s appropriate. You&rsquo;ll have documentation comments that you&rsquo;ll add to all your code. You&rsquo;ll add a UML class diagram for your project. In total, this project should take between three and eight hours as long as you work pretty diligently about duplicating unit tests carefully between the different classes. You&rsquo;ll find that most classes have very similar unit tests. So this one may be between 3500 and 4000 total lines of code, but a lot of that again is repeated and copied. And as always, feedback is very welcome.</p>
+<p>So some big hints for the second milestone. Do not look at the source code for your solution to milestone one. For example, the mistake that a lot of people make when writing unit tests is they pull up the code for the class they&rsquo;re going to test and then right next to it, they write a unit test to test that code. That leads to tests that are bad. What we want to do is we want to write tests that confirm that the code works correctly, not that the code works like it is written. So for example, if you&rsquo;re checking the price of an item, you should go back to the original menu from the milestone one description and look at the menu price for that object and code that into a unit test. You shouldn&rsquo;t look at the source code to figure out what that price is because if the price is wrong in the source code, your unit test will then test for the wrong price. A lot of students have made this mistake. One thing you can do is you can use global attributes at the top of your test for things like the price and the number of ingredients and the toppings and things like that. You could just have some global attributes at the top and then write the unit test so that they just read those attributes. In that way, you can just copy paste all the unit tests between the classes and change those global level attributes to represent the different classes. There&rsquo;s a lot of different ways you can do it. You should also look at parameterized tests across enums to check all the different values. For example, if you&rsquo;re not sure how to do that, here is some examples of generalized tests using global variables in both Java and Python. For example, this Java one, I have a price and a calories at the top. And then when I check for the correct price, the correct calories, I just reference that global variable. So instead of having to change those values down in my code, I can just change them at the top of the class and then copy paste all these unit tests in between the multiple classes to check the price and check the calories.</p>
+<p>Beyond that, I really want to encourage you to think about this class in terms of a growth mindset. The milestones in this class are challenging. They&rsquo;re meant to be challenging. The only way that you&rsquo;re going to grow and get better as a programmer is by being challenged a little bit. And so when the milestones don&rsquo;t feel like they&rsquo;re easy, that&rsquo;s because they aren&rsquo;t. We want you to learn. So I want you to take some time, make sure you&rsquo;re reading very carefully. If something doesn&rsquo;t make sense, ask for clarification. And then, of course, start early, work methodically, and commit your work often to Git. For example, the milestone that&rsquo;s do this next week, you should be starting on it right now and starting to work through that code a little bit at a time, instead of saying, oh, I&rsquo;ll just do everything on Sunday. When you try and work eight hours in a block, that&rsquo;s really, really hard to do. So if you do a little bit at a time, that helps you figure out if you run in any errors, if you need any assistance, things like that.</p>
+<p>So looking ahead after this week, we&rsquo;ve got milestone four. Next week is going to talk about inheritance and polymorphism. Then we&rsquo;ll spend a module on debugging and logging. Then you&rsquo;ll have your second final project check in toward the end of February. Then we&rsquo;ll switch over to do design patterns and test doubles, which I think are the two really cool things we cover in this class. And then after that, we&rsquo;ll talk about graphical user interfaces, web interfaces, et cetera. So hopefully things are going well. You&rsquo;re going to write an awful lot of tests this week, but it&rsquo;s really, really good practice to get used to writing unit tests for your code. It&rsquo;s something that you do a lot if you write professional software. As always, if you have any questions at all, feel free to let me know. Otherwise best of luck, and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+      
+      
+      
+    </div>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1755708720" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1755708720" defer></script>
+    <script src="/cc410/js/theme.min.js?1755708720" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1755708720" defer></script>
+  </body>
+</html>

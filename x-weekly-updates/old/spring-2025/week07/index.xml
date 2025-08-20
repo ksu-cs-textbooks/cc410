@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;25 Week 7 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week07/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the Week 7 Announcements video for CC410 in Spring 2025. This week you’ll be working on a module about test doubles, which I think are one of the most important parts in this class outside of the design patterns that you worked on previously. We’ll be doing a restaurant milestone that implements a lot of these test doubles in unit tests, and you’ll also be completing the first concept quiz. In the previous video I talked a little bit about the concept quiz. It’s basically meant to check to see if you’re understanding some of the deeper concepts we’ve been covering in this class. It’s open book, open notes. It is timed, so make sure you watch out for that. And I’m really looking for you to do your own work. Please don’t use tools like Chat GPT on the concept quiz. I really want to see how well you’re understanding these deeper concepts because it really shows me that you’re getting the concepts that we’re covering in this class.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week07/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

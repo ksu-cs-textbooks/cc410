@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring 2025 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring &#39;25 Week 1</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week01/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week01/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to CC 410 Advanced Programming, the first week of the course in spring 2025. My name is Russell Feldhausen. I’ll be your instructor for this semester. My contact information is here on the screen. I work mostly remotely from the Kansas City area, so I’m not on campus very often. Generally, you can find me on campus on Mondays throughout the semester, although for the first couple of weeks of class, I’ll actually be on campus on Wednesdays. You can always email me at russfeld at ksu.edu, or you can find all my contact information on my website, which is russfeld.me.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 2</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week02/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week02/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week two announcements for CC410 in spring 2025. So this week you should be wrapping up the first module, which is the Hello Real World project. It introduces some of the coding style and some of the things we’re going to use in this class. Thankfully, that project is mostly just a follow along with me on the videos project, so you should be getting that wrapped up today. And then also, if you haven’t already, you should schedule your first final project milestone. It’s just a quick check-in meeting with me to get to know each other and talk about the final project in this class.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 3</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week03/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week03/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we’re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We’ll do a documentation and testing example. And then for your second restaurant milestone, you’re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it’s correct.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 4</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week04/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week04/index.html</guid>
+      <description>A Repeat Good morning! Unfortunately I’m not feeling very photogenic this morning so I won’t record a new announcements video. Instead, here is a repeat from last semester that has all the pertinent information about the upcoming milestone. Best of luck!&#xA;Resources Slides Edited Transcript Hello and welcome to the week four announcements video for CC 410 in fall 2024. So this week you should be wrapping up the second restaurant project milestone, which involves adding documentation, unit testing, and a UML diagram to your project. You should have done a short example of adding documentation and unit testing to an existing project, and then you’ll expand that into the restaurant project. And hopefully you’re getting that all done. I noticed that so far I’ve only got one of those submitted, so hopefully you’re getting that wrapped up and submitted pretty soon later today. So this week we’re going to shift gears a little bit, and we’ll spend some time talking about inheritance and polymorphism, which are two of the really big reasons that we use object oriented programming in this class. We’re going to do a small example of looking at inheritance, and then you’ll have some time to think about your project, but there won’t actually be a restaurant milestone due this week. There is one due next week that includes debugging and logging as well. And so instead this week you’ll have a little bit of time to think about your final project. There’s a start stop continue survey out there, which basically asks you if there’s anything I should start doing in this class, stop doing in this class, or anything I should continue doing if you like things that I do. So it’s a chance for you to give some feedback. But really the big thing for this module is get through this module pretty quick so you can go ahead to the next module and start looking at that content and start working on the milestone, because there is a reason that I give you two weeks to work on this milestone. So you want to get to that as soon as you can.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 5</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week05/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week05/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC 410 in spring 2025. My apologies for not being here last week. I was under the weather, but hopefully last year’s video worked out really well. So this week you’re going to be wrapping up a module on inheritance and polymorphism. You did a small example exploring inheritance using a blender and a bunch of fruit. And then we also have in this class a start, stop, continue survey that’s out there. I’ve already seen a couple of responses from students. Basically I use that as a short little chance for you to give anonymous feedback to me throughout the semester of things you want me to start doing that I’m not doing, something you want me to stop doing that I’m doing that you don’t like, or something you want me to continue doing if you think it’s really important to your success. It’s just a great way for me to get some feedback and see what’s working and what’s not in the class. You also have some time this week to start thinking about your final project because there’s not a big restaurant milestone that’s due right now. So start thinking about how your final project idea might fit into some of the stuff we’ve already done with the restaurant milestones.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 6</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week06/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week06/index.html</guid>
+      <description>A Repeat Good morning! I am travelling this week and won’t be able to record a new announcements video. Instead, here is a repeat from last semester that has all the pertinent information about the upcoming milestone. Best of luck!&#xA;Resources Slides Edited Transcript Hello and welcome to the week six announcements video for CC410 in fall 2024. So this week you should be wrapping up the modules on debugging, logging and Lambda expressions. There’s a small example that you do on debugging and logging and then the third restaurant milestone is due pretty soon. So make sure you get that done. You also should be scheduling your second final project meeting with me. So I look forward to hearing about some of your interests and things that you’re looking at for your final project. This is again, just a quick discussion to see where you’re at on project planning and maybe give you some advice of things that you could start working on in your final project as you have some time over the next few weeks.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 7</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week07/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week07/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the Week 7 Announcements video for CC410 in Spring 2025. This week you’ll be working on a module about test doubles, which I think are one of the most important parts in this class outside of the design patterns that you worked on previously. We’ll be doing a restaurant milestone that implements a lot of these test doubles in unit tests, and you’ll also be completing the first concept quiz. In the previous video I talked a little bit about the concept quiz. It’s basically meant to check to see if you’re understanding some of the deeper concepts we’ve been covering in this class. It’s open book, open notes. It is timed, so make sure you watch out for that. And I’m really looking for you to do your own work. Please don’t use tools like Chat GPT on the concept quiz. I really want to see how well you’re understanding these deeper concepts because it really shows me that you’re getting the concepts that we’re covering in this class.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 8</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week08/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week08/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the Week 8 announcements video for CC410 in Spring 2025. So this week you should be wrapping up the module on test doubles. I believe most everybody already has that submitted, so that’s great. That module builds really nicely on the previous module working with design patterns. And so those two modules kind of go together. I’ll work on getting caught up on grading those now that I’m back from my conference. You also should have scheduled and hopefully already had your second final project meeting. If not, make sure you get that scheduled soon. And then you just completed the first concept quiz. And so I’ll work on getting that graded this week as well and get caught up on all of that grading.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 9</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week09/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week09/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week nine announcements video for CC 410 in spring 2025. So last week you worked on adding a basic user interface to your program and this week we’re going to work on parallel programming and event driven programming so we can actually add events to your user interface so that when you click on the buttons they will actually do something. And then at the end of this we’ll complete restaurant milestone seven where we’ll add a lot of functionality to our user interface where you can actually create items and save them in the order list on the side of your user interface.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 10</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week10/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week10/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 10 announcements for CC410 in spring 2025. So this week you should be working on an example of bringing in an external library into our project. We’re just gonna do a small example for how to do that. Then you’re gonna get started on the eighth restaurant milestone where we’re gonna add orders and combos. This is also another instance of the Start, Stop, Continue survey. So it’s a good chance for you to give me any feedback that you have on things that are either going well in the class, things you want me to start doing, stop doing, or things you wanna make sure that I continue doing in the class. This is another just good informal anonymous check-in to see how things are going.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 11</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week11/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week11/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 11 announcements for CC 410 in spring 2025. So this week you should be working on a milestone on releases where we’re going to actually take our project and build a release version of it that we can share out with others across the internet. This is kind of the last big wrap up part of this whole GUI process that we’ve been going through. And so for the ninth restaurant milestone, you’ll be finishing the checkout process using the external cash register library that you’ve installed and also printing a receipt so that everything comes together and we have a fully working point of sale system for our project.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 12</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week12/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week12/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the Week 12 Announcements video for CC410 in Spring 2025. As promised, this week we’re going to shift gears from building a traditional desktop user interface to start building a web user interface. So this week we’re going to start talking about data-driven websites. You’ll go through a quick example to install a website framework on top of your existing project, and you’ll do that in your restaurant project as well. This is a good time to start working on your final project or keep working on your final project. Most of the milestones from here on out are much, much smaller, so you’ve got about four good weeks to really start working on your final project in this class. Remember the final project is meant to be about a third to a fourth of the size of the restaurant project, so a couple thousand lines of code is what we’re shooting for. That’s what we’re really looking at to get you to work on for this final project. So hopefully you can get rolling on that this week. If you have any questions, let me know, and I’m definitely happy to help with that.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 13</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week13/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week13/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 13 announcements video for CC410 in spring 2025. So this week you should be working on building a small RESTful API and building some web forms so that you can add custom menu items to your menu. We’re going to store those in a separate list from the classes that actually store the real menu items but it gives you an idea of what it might look like to have a web app that actually allows you to add custom menu items to our list. So you’re going to do a quick example around that and keep working on restaurant milestones for those. As before, these restaurant milestones are going to be smaller to give you more time to work on your final project, which remember that’s coming up very soon.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 14</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week14/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week14/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 14 announcements video for CC 410 in spring 2025. This week you should be working on your fourth final project milestone. So you’ll be scheduling some time to meet with me either this week or next week to talk about your final project. There’s also the second concept quiz that’s out there. So make sure you’re looking at that and getting that done. And then there’s also a restaurant milestone and an example about using a RESTful API to be able to add and edit custom menu items to the project. And then of course, make sure you keep spending some time working on your final project. There’s a lot of different things to balance this week, but hopefully you’re finding time to get all of these things done as you get toward the end of the semester. So for the next restaurant milestone, we’re going to be building a RESTful web application that allows us to create custom menu items. We’re gonna reinforce some of the design patterns that we saw earlier this semester, such as the iterator pattern and the singleton pattern. And this is really the last time that you’re going to go through and update your UML diagram to match everything that you have going on in your web application.</description>
+    </item>
+    <item>
+      <title>Spring &#39;25 Week 15</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week15/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week15/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 15 announcements video for CC 410 in spring 2025. So this week you should be working on the last couple of things in this class where we’re going to talk about some form validation and some serialization. You’ll do a quick example about that and then you’ll add that to your restaurant milestone. Other than that, keep working on your final project. This is really the last restaurant milestone and then you’ll have a couple of weeks to wrap up your final project. I believe I met with most all of you last week about your final project, so hopefully that’s all going well.</description>
+    </item>
+  </channel>
+</rss>

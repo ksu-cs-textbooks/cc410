@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;25 Week 3 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week03/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the week three announcements video for CC410 in spring 2025. So you should have already wrapped up the second module which is on object oriented programming. We do a small example on object oriented programming where you make a few data classes and then you worked on the first big restaurant milestone where you made object oriented programming classes for each of the menu items in that restaurant itself. So this week we’re going to move ahead by talking about some things around documentation, unit testing and UML to actually diagram your program. We’ll do a documentation and testing example. And then for your second restaurant milestone, you’re going to write unit tests to actually review the code that you wrote in the previous milestone and make sure it’s correct.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week03/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

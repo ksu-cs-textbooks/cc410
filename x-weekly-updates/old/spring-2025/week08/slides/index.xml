@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week08/slides/index.html</link>
+    <description>CC 410 - Week 8&#xD;Wrapping Up&#xD;Test Doubles&#xD;Final Project 2&#xD;Concept Quiz 1&#xD;This Week&#xD;GUI Basics Example&#xD;Restaurant 6&#xD;Milestone 6&#xD;GUI Basics&#xD;Create Overall GUI Structure&#xD;I Give One Example&#xD;Read Helpful Hints&#xD;feel free to get creative&#xD;Looking Ahead&#xD;Module 9 - Event-Driven Programming&#xD;Module 10 - External Libraries&#xD;Module 11 - Releases&#xD;Web APIs, etc.&#xD;Image Credit: Giphy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/spring-2025/week08/slides/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
