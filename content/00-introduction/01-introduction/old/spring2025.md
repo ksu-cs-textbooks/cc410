@@ -1,15 +1,14 @@
 ---
-title: "Course Introduction"
+title: "Spring 2025"
 pre: "1. "
-weight: 10
+weight: 30
 ---
 
-{{< youtube ftQqoTIf3Ws >}}
+{{< youtube 5T4tvnRPxeE   >}}
 
 #### Resources
 
-* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
-* [Previous Versions]({{% relref "./old" %}})
+* <a href="{{% relref "./slides-spring2025" %}}" target="_blank">Slides</a>
 
 #### Video Script
 

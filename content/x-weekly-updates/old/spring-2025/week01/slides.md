@@ -7,8 +7,9 @@ hidden: true
 </section>
 
 <section>
-	<h3>Mr. Russell Feldhausen</h3>
+	<h3>Russell Feldhausen</h3>
 	<p>
+		<i>Pronouns: he/him</i><br>
 		(785) 292-3121 (Call/Text)<br>
 		2213 Engineering Hall<br>
 		<i>(working remotely)</i><br>

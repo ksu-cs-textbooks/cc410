@@ -2,7 +2,6 @@
 title: "Spring '22 Week 11"
 pre: "11. "
 weight: 110
-date: 2022-04-048T00:53:26-05:00
 ---
 
 {{< youtube Xo1j_PZWKEs   >}}

@@ -1,20 +1,18 @@
 ---
-title: "Fall 2025 Syllabus"
-weight: 60
+title: "Spring 2025 Syllabus"
+weight: 65
 pre: "6. "
 ---
 
-## CC 410 - Advanced Programming - Fall 2025
-
-[Previous Versions]({{% relref "./old" %}})
+## CC 410 - Advanced Programming - Spring 2025
 
 ### Instructor Contact Information
 
-* **Instructor:** Mr. Russell Feldhausen (russfeld AT ksu DOT edu)
+* **Instructor:** Russell Feldhausen (russfeld AT ksu DOT edu)<br> _I use **he/him** pronouns. Feel free to share your own pronouns with me, and I'll do my best to use them!_
 * **Office:** DUE 2213, but I mostly work remotely from Kansas City, MO
 * **Phone:** (785) 292-3121 (Call/Text)
 * **Website:** https://russfeld.me
-* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). [Book time to meet with me](https://outlook.office.com/bookwithme/user/352f01b060fd4854b105dd9afc625e8b@ksu.edu?anonymous&ismsaljsauthenabled&ep=bwmEmailSignature)
+* **Virtual Office Hours:** By appointment via [Zoom](https://ksu.zoom.us/). Schedule a meeting at [https://calendly.com/russfeld](https://calendly.com/russfeld)
 
 #### Preferred Methods of Communication:
 
@@ -134,24 +132,24 @@ If you have extenuating circumstances, please discuss them with the instructor a
 
 Students should strive to complete this course in its entirety before the end of the semester in which they are enrolled. However, since retaking the course would be costly and repetitive for students, we would like to give students a chance to succeed with a little help rather than immediately fail students who are struggling.
 
-If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/provost/policies-resources/university-handbook/fhsecf.html#F80) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_.
+If you are unable to complete the course in a timely manner, please contact the instructor to discuss an incomplete grade. Incomplete grades are given solely at the instructor's discretion. See the official [K-State Grading Policy](https://www.k-state.edu/registrar/students/academicpolicy/#GRADING) for more information. In general, _poor time management alone is not a sufficient reason for an incomplete grade_.
 
-Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https://www.k-state.edu/registrar/forms/credits_grade_reporting/Incomplete%20agreement%20form.pdf), the following stipulations apply to any incomplete grades given in this course:
+Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https://www.k-state.edu/registrar/faculty-staff/forms/Incomplete%20agreement%20form.docx), the following stipulations apply to any incomplete grades given in Computational Core courses:
 
-1. **Students who request an incomplete will have their final grade capped at a C**.
-2. Students will be given a maximum of 8 calendar weeks from the end of the enrolled semester to complete the course. It is expected that students have completed at least half of the course in order to qualify for an incomplete. 
-3. Students understand that access to instructor and TA assistance may be limited after the end of an academic semester due to holidays and other obligations.
-4. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
+1. Students may receive at most two incompletes in Computational Core courses throughout their time in the program
+2. Students will be given 6 calendar weeks from the end of the enrolled semester's finals week to complete the course
+3. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
   1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
-5. If a student fails to resolve an incomplete grade after 8 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
+4. Students understand that access to instructor and GTA assistance may be limited after the end of an academic semester due to holidays and other obligations
+5. If a student fails to resolve an incomplete grade after 6 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
 
 ### Recommended Texts & Supplies
 
 To participate in this course, students must have access to a modern web browser and broadband internet connection. All course materials will be provided via Canvas and Codio. Modules may also contain links to external resources for additional information, such as programming language documentation.
 
-Students will make use of [GitHub](https://github.com/) for source code management.
+Students will make use of [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/) for source code management.
 
-Students may choose to do some development work on their own computer. The recommended software is [Visual Studio Code](https://code.visualstudio.com/) along with access to a system running [Ubuntu](https://ubuntu.com/). For Windows systems, Ubuntu can be installed via the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install). For Mac systems, Ubuntu can be installed in a virtual machine through [VirtualBox](https://www.virtualbox.org/).
+Students may choose to do some development work on their own computer. The recommended software is [Visual Studio Code](https://code.visualstudio.com/) along with access to a system running [Ubuntu](https://ubuntu.com/). For Windows systems, Ubuntu can be installed via the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10). For Mac systems, Ubuntu can be installed in a virtual machine through [VirtualBox](https://www.virtualbox.org/).
 
 ### Subject to Change
 
