@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 2 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the week to announcements video for CC410 in fall 2025. So this week you should be wrapping up the first module which includes the Hello Real World project. I really like the Hello Real World project because I think it takes the classic Hello World project that you start with and really expands upon it in a way that makes it match more what you’d see in the real world with things like type checking and unit testing and all of these other things that we’re going to do in this class. So hopefully you’re getting that wrapped up and getting that committed and pushed to GitHub so that we can get that graded. As always, if you have any questions with that, let me know.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

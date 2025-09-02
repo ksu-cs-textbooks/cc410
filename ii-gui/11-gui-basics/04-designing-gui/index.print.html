@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -41,27 +40,27 @@ A common technique used when developing a GUI for a program is to simply sketch 
     <link href="/cc410/ii-gui/11-gui-basics/04-designing-gui/index.xml" rel="alternate" type="application/rss+xml" title="Designing a GUI :: CC 410 Textbook">
     <link href="/cc410/ii-gui/11-gui-basics/04-designing-gui/tele.html" rel="alternate" type="text/html" title="Designing a GUI :: CC 410 Textbook">
     <link href="/cc410/ii-gui/11-gui-basics/04-designing-gui/embed.html" rel="alternate" type="text/html" title="Designing a GUI :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1755708720" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1755708720" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search.min.js?1755708720" defer></script>
+    <link href="/cc410/images/favicon.ico?1756825300" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1756825300" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1755708720";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1756825300";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1755708720" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1756825300" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -120,14 +119,60 @@ A common technique used when developing a GUI for a program is to simply sketch 
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1756825300" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc410/ii-gui/11-gui-basics/04-designing-gui/index.html">
+  <body class="mobile-support print" data-url="/cc410/ii-gui/11-gui-basics/04-designing-gui/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#gui-sketching">GUI Sketching</a></li>
+    <li><a href="#gui-mockup">GUI Mockup</a>
+      <ul>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/ii-gui/index.html"><span itemprop="name">GUI</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/ii-gui/11-gui-basics/index.html"><span itemprop="name">GUI Basics</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Designing a GUI</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/master/content/ii-gui/11-gui-basics/04-designing-gui/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/11-gui-basics/04-designing-gui/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/11-gui-basics/03-frameworks/index.html" title="Frameworks (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/11-gui-basics/05-containers/index.html" title="Containers (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/11-gui-basics/04-designing-gui/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/11-gui-basics/04-designing-gui/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable ii-gui" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -143,8 +188,8 @@ A common technique used when developing a GUI for a program is to simply sketch 
 <p><a href="/cc410/ii-gui/11-gui-basics/04-designing-gui/video/index.html">Video Materials</a></p>
 <p>One of the first questions we may consider when adding a GUI to our programs: how do we go about designing a GUI in the first place? There are many ways to go about this, but one of the easiest and most accessible is also the simplest - pen and paper.</p>
 <h2 id="gui-sketching">GUI Sketching</h2>
-<p><a href="#R-image-3a4bc5dd34e8ce68ce92aa52c02bb2de" class="lightbox-link"><img alt="GUI Sketch" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/9/sketch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3a4bc5dd34e8ce68ce92aa52c02bb2de"><img alt="GUI Sketch" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/9/sketch.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-1f9b78191a443a5ca9e6f18ab063e1f2" class="lightbox-link"><img alt="GUI Sketch" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/9/sketch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f9b78191a443a5ca9e6f18ab063e1f2"><img alt="GUI Sketch" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/9/sketch.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>A common technique used when developing a GUI for a program is to simply sketch your design on paper. This allows you to quickly see how the overall program would look, and it can help you figure out how you&rsquo;d like to lay out your content and elements on the screen.</p>
 <p>Once you&rsquo;ve got a basic idea of what you&rsquo;d like your GUI to look like, there are a couple of next steps that you can follow to further refine your design:</p>
 <ol>
@@ -152,8 +197,8 @@ A common technique used when developing a GUI for a program is to simply sketch 
 <li>Review the layout of the program. Can it be easily divided into section, or perhaps rows and columns? Each GUI framework handles layouts a bit differently, but having a good idea about what you want the layout to look like, and which controls can be resized or moved as needed is a great thing to know.</li>
 </ol>
 <h2 id="gui-mockup">GUI Mockup</h2>
-<p><a href="#R-image-f8a953e70dca7092da8af40d2f301544" class="lightbox-link"><img alt="Mockup" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/9/mockup.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f8a953e70dca7092da8af40d2f301544"><img alt="Mockup" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/9/mockup.svg"></a></p>
+<p><a href="#R-image-dadcc57ac8311c0c5a5511ec7afb041d" class="lightbox-link"><img alt="Mockup" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/9/mockup.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dadcc57ac8311c0c5a5511ec7afb041d"><img alt="Mockup" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/9/mockup.svg"></a></p>
 <p>Another type of tool we can use to develop GUI prototypes is a simple drawing tool. Both Microsoft Visio (available through the <a href="https://support.cs.ksu.edu/CISDocs/wiki/FAQ#MSDNAA" rel="external" target="_blank">Azure Student Portal</a>) and the <a href="https://www.diagrams.net/" rel="external" target="_blank">Diagrams.net</a> drawing app are both well suited to develop GUI prototypes. In fact, they even include some items you can use to mimic what a real GUI would look like. The picture above was created using a few of the built-in mockup designs present in Diagrams.net</p>
 <p>Once we have a good idea for what our GUI should look like, we can start building it.</p>
 
@@ -193,13 +238,17 @@ A common technique used when developing a GUI for a program is to simply sketch 
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1755708720" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1755708720" defer></script>
-    <script src="/cc410/js/theme.min.js?1755708720" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1755708720" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1756825300" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1756825300" defer></script>
+    <script src="/cc410/js/theme.min.js?1756825300" defer></script>
   </body>
 </html>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -30,27 +29,27 @@
     <link href="/cc410/i-oop/09-design-patterns/index.xml" rel="alternate" type="application/rss+xml" title="Design Patterns :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/tele.html" rel="alternate" type="text/html" title="Design Patterns :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/embed.html" rel="alternate" type="text/html" title="Design Patterns :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1755708720" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1755708720" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search.min.js?1755708720" defer></script>
+    <link href="/cc410/images/favicon.ico?1756825300" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1756825300" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1755708720";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1756825300";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1755708720" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1756825300" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -109,14 +108,50 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1756825300" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc410/i-oop/09-design-patterns/index.html">
+  <body class="mobile-support print" data-url="/cc410/i-oop/09-design-patterns/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/index.html"><span itemprop="name">OOP</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Design Patterns</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/master/content/i-oop/09-design-patterns/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/09-design-patterns/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/08-lambdas/07-summary/index.html" title="Summary (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/09-design-patterns/01-introduction/index.html" title="Introduction (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/09-design-patterns/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/09-design-patterns/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable i-oop" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -178,8 +213,8 @@
 <a href="https://www.youtube.com/watch?v=DX4RqiA871I">YouTube Video</a>
 
 <p><a href="/cc410/i-oop/09-design-patterns/02-gang-of-four/video/index.html">Video Materials</a></p>
-<p><a href="#R-image-b07410194342d2e6f1d8fcbb64173ad3" class="lightbox-link"><img alt="Design Patterns Cover" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/design_patterns.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b07410194342d2e6f1d8fcbb64173ad3"><img alt="Design Patterns Cover" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/design_patterns.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-9c4eedb8982f9bc68b2eea2709b0819e" class="lightbox-link"><img alt="Design Patterns Cover" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/design_patterns.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9c4eedb8982f9bc68b2eea2709b0819e"><img alt="Design Patterns Cover" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/design_patterns.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>While the first discussions of patterns in software architecture occurred much earlier, the concept was popularized in 1994 with the publication of <a href="https://en.wikipedia.org/wiki/Design_Patterns" rel="external" target="_blank"><em>Design Patterns: Elements of Reusable Object-Oriented Software</em></a> by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Collectively, the four authors of this book have been referred to as the &ldquo;Gang of Four&rdquo; or &ldquo;GoF&rdquo; within the software development community, so it is common to see references to that name when discussing the particular software design patterns discussed in the book.</p>
 <p>In their book, the authors give their thoughts on how to build software following the object-oriented programming paradigm. This includes focusing on the use of interfaces to design how classes should appear to function to an outside observer, while leaving the actual implementation details hidden within the class. Likewise, they favor the use of object composition over inheritance - instead of inheriting functionality from another class, simply store an internal instance of that class and use the public methods it contains.</p>
 <p>The entire first chapter of the book is a really great look at one way to view object-oriented programming, and many of the items discussed by the authors have been implemented by software developers as standard practice. In fact, it is still one of the best selling books on software architecture and design, even decades after its release!</p>
@@ -270,8 +305,8 @@
 
 <p><a href="/cc410/i-oop/09-design-patterns/04-builder/video/index.html">Video Materials</a></p>
 <p>The first pattern we&rsquo;ll look at is the <strong>builder pattern.</strong> The <a href="https://en.wikipedia.org/wiki/Builder_pattern" rel="external" target="_blank">builder pattern</a> is used to simplify building complex objects,  where the class that needs the object shouldn&rsquo;t have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.</p>
-<p><a href="#R-image-fd6337028d0d9d517ec97345e27f93d1" class="lightbox-link"><img alt="Builder Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/builder.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fd6337028d0d9d517ec97345e27f93d1"><img alt="Builder Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/builder.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-788e58e0325013765207a1ce6e700b1c" class="lightbox-link"><img alt="Builder Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/builder.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-788e58e0325013765207a1ce6e700b1c"><img alt="Builder Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/builder.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram above gives one possible structure for the builder pattern. It includes a <code>Builder</code> interface that other objects can reference, and <code>Builder1</code> is a class that implements that interface. There could be multiple builders, one for each type of object. The <code>Builder1</code> class contains all of the code needed to properly construct the <code>ComplexObject</code> class, consisting of <code>ProductA1</code> and <code>ProductB1</code>. If a different <code>ComplexObject</code> must be created, we can create another class <code>Builder2</code> that also implements the <code>Builder</code> interface. To the <code>Director</code> class, both <code>Builder1</code> and <code>Builder2</code> implement the same interface, so they can be treated as the same type of object.</p>
 <h2 id="example-deck-of-cards">Example: Deck of Cards</h2>
 <p>A great example of this would be creating a deck of cards for various card games. There are actually many different types of card decks, depending on the game that is being played:</p>
@@ -292,20 +327,20 @@
 <li><code>NumberOrName</code> - the number or name of the card</li>
 <li><code>Rank</code> - the sorting rank of the card (lowest = 1).</li>
 </ul>
-<div class="tab-panel" data-tab-group="8a4ccc4e512989bc7a6f48308eb56995">
+<div class="tab-panel" data-tab-group="a9db861a67e9413816901008371511ce">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('8a4ccc4e512989bc7a6f48308eb56995','java')"
+      onclick="switchTab('a9db861a67e9413816901008371511ce','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('8a4ccc4e512989bc7a6f48308eb56995','python')"
+      onclick="switchTab('a9db861a67e9413816901008371511ce','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -344,20 +379,20 @@
 <h3 id="the-deck-class">The Deck Class</h3>
 <p>The <code>Deck</code> class will only consist of an aggregation, or list, of the cards contained in the deck. So, our builder class will return an instance of the <code>Deck</code> object, which contains all of the cards in the deck.</p>
 <p>The <code>Deck</code> class could also include generic methods to shuffle, draw, discard, and deal cards. These would work with just about any of the games listed above, regardless of the details of the deck itself.</p>
-<div class="tab-panel" data-tab-group="733e4ee7d258b0e6f8768deddf1cb480">
+<div class="tab-panel" data-tab-group="b83ead1b74ca34dd71771a153d907137">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('733e4ee7d258b0e6f8768deddf1cb480','java')"
+      onclick="switchTab('b83ead1b74ca34dd71771a153d907137','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('733e4ee7d258b0e6f8768deddf1cb480','python')"
+      onclick="switchTab('b83ead1b74ca34dd71771a153d907137','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -407,20 +442,20 @@
 <p>Our <code>DeckBuilder</code> interface will be very simple, consisting of a single method: <code>buildDeck()</code>. The type of the class that implements the <code>DeckBuilder</code> interface will determine which type of deck is created. If the decks created by the builder have additional options, we can add additional methods to our <code>DeckBuilder</code> interface to handle those situations.</p>
 <h3 id="the-builder-classes">The Builder Classes</h3>
 <p>Finally, we can create our builder classes themselves. These classes will handle actually building the different decks required for each game. First, let&rsquo;s build a standard 52 card deck.</p>
-<div class="tab-panel" data-tab-group="72ed50df7e94e36713c06c5e3c477a3b">
+<div class="tab-panel" data-tab-group="872f1b8d88bc59dc7941c476310be197">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('72ed50df7e94e36713c06c5e3c477a3b','java')"
+      onclick="switchTab('872f1b8d88bc59dc7941c476310be197','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('72ed50df7e94e36713c06c5e3c477a3b','python')"
+      onclick="switchTab('872f1b8d88bc59dc7941c476310be197','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -487,20 +522,20 @@
 <p>As we can see, the heavy lifting of actually building the deck is offloaded to the builder class. We can easily use this same framework to create additional <code>Builder</code> classes for the other types of decks listed above.</p>
 <h3 id="using-the-builder">Using the Builder</h3>
 <p>Finally, once we&rsquo;ve created all of the builders that we&rsquo;ll need, we can use them directly in our code anywhere we need them:</p>
-<div class="tab-panel" data-tab-group="d2f9400d9f9e01b340f5548fd0befb89">
+<div class="tab-panel" data-tab-group="54013f5adb02b111242975a1364bc005">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('d2f9400d9f9e01b340f5548fd0befb89','java')"
+      onclick="switchTab('54013f5adb02b111242975a1364bc005','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('d2f9400d9f9e01b340f5548fd0befb89','python')"
+      onclick="switchTab('54013f5adb02b111242975a1364bc005','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -560,26 +595,26 @@
 <h1 id="factory-method-pattern">Factory Method Pattern</h1>
 
 <p>The next pattern we&rsquo;ll explore is the <strong>factory method pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Factory_method_pattern" rel="external" target="_blank">factory method pattern</a> is used to allow us to construct an object of a desired type without actually having to specify that type explicitly in our code. Instead, we just provide the factory with an input specifying the type of object we need, and it will return an instance of that type. By making use of the factory method pattern, classes that require access to these object don&rsquo;t need to be updated any time an underlying object type is modified. Instead, they can simply reference the parent or interface data types, and the factory handles creating and returning objects of the correct type whenever needed.</p>
-<p><a href="#R-image-1715c8743b8b574c84df710d5bdf9618" class="lightbox-link"><img alt="factory method pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/factory.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1715c8743b8b574c84df710d5bdf9618"><img alt="factory method pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/factory.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-05756e3f4e59c6a57899b1265ac276b2" class="lightbox-link"><img alt="factory method pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/factory.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-05756e3f4e59c6a57899b1265ac276b2"><img alt="factory method pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/factory.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>As we can see in the UML diagram for this pattern, it looks very similar to the builder pattern we saw previously. There is a <code>Creator</code> interface, which defines the interface that each factory uses. Then, the concrete <code>Creator1</code> class is actually used to create the class required.</p>
 <p>Let&rsquo;s continue our deck of cards example from the previous page to include the factory method pattern.</p>
 <h3 id="decks-enum">Decks Enum</h3>
 <p>To simplify this process, we&rsquo;ll create a quick enumeration of the possible decks available in our system. This makes it easy to expand later and include more decks of cards.</p>
-<div class="tab-panel" data-tab-group="af97563eff3b4318cd67c03afb61a23f">
+<div class="tab-panel" data-tab-group="34e056013ccb860744e722954145367b">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('af97563eff3b4318cd67c03afb61a23f','java')"
+      onclick="switchTab('34e056013ccb860744e722954145367b','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('af97563eff3b4318cd67c03afb61a23f','python')"
+      onclick="switchTab('34e056013ccb860744e722954145367b','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -621,20 +656,20 @@
 </div>
 <h3 id="factory-class">Factory Class</h3>
 <p>Next, we&rsquo;ll define a simple factory class, which is able to build each type of card deck. We&rsquo;ll leave out the parent interface for now, since this project will only ever have a single factory object available.</p>
-<div class="tab-panel" data-tab-group="3a2cd502f4614be7b49ddfece7028b1d">
+<div class="tab-panel" data-tab-group="69ca5f40afaea0eadc0e3e8d3dadb93d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('3a2cd502f4614be7b49ddfece7028b1d','java')"
+      onclick="switchTab('69ca5f40afaea0eadc0e3e8d3dadb93d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('3a2cd502f4614be7b49ddfece7028b1d','python')"
+      onclick="switchTab('69ca5f40afaea0eadc0e3e8d3dadb93d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -699,20 +734,20 @@
 </div>
 <h3 id="using-the-factory">Using the Factory</h3>
 <p>Now that we&rsquo;ve created our factory class, we can update our main method to use it instead. In this case, we&rsquo;ll get the type of deck to be used directly from the user as input:</p>
-<div class="tab-panel" data-tab-group="9b15b24312c4d32a870a0a1fcde18cdd">
+<div class="tab-panel" data-tab-group="ac7c19cd612d90db825681f33b2334de">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9b15b24312c4d32a870a0a1fcde18cdd','java')"
+      onclick="switchTab('ac7c19cd612d90db825681f33b2334de','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9b15b24312c4d32a870a0a1fcde18cdd','python')"
+      onclick="switchTab('ac7c19cd612d90db825681f33b2334de','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -756,20 +791,20 @@
 <p>However, if we have a valid option, we can convert it to the correct enum value, and then pass that as an argument to the <code>getDeck()</code> method of our <code>DeckFactory</code> class. The factory will look at the parameter, construct the correct deck using the appropriate builder class, and then return it back to our application. Pretty handy!</p>
 <h2 id="practical-example-database-connections">Practical Example: Database Connections</h2>
 <p>One of the most common places the factory method pattern appears is in the construction of database connections. In theory, we&rsquo;d like any of our applications to be able to use different types of databases, so many database connection libraries use the factory method pattern to create a database connection. Here&rsquo;s what that might look like - this code will not actually work, but is representative of what it looks like in practice:</p>
-<div class="tab-panel" data-tab-group="1524e27463d83df06ffdc3209e9a00ea">
+<div class="tab-panel" data-tab-group="7a0932646059a7b862906f66d62cb2ff">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1524e27463d83df06ffdc3209e9a00ea','java')"
+      onclick="switchTab('7a0932646059a7b862906f66d62cb2ff','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1524e27463d83df06ffdc3209e9a00ea','python')"
+      onclick="switchTab('7a0932646059a7b862906f66d62cb2ff','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -840,26 +875,26 @@
 <h1 id="singleton-pattern">Singleton Pattern</h1>
 
 <p>Finally, let&rsquo;s look at one other common creational pattern: the <strong>singleton pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Singleton_pattern" rel="external" target="_blank">singleton pattern</a> is a simple pattern that allows a program to enforce the limitation that there is only a single instance of a class in use within the entire program. So, when another class needs an instance of this class, instead of instantiating a new one, it will simply get a <strong>reference</strong> to the single existing object. This allows the entire program to share a single instance of an object, and that instance can be used to coordinate actions across the entire system.</p>
-<p><a href="#R-image-254f108e0c37ae40833bd169e943d8b5" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-254f108e0c37ae40833bd169e943d8b5"><img alt="Singleton UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-c3a578775a86c216c3cc07548f854702" class="lightbox-link"><img alt="Singleton UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/singleton.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c3a578775a86c216c3cc07548f854702"><img alt="Singleton UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/singleton.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram for the singleton pattern is super simple. The class implementing the singleton pattern simply defines a private constructor, making sure that no other class can construct it. Instead, it stores a static reference to a single instance of itself, and includes a <code>get</code> method to access that single instance.</p>
 <p>Let&rsquo;s look at how this could work in our ongoing example.</p>
 <h3 id="singleton-factory">Singleton Factory</h3>
 <p>Let&rsquo;s update our <code>DeckFactory</code> class to use the singleton pattern.</p>
-<div class="tab-panel" data-tab-group="34caddd31e3356842b8ebe512ca3fe39">
+<div class="tab-panel" data-tab-group="043b29d06a7dd4ef2450ac7f2ebbfb36">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('34caddd31e3356842b8ebe512ca3fe39','java')"
+      onclick="switchTab('043b29d06a7dd4ef2450ac7f2ebbfb36','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('34caddd31e3356842b8ebe512ca3fe39','python')"
+      onclick="switchTab('043b29d06a7dd4ef2450ac7f2ebbfb36','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -939,20 +974,20 @@
 </div>
 <h3 id="using-a-singleton">Using a Singleton</h3>
 <p>Now we can update our main method code to use our singleton <code>DeckFactory</code> instance instead of creating one when it is needed:</p>
-<div class="tab-panel" data-tab-group="62b6d585576521e244b5657ecbf0df87">
+<div class="tab-panel" data-tab-group="552f1c6f7a35efe52937cae5a3736e33">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('62b6d585576521e244b5657ecbf0df87','java')"
+      onclick="switchTab('552f1c6f7a35efe52937cae5a3736e33','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('62b6d585576521e244b5657ecbf0df87','python')"
+      onclick="switchTab('552f1c6f7a35efe52937cae5a3736e33','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1021,25 +1056,25 @@
 <p>Let&rsquo;s review three other commonly used software design patterns. These are either patterns that we&rsquo;ve seen before, or ones that we might end up using soon in our code.</p>
 <h2 id="iterator-pattern">Iterator Pattern</h2>
 <p>The first pattern is the <strong>iterator pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Iterator_pattern" rel="external" target="_blank">iterator pattern</a> is a behavioral pattern that is used to traverse through a collection of objects stored in a container. We explored this pattern in several of the data structures introduced in earlier data structures courses such as CC 310 and CC 315, as well as CIS 300.</p>
-<p><a href="#R-image-e56da123747c2fe3b06e74f097e6e33d" class="lightbox-link"><img alt="Iterator Pattern Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/iterator.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e56da123747c2fe3b06e74f097e6e33d"><img alt="Iterator Pattern Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/iterator.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-ee1eeff7d04ad9b59369c57a9262c230" class="lightbox-link"><img alt="Iterator Pattern Diagram" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/iterator.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ee1eeff7d04ad9b59369c57a9262c230"><img alt="Iterator Pattern Diagram" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/iterator.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In it&rsquo;s simplest form, the iterator pattern simply includes a <code>hasNext()</code> and <code>next()</code> method, though many implementations may also include a way to reset the iterator back to the beginning of the collection.</p>
 <p>Classes that use the iterator can use the <code>hasNext()</code> method to determine if there are additional elements in the collection, and then the <code>next()</code> method is used to actually access that element.</p>
 <p>In the examples below, we&rsquo;ll rely on the built-in collection classes in Java and Python to provide their own iterators, but if we must write our own collection class that doesn&rsquo;t use the built-in ones, we can easily develop our own iterators using documentation found online.</p>
-<div class="tab-panel" data-tab-group="e6a210aa592549d3d8242630a9ca23b6">
+<div class="tab-panel" data-tab-group="69d0007271617204763f459404f84538">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('e6a210aa592549d3d8242630a9ca23b6','java')"
+      onclick="switchTab('69d0007271617204763f459404f84538','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e6a210aa592549d3d8242630a9ca23b6','python')"
+      onclick="switchTab('69d0007271617204763f459404f84538','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1153,8 +1188,8 @@
 
 <p><a href="/cc410/i-oop/09-design-patterns/08-adapter/video/index.html">Video Materials</a></p>
 <p>Another pattern is the <strong>adapter pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Software_design_pattern" rel="external" target="_blank">adapter pattern</a> is a structural pattern that is used to make an existing interface fit within a different interface. Just like we might use an adapter when traveling abroad to allow our appliances to plug in to different electrical outlets around the world, the adapter pattern lets us use one interface in place of another, similar interface.</p>
-<p><a href="#R-image-3166d27a6d96c26355e57906e4d70c01" class="lightbox-link"><img alt="Adapter Pattern" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/adapter.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3166d27a6d96c26355e57906e4d70c01"><img alt="Adapter Pattern" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/adapter.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-8ddd4010bd80f5d27dce24ddef6282e3" class="lightbox-link"><img alt="Adapter Pattern" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/adapter.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8ddd4010bd80f5d27dce24ddef6282e3"><img alt="Adapter Pattern" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/adapter.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In the UML diagram above, we see two different approaches to using the adapter pattern. First, we see the <strong>object adapter</strong>, which simply stores an instance of the object to be adapted, and then translates the incoming method calls (or messages) to match the appropriate ones available in the object it is adapting.</p>
 <p>The other approach is the <strong>class adapter</strong>, which typically works by subclassing or inheriting the class to be adapted, if possible. Then, our code can call the operations on the adapter class, which can then call the appropriate methods in its parent class as needed.</p>
 <p>Let&rsquo;s look at a quick example to see how we can use the adapter pattern in our code.</p>
@@ -1163,20 +1198,20 @@
 <p>To make it simple, we&rsquo;ll assume that our <code>Pet</code> class includes attributes <code>weight</code>, measured in kilograms, as well as <code>age</code>, measured in years. Each of those attributes includes getters and setters in the <code>Pet</code> class.</p>
 <h4 id="object-adapter">Object Adapter</h4>
 <p>First, let&rsquo;s look at the adapter pattern using the <strong>object adapter</strong> approach. In this case, our adapter will store an instance of the <code>Pet</code> class as an object, and then use its methods to access methods within the encapsulated object.</p>
-<div class="tab-panel" data-tab-group="e763abcb746f1036074ad6eb8114c9ef">
+<div class="tab-panel" data-tab-group="41d012fe8b36c3b24ca37610b496d47b">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('e763abcb746f1036074ad6eb8114c9ef','java')"
+      onclick="switchTab('41d012fe8b36c3b24ca37610b496d47b','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e763abcb746f1036074ad6eb8114c9ef','python')"
+      onclick="switchTab('41d012fe8b36c3b24ca37610b496d47b','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1254,20 +1289,20 @@
 <p>As we can see, we can easily write methods in our <code>PetAdapter</code> class that perform the conversions needed and call the appropriate methods in the <code>Pet</code> object contained in the class.</p>
 <h4 id="class-adapter">Class Adapter</h4>
 <p>The other approach we can use is the <strong>class adapter</strong> approach. Here, we&rsquo;ll inherit from the <code>Pet</code> class itself, and implement any updated methods.</p>
-<div class="tab-panel" data-tab-group="3b3a18eceff28c8f8c84723487cae21a">
+<div class="tab-panel" data-tab-group="feff0935f6e02c1d93c9abeff074ca6d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('3b3a18eceff28c8f8c84723487cae21a','java')"
+      onclick="switchTab('feff0935f6e02c1d93c9abeff074ca6d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('3b3a18eceff28c8f8c84723487cae21a','python')"
+      onclick="switchTab('feff0935f6e02c1d93c9abeff074ca6d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1347,8 +1382,8 @@
 
 <p>The last pattern we&rsquo;ll review in this course is the <strong>template method pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Template_method_pattern" rel="external" target="_blank">template method pattern</a> is a pattern that is used to define the outline or skeleton of a method in an abstract parent class, while leaving the actual details of the implementation to the subclasses that inherit from the parent class. In this way, the parent class can enforce a particular structure or ordering of the steps performed in the method, making sure that any subclass will behave similarly.</p>
 <p>In this way, we avoid the problem of the subclass having to include large portions of the code from a method in the parent class when it only needs to change one aspect of the method. If that method is structured as a template method, then the subclass can just override the smaller portion that it needs to change.</p>
-<p><a href="#R-image-c76bbac517e89f6dace335bf7971a20d" class="lightbox-link"><img alt="Template Method Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/template.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c76bbac517e89f6dace335bf7971a20d"><img alt="Template Method Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/template.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-edc1dfb3c0785f2cb8072541a339d77c" class="lightbox-link"><img alt="Template Method Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/template.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-edc1dfb3c0785f2cb8072541a339d77c"><img alt="Template Method Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/template.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In the UML diagram above, we see that the parent class contains a method called <code>templateMethod()</code>, which will in part call <code>primitive1()</code> and <code>primitive2()</code> as part of its code. In the subclass, the code for the two <code>primative</code> methods can be overridden, changing how parts of the <code>templateMethod()</code> works, but not the fact that <code>primitive1()</code> will be called before <code>primitive2()</code> within the <code>templateMethod()</code>.</p>
 <h3 id="example">Example</h3>
 <p>Let&rsquo;s look at a quick example. For this, we&rsquo;ll go back to our prior example involving decks of cards. The process of preparing for most games is the same, and follows these three steps:</p>
@@ -1358,20 +1393,20 @@
 <li>Deal the cards to the players.</li>
 </ol>
 <p>Then, each individual game can modify that process a bit based on the rules of the game. So, let&rsquo;s see what that might look like in code.</p>
-<div class="tab-panel" data-tab-group="c2165bd36c88ae0bdde96d2083c70214">
+<div class="tab-panel" data-tab-group="60e1ca50be60f6553d0d1b70dc773fc0">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c2165bd36c88ae0bdde96d2083c70214','java')"
+      onclick="switchTab('60e1ca50be60f6553d0d1b70dc773fc0','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c2165bd36c88ae0bdde96d2083c70214','python')"
+      onclick="switchTab('60e1ca50be60f6553d0d1b70dc773fc0','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1443,20 +1478,20 @@
 </div>
 <p>First, we create the abstract <code>CardGame</code> class that includes the template method <code>prepareGame()</code>. It calls three abstract methods, <code>getDeck()</code>, <code>prepareDeck()</code>, and <code>dealCards()</code>, which need to be overridden by the subclasses.</p>
 <p>Next, let&rsquo;s explore what this subclass might look like for the game <a href="https://en.wikipedia.org/wiki/Hearts_(card_game)" rel="external" target="_blank">Hearts</a>. That game consists of 4 players, uses a standard 52 card deck, and deals 13 cards to each player.</p>
-<div class="tab-panel" data-tab-group="1e362bf9389885f764fd7504576766be">
+<div class="tab-panel" data-tab-group="cf7483eaf5d2ef64633fcc108db0bfd2">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1e362bf9389885f764fd7504576766be','java')"
+      onclick="switchTab('cf7483eaf5d2ef64633fcc108db0bfd2','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1e362bf9389885f764fd7504576766be','python')"
+      onclick="switchTab('cf7483eaf5d2ef64633fcc108db0bfd2','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1752,13 +1787,17 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdo
           </section>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1755708720" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1755708720" defer></script>
-    <script src="/cc410/js/theme.min.js?1755708720" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1755708720" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1756825300" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1756825300" defer></script>
+    <script src="/cc410/js/theme.min.js?1756825300" defer></script>
   </body>
 </html>

@@ -856,6 +856,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/13-event-driven-programming/04-event-handlers/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week to announcements video for CC410 in fall 2025. So this week you should be wrapping up the first module which includes the Hello Real World project. I really like the Hello Real World project because I think it takes the classic Hello World project that you start with and really expands upon it in a way that makes it match more what you’d see in the real world with things like type checking and unit testing and all of these other things that we’re going to do in this class. So hopefully you’re getting that wrapped up and getting that committed and pushed to GitHub so that we can get that graded. As always, if you have any questions with that, let me know.",
+    "modified": "2025-09-02T10:00:10-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 2",
+    "uri": "/cc410/x-weekly-updates/week02/index.html"
+  },
+  {
     "breadcrumb": "GUI \u003e External Libraries",
     "description": "One question that comes up frequently when discussing software libraries is the difference between a library and a framework, as many times the terms are used interchangeably. So, let’s briefly explore the difference between the two and how they interact with each other.\n1\nSoftware Library As discussed on the previous page, a library is a reusable software component that has an API that we can make use of in our code. So, our code will call methods in the API to perform the desired actions, and we’ll typically import the library’s code into our own code files.",
     "modified": "2022-02-09T09:32:57-06:00",

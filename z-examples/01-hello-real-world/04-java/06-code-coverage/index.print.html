@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -34,27 +35,27 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
     <link href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.xml" rel="alternate" type="application/rss+xml" title="Code Coverage :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/tele.html" rel="alternate" type="text/html" title="Code Coverage :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/embed.html" rel="alternate" type="text/html" title="Code Coverage :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1755708720" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1755708720" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search.min.js?1755708720" defer></script>
+    <link href="/cc410/images/favicon.ico?1756825300" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1756825300" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1755708720";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1756825300";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1755708720" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1756825300" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,59 +114,14 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1756825300" rel="stylesheet">
   </head>
-  <body class="mobile-support print" data-url="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html">
+  <body class="mobile-support embed print" data-url="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents">
-  <ul>
-    <li><a href="#install-jacoco-in-gradle">Install JaCoCo in Gradle</a></li>
-    <li><a href="#compute-code-coverage-with-jacoco">Compute Code Coverage with JaCoCo</a></li>
-    <li><a href="#more-complex-code">More Complex Code</a></li>
-    <li><a href="#update-unit-tests">Update Unit Tests</a></li>
-    <li><a href="#git-commit-and-push">Git Commit and Push</a></li>
-  </ul>
-</nav>
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/index.html"><span itemprop="name">Hello Real World</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/04-java/index.html"><span itemprop="name">Java</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Code Coverage</span><meta itemprop="position" content="5"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/master/content/z-examples/01-hello-real-world/04-java/06-code-coverage.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html" title="Unit Tests (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/07-documentation/index.html" title="Documentation (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
-            </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      
+      
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -212,14 +168,14 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
 <p>Now that we&rsquo;ve installed and configured the JaCoCo plugin, let&rsquo;s use Gradle to run our tests again and see what happens. So, from within the <code>java</code> folder, we can run the following command:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gradle test</span></span></code></pre></div>
 <p>Once we do that, Gradle will install everything it needs to use JaCoCo, and in the <code>app/build/reports</code> folder, we should see a new folder called <code>jacoco</code> appear:</p>
-<p><a href="#R-image-5b077f3caf130a33e29a5cda1c56287f" class="lightbox-link"><img alt="JaCoCo Folder" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/16jacoco.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b077f3caf130a33e29a5cda1c56287f"><img alt="JaCoCo Folder" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/16jacoco.png"></a></p>
+<p><a href="#R-image-60fa5120cb59b2b6911cb64e2697883d" class="lightbox-link"><img alt="JaCoCo Folder" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/16jacoco.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-60fa5120cb59b2b6911cb64e2697883d"><img alt="JaCoCo Folder" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/16jacoco.png"></a></p>
 <p>Inside of that folder is another <code>index.html</code> file. So, let&rsquo;s <strong>right-click</strong> it and select <strong>Preview Static</strong> to open it as a webpage. Hopefully we should see something like this:</p>
-<p><a href="#R-image-dac3d33e7d75ac7ff445012188045486" class="lightbox-link"><img alt="JaCoCo Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/16jacocoreport.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dac3d33e7d75ac7ff445012188045486"><img alt="JaCoCo Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/16jacocoreport.png"></a></p>
+<p><a href="#R-image-2c9a128478a7ece17f769424b719a120" class="lightbox-link"><img alt="JaCoCo Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/16jacocoreport.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c9a128478a7ece17f769424b719a120"><img alt="JaCoCo Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/16jacocoreport.png"></a></p>
 <p>That tells us that we achieved 100% code coverage with our tests! That&rsquo;s the goal, though it was pretty easy to achieve when our application really only contains one line of code. By clicking the links on the page, we can even see which lines are tested by our program, as shown below:</p>
-<p><a href="#R-image-8e37b58bb1cdb672b91ef38d5e763e8f" class="lightbox-link"><img alt="JaCoCo Highlight" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/16jacocohighlight.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-8e37b58bb1cdb672b91ef38d5e763e8f"><img alt="JaCoCo Highlight" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/16jacocohighlight.png"></a></p>
+<p><a href="#R-image-1b20fa7e91623857a8c3d02788d5c946" class="lightbox-link"><img alt="JaCoCo Highlight" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/16jacocohighlight.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1b20fa7e91623857a8c3d02788d5c946"><img alt="JaCoCo Highlight" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/16jacocohighlight.png"></a></p>
 <h2 id="more-complex-code">More Complex Code</h2>
 <p>Let&rsquo;s modify our application a bit and see how we can use JaCoCo to make sure we are really testing everything our application can do. In the <code>HelloWorld.java</code> file, found in <code>app/src/main/java/hello</code>, replace the existing code with this code:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">package</span> hello;
@@ -242,11 +198,11 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
 <p>This program will now print &ldquo;Hello World&rdquo; if executed without any command line arguments, but if one is provided it will use that argument in the message instead. So, let&rsquo;s run our program again using this command from within the <code>java</code> folder:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gradle test</span></span></code></pre></div>
 <p>Once the tests have finished, we can open the JaCoCo report stored in <code>app/build/reports/jacoco/index.html</code> and we should find that it no longer achieves 100% coverage:</p>
-<p><a href="#R-image-9fff24fa99ebd35eb41315b91ecb8411" class="lightbox-link"><img alt="JaCoCo Not Full Coverage" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/17coverage.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9fff24fa99ebd35eb41315b91ecb8411"><img alt="JaCoCo Not Full Coverage" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/17coverage.png"></a></p>
+<p><a href="#R-image-f70011966bac7abdf9267db3901a96b5" class="lightbox-link"><img alt="JaCoCo Not Full Coverage" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/17coverage.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f70011966bac7abdf9267db3901a96b5"><img alt="JaCoCo Not Full Coverage" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/17coverage.png"></a></p>
 <p>If we drill down deeper, we can find the lines of code that aren&rsquo;t covered by our tests:</p>
-<p><a href="#R-image-96752755edac6aeffddbac5a26ac7136" class="lightbox-link"><img alt="JaCoCo Missing Lines" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/17highlight.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-96752755edac6aeffddbac5a26ac7136"><img alt="JaCoCo Missing Lines" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/17highlight.png"></a></p>
+<p><a href="#R-image-238bf3a7cfc848aa8dc77378e801e02f" class="lightbox-link"><img alt="JaCoCo Missing Lines" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/17highlight.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-238bf3a7cfc848aa8dc77378e801e02f"><img alt="JaCoCo Missing Lines" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/17highlight.png"></a></p>
 <p>As we expected, our single unit test is not able to test each and every line of code in our application. That&rsquo;s not good! So, we&rsquo;ll need to update our tests to account for the change in our code.</p>
 
 <details open class=" box cstyle notices note">
@@ -280,8 +236,8 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
 <p>Once again, let&rsquo;s rerun our tests using this command:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gradle test</span></span></code></pre></div>
 <p>Once that is done, we can open the JaCoCo report and see if we are back to 100% coverage:</p>
-<p><a href="#R-image-33c0b0fef38e9adba005d74340d862b1" class="lightbox-link"><img alt="JaCoCo Fixed Coverage" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/17fixed.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-33c0b0fef38e9adba005d74340d862b1"><img alt="JaCoCo Fixed Coverage" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/17fixed.png"></a></p>
+<p><a href="#R-image-50bef2cba9a999f72455d1e885fb36f2" class="lightbox-link"><img alt="JaCoCo Fixed Coverage" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/17fixed.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-50bef2cba9a999f72455d1e885fb36f2"><img alt="JaCoCo Fixed Coverage" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/17fixed.png"></a></p>
 <p>If everything is working correctly, we should see that we are back at 100% coverage, and each line of code in our program is tested.</p>
 <p>Of course, achieving 100% code coverage does not mean that you&rsquo;ve completely tested everything that your application could possibly do - it simply means that you are <em>at least</em> testing every line of code at least once. It&rsquo;s a great baseline to start with!</p>
 <h2 id="git-commit-and-push">Git Commit and Push</h2>
@@ -302,17 +258,13 @@ Install JaCoCo in Gradle Thankfully, there are many easy to use tools that will 
 </article>
         </div>
       </main>
-<div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
-<p>Last modified by:
-              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
-</p>
-
-</div>
+      
+      
+      
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1755708720" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1755708720" defer></script>
-    <script src="/cc410/js/theme.min.js?1755708720" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1756825300" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1756825300" defer></script>
+    <script src="/cc410/js/theme.min.js?1756825300" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1756825300" defer></script>
   </body>
 </html>

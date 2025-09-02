@@ -37,27 +37,27 @@ Race Condition A race condition occurs when two threads in a program are trying 
     <link href="/cc410/ii-gui/12-parallelism/05-race-conditions/index.xml" rel="alternate" type="application/rss+xml" title="Race Conditions :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/05-race-conditions/index.print.html" rel="alternate" type="text/html" title="Race Conditions :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/05-race-conditions/embed.html" rel="alternate" type="text/html" title="Race Conditions :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1755708720" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1755708720" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search.min.js?1755708720" defer></script>
+    <link href="/cc410/images/favicon.ico?1756825300" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1756825300" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1755708720";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1756825300";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1755708720" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1756825300" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -116,7 +116,7 @@ Race Condition A race condition occurs when two threads in a program are trying 
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1756825300" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/ii-gui/12-parallelism/05-race-conditions/index.html">
     
@@ -148,17 +148,17 @@ Race Condition A race condition occurs when two threads in a program are trying 
 </span></span><span style="display:flex;"><span>data<span style="color:#f92672">.</span>x <span style="color:#f92672">=</span> y <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span></span></span></code></pre></div>
 <p>Here, we have some <code>data</code> object stored in memory, which includes an attribute of <code>x</code>. Notice that we are not just adding 1 to the value of <code>x</code> and immediately updating it. Instead, we read the value of <code>x</code> into <code>y</code>, then use <code>y</code> to increase the value of <code>x</code> by 1. This is a very arbitrary example, but it is reflective of code that we might actually use in our applications. For example, we might read the <code>x</code> coordinate position of a sprite in a video game, perform some calculation on that position, and then update the position. It follows a pattern very similar to this.</p>
 <p>So, if we run this code in two separate threads, one way the program could execute is shown below:</p>
-<p><a href="#R-image-fb633aa764d0a22f8c72f077e2436c53" class="lightbox-link"><img alt="No Race Condition Threading" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread_norace.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fb633aa764d0a22f8c72f077e2436c53"><img alt="No Race Condition Threading" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread_norace.svg"></a></p>
+<p><a href="#R-image-89b66c769ed23c899d767675bdd53e6b" class="lightbox-link"><img alt="No Race Condition Threading" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread_norace.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-89b66c769ed23c899d767675bdd53e6b"><img alt="No Race Condition Threading" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread_norace.svg"></a></p>
 <p>In this case, both pieces of code work like we expect. The spawned thread goes first, and reads the value 0 from <code>data.x</code>. Then, it computes the new value 1 and stores that back in <code>data.x</code>. After that, the main thread is scheduled on the other processor, and it reads 1 from <code>data.x</code>, computers the new value 2, and stores it back in place. So far, so good, right?</p>
 <p>What if the threads get interrupted during the computation? In that case, the program could instead execute like this:</p>
-<p><a href="#R-image-23492b4bbd7300a5f462c19d5b28558a" class="lightbox-link"><img alt="Race Condition" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread_race.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-23492b4bbd7300a5f462c19d5b28558a"><img alt="Race Condition" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread_race.svg"></a></p>
+<p><a href="#R-image-9b700c64c717d67b73c5e104fec2b18a" class="lightbox-link"><img alt="Race Condition" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread_race.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9b700c64c717d67b73c5e104fec2b18a"><img alt="Race Condition" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread_race.svg"></a></p>
 <p>In this case, the spawned thread reads the value 0 from <code>data.x</code>, then stores it in <code>y</code>. Then, it is interrupted on its CPU, while the main thread is scheduled to execute on the other CPU. So, that main thread will also read the value 0 from <code>data.x</code> and store it in <code>y</code>. After that, the spawned thread will run, updating the value in <code>data.x</code> to 1. Finally, the main thread will execute updating the value in <code>data.x</code> to 1 again, even though it was already 1.</p>
 <p>So, as we can see, we&rsquo;ve run the same program, and it has produced two different results, depending on how the threads themselves are scheduled to run on the system. This is the essence of a race condition in our code.</p>
 <p>What if both threads are scheduled to run simultaneously on two different processors, as in this example:</p>
-<p><a href="#R-image-69d7a0c5ce7592784ee8d8acb10f0350" class="lightbox-link"><img alt="Simultaneous Threads" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread_simul.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-69d7a0c5ce7592784ee8d8acb10f0350"><img alt="Simultaneous Threads" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread_simul.svg"></a></p>
+<p><a href="#R-image-e0b680281e42fbc363aa7ba5de0f88c3" class="lightbox-link"><img alt="Simultaneous Threads" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread_simul.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e0b680281e42fbc363aa7ba5de0f88c3"><img alt="Simultaneous Threads" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread_simul.svg"></a></p>
 <p>In this case, the main thread is trying to read the value of <code>data.x</code> at the exact same instant that the spawned thread is trying to save that value. In that case, what will the main thread think is stored in <code>data.x</code>? As it turns out, <em>we have no way of predicting</em> what it will read. It could read 0, or 1, or maybe even some intermediate value the CPU uses while it stores the data.</p>
 <p>Thankfully, there is a way to deal with this situation, as we&rsquo;ll learn on the next page.</p>
 
@@ -171,13 +171,13 @@ Race Condition A race condition occurs when two threads in a program are trying 
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1755708720" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1755708720" defer></script>
-    <script src="/cc410/js/theme.min.js?1755708720" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1756825300" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1756825300" defer></script>
+    <script src="/cc410/js/theme.min.js?1756825300" defer></script>
       
       
       
     </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1755708720" defer></script>
+  <script src="/cc410/js/tele-scroll.min.js?1756825300" defer></script>
   </body>
 </html>

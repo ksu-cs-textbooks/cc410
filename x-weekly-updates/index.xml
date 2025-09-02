@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Aug 2025 11:49:46 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 10:00:10 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;25 Week 1</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in fall 2025. Welcome to a new semester. My name is Russ Feldhausen. I’ll be your instructor this semester. My contact information is here. It’s on the syllabus. It’s on the Canvas homepage. It’s in the introductory video. Hopefully you can easily find a way to get a hold of me. Please be aware that I work remotely out of Kansas City most of the week, so I won’t be available on campus. I do come to campus on Mondays. So if you want to meet with me in person, Mondays in the morning is probably your best bet to do that. But since this is an online course, I’m guessing most of you might be online as well. And so I should actually be really easy to reach either via email, Ed Discussion, Teams, Discord, whatever you want to use.</description>
+    </item>
+    <item>
+      <title>Fall &#39;25 Week 2</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week to announcements video for CC410 in fall 2025. So this week you should be wrapping up the first module which includes the Hello Real World project. I really like the Hello Real World project because I think it takes the classic Hello World project that you start with and really expands upon it in a way that makes it match more what you’d see in the real world with things like type checking and unit testing and all of these other things that we’re going to do in this class. So hopefully you’re getting that wrapped up and getting that committed and pushed to GitHub so that we can get that graded. As always, if you have any questions with that, let me know.</description>
     </item>
   </channel>
 </rss>

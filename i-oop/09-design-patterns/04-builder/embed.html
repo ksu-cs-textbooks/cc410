@@ -33,27 +33,27 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
     <link href="/cc410/i-oop/09-design-patterns/04-builder/index.xml" rel="alternate" type="application/rss+xml" title="Builder Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/04-builder/index.print.html" rel="alternate" type="text/html" title="Builder Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/04-builder/tele.html" rel="alternate" type="text/html" title="Builder Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1755708720" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1755708720" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/search.min.js?1755708720" defer></script>
+    <link href="/cc410/images/favicon.ico?1756825300" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1756825300" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/search.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1755708720";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1756825300";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1755708720" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1755708720" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1756825300" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1755708720" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1755708720" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1755708720" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1756825300" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -112,7 +112,7 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1755708720" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1756825300" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc410/i-oop/09-design-patterns/04-builder/index.html">
     <div id="R-body" class="default-animation">
@@ -136,8 +136,8 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 
 <p><a href="/cc410/i-oop/09-design-patterns/04-builder/video/index.html">Video Materials</a></p>
 <p>The first pattern we&rsquo;ll look at is the <strong>builder pattern.</strong> The <a href="https://en.wikipedia.org/wiki/Builder_pattern" rel="external" target="_blank">builder pattern</a> is used to simplify building complex objects,  where the class that needs the object shouldn&rsquo;t have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.</p>
-<p><a href="#R-image-a02d51aab51c9d9fc678bcabb469e88c" class="lightbox-link"><img alt="Builder Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/builder.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a02d51aab51c9d9fc678bcabb469e88c"><img alt="Builder Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/builder.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-e1544f471b20c0913e634e32e6fb555d" class="lightbox-link"><img alt="Builder Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/builder.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e1544f471b20c0913e634e32e6fb555d"><img alt="Builder Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/builder.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram above gives one possible structure for the builder pattern. It includes a <code>Builder</code> interface that other objects can reference, and <code>Builder1</code> is a class that implements that interface. There could be multiple builders, one for each type of object. The <code>Builder1</code> class contains all of the code needed to properly construct the <code>ComplexObject</code> class, consisting of <code>ProductA1</code> and <code>ProductB1</code>. If a different <code>ComplexObject</code> must be created, we can create another class <code>Builder2</code> that also implements the <code>Builder</code> interface. To the <code>Director</code> class, both <code>Builder1</code> and <code>Builder2</code> implement the same interface, so they can be treated as the same type of object.</p>
 <h2 id="example-deck-of-cards">Example: Deck of Cards</h2>
 <p>A great example of this would be creating a deck of cards for various card games. There are actually many different types of card decks, depending on the game that is being played:</p>
@@ -158,20 +158,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <li><code>NumberOrName</code> - the number or name of the card</li>
 <li><code>Rank</code> - the sorting rank of the card (lowest = 1).</li>
 </ul>
-<div class="tab-panel" data-tab-group="411378d42277602f43b1c60c80cdd88d">
+<div class="tab-panel" data-tab-group="893b4bd59f1dc9c26837360999e6c99e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('411378d42277602f43b1c60c80cdd88d','java')"
+      onclick="switchTab('893b4bd59f1dc9c26837360999e6c99e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('411378d42277602f43b1c60c80cdd88d','python')"
+      onclick="switchTab('893b4bd59f1dc9c26837360999e6c99e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -210,20 +210,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <h3 id="the-deck-class">The Deck Class</h3>
 <p>The <code>Deck</code> class will only consist of an aggregation, or list, of the cards contained in the deck. So, our builder class will return an instance of the <code>Deck</code> object, which contains all of the cards in the deck.</p>
 <p>The <code>Deck</code> class could also include generic methods to shuffle, draw, discard, and deal cards. These would work with just about any of the games listed above, regardless of the details of the deck itself.</p>
-<div class="tab-panel" data-tab-group="6d768f4aa651471b1df38664d134abbb">
+<div class="tab-panel" data-tab-group="0c642c57d0ce8cd2ef8ff618d45d736c">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('6d768f4aa651471b1df38664d134abbb','java')"
+      onclick="switchTab('0c642c57d0ce8cd2ef8ff618d45d736c','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('6d768f4aa651471b1df38664d134abbb','python')"
+      onclick="switchTab('0c642c57d0ce8cd2ef8ff618d45d736c','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -273,20 +273,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <p>Our <code>DeckBuilder</code> interface will be very simple, consisting of a single method: <code>buildDeck()</code>. The type of the class that implements the <code>DeckBuilder</code> interface will determine which type of deck is created. If the decks created by the builder have additional options, we can add additional methods to our <code>DeckBuilder</code> interface to handle those situations.</p>
 <h3 id="the-builder-classes">The Builder Classes</h3>
 <p>Finally, we can create our builder classes themselves. These classes will handle actually building the different decks required for each game. First, let&rsquo;s build a standard 52 card deck.</p>
-<div class="tab-panel" data-tab-group="b67e3d9bea51866c112c5c38523933a1">
+<div class="tab-panel" data-tab-group="05761d7603dda73474f1f9f6e6535ade">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b67e3d9bea51866c112c5c38523933a1','java')"
+      onclick="switchTab('05761d7603dda73474f1f9f6e6535ade','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b67e3d9bea51866c112c5c38523933a1','python')"
+      onclick="switchTab('05761d7603dda73474f1f9f6e6535ade','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -353,20 +353,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <p>As we can see, the heavy lifting of actually building the deck is offloaded to the builder class. We can easily use this same framework to create additional <code>Builder</code> classes for the other types of decks listed above.</p>
 <h3 id="using-the-builder">Using the Builder</h3>
 <p>Finally, once we&rsquo;ve created all of the builders that we&rsquo;ll need, we can use them directly in our code anywhere we need them:</p>
-<div class="tab-panel" data-tab-group="11fbcf7024953544d2c78ddfe39903d4">
+<div class="tab-panel" data-tab-group="e9bb3017ced51e6b681d34bcf6fc8f8f">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('11fbcf7024953544d2c78ddfe39903d4','java')"
+      onclick="switchTab('e9bb3017ced51e6b681d34bcf6fc8f8f','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('11fbcf7024953544d2c78ddfe39903d4','python')"
+      onclick="switchTab('e9bb3017ced51e6b681d34bcf6fc8f8f','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -425,9 +425,9 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1755708720" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1755708720" defer></script>
-    <script src="/cc410/js/theme.min.js?1755708720" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1755708720" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1756825300" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1756825300" defer></script>
+    <script src="/cc410/js/theme.min.js?1756825300" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1756825300" defer></script>
   </body>
 </html>
