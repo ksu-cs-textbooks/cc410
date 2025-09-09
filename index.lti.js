@@ -1480,6 +1480,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/02-documentation-testing/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week three announcements for CC410 in fall 2025. So, this week you should be wrapping up the second module, which I believe the milestone for that is due pretty soon. So, make sure you get that turned in. You’ll be doing the example for that, and you’ll be doing the first restaurant milestone. For this first restaurant milestone, I will try and give pretty detailed feedback, usually within a day or two of getting it submitted. So I’m hoping to work on that either today or tomorrow of this week. I also will give you feedback on your Hello Real World project. I haven’t had time to get to that yet because we had some other things going on this semester, but I will get you feedback pretty quickly for your first restaurant milestone so you can roll that into your second milestone, which will be new next week.",
+    "modified": "2025-09-09T11:21:48-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 3",
+    "uri": "/cc410/x-weekly-updates/week03/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "tl;dr If you are familiar with using Git, here is the short version:\ngit status git add . # check that the correct files are added git status # update the commit message below git commit -m \"Commit Message Here\" git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.",
     "modified": "2024-06-17T14:13:48-05:00",

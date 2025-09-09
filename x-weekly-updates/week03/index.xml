@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 3 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week three announcements for CC410 in fall 2025. So, this week you should be wrapping up the second module, which I believe the milestone for that is due pretty soon. So, make sure you get that turned in. You’ll be doing the example for that, and you’ll be doing the first restaurant milestone. For this first restaurant milestone, I will try and give pretty detailed feedback, usually within a day or two of getting it submitted. So I’m hoping to work on that either today or tomorrow of this week. I also will give you feedback on your Hello Real World project. I haven’t had time to get to that yet because we had some other things going on this semester, but I will get you feedback pretty quickly for your first restaurant milestone so you can roll that into your second milestone, which will be new next week.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

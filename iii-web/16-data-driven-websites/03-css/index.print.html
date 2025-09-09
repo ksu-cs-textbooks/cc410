@@ -35,27 +35,27 @@ Cascading Style Sheets (CSS) is the second core web technology of the web. It de
     <link href="/cc410/iii-web/16-data-driven-websites/03-css/index.xml" rel="alternate" type="application/rss+xml" title="CSS :: CC 410 Textbook">
     <link href="/cc410/iii-web/16-data-driven-websites/03-css/tele.html" rel="alternate" type="text/html" title="CSS :: CC 410 Textbook">
     <link href="/cc410/iii-web/16-data-driven-websites/03-css/embed.html" rel="alternate" type="text/html" title="CSS :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1756825300" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1756825300" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1756825300" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1756825300" defer></script>
-    <script src="/cc410/js/search.min.js?1756825300" defer></script>
+    <link href="/cc410/images/favicon.ico?1757434985" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757434985" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757434985" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1757434985" defer></script>
+    <script src="/cc410/js/search.min.js?1757434985" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1756825300";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1757434985";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1756825300" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1756825300" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1756825300" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1756825300" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1757434985" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757434985" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1757434985" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1757434985" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1756825300" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1756825300" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1756825300" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1756825300" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757434985" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757434985" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757434985" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1757434985" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1757434985" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,9 +114,12 @@ Cascading Style Sheets (CSS) is the second core web technology of the web. It de
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1756825300" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1757434985" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc410/iii-web/16-data-driven-websites/03-css/index.html">
+  <body class="mobile-support print" data-url="/cc410/iii-web/16-data-driven-websites/03-css/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       
@@ -167,8 +170,8 @@ Cascading Style Sheets (CSS) is the second core web technology of the web. It de
 <h3 id="styling-elements">Styling Elements</h3>
 <p>A second common use for CSS is to change properties of the element itself.  This can include setting dimensions (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width" rel="external" target="_blank">width</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/height" rel="external" target="_blank">height</a>), adding <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" rel="external" target="_blank">margins</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" rel="external" target="_blank">borders</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding" rel="external" target="_blank">padding</a>.</p>
 <p>These values provide additional space around the content of the element, following the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model" rel="external" target="_blank">CSS Box Model</a>:</p>
-<p><a href="#R-image-763c569248f9cbd2b9329b1fe9ed5642" class="lightbox-link"><img alt="CSS Box Model" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/16/boxmodel.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-763c569248f9cbd2b9329b1fe9ed5642"><img alt="CSS Box Model" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/16/boxmodel.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-37cd503dae0ccb36427b75d44d1cb3c1" class="lightbox-link"><img alt="CSS Box Model" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/16/boxmodel.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-37cd503dae0ccb36427b75d44d1cb3c1"><img alt="CSS Box Model" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/16/boxmodel.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h3 id="providing-layout">Providing Layout</h3>
 <p>The third common use for CSS is to change how elements are laid out on the page.  By default HTML elements follow the <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow" rel="external" target="_blank">flow model</a>, where each element appears on the page after the one before it.  Some elements are <em>block</em> level elements, which stretch across the entire page (so the next element appears below it), and others are <em>inline</em> and are only as wide as they need to be to hold their contents, so the next element can appear to the right, if there is room.</p>
 <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float" rel="external" target="_blank">float</a> property can make an element float to the left or right of its container, allowing the rest of the page to flow around it.</p>
@@ -194,9 +197,13 @@ Cascading Style Sheets (CSS) is the second core web technology of the web. It de
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1756825300" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1756825300" defer></script>
-    <script src="/cc410/js/theme.min.js?1756825300" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1756825300" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1757434985" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757434985" defer></script>
+    <script src="/cc410/js/theme.min.js?1757434985" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc410/js/tele-scroll.min.js?1757434985" defer></script>
   </body>
 </html>
