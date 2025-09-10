@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -36,27 +37,27 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
     <link href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.xml" rel="alternate" type="application/rss+xml" title="Message Passing :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/tele.html" rel="alternate" type="text/html" title="Message Passing :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/embed.html" rel="alternate" type="text/html" title="Message Passing :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757434985" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757434985" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757434985" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757434985" defer></script>
-    <script src="/cc410/js/search.min.js?1757434985" defer></script>
+    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
+    <script src="/cc410/js/search.min.js?1757527802" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757434985";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757434985" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757434985" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757434985" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757434985" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757434985" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757434985" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757434985" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757434985" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1757434985" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1757527802" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -115,50 +116,17 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757434985" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/index.html"><span itemprop="name">OOP</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/02-object-oriented-programming/index.html"><span itemprop="name">Object-Oriented Programming</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Message Passing</span><meta itemprop="position" content="4"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/i-oop/02-object-oriented-programming/11-message-passing/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.html" title="Objects in Memory (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/12-summary/index.html" title="Summary (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
-            </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      
+      
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable i-oop" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -175,20 +143,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
 <p>The second criteria Alan Kay set for object-oriented languages was <a href="https://en.wikipedia.org/wiki/Message_passing" rel="external" target="_blank">message passing</a>.  Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.</p>
 <p>Consider the real-world analogue of a letter sent via the postal service.  Such a message consists of: an address the message needs to be sent to, a return address, the message itself (the letter), and any data that needs to accompany the letter (the enclosures).  A specific letter might be a wedding invitation.  The message includes the details of the wedding (the host, the location, the time), an enclosure might be a refrigerator magnet with these details duplicated.  The recipient should (per custom) send a response to the host addressed to the return address letting them know if they will be attending.</p>
 <p>In an object-oriented language, message passing primarily take the form of methods. Let&rsquo;s revisit our example <code>Vector3</code> class from earlier:</p>
-<div class="tab-panel" data-tab-group="a74b3bccaf9682cd243c30e38d50324c">
+<div class="tab-panel" data-tab-group="a136cd19c09da799f209a7e728784969">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('a74b3bccaf9682cd243c30e38d50324c','java')"
+      onclick="switchTab('a136cd19c09da799f209a7e728784969','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('a74b3bccaf9682cd243c30e38d50324c','python')"
+      onclick="switchTab('a136cd19c09da799f209a7e728784969','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -244,20 +212,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
   </div>
 </div>
 <p>We can also create a couple of instances of the class, and use its dot product method:</p>
-<div class="tab-panel" data-tab-group="083f3dea3a428cba55bed8713ac8ae02">
+<div class="tab-panel" data-tab-group="25d52493503ba680a1d9afc106fd1bc9">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('083f3dea3a428cba55bed8713ac8ae02','java')"
+      onclick="switchTab('25d52493503ba680a1d9afc106fd1bc9','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('083f3dea3a428cba55bed8713ac8ae02','python')"
+      onclick="switchTab('25d52493503ba680a1d9afc106fd1bc9','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -285,20 +253,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
 </div>
 <p>Consider the invocation of <code>a.dotProduct(b)</code> (Java) or <code>a.dot_product(b)</code> (Python) above.  The method name, <code>dotProduct</code> or <code>dot_product</code> provides the details of what the message is intended to accomplish (the letter).  Invoking it on a specific variable, i.e. <code>a</code>, tells us who the message is being sent to (the recipient address).  The return type indicates what we need to send back to the recipient (the invoking code), and the parameters provide any data needed by the class to address the task (the enclosures).</p>
 <p>Let&rsquo;s define a new method for our Vector3 class that emphasizes the role message passing plays in mutating object state:</p>
-<div class="tab-panel" data-tab-group="590deb000728219f3a548943735baadd">
+<div class="tab-panel" data-tab-group="66f3aefb56c3c7affe9bc1d1f0e052cb">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('590deb000728219f3a548943735baadd','java')"
+      onclick="switchTab('66f3aefb56c3c7affe9bc1d1f0e052cb','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('590deb000728219f3a548943735baadd','python')"
+      onclick="switchTab('66f3aefb56c3c7affe9bc1d1f0e052cb','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -330,20 +298,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
   </div>
 </div>
 <p>We can now invoke the <code>normalize()</code> method on a <code>Vector3</code> object to mutate its state, shortening the magnitude of the vector to length 1.</p>
-<div class="tab-panel" data-tab-group="80690d00cf2d0171d82c6a8bc976924c">
+<div class="tab-panel" data-tab-group="5b8d2eefd37506f99e8b15264b43493d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('80690d00cf2d0171d82c6a8bc976924c','java')"
+      onclick="switchTab('5b8d2eefd37506f99e8b15264b43493d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('80690d00cf2d0171d82c6a8bc976924c','python')"
+      onclick="switchTab('5b8d2eefd37506f99e8b15264b43493d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -387,17 +355,17 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
 </article>
         </div>
       </main>
-<div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
-<p>Last modified by:
-              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
-</p>
-
-</div>
+      
+      
+      
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757434985" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757434985" defer></script>
-    <script src="/cc410/js/theme.min.js?1757434985" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
+    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc410/js/tele-scroll.min.js?1757527802" defer></script>
   </body>
 </html>

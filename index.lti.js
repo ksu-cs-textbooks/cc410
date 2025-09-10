@@ -2562,7 +2562,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "One of the major selling points of Python is that it is dynamically typed. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.\nWhile this can make development seem quick and easy, it can also cause programmers to make mistakes related to the handling of various data types that wouldn’t be present in statically typed languages such as Java, C++, or C#. Those languages require compilation before they can be executed, and one step that the compiler performs is type checking. Type checking is a process that makes sure each value that is ever assigned to a variable has the correct type - otherwise the program won’t compile properly.",
-    "modified": "2024-06-17T14:13:48-05:00",
+    "modified": "2025-09-10T13:08:55-05:00",
     "tags": [],
     "title": "Type Checking",
     "uri": "/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html"

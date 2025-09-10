@@ -38,27 +38,27 @@ public class MyData { public int x; } import java.lang.Runnable; import java.lan
     <link href="/cc410/ii-gui/12-parallelism/08-java-synchronization/index.print.html" rel="alternate" type="text/html" title="Java Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/08-java-synchronization/tele.html" rel="alternate" type="text/html" title="Java Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/08-java-synchronization/embed.html" rel="alternate" type="text/html" title="Java Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757434985" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757434985" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757434985" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757434985" defer></script>
-    <script src="/cc410/js/search.min.js?1757434985" defer></script>
+    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
+    <script src="/cc410/js/search.min.js?1757527802" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757434985";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757434985" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757434985" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757434985" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757434985" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757434985" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757434985" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757434985" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757434985" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1757434985" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1757527802" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -117,7 +117,7 @@ public class MyData { public int x; } import java.lang.Runnable; import java.lan
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757434985" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/ii-gui/12-parallelism/08-java-synchronization/index.html">
     <div id="R-body" class="default-animation">
@@ -263,8 +263,8 @@ public class MyData { public int x; } import java.lang.Runnable; import java.lan
 <p>In effect, this is essentially the Java code needed to reproduce the example we saw earlier in this class.</p>
 <h4 id="execution">Execution</h4>
 <p>So, what happens when we run this code? As it turns out, sometimes we&rsquo;ll see it get a different result than the one we expect:</p>
-<p><a href="#R-image-a500b4f9e722dd65026539705654b477" class="lightbox-link"><img alt="Race Condition in Java" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/java_race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a500b4f9e722dd65026539705654b477"><img alt="Race Condition in Java" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/java_race.png"></a></p>
+<p><a href="#R-image-47989bf25c2ff06000581e0eeabe1702" class="lightbox-link"><img alt="Race Condition in Java" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/java_race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-47989bf25c2ff06000581e0eeabe1702"><img alt="Race Condition in Java" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/java_race.png"></a></p>
 <p>Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into <code>data.x</code>, which means that they were running at the same time.</p>
 <h2 id="java-synchronized-blocks">Java Synchronized Blocks</h2>
 <p>To fix this, Java includes couple of special methods for dealing with synchronization. First, we can use the <code>synchronized</code> statement, which is simply a wrapper around a block of code that we&rsquo;d like to be <strong>atomic</strong>. An atomic block is one that shouldn&rsquo;t be broken apart and interrupted by other threads accessing the same object. In effect, the <code>synchronized</code> statement will handle acquiring and releasing a lock for us, based on the item used in the statement.</p>
@@ -283,8 +283,8 @@ public class MyData { public int x; } import java.lang.Runnable; import java.lan
 </span></span><span style="display:flex;"><span>    }</span></span></code></pre></div>
 <p>Here, the <code>synchronized</code> statement creates a <strong>lock</strong> that is associated with the <code>data</code> object in memory. Only one thread can hold that lock at a time, and by associating it with an object, we can easily keep track of which thread is able to access that object.</p>
 <p>Now, when we execute that program, we&rsquo;ll always get the correct answer!</p>
-<p><a href="#R-image-86a20d9a43ff52ce3b4d90b38f84e9f9" class="lightbox-link"><img alt="Synchronized in Java" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/java_synch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-86a20d9a43ff52ce3b4d90b38f84e9f9"><img alt="Synchronized in Java" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/java_synch.png"></a></p>
+<p><a href="#R-image-e615244f44be51cf5d2f4c1c3e40244f" class="lightbox-link"><img alt="Synchronized in Java" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/java_synch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e615244f44be51cf5d2f4c1c3e40244f"><img alt="Synchronized in Java" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/java_synch.png"></a></p>
 
 <details open class=" box cstyle notices info">
   <summary class="box-label" tabindex="-1">
@@ -730,8 +730,8 @@ public class MyData { public int x; } import java.lang.Runnable; import java.lan
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757434985" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757434985" defer></script>
-    <script src="/cc410/js/theme.min.js?1757434985" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
+    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
   </body>
 </html>
