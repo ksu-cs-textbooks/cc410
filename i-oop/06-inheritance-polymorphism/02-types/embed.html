@@ -33,27 +33,27 @@ Before we can discuss polymorphism in detail, we must first understand the conce
     <link href="/cc410/i-oop/06-inheritance-polymorphism/02-types/index.xml" rel="alternate" type="application/rss+xml" title="Types :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/02-types/index.print.html" rel="alternate" type="text/html" title="Types :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/02-types/tele.html" rel="alternate" type="text/html" title="Types :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search.min.js?1757527802" defer></script>
+    <link href="/cc410/images/favicon.ico?1758033643" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758033643" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1758033643";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1757527802" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1758033643" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -112,7 +112,7 @@ Before we can discuss polymorphism in detail, we must first understand the conce
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1758033643" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc410/i-oop/06-inheritance-polymorphism/02-types/index.html">
     <div id="R-body" class="default-animation">
@@ -137,20 +137,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
 <p><a href="/cc410/i-oop/06-inheritance-polymorphism/02-types/video/index.html">Video Materials</a></p>
 <p>Before we can discuss polymorphism in detail, we must first understand the concept of <em>types</em>.  In computer science, a <em>type</em> is a way of categorizing a variable by its storage strategy, i.e., how it is represented in the computer&rsquo;s memory. It also defines how the value can be treated and what operations can be performed on it.</p>
 <p>You&rsquo;ve already used types extensively in your programming up to this point.  Consider the declaration:</p>
-<div class="tab-panel" data-tab-group="2b0a1f62cc785662610b4090765b385d">
+<div class="tab-panel" data-tab-group="1da687ef4817dda24437726f8f9a7f2a">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('2b0a1f62cc785662610b4090765b385d','java')"
+      onclick="switchTab('1da687ef4817dda24437726f8f9a7f2a','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('2b0a1f62cc785662610b4090765b385d','python')"
+      onclick="switchTab('1da687ef4817dda24437726f8f9a7f2a','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -175,20 +175,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
 <p>The variable <strong>number</strong> is declared to have the type <strong>int</strong>. In Java, the type included in the declaration tells the Java compiler that the value of the number will be stored using a specific scheme for integer values. For Python, the type is implied by the value itself - since 5 is a whole number, it is treated like an integer. The type annotation <code>int</code> is used by Mypy for type checking, but us ignored by the Python interpreter itself.</p>
 <p>Each language stores these values in memory differently, and we won&rsquo;t worry about those technical differences in this course. What is important to remember is that the variable&rsquo;s data type tells the computer how to store that value, and also what operations can be performed on that value.</p>
 <p>For example, consider the following code:</p>
-<div class="tab-panel" data-tab-group="36662e352bc260934462f5cd21e8f688">
+<div class="tab-panel" data-tab-group="3835956ed1eba6d2afc6111f5c880df2">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('36662e352bc260934462f5cd21e8f688','java')"
+      onclick="switchTab('3835956ed1eba6d2afc6111f5c880df2','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('36662e352bc260934462f5cd21e8f688','python')"
+      onclick="switchTab('3835956ed1eba6d2afc6111f5c880df2','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -223,20 +223,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
 <p>In either case, our computer is able to use the data type assigned to each variable to determine how it should be treated and what operations it can perform.</p>
 <h2 id="user-defined-types">User-Defined Types</h2>
 <p>In addition to built-in types, most programming languages support <em>user-defined types</em>, that is, new types defined by the programmer.  For example, we could define an enumerator called <code>Grade</code>:</p>
-<div class="tab-panel" data-tab-group="05c0f8c91d1111dc3324c1f9ff0c5254">
+<div class="tab-panel" data-tab-group="3374789e4694fdbee92501d36a518a78">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('05c0f8c91d1111dc3324c1f9ff0c5254','java')"
+      onclick="switchTab('3374789e4694fdbee92501d36a518a78','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('05c0f8c91d1111dc3324c1f9ff0c5254','python')"
+      onclick="switchTab('3374789e4694fdbee92501d36a518a78','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -273,20 +273,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
   </div>
 </div>
 <p>This defines a new data type <code>Grade</code>.  We can then create variables with that type:</p>
-<div class="tab-panel" data-tab-group="08dd4e5c620b03ff7e7b49c43ce7c8c1">
+<div class="tab-panel" data-tab-group="6933ac1b4df693d67c8990a9ece66e59">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('08dd4e5c620b03ff7e7b49c43ce7c8c1','java')"
+      onclick="switchTab('6933ac1b4df693d67c8990a9ece66e59','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('08dd4e5c620b03ff7e7b49c43ce7c8c1','python')"
+      onclick="switchTab('6933ac1b4df693d67c8990a9ece66e59','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -310,20 +310,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
 </div>
 <h2 id="classes-are-types">Classes are Types</h2>
 <p>In an object-oriented programming language, a class also <em>defines a new type</em>!  As we discussed in an earlier chapter, a class defines the structure for the <em>state</em> for objects implementing that type. Consider a class named <code>Student</code> as shown in this example:</p>
-<div class="tab-panel" data-tab-group="b197c6260554ace382f0337ab2e7d846">
+<div class="tab-panel" data-tab-group="7e0bcc279a95c6e9f26302ce6e60dd86">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b197c6260554ace382f0337ab2e7d846','java')"
+      onclick="switchTab('7e0bcc279a95c6e9f26302ce6e60dd86','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b197c6260554ace382f0337ab2e7d846','python')"
+      onclick="switchTab('7e0bcc279a95c6e9f26302ce6e60dd86','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -426,20 +426,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
   </div>
 </div>
 <p>If we want to create a new student, we would create an instance of the class <code>Student</code> which is an object of <em>type</em> <code>Student</code>:</p>
-<div class="tab-panel" data-tab-group="287ce0f5bd28fa4931c4237f396c76b8">
+<div class="tab-panel" data-tab-group="c8e85f6133c35afbced2261c1fc4ad86">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('287ce0f5bd28fa4931c4237f396c76b8','java')"
+      onclick="switchTab('c8e85f6133c35afbced2261c1fc4ad86','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('287ce0f5bd28fa4931c4237f396c76b8','python')"
+      onclick="switchTab('c8e85f6133c35afbced2261c1fc4ad86','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -470,20 +470,20 @@ Before we can discuss polymorphism in detail, we must first understand the conce
 <p>In a statically typed language, a variable <em>cannot</em> be assigned a value of a different type, i.e.:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>foo <span style="color:#f92672">=</span> 8.<span style="color:#a6e22e">3</span>;</span></span></code></pre></div>
 <p>Will fail with an error in Java, as a floating point value is a different type than an integer. However, we can <em>cast</em> the value to a new type (changing how it is represented), i.e.:</p>
-<div class="tab-panel" data-tab-group="52d8f800715601af0f7d004ba68bcacc">
+<div class="tab-panel" data-tab-group="b62555e3f868ad08b9abdf77a437e4eb">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('52d8f800715601af0f7d004ba68bcacc','java')"
+      onclick="switchTab('b62555e3f868ad08b9abdf77a437e4eb','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('52d8f800715601af0f7d004ba68bcacc','python')"
+      onclick="switchTab('b62555e3f868ad08b9abdf77a437e4eb','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -522,9 +522,9 @@ Before we can discuss polymorphism in detail, we must first understand the conce
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
-    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1757527802" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1758033643" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758033643" defer></script>
+    <script src="/cc410/js/theme.min.js?1758033643" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1758033643" defer></script>
   </body>
 </html>

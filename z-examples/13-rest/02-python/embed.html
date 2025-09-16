@@ -35,27 +35,27 @@ Widget Fix Since this video was recorded, Flask-WTF updated and is now using a n
     <link href="/cc410/z-examples/13-rest/02-python/index.xml" rel="alternate" type="application/rss+xml" title="Python :: CC 410 Textbook">
     <link href="/cc410/z-examples/13-rest/02-python/index.print.html" rel="alternate" type="text/html" title="Python :: CC 410 Textbook">
     <link href="/cc410/z-examples/13-rest/02-python/tele.html" rel="alternate" type="text/html" title="Python :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search.min.js?1757527802" defer></script>
+    <link href="/cc410/images/favicon.ico?1758033643" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758033643" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1758033643";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1757527802" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1758033643" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,7 +114,7 @@ Widget Fix Since this video was recorded, Flask-WTF updated and is now using a n
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1758033643" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc410/z-examples/13-rest/02-python/index.html">
     <div id="R-body" class="default-animation">
@@ -155,11 +155,11 @@ Widget Fix Since this video was recorded, Flask-WTF updated and is now using a n
   <div class="box-content">
 <p>Since this video was recorded, Flask-WTF updated and is now using a newer version of the underlying WTForms library. That library has since deprecated the <code>html5</code> widgets module and moved them into the main <code>widgets</code> module.</p>
 <p>When running the code as shown in the video, you may receive this error:</p>
-<p><a href="#R-image-38b1a7bc9dc408717d2a36457436f15a" class="lightbox-link"><img alt="Example 13 Import Error" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e13/ex13error.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-38b1a7bc9dc408717d2a36457436f15a"><img alt="Example 13 Import Error" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e13/ex13error.png"></a></p>
+<p><a href="#R-image-45bb2512a18d5285ec5aa21f026d6e7f" class="lightbox-link"><img alt="Example 13 Import Error" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e13/ex13error.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-45bb2512a18d5285ec5aa21f026d6e7f"><img alt="Example 13 Import Error" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e13/ex13error.png"></a></p>
 <p>To resolve this, in <code>MovieForm.py</code> we can simply change the import to be <code>from wtforms.widgets import NumberInput</code> and then remove the <code>html5</code> in front of each instance where we use <code>NumberInput</code> in the code. See the screenshot below for a corrected version:</p>
-<p><a href="#R-image-c233a4b25b152c10975ed5abda6d3fd2" class="lightbox-link"><img alt="Example 13 Corrected Code" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e13/ex13corrected.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c233a4b25b152c10975ed5abda6d3fd2"><img alt="Example 13 Corrected Code" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e13/ex13corrected.png"></a></p>
+<p><a href="#R-image-30b8efb51b25583324c69053a16efb96" class="lightbox-link"><img alt="Example 13 Corrected Code" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e13/ex13corrected.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-30b8efb51b25583324c69053a16efb96"><img alt="Example 13 Corrected Code" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e13/ex13corrected.png"></a></p>
 <p>For more information, check out the <a href="https://github.com/wtforms/flask-wtf/pull/484" rel="external" target="_blank">relevant pull request</a> and the <a href="https://wtforms.readthedocs.io/en/3.0.x/widgets/" rel="external" target="_blank">WTForms Widgets Documentation</a>.</p>
   </div>
 </details>
@@ -209,9 +209,9 @@ Widget Fix Since this video was recorded, Flask-WTF updated and is now using a n
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
-    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1757527802" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1758033643" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758033643" defer></script>
+    <script src="/cc410/js/theme.min.js?1758033643" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1758033643" defer></script>
   </body>
 </html>

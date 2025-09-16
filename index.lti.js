@@ -1872,6 +1872,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/04-design-patterns/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week four announcements video for CC410 in fall 2025. This week you should be wrapping up the next module, which is on documentation, testing, and creating a UML diagram for your project. You’re going to do a quick example where you add documentation and unit testing to an example project. And then you’re going to be working on the second restaurant project, which is all about adding documentation and unit testing to your restaurant project. That milestone can be pretty big, but hopefully it goes well. If you have any questions about unit tests you should be adding, please let me know.",
+    "modified": "2025-09-16T09:39:21-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 4",
+    "uri": "/cc410/x-weekly-updates/week04/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Java",
     "description": "tl;dr If you are familiar with using Git, here is the short version:\ngit status git add . # check that the correct files are added git status # update the commit message below git commit -m \"Commit Message Here\" git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.",
     "modified": "2024-06-17T14:13:48-05:00",

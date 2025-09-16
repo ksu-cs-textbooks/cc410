@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -30,27 +29,27 @@
     <link href="/cc410/i-oop/10-test-doubles/index.xml" rel="alternate" type="application/rss+xml" title="Test Doubles :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/tele.html" rel="alternate" type="text/html" title="Test Doubles :: CC 410 Textbook">
     <link href="/cc410/i-oop/10-test-doubles/embed.html" rel="alternate" type="text/html" title="Test Doubles :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search.min.js?1757527802" defer></script>
+    <link href="/cc410/images/favicon.ico?1758033643" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758033643" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1758033643";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1757527802" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1758033643" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -109,17 +108,50 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1758033643" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/i-oop/10-test-doubles/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/index.html"><span itemprop="name">OOP</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Test Doubles</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/i-oop/10-test-doubles/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/10-test-doubles/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/09-design-patterns/10-summary/index.html" title="Summary (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/10-test-doubles/01-introduction/index.html" title="Introduction (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/10-test-doubles/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/10-test-doubles/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable i-oop" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -170,11 +202,11 @@
 <p><a href="/cc410/i-oop/10-test-doubles/02-need-test-doubles/video/index.html">Video Materials</a></p>
 <p>As we build larger and larger applications, we may find that it becomes more and more difficult to see the entire application as a whole. Instead, it helps to think of the application as many different modules, and each module interacts with others based on their publicly available methods, which make up the <strong>application programming interface</strong> or <strong>API</strong> of the module.</p>
 <p>Ideally, we&rsquo;d like each module of the program to be independent from the others, with each one having a clear purpose or reason for inclusion in the program. This is a key part of the design principle <a href="https://en.wikipedia.org/wiki/Separation_of_concerns" rel="external" target="_blank"><strong>separation of concerns</strong></a>, which involves breaking larger systems down into distinct sections that address a particular &ldquo;concern&rdquo; within the larger system.</p>
-<p><a href="#R-image-ca002fa166fa91ea8f89c246a2067b89" class="lightbox-link"><img alt="Complexity to Categorization" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/complex1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ca002fa166fa91ea8f89c246a2067b89"><img alt="Complexity to Categorization" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/complex1.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-d96baa86c6c474a280a04e50f179fe86" class="lightbox-link"><img alt="Complexity to Categorization" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/complex1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d96baa86c6c474a280a04e50f179fe86"><img alt="Complexity to Categorization" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/complex1.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>So, by categorizing the individual classes in our application based on similarity, we can then start to organize our application into modules of code that are somewhat independent of each other. They still interact through the public APIs of each module, but the internal workings of one module should not be visible to another.</p>
-<p><a href="#R-image-e6739482a9abf3d91a8ce7c7fb5f908f" class="lightbox-link"><img alt="Categorization to Abstraction" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/complex2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e6739482a9abf3d91a8ce7c7fb5f908f"><img alt="Categorization to Abstraction" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/complex2.png"></a><sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-75ca388ab3e6c1c3450dd51917ca581c" class="lightbox-link"><img alt="Categorization to Abstraction" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/complex2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-75ca388ab3e6c1c3450dd51917ca581c"><img alt="Categorization to Abstraction" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/complex2.png"></a><sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>Once we start writing unit tests for our code, we can start to <strong>abstract</strong> away the details of other modules in the system, and focus just on the internal workings of the single unit of code, usually a class or method, that we intend to test.</p>
 <p>However, this is difficult when our code has to call methods that are present in another module. How can we test our code and make sure it works, without also having to test that the module it is calling also works correctly and returns a correct value? If we cannot figure out a way to do this, then unit testing our code is not very helpful since it won&rsquo;t allow us to accurately pinpoint the location of an error.</p>
 <h2 id="test-doubles">Test Doubles</h2>
@@ -222,20 +254,20 @@
 </ol>
 <p>In some instances, we may also include a fourth step, <strong>Teardown</strong>, which is used to reset the state back to its initial state, if needed. There are times when our arrange step makes some changes to the environment that must be reversed before we can continue.</p>
 <p>Let&rsquo;s go back to a unit test you may have explored in example 3 and see how it fits the arrange, act, assert pattern.</p>
-<div class="tab-panel" data-tab-group="b1717443b5d6c4028f3fddb03a830a55">
+<div class="tab-panel" data-tab-group="4025fc7c21f66ed702b99b045146f553">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b1717443b5d6c4028f3fddb03a830a55','java')"
+      onclick="switchTab('4025fc7c21f66ed702b99b045146f553','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b1717443b5d6c4028f3fddb03a830a55','python')"
+      onclick="switchTab('4025fc7c21f66ed702b99b045146f553','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -352,8 +384,8 @@
   </div>
 </details>
 <p>There are three major types of test doubles that we&rsquo;ll cover in this chapter. The first are <strong>stubs</strong>, sometimes referred to as <strong>stub methods</strong> or <strong>method stubs</strong>. A <a href="https://en.wikipedia.org/wiki/Method_stub" rel="external" target="_blank">stub</a> is simply an object that is used to return predefined data when its methods are called, without any internal logic.</p>
-<p><a href="#R-image-1a7069b576bbe2a3c1b38b8098fc08aa" class="lightbox-link"><img alt="Stub" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/stub.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1a7069b576bbe2a3c1b38b8098fc08aa"><img alt="Stub" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/stub.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-e176789c2fd083aae9a74b285d254bf5" class="lightbox-link"><img alt="Stub" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/stub.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e176789c2fd083aae9a74b285d254bf5"><img alt="Stub" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/stub.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>For example, if the methods we are testing should sum up the data that results from several calls to a method that is outside of our module, we could create a stub that simply returns the values 1 - 5, and then verify that our method calculates the sum of 15. In this way, we&rsquo;re verifying that our code works as intended (it sums the values), without really worrying whether the other module returns correct data or not.</p>
 <p>The only thing we must be careful with when creating these stubs is that the data they return is plausible for the test we are performing. If the data should be valid, then we should be careful to return values that are the correct type and within the correct range. Likewise, if we want to test any possible error conditions or invalid values, we&rsquo;ll have to make sure our stub returns the appropriate values as the real object would.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -375,8 +407,8 @@
 <h1 id="fakes">Fakes</h1>
 
 <p>Another commonly used test double is a <strong>fake</strong>, sometimes referred to as a <strong>fake object</strong>. A <a href="https://en.wikipedia.org/wiki/Mock_object" rel="external" target="_blank">fake</a> is an object that implements the same external interface that the real object would implement - it includes all of the same publicly available methods and attributes. However, the implementations of those methods may take certain shortcuts to mimic pieces of functionality that are not really needed in order to produce valid results. (Many test frameworks use the term <strong>mock object</strong> for the same concept; however, we&rsquo;ll use that term on the next page for a slightly different use.)</p>
-<p><a href="#R-image-3a4918e58960b4f37f2970fd96c582b2" class="lightbox-link"><img alt="Fake" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/fake.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-3a4918e58960b4f37f2970fd96c582b2"><img alt="Fake" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/fake.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-6f7dbb0a70ff8d74c81b565a1f139c5a" class="lightbox-link"><img alt="Fake" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/fake.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-6f7dbb0a70ff8d74c81b565a1f139c5a"><img alt="Fake" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/fake.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>For example, if we have an object responsible for storing data in a database, we could create a fake version of it that can store data in a hash table instead. It will still be able to store objects and retrieve them, but instead of using a real database with millions of records, it will just store a few items in a hash table that can be reloaded for each unit test.</p>
 <p>Likewise, if the object performs a long, complex calculation, a fake version of the object might include precomputed data that can be quickly returned without performing the computation. In that way, the data stored in the object corresponds to the results it provides, without the need to perform any costly computational steps during each unit test.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -398,8 +430,8 @@
 <h1 id="mocks">Mocks</h1>
 
 <p>The third type of test double we&rsquo;ll cover is the <strong>mock object</strong>, sometimes referred to as a <strong>test spy</strong>. A mock object is typically used to verify that our code performs the correct actions on other parts of the system. Usually, the mock object will simply listen for any incoming method calls, and then once our action is complete we can verify that the correct methods were called with the correct inputs by examining our mock object.</p>
-<p><a href="#R-image-0c437793d14eac1eeccd02cef6f47784" class="lightbox-link"><img alt="Mock" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/mock.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0c437793d14eac1eeccd02cef6f47784"><img alt="Mock" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/mock.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-e7c579b33437580493b11e6d2c458343" class="lightbox-link"><img alt="Mock" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/13/mock.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e7c579b33437580493b11e6d2c458343"><img alt="Mock" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/13/mock.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>For example, if the code we are testing is responsible for calling a method in another module to update the GUI for our application, we can replace that GUI with a mock object, run the code, and then verify that the correct method in our mock object was called during the test. Likewise, we can make sure that other methods were not called.</p>
 <p>This is another great example of an &ldquo;indirect output&rdquo; of our code. However, instead of data being the output, the messages sent as method calls are the data that our code is producing.</p>
 <p>As we can see, test doubles are powerful tools we can use to enhance our ability to perform unit tests on our system. On the following pages, we&rsquo;ll briefly review how to use different test doubles in both Java and Python. As always, feel free to skip to the page for the language you are learning, but both pages may contain helpful information.</p>
@@ -745,20 +777,20 @@
 
 <p>One other important topic to cover in unit tests is <strong>dependency injection</strong>. In short, <a href="https://en.wikipedia.org/wiki/Dependency_injection" rel="external" target="_blank">dependency injection</a> is a way that we can build our classes so that the objects they depend on can be added to the class from outside. In that way, we can change them as needed in our unit tests as a way to test functionality using test doubles.</p>
 <p>Consider the following example:</p>
-<div class="tab-panel" data-tab-group="d141a4d17ee49d7fd65bccc0f435e96f">
+<div class="tab-panel" data-tab-group="f6118c448d5492269319a1093fd40fca">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('d141a4d17ee49d7fd65bccc0f435e96f','java')"
+      onclick="switchTab('f6118c448d5492269319a1093fd40fca','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('d141a4d17ee49d7fd65bccc0f435e96f','python')"
+      onclick="switchTab('f6118c448d5492269319a1093fd40fca','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -817,20 +849,20 @@
 <p>In Python, we know that any attribute can be accessed externally, so this isn&rsquo;t as big of a concern. However, since we are using a double-underscore in the name, we&rsquo;d have to get around the name mangling. We could switch it to a single underscore, which is still marked as internal to the class but would at least be more easily accessible to our tests. However, as with the Java example, there are other ways we could accomplish this.</p>
 <h3 id="constructor-injection">Constructor Injection</h3>
 <p>The first method of dependency injection is via the constructor. We could simply pass in a reference to a <code>Gradebook</code> object in the constructor, as in this example:</p>
-<div class="tab-panel" data-tab-group="e7d28a8cee67250b33daa3ce42c69a25">
+<div class="tab-panel" data-tab-group="fc63f4041c54efc9fd184aa03255f7f0">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('e7d28a8cee67250b33daa3ce42c69a25','java')"
+      onclick="switchTab('fc63f4041c54efc9fd184aa03255f7f0','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e7d28a8cee67250b33daa3ce42c69a25','python')"
+      onclick="switchTab('fc63f4041c54efc9fd184aa03255f7f0','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -867,20 +899,20 @@
 <p>Finally, the class that instantiates the <code>Teacher</code> object would also have a reference to the <code>Gradebook</code> that teacher is using, so it could allow a malicious coder to have access to data that should be kept private. However, typically this isn&rsquo;t a major concern we worry about, since we must always assume that any programmer on this project could access any data stored in a class, as nothing is <em>truly</em> private as we&rsquo;ve already discussed.</p>
 <h3 id="setter-injection">Setter Injection</h3>
 <p>Alternatively, we can provide a setter method and allow injection via the setter. This could be done either in lieu of building a <code>Gradebook</code> object in the constructor, or in addition to it.</p>
-<div class="tab-panel" data-tab-group="ae5f04f862de339f9a89c28917e3d079">
+<div class="tab-panel" data-tab-group="45766457bbdd37b9d560ad7dee822e00">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('ae5f04f862de339f9a89c28917e3d079','java')"
+      onclick="switchTab('45766457bbdd37b9d560ad7dee822e00','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('ae5f04f862de339f9a89c28917e3d079','python')"
+      onclick="switchTab('45766457bbdd37b9d560ad7dee822e00','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -1081,17 +1113,17 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdo
           </section>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
-    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1757527802" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1758033643" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758033643" defer></script>
+    <script src="/cc410/js/theme.min.js?1758033643" defer></script>
   </body>
 </html>

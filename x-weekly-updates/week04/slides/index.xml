@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/slides/index.html</link>
+    <description>CC 410 - Week 4&#xD;Wrapping Up&#xD;Documentation, Testing, UML&#xD;Doc &amp; Testing Example&#xD;Restaurant 2&#xD;This Week&#xD;Inheritance &amp; Polymorphism&#xD;Inheritance Example&#xD;Start - Stop - Continue Survey&#xD;Some Final Project Time&#xD;Next Week&#xD;Debugging &amp; Logging&#xD;Lambda Expressions&#xD;Debugging &amp; Logging Example&#xD;Restaurant 3&#xD;Final Project 2&#xD;Milestone 3&#xD;All General Requirements&#xD;Add Inheritance&#xD;Refactor Classes&#xD;New Unit Tests&#xD;Update UML Diagram&#xD;~1500 LOC&#xD;Feedback Welcome!&#xD;Milestone 3 Hints&#xD;Work in Small Chunks&#xD;Commit Early, Commit Often&#xD;Try Test-Driven Development?&#xD;Inherit OrderItem on Base Classes&#xD;Ask Questions on Syntax&#xD;Looking Ahead&#xD;Module 4 - Inheritance&#xD;Module 5 - Debugging&#xA;Final Project 2&#xD;Module 6 - Design Patterns&#xD;Module 7 - Test Doubles&#xD;GUIs, Web APIs, etc.&#xD;Tea Time Office Hours&#xD;Career Fair Prep &amp; Industry Panel&#xD;Monday, Sept 22nd, 10 AM&#xA;DUE 2168 or Zoom</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/slides/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

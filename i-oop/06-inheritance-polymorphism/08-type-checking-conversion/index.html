@@ -34,27 +34,27 @@
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.print.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/tele.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/embed.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search.min.js?1757527802" defer></script>
+    <link href="/cc410/images/favicon.ico?1758033643" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758033643" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1758033643";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1757527802" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1758033643" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1758033643" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.html">
     <div id="R-body" class="default-animation">
@@ -173,20 +173,20 @@
 <h1 id="type-checking--conversion">Type Checking &amp; Conversion</h1>
 
 <p>You have probably used casting to convert numeric values from one type to another, i.e.:</p>
-<div class="tab-panel" data-tab-group="8fc3379e274852142ebd74fcfe2b34a1">
+<div class="tab-panel" data-tab-group="529b55d7b677c61d8c480494b9cbf7f7">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('8fc3379e274852142ebd74fcfe2b34a1','java')"
+      onclick="switchTab('529b55d7b677c61d8c480494b9cbf7f7','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('8fc3379e274852142ebd74fcfe2b34a1','python')"
+      onclick="switchTab('529b55d7b677c61d8c480494b9cbf7f7','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -213,20 +213,20 @@ b: int = int(a)</code></pre></div>
 <p>What you are actually doing when you cast is <em>transforming a value from one type to another</em>.  In the first case, you are taking the value of <code>a</code>, which is the floating-point value <code>5.5</code>, and converting it to the equivalent integer value <code>5</code>.</p>
 <p>Both of these are examples of an <strong>explicit cast</strong>, since we are explicitly stating the type that we&rsquo;d like to convert our existing value to.</p>
 <p>In some languages, we can also perform an <strong>implicit cast</strong>. This is where the compiler or interpreter changes the type of our value behind the scenes for us.</p>
-<div class="tab-panel" data-tab-group="7bffaddf4667f02e64ffb31c2ac3b208">
+<div class="tab-panel" data-tab-group="f1be2a8ff5da6839915bc79a9837cf08">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('7bffaddf4667f02e64ffb31c2ac3b208','java')"
+      onclick="switchTab('f1be2a8ff5da6839915bc79a9837cf08','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('7bffaddf4667f02e64ffb31c2ac3b208','python')"
+      onclick="switchTab('f1be2a8ff5da6839915bc79a9837cf08','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -264,20 +264,20 @@ b: float = a + 2.5;</code></pre></div>
 <p>However, if we try to treat it like an instance of the <code>GraduateStudent</code> class, it would fail with an <code>AttributeError</code>.</p>
 <h2 id="checking-types">Checking Types</h2>
 <p>Both Java and Python include special methods for determining if a particular object is compatible with a certain type.</p>
-<div class="tab-panel" data-tab-group="f53e6886375ffb9279fbe186636785b4">
+<div class="tab-panel" data-tab-group="a36a49b8ce73eb9a938d8b5c2e04877d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('f53e6886375ffb9279fbe186636785b4','java')"
+      onclick="switchTab('a36a49b8ce73eb9a938d8b5c2e04877d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('f53e6886375ffb9279fbe186636785b4','python')"
+      onclick="switchTab('a36a49b8ce73eb9a938d8b5c2e04877d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -595,7 +595,8 @@ b: float = a + 2.5;</code></pre></div>
             <li class="" data-nav-id="/cc410/x-weekly-updates/index.html"><input type="checkbox" id="R-section-63a2400c02e31484bc9dbd84baba3db3" aria-controls="R-subsections-63a2400c02e31484bc9dbd84baba3db3"><label for="R-section-63a2400c02e31484bc9dbd84baba3db3"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Weekly Updates</span></label><a class="padding" href="/cc410/x-weekly-updates/index.html">Weekly Updates</a><ul id="R-subsections-63a2400c02e31484bc9dbd84baba3db3" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/x-weekly-updates/week01/index.html"><a class="padding" href="/cc410/x-weekly-updates/week01/index.html">1. Fall &#39;25 Week 1</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week02/index.html"><a class="padding" href="/cc410/x-weekly-updates/week02/index.html">2. Fall &#39;25 Week 2</a></li>
-            <li class="" data-nav-id="/cc410/x-weekly-updates/week03/index.html"><a class="padding" href="/cc410/x-weekly-updates/week03/index.html">3. Fall &#39;25 Week 3</a></li></ul></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week03/index.html"><a class="padding" href="/cc410/x-weekly-updates/week03/index.html">3. Fall &#39;25 Week 3</a></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week04/index.html"><a class="padding" href="/cc410/x-weekly-updates/week04/index.html">4. Fall &#39;25 Week 4</a></li></ul></li>
             <li class="" data-nav-id="/cc410/z-examples/index.html"><input type="checkbox" id="R-section-e095baae70451690f717ed79b3e70267" aria-controls="R-subsections-e095baae70451690f717ed79b3e70267"><label for="R-section-e095baae70451690f717ed79b3e70267"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/index.html">Example Projects</a><ul id="R-subsections-e095baae70451690f717ed79b3e70267" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/00-new-project/index.html"><a class="padding" href="/cc410/z-examples/00-new-project/index.html">0. New Project Checklist</a></li>
             <li class="alwaysopen " data-nav-id="/cc410/z-examples/01-hello-real-world/index.html"><input type="checkbox" id="R-section-8fa1fe250a4b987a2c9aac0ba7e84fad" aria-controls="R-subsections-8fa1fe250a4b987a2c9aac0ba7e84fad" checked><label for="R-section-8fa1fe250a4b987a2c9aac0ba7e84fad"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/index.html">1. Hello Real World</a><ul id="R-subsections-8fa1fe250a4b987a2c9aac0ba7e84fad" class="collapsible-menu">
@@ -742,8 +743,8 @@ b: float = a + 2.5;</code></pre></div>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
-    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1758033643" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758033643" defer></script>
+    <script src="/cc410/js/theme.min.js?1758033643" defer></script>
   </body>
 </html>

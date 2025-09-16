@@ -31,27 +31,27 @@
     <link href="/cc410/i-oop/09-design-patterns/09-template-method/index.xml" rel="alternate" type="application/rss+xml" title="Template Method Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/09-template-method/index.print.html" rel="alternate" type="text/html" title="Template Method Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/09-template-method/tele.html" rel="alternate" type="text/html" title="Template Method Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1757527802" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1757527802" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/search.min.js?1757527802" defer></script>
+    <link href="/cc410/images/favicon.ico?1758033643" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758033643" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/search.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1757527802";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1758033643";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1757527802" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1757527802" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1758033643" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1757527802" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1757527802" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1757527802" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1758033643" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -110,7 +110,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1757527802" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1758033643" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc410/i-oop/09-design-patterns/09-template-method/index.html">
     <div id="R-body" class="default-animation">
@@ -129,8 +129,8 @@
 
 <p>The last pattern we&rsquo;ll review in this course is the <strong>template method pattern</strong>. The <a href="https://en.wikipedia.org/wiki/Template_method_pattern" rel="external" target="_blank">template method pattern</a> is a pattern that is used to define the outline or skeleton of a method in an abstract parent class, while leaving the actual details of the implementation to the subclasses that inherit from the parent class. In this way, the parent class can enforce a particular structure or ordering of the steps performed in the method, making sure that any subclass will behave similarly.</p>
 <p>In this way, we avoid the problem of the subclass having to include large portions of the code from a method in the parent class when it only needs to change one aspect of the method. If that method is structured as a template method, then the subclass can just override the smaller portion that it needs to change.</p>
-<p><a href="#R-image-9bb52bd2b5a4f3b77ccb436a21e540a6" class="lightbox-link"><img alt="Template Method Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/template.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-9bb52bd2b5a4f3b77ccb436a21e540a6"><img alt="Template Method Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/template.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-c7a0b8a08816c0e8bafcb244d4faf1d5" class="lightbox-link"><img alt="Template Method Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/template.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c7a0b8a08816c0e8bafcb244d4faf1d5"><img alt="Template Method Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/template.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>In the UML diagram above, we see that the parent class contains a method called <code>templateMethod()</code>, which will in part call <code>primitive1()</code> and <code>primitive2()</code> as part of its code. In the subclass, the code for the two <code>primative</code> methods can be overridden, changing how parts of the <code>templateMethod()</code> works, but not the fact that <code>primitive1()</code> will be called before <code>primitive2()</code> within the <code>templateMethod()</code>.</p>
 <h3 id="example">Example</h3>
 <p>Let&rsquo;s look at a quick example. For this, we&rsquo;ll go back to our prior example involving decks of cards. The process of preparing for most games is the same, and follows these three steps:</p>
@@ -140,20 +140,20 @@
 <li>Deal the cards to the players.</li>
 </ol>
 <p>Then, each individual game can modify that process a bit based on the rules of the game. So, let&rsquo;s see what that might look like in code.</p>
-<div class="tab-panel" data-tab-group="21f7e55ee030510ff42e9368fb1531fd">
+<div class="tab-panel" data-tab-group="8758566bb1fd68b293a6145d1833fa29">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('21f7e55ee030510ff42e9368fb1531fd','java')"
+      onclick="switchTab('8758566bb1fd68b293a6145d1833fa29','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('21f7e55ee030510ff42e9368fb1531fd','python')"
+      onclick="switchTab('8758566bb1fd68b293a6145d1833fa29','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -225,20 +225,20 @@
 </div>
 <p>First, we create the abstract <code>CardGame</code> class that includes the template method <code>prepareGame()</code>. It calls three abstract methods, <code>getDeck()</code>, <code>prepareDeck()</code>, and <code>dealCards()</code>, which need to be overridden by the subclasses.</p>
 <p>Next, let&rsquo;s explore what this subclass might look like for the game <a href="https://en.wikipedia.org/wiki/Hearts_(card_game)" rel="external" target="_blank">Hearts</a>. That game consists of 4 players, uses a standard 52 card deck, and deals 13 cards to each player.</p>
-<div class="tab-panel" data-tab-group="4f05967a5f193eb56b10157f5e0c4a2c">
+<div class="tab-panel" data-tab-group="41c5582f068a503dc5085c8a683da259">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('4f05967a5f193eb56b10157f5e0c4a2c','java')"
+      onclick="switchTab('41c5582f068a503dc5085c8a683da259','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('4f05967a5f193eb56b10157f5e0c4a2c','python')"
+      onclick="switchTab('41c5582f068a503dc5085c8a683da259','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -331,9 +331,9 @@
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1757527802" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1757527802" defer></script>
-    <script src="/cc410/js/theme.min.js?1757527802" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1757527802" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1758033643" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758033643" defer></script>
+    <script src="/cc410/js/theme.min.js?1758033643" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1758033643" defer></script>
   </body>
 </html>
