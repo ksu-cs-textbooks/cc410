@@ -126,7 +126,7 @@ python3 -m mypy -p src --strict --html-report reports/mypy
 
 As always, let's break this command down into its separate parts:
 
-* `python3 -m mpyp` - we want to run the Mypy library as a Python module
+* `python3 -m mypy` - we want to run the Mypy library as a Python module
 * `-p src` - this tells Mypy to execute the code in our `src` meta package, which will include all source code files inside of that directory.
 * `--strict` - we want to enable all optional checks that Mypy can perform
 * `--html-report reports/mypy` - this will create an HTML report in the `reports/mypy` directory
