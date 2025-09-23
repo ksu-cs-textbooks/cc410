@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -40,27 +41,27 @@ When a program is executed on a computer, the operating system loads its code in
     <link href="/cc410/ii-gui/12-parallelism/02-processes/index.xml" rel="alternate" type="application/rss+xml" title="Processes :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/02-processes/tele.html" rel="alternate" type="text/html" title="Processes :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/02-processes/embed.html" rel="alternate" type="text/html" title="Processes :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1758033643" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758033643" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758033643" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1758033643" defer></script>
-    <script src="/cc410/js/search.min.js?1758033643" defer></script>
+    <link href="/cc410/images/favicon.ico?1758639063" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758639063" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758639063" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1758639063" defer></script>
+    <script src="/cc410/js/search.min.js?1758639063" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1758033643";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1758639063";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1758033643" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758033643" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1758033643" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1758033643" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1758639063" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758033643" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758033643" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1758033643" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1758033643" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1758639063" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -119,55 +120,14 @@ When a program is executed on a computer, the operating system loads its code in
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1758033643" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1758639063" rel="stylesheet">
   </head>
-  <body class="mobile-support print" data-url="/cc410/ii-gui/12-parallelism/02-processes/index.html">
+  <body class="mobile-support embed print" data-url="/cc410/ii-gui/12-parallelism/02-processes/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents">
-  <ul>
-    <li><a href="#process">Process</a></li>
-  </ul>
-</nav>
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/ii-gui/index.html"><span itemprop="name">GUI</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/ii-gui/12-parallelism/index.html"><span itemprop="name">Parallelism</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Processes</span><meta itemprop="position" content="4"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/ii-gui/12-parallelism/02-processes/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/12-parallelism/02-processes/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/12-parallelism/01-introduction/index.html" title="Introduction (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/12-parallelism/03-threads/index.html" title="Threads (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/12-parallelism/02-processes/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/ii-gui/12-parallelism/02-processes/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
-            </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      
+      
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable ii-gui" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -183,13 +143,13 @@ When a program is executed on a computer, the operating system loads its code in
 <p><a href="/cc410/ii-gui/12-parallelism/02-processes/video/index.html">Video Materials</a></p>
 <p>First, let&rsquo;s review how modern computers actually handle running multiple applications at once, and what that means for our own programs.</p>
 <h2 id="process">Process</h2>
-<p><a href="#R-image-f54b4027f2a389e2389c5f4e18bb31f6" class="lightbox-link"><img alt="HTOP" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/htop.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f54b4027f2a389e2389c5f4e18bb31f6"><img alt="HTOP" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/htop.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-2e55030022d163cccd302dbe2a9bc5ef" class="lightbox-link"><img alt="HTOP" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/htop.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2e55030022d163cccd302dbe2a9bc5ef"><img alt="HTOP" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/htop.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>When a program is executed on a computer, the operating system loads its code into memory and creates a <a href="https://en.wikipedia.org/wiki/Process_(computing)" rel="external" target="_blank"><strong>process</strong></a> to handle running that program. A process is simply an instance of a computer program that is running, just like an object is an instance of a class. Some programs, such as a web browser, allow us to create multiple processes of the same program, usually represented by multiple windows or tabs. The image above shows the <code>htop</code> command in Linux, which lists all of the processes running on the system. In Codio, we can use the <code>top</code> command in the Terminal to see the running processes - go ahead and try it!</p>
 <p>At some point during your experience working with a computer, you may have been told that a computer can only do one thing at a time, and that it appears to run multiple programs at the same time by quickly switching between them. That&rsquo;s mostly true, though in actuality there is a bit more nuance to it, which we&rsquo;ll discuss a bit later. For modern computer with multi-core processors, we can typically have one process running per core.</p>
 <p>In practice, an operating system may have tens or even hundreds of processes running at any given time. However, the computer it is running on may only have four or eight processor cores available. So, the operating system includes a <strong>scheduler</strong> that determines which processes should be executed at any given time, and most operating systems will switch between running processes thousands of times per second, making it appear to a user that all running processes are executing at the same time. This process of swapping between running processes is known as <strong>context switching</strong>.</p>
-<p><a href="#R-image-aaf24a5279850636e62f5e9491b5abf0" class="lightbox-link"><img alt="Process States" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/process_states.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-aaf24a5279850636e62f5e9491b5abf0"><img alt="Process States" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/process_states.svg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-981304963f6ef66972e2ce567b5d8738" class="lightbox-link"><img alt="Process States" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/process_states.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-981304963f6ef66972e2ce567b5d8738"><img alt="Process States" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/process_states.svg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>The diagram above shows the various states a process can be placed in by the scheduler in the operating system. When the process is able to execute, it is in the <strong>running</strong> state. When the scheduler is ready to pause it, it is placed into the <strong>waiting</strong> state. However, when it is trying to load a file or waiting on another task, it is instead in the <strong>blocked</strong> state until that operation has completed.</p>
 <p>When a process is <strong>waiting</strong> or <strong>blocked</strong>, the operating system could also decide that it needs to reclaim the memory used by this process. In that case, it can be <strong>swapped</strong> out of the processor&rsquo;s cache in place of another process. Of course, all of this happens at the microsecond level in modern processors, so a process can be running, waiting, blocked, swapped out of memory, and swapped back in memory, all within a single second.</p>
 <p>So, in the simplest version, each program we want to run is loaded into a process by the operating system, which handles scheduling that process to run on one of the cores of our processor. That&rsquo;s what we need to know for now, as we introduce the next concept, <strong>threads</strong>.</p>
@@ -210,17 +170,13 @@ When a program is executed on a computer, the operating system loads its code in
 </article>
         </div>
       </main>
-<div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
-<p>Last modified by:
-              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
-</p>
-
-</div>
+      
+      
+      
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1758033643" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758033643" defer></script>
-    <script src="/cc410/js/theme.min.js?1758033643" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1758639063" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758639063" defer></script>
+    <script src="/cc410/js/theme.min.js?1758639063" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1758639063" defer></script>
   </body>
 </html>

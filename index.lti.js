@@ -2152,6 +2152,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/05-debugging-logging/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week five announcements video for CC410 in fall 2025. This week you should be wrapping up a module on inheritance and polymorphism and playing around with an example on inheritance. Also in this week, we’ve got a start, stop, continue survey, which I think is one of the really important things I want you to get through in this class. So please take a little bit to work on that. That just gives me some quick feedback on how things are going. And hopefully you’ve got a little time to work on the final project because we’re working on a two-week module. There’s going to be a little bit of gap in there. So hopefully you can start working on some final project time as well.",
+    "modified": "2025-09-23T09:49:47-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 5",
+    "uri": "/cc410/x-weekly-updates/week05/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "Working with Python on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we’re going to use one such tool, called tox.\nTox tox is a tool that is developed to help automate and standardize the process of testing applications written in Python. It vastly simplifies many of the steps we’d have to follow to do this in our own project.",
     "modified": "2024-06-17T14:13:48-05:00",

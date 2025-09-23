@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 09:39:21 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 09:49:47 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;25 Week 1</title>
@@ -35,6 +35,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week four announcements video for CC410 in fall 2025. This week you should be wrapping up the next module, which is on documentation, testing, and creating a UML diagram for your project. You’re going to do a quick example where you add documentation and unit testing to an example project. And then you’re going to be working on the second restaurant project, which is all about adding documentation and unit testing to your restaurant project. That milestone can be pretty big, but hopefully it goes well. If you have any questions about unit tests you should be adding, please let me know.</description>
+    </item>
+    <item>
+      <title>Fall &#39;25 Week 5</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the week five announcements video for CC410 in fall 2025. This week you should be wrapping up a module on inheritance and polymorphism and playing around with an example on inheritance. Also in this week, we’ve got a start, stop, continue survey, which I think is one of the really important things I want you to get through in this class. So please take a little bit to work on that. That just gives me some quick feedback on how things are going. And hopefully you’ve got a little time to work on the final project because we’re working on a two-week module. There’s going to be a little bit of gap in there. So hopefully you can start working on some final project time as well.</description>
     </item>
   </channel>
 </rss>
