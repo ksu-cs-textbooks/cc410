@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -35,27 +34,27 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/index.xml" rel="alternate" type="application/rss+xml" title="Inspecting Behavior :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/tele.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/embed.html" rel="alternate" type="text/html" title="Inspecting Behavior :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1758639063" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758639063" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search.min.js?1758639063" defer></script>
+    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1758639063";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1758639063" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,17 +113,55 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#stack-trace">Stack Trace</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/index.html"><span itemprop="name">OOP</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/07-debugging-logging/index.html"><span itemprop="name">Debugging &amp; Logging</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Inspecting Behavior</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/i-oop/07-debugging-logging/04-inspecting-behavior.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/07-debugging-logging/03-inspecting-state/index.html" title="Inspecting State (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/07-debugging-logging/05-debuggers/index.html" title="Debuggers (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/07-debugging-logging/04-inspecting-behavior/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable i-oop" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -138,20 +175,20 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
 <h2 id="stack-trace">Stack Trace</h2>
 <p>One of the most useful ways to inspect the behavior of our application is to look at the <strong>call stack</strong> or <strong>stack trace</strong> of the program when it reaches an exception. The call stack will list all of the functions currently being executed, even including the individual line numbers of the currently executed piece of code.</p>
 <p>For example, consider this code:</p>
-<div class="tab-panel" data-tab-group="7335dc059944b907f326ef0f0089220e">
+<div class="tab-panel" data-tab-group="522fefd171d8308aa9d2a8ee119833a2">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('7335dc059944b907f326ef0f0089220e','java')"
+      onclick="switchTab('522fefd171d8308aa9d2a8ee119833a2','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('7335dc059944b907f326ef0f0089220e','python')"
+      onclick="switchTab('522fefd171d8308aa9d2a8ee119833a2','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -202,20 +239,20 @@ Stack Trace One of the most useful ways to inspect the behavior of our applicati
   </div>
 </div>
 <p>This code includes a chain of three functions, and the innermost function will throw an exception. When we run this code, we&rsquo;ll get the following error messages:</p>
-<div class="tab-panel" data-tab-group="9862c5378cf3657e0b3be49283df5858">
+<div class="tab-panel" data-tab-group="5756d6ddab95f88b1aff7e4542abc7de">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9862c5378cf3657e0b3be49283df5858','java')"
+      onclick="switchTab('5756d6ddab95f88b1aff7e4542abc7de','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9862c5378cf3657e0b3be49283df5858','python')"
+      onclick="switchTab('5756d6ddab95f88b1aff7e4542abc7de','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -251,24 +288,24 @@ Exception: Test Exception</code></pre></div>
   </div>
 </div>
 <p>As we can see, both Java and Python will automatically print a <strong>stack trace</strong> of the exact functions and lines of code that we executed when we were reaching the error. Recall that this relates to the call stack in memory that is created while this program is executed:</p>
-<p><a href="#R-image-e4e70875765a2493360cf7981ddf9c58" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e4e70875765a2493360cf7981ddf9c58"><img alt="Call Stack" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
+<p><a href="#R-image-759609a342aa78966b30bdfc5d96f049" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-759609a342aa78966b30bdfc5d96f049"><img alt="Call Stack" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
 <p>As we can see, Java will print the innermost call at the top of the call stack, whereas Python will invert the order and put the innermost call at the end. So, you&rsquo;ll have to read carefully to make sure you are interpreting the call stack correctly.</p>
 <p>What if we want to get a call stack without crashing our program? Both Java and Python support a method for this:</p>
-<div class="tab-panel" data-tab-group="5820f23a871da7545cb17136e7b4fe1d">
+<div class="tab-panel" data-tab-group="89d3e5f1a8e0cfa34bd34ba4faf488ad">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('5820f23a871da7545cb17136e7b4fe1d','java')"
+      onclick="switchTab('89d3e5f1a8e0cfa34bd34ba4faf488ad','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('5820f23a871da7545cb17136e7b4fe1d','python')"
+      onclick="switchTab('89d3e5f1a8e0cfa34bd34ba4faf488ad','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -297,17 +334,17 @@ Exception: Test Exception</code></pre></div>
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1758639063" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758639063" defer></script>
-    <script src="/cc410/js/theme.min.js?1758639063" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1758639063" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
+    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
   </body>
 </html>

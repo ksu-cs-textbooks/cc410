@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -35,27 +34,27 @@ Python Docstrings Unlike most other programming languages, which specify that do
     <link href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.xml" rel="alternate" type="application/rss+xml" title="Documentation :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/tele.html" rel="alternate" type="text/html" title="Documentation :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/embed.html" rel="alternate" type="text/html" title="Documentation :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1758639063" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758639063" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search.min.js?1758639063" defer></script>
+    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1758639063";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1758639063" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,14 +113,70 @@ Python Docstrings Unlike most other programming languages, which specify that do
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.html">
+  <body class="mobile-support print" data-url="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#python-docstrings">Python Docstrings</a></li>
+    <li><a href="#file-docstring">File Docstring</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#class-docstring">Class Docstring</a></li>
+    <li><a href="#function-docstring">Function Docstring</a></li>
+    <li><a href="#other-comments">Other Comments</a></li>
+    <li><a href="#documenting-tests">Documenting Tests</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#generating-documentation-with-pdoc3">Generating Documentation with pdoc3</a></li>
+    <li><a href="#integrating-with-tox">Integrating with tox</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/index.html"><span itemprop="name">Hello Real World</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/04-python/index.html"><span itemprop="name">Python</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Documentation</span><meta itemprop="position" content="5"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/z-examples/01-hello-real-world/04-python/07-documentation.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/index.html" title="Code Coverage (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html" title="Flake8 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -311,8 +366,8 @@ Python Docstrings Unlike most other programming languages, which specify that do
 <p>Once it is there, we can install it by going to the <code>python</code> directory in a Linux terminal and running this command:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install -r requirements.txt</span></span></code></pre></div>
 <p>As before, if everything works correctly we should see that pdoc3 was installed:</p>
-<p><a href="#R-image-a6c6862e57b34e36fbb36d1620ce1b40" class="lightbox-link"><img alt="Install pdoc" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27installpdoc.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a6c6862e57b34e36fbb36d1620ce1b40"><img alt="Install pdoc" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27installpdoc.png"></a></p>
+<p><a href="#R-image-60066eace9cde6c580aeb125c7d583ba" class="lightbox-link"><img alt="Install pdoc" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27installpdoc.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-60066eace9cde6c580aeb125c7d583ba"><img alt="Install pdoc" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27installpdoc.png"></a></p>
 <p>Once we&rsquo;ve installed pdoc3, we can use the following command from within the <code>python</code> directory to generate our documentation:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m pdoc --html --force --output-dir reports/doc .</span></span></code></pre></div>
 <p>Let&rsquo;s look at that command to understand what it does:</p>
@@ -324,14 +379,14 @@ Python Docstrings Unlike most other programming languages, which specify that do
 <li><code>.</code> - the period at the end <code>.</code> represents the current directory in Linux. So, it is telling pdoc to generate documentation starting at the current directory, which should be <code>python</code>. This will make sure that both our <code>src</code> and <code>test</code> folders and all the code they contain are included.</li>
 </ul>
 <p>Once it has been executed, we should now see a new directory called <code>doc</code> in our <code>reports</code> folder:</p>
-<p><a href="#R-image-d90b0c0d2180d8f68f2f26a3f00416bc" class="lightbox-link"><img alt="Pdoc3 Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27pdocreport.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d90b0c0d2180d8f68f2f26a3f00416bc"><img alt="Pdoc3 Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27pdocreport.png"></a></p>
+<p><a href="#R-image-0231ddd4c1813414b237a94dd1c0fdb1" class="lightbox-link"><img alt="Pdoc3 Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27pdocreport.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0231ddd4c1813414b237a94dd1c0fdb1"><img alt="Pdoc3 Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27pdocreport.png"></a></p>
 <p>To open the report, we can <strong>right-click</strong> on the <code>reports/doc/python/index.html</code> file and choose <strong>Preview Static</strong>. We should see a webpage that looks like this:</p>
-<p><a href="#R-image-1c4894bfc397a7dedb9e8020c0a0e1e6" class="lightbox-link"><img alt="pdoc HTML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27pdochtml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1c4894bfc397a7dedb9e8020c0a0e1e6"><img alt="pdoc HTML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27pdochtml.png"></a></p>
+<p><a href="#R-image-18cd69676eef01d5a446086ed068906e" class="lightbox-link"><img alt="pdoc HTML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27pdochtml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-18cd69676eef01d5a446086ed068906e"><img alt="pdoc HTML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27pdochtml.png"></a></p>
 <p>We can follow the links on that page to explore the entirety of our project. For example, if we drill down to the <code>main</code> method in the <code>HelloWorld</code> class, we can see the &ldquo;Args&rdquo; section and how it appears in the documentation. We can even show the original source code for the method directly from the documentation:</p>
-<p><a href="#R-image-1f999940229d10eeda4021430af9c9a1" class="lightbox-link"><img alt="pdoc Main Method" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27pdocmethod.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1f999940229d10eeda4021430af9c9a1"><img alt="pdoc Main Method" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27pdocmethod.png"></a></p>
+<p><a href="#R-image-36f5637ad599f75af43039199c883be7" class="lightbox-link"><img alt="pdoc Main Method" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/27pdocmethod.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-36f5637ad599f75af43039199c883be7"><img alt="pdoc Main Method" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/27pdocmethod.png"></a></p>
 <p>As we can see, this documentation would be very valuable to anyone who wants to explore and learn more about our code. So, we&rsquo;ll need to make sure we always include helpful docstrings in our Python code!</p>
 <h2 id="integrating-with-tox">Integrating with tox</h2>
 <p>Integrating pdoc into tox is simple! We&rsquo;ll just add the command we used above to our commands list in <code>tox.ini</code>. Once we&rsquo;ve done that, it should look like this:</p>
@@ -347,13 +402,17 @@ Python Docstrings Unlike most other programming languages, which specify that do
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1758639063" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758639063" defer></script>
-    <script src="/cc410/js/theme.min.js?1758639063" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1758639063" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
+    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
   </body>
 </html>

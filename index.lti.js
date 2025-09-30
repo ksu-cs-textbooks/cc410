@@ -2360,6 +2360,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/06-design-patterns/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the Week 6 Announcement Studio for CC410 in fall 2025. So this week you should be working up the module that introduces debugging and logging. You’ll also do some Lambda expressions. There’s an example around that. And then you turning in the third restaurant milestone, which is all about inheritance and polymorphism and adding some of that to your project. And hopefully you should be scheduling the second final project meeting with me sometime in the next week or two so we can start talking about some specific ideas you might have about your final project in this class.",
+    "modified": "2025-09-30T12:21:03-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 6",
+    "uri": "/cc410/x-weekly-updates/week06/index.html"
+  },
+  {
     "breadcrumb": "Introduction",
     "description": "CC 410 - Advanced Programming - Fall 2025 Previous Versions\nInstructor Contact Information Instructor: Mr. Russell Feldhausen (russfeld AT ksu DOT edu) Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Book time to meet with me Preferred Methods of Communication: Email: Students should email cc410-help (cc410-help@KSUemailProd.onmicrosoft.com). We will try to respond within one business day. Ed Discussion: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well. Phone/Text: Emergencies only! We will do our best to respond as quickly as we can. Prerequisites CC 310 - Data Structures \u0026 Algorithms I (taken on or after Fall 2024) CC 315 - Data Structures \u0026 Algorithms II (taken prior to Fall 2024) Course Overview Advanced programming techniques and projects. Concepts from object oriented programming, inheritance and polymorphism. GUI programming and event-driven programming. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.",
     "modified": "2025-08-20T11:49:46-05:00",

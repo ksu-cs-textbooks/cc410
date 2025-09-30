@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 6 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week06/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the Week 6 Announcement Studio for CC410 in fall 2025. So this week you should be working up the module that introduces debugging and logging. You’ll also do some Lambda expressions. There’s an example around that. And then you turning in the third restaurant milestone, which is all about inheritance and polymorphism and adding some of that to your project. And hopefully you should be scheduling the second final project meeting with me sometime in the next week or two so we can start talking about some specific ideas you might have about your final project in this class.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week06/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

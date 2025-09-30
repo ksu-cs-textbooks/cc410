@@ -40,27 +40,27 @@ When a program is executed on a computer, the operating system loads its code in
     <link href="/cc410/ii-gui/12-parallelism/02-processes/index.print.html" rel="alternate" type="text/html" title="Processes :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/02-processes/tele.html" rel="alternate" type="text/html" title="Processes :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/02-processes/embed.html" rel="alternate" type="text/html" title="Processes :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1758639063" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758639063" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search.min.js?1758639063" defer></script>
+    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1758639063";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1758639063" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1759252931" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -119,7 +119,7 @@ When a program is executed on a computer, the operating system loads its code in
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/ii-gui/12-parallelism/02-processes/index.html">
     <div id="R-body" class="default-animation">
@@ -185,13 +185,13 @@ When a program is executed on a computer, the operating system loads its code in
 <p><a href="/cc410/ii-gui/12-parallelism/02-processes/video/index.html">Video Materials</a></p>
 <p>First, let&rsquo;s review how modern computers actually handle running multiple applications at once, and what that means for our own programs.</p>
 <h2 id="process">Process</h2>
-<p><a href="#R-image-c0a028fc4c661317b235d734347cce24" class="lightbox-link"><img alt="HTOP" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/htop.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c0a028fc4c661317b235d734347cce24"><img alt="HTOP" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/htop.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-3279b65fb303c8673dd330b91e804621" class="lightbox-link"><img alt="HTOP" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/htop.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3279b65fb303c8673dd330b91e804621"><img alt="HTOP" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/htop.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>When a program is executed on a computer, the operating system loads its code into memory and creates a <a href="https://en.wikipedia.org/wiki/Process_(computing)" rel="external" target="_blank"><strong>process</strong></a> to handle running that program. A process is simply an instance of a computer program that is running, just like an object is an instance of a class. Some programs, such as a web browser, allow us to create multiple processes of the same program, usually represented by multiple windows or tabs. The image above shows the <code>htop</code> command in Linux, which lists all of the processes running on the system. In Codio, we can use the <code>top</code> command in the Terminal to see the running processes - go ahead and try it!</p>
 <p>At some point during your experience working with a computer, you may have been told that a computer can only do one thing at a time, and that it appears to run multiple programs at the same time by quickly switching between them. That&rsquo;s mostly true, though in actuality there is a bit more nuance to it, which we&rsquo;ll discuss a bit later. For modern computer with multi-core processors, we can typically have one process running per core.</p>
 <p>In practice, an operating system may have tens or even hundreds of processes running at any given time. However, the computer it is running on may only have four or eight processor cores available. So, the operating system includes a <strong>scheduler</strong> that determines which processes should be executed at any given time, and most operating systems will switch between running processes thousands of times per second, making it appear to a user that all running processes are executing at the same time. This process of swapping between running processes is known as <strong>context switching</strong>.</p>
-<p><a href="#R-image-96fc99e5f755dfafd2cd54207bdd09d2" class="lightbox-link"><img alt="Process States" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/process_states.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-96fc99e5f755dfafd2cd54207bdd09d2"><img alt="Process States" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/process_states.svg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p><a href="#R-image-fff64614c85632d35901141664e6ee1a" class="lightbox-link"><img alt="Process States" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/process_states.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fff64614c85632d35901141664e6ee1a"><img alt="Process States" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/process_states.svg"></a><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>The diagram above shows the various states a process can be placed in by the scheduler in the operating system. When the process is able to execute, it is in the <strong>running</strong> state. When the scheduler is ready to pause it, it is placed into the <strong>waiting</strong> state. However, when it is trying to load a file or waiting on another task, it is instead in the <strong>blocked</strong> state until that operation has completed.</p>
 <p>When a process is <strong>waiting</strong> or <strong>blocked</strong>, the operating system could also decide that it needs to reclaim the memory used by this process. In that case, it can be <strong>swapped</strong> out of the processor&rsquo;s cache in place of another process. Of course, all of this happens at the microsecond level in modern processors, so a process can be running, waiting, blocked, swapped out of memory, and swapped back in memory, all within a single second.</p>
 <p>So, in the simplest version, each program we want to run is loaded into a process by the operating system, which handles scheduling that process to run on one of the cores of our processor. That&rsquo;s what we need to know for now, as we introduce the next concept, <strong>threads</strong>.</p>
@@ -496,7 +496,8 @@ When a program is executed on a computer, the operating system loads its code in
             <li class="" data-nav-id="/cc410/x-weekly-updates/week02/index.html"><a class="padding" href="/cc410/x-weekly-updates/week02/index.html">2. Fall &#39;25 Week 2</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week03/index.html"><a class="padding" href="/cc410/x-weekly-updates/week03/index.html">3. Fall &#39;25 Week 3</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week04/index.html"><a class="padding" href="/cc410/x-weekly-updates/week04/index.html">4. Fall &#39;25 Week 4</a></li>
-            <li class="" data-nav-id="/cc410/x-weekly-updates/week05/index.html"><a class="padding" href="/cc410/x-weekly-updates/week05/index.html">5. Fall &#39;25 Week 5</a></li></ul></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week05/index.html"><a class="padding" href="/cc410/x-weekly-updates/week05/index.html">5. Fall &#39;25 Week 5</a></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week06/index.html"><a class="padding" href="/cc410/x-weekly-updates/week06/index.html">6. Fall &#39;25 Week 6</a></li></ul></li>
             <li class="" data-nav-id="/cc410/z-examples/index.html"><input type="checkbox" id="R-section-e095baae70451690f717ed79b3e70267" aria-controls="R-subsections-e095baae70451690f717ed79b3e70267"><label for="R-section-e095baae70451690f717ed79b3e70267"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/index.html">Example Projects</a><ul id="R-subsections-e095baae70451690f717ed79b3e70267" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/00-new-project/index.html"><a class="padding" href="/cc410/z-examples/00-new-project/index.html">0. New Project Checklist</a></li>
             <li class="alwaysopen " data-nav-id="/cc410/z-examples/01-hello-real-world/index.html"><input type="checkbox" id="R-section-8fa1fe250a4b987a2c9aac0ba7e84fad" aria-controls="R-subsections-8fa1fe250a4b987a2c9aac0ba7e84fad" checked><label for="R-section-8fa1fe250a4b987a2c9aac0ba7e84fad"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/index.html">1. Hello Real World</a><ul id="R-subsections-8fa1fe250a4b987a2c9aac0ba7e84fad" class="collapsible-menu">
@@ -643,8 +644,8 @@ When a program is executed on a computer, the operating system loads its code in
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1758639063" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758639063" defer></script>
-    <script src="/cc410/js/theme.min.js?1758639063" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
+    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
   </body>
 </html>

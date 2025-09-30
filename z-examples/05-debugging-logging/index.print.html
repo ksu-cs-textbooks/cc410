@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -33,27 +32,27 @@ The next page will discuss the overall requirements that this example project sh
     <link href="/cc410/z-examples/05-debugging-logging/index.xml" rel="alternate" type="application/rss+xml" title="Debugging &amp; Logging :: CC 410 Textbook">
     <link href="/cc410/z-examples/05-debugging-logging/tele.html" rel="alternate" type="text/html" title="Debugging &amp; Logging :: CC 410 Textbook">
     <link href="/cc410/z-examples/05-debugging-logging/embed.html" rel="alternate" type="text/html" title="Debugging &amp; Logging :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1758639063" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758639063" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search.min.js?1758639063" defer></script>
+    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1758639063";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1758639063" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -112,17 +111,50 @@ The next page will discuss the overall requirements that this example project sh
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/z-examples/05-debugging-logging/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Debugging &amp; Logging</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/z-examples/05-debugging-logging/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/04-inheritance/02-python/index.html" title="Python (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/01-requirements/index.html" title="Assignment Requirements (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -254,10 +286,10 @@ The next page will discuss the overall requirements that this example project sh
 <li><a href="https://www.vogella.com/tutorials/Logging/article.html" rel="external" target="_blank">Java Logging API Tutorial</a></li>
 </ul>
 <h2 id="configuring-codio-debugger">Configuring Codio Debugger</h2>
-<p><a href="#R-image-ddb38774fe7c9c3fd291882ecc737daf" class="lightbox-link"><img alt="Java" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/java.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ddb38774fe7c9c3fd291882ecc737daf"><img alt="Java" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/java.png"></a></p>
-<p><a href="#R-image-4e9ada256476cca4d666686fd3632d7d" class="lightbox-link"><img alt="Java 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/java2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-4e9ada256476cca4d666686fd3632d7d"><img alt="Java 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/java2.png"></a></p>
+<p><a href="#R-image-b67ce8a67f39255c9f02fcee6c89c0a8" class="lightbox-link"><img alt="Java" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/java.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b67ce8a67f39255c9f02fcee6c89c0a8"><img alt="Java" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/java.png"></a></p>
+<p><a href="#R-image-66de534cc01cd5f5026069253346cc54" class="lightbox-link"><img alt="Java 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/java2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-66de534cc01cd5f5026069253346cc54"><img alt="Java 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/java2.png"></a></p>
 <p>Make sure the <code>application</code> section of <code>build.gradle</code> is set to the correct application.</p>
 <p>Can copy unit test code to a test <code>main</code> function for testing. Codio doesn&rsquo;t have a good way to individually debug a single unit test, but some IDEs do.</p>
 <h2 id="gradle-changes">Gradle Changes</h2>
@@ -349,10 +381,10 @@ The next page will discuss the overall requirements that this example project sh
 <li><a href="https://docs.python.org/3/howto/logging.html" rel="external" target="_blank">Logging HOWTO</a></li>
 </ul>
 <h2 id="configuring-codio-debugger">Configuring Codio Debugger</h2>
-<p><a href="#R-image-bf75ccfc8de3b290bc9a6e174a3ed27e" class="lightbox-link"><img alt="Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-bf75ccfc8de3b290bc9a6e174a3ed27e"><img alt="Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python.png"></a></p>
-<p><a href="#R-image-474de5d753021d41932601ad43b10236" class="lightbox-link"><img alt="Python 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-474de5d753021d41932601ad43b10236"><img alt="Python 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python2.png"></a></p>
+<p><a href="#R-image-f62fc063dc2ea24ad679779fdec48e5d" class="lightbox-link"><img alt="Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f62fc063dc2ea24ad679779fdec48e5d"><img alt="Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python.png"></a></p>
+<p><a href="#R-image-d83dac7ec4a406da2de34647ca637133" class="lightbox-link"><img alt="Python 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d83dac7ec4a406da2de34647ca637133"><img alt="Python 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python2.png"></a></p>
 <p>Edit <code>src/__main__.py</code> to set Python path:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
 </span></span><span style="display:flex;"><span>sys<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#34;/home/codio/workspace/python/&#34;</span>)</span></span></code></pre></div>
@@ -439,8 +471,8 @@ The next page will discuss the overall requirements that this example project sh
 <p>So, here goes.</p>
 <h3 id="the-error">The Error</h3>
 <p>When you run <code>pytest</code> in Example 5 after adding some logging code as directed in the video, you will see many pages of errors printed to the terminal. In my testing, the terminal in Codio printed errors for several minutes before finally stopping. A screenshot of a small portion of those errors is below.</p>
-<p><a href="#R-image-21d96951989b069bdccd053847dd6d82" class="lightbox-link"><img alt="Errors" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/410_e5_errors.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-21d96951989b069bdccd053847dd6d82"><img alt="Errors" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/410_e5_errors.png"></a></p>
+<p><a href="#R-image-21be93acbda1420ff9ee94c8c50b37fa" class="lightbox-link"><img alt="Errors" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/410_e5_errors.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-21be93acbda1420ff9ee94c8c50b37fa"><img alt="Errors" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/410_e5_errors.png"></a></p>
 <p>When this happens, you may be able to use <kbd>CTRL</kbd> + <kbd>C</kbd> to stop the output, but in many cases I simply had to close the terminal tab in Codio.</p>
 <h3 id="what-happened">What Happened</h3>
 <p>When I developed this example, I focused on the debugging portion first, and then later added the logging code. However, I neglected to run <code>pytest</code> after adding the logging code to my model solution, and did not encounter this error in my initial testing. That was an oversight on my part.</p>
@@ -501,17 +533,17 @@ The next page will discuss the overall requirements that this example project sh
           </section>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/cb8d27fac362d7f59a5835bd828ec5da3dc25158">Sep 8, 2021</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1758639063" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758639063" defer></script>
-    <script src="/cc410/js/theme.min.js?1758639063" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1758639063" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
+    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
   </body>
 </html>

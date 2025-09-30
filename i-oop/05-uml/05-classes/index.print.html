@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -37,27 +36,27 @@ The first compartment identifies the class - it contains the name of the class. 
     <link href="/cc410/i-oop/05-uml/05-classes/index.xml" rel="alternate" type="application/rss+xml" title="Classes :: CC 410 Textbook">
     <link href="/cc410/i-oop/05-uml/05-classes/tele.html" rel="alternate" type="text/html" title="Classes :: CC 410 Textbook">
     <link href="/cc410/i-oop/05-uml/05-classes/embed.html" rel="alternate" type="text/html" title="Classes :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1758639063" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1758639063" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/search.min.js?1758639063" defer></script>
+    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/search.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1758639063";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1758639063" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1758639063" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1758639063" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1758639063" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1758639063" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -116,14 +115,62 @@ The first compartment identifies the class - it contains the name of the class. 
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1758639063" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
   </head>
-  <body class="mobile-support embed print" data-url="/cc410/i-oop/05-uml/05-classes/index.html">
+  <body class="mobile-support print" data-url="/cc410/i-oop/05-uml/05-classes/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#attributes">Attributes</a></li>
+        <li><a href="#accessor-methods">Accessor Methods</a></li>
+        <li><a href="#operations">Operations</a></li>
+      </ul>
+    </li>
+    <li><a href="#static-and-abstract">Static and Abstract</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/index.html"><span itemprop="name">OOP</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/05-uml/index.html"><span itemprop="name">UML</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Classes</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/i-oop/05-uml/05-classes/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/05-uml/05-classes/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/05-uml/04-typed-elements/index.html" title="Typed Elements (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/05-uml/06-associations/index.html" title="Associations (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/05-uml/05-classes/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/05-uml/05-classes/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable i-oop" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -138,8 +185,8 @@ The first compartment identifies the class - it contains the name of the class. 
 
 <p><a href="/cc410/i-oop/05-uml/05-classes/video/index.html">Video Materials</a></p>
 <p>In a UML class diagram, individual classes are represented with a box divided into three compartments, each of which is for displaying specific information:</p>
-<p><a href="#R-image-99da41e584de27e85e77c94d93c33f34" class="lightbox-link"><img alt="Class Diagram example" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_classbox.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-99da41e584de27e85e77c94d93c33f34"><img alt="Class Diagram example" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_classbox.svg"></a></p>
+<p><a href="#R-image-8469898659f17ed197c8ffa6a4df17de" class="lightbox-link"><img alt="Class Diagram example" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_classbox.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8469898659f17ed197c8ffa6a4df17de"><img alt="Class Diagram example" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_classbox.svg"></a></p>
 <!-- 
 <pre class="mermaid align-center zoomable">
 classDiagram
@@ -173,20 +220,20 @@ class Fruit{
 <h3 id="attributes">Attributes</h3>
 <p>The <em>attributes</em> in UML represent the <em>state</em> of an object.  For most object-oriented languages, this would correspond to the <em>fields</em> and <em>properties</em> of the class.</p>
 <p>We indicate fields in our UML diagram with a typed element. So, to create a private Boolean variable named <code>blended</code>, we would include the following:</p>
-<div class="tab-panel" data-tab-group="c91ff35193056953325857719c89a532">
+<div class="tab-panel" data-tab-group="8dd04932df646fedfea5de2263e9e855">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c91ff35193056953325857719c89a532','java')"
+      onclick="switchTab('8dd04932df646fedfea5de2263e9e855','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c91ff35193056953325857719c89a532','python')"
+      onclick="switchTab('8dd04932df646fedfea5de2263e9e855','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -214,20 +261,20 @@ class Fruit{
 <h3 id="accessor-methods">Accessor Methods</h3>
 <p>Java and Python handle accessor methods differently, and they can be denoted in UML in many different ways.</p>
 <p>A general solution would be to include a <em>stereotype</em> after the element, indicating if a public getter or setter should be created for that element. So, to create a getter and a setter for our <code>blended</code> attribute, we could do the following:</p>
-<div class="tab-panel" data-tab-group="c1748b0f09cb3b9d7b40ce6f8bbc3987">
+<div class="tab-panel" data-tab-group="2f60f68268a9cc136822699b75a16cbb">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c1748b0f09cb3b9d7b40ce6f8bbc3987','java')"
+      onclick="switchTab('2f60f68268a9cc136822699b75a16cbb','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c1748b0f09cb3b9d7b40ce6f8bbc3987','python')"
+      onclick="switchTab('2f60f68268a9cc136822699b75a16cbb','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -257,20 +304,20 @@ class Fruit{
 <p>The  <code>[visibility]</code> portion uses the same symbols as typed elements, with the same correspondences. The <code>name</code> is the name of the method, and the <code>[parameter list]</code> is a comma-separated list of typed elements, corresponding to the parameters of the method. The <code>[:return type]</code> indicates the return type for the method. That portion can be omitted if the method doesn&rsquo;t explicitly return a value (<code>void</code> in Java or <code>None</code> in Python).</p>
 <p>Thus, in the example above, the protected method <code>Blend</code> has no parameters and returns a string.</p>
 <p>Consider a method that adds together two integers and returns the result. The examples below show how the method&rsquo;s <em>signature</em> corresponds to its UML element.</p>
-<div class="tab-panel" data-tab-group="1624f53bda4edbe9bf06ee240d021ac8">
+<div class="tab-panel" data-tab-group="49e577af978203683402bc15f39f9256">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('1624f53bda4edbe9bf06ee240d021ac8','java')"
+      onclick="switchTab('49e577af978203683402bc15f39f9256','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('1624f53bda4edbe9bf06ee240d021ac8','python')"
+      onclick="switchTab('49e577af978203683402bc15f39f9256','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -307,27 +354,31 @@ class Fruit{
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/js-yaml/js-yaml.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-color.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-dispatch.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-drag.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-ease.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-interpolate.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-selection.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-timer.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-transition.min.js?1758639063" defer></script>
-    <script src="/cc410/js/d3/d3-zoom.min.js?1758639063" defer></script>
-    <script src="/cc410/js/mermaid/mermaid.min.js?1758639063" defer></script>
+    <script src="/cc410/js/js-yaml/js-yaml.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-color.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-dispatch.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-drag.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-ease.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-interpolate.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-selection.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-timer.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-transition.min.js?1759252931" defer></script>
+    <script src="/cc410/js/d3/d3-zoom.min.js?1759252931" defer></script>
+    <script src="/cc410/js/mermaid/mermaid.min.js?1759252931" defer></script>
     <script>
       window.relearn.themeUseMermaid = JSON.parse("{ \"securityLevel\": \"loose\" }");
     </script>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1758639063" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1758639063" defer></script>
-    <script src="/cc410/js/theme.min.js?1758639063" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1758639063" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
+    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
   </body>
 </html>
