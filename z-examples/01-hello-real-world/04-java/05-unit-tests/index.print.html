@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -35,27 +34,27 @@ Unit Tests In our Java application, the unit tests are stored in the app/src/tes
     <link href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.xml" rel="alternate" type="application/rss+xml" title="Unit Tests :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/tele.html" rel="alternate" type="text/html" title="Unit Tests :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/embed.html" rel="alternate" type="text/html" title="Unit Tests :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search.min.js?1759252931" defer></script>
+    <link href="/cc410/images/favicon.ico?1759860913" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759860913" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759860913";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759860913" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,17 +113,58 @@ Unit Tests In our Java application, the unit tests are stored in the app/src/tes
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759860913" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#unit-tests">Unit Tests</a></li>
+    <li><a href="#write-code-in-helloworldtestjava">Write Code in HelloWorldTest.java</a></li>
+    <li><a href="#running-unit-tests">Running Unit Tests</a></li>
+    <li><a href="#test-failures">Test Failures</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/index.html"><span itemprop="name">Hello Real World</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/04-java/index.html"><span itemprop="name">Java</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Unit Tests</span><meta itemprop="position" content="5"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/z-examples/01-hello-real-world/04-java/05-unit-tests.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html" title="Git Commit & Push (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html" title="Code Coverage (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -141,8 +181,8 @@ Unit Tests In our Java application, the unit tests are stored in the app/src/tes
 <h2 id="unit-tests">Unit Tests</h2>
 <p>In our Java application, the unit tests are stored in the <code>app/src/test/java</code> directory. In that directory, there is a directory for <code>hello</code> that represents a package, just like the <code>hello</code> directory in the <code>app/src/main/java</code> where our program code lives. It is typically good practice to have packages in our unit tests that match the packages in our source code, so we&rsquo;ll leave it as is.</p>
 <p>However, just like we renamed <code>App.java</code> to <code>HelloWorld.java</code>, let&rsquo;s do the same with the <code>AppTest.java</code> file, found in <code>app/src/test/java/hello</code>. After you rename it, it should look like this:</p>
-<p><a href="#R-image-673085a492e202ccde6ccfbbb0d40713" class="lightbox-link"><img alt="Rename AppTest" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/12renametest.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-673085a492e202ccde6ccfbbb0d40713"><img alt="Rename AppTest" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/12renametest.png"></a></p>
+<p><a href="#R-image-2c55713101101e61c0a4c6f320fb2210" class="lightbox-link"><img alt="Rename AppTest" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/12renametest.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2c55713101101e61c0a4c6f320fb2210"><img alt="Rename AppTest" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/12renametest.png"></a></p>
 <p>Thankfully, we don&rsquo;t have to do anything else after renaming this file, because, as we&rsquo;ll see shortly, Gradle is able to automatically find all of the unit test classes that exist in the <code>app/src/test</code> directory.</p>
 
 <details open class=" box cstyle notices info">
@@ -228,27 +268,27 @@ Unit Tests In our Java application, the unit tests are stored in the app/src/tes
 <p>Now that we&rsquo;ve written our unit test, we can use Gradle to execute them. To do that, simply open the Linux terminal, navigate to the <code>java</code> folder, and then run the following command:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gradle test</span></span></code></pre></div>
 <p>When you run this command for the first time, Gradle may take a moment to download the JUnit 5 libraries it needs. Once it is done, you&rsquo;ll get the usual response that the build was successful, as shown below:</p>
-<p><a href="#R-image-125238a04a0b955d2dd49ebd3b9643ee" class="lightbox-link"><img alt="Test Success" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/13test.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-125238a04a0b955d2dd49ebd3b9643ee"><img alt="Test Success" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/13test.png"></a></p>
+<p><a href="#R-image-479b7f8ad3879651beb1bc74ca36c453" class="lightbox-link"><img alt="Test Success" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/13test.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-479b7f8ad3879651beb1bc74ca36c453"><img alt="Test Success" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/13test.png"></a></p>
 <p>However, we might want to learn a bit more about what tests were executed and make sure it is working properly. So, we can look for the test report in the <code>build</code> folder. Specifically, you&rsquo;ll find it at <code>app/build/reports/tests/test/index.html</code>. So, find that file in the Codio file tree to the left and open it. When you do, you&rsquo;ll see a file full of HTML like this one:</p>
-<p><a href="#R-image-b51096e3f054462930852b3980c8b47a" class="lightbox-link"><img alt="Test Report HTML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/14html.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b51096e3f054462930852b3980c8b47a"><img alt="Test Report HTML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/14html.png"></a></p>
+<p><a href="#R-image-51805bd7462de029f66520b3976fa510" class="lightbox-link"><img alt="Test Report HTML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/14html.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-51805bd7462de029f66520b3976fa510"><img alt="Test Report HTML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/14html.png"></a></p>
 <p>That&rsquo;s really difficult to read, isn&rsquo;t it? Thankfully, we can tell Codio to open that HTML file as a webpage by <strong>right-clicking</strong> on it and selecting <strong>Preview Static</strong>:</p>
-<p><a href="#R-image-85f49fca90920e0fe8d5c59c99e7856d" class="lightbox-link"><img alt="Preview Static" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/14preview.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-85f49fca90920e0fe8d5c59c99e7856d"><img alt="Preview Static" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/14preview.png"></a></p>
+<p><a href="#R-image-a2fc467b606ec6578a59f0a0f25b9549" class="lightbox-link"><img alt="Preview Static" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/14preview.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a2fc467b606ec6578a59f0a0f25b9549"><img alt="Preview Static" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/14preview.png"></a></p>
 <p>If done correctly, you should see a webpage that looks like this:</p>
-<p><a href="#R-image-57cc0cb37e2e94c70e5fbfe3e945d011" class="lightbox-link"><img alt="Test Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/14webpage.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-57cc0cb37e2e94c70e5fbfe3e945d011"><img alt="Test Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/14webpage.png"></a></p>
+<p><a href="#R-image-55f2bb9ffe0db84bc6e343b381491068" class="lightbox-link"><img alt="Test Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/14webpage.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-55f2bb9ffe0db84bc6e343b381491068"><img alt="Test Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/14webpage.png"></a></p>
 <p>Hopefully, we should see that our code passed the test! We can click on the links on that page to dig deeper and see the results for specific tests classes or even individual tests.</p>
 <h2 id="test-failures">Test Failures</h2>
 <p>So, let&rsquo;s explore a bit. First, let&rsquo;s make a change to the unit test so that the program will fail. A great way to do this is to change the assertion on the last line of the unit test. Once you&rsquo;ve made that change, re-run the tests using the following command:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gradle test</span></span></code></pre></div>
 <p>This time, you&rsquo;ll get some different output:</p>
-<p><a href="#R-image-0a08ccc7c06c247fe19d22142a0ee0b5" class="lightbox-link"><img alt="Test Fail" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/15fail.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0a08ccc7c06c247fe19d22142a0ee0b5"><img alt="Test Fail" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/15fail.png"></a></p>
+<p><a href="#R-image-8ee2863c9e081888e2c8426fa1de3b90" class="lightbox-link"><img alt="Test Fail" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/15fail.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8ee2863c9e081888e2c8426fa1de3b90"><img alt="Test Fail" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/15fail.png"></a></p>
 <p>Here, we can see that JUnit will helpfully tell us the method name of each test that failed. We can now open the test report from before and dig into it to find exactly where the test failed and why. Here&rsquo;s what you might see:</p>
-<p><a href="#R-image-e9e44c4f7fdbe9301054eb17b904beaa" class="lightbox-link"><img alt="Test Fail Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/15failreport.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e9e44c4f7fdbe9301054eb17b904beaa"><img alt="Test Fail Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/15failreport.png"></a></p>
+<p><a href="#R-image-38dd5ab85da0ada62ed7ffdc05f5bf76" class="lightbox-link"><img alt="Test Fail Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/15failreport.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-38dd5ab85da0ada62ed7ffdc05f5bf76"><img alt="Test Fail Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/15failreport.png"></a></p>
 <p>The most important part is at the bottom of that file - it shows the exact assertion that failed and why. Below that, you&rsquo;ll see a full stack trace of what was happening when it fails. We&rsquo;ve highlighted the most important parts - the assertion that failed, and the line in the stack trace that shows exactly where in the unit test it failed.</p>
 <p>So, when a test fails, you can use that information to work backwards and figure out why it failed. Was the test incorrect? Did the source code of the application have a bug? Either of those could be a reason for a test failure. Hopefully you can use the information from the test report to find it and fix it!</p>
 
@@ -257,17 +297,17 @@ Unit Tests In our Java application, the unit tests are stored in the app/src/tes
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
-    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1759252931" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759860913" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759860913" defer></script>
+    <script src="/cc410/js/theme.min.js?1759860913" defer></script>
   </body>
 </html>

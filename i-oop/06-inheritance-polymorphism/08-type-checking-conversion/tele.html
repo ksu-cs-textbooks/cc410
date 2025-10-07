@@ -35,27 +35,27 @@
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.xml" rel="alternate" type="application/rss+xml" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.print.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/embed.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search.min.js?1759252931" defer></script>
+    <link href="/cc410/images/favicon.ico?1759860913" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759860913" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759860913";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1759252931" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1759860913" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,7 +114,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759860913" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.html">
     
@@ -135,20 +135,20 @@
 <h1 id="type-checking--conversion">Type Checking &amp; Conversion</h1>
 
 <p>You have probably used casting to convert numeric values from one type to another, i.e.:</p>
-<div class="tab-panel" data-tab-group="b8a27240e0ca0335d9a06d1fdc79bc3e">
+<div class="tab-panel" data-tab-group="1fb5104baf2fe2d1c6725c099b733e05">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b8a27240e0ca0335d9a06d1fdc79bc3e','java')"
+      onclick="switchTab('1fb5104baf2fe2d1c6725c099b733e05','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b8a27240e0ca0335d9a06d1fdc79bc3e','python')"
+      onclick="switchTab('1fb5104baf2fe2d1c6725c099b733e05','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -175,20 +175,20 @@ b: int = int(a)</code></pre></div>
 <p>What you are actually doing when you cast is <em>transforming a value from one type to another</em>.  In the first case, you are taking the value of <code>a</code>, which is the floating-point value <code>5.5</code>, and converting it to the equivalent integer value <code>5</code>.</p>
 <p>Both of these are examples of an <strong>explicit cast</strong>, since we are explicitly stating the type that we&rsquo;d like to convert our existing value to.</p>
 <p>In some languages, we can also perform an <strong>implicit cast</strong>. This is where the compiler or interpreter changes the type of our value behind the scenes for us.</p>
-<div class="tab-panel" data-tab-group="74914c6922c4ad87bd49fc004fe406ed">
+<div class="tab-panel" data-tab-group="6709690329a5eef4093b14aa4878ac45">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('74914c6922c4ad87bd49fc004fe406ed','java')"
+      onclick="switchTab('6709690329a5eef4093b14aa4878ac45','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('74914c6922c4ad87bd49fc004fe406ed','python')"
+      onclick="switchTab('6709690329a5eef4093b14aa4878ac45','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -226,20 +226,20 @@ b: float = a + 2.5;</code></pre></div>
 <p>However, if we try to treat it like an instance of the <code>GraduateStudent</code> class, it would fail with an <code>AttributeError</code>.</p>
 <h2 id="checking-types">Checking Types</h2>
 <p>Both Java and Python include special methods for determining if a particular object is compatible with a certain type.</p>
-<div class="tab-panel" data-tab-group="25eba347244fc19edde280183471bc93">
+<div class="tab-panel" data-tab-group="f0d909776ae138d993d039db96b8bd47">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('25eba347244fc19edde280183471bc93','java')"
+      onclick="switchTab('f0d909776ae138d993d039db96b8bd47','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('25eba347244fc19edde280183471bc93','python')"
+      onclick="switchTab('f0d909776ae138d993d039db96b8bd47','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -279,13 +279,13 @@ b: float = a + 2.5;</code></pre></div>
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
-    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759860913" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759860913" defer></script>
+    <script src="/cc410/js/theme.min.js?1759860913" defer></script>
       
       
       
     </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1759252931" defer></script>
+  <script src="/cc410/js/tele-scroll.min.js?1759860913" defer></script>
   </body>
 </html>

@@ -2456,6 +2456,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/07-event-driven-programming/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 7 announcements video for CC410 in fall 2025. This week, we’re going to be introducing the topic of test doubles. This is how we can create fake versions of classes in our unit tests so that when we’re testing a class that depends on other classes, such as our order classes or combo classes, we can add in fake other versions of the classes that it depends on so that our unit test tests only the functionality in the class we’re testing. It’s a really powerful tool. It’s something that we should learn very clearly in this class. So it’s one of the big outcomes that I want you to get. So you’re going to work on that.",
+    "modified": "2025-10-07T13:14:04-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 7",
+    "uri": "/cc410/x-weekly-updates/week07/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World",
     "description": "Next Steps This project is a major step toward developing our skills as professional programmers. We introduced a lot of new topics:\nUnit Tests Code Coverage Tests Documentation Comments and Tools Style Checkers Tools to Automate Everything In the next assignment, we’ll start building the first major project in this course. In doing so, you’ll end up redoing a lot of this initial setup, so you’ll be referring back to this project over time. So, if anything didn’t work or you ran into issues, now is the time to ask questions and get help. Good luck!",
     "modified": "2021-09-08T14:41:54-05:00",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 7 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week 7 announcements video for CC410 in fall 2025. This week, we’re going to be introducing the topic of test doubles. This is how we can create fake versions of classes in our unit tests so that when we’re testing a class that depends on other classes, such as our order classes or combo classes, we can add in fake other versions of the classes that it depends on so that our unit test tests only the functionality in the class we’re testing. It’s a really powerful tool. It’s something that we should learn very clearly in this class. So it’s one of the big outcomes that I want you to get. So you’re going to work on that.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

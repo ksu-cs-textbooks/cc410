@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -34,27 +35,27 @@ Flake8 There are many different tools that can be used to check the style of sou
     <link href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.xml" rel="alternate" type="application/rss+xml" title="Flake8 :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/tele.html" rel="alternate" type="text/html" title="Flake8 :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/embed.html" rel="alternate" type="text/html" title="Flake8 :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search.min.js?1759252931" defer></script>
+    <link href="/cc410/images/favicon.ico?1759860913" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759860913" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759860913";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759860913" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,60 +114,17 @@ Flake8 There are many different tools that can be used to check the style of sou
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759860913" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents">
-  <ul>
-    <li><a href="#flake8">Flake8</a></li>
-    <li><a href="#installing-flake8">Installing Flake8</a></li>
-    <li><a href="#running-flake8">Running Flake8</a></li>
-    <li><a href="#resolving-flake8-errors">Resolving Flake8 Errors</a></li>
-    <li><a href="#integrating-flake8-with-tox">Integrating Flake8 with tox</a></li>
-    <li><a href="#git-commit-and-push">Git Commit and Push</a></li>
-  </ul>
-</nav>
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/index.html"><span itemprop="name">Hello Real World</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/04-python/index.html"><span itemprop="name">Python</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Flake8</span><meta itemprop="position" content="5"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/z-examples/01-hello-real-world/04-python/08-flake8.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.html" title="Documentation (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html" title="Type Checking (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
-            </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      
+      
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -204,8 +162,8 @@ Flake8 There are many different tools that can be used to check the style of sou
 <p>Once we&rsquo;ve updated <code>requirements.txt</code>, we can install those libraries by opening a Linux terminal, navigating to the <code>python</code> folder, and running this command:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install -r requirements.txt</span></span></code></pre></div>
 <p>After that command executes, we should see that those libraries are now installed:</p>
-<p><a href="#R-image-26a9cd9dfa97c91881f47746f74a098e" class="lightbox-link"><img alt="Pip install Flake8" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8install.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-26a9cd9dfa97c91881f47746f74a098e"><img alt="Pip install Flake8" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8install.png"></a></p>
+<p><a href="#R-image-3a76aa7003c12ee6f3d7d5cabc7b49cd" class="lightbox-link"><img alt="Pip install Flake8" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8install.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-3a76aa7003c12ee6f3d7d5cabc7b49cd"><img alt="Pip install Flake8" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8install.png"></a></p>
 <h2 id="running-flake8">Running Flake8</h2>
 <p>Once we&rsquo;ve installed Flake8, we can execute it and see what errors are contained in our code. So, to do this, we can use the following command from within the <code>python</code> directory:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m flake8 --docstring-convention google --format<span style="color:#f92672">=</span>html --htmldir<span style="color:#f92672">=</span>reports/flake</span></span></code></pre></div>
@@ -216,23 +174,23 @@ Flake8 There are many different tools that can be used to check the style of sou
 <li><code>--format=html --htmldir=reports/flake</code> - these two arguments will create an HTML report in the <code>reports/flake</code> directory.</li>
 </ul>
 <p>Once we run that command, we&rsquo;ll probably get a bunch of output that looks like this:</p>
-<p><a href="#R-image-a502ed245503c0a048efdfabec41ad4a" class="lightbox-link"><img alt="Flake8 Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8output.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a502ed245503c0a048efdfabec41ad4a"><img alt="Flake8 Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8output.png"></a></p>
+<p><a href="#R-image-e1a8f32a7831046625c7844c34d27558" class="lightbox-link"><img alt="Flake8 Output" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8output.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e1a8f32a7831046625c7844c34d27558"><img alt="Flake8 Output" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8output.png"></a></p>
 <h2 id="resolving-flake8-errors">Resolving Flake8 Errors</h2>
 <p>As we can see, our code has several errors in it. So, let&rsquo;s look at the errors in our <code>HelloWorld.py</code> file and see if we can resolve them. To view the errors, we can <strong>right-click</strong> the <code>reports/flake/index.html</code> file and select <strong>Preview Static</strong> to view it as a webpage:</p>
-<p><a href="#R-image-58cf400350798ce85e52e27382dc0e7b" class="lightbox-link"><img alt="Flake8 Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8report.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-58cf400350798ce85e52e27382dc0e7b"><img alt="Flake8 Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8report.png"></a></p>
+<p><a href="#R-image-a8d53ccab91264daaac8a238b202d317" class="lightbox-link"><img alt="Flake8 Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8report.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a8d53ccab91264daaac8a238b202d317"><img alt="Flake8 Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8report.png"></a></p>
 <p>By clicking on the links on that page and expanding the code, we can clearly see the errors in our <code>HelloWorld.py</code> file:</p>
-<p><a href="#R-image-5b3f394282ce2acd4b0946b92cd22e0b" class="lightbox-link"><img alt="HelloWorld Errors" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28helloerrors.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5b3f394282ce2acd4b0946b92cd22e0b"><img alt="HelloWorld Errors" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28helloerrors.png"></a></p>
+<p><a href="#R-image-0bbc96ff3e9d4ed148a8bff72577f9d2" class="lightbox-link"><img alt="HelloWorld Errors" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28helloerrors.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0bbc96ff3e9d4ed148a8bff72577f9d2"><img alt="HelloWorld Errors" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28helloerrors.png"></a></p>
 <p>It looks like there are two errors:</p>
 <ul>
 <li>On line 10, it expects to find 2 blank lines but only found 1.</li>
 <li>On line 27, it expects to find a newline at the end of the file, but didn&rsquo;t find one.</li>
 </ul>
 <p>If we open that file in the Codio editor, we may also see similar errors:</p>
-<p><a href="#R-image-badd56ab35409ae7db4e38edceb75508" class="lightbox-link"><img alt="HelloWorld LSP" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28hellolsp.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-badd56ab35409ae7db4e38edceb75508"><img alt="HelloWorld LSP" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28hellolsp.png"></a></p>
+<p><a href="#R-image-8ffe3e1ea019f9ebcda91e8eaacfab8f" class="lightbox-link"><img alt="HelloWorld LSP" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28hellolsp.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8ffe3e1ea019f9ebcda91e8eaacfab8f"><img alt="HelloWorld LSP" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28hellolsp.png"></a></p>
 <p>Thankfully, the Codio editor includes a feature that performs many of the same checks as Flake8, so we can see many of the same messages by looking for yellow or red dots to the left of the code. Of course, Codio isn&rsquo;t guaranteed to find the same errors as Flake8, so we always have to use the Flake8 tool to be sure we found all the errors.</p>
 <p>In this case, we need to resolve two things:</p>
 <ul>
@@ -242,19 +200,19 @@ Flake8 There are many different tools that can be used to check the style of sou
 <p>Once we&rsquo;ve made those changes, we can rerun Flake8:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m flake8 --docstring-convention google --format<span style="color:#f92672">=</span>html --htmldir<span style="color:#f92672">=</span>reports/flake</span></span></code></pre></div>
 <p>and then check the report to see if we fixed the problems:</p>
-<p><a href="#R-image-5d0c932e9a8bcd1eb008123c1f10027b" class="lightbox-link"><img alt="Flake8 Errors Fixed" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flakefixed.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5d0c932e9a8bcd1eb008123c1f10027b"><img alt="Flake8 Errors Fixed" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flakefixed.png"></a></p>
+<p><a href="#R-image-26c053b72b128ced59e6b91c65a2fd7e" class="lightbox-link"><img alt="Flake8 Errors Fixed" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flakefixed.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-26c053b72b128ced59e6b91c65a2fd7e"><img alt="Flake8 Errors Fixed" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flakefixed.png"></a></p>
 <p>Yup! Since the file is no longer listed, we are good to go.</p>
 <p>One other error that is very common with Python code is this one:</p>
-<p><a href="#R-image-80ae7207876326d3401c059c735539cb" class="lightbox-link"><img alt="Whitespace in Blank Lines" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28blankline.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-80ae7207876326d3401c059c735539cb"><img alt="Whitespace in Blank Lines" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28blankline.png"></a></p>
+<p><a href="#R-image-87650a975b5675bbbce64eb300efa898" class="lightbox-link"><img alt="Whitespace in Blank Lines" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28blankline.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-87650a975b5675bbbce64eb300efa898"><img alt="Whitespace in Blank Lines" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28blankline.png"></a></p>
 <p>Our Python style guide requires that blank lines be completely blank, without any whitespace in them. However, the Codio editor (and many other IDEs) will try to be helpful and automatically indent a blank line for us, which causes these errors. The Codio editor even highlights them to tell us that it is wrong, but it still does it:</p>
-<p><a href="#R-image-2e54398a9c41e07dcacb28ca81957a23" class="lightbox-link"><img alt="Whitespace in Blank Lines in Code" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28blanklinecode.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-2e54398a9c41e07dcacb28ca81957a23"><img alt="Whitespace in Blank Lines in Code" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28blanklinecode.png"></a></p>
+<p><a href="#R-image-82f38ed9c28b0d193484bddc17c1b5a9" class="lightbox-link"><img alt="Whitespace in Blank Lines in Code" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28blanklinecode.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-82f38ed9c28b0d193484bddc17c1b5a9"><img alt="Whitespace in Blank Lines in Code" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28blanklinecode.png"></a></p>
 <p>So, we&rsquo;ll also have to remember to completely remove any whitespace from blank lines in our files in order to pass the Flake8 style checker. Before moving on with this example, modify the code in the various Python source files to ensure that everything is able to pass the Flake8 tool. In many professional software development roles, you aren&rsquo;t even able to save your code unless it passes a style checking tool, so it is a very good habit to get into. In this course, part of your grade will depend on your code following the appropriate style!</p>
 <p>Once you&rsquo;ve resolved all the errors, you should get the following message in the Flake8 report:</p>
-<p><a href="#R-image-320d6c37b63ca32aaf523a8cd6db7adf" class="lightbox-link"><img alt="Flake8 Good" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8good.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-320d6c37b63ca32aaf523a8cd6db7adf"><img alt="Flake8 Good" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8good.png"></a></p>
+<p><a href="#R-image-afa011c9c4cc75de698f8cf409469159" class="lightbox-link"><img alt="Flake8 Good" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/28flake8good.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-afa011c9c4cc75de698f8cf409469159"><img alt="Flake8 Good" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/28flake8good.png"></a></p>
 <h2 id="integrating-flake8-with-tox">Integrating Flake8 with tox</h2>
 <p>As we&rsquo;ve already seen, integrating Flake8 with tox is as simple as adding the command to the list of commands in our <code>tox.ini</code> file:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#a6e22e">commands</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">python3 -m coverage run --source src -m pytest --html=reports/pytest/index.html
@@ -283,17 +241,17 @@ Flake8 There are many different tools that can be used to check the style of sou
 </article>
         </div>
       </main>
-<div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
-<p>Last modified by:
-              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/1b3be09e9a32c703d266d0790414fde22b705b91">Jun 17, 2024</a>
-</p>
-
-</div>
+      
+      
+      
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
-    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759860913" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759860913" defer></script>
+    <script src="/cc410/js/theme.min.js?1759860913" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc410/js/tele-scroll.min.js?1759860913" defer></script>
   </body>
 </html>

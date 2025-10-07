@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Sep 2025 12:21:03 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 13:14:04 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;25 Week 1</title>
@@ -49,6 +49,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week06/index.html</guid>
       <description>Resources Slides Edited Transcript Hello and welcome to the Week 6 Announcement Studio for CC410 in fall 2025. So this week you should be working up the module that introduces debugging and logging. You’ll also do some Lambda expressions. There’s an example around that. And then you turning in the third restaurant milestone, which is all about inheritance and polymorphism and adding some of that to your project. And hopefully you should be scheduling the second final project meeting with me sometime in the next week or two so we can start talking about some specific ideas you might have about your final project in this class.</description>
+    </item>
+    <item>
+      <title>Fall &#39;25 Week 7</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the week 7 announcements video for CC410 in fall 2025. This week, we’re going to be introducing the topic of test doubles. This is how we can create fake versions of classes in our unit tests so that when we’re testing a class that depends on other classes, such as our order classes or combo classes, we can add in fake other versions of the classes that it depends on so that our unit test tests only the functionality in the class we’re testing. It’s a really powerful tool. It’s something that we should learn very clearly in this class. So it’s one of the big outcomes that I want you to get. So you’re going to work on that.</description>
     </item>
   </channel>
 </rss>

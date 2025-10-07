@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -35,27 +34,27 @@ YouTube Video Resources Codio Debugger Logging HOWTO Configuring Codio Debugger"
     <link href="/cc410/z-examples/05-debugging-logging/02-python/index.xml" rel="alternate" type="application/rss+xml" title="Python :: CC 410 Textbook">
     <link href="/cc410/z-examples/05-debugging-logging/02-python/tele.html" rel="alternate" type="text/html" title="Python :: CC 410 Textbook">
     <link href="/cc410/z-examples/05-debugging-logging/02-python/embed.html" rel="alternate" type="text/html" title="Python :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search.min.js?1759252931" defer></script>
+    <link href="/cc410/images/favicon.ico?1759860913" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759860913" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759860913";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1759252931" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1759860913" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -114,17 +113,58 @@ YouTube Video Resources Codio Debugger Logging HOWTO Configuring Codio Debugger"
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759860913" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/z-examples/05-debugging-logging/02-python/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      
-      
-      
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#configuring-codio-debugger">Configuring Codio Debugger</a></li>
+    <li><a href="#tox-changes">Tox Changes</a></li>
+    <li><a href="#outline">Outline</a></li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/05-debugging-logging/index.html"><span itemprop="name">Debugging &amp; Logging</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Python</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/z-examples/05-debugging-logging/02-python.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/02-python/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/02-java/index.html" title="Java (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/03-python-update/index.html" title="Update to Example 5 Python (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/02-python/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/05-debugging-logging/02-python/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -153,10 +193,10 @@ YouTube Video Resources Codio Debugger Logging HOWTO Configuring Codio Debugger"
 <li><a href="https://docs.python.org/3/howto/logging.html" rel="external" target="_blank">Logging HOWTO</a></li>
 </ul>
 <h2 id="configuring-codio-debugger">Configuring Codio Debugger</h2>
-<p><a href="#R-image-f62fc063dc2ea24ad679779fdec48e5d" class="lightbox-link"><img alt="Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f62fc063dc2ea24ad679779fdec48e5d"><img alt="Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python.png"></a></p>
-<p><a href="#R-image-d83dac7ec4a406da2de34647ca637133" class="lightbox-link"><img alt="Python 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d83dac7ec4a406da2de34647ca637133"><img alt="Python 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python2.png"></a></p>
+<p><a href="#R-image-b1e6617a4f1069ae424798d60b9ee66b" class="lightbox-link"><img alt="Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1e6617a4f1069ae424798d60b9ee66b"><img alt="Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python.png"></a></p>
+<p><a href="#R-image-cfcdab2d32cd3f6e430ffb5312a9fde1" class="lightbox-link"><img alt="Python 2" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e5/python2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-cfcdab2d32cd3f6e430ffb5312a9fde1"><img alt="Python 2" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e5/python2.png"></a></p>
 <p>Edit <code>src/__main__.py</code> to set Python path:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
 </span></span><span style="display:flex;"><span>sys<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#34;/home/codio/workspace/python/&#34;</span>)</span></span></code></pre></div>
@@ -218,17 +258,17 @@ YouTube Video Resources Codio Debugger Logging HOWTO Configuring Codio Debugger"
 </article>
         </div>
       </main>
-      
-      
-      
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/16e25aa62a07224270af53d09d6c95b434ebd01d">Mar 12, 2025</a>
+</p>
+
+</div>
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
-    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1759252931" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759860913" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759860913" defer></script>
+    <script src="/cc410/js/theme.min.js?1759860913" defer></script>
   </body>
 </html>

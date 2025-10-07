@@ -32,27 +32,27 @@ Now that we’ve learned about threads, let’s discuss how we can work with the
     <link href="/cc410/ii-gui/12-parallelism/04-creating-threads/index.print.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/04-creating-threads/tele.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/04-creating-threads/embed.html" rel="alternate" type="text/html" title="Creating Threads :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1759252931" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759252931" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/search.min.js?1759252931" defer></script>
+    <link href="/cc410/images/favicon.ico?1759860913" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759860913" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/search.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1759252931";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1759860913";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1759252931" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1759252931" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1759860913" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759252931" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1759252931" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1759252931" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1759860913" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -111,7 +111,7 @@ Now that we’ve learned about threads, let’s discuss how we can work with the
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1759252931" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1759860913" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/ii-gui/12-parallelism/04-creating-threads/index.html">
     <div id="R-body" class="default-animation">
@@ -179,17 +179,17 @@ Now that we’ve learned about threads, let’s discuss how we can work with the
 <h2 id="creating-a-thread">Creating a Thread</h2>
 <p>Creating a thread is very simple in many modern programming languages. Both Java and Python include libraries for dealing with threads, and to create a new thread, each one simply requires some sort of function or method to serve as the starting point for the new thread. In a way, this is just like the <code>main()</code> method that is the starting point of most programs - we&rsquo;re just defining a new method to serve as the starting point for a new thread.</p>
 <p>Once we&rsquo;ve created the thread, it is given to the operating system for scheduling. Our main thread can continue to work, and the newly created thread will also start to run as well. So, the theoretical model might look something like this:</p>
-<p><a href="#R-image-19407cb5923a0b24ea07708c111d11bb" class="lightbox-link"><img alt="Thread Model" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-19407cb5923a0b24ea07708c111d11bb"><img alt="Thread Model" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread1.svg"></a></p>
+<p><a href="#R-image-c84f6fc9663c1e5972ab23409126aa54" class="lightbox-link"><img alt="Thread Model" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c84f6fc9663c1e5972ab23409126aa54"><img alt="Thread Model" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread1.svg"></a></p>
 <p>Here, it appears that both threads are running simultaneously. However, as we discussed earlier in this chapter, that isn&rsquo;t really the case. For example, if the system only has one processor core, and these are the only two threads running on the system, then the threads might be interleaved on that processor like this:</p>
-<p><a href="#R-image-63def462d9586b542de1d204cf2bc5bf" class="lightbox-link"><img alt="Single Core" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread2.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-63def462d9586b542de1d204cf2bc5bf"><img alt="Single Core" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread2.svg"></a></p>
+<p><a href="#R-image-1c0c928d8e528060106b029e0138ef1f" class="lightbox-link"><img alt="Single Core" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread2.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1c0c928d8e528060106b029e0138ef1f"><img alt="Single Core" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread2.svg"></a></p>
 <p>If we expand that to two processor cores, then they might actually run simultaneously, like this:</p>
-<p><a href="#R-image-6f11815bef94e0807799777453594e67" class="lightbox-link"><img alt="Dual Core" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread3.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6f11815bef94e0807799777453594e67"><img alt="Dual Core" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread3.svg"></a></p>
+<p><a href="#R-image-362d02f7dd359fb7487b94f90313f47a" class="lightbox-link"><img alt="Dual Core" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread3.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-362d02f7dd359fb7487b94f90313f47a"><img alt="Dual Core" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread3.svg"></a></p>
 <p>Of course, this is a <em>very</em> simplified view of this process. In practice, there will be many processes and threads that are competing for access across several cores, so the actual model could look something like this:</p>
-<p><a href="#R-image-72b18a13d077c96bd35cc483914c8213" class="lightbox-link"><img alt="Threading Model" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread4.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-72b18a13d077c96bd35cc483914c8213"><img alt="Threading Model" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread4.svg"></a></p>
+<p><a href="#R-image-395f85cc06bcf55dc11312677aae1b41" class="lightbox-link"><img alt="Threading Model" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/thread4.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-395f85cc06bcf55dc11312677aae1b41"><img alt="Threading Model" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/thread4.svg"></a></p>
 <p>As we can see, the processors are always executing some code, but many times they are executing code in a thread from some other application. Our application&rsquo;s code will be scheduled by the operating system in between the other threads, but we cannot guarantee when it will be scheduled or for how long. Also, while this diagram makes it appear that each thread will only be scheduled on one processor, in fact the thread could be scheduled on ANY processor that is available. On a modern personal computer today, there may be as many as 16 or 32 individual threads available, sometimes multiple threads per CPU core, in the processor!</p>
 <p>So, the big takeaways here:</p>
 <ol>
@@ -490,7 +490,8 @@ Now that we’ve learned about threads, let’s discuss how we can work with the
             <li class="" data-nav-id="/cc410/x-weekly-updates/week03/index.html"><a class="padding" href="/cc410/x-weekly-updates/week03/index.html">3. Fall &#39;25 Week 3</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week04/index.html"><a class="padding" href="/cc410/x-weekly-updates/week04/index.html">4. Fall &#39;25 Week 4</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week05/index.html"><a class="padding" href="/cc410/x-weekly-updates/week05/index.html">5. Fall &#39;25 Week 5</a></li>
-            <li class="" data-nav-id="/cc410/x-weekly-updates/week06/index.html"><a class="padding" href="/cc410/x-weekly-updates/week06/index.html">6. Fall &#39;25 Week 6</a></li></ul></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week06/index.html"><a class="padding" href="/cc410/x-weekly-updates/week06/index.html">6. Fall &#39;25 Week 6</a></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week07/index.html"><a class="padding" href="/cc410/x-weekly-updates/week07/index.html">7. Fall &#39;25 Week 7</a></li></ul></li>
             <li class="" data-nav-id="/cc410/z-examples/index.html"><input type="checkbox" id="R-section-e095baae70451690f717ed79b3e70267" aria-controls="R-subsections-e095baae70451690f717ed79b3e70267"><label for="R-section-e095baae70451690f717ed79b3e70267"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/index.html">Example Projects</a><ul id="R-subsections-e095baae70451690f717ed79b3e70267" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/00-new-project/index.html"><a class="padding" href="/cc410/z-examples/00-new-project/index.html">0. New Project Checklist</a></li>
             <li class="alwaysopen " data-nav-id="/cc410/z-examples/01-hello-real-world/index.html"><input type="checkbox" id="R-section-8fa1fe250a4b987a2c9aac0ba7e84fad" aria-controls="R-subsections-8fa1fe250a4b987a2c9aac0ba7e84fad" checked><label for="R-section-8fa1fe250a4b987a2c9aac0ba7e84fad"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Hello Real World</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/index.html">1. Hello Real World</a><ul id="R-subsections-8fa1fe250a4b987a2c9aac0ba7e84fad" class="collapsible-menu">
@@ -637,8 +638,8 @@ Now that we’ve learned about threads, let’s discuss how we can work with the
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1759252931" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759252931" defer></script>
-    <script src="/cc410/js/theme.min.js?1759252931" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1759860913" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759860913" defer></script>
+    <script src="/cc410/js/theme.min.js?1759860913" defer></script>
   </body>
 </html>
