@@ -39,27 +39,27 @@ import threading import time import sys class MyData: def __init__(self): self.x
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.xml" rel="alternate" type="application/rss+xml" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.print.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/tele.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1759860913" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1759860913" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1759860913" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1759860913" defer></script>
-    <script src="/cc410/js/search.min.js?1759860913" defer></script>
+    <link href="/cc410/images/favicon.ico?1760473470" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1760473470" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1760473470" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1760473470" defer></script>
+    <script src="/cc410/js/search.min.js?1760473470" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1759860913";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1760473470";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1759860913" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1759860913" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1759860913" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1759860913" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1760473470" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1760473470" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1760473470" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1760473470" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1759860913" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1759860913" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1759860913" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1759860913" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1760473470" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1760473470" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1760473470" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1760473470" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1760473470" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -118,7 +118,7 @@ import threading import time import sys class MyData: def __init__(self): self.x
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1759860913" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1760473470" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.html">
     <div id="R-body" class="default-animation">
@@ -207,8 +207,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 <p>In effect, this is essentially the Python code needed to reproduce the example we saw earlier in this class.</p>
 <h4 id="execution">Execution</h4>
 <p>So, what happens when we run this code? As it turns out, sometimes we&rsquo;ll see it get a different result than the one we expect:</p>
-<p><a href="#R-image-47c1df92d148b33eb6c4c362dc4bcb62" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-47c1df92d148b33eb6c4c362dc4bcb62"><img alt="Race Condition in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
+<p><a href="#R-image-f3717b3d2b7be72509df11cd2d8b3627" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-f3717b3d2b7be72509df11cd2d8b3627"><img alt="Race Condition in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
 <p>Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into <code>data.x</code>, which means that they were running at the same time.</p>
 <h2 id="python-lock">Python Lock</h2>
 <p>To fix this, Python includes a <strong>lock</strong> that we can use as part of a <code>with</code> statement, which is simply a wrapper around a block of code that we&rsquo;d like to be <strong>atomic</strong>. An atomic block is one that shouldn&rsquo;t be broken apart and interrupted by other threads accessing the same object. In effect, using a <code>with</code> statement along with a lock will handle acquiring and releasing the lock for us.</p>
@@ -229,8 +229,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 </span></span><span style="display:flex;"><span>            time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">0</span>)</span></span></code></pre></div>
 <p>Here, the <code>with</code> statement acquires the <strong>lock</strong> that is associated with the <code>data</code> object in the <code>MyThread</code> class. Only one thread can hold that lock at a time, and by associating it with an object, we can easily keep track of which thread is able to access that object.</p>
 <p>Now, when we execute that program, we&rsquo;ll always get the correct answer!</p>
-<p><a href="#R-image-cd68fb0f42c853e471912fdde75388cf" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-cd68fb0f42c853e471912fdde75388cf"><img alt="Synchronized in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
+<p><a href="#R-image-51558b95b4d3060404cc32158c01af5d" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-51558b95b4d3060404cc32158c01af5d"><img alt="Synchronized in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
 
 <details open class=" box cstyle notices info">
   <summary class="box-label" tabindex="-1">
@@ -251,9 +251,9 @@ import threading import time import sys class MyData: def __init__(self): self.x
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1759860913" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1759860913" defer></script>
-    <script src="/cc410/js/theme.min.js?1759860913" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1759860913" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1760473470" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1760473470" defer></script>
+    <script src="/cc410/js/theme.min.js?1760473470" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1760473470" defer></script>
   </body>
 </html>

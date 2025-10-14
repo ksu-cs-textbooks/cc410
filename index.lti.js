@@ -2520,6 +2520,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the weekend announcements video for CC410 in fall 2025. So, you should be wrapping up the work on test doubles and scheduling your second final project meeting with me. Also, the concept quiz was due. And so I’ve got most of those graded that are submitted. So, you should be seeing grades on Canvas. If you have any questions on that first concept quiz, let me know. But generally, everybody did really well. So I’m very impressed with that.",
+    "modified": "2025-10-14T15:23:18-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 8",
+    "uri": "/cc410/x-weekly-updates/week08/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "Finally, we’re at the point that we’ve written our application, a couple of unit tests, verified that the unit tests achieve a high level of code coverage, and we’ve written helpful documentation comments in our code. That’s a lot of content we’ve written, especially in our source code files. Now let’s see how good our coding style is by checking it using a linter.",
     "modified": "2024-06-17T14:13:48-05:00",

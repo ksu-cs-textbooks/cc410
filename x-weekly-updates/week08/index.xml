@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 8 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the weekend announcements video for CC410 in fall 2025. So, you should be wrapping up the work on test doubles and scheduling your second final project meeting with me. Also, the concept quiz was due. And so I’ve got most of those graded that are submitted. So, you should be seeing grades on Canvas. If you have any questions on that first concept quiz, let me know. But generally, everybody did really well. So I’m very impressed with that.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
