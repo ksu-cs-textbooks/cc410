@@ -2592,6 +2592,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/09-libraries/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week nine announcements video for CC410 in fall 2025. This week you’re going to be working on some parallel programming examples to give you an idea of how we work in multi-threaded environments. We’re also going to do another example on event-driven programming, which is how we actually add interactability to our user interfaces. And then finally, you’re going to do a restaurant milestone where we’re going to take the user interface that you built last milestone, and we’re going to add some event-driven programming to it so that the button clicks actually work and it actually starts doing what we want it to do.",
+    "modified": "2025-10-21T09:08:29-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 9",
+    "uri": "/cc410/x-weekly-updates/week09/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Java",
     "description": "Let’s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop. Let’s explore what it takes to add Hamcrest to our project.",
     "modified": "2024-06-17T14:13:48-05:00",

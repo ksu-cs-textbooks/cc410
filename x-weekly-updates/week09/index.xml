@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 9 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week09/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week nine announcements video for CC410 in fall 2025. This week you’re going to be working on some parallel programming examples to give you an idea of how we work in multi-threaded environments. We’re also going to do another example on event-driven programming, which is how we actually add interactability to our user interfaces. And then finally, you’re going to do a restaurant milestone where we’re going to take the user interface that you built last milestone, and we’re going to add some event-driven programming to it so that the button clicks actually work and it actually starts doing what we want it to do.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week09/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
