@@ -2640,6 +2640,14 @@ var relearn_lti_index = [
     "uri": "/cc410/i-oop/10-test-doubles/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC410 in fall 2025. So, this week we’re going to spend a little bit of time talking about external libraries and how we can download and install a library into our code. We’ve already done some of that before with some of the other tools, but this is going to be a library that we’re going to interface with directly within our code. Then you’ll start working on the next restaurant milestone. And of course, we have another one of those start, stop, continue surveys that gives you a great opportunity to give me quick in the middle of the semester anonymous feedback if there’s anything you’d like me to know about the class.",
+    "modified": "2025-10-28T10:22:48-05:00",
+    "tags": [],
+    "title": "Fall '25 Week 10",
+    "uri": "/cc410/x-weekly-updates/week10/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "Let’s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop. Let’s explore what it takes to add Hamcrest to our project.",
     "modified": "2024-06-17T14:13:48-05:00",
