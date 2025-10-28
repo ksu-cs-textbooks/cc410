@@ -30,6 +30,11 @@ hidden: true
 		<li><i>feel free to get creative</i></li>
 </section>
 <section>
+	<h3>Change Codio Port</h3>
+	<p>Update port to 3050 in Viewer Config</p>
+	<p>See Errata Announcement</p>
+</section>
+<section>
 	<h3>Looking Ahead</h3>
 	<ul>
 		<li>Module 9 - Event-Driven Programming</li>

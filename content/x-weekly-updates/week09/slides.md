@@ -23,6 +23,7 @@ hidden: true
 		<li>Project -> Restart Box</li>
 		<li>Refresh Browser</li>
 		<li>Python: run tests in batches</li>
+		<li>Run <pre>xhost +</pre> before tox</li>
 	</ul> 
 </section>
 <section>
