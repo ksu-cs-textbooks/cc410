@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 11 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week 11 announcements video for CC410 in fall 2025. So, this week we’re going to work on another project all about building a release version of our software. This is a packaged version of our software that we can provide to other people that aren’t programmers and allow them to use it as quickly and easily within their own projects as we would in ourselves. So we’re going to use a quick example of releases and then we’re going to update our restaurant project by adding a checkout library to help us actually finalize the sales process of our point of sale system.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

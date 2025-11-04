@@ -2680,6 +2680,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/11-gui-basics/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 11 announcements video for CC410 in fall 2025. So, this week we’re going to work on another project all about building a release version of our software. This is a packaged version of our software that we can provide to other people that aren’t programmers and allow them to use it as quickly and easily within their own projects as we would in ourselves. So we’re going to use a quick example of releases and then we’re going to update our restaurant project by adding a checkout library to help us actually finalize the sales process of our point of sale system.",
+    "modified": "2025-11-04T14:26:29-06:00",
+    "tags": [],
+    "title": "Fall '25 Week 11",
+    "uri": "/cc410/x-weekly-updates/week11/index.html"
+  },
+  {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 11 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe eleventh milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.",
     "modified": "2024-01-10T09:40:40-06:00",

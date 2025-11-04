@@ -33,27 +33,27 @@ Access Modifiers in Python Most of the content below will apply to the Java lang
     <link href="/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/index.xml" rel="alternate" type="application/rss+xml" title="Access Modifiers :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/index.print.html" rel="alternate" type="text/html" title="Access Modifiers :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/tele.html" rel="alternate" type="text/html" title="Access Modifiers :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1761665042" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1761665042" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1761665042" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1761665042" defer></script>
-    <script src="/cc410/js/search.min.js?1761665042" defer></script>
+    <link href="/cc410/images/favicon.ico?1762288062" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1762288062" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1762288062" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1762288062" defer></script>
+    <script src="/cc410/js/search.min.js?1762288062" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1761665042";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1762288062";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1761665042" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1761665042" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1761665042" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1761665042" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1762288062" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1762288062" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1762288062" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1762288062" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1761665042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1761665042" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1761665042" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1761665042" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1761665042" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1762288062" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1762288062" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1762288062" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1762288062" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1762288062" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -112,7 +112,7 @@ Access Modifiers in Python Most of the content below will apply to the Java lang
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1761665042" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1762288062" rel="stylesheet">
   </head>
   <body class="mobile-support embed html" data-url="/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/index.html">
     <div id="R-body" class="default-animation">
@@ -151,20 +151,20 @@ Access Modifiers in Python Most of the content below will apply to the Java lang
 <p>If we consider the program as a state machine, that means that any part of the program code could change any part of the program&rsquo;s state.  Provided those changes were intended, everything works fine. But if the <em>wrong</em> part of the state was changed, problems would ensue.</p>
 <p>For example, if we were to make a typo in the part of the program dealing with water run-off in a field, which ends up assigning a new value to a variable that was supposed to be used for crop growth, we&rsquo;ve just introduced a very subtle and difficult to find error.  When the crop growth modeling functionality fails to work properly, we&rsquo;ll probably spend serious time and effort looking for a problem in the crop growth portion of the code, but the problem doesn&rsquo;t lie in that code at all!</p>
 <p>Java, along with many other object-oriented languages, use <a href="https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html" rel="external" target="_blank">access modifiers</a> to implement data hiding. Consider a class representing a student:</p>
-<div class="tab-panel" data-tab-group="9c087147f6182fbaf77bc1f462328b8d">
+<div class="tab-panel" data-tab-group="26d680c80a325bd29e221a1ba488b1f9">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9c087147f6182fbaf77bc1f462328b8d','java')"
+      onclick="switchTab('26d680c80a325bd29e221a1ba488b1f9','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9c087147f6182fbaf77bc1f462328b8d','python')"
+      onclick="switchTab('26d680c80a325bd29e221a1ba488b1f9','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -202,20 +202,20 @@ Access Modifiers in Python Most of the content below will apply to the Java lang
   </div>
 </div>
 <p>By using the access modifier <code>private</code> in Java, or prefixing the attributes with two underscores in Python, we have indicated that our fields <code>first</code>, <code>last</code>, and <code>wid</code> cannot be accessed (seen or assigned) outside of this code.  For example, if we were to create a specific student:</p>
-<div class="tab-panel" data-tab-group="55ec902da3f2607be7293e82ba71eca7">
+<div class="tab-panel" data-tab-group="dee6dc7207bb055627133f85de620187">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('55ec902da3f2607be7293e82ba71eca7','java')"
+      onclick="switchTab('dee6dc7207bb055627133f85de620187','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('55ec902da3f2607be7293e82ba71eca7','python')"
+      onclick="switchTab('dee6dc7207bb055627133f85de620187','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -240,20 +240,20 @@ Access Modifiers in Python Most of the content below will apply to the Java lang
 <p>We would not be able to change that student&rsquo;s name. The statement <code>willie.first = &quot;Bob&quot;</code> would fail, because the field <code>first</code> is private. In fact, we cannot even see his name, so trying to print that value would also fail.</p>
 <p>If we want to allow a field or method to be accessible <em>outside</em> of the object, we must declare it <code>public</code> in Java, or remove the underscores in Python.  While we <em>can</em> declare fields public, this violates the core principles of encapsulation, as any outside code can modify our object&rsquo;s state in uncontrolled ways. This is definitely not what we want.</p>
 <p>Instead, in a true object-oriented approach we would write public  <strong><em>accessor methods</em></strong>, a.k.a. <strong>getters</strong> and <strong>setters</strong>.  These are methods that allow us to see and change field values <em>in a controlled way</em>.  Adding accessors to our Student class might look like:</p>
-<div class="tab-panel" data-tab-group="20a579bbc5c85d0192c23d59fa1f0d2c">
+<div class="tab-panel" data-tab-group="b3e0716db571c122740a4ca2608f95a3">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('20a579bbc5c85d0192c23d59fa1f0d2c','java')"
+      onclick="switchTab('b3e0716db571c122740a4ca2608f95a3','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('20a579bbc5c85d0192c23d59fa1f0d2c','python')"
+      onclick="switchTab('b3e0716db571c122740a4ca2608f95a3','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -363,9 +363,9 @@ Access Modifiers in Python Most of the content below will apply to the Java lang
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1761665042" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1761665042" defer></script>
-    <script src="/cc410/js/theme.min.js?1761665042" defer></script>
-  <script src="/cc410/js/embed-iframe.min.js?1761665042" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1762288062" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1762288062" defer></script>
+    <script src="/cc410/js/theme.min.js?1762288062" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1762288062" defer></script>
   </body>
 </html>
