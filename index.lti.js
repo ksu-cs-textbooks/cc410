@@ -2712,6 +2712,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/12-parallelism/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 12 announcements video for CC410 in fall 2025. So, this week, as promised, we are shifting gears a little bit away from our traditional graphical interface in the restaurant project, and now we’re moving to a web-based interface. So, this week is pretty light. We just have a quick example showing you how to add a web framework to your project. You’re going to do that for the restaurant milestone. It’s pretty simple. Right now, we’re just going to focus on making a menu. It’s not going to be interactive or anything. It’s just going to be data generated. So, hopefully, this project goes pretty quick, and then it will give you some time to work on your final project. Don’t forget we’re on week 12 of 16. So you really have four, maybe five weeks if you include the final, the fall break to work on your final project. So I encourage you to get started on that if you haven’t already.",
+    "modified": "2025-11-11T10:08:15-06:00",
+    "tags": [],
+    "title": "Fall '25 Week 12",
+    "uri": "/cc410/x-weekly-updates/week12/index.html"
+  },
+  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll explore adding a simple search form to our existing movies website. This form will allow us to filter our movies based on a few criteria, and we’ll be able to explore how to receive form data in our web applications.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.",
     "modified": "2023-11-27T12:20:01-06:00",
