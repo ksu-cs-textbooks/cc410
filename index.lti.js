@@ -2744,6 +2744,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/13-event-driven-programming/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 13 announcements video for CC410 in fall 2025. So, this week you should be doing another restaurant milestone. We’re going to focus on building a RESTful API and using it to accept some form data to create a custom item that we can add to our menu. So, do a quick example of how to accept form data to edit some items on the movie project. And then you’ll add a form to your restaurant project to add a custom item to the menu. And then, of course, the big thing you should be doing is working on your final project. These web milestones are meant to be a lot shorter and more compact so that you have more time to be working on your final project, which is going to be due by the end of finals week.",
+    "modified": "2025-11-18T10:52:57-06:00",
+    "tags": [],
+    "title": "Fall '25 Week 13",
+    "uri": "/cc410/x-weekly-updates/week13/index.html"
+  },
+  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll add the ability to update and delete movies in our website using a RESTful architectural style.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.\nFor these example projects, you’ll be given some starter code via the GitHub Classroom assignment, so make sure you’ve accepted the assignment and created your repository in GitHub first.",
     "modified": "2023-04-14T15:03:49-05:00",

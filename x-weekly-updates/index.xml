@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 10:08:15 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 10:52:57 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;25 Week 1</title>
@@ -91,6 +91,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week 12 announcements video for CC410 in fall 2025. So, this week, as promised, we are shifting gears a little bit away from our traditional graphical interface in the restaurant project, and now we’re moving to a web-based interface. So, this week is pretty light. We just have a quick example showing you how to add a web framework to your project. You’re going to do that for the restaurant milestone. It’s pretty simple. Right now, we’re just going to focus on making a menu. It’s not going to be interactive or anything. It’s just going to be data generated. So, hopefully, this project goes pretty quick, and then it will give you some time to work on your final project. Don’t forget we’re on week 12 of 16. So you really have four, maybe five weeks if you include the final, the fall break to work on your final project. So I encourage you to get started on that if you haven’t already.</description>
+    </item>
+    <item>
+      <title>Fall &#39;25 Week 13</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week13/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week13/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the week 13 announcements video for CC410 in fall 2025. So, this week you should be doing another restaurant milestone. We’re going to focus on building a RESTful API and using it to accept some form data to create a custom item that we can add to our menu. So, do a quick example of how to accept form data to edit some items on the movie project. And then you’ll add a form to your restaurant project to add a custom item to the menu. And then, of course, the big thing you should be doing is working on your final project. These web milestones are meant to be a lot shorter and more compact so that you have more time to be working on your final project, which is going to be due by the end of finals week.</description>
     </item>
   </channel>
 </rss>
