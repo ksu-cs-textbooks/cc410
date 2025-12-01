@@ -2776,6 +2776,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/14-libraries/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Good morning and welcome to your week 14 announcements video for CC410 in fall 2025. Hopefully everybody had a good Thanksgiving break and is ready to get these last couple of weeks of the semester out of the way. So this week you’re going to have a final project check-in. This is our last big check-in before your final project is due. Mainly it’s just a chance for me to chat with you, make sure everything’s going well on your final project, and answer any questions you have about getting it wrapped up before the end of the semester. We also have the second concept quiz in this class. This is just to check that you’re understanding some of our object-oriented concepts and things like that. Once again, a reminder on these concept quiz, they’re open book, open notes, but please don’t use AI for these. I really want to see exactly what your understanding is of these concepts. And it’s a really good check to make sure you’re understanding exactly what we’re doing in this class. And then you’re going to be working on a restaurant milestone where we’re going to add a RESTful API and we’re going to add a quick little form to add custom items to the menu. You’re not going to edit the menu itself. You’re just going to add custom items to that menu. And then of course, I want you to keep working on the final project.",
+    "modified": "2025-12-01T11:12:07-06:00",
+    "tags": [],
+    "title": "Fall '25 Week 14",
+    "uri": "/cc410/x-weekly-updates/week14/index.html"
+  },
+  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll update our previous RESTful web application to perform server-side form validation, making sure that each piece of data submitted to the server is valid.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.\nFor these example projects, you’ll be given some starter code via the GitHub Classroom assignment, so make sure you’ve accepted the assignment and created your repository in GitHub first.",
     "modified": "2023-04-14T15:03:49-05:00",
