@@ -2800,6 +2800,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/15-releases/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week 15 announcements video for CC410 in fall 2025. So we’re almost there at the end of the semester. Hopefully things are going well. This week you’ll be working on a project about validation and serialization of the data that we collect using our RESTful forms that you created the previous week. These milestones are pretty short and sweet. They’re just kind of straightforward ways that we can add some additional functionality to our web project. And then the big thing is to keep working on your final project this week and into finals week so that you can get that done.",
+    "modified": "2025-12-08T11:03:35-06:00",
+    "tags": [],
+    "title": "Fall '25 Week 15",
+    "uri": "/cc410/x-weekly-updates/week15/index.html"
+  },
+  {
     "breadcrumb": "",
     "description": "Extra Content!",
     "modified": "2023-08-10T16:05:23-05:00",
