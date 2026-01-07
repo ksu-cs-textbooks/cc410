@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.148.1">
+    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="">
+    <meta name="author" content="Russell Feldhausen">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
+    <meta name="twitter:title" content="Fall 2025 :: CC 410 Textbook">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2025/index.html">
+    <meta property="og:site_name" content="CC 410 Textbook">
+    <meta property="og:title" content="Fall 2025 :: CC 410 Textbook">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
+    <meta itemprop="name" content="Fall 2025 :: CC 410 Textbook">
+    <meta itemprop="dateModified" content="2026-01-07T14:56:25-06:00">
+    <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
+    <title>Fall 2025 :: CC 410 Textbook</title>
+    <link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2025/index.html" rel="canonical" type="text/html" title="Fall 2025 :: CC 410 Textbook">
+    <link href="/cc410/x-weekly-updates/old/fall-2025/index.xml" rel="alternate" type="application/rss+xml" title="Fall 2025 :: CC 410 Textbook">
+    <link href="/cc410/x-weekly-updates/old/fall-2025/tele.html" rel="alternate" type="text/html" title="Fall 2025 :: CC 410 Textbook">
+    <link href="/cc410/x-weekly-updates/old/fall-2025/embed.html" rel="alternate" type="text/html" title="Fall 2025 :: CC 410 Textbook">
+    <link href="/cc410/images/favicon.ico?1767819457" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767819457" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767819457" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1767819457" defer></script>
+    <script src="/cc410/js/search.min.js?1767819457" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1767819457";
+    </script>
+    <script src="/cc410/js/lunr/lunr.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1767819457" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767819457" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767819457" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767819457" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1767819457" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1767819457" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/x-weekly-updates\/old\/fall-2025\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/cc410';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=false;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'light-theme' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      // [x] russfeld
+      window.relearn.writeVariant=false;
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          
+          if (window.relearn.writeVariant) {
+            window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+          }
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script>
+    <link href="/cc410/css/custom.css?1767819457" rel="stylesheet">
+  </head>
+  <body class="mobile-support print" data-url="/cc410/x-weekly-updates/old/fall-2025/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/x-weekly-updates/index.html"><span itemprop="name">Weekly Updates</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/x-weekly-updates/old/index.html"><span itemprop="name">Previous Semesters</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Fall 2025</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/x-weekly-updates/old/fall-2025/_index.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/x-weekly-updates/old/fall-2025/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/x-weekly-updates/old/spring-2025/week15/index.html" title="Spring '25 Week 15 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/x-weekly-updates/old/fall-2025/week01/index.html" title="Fall '25 Week 1 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/x-weekly-updates/old/fall-2025/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/x-weekly-updates/old/fall-2025/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable x-weekly-updates" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-2025">Fall 2025</h1>
+
+
+  <footer class="footline">
+  </footer>
+</article>
+          <section>
+            <h1 class="a11y-only">Subsections of Fall 2025</h1>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-1">Fall &#39;25 Week 1</h1>
+
+
+<a href="https://www.youtube.com/watch?v=qLuoWjxA-2Q">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week one announcements video for CC410 in fall 2025. Welcome to a new semester. My name is Russ Feldhausen. I&rsquo;ll be your instructor this semester. My contact information is here. It&rsquo;s on the syllabus. It&rsquo;s on the Canvas homepage. It&rsquo;s in the introductory video. Hopefully you can easily find a way to get a hold of me. Please be aware that I work remotely out of Kansas City most of the week, so I won&rsquo;t be available on campus. I do come to campus on Mondays. So if you want to meet with me in person, Mondays in the morning is probably your best bet to do that. But since this is an online course, I&rsquo;m guessing most of you might be online as well. And so I should actually be really easy to reach either via email, Ed Discussion, Teams, Discord, whatever you want to use.</p>
+<p>So in this course, the big picture is we&rsquo;re going to do advanced programming. We&rsquo;re going to reinforce a lot of the object-oriented programming principles you have learned earlier in this program. We&rsquo;re going to introduce things such as unit testing and design patterns and really give you a lot of practice to become a better, more well-rounded programmer in this program. We&rsquo;re also going to introduce a lot of new content such as building graphical user interfaces or GUIs, web interfaces, data serialization, interacting with web APIs, all sorts of stuff like that. The way we&rsquo;re going to do this is we&rsquo;re going to do several large example projects, which are guided examples that I walk you through step by step on a video. These will probably be the longest videos you&rsquo;ll come across in this class where some of the examples are going to be 30, 45 minutes long. The nice thing is having it in a video, you can pause, rewind, go fast, whatever you need to do to get through that example. But I take you through the example step by step by step so that you can get that put together. And then, of course, we&rsquo;re going to do a restaurant project, which is basically the same idea, but you&rsquo;re going to do the work yourself. So whatever we do in the examples, you&rsquo;ll then apply that to a restaurant project. We&rsquo;re going to build a point of sale system for a fictional restaurant, which I think is a really fun project to do. And then throughout the semester, you&rsquo;ll also be working on your own final project. The final project is going to be smaller in scale than the restaurant project and probably related in structure and outcomes. And we&rsquo;ll talk more about that final project as we go throughout the semester. But just be aware that that&rsquo;s coming.</p>
+<p>So in this class, we&rsquo;re going to introduce you to a lot of new technologies. First and foremost, we&rsquo;re going to use Git and GitHub Classroom. Git is the code management tool that most professionals use in industry. It&rsquo;s a great way to keep track of your code and integrate with others. So we&rsquo;re going to start learning how to use Git and GitHub. We&rsquo;re going to use automation tools in Python such as TOX so that we can automatically run our unit tests, run our style checkers, run our type checkers, anything like that. So we&rsquo;re going to do some automation. We&rsquo;re going to introduce type checking in Python. Python is a strongly typed language, but it is a dynamically typed language. And so we&rsquo;re going to introduce type checking to make it closer to a statically typed language. I think this really helps as your projects get bigger. It helps you keep track of what your actual data types are and how they interact with each other. So we&rsquo;re going to introduce some of that. We&rsquo;re going to introduce unit testing so we can actually test our code and make sure it works. Unit testing is super important. I&rsquo;m working on a side project right now and wrote about a thousand unit tests for it over the course of the summer. And those unit tests helped me fix dozens of bugs in my code that I probably would not have caught without going through unit testing. We&rsquo;re also going to enforce a programming style guide. So we want you to start writing your programs following the PEP8 style, which is the standard Python style for programming. So this is things like spacing, the length of your lines, the order of your imports, things like that, to make your code fit a little bit better with a professional coding style. We&rsquo;re also going to learn how to write some documentation for our code using some comment strings that go at the beginning of each function and each class in your code. So lots of new stuff that we&rsquo;re going to do in Python this semester.</p>
+<p>So like I said, final project, you get to choose the topic for your final project. It will roughly align with some of the skills we&rsquo;ve used in this class, but this is really where we get to take the training wheels off and let you run with a project that is your idea, your own topic. I really encourage you to align it with things you&rsquo;re interested in. I usually work with students throughout the semester to help you find a final project topic and kind of fit it into the scope and scale of what&rsquo;s actually achievable within this class. So don&rsquo;t worry too much if you don&rsquo;t have an idea right now. I will work with you throughout the semester to come up with an idea. You&rsquo;ll go through a few milestones with that. And then at the end, you&rsquo;ll give a presentation. With this class, we usually just do recorded video presentations to make it a little bit easier since we&rsquo;re teaching online.</p>
+<p>So we are looking down the barrel of week one. Week one is mostly the administrivia week where we just introduce the class. But the big thing we do is we do a project called Hello Real World. If you remember the Hello World project, which is probably the first programming project you ever did, we&rsquo;re going to do that again, but this time we&rsquo;re going to do it as if we are a professional software engineer. So we&rsquo;re going to have unit testing. We&rsquo;re going to have style guides. We&rsquo;re going to have type checking. We&rsquo;re going to have all those cool stuff in a Hello World program. I think it&rsquo;s kind of cool. You&rsquo;ll probably also schedule your first final project with me to meet with me probably next week, the week of Labor Day, just so we can chat and get to know each other a little bit and start talking about ideas for your final project. Yes, we&rsquo;re going to start talking about your final project&rsquo;s first week of class. You only got 16 weeks. We got to get going on it. So be aware of that. Also, please take note of office hours. I don&rsquo;t typically hold formal office hours, but I have a schedule link on Canvas, on the syllabus, on Zoom. And it&rsquo;s also in the email signature of every email you&rsquo;ll ever receive from me. You can click that, schedule a one-on-one office hour time anytime that I&rsquo;m available. I&rsquo;m happy to do that. In this course, like I discussed in the intro video, we use the CC410-help email address. We also have an Ed discussion platform. And so you&rsquo;ll see posts on there. I&rsquo;ll make some mega threads for each milestone, for each, I&rsquo;ll make one for the bug bounty. We&rsquo;ll have an introductions post, things like that. So Ed Discussion is a great place to chat with me and other students. I will also use that to post hints and tips and tricks for the assignments as students are going through them. So please keep an eye on Ed Discussion. Maybe bookmark that and check that once in a while, just so you see all the discussion that&rsquo;s going on there as well.</p>
+<p>Then we&rsquo;ll switch over to week two. Week two, the first week where we really do a big project where we&rsquo;re going to start building an open, an object-oriented programming class library that is the basis for our restaurant project. We&rsquo;re going to build the menu as all of these different classes representing the entrees, sides, and drinks available on the menu. This project is huge. It&rsquo;s going to be about 2,000 to 2,500 lines of code, depending on how you write it. However, it is mostly boilerplate. Once you write one entree, the other entrees are very similar. So it&rsquo;s not like you&rsquo;re writing 2,000 new lines of code, but the end result is you&rsquo;re going to submit a project that is 2,000 lines of code. This is already way bigger than anything you&rsquo;ve done in this course, so in this program so far. So just to give you an idea of the scope and scale of what we&rsquo;re doing, your first week, you&rsquo;re going to write about 2,000 lines of code. It&rsquo;s big. Best advice I can give you is to be thoughtful, take some time, think about what you&rsquo;re doing. Be careful as you copy paste. It can make things go better, but it can also cause a lot of problems. As a quick side note, in earlier CC courses, you were discouraged from using copy paste. I encourage you to use copy paste in this course. I discourage using any online tools such as ChatGPT, Claude, any of those tools. You really need to learn how to do this yourself. Especially a lot of those AI coding tools will cause several mistakes in this program. I have used those tools to try and do these assignments and they create a lot of bugs. And usually you spend more time fixing the bugs than if you just learned how to do it yourself. So be aware. I&rsquo;m warning you now.</p>
+<p>Then week three, we&rsquo;re going to go into unit testing and documentation. We&rsquo;re going to take all the code we wrote in week two. We&rsquo;re going to write unit tests for that. That balloons the size of your project to about 4,000 lines of code. When I did my model solution a couple years ago, I ended up with 423 unit tests. Your mileage may vary. Your number might be a little bit different out of that. But again, the code for the unit test has a lot of repeats. So again, you&rsquo;re not writing that many lines of code. It&rsquo;s just a big project.</p>
+<p>And then from there, we&rsquo;ll introduce some more concepts around inheritance, polymorphism. We&rsquo;ll refactor some of your old code to simplify the structure of the project. And then by the end of September, which is week five, we&rsquo;ll be talking about your second final project milestone already at that point. And then after that, the rest of the semester, like I promised, we&rsquo;ll introduce graphical user interfaces, interfacing with external libraries, working on the web, doing data serialization, and so much more. This is one of my favorite classes to go through.</p>
+<p>So one thing that you can do is you do have an option of choosing which restaurant you want to work with. I have two different restaurant projects that I&rsquo;ve written over the years. The first one is called Game Grub. Game Grub is the one that I used for the last couple of semesters. It is linked in Canvas. It&rsquo;s the easy one to get to. Game Grub is based on video games and board games and things like that. So be aware of that. You can also do one that I call Starfleet Subs, where it&rsquo;s a sub-sandwich restaurant that is based on Star Trek. That is from a prior semester. It&rsquo;s available online. So if you&rsquo;re interested in doing Starfleet Subs instead of the Game Grub project, just let me know and I can show you how to switch around and find those milestones online. Both of those are completely available. I don&rsquo;t intend to make a whole lot of changes this semester. I think the only change I&rsquo;m going to make is a couple of bug fixes in the checkout library that we use way down the line in like milestone 8 or 9. So I will talk about that when I get there.</p>
+<p>So some big advice for this class. This class is a four credit hour class. I cannot stress that enough. It is four credit hours. That means the expectation is that you&rsquo;re spending 12 to 15 or 16 hours each week on this course. So take a good hard look at your schedule and make sure that you have 12 to 16 hours available on your schedule. If you&rsquo;re working 40 hours a week and you have kids, it&rsquo;s going to be tough. I cannot stress that enough. I have had so many students that are wonderful programmers in this class that do not set aside enough time and they get behind and this class gets on top of them real quick. So schedule your time wisely. Make sure you&rsquo;re setting aside enough time to work on this. Start early and leave time for questions. Most of the milestones are going to be due on a Monday or Tuesday. If you&rsquo;re starting the milestone on Saturday, that means you can&rsquo;t even get an answer from me sometimes until Monday or Monday afternoon. And that does not leave you a lot of time to finish the milestone, especially because I&rsquo;m on campus on Monday and I teach Monday afternoons. So it takes me a while to catch up from the email backlog over the weekend. So start early. I encourage you to start working on a project like Wednesday during the week if you can. So you&rsquo;ve got time to get your questions answered. Ask questions, get feedback. If you&rsquo;re not sure on something, commit it to GitHub, send me your link and say, hey, I just did this. Does this work? I can take a look at stuff and get you on track before you get too deep into the weeds.</p>
+<p>Like I warned earlier, use copy-paste carefully. Make sure that you&rsquo;re not adding more issues by just blanketly copy-pasting code without thinking about it. But once you get one entree written or one side or one drink written, a lot of that code is boilerplate that you can copy over and very carefully modify to match the other different setups. As said, commit to Git frequently, commit early, commit often. The more you commit to Git, the better off you are, because then if anything happens, if you make a mistake, if Kodio crashes, if you accidentally delete a file, you&rsquo;ve already committed it to Git. You don&rsquo;t have to worry about that. Every semester, I have a little flag that I can put up every time that a student deletes something and then asks me if I can restore it in Kodio. And I have to tell them I cannot because Kodio does not have backups and you should have committed that to Git. So do that. If you want to use any online resources, you&rsquo;re welcome to do that. If you get some code from Stack Overflow or something like that, like if you can&rsquo;t remember how to sort a list or you don&rsquo;t remember how to do this, go find an online resource and just make sure you cite it in your code. The big thing I tell students is don&rsquo;t use an online resource to do the whole assignment. But if there&rsquo;s a bit of code that you don&rsquo;t remember how to do, that&rsquo;s how row programmers work. I don&rsquo;t remember how to sort a list in Python very often. I go find the Stack Overflow or the document or whatever that shows me how to do that. And I just put a little note in my code. It&rsquo;s like, I got this from here. That&rsquo;s what you should do. So if you&rsquo;re not sure, ask me. I&rsquo;m not huge on stomping on plagiarism and stuff. But if I look at your code and I don&rsquo;t think you wrote it, then we&rsquo;re going to have issues. So just be aware of that. Okay.</p>
+<p>Other than that, I look forward to this semester. Like I said, this is one of my favorite classes to teach. I think it&rsquo;s really exciting to see all the different things that you can learn in programming so quickly. I love working with students in this class. So please feel free to keep in touch with me. I have the Ed Discussion board, like I talked about. I&rsquo;ll be pretty active there. I&rsquo;m on Teams. I&rsquo;m on the CS Discord server. You&rsquo;ll also see some messages about tea time office hours. I usually host those on campus on Monday. It&rsquo;s a great time to just come in and chat with me about anything outside of class. If you want to just hang out, talk about life, the universe, and everything. And then, of course, I have my one-on-one office hours that you can schedule anytime using the link on the Canvas homepage in the syllabus, my email signature, whatever you want. So best of luck this semester. I&rsquo;m rooting for you. I&rsquo;m looking forward to working with you. You&rsquo;ll see a video like this probably every week, if not every other week. So just be aware of those. Don&rsquo;t get posted on Canvas just like this one. But otherwise, best of luck, and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-2">Fall &#39;25 Week 2</h1>
+
+
+<a href="https://www.youtube.com/watch?v=ASb2msfpJtY">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello and welcome to the week to announcements video for CC410 in fall 2025. So this week you should be wrapping up the first module which includes the Hello Real World project. I really like the Hello Real World project because I think it takes the classic Hello World project that you start with and really expands upon it in a way that makes it match more what you&rsquo;d see in the real world with things like type checking and unit testing and all of these other things that we&rsquo;re going to do in this class. So hopefully you&rsquo;re getting that wrapped up and getting that committed and pushed to GitHub so that we can get that graded. As always, if you have any questions with that, let me know.</p>
+<p>Also this week you should be scheduling your first final project check-in. Basically what I want you to do is schedule a 15-minute meeting with me via Zoom, either on Calendly or on my booking link. Mainly it&rsquo;s a chance for us to meet briefly on Zoom, get to know each other, and to give me a chance to explain the final project and some of the things going on in this class. I like to do an in-person meeting like that during the first couple of weeks of the semester, just because this is a small class. There&rsquo;s only about 10 students this semester. So it really gives me a chance to get to know each of you individually and really talk to you about the class and what&rsquo;s going on. So please make sure you get that scheduled so that we can meet sometime in the next week or two to start with that.</p>
+<p>So this week we&rsquo;re going to introduce the second module, which is object-oriented programming. We&rsquo;re going to reinforce a lot of the object-oriented programming things that you&rsquo;ve learned earlier by making classes, functions, constructors, things like that. You&rsquo;ll do a small example project. We&rsquo;re going to come back to that example project a few times, but you&rsquo;ll do a small example project, and then you&rsquo;ll start working on the first restaurant milestone. And remember to do the restaurant milestone, you&rsquo;ll kind of start by doing the same things that you did at the beginning of the Hello Real World project, but then you&rsquo;ll start building your restaurant classes instead. Also, please remember for this semester, you can choose which restaurant project you want to go through. I discussed this briefly in some of the earlier announcements. There&rsquo;s the one that&rsquo;s linked directly in the textbook, and then there&rsquo;s an extra one that&rsquo;s available. You can choose either one of those. It&rsquo;ll be pretty clear in your submission which one you have chosen.</p>
+<p>So other than that, please don&rsquo;t forget that there are updates on both the announcements and the ed discussion board, specifically in the Canvas announcements. The second announcement is a read this announcement that talks about some of the updates in this course, things like new Python versions, issues with Codio GUI since we built this course, things like that. I have not had the time to go through and fix all of those in the underlying materials yet, but I do have an announcement that lists all of those. Most of the announcements for me are going to come from the Ed Discussion Board, except for these weekly announcements, which will get posted on Canvas. When you see grading, you&rsquo;ll see there&rsquo;s a rubric on Canvas. I&rsquo;ll also leave some code comments on GitHub. You&rsquo;ll get an email from GitHub with those code comments. Otherwise, I think things are going well. So hopefully things are working so far so good. But as always, if you have any questions, let me know.</p>
+<p>So for the first milestone, like I said, it&rsquo;s going to be a lot of packages and classes, a lot of boilerplate code to make object-oriented programming work. If you want, you can make things easier on you later and go ahead and worry about things like the Flake 8 style checker and adding your documentation comments as you&rsquo;re doing your writing. But to ease you into this class, I don&rsquo;t actually require and grade those until milestone three. So you don&rsquo;t have to do them right now, but I encourage you, if you want to make life easier for you later, go ahead and get used to adding those now as you work. My estimate for milestone one is it may take anywhere from three to eight hours to complete. I completed it when I was doing the model solution in about an hour. So usually I figure with my experience, I go quite a bit faster than you would. And that&rsquo;s totally fine. You know, I have 20 years of programming experience, but it still takes me about an hour to go through the first milestone. And then your expected size is around 1,500 to 2,500 lines of code. It varies widely depending on how you write this up. And of course, if anything&rsquo;s unclear in the milestone, anything you want to know more about, you can post on the megathread in a discussion or you can send me an email and I&rsquo;d be happy to answer those questions.</p>
+<p>So looking ahead after this, Module 3, we&rsquo;ll talk about some documentation and unit testing. Module 4, we&rsquo;ll introduce some inheritance and polymorphism into this project. We&rsquo;ll refactor some of our additional code. And then Module 5, we&rsquo;ll introduce things like debugging statements, logging statements, Lambda expressions. And then by the end of September, when Module 5 is due, we&rsquo;ll have our second final project check-in. At that time, we&rsquo;ll start talking more specifically about final project ideas for your project. So that&rsquo;s where we&rsquo;re going this semester. I hope things are going well for you. As always, if you have any questions, let me know. Otherwise, best of luck. And I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-3">Fall &#39;25 Week 3</h1>
+
+
+<a href="https://www.youtube.com/watch?v=9o0zwfSWyMA">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week three announcements for CC410 in fall 2025. So, this week you should be wrapping up the second module, which I believe the milestone for that is due pretty soon. So, make sure you get that turned in. You&rsquo;ll be doing the example for that, and you&rsquo;ll be doing the first restaurant milestone. For this first restaurant milestone, I will try and give pretty detailed feedback, usually within a day or two of getting it submitted. So I&rsquo;m hoping to work on that either today or tomorrow of this week. I also will give you feedback on your Hello Real World project. I haven&rsquo;t had time to get to that yet because we had some other things going on this semester, but I will get you feedback pretty quickly for your first restaurant milestone so you can roll that into your second milestone, which will be new next week.</p>
+<p>So this week, we&rsquo;re going to introduce some new concepts around documenting your code, doing unit testing, and developing some UML diagrams for your code. You&rsquo;re going to do a quick documentation and testing example. Make sure you finish that example completely. Read the instructions, make sure you get everything done. And then for the second restaurant milestone, you&rsquo;ll be adding documentation comments and unit testing to your code. So for this milestone, you&rsquo;re going to write around 400 unit tests. That&rsquo;s including all of the parameterized unit tests. It depends a little bit on the approach that you take, but my model solution had around 400 tests. You&rsquo;re also going to write some documentation comments, and you&rsquo;re going to include a UML class diagram in the root of your GitHub repo. Make sure you put that in the correct place. Generally, you need to put that inside of your repository folder, not at the top level, because then it won&rsquo;t get included in your GitHub repository.</p>
+<p>Again, this milestone should take you anywhere from three to eight hours to complete. This will be around 3,500 to 4,000 lines of code, including the documentation comments that you&rsquo;re going to add. And as always, feedback is welcome. So one big hint I will give you for this milestone, do not look at your original source code when writing the unit tests. Instead, go back to the original documentation for the project and make sure your unit tests are checking against that, not your source code. A great example is the price for every item. Instead of looking at your source code for the price of an item, go back and look at the milestone one requirements for the price of that item and write the unit test based on that. The reason you should do that is if you mistype the price in your source code, your unit test is also going to have the wrong price in it. So make sure your unit test is testing the specification, not the code. Another thing you can do is use globalized attributes and generalize things, but you have to be careful. You can&rsquo;t necessarily generalize the individual ingredients, but you can generalize things like the toppings, the sizes, things like that. And so look at using parameterized tests.</p>
+<p>Here&rsquo;s a great example in Python of using parameterized tests and some global variables. For example, here you can see that I have globalized the price and calories. And so then in my code, I&rsquo;m just checking against those variables instead of having the values put in. That way, if I want to copy paste this entire block of code, all I have to do is change the variables at the top and do a control F for the item and change it to a different item, and then you&rsquo;re good to go.</p>
+<p>So another big thing to keep in mind in this class is a growth mindset. The milestones in this class are challenging. They are meant to be challenging. You don&rsquo;t learn anything and you don&rsquo;t grow as a programmer if you are not challenged. So make sure you read the milestones carefully. Ask me if you have any clarifications and start early on these milestones so you can work methodically. Generally, a method for not succeeding in this class is to wait until Sunday or Monday and starting on the milestone the day before it&rsquo;s due. You generally won&rsquo;t have enough time. And if you run into any problems, it may take a while for me to have time to get back to your questions. So the earlier you start, the earlier you have questions, the better off you are. And then, of course, we are using Git and GitHub. So commit early and commit often. That way, if you make a mistake, you can always roll back to a previous commit instead of having to carefully undo your changes. That&rsquo;s what that tool is there for.</p>
+<p>So looking ahead after this milestone, the next big module is on inheritance. We&rsquo;re going to refactor our code a little bit to add some more object-oriented inheritance in it. Then we&rsquo;re going to spend a little bit of time doing some debugging. And that will get us to about the end of September where we&rsquo;re going to have our second final project meeting. Then we&rsquo;re going to talk about design patterns and test doubles. If I had to pick, I think modules six and seven are probably the most useful new content we&rsquo;re going to cover in this entire class. So please be aware of that. And then after module seven, we&rsquo;ll start introducing graphical user interfaces, web interfaces, etc.</p>
+<p>One other thing to be aware of, tomorrow is the ACM Back to School Bash for Computer Science. So for those of you that are on campus or near campus and want to check out all of the cool student activities and organizations that are going on in computer science, I highly encourage you to attend the ACM Back to School Bash. This is open to everybody, including ICS students, including online computer science certificate students. Anybody in this class is welcome to attend. There will be free food, fun, and events. It is Wednesday, September 10th, which is tomorrow from 5 to 7 p.m. in the engineering building atrium on campus. So please be aware of that. If you want to come join us, I encourage you to do that. It&rsquo;s a really great way to see what&rsquo;s going on in computer science and all of the student organizations.</p>
+<p>So other than that, that&rsquo;s all I got for you this week. Hopefully, going through all the process of writing these unit tests is very valuable to you. If you have any questions or concerns, let me know. Otherwise, best of luck, and I will see you all next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-4">Fall &#39;25 Week 4</h1>
+
+
+<a href="https://www.youtube.com/watch?v=r3JCyINv_2A">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week four announcements video for CC410 in fall 2025. This week you should be wrapping up the next module, which is on documentation, testing, and creating a UML diagram for your project. You&rsquo;re going to do a quick example where you add documentation and unit testing to an example project. And then you&rsquo;re going to be working on the second restaurant project, which is all about adding documentation and unit testing to your restaurant project. That milestone can be pretty big, but hopefully it goes well. If you have any questions about unit tests you should be adding, please let me know.</p>
+<p>This week we&rsquo;re going to shift gears and talk a little bit more about inheritance and polymorphism, which is one of the really important concepts in object-oriented programming. You&rsquo;ll do a quick example about inheritance where you get to explore what that looks like. I&rsquo;ll also ask you to do a quick survey that I call the start, stop, continue survey. This is just a quick beginning of the semester check-in to see how things are going. It&rsquo;s completely anonymous on Qualtrics. I get no data about who you are, but it just gives me an opportunity to know whether you want me to start doing something, stop doing something that I&rsquo;m currently doing, or continue doing something that you really like that I should keep doing in this class. I take that feedback very seriously, so please let me know if there&rsquo;s anything you&rsquo;ve got. And then also, hopefully this week you&rsquo;ll get some time to be thinking about final project ideas in preparation for our next project check-in here in a couple weeks.</p>
+<p>Then next week after that, we&rsquo;re going to do a module on debugging and logging. We&rsquo;re going to learn about Lambda expressions. You&rsquo;ll do a third restaurant milestone. So there&rsquo;s a couple of weeks to work on that milestone. And then already the end of next week, you&rsquo;ll be scheduling your second final project check-in. So for the upcoming milestone, this is the first one where I enforce all general requirements. So everything that you did for the Hello Real World project, including documentation, unit testing, flake style checking, MyPy, type checking, all of that stuff needs to be implemented in TOX. It needs to be automated and it needs to all work. In general, if you want 100% on Milestone 3, when I run a brand new TOX run, it should give me that little green all test passed at the very end. So make sure you&rsquo;re targeting that level. That&rsquo;s what we&rsquo;re looking for. For that milestone, you&rsquo;re going to refactor a few classes. You&rsquo;re going to add some inheritance to those classes, and then you&rsquo;re going to update your UML diagram. This milestone is actually much smaller than the last two. It&rsquo;s only about 1,500 lines of code, new or changed, but it does require a lot more thoughtful approach to how you add the inheritance and refactor the existing code. And as always, feedback is welcome if you have any questions.</p>
+<p>So some big hints on this milestone. Just like every other milestone, work in small chunks. Don&rsquo;t try and tear everything apart and put it all back together. Instead, work on one thing. Add the interface in first. Add in a parent class. Get that to work and then keep working. Use your unit tests. Now that you have unit tests, you can run your unit tests to check to make sure your syntax is correct, make sure you didn&rsquo;t change any functionality. Don&rsquo;t forget that you can commit early and commit often. GitHub is your friend. If you make a mistake, you can roll back to an earlier commit. It&rsquo;s really easy to do. You can even try test-driven development. You could work on writing your unit tests first and then writing code to actually pass those unit tests later. You can work on inheriting. One thing I want you to do is definitely inherit the item interface on the base class. So for example, your entree, you&rsquo;re going to have a base entree class. You should inherit the order item interface on that base class, not on the individual entree classes themselves. That way you get that chain inheritance that works a lot better. And then, of course, ask any questions you have on syntax. For some of you, this might be the first time you&rsquo;ve really done some of this object-oriented stuff in Python. So let me know if you have any questions.</p>
+<p>So looking ahead after that, like I said, we&rsquo;ll do a module on inheritance debugging. Then we&rsquo;ll get into design patterns and test doubles, which like I&rsquo;ve alluded to before, I think are the two most important modules in this class. And then we&rsquo;ll shift over and do some stuff with UIs, etc.</p>
+<p>One thing I want to remind you of that&rsquo;s coming up is every week I host tea time office hours within the computer science department. It&rsquo;s a chance for you to come in and talk to computer science faculty, staff, advisors about life, the universe, and everything. For tea time, we tend to do a few panels every semester. And so next Monday, September 22nd, we&rsquo;re hosting a career fair prep and industry panel. This is a chance for you to meet with the Engineering Career Fair Career Center rep who&rsquo;s going to be there, Liz Parks. We&rsquo;re also going to have several folks from industry at varying levels of seniority and industry there to give you tips on how to succeed at a career fair, resume tips, interview tips, anything you want to know right before the Engineering Career Fair, which is going to be, I believe, Wednesday. So again, tea time office hours. It&rsquo;s Monday, September 22nd at 10 a.m. We hold this in Engineering Building 2168, which is the conference hall on the west end of the building past all the CS offices. Or you can join via Zoom. The Zoom link is hosted on the homepage on Canvas. It&rsquo;s easy to find, or you can always post and I will let you know.</p>
+<p>So hopefully things are going well. Hopefully you&rsquo;re not at that point in the semester where things are on fire. It is week four. I know that this is the week where difficulty usually ramps up in a lot of classes and this one is included in that. So I hope things go well. But as always, if you have questions, let me know. Otherwise, best of luck and I will see you next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-5">Fall &#39;25 Week 5</h1>
+
+
+<a href="https://www.youtube.com/watch?v=0SAcbbkWemA">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week five announcements video for CC410 in fall 2025. This week you should be wrapping up a module on inheritance and polymorphism and playing around with an example on inheritance. Also in this week, we&rsquo;ve got a start, stop, continue survey, which I think is one of the really important things I want you to get through in this class. So please take a little bit to work on that. That just gives me some quick feedback on how things are going. And hopefully you&rsquo;ve got a little time to work on the final project because we&rsquo;re working on a two-week module. There&rsquo;s going to be a little bit of gap in there. So hopefully you can start working on some final project time as well.</p>
+<p>This week we&rsquo;re going to have a module that introduces debugging and logging. There&rsquo;s going to be a small example around that. We&rsquo;re also going to introduce Lambda expressions, which are really cool. We&rsquo;re going to use Lambda expressions a little bit in our unit testing, and then they come up again when we start building some of our user interface. So you&rsquo;ll do a quick example around that. And then you should be working on your third restaurant milestone as well as scheduling your second final project meeting for sometime toward the end of this month. Yes, we&rsquo;re already there as promised. We&rsquo;re meeting again at the end of September. It happens pretty quickly.</p>
+<p>So big things to keep in mind for milestone three. This is the first milestone where I will enforce all general requirements. That means I expect your code to fully pass a MyPy type check, to have unit testing with a very high level of code coverage, to have Flake 8 with a very low number of style problems, especially in your source folder. The test folder, I&rsquo;m not so worried about, but the source folder, I definitely want that to pass a flake style check. You need to have unit tests for most everything. You need to have documentation for everything in the source folder at least. And so all of those things are going to bear into account. Ideally, when I run talks on your program, it should get all the way to the end and have a little green message that says everything passed. You&rsquo;ll also be updating your UML diagrams. So there&rsquo;s a lot of stuff going on outside of coding in this one. The actual code for this is only about 1500 lines of code, new or changed. So it&rsquo;s not so much difficult with the code, but it&rsquo;s more the theory and rearranging things to make it work. And then of course, as always, feedback is welcome if you have any questions.</p>
+<p>So like I said last week, big hints for Milestone 3, try and work in small chunks. Commit to GitHub early, commit often. That way, if you screw something up or make a mistake or want to roll back to a previous state, you can do that. You can consider trying test-driven development this time. Write your unit tests before you try and implement them. And my big hint, of course, is it&rsquo;s not clear in the milestone, but make sure you inherit the item abstract class on the base classes. So Entree, Drink, and Side should inherit that item interface, and then all the other classes should inherit from Entree, side, and drink, which will then also inherit item, but you don&rsquo;t have to explicitly do that because of the transitive inheritance. And then, of course, don&rsquo;t be afraid to ask questions on syntax if you have any questions there.</p>
+<p>Looking ahead after this module, we&rsquo;re going to get to module six and seven, which are design patterns and test doubles. Those are, I think, two of the most important modules in this class. So I really want you to pay attention to those. Then we&rsquo;ll switch over and start teaching a little bit of desktop GUI, and eventually we&rsquo;re going to get to some web GUI as well.</p>
+<p>So hopefully you&rsquo;re doing pretty well. I know right now the weather does not feel very cold out, but I&rsquo;m hoping that soon we will get to the wonderful part of winter where it&rsquo;s nice and cold and snowy. And so instead of enjoying how hot it is outside, we can enjoy how cold it is outside. But hopefully things are going well. As a quick side note for people that watch these videos, I am trying some new microphone settings this week. So if my microphone sounds better or worse, let me know. Hopefully things sound a little bit better. I&rsquo;m trying some different things to make my mic sound not quite as sharp as it had. So if you have any feedback on that, let me know. I&rsquo;m constantly playing around trying to get the settings right on this new mic. But if you have any questions, let me know. Otherwise, best of luck and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-6">Fall &#39;25 Week 6</h1>
+
+
+<a href="https://www.youtube.com/watch?v=EOfEAiUV_SY">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello and welcome to the Week 6 Announcement Studio for CC410 in fall 2025. So this week you should be working up the module that introduces debugging and logging. You&rsquo;ll also do some Lambda expressions. There&rsquo;s an example around that. And then you turning in the third restaurant milestone, which is all about inheritance and polymorphism and adding some of that to your project. And hopefully you should be scheduling the second final project meeting with me sometime in the next week or two so we can start talking about some specific ideas you might have about your final project in this class.</p>
+<p>So this week we&rsquo;re going to work on design patterns. I think it&rsquo;s one of the more important parts of the class. So you&rsquo;re going to do an example working around design patterns. You&rsquo;re going to add some classes to your restaurant that represent various design patterns. And then the other thing you&rsquo;re going to work on is the first concept quiz in this course. So for the milestone, you&rsquo;re going to add a class to represent an order. So it&rsquo;s a list of items. You&rsquo;re going to have a combo, which is a set number of items, an entree, a side, and a drink that will have some special features to it. You&rsquo;re going to make a builder that can build those combo classes for you. And then you&rsquo;re going to have a singleton class that keeps track of the next order numbers so that when you create new orders, you&rsquo;ll be able to keep track of that. Don&rsquo;t worry about unit tests for this one. We&rsquo;re going to do unit tests for this one in the next milestone. Originally, I did this as a big two-week milestone, but I found it&rsquo;s easier to have this kind of split out between the two milestones.</p>
+<p>So the second thing you&rsquo;re going to work on this next week is the first concept quiz. This is not an exam, but this is meant to be a quiz of your understanding of some of the deeper concepts that we&rsquo;re covering in this class. There&rsquo;s a two-hour time limit on this concept quiz. It is open book, open notes, open code. However, please don&rsquo;t use tools like ChatGPT to answer these questions. I really want to see your understanding and your thoughts behind some of these concepts. It&rsquo;s going to test things such as your understanding of object-oriented programming theory, your comprehension of code and UML, and a little bit of some of the unit testing that we&rsquo;ve covered as well. So do your best on this. It kind of gives you a good checkpoint to see where you&rsquo;re at and how you&rsquo;re doing on the concepts in this course. And so that&rsquo;s coming up later this week.</p>
+<p>The other thing to bear in mind, I will be fully remote the rest of this week. Wednesday through Friday, I&rsquo;m going to be working outside of the office. And so because of that, email responses are going to be slower. I have my calendar blocked off, but you can email me if you want to schedule an appointment. I just won&rsquo;t have quite as much flexibility to immediately be available for an appointment, but I will get back to you. So if you have questions, drop them in an email. Use the usual communication tools. I will respond. It just might be late in the evening, early in the morning when I have time. So just be aware of that coming up.</p>
+<p>So looking ahead after these modules, we&rsquo;re talking about test doubles. We&rsquo;re going to introduce some things about graphical user interfaces and event-driven programming, and then we&rsquo;re going to go from there. So hopefully things are strumming along okay this semester. Things are seem to be going well. If you have any questions, let me know. Otherwise, best of luck, and I will see you all again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-7">Fall &#39;25 Week 7</h1>
+
+
+<a href="https://www.youtube.com/watch?v=MmEVwk5MSE4">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week 7 announcements video for CC410 in fall 2025. This week, we&rsquo;re going to be introducing the topic of test doubles. This is how we can create fake versions of classes in our unit tests so that when we&rsquo;re testing a class that depends on other classes, such as our order classes or combo classes, we can add in fake other versions of the classes that it depends on so that our unit test tests only the functionality in the class we&rsquo;re testing. It&rsquo;s a really powerful tool. It&rsquo;s something that we should learn very clearly in this class. So it&rsquo;s one of the big outcomes that I want you to get. So you&rsquo;re going to work on that.</p>
+<p>Then you&rsquo;re going to work on your fifth restaurant milestone, which is adding a lot of unit testing using these test doubles to test the new stuff that you added to your restaurant project. And then also don&rsquo;t forget the concept quiz is out there on Canvas. So make sure you&rsquo;re getting that wrapped up before the due date. So like I said, Milestone 5 is all about unit testing for the design patterns that we worked on previously. So things like the combo class and the order class. You&rsquo;re going to use a lot of test doubles for these. I expect your unit tests to use these test doubles, whether you think you need them or not. You really should be using them. And so make sure when you&rsquo;re writing your tests that you&rsquo;re focusing only on testing the one class that you&rsquo;re trying to test. So when you&rsquo;re testing a combo class, assume that everything else is working and you&rsquo;re just testing the combo class itself. But if you do this correctly, it gives you access to a lot more powerful unit tests as you go.</p>
+<p>Looking ahead after this module, once we&rsquo;re done with this, we&rsquo;re going to shift over and start introducing graphical user interfaces. So you get to work on that for a little while. Then we&rsquo;ll talk about some things like libraries, web APIs, and more. So it&rsquo;s week seven. We&rsquo;re close to the middle of the semester. Hopefully things are going well. If you haven&rsquo;t already, make sure you&rsquo;re scheduling your second final project check-in with me to chat about that. Other than that, best of luck. Have a good week. And I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-8">Fall &#39;25 Week 8</h1>
+
+
+<a href="https://www.youtube.com/watch?v=3z6FUTrVTWE">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the weekend announcements video for CC410 in fall 2025. So, you should be wrapping up the work on test doubles and scheduling your second final project meeting with me. Also, the concept quiz was due. And so I&rsquo;ve got most of those graded that are submitted. So, you should be seeing grades on Canvas. If you have any questions on that first concept quiz, let me know. But generally, everybody did really well. So I&rsquo;m very impressed with that.</p>
+<p>This week, we&rsquo;re going to shift gears and start working on a graphical user interface. So, we&rsquo;re going to do some basics this week of just building out the basic structure of a user interface. And that will be your next restaurant milestone. And so, I&rsquo;m going to give you an overall GUI structure that I recommend for this project. You don&rsquo;t have to follow that example, but if nothing else, I give one example that I think makes a lot of sense for what we&rsquo;re doing. Make sure you read the hints, but feel free to get creative. If you want to make this project your own, you can change some of the layouts, some of the colors, fonts, structure, whatever you want to do, as long as it meets the requirements that I give in the project.</p>
+<p>So looking ahead after that, we&rsquo;re going to spend some time on event-driven programming, adding some functionality to our user interface, adding in an external library to handle receipts and checkouts and things like that. And then eventually here in a few weeks, we&rsquo;ll get to web APIs and some other information there.</p>
+<p>So we&rsquo;re at the halfway mark of the semester. I&rsquo;m not going to have too much to say this week. Hopefully, things are going well. If you haven&rsquo;t already, please register for Hack K-State if you&rsquo;re interested and you&rsquo;re in Manhattan. It is this weekend. You can basically hang out in the business building with computer science folks all weekend, get free food, work on your homework, work on projects for Hack K-State, whatever you want to do. It&rsquo;s a great event, so make sure you register for that if you&rsquo;re interested. Otherwise, best of luck, and I will see you again next week. Bye.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-9">Fall &#39;25 Week 9</h1>
+
+
+<a href="https://www.youtube.com/watch?v=1RKMCuK6ccY">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week nine announcements video for CC410 in fall 2025. This week you&rsquo;re going to be working on some parallel programming examples to give you an idea of how we work in multi-threaded environments. We&rsquo;re also going to do another example on event-driven programming, which is how we actually add interactability to our user interfaces. And then finally, you&rsquo;re going to do a restaurant milestone where we&rsquo;re going to take the user interface that you built last milestone, and we&rsquo;re going to add some event-driven programming to it so that the button clicks actually work and it actually starts doing what we want it to do.</p>
+<p>So, one thing you might run into in this particular milestone is issues with testing. The biggest problem we run into is the Kodio boxes have limited memory. A lot of them only have 512 megabytes of RAM available. Because of that, we can&rsquo;t just spawn off a whole bunch of tests and expect it to work. For Python, the biggest thing that we&rsquo;re going to do is run our tests in batches. And so I show a little bit of how to do that in the project and in the milestone. Basically, it just involves adding more unique commands to your tox file so that you run the tests in individual batches instead of trying to run them all in one shot. If you have any trouble getting your unit tests to run nicely in Kodio, just let me know. I&rsquo;d be happy to help you with that.</p>
+<p>So looking ahead after this, the next couple of modules, we&rsquo;ll finish up our user interface by adding in some external libraries and building a release version of our app. And then after that, we&rsquo;re going to switch over and start working on web APIs and some other information as we get toward the end of the class. And those modules are also designed to be a little bit smaller to give you more time to work on your final project. So we&rsquo;re close. We&rsquo;re getting there. We&rsquo;re slowly getting toward the end of the semester. We&rsquo;re at week nine right now. So hopefully things are going well. As always, if you have any questions, let me know. Otherwise, best of luck. And I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-10">Fall &#39;25 Week 10</h1>
+
+
+<a href="https://www.youtube.com/watch?v=XkT-UJqIZzk">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week 10 announcements video for CC410 in fall 2025. So, this week we&rsquo;re going to spend a little bit of time talking about external libraries and how we can download and install a library into our code. We&rsquo;ve already done some of that before with some of the other tools, but this is going to be a library that we&rsquo;re going to interface with directly within our code. Then you&rsquo;ll start working on the next restaurant milestone. And of course, we have another one of those start, stop, continue surveys that gives you a great opportunity to give me quick in the middle of the semester anonymous feedback if there&rsquo;s anything you&rsquo;d like me to know about the class.</p>
+<p>So for the milestone, we&rsquo;re going to start working on the sidebar to handle our orders. We&rsquo;re also going to add some extra buttons to the panel for dealing with combos. We&rsquo;re going to do some basic unit testing on our user interface. And one of the big things we&rsquo;re going to do is we&rsquo;re going to switch around and use the factory method pattern for finding the different panels that we need to load within our UI. So this is the next to the last real big milestone with all the stuff that we&rsquo;re doing in the UI. And then the next milestone, we&rsquo;ll work on the checkout process using that external library. So be prepared for that.</p>
+<p>So like I said, looking ahead after this module, we&rsquo;re going to spend some time on our checkout and building a release of our project. And then we&rsquo;ll switch over and spend some time doing web UI basics. The web modules from module 12 onward are going to be a lot smaller than the normal restaurant milestones. That&rsquo;s really designed to give you more time to work on your final project as we get toward the last month of the semester. So hopefully things are going well in this semester. As always, if you have any questions, let me know. Otherwise, best of luck as you work on this milestone, and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-11">Fall &#39;25 Week 11</h1>
+
+
+<a href="https://www.youtube.com/watch?v=-29XMW85KYU">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week 11 announcements video for CC410 in fall 2025. So, this week we&rsquo;re going to work on another project all about building a release version of our software. This is a packaged version of our software that we can provide to other people that aren&rsquo;t programmers and allow them to use it as quickly and easily within their own projects as we would in ourselves. So we&rsquo;re going to use a quick example of releases and then we&rsquo;re going to update our restaurant project by adding a checkout library to help us actually finalize the sales process of our point of sale system.</p>
+<p>So for Milestone 9, we&rsquo;re going to insert an external library. We&rsquo;re not going to build a release version ourselves, but we&rsquo;re going to insert a library that is a release version of a Python library. It&rsquo;s going to simulate allowing you to pay with cash your credit card. Obviously, with cash, you need to do some work to make change. And then, of course, it also has a library for printing a receipt. So we&rsquo;re going to build all of those things into our project.</p>
+<p>Some big hints for this milestone, making change is hard. The algorithm for making change can be a little complicated, especially when you&rsquo;re dealing with the real world situation where the cash drawer has a limited number of each digit. So what I encourage you to do is make change, assuming you have infinite numbers of each denomination of currency, and then only if you have time and get that working should you try and do the thing where you actually deal with the case where you might be out of ones and have to substitute a five for five ones and things like that. The other thing you&rsquo;ll need to do with your receipts is each line on the receipt has a limited width. It&rsquo;s in the documentation, so make sure you think about that. You can truncate your code or have it wrap down to the next line.</p>
+<p>In both of those cases, I encourage you to use the adapter pattern that we learned earlier this semester in our discussion on design patterns to wrap the change drawer and the receipt printer in an adapter of your own code. And then, of course, you can write unit tests against your adapter functions and then just have an untested function at the end that actually does those changes on the change drawer. So for example, you have an adapter function that figures out all the changes to be made and returns a dictionary of all the things to be updated in the cache drawer. You can unit test that code and then have a separate function that just applies those changes to the cache drawer. Same thing with the receipt is have a function that generates a list of strings that will be printed to the receipt and then have a separate function that actually prints those strings to the receipt, but you can test the first one. You can read the unit test for the library that I provide. It gives you some insight in how I do some testing for these things, might give you some ideas for what you want to do in your code.</p>
+<p>So after this module, once you get this done, we&rsquo;re going to switch over to doing web interface. So those next milestones are going to be much smaller and give you more time to work on your final project as we get toward the end of the semester. So hopefully everything&rsquo;s going well. Hopefully you&rsquo;re able to get your credit cards and cash checkouts to work and are just as happy as the Target Lady. As always, if you have any questions, let me know. Otherwise, best of luck this week and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-12">Fall &#39;25 Week 12</h1>
+
+
+<a href="https://www.youtube.com/watch?v=P1hsAZqOUMg">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week 12 announcements video for CC410 in fall 2025. So, this week, as promised, we are shifting gears a little bit away from our traditional graphical interface in the restaurant project, and now we&rsquo;re moving to a web-based interface. So, this week is pretty light. We just have a quick example showing you how to add a web framework to your project. You&rsquo;re going to do that for the restaurant milestone. It&rsquo;s pretty simple. Right now, we&rsquo;re just going to focus on making a menu. It&rsquo;s not going to be interactive or anything. It&rsquo;s just going to be data generated. So, hopefully, this project goes pretty quick, and then it will give you some time to work on your final project. Don&rsquo;t forget we&rsquo;re on week 12 of 16. So you really have four, maybe five weeks if you include the final, the fall break to work on your final project. So I encourage you to get started on that if you haven&rsquo;t already.</p>
+<p>So like I said, for Milestone 10, you&rsquo;re going to install a web framework into your project. You&rsquo;re going to do some work to set up routes and a controller in your project. You&rsquo;re going to learn how to set up some layout templates and how to do template inheritance. And then you&rsquo;re going to build a menu that is fully data-driven for the project itself. After that, we&rsquo;re going to have a few more milestones on adding some form data and filtering and serialization so that we can do some more interactive stuff with our web app.</p>
+<p>From here on out, the milestones are going to be hopefully quite a bit smaller than what you&rsquo;ve been doing for the restaurant project up to this point. And it&rsquo;s really meant to give you more final project time. And then the big thing to keep in mind is the last restaurant milestone is going to be due at the end of finals week. So make sure you&rsquo;re keeping that on your schedule. Also, hopefully you&rsquo;ve seen the note, we have one fewer day to get grades posted. Grades this week, or this year are due the Monday after finals week, not the Tuesday after finals week, which means that I&rsquo;m going to have to be really particular about everything&rsquo;s got to be in the Friday of Finals week. So I have enough time to get it graded, in time to get stuff posted. I&rsquo;m teaching three classes this semester, so I really, really need to have everything in on time. So make sure you&rsquo;re keeping an eye on that as well.</p>
+<p>So quick, we&rsquo;re headed to the World Wide Web. I hope this milestone gives you a quick break out of all the stuff we&rsquo;ve been doing with the user interface. As always, if you have any questions, let me know. Otherwise, best of luck, and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-13">Fall &#39;25 Week 13</h1>
+
+
+<a href="https://www.youtube.com/watch?v=0f-SZh3iSUc">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello, and welcome to the week 13 announcements video for CC410 in fall 2025. So, this week you should be doing another restaurant milestone. We&rsquo;re going to focus on building a RESTful API and using it to accept some form data to create a custom item that we can add to our menu. So, do a quick example of how to accept form data to edit some items on the movie project. And then you&rsquo;ll add a form to your restaurant project to add a custom item to the menu. And then, of course, the big thing you should be doing is working on your final project. These web milestones are meant to be a lot shorter and more compact so that you have more time to be working on your final project, which is going to be due by the end of finals week.</p>
+<p>So, like I said, milestone 11 is all about adding web forms to do searching and presenting results. So make sure you&rsquo;re getting that. And then we&rsquo;ll also add some custom items to the menu here in the next milestone after this one. So looking ahead, we&rsquo;re going to add some more RESTful controllers and serialization to our project. And again, just big reminder, keep working on your final project. If you have any questions or concerns on that project, please let me know. I&rsquo;d be more than willing to help with that.</p>
+<p>So we&rsquo;re looking forward to the end of the semester. We&rsquo;re almost there. Hopefully everything is going well. Don&rsquo;t forget next week is fall break. I&rsquo;m sure everybody&rsquo;s looking forward to it. And then we have two weeks and then finals after we get back. So you&rsquo;ve got a little bit more time to work on everything. As always, if you have questions, let me know. Otherwise, best of luck and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-14">Fall &#39;25 Week 14</h1>
+
+
+<a href="https://www.youtube.com/watch?v=5JaD8rX9Uz8">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Good morning and welcome to your week 14 announcements video for CC410 in fall 2025. Hopefully everybody had a good Thanksgiving break and is ready to get these last couple of weeks of the semester out of the way. So this week you&rsquo;re going to have a final project check-in. This is our last big check-in before your final project is due. Mainly it&rsquo;s just a chance for me to chat with you, make sure everything&rsquo;s going well on your final project, and answer any questions you have about getting it wrapped up before the end of the semester. We also have the second concept quiz in this class. This is just to check that you&rsquo;re understanding some of our object-oriented concepts and things like that. Once again, a reminder on these concept quiz, they&rsquo;re open book, open notes, but please don&rsquo;t use AI for these. I really want to see exactly what your understanding is of these concepts. And it&rsquo;s a really good check to make sure you&rsquo;re understanding exactly what we&rsquo;re doing in this class. And then you&rsquo;re going to be working on a restaurant milestone where we&rsquo;re going to add a RESTful API and we&rsquo;re going to add a quick little form to add custom items to the menu. You&rsquo;re not going to edit the menu itself. You&rsquo;re just going to add custom items to that menu. And then of course, I want you to keep working on the final project.</p>
+<p>So like I said, for Milestone 12, we&rsquo;re going to build a RESTful web application. We&rsquo;re going to create some custom menu items, and it&rsquo;s going to reinforce some of those design patterns that we came through earlier this semester, like the iterator pattern and the singleton pattern. And this will also be the last time that you&rsquo;re going to update the UML diagram for your project. Again, you can just do a web-focused UML diagram. You don&rsquo;t have to include all of the data stuff and all the GUI stuff. I really just want to see a quick UML for the web that kind of links to other parts of your project. And then next week, we&rsquo;re going to have one more restaurant milestone that&rsquo;s on validation and serialization. It&rsquo;s a very small milestone that just adds a few more features to what we&rsquo;re doing in this custom items. And then you&rsquo;ll be continuing to work on your final project through that week and into the final of the semester.</p>
+<p>So then after that, there is a textbook extras quiz that&rsquo;s due on finals week. It&rsquo;s just a short quiz of things that I couldn&rsquo;t get into the textbook elsewhere. Your final project is due on Friday the 19th. So make sure you&rsquo;re watching for that and I will talk about that in just a second. And then the other quick reminder is I&rsquo;ve seen that several students have submitted things very early. If you want to get those graded early before the deadline, you just have to email me and let me know. And then I will go through and grade anything that you&rsquo;ve submitted that you want me to grade early. That way you know where you&rsquo;re at on the final project. So don&rsquo;t be afraid to email me if you&rsquo;ve got anything already submitted that you want me to grade before the deadline. That also helps me out because I can get a little caught up on grading before we hit finals week and make sure that your grade is up to date.</p>
+<p>So for the final project in this class, just like a lot of the milestones, you&rsquo;re going to do pretty much the same thing. You&rsquo;re going to make a release tag on GitHub. Make sure you go back and read the requirements page for the final project. The final project is more of a completion project. It has several things. I want you to hit most of them, but it&rsquo;s really just kind of meet those requirements as best you can. Your code should have some inline documentation comments. It should have a README. You may also create some quick user documentation for how to use your project. That would be really helpful. And then you will give a final presentation for this class. You don&rsquo;t have to do a write-up other than the README, but you do have to do a presentation. So the presentation should be around 15 to 20 minutes. It&rsquo;s mostly just going through your code and going through your project. You have two options to give your presentation. You can either pre-record the presentation using Zoom or whatever tools you want to use and then send it to me, or you can present it live via Zoom to me anytime that I&rsquo;m available for scheduling.</p>
+<p>However, if you either pre-record it or present it live, you need to have some time for Q &amp; A. So if you do pre-record your presentation, you have to submit it to me sometime before you schedule time for your Q &amp; A. So if you schedule your Q &amp; A on Friday, you need to send me the video at least a little bit ahead of that so I can have watched your video by the time we get to the time for Q &amp; A. If you&rsquo;re going to present live, obviously we&rsquo;ll just do Q &amp; A right after your presentation. Also, please be aware that I&rsquo;m only available for these presentations Monday, Tuesday, and Friday of Finals Week. And generally, my Friday gets filled up pretty quickly. So if you want to meet with me, grab a time on my calendar or on my meet time, anytime on Monday, Tuesday, or Friday of Finals Week to do your Q &amp; A time. But just remember, if you&rsquo;re going to pre-record your video, you have to submit it so that I can watch it before we do Q &amp; A. I don&rsquo;t give a real deadline on that. I will try and catch videos pretty quickly, but just make sure you have it scheduled in time. And then also bear in mind, the end of the semester is December 19th. I cannot extend this deadline past that because grades are due Monday, and there&rsquo;s no way I&rsquo;m going to get everything graded if I extend those deadlines. So you absolutely have to have everything done Friday the 19th. Get it in, get it turned in. And remember, for any time, any Q &amp; A&rsquo;s or anything like that, my workday ends at five o&rsquo;clock. So even though you might be able to turn stuff in at midnight, for some of this, you need to get it done so you can schedule your things before the end of the workday on Friday.</p>
+<p>So last big thing in your presentation, suggest an outline. These are just some things I want you to hit in your presentation. Give me a little background on your project. Talk about where it came from, why you went with that idea. Talk me through your implementation, what the structure of your project is. You might show a UML diagram. You might pull up your code and poke around in it for a little bit. Then I want you to evaluate how well your project met your expectations. Were you able to do everything you wanted to do? Was there different problems that you ran into? Things like that. Then of course, there&rsquo;s talk about your future work. What would you want to do if you could continue working on this project? And then, of course, the big thing at the end is give me a demo. Pull up your project, walk me through it, make sure it works. Like I said, again, your presentation should be about 15 to 20 minutes. It does not have to be that long or in-depth, but I just want you to talk me through your project and show me that it works.</p>
+<p>So we&rsquo;re getting close to the end of the semester. Hopefully you&rsquo;re not freaking out too bad. Things seem to be going good from my perspective of things. So I&rsquo;d say just keep up the great work and let me know. You can expect probably one more announcement next week of any wrap-up stuff and talking about things like T-Vals. You&rsquo;ll get emails about T-Vals toward the end of the semester, but hopefully this gets you most everything you need to get through the end of the semester. As always, if you have questions, let me know. Otherwise, best of luck, and I will see you again next week.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="fall-25-week-15">Fall &#39;25 Week 15</h1>
+
+
+<a href="https://www.youtube.com/watch?v=ol5xH6C-LHc">YouTube Video</a>
+
+<h4 id="resources">Resources</h4>
+<ul>
+<li><a href="./slides" target="_blank">Slides</a></li>
+</ul>
+<h4 id="edited-transcript">Edited Transcript</h4>
+<p>Hello and welcome to the week 15 announcements video for CC410 in fall 2025. So we&rsquo;re almost there at the end of the semester. Hopefully things are going well. This week you&rsquo;ll be working on a project about validation and serialization of the data that we collect using our RESTful forms that you created the previous week. These milestones are pretty short and sweet. They&rsquo;re just kind of straightforward ways that we can add some additional functionality to our web project. And then the big thing is to keep working on your final project this week and into finals week so that you can get that done.</p>
+<p>So for the rest of the semester, all there really is is a textbook extras quiz. These are just things that I couldn&rsquo;t get into the course anywhere else. So it&rsquo;s just a quiz. There is no example or project to go with it. And then by the 19th of December, you&rsquo;ll need to get your final project submitted and presented. And I&rsquo;m going to talk about that next.</p>
+<p>So for your final project, remember the big deliverables are to create a release tag on GitHub, just like we&rsquo;ve been doing for the whole class. Make sure you read the requirements page for the final project. The final project is graded mostly on a completion basis where I want to just see that you hit most of the requirements in the final project. You don&rsquo;t have to hit every single requirement to get a full credit for this, but we want to hit most of them. We want to see your code documentation. We want to see it structured with the same structure that we&rsquo;ve seen for the prior projects. So things like linting, things like code commenting, things like type checking. All of those should be in your final project, just like we did for the restaurant project. You may also want to write up a quick readme or user documentation for how to use your project. And then, of course, you&rsquo;re going to be giving your final presentation.</p>
+<p>So the presentation itself should be about 15 to 20 minutes. You can either pre-record a video or present it live. Either way, either if you pre-record a video or you present it live, you need to meet with me for Q &amp; A. And your Q &amp; A needs to be scheduled after I&rsquo;ve had time to watch your video or right after your presentation. Best times for this are Monday, Tuesday, and Friday of Finals Week. Wednesday and Thursday of Finals Week, I am completely tied up with computer science final projects. You can go ahead and schedule your Q &amp; A time now and reserve your time on my schedule whenever it&rsquo;s most convenient for you, but make sure you have your video done and submitted to me well before that so I have a chance to watch that video before your Q &amp; A time. If you miss your Q &amp; A, it will definitely hurt your final grade in this class.</p>
+<p>So finally, for your final presentation, here&rsquo;s just kind of a suggested outline that you might want to go through. Give a little background about why you chose this project and why it&rsquo;s interesting to you. Talk about your implementation, how you built it, how you adapted what we did in the restaurant project to meet this. You can even pull up some code and talk through your code. Give a quick evaluation of how well you think your project meets the goals that you had for this project. Talk about any future work you would do if you could keep working on this project. And then, of course, give me a demo of the project running itself.</p>
+<p>Last big thing for the semester, teaching evaluation or TEVALs. Those are available now. You should have gotten an email this morning for those. Remember that the TEVALs at K-State are completely anonymous. I don&rsquo;t get to see anything about you. I just get to see the feedback that you leave. It&rsquo;s also delayed. I cannot see any of the TEVALs until I have final grades submitted for this class. So please, please take the time, fill out the teaching evaluation. Any and all constructive feedback is welcome. I really do want to hear from you about your experiences in this class, how things went, how things could be improved over time. I honestly look at every single one of these and I consider every single comment I get. So please take some time to fill out these TEVALs with all of your honest and constructive feedback, all of that is greatly, greatly welcomed. So we&rsquo;re at the finish line for the semester. This is the last video you&rsquo;ll see of me. Hopefully things are going well. Best of luck as you finish up your final projects. And I look forward to seeing you all for your Q &amp; A&rsquo;s over the next couple weeks. Good luck.</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+          </section>
+        </div>
+      </main>
+<div class="git-footer">
+  <p class="theme-version-footer">8.0.0</p>
+<p>Last modified by:
+              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/3019604ce4062f15974ff065e568de2fbf9ba4af">Jan 7, 2026</a>
+</p>
+
+</div>
+    </div>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1767819457" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767819457" defer></script>
+    <script src="/cc410/js/theme.min.js?1767819457" defer></script>
+  </body>
+</html>

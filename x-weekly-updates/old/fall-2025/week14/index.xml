@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 14 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2025/week14/index.html</link>
+    <description>Resources Slides Edited Transcript Good morning and welcome to your week 14 announcements video for CC410 in fall 2025. Hopefully everybody had a good Thanksgiving break and is ready to get these last couple of weeks of the semester out of the way. So this week you’re going to have a final project check-in. This is our last big check-in before your final project is due. Mainly it’s just a chance for me to chat with you, make sure everything’s going well on your final project, and answer any questions you have about getting it wrapped up before the end of the semester. We also have the second concept quiz in this class. This is just to check that you’re understanding some of our object-oriented concepts and things like that. Once again, a reminder on these concept quiz, they’re open book, open notes, but please don’t use AI for these. I really want to see exactly what your understanding is of these concepts. And it’s a really good check to make sure you’re understanding exactly what we’re doing in this class. And then you’re going to be working on a restaurant milestone where we’re going to add a RESTful API and we’re going to add a quick little form to add custom items to the menu. You’re not going to edit the menu itself. You’re just going to add custom items to that menu. And then of course, I want you to keep working on the final project.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2025/week14/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

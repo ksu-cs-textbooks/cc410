@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -34,27 +35,27 @@ While this can make development seem quick and easy, it can also cause programme
     <link href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.xml" rel="alternate" type="application/rss+xml" title="Type Checking :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/tele.html" rel="alternate" type="text/html" title="Type Checking :: CC 410 Textbook">
     <link href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/embed.html" rel="alternate" type="text/html" title="Type Checking :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1765213574" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1765213574" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1765213574" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1765213574" defer></script>
-    <script src="/cc410/js/search.min.js?1765213574" defer></script>
+    <link href="/cc410/images/favicon.ico?1767819457" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767819457" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767819457" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1767819457" defer></script>
+    <script src="/cc410/js/search.min.js?1767819457" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1765213574";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1767819457";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1765213574" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1765213574" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1765213574" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1765213574" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1767819457" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1765213574" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1765213574" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1765213574" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1765213574" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1765213574" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767819457" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767819457" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767819457" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1767819457" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1767819457" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,59 +114,17 @@ While this can make development seem quick and easy, it can also cause programme
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1765213574" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1767819457" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents">
-  <ul>
-    <li><a href="#type-hinting-in-python">Type Hinting in Python</a></li>
-    <li><a href="#type-checking-with-mypy">Type Checking with Mypy</a></li>
-    <li><a href="#running-mypy">Running Mypy</a></li>
-    <li><a href="#integrating-with-tox">Integrating with Tox</a></li>
-    <li><a href="#type-checking-unit-tests">Type Checking Unit Tests</a></li>
-  </ul>
-</nav>
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/index.html"><span itemprop="name">Example Projects</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/index.html"><span itemprop="name">Hello Real World</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/z-examples/01-hello-real-world/04-python/index.html"><span itemprop="name">Python</span></a><meta itemprop="position" content="4">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Type Checking</span><meta itemprop="position" content="5"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/z-examples/01-hello-real-world/04-python/09-type-checking.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html" title="Flake8 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.html" title="Hamcrest (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
-            </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      
+      
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable z-examples" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -236,8 +195,8 @@ While this can make development seem quick and easy, it can also cause programme
   </summary>
   <div class="box-content">
 <p>Unfortunately, the Codio IDE does not properly deal with type hinting in Python, and will tell us that our code contains a syntax error:</p>
-<p><a href="#R-image-c870e40023d919977d2bdbf400bc250c" class="lightbox-link"><img alt="Codio LSP Type Hinting" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29codiotype.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c870e40023d919977d2bdbf400bc250c"><img alt="Codio LSP Type Hinting" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29codiotype.png"></a></p>
+<p><a href="#R-image-eabf05ef6e3834564f678d98de564821" class="lightbox-link"><img alt="Codio LSP Type Hinting" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29codiotype.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-eabf05ef6e3834564f678d98de564821"><img alt="Codio LSP Type Hinting" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29codiotype.png"></a></p>
 <p>We can safely ignore that error, provided that our code passes the Flake8 style checker itself.</p>
   </div>
 </details>
@@ -258,8 +217,8 @@ While this can make development seem quick and easy, it can also cause programme
 <p>Then, we can make sure those libraries are installed by running this command from within the <code>python</code> directory:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip3 install -r requirements.txt</span></span></code></pre></div>
 <p>As always, once we&rsquo;ve run that command we can verify that the library was installed by looking at the output:</p>
-<p><a href="#R-image-61c932047d9ad21b54b5defef953fa57" class="lightbox-link"><img alt="Install Mypy" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29installmypy.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-61c932047d9ad21b54b5defef953fa57"><img alt="Install Mypy" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29installmypy.png"></a></p>
+<p><a href="#R-image-437483041d7693f42a8609358ff11ac3" class="lightbox-link"><img alt="Install Mypy" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29installmypy.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-437483041d7693f42a8609358ff11ac3"><img alt="Install Mypy" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29installmypy.png"></a></p>
 <h2 id="running-mypy">Running Mypy</h2>
 <p>Once we&rsquo;ve installed Mypy, we can execute it using the following command from within the <code>python</code> directory:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m mypy -p src --strict --html-report reports/mypy</span></span></code></pre></div>
@@ -271,14 +230,14 @@ While this can make development seem quick and easy, it can also cause programme
 <li><code>--html-report reports/mypy</code> - this will create an HTML report in the <code>reports/mypy</code> directory</li>
 </ul>
 <p>If everything is working correctly, we should get the following output:</p>
-<p><a href="#R-image-234a544a7f8a515174c5048444f4be96" class="lightbox-link"><img alt="Mypy Success" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29mypygood.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-234a544a7f8a515174c5048444f4be96"><img alt="Mypy Success" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29mypygood.png"></a></p>
+<p><a href="#R-image-791b5bdefd0677f9ad9fc8caf194d2cf" class="lightbox-link"><img alt="Mypy Success" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29mypygood.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-791b5bdefd0677f9ad9fc8caf194d2cf"><img alt="Mypy Success" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29mypygood.png"></a></p>
 <p>We may notice a new <code>.mypy_cache</code> folder, which can be safely ignored just like the <code>.pytest_cache</code> folder next to it. We can also find an HTML report in <code>reports/mypy/index.html</code>:</p>
-<p><a href="#R-image-68976978fa0fea61cf2e96a974812c62" class="lightbox-link"><img alt="Mypy Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29mypyreport.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-68976978fa0fea61cf2e96a974812c62"><img alt="Mypy Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29mypyreport.png"></a></p>
+<p><a href="#R-image-4048c6fba97a463faad31d5bae7833fd" class="lightbox-link"><img alt="Mypy Report" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29mypyreport.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4048c6fba97a463faad31d5bae7833fd"><img alt="Mypy Report" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29mypyreport.png"></a></p>
 <p>To open that file, simply <strong>right-click</strong> on it and select <strong>Preview Static</strong>. When we do that, we should get a report that looks like this:</p>
-<p><a href="#R-image-ed531d76af646973ced4f8ae40ea2b77" class="lightbox-link"><img alt="Mypy HTML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29mypyhtml.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-ed531d76af646973ced4f8ae40ea2b77"><img alt="Mypy HTML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29mypyhtml.png"></a></p>
+<p><a href="#R-image-b1f9d761c06da52fbe606666c00e3678" class="lightbox-link"><img alt="Mypy HTML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29mypyhtml.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-b1f9d761c06da52fbe606666c00e3678"><img alt="Mypy HTML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29mypyhtml.png"></a></p>
 <p>As we can see, Mypy shows that we&rsquo;ve properly type hinted all of the code! That&rsquo;s great!</p>
 <h2 id="integrating-with-tox">Integrating with Tox</h2>
 <p>We can also integrate Mypy with tox by simply adding the command above to the <code>tox.ini</code> file in the commands section, which should now look like this:</p>
@@ -317,8 +276,8 @@ While this can make development seem quick and easy, it can also cause programme
 <p>Now, let&rsquo;s analyze the code in our <code>test</code> folder using Mypy:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m mypy --strict test</span></span></code></pre></div>
 <p>Notice that we are just giving it the name of the directory <code>test</code> instead of loading it as a Python meta package. This is because we didn&rsquo;t include an <code>__init__.py</code> file inside of the <code>test</code> directory itself. Don&rsquo;t worry - Mypy is able to handle it just fine! When we run that command, we&rsquo;ll see output like this:</p>
-<p><a href="#R-image-eb41fb8c8bbb341e1dee9ccc7174910f" class="lightbox-link"><img alt="Local Variable Types" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29locals.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-eb41fb8c8bbb341e1dee9ccc7174910f"><img alt="Local Variable Types" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29locals.png"></a></p>
+<p><a href="#R-image-35d530a91b5fb0e68e791e3a4f56389b" class="lightbox-link"><img alt="Local Variable Types" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29locals.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-35d530a91b5fb0e68e791e3a4f56389b"><img alt="Local Variable Types" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29locals.png"></a></p>
 <p>In that output, we&rsquo;ll see that the Mypy library was not able to determine the type of the <code>capsys</code> and <code>captured</code> variables. Instead, it just reports that they could be <code>Any</code> type, which is a special type annotation that matches any possible type. This is due to the fact that we didn&rsquo;t actually have to import the <code>pytest</code> library to use those variables. This is a powerful feature of Python, but it makes it more difficult to perform proper type checking. It will also complain that we now have method arguments that are missing annotations, so let&rsquo;s see if we can resolve that.</p>
 
 <details open class=" box cstyle notices note">
@@ -345,8 +304,8 @@ While this can make development seem quick and easy, it can also cause programme
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">assert</span> captured<span style="color:#f92672">.</span>out <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;Hello World</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;Unexpected Output&#34;</span>
 </span></span><span style="display:flex;"><span>        reveal_locals()</span></span></code></pre></div>
 <p>Once that is in place, we can rerun our Mypy check and should get the following output:</p>
-<p><a href="#R-image-096783194d2c00e87337470036ade84c" class="lightbox-link"><img alt="Mypy Fixtures" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29fixture.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-096783194d2c00e87337470036ade84c"><img alt="Mypy Fixtures" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29fixture.png"></a></p>
+<p><a href="#R-image-5f4a36a2ee3e22366aa7ef0828db784f" class="lightbox-link"><img alt="Mypy Fixtures" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29fixture.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-5f4a36a2ee3e22366aa7ef0828db784f"><img alt="Mypy Fixtures" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29fixture.png"></a></p>
 <p>That&rsquo;s closer! Now Mypy is finding the correct types for <code>capsys</code> and was able to use the information in the <code>pytest</code> library to infer the type of the <code>captured</code> variable, which is returned from the <code>capsys.readouterr()</code> function call. So, let&rsquo;s annotate that variable as well. To do that, we&rsquo;ll need to import the <code>CaptureResult</code> class from the <code>_pytest.capture</code> library. As you might guess by the underscore at the beginning of the library name, we are importing a class that is meant to be internal to pytest. This is generally considered bad practice, but it helps for type checking, so we&rsquo;ll do it for now. Our updated code looks like this:</p>
 <div class="highlight" dir="auto"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pytest <span style="color:#f92672">import</span> CaptureFixture
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> _pytest.capture <span style="color:#f92672">import</span> CaptureResult
@@ -362,8 +321,8 @@ While this can make development seem quick and easy, it can also cause programme
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">assert</span> captured<span style="color:#f92672">.</span>out <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;Hello World</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;Unexpected Output&#34;</span>
 </span></span><span style="display:flex;"><span>        reveal_locals()</span></span></code></pre></div>
 <p>Notice that we can easily add a type hint to a variable in the same way we added type hints to method parameters - we just place a colon <code>:</code> after the variable name and then add the type. Now, when we run the Mypy command, we should get the same output, which confirms that we have the correct type hints:</p>
-<p><a href="#R-image-e85c3e688787f4cc8f4cf4dd5e294c89" class="lightbox-link"><img alt="Mypy Result" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29result.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-e85c3e688787f4cc8f4cf4dd5e294c89"><img alt="Mypy Result" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29result.png"></a></p>
+<p><a href="#R-image-ab6da9520ed5a713fd35af733d9360cc" class="lightbox-link"><img alt="Mypy Result" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e1/29result.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ab6da9520ed5a713fd35af733d9360cc"><img alt="Mypy Result" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e1/29result.png"></a></p>
 <p>Once we&rsquo;ve done that, we can remove the <code>reveal_locals()</code> line to make sure the tests will still execute.</p>
 <p>Feel free to add the appropriate type hints to your unit tests if you&rsquo;d like. However you <strong>are not required</strong> to include type hints in your unit tests, due to the complexity that we encountered here.</p>
 
@@ -372,17 +331,17 @@ While this can make development seem quick and easy, it can also cause programme
 </article>
         </div>
       </main>
-<div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
-<p>Last modified by:
-              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/328a163faf2ee62d4a385a2b1983f47224885a84">Sep 10, 2025</a>
-</p>
-
-</div>
+      
+      
+      
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1765213574" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1765213574" defer></script>
-    <script src="/cc410/js/theme.min.js?1765213574" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1767819457" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767819457" defer></script>
+    <script src="/cc410/js/theme.min.js?1767819457" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc410/js/tele-scroll.min.js?1767819457" defer></script>
   </body>
 </html>

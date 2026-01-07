@@ -429,10 +429,6 @@
     <lastmod>2023-01-19T16:21:53-06:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</loc>
-    <lastmod>2025-09-02T10:00:10-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/04-frameworks/index.html</loc>
     <lastmod>2022-02-09T09:32:57-06:00</lastmod>
   </url>
@@ -741,10 +737,6 @@
     <lastmod>2024-01-10T09:40:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</loc>
-    <lastmod>2025-09-09T11:21:48-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
@@ -937,10 +929,6 @@
     <lastmod>2024-01-10T09:40:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</loc>
-    <lastmod>2025-09-16T09:39:21-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
@@ -1077,10 +1065,6 @@
     <lastmod>2021-09-08T14:41:54-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.html</loc>
-    <lastmod>2025-09-23T09:49:47-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
@@ -1181,16 +1165,12 @@
     <lastmod>2023-01-19T16:41:33-06:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week06/index.html</loc>
-    <lastmod>2025-09-30T12:21:03-05:00</lastmod>
+    <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/06-gui-basics/index.html</loc>
+    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/index.html</loc>
-    <lastmod>2025-08-20T11:49:46-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/06-gui-basics/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-07T14:56:25-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/12-summary/index.html</loc>
@@ -1229,10 +1209,6 @@
     <lastmod>2024-01-10T09:40:40-06:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week07/index.html</loc>
-    <lastmod>2025-10-07T13:14:04-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/07-next-steps/index.html</loc>
     <lastmod>2021-09-08T14:41:54-05:00</lastmod>
   </url>
@@ -1259,10 +1235,6 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week08/index.html</loc>
-    <lastmod>2025-10-14T15:23:18-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html</loc>
@@ -1297,10 +1269,6 @@
     <lastmod>2023-04-14T15:03:49-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week09/index.html</loc>
-    <lastmod>2025-10-21T09:08:29-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
@@ -1321,10 +1289,6 @@
     <lastmod>2023-08-10T16:05:23-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.html</loc>
-    <lastmod>2025-10-28T10:22:48-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
@@ -1341,10 +1305,6 @@
     <lastmod>2023-08-10T16:05:23-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/index.html</loc>
-    <lastmod>2025-11-04T14:26:29-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/11-form-data/index.html</loc>
     <lastmod>2024-01-10T09:40:40-06:00</lastmod>
   </url>
@@ -1355,10 +1315,6 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/12-parallelism/index.html</loc>
     <lastmod>2023-08-10T16:05:23-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.html</loc>
-    <lastmod>2025-11-11T10:08:15-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/12-forms/index.html</loc>
@@ -1373,10 +1329,6 @@
     <lastmod>2023-08-10T16:05:23-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week13/index.html</loc>
-    <lastmod>2025-11-18T10:52:57-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/13-rest/index.html</loc>
     <lastmod>2023-04-14T15:03:49-05:00</lastmod>
   </url>
@@ -1389,20 +1341,12 @@
     <lastmod>2023-08-10T16:05:23-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week14/index.html</loc>
-    <lastmod>2025-12-01T11:12:07-06:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/14-form-validation/index.html</loc>
     <lastmod>2023-04-14T15:03:49-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/15-releases/index.html</loc>
     <lastmod>2023-08-10T16:05:23-05:00</lastmod>
-  </url>
-  <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week15/index.html</loc>
-    <lastmod>2025-12-08T11:03:35-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iv-extras/index.html</loc>

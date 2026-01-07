@@ -856,14 +856,6 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/13-event-driven-programming/04-event-handlers/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello and welcome to the week to announcements video for CC410 in fall 2025. So this week you should be wrapping up the first module which includes the Hello Real World project. I really like the Hello Real World project because I think it takes the classic Hello World project that you start with and really expands upon it in a way that makes it match more what you’d see in the real world with things like type checking and unit testing and all of these other things that we’re going to do in this class. So hopefully you’re getting that wrapped up and getting that committed and pushed to GitHub so that we can get that graded. As always, if you have any questions with that, let me know.",
-    "modified": "2025-09-02T10:00:10-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 2",
-    "uri": "/cc410/x-weekly-updates/week02/index.html"
-  },
-  {
     "breadcrumb": "GUI \u003e External Libraries",
     "description": "One question that comes up frequently when discussing software libraries is the difference between a library and a framework, as many times the terms are used interchangeably. So, let’s briefly explore the difference between the two and how they interact with each other.\n1\nSoftware Library As discussed on the previous page, a library is a reusable software component that has an API that we can make use of in our code. So, our code will call methods in the API to perform the desired actions, and we’ll typically import the library’s code into our own code files.",
     "modified": "2022-02-09T09:32:57-06:00",
@@ -1480,14 +1472,6 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/02-documentation-testing/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week three announcements for CC410 in fall 2025. So, this week you should be wrapping up the second module, which I believe the milestone for that is due pretty soon. So, make sure you get that turned in. You’ll be doing the example for that, and you’ll be doing the first restaurant milestone. For this first restaurant milestone, I will try and give pretty detailed feedback, usually within a day or two of getting it submitted. So I’m hoping to work on that either today or tomorrow of this week. I also will give you feedback on your Hello Real World project. I haven’t had time to get to that yet because we had some other things going on this semester, but I will get you feedback pretty quickly for your first restaurant milestone so you can roll that into your second milestone, which will be new next week.",
-    "modified": "2025-09-09T11:21:48-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 3",
-    "uri": "/cc410/x-weekly-updates/week03/index.html"
-  },
-  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "tl;dr If you are familiar with using Git, here is the short version:\ngit status git add . # check that the correct files are added git status # update the commit message below git commit -m \"Commit Message Here\" git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.",
     "modified": "2024-06-17T14:13:48-05:00",
@@ -1872,14 +1856,6 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/04-design-patterns/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week four announcements video for CC410 in fall 2025. This week you should be wrapping up the next module, which is on documentation, testing, and creating a UML diagram for your project. You’re going to do a quick example where you add documentation and unit testing to an example project. And then you’re going to be working on the second restaurant project, which is all about adding documentation and unit testing to your restaurant project. That milestone can be pretty big, but hopefully it goes well. If you have any questions about unit tests you should be adding, please let me know.",
-    "modified": "2025-09-16T09:39:21-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 4",
-    "uri": "/cc410/x-weekly-updates/week04/index.html"
-  },
-  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Java",
     "description": "tl;dr If you are familiar with using Git, here is the short version:\ngit status git add . # check that the correct files are added git status # update the commit message below git commit -m \"Commit Message Here\" git push That will commit and push your changes to GitHub, which can now be found in the repository for this assignment.",
     "modified": "2024-06-17T14:13:48-05:00",
@@ -2152,14 +2128,6 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/05-debugging-logging/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week five announcements video for CC410 in fall 2025. This week you should be wrapping up a module on inheritance and polymorphism and playing around with an example on inheritance. Also in this week, we’ve got a start, stop, continue survey, which I think is one of the really important things I want you to get through in this class. So please take a little bit to work on that. That just gives me some quick feedback on how things are going. And hopefully you’ve got a little time to work on the final project because we’re working on a two-week module. There’s going to be a little bit of gap in there. So hopefully you can start working on some final project time as well.",
-    "modified": "2025-09-23T09:49:47-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 5",
-    "uri": "/cc410/x-weekly-updates/week05/index.html"
-  },
-  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "Working with Python on the Linux terminal can be complicated, especially as projects become larger and larger. Thankfully, there are many tools that have been developed to simplify this process. For this course, we’re going to use one such tool, called tox.\nTox tox is a tool that is developed to help automate and standardize the process of testing applications written in Python. It vastly simplifies many of the steps we’d have to follow to do this in our own project.",
     "modified": "2024-06-17T14:13:48-05:00",
@@ -2360,28 +2328,20 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/06-design-patterns/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello and welcome to the Week 6 Announcement Studio for CC410 in fall 2025. So this week you should be working up the module that introduces debugging and logging. You’ll also do some Lambda expressions. There’s an example around that. And then you turning in the third restaurant milestone, which is all about inheritance and polymorphism and adding some of that to your project. And hopefully you should be scheduling the second final project meeting with me sometime in the next week or two so we can start talking about some specific ideas you might have about your final project in this class.",
-    "modified": "2025-09-30T12:21:03-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 6",
-    "uri": "/cc410/x-weekly-updates/week06/index.html"
-  },
-  {
-    "breadcrumb": "Introduction",
-    "description": "CC 410 - Advanced Programming - Fall 2025 Previous Versions\nInstructor Contact Information Instructor: Mr. Russell Feldhausen (russfeld AT ksu DOT edu) Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Book time to meet with me Preferred Methods of Communication: Email: Students should email cc410-help (cc410-help@KSUemailProd.onmicrosoft.com). We will try to respond within one business day. Ed Discussion: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well. Phone/Text: Emergencies only! We will do our best to respond as quickly as we can. Prerequisites CC 310 - Data Structures \u0026 Algorithms I (taken on or after Fall 2024) CC 315 - Data Structures \u0026 Algorithms II (taken prior to Fall 2024) Course Overview Advanced programming techniques and projects. Concepts from object oriented programming, inheritance and polymorphism. GUI programming and event-driven programming. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.",
-    "modified": "2025-08-20T11:49:46-05:00",
-    "tags": [],
-    "title": "Fall 2025 Syllabus",
-    "uri": "/cc410/00-introduction/06-syllabus/index.html"
-  },
-  {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe sixth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.",
     "modified": "2024-01-10T09:40:40-06:00",
     "tags": [],
     "title": "GUI Basics",
     "uri": "/cc410/y-milestones/06-gui-basics/index.html"
+  },
+  {
+    "breadcrumb": "Introduction",
+    "description": "CC 410 - Advanced Programming - Spring 2026 Previous Versions\nInstructor Contact Information Instructor: Mr. Russell Feldhausen (russfeld AT ksu DOT edu) Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Book time to meet with me Preferred Methods of Communication: Email: Students should email cc410-help (cc410-help@KSUemailProd.onmicrosoft.com). We will try to respond within one business day. Ed Discussion: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well. Phone/Text: Emergencies only! We will do our best to respond as quickly as we can. Prerequisites CC 310 - Data Structures \u0026 Algorithms I (taken on or after Fall 2024) CC 315 - Data Structures \u0026 Algorithms II (taken prior to Fall 2024) Course Overview Advanced programming techniques and projects. Concepts from object oriented programming, inheritance and polymorphism. GUI programming and event-driven programming. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.",
+    "modified": "2026-01-07T14:56:25-06:00",
+    "tags": [],
+    "title": "Spring 2026 Syllabus",
+    "uri": "/cc410/00-introduction/06-syllabus/index.html"
   },
   {
     "breadcrumb": "OOP \u003e Object-Oriented Programming",
@@ -2456,14 +2416,6 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/07-event-driven-programming/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 7 announcements video for CC410 in fall 2025. This week, we’re going to be introducing the topic of test doubles. This is how we can create fake versions of classes in our unit tests so that when we’re testing a class that depends on other classes, such as our order classes or combo classes, we can add in fake other versions of the classes that it depends on so that our unit test tests only the functionality in the class we’re testing. It’s a really powerful tool. It’s something that we should learn very clearly in this class. So it’s one of the big outcomes that I want you to get. So you’re going to work on that.",
-    "modified": "2025-10-07T13:14:04-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 7",
-    "uri": "/cc410/x-weekly-updates/week07/index.html"
-  },
-  {
     "breadcrumb": "Example Projects \u003e Hello Real World",
     "description": "Next Steps This project is a major step toward developing our skills as professional programmers. We introduced a lot of new topics:\nUnit Tests Code Coverage Tests Documentation Comments and Tools Style Checkers Tools to Automate Everything In the next assignment, we’ll start building the first major project in this course. In doing so, you’ll end up redoing a lot of this initial setup, so you’ll be referring back to this project over time. So, if anything didn’t work or you ran into issues, now is the time to ask questions and get help. Good luck!",
     "modified": "2021-09-08T14:41:54-05:00",
@@ -2518,14 +2470,6 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Checkstyle",
     "uri": "/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html"
-  },
-  {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the weekend announcements video for CC410 in fall 2025. So, you should be wrapping up the work on test doubles and scheduling your second final project meeting with me. Also, the concept quiz was due. And so I’ve got most of those graded that are submitted. So, you should be seeing grades on Canvas. If you have any questions on that first concept quiz, let me know. But generally, everybody did really well. So I’m very impressed with that.",
-    "modified": "2025-10-14T15:23:18-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 8",
-    "uri": "/cc410/x-weekly-updates/week08/index.html"
   },
   {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
@@ -2592,14 +2536,6 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/09-libraries/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week nine announcements video for CC410 in fall 2025. This week you’re going to be working on some parallel programming examples to give you an idea of how we work in multi-threaded environments. We’re also going to do another example on event-driven programming, which is how we actually add interactability to our user interfaces. And then finally, you’re going to do a restaurant milestone where we’re going to take the user interface that you built last milestone, and we’re going to add some event-driven programming to it so that the button clicks actually work and it actually starts doing what we want it to do.",
-    "modified": "2025-10-21T09:08:29-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 9",
-    "uri": "/cc410/x-weekly-updates/week09/index.html"
-  },
-  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Java",
     "description": "Let’s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop. Let’s explore what it takes to add Hamcrest to our project.",
     "modified": "2024-06-17T14:13:48-05:00",
@@ -2640,14 +2576,6 @@ var relearn_lti_index = [
     "uri": "/cc410/i-oop/10-test-doubles/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC410 in fall 2025. So, this week we’re going to spend a little bit of time talking about external libraries and how we can download and install a library into our code. We’ve already done some of that before with some of the other tools, but this is going to be a library that we’re going to interface with directly within our code. Then you’ll start working on the next restaurant milestone. And of course, we have another one of those start, stop, continue surveys that gives you a great opportunity to give me quick in the middle of the semester anonymous feedback if there’s anything you’d like me to know about the class.",
-    "modified": "2025-10-28T10:22:48-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 10",
-    "uri": "/cc410/x-weekly-updates/week10/index.html"
-  },
-  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "Let’s introduce one more useful tool as part of this example, the Hamcrest assertion library. Hamcrest is a library of unit test assertions that is available for multiple programming languages, including both Java and Python. Hamcrest makes it easy to write very advanced assertions in a way that is both readable and flexible. In fact, most of the autograders in prior CC courses use Hamcrest as the primary assertion library to make them easy to develop. Let’s explore what it takes to add Hamcrest to our project.",
     "modified": "2024-06-17T14:13:48-05:00",
@@ -2680,14 +2608,6 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/11-gui-basics/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 11 announcements video for CC410 in fall 2025. So, this week we’re going to work on another project all about building a release version of our software. This is a packaged version of our software that we can provide to other people that aren’t programmers and allow them to use it as quickly and easily within their own projects as we would in ourselves. So we’re going to use a quick example of releases and then we’re going to update our restaurant project by adding a checkout library to help us actually finalize the sales process of our point of sale system.",
-    "modified": "2025-11-04T14:26:29-06:00",
-    "tags": [],
-    "title": "Fall '25 Week 11",
-    "uri": "/cc410/x-weekly-updates/week11/index.html"
-  },
-  {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 11 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe eleventh milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.",
     "modified": "2024-01-10T09:40:40-06:00",
@@ -2710,14 +2630,6 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Parallelism",
     "uri": "/cc410/ii-gui/12-parallelism/index.html"
-  },
-  {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 12 announcements video for CC410 in fall 2025. So, this week, as promised, we are shifting gears a little bit away from our traditional graphical interface in the restaurant project, and now we’re moving to a web-based interface. So, this week is pretty light. We just have a quick example showing you how to add a web framework to your project. You’re going to do that for the restaurant milestone. It’s pretty simple. Right now, we’re just going to focus on making a menu. It’s not going to be interactive or anything. It’s just going to be data generated. So, hopefully, this project goes pretty quick, and then it will give you some time to work on your final project. Don’t forget we’re on week 12 of 16. So you really have four, maybe five weeks if you include the final, the fall break to work on your final project. So I encourage you to get started on that if you haven’t already.",
-    "modified": "2025-11-11T10:08:15-06:00",
-    "tags": [],
-    "title": "Fall '25 Week 12",
-    "uri": "/cc410/x-weekly-updates/week12/index.html"
   },
   {
     "breadcrumb": "Example Projects",
@@ -2744,14 +2656,6 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/13-event-driven-programming/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 13 announcements video for CC410 in fall 2025. So, this week you should be doing another restaurant milestone. We’re going to focus on building a RESTful API and using it to accept some form data to create a custom item that we can add to our menu. So, do a quick example of how to accept form data to edit some items on the movie project. And then you’ll add a form to your restaurant project to add a custom item to the menu. And then, of course, the big thing you should be doing is working on your final project. These web milestones are meant to be a lot shorter and more compact so that you have more time to be working on your final project, which is going to be due by the end of finals week.",
-    "modified": "2025-11-18T10:52:57-06:00",
-    "tags": [],
-    "title": "Fall '25 Week 13",
-    "uri": "/cc410/x-weekly-updates/week13/index.html"
-  },
-  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll add the ability to update and delete movies in our website using a RESTful architectural style.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.\nFor these example projects, you’ll be given some starter code via the GitHub Classroom assignment, so make sure you’ve accepted the assignment and created your repository in GitHub first.",
     "modified": "2023-04-14T15:03:49-05:00",
@@ -2776,14 +2680,6 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/14-libraries/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Good morning and welcome to your week 14 announcements video for CC410 in fall 2025. Hopefully everybody had a good Thanksgiving break and is ready to get these last couple of weeks of the semester out of the way. So this week you’re going to have a final project check-in. This is our last big check-in before your final project is due. Mainly it’s just a chance for me to chat with you, make sure everything’s going well on your final project, and answer any questions you have about getting it wrapped up before the end of the semester. We also have the second concept quiz in this class. This is just to check that you’re understanding some of our object-oriented concepts and things like that. Once again, a reminder on these concept quiz, they’re open book, open notes, but please don’t use AI for these. I really want to see exactly what your understanding is of these concepts. And it’s a really good check to make sure you’re understanding exactly what we’re doing in this class. And then you’re going to be working on a restaurant milestone where we’re going to add a RESTful API and we’re going to add a quick little form to add custom items to the menu. You’re not going to edit the menu itself. You’re just going to add custom items to that menu. And then of course, I want you to keep working on the final project.",
-    "modified": "2025-12-01T11:12:07-06:00",
-    "tags": [],
-    "title": "Fall '25 Week 14",
-    "uri": "/cc410/x-weekly-updates/week14/index.html"
-  },
-  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll update our previous RESTful web application to perform server-side form validation, making sure that each piece of data submitted to the server is valid.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.\nFor these example projects, you’ll be given some starter code via the GitHub Classroom assignment, so make sure you’ve accepted the assignment and created your repository in GitHub first.",
     "modified": "2023-04-14T15:03:49-05:00",
@@ -2798,14 +2694,6 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Creating a Release",
     "uri": "/cc410/ii-gui/15-releases/index.html"
-  },
-  {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello and welcome to the week 15 announcements video for CC410 in fall 2025. So we’re almost there at the end of the semester. Hopefully things are going well. This week you’ll be working on a project about validation and serialization of the data that we collect using our RESTful forms that you created the previous week. These milestones are pretty short and sweet. They’re just kind of straightforward ways that we can add some additional functionality to our web project. And then the big thing is to keep working on your final project this week and into finals week so that you can get that done.",
-    "modified": "2025-12-08T11:03:35-06:00",
-    "tags": [],
-    "title": "Fall '25 Week 15",
-    "uri": "/cc410/x-weekly-updates/week15/index.html"
   },
   {
     "breadcrumb": "",

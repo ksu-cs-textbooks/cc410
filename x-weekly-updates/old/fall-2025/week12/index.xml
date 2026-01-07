@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;25 Week 12 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2025/week12/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week 12 announcements video for CC410 in fall 2025. So, this week, as promised, we are shifting gears a little bit away from our traditional graphical interface in the restaurant project, and now we’re moving to a web-based interface. So, this week is pretty light. We just have a quick example showing you how to add a web framework to your project. You’re going to do that for the restaurant milestone. It’s pretty simple. Right now, we’re just going to focus on making a menu. It’s not going to be interactive or anything. It’s just going to be data generated. So, hopefully, this project goes pretty quick, and then it will give you some time to work on your final project. Don’t forget we’re on week 12 of 16. So you really have four, maybe five weeks if you include the final, the fall break to work on your final project. So I encourage you to get started on that if you haven’t already.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/old/fall-2025/week12/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
