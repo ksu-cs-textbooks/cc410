@@ -120,7 +120,7 @@ _A rough estimate for this milestone would be around 1500 lines of new code. It 
 <img src="/cc410/images/0/stoplight_green.png" height="120px">
 </div>
 <div>
-{{% badge style="green" %}}GREEN: GenAI Encouraged {{% /badge %}} You may make unlimited use of GenAI for the <b>GUI design portions</b> of this assignment, such as the look and feel of individual GUI controls, colors, patterns, animations, and more. As long as the GUI itself has the controls and functionality described above and the code follows the overall code layout found in the example project, you are welcome to exercise creativity 
+{{% badge style="green" %}}GREEN: GenAI Encouraged {{% /badge %}} You may make unlimited use of GenAI for the <b>GUI design portions</b> of this assignment, such as the look and feel of individual GUI controls, colors, patterns, animations, and more. As long as the GUI itself has the controls and functionality described above and the code follows the overall code layout found in the example project, you are welcome to exercise creativity.
 </div>
 </div>
 <div style="clear: both"></div>
