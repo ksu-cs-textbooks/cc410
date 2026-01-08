@@ -124,7 +124,7 @@ This course uses a stoplight approach regarding the use of generative artificial
 
 {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} You may not use any GenAI tools to complete this assignment. This assignment's main goal is to develop your own skills related to a particular task or topic, or to assess your own understanding of the concepts and skills required for this course. GenAI tools are therefore prohibited for these assignments, as they do not reflect or enhance your own learning journey.
 
-Any usage of GenAI for this assignment will be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+**Policy Violations:** Any usage of GenAI for this assignment will be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
 
 {{% /notice %}}
 
@@ -132,9 +132,11 @@ Any usage of GenAI for this assignment will be treated as a violation of the K-S
 
 {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} You may use GenAI tools in a limited way to complete this assignment. The assignment description may provide additional information about what tools are allowed and how they can be used. The goal of this assignment is to allow you to work with GenAI to complete a task or achieve a goal, but the completed work should still be a majority your own effort. 
 
-Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, the result(s) produced by the AI, and a discussion of how the results were used to complete the assignment. 
+**Citations Required:** Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, context provided to the tool (e.g. existing code), and a discussion of how the results were used to complete the assignment. 
 
-Unless otherwise noted, you **may not** include the GenAI results directly in your submission - it must be used to inform and adapted to fit your own work. For example, you may not prompt GenAI tools to just _write_ your code and submit that directly; instead, you should ask for help performing specific tasks and then use the results within your own work. Any usage of GenAI that involves direct submission of the GenAI outputs without additional work done by the student, or use of GenAI without proper citation, may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+**No Direct AI Results:** For this assignment, you **may not** include the GenAI results directly in your submission - it must be used to inform and adapted to fit your own work. For example, you may not prompt GenAI tools to just _write_ your code and submit that directly; instead, you should ask for help performing specific tasks and then use the results within your own work. 
+
+**Policy Violations:** Any usage of GenAI that involves direct submission of the GenAI outputs without additional work done by the student, or use of GenAI without proper citation, may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
 
 {{% /notice %}}
 
@@ -142,13 +144,25 @@ Unless otherwise noted, you **may not** include the GenAI results directly in yo
 
 {{% badge style="green" %}}GREEN: GenAI Encouraged {{% /badge %}} You may make unlimited use of GenAI tools to complete this assignment. The goal of this assignment is to ensure you are comfortable with using GenAI tools to specifically meet a need or achieve a goal. 
 
-Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, the result(s) produced by the AI, and a discussion of how the results were used to complete the assignment.
+**Citations Required:** Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, context provided to the tool (e.g. existing code), and a discussion of how the results were used to complete the assignment.
 
-For this assignment, you **may** include the GenAI results directly in your submission. It is still your responsibility to ensure the submission meets the assignment's goals and is correct and factual - remember that GenAI is not infallible and may produce incorrect results. You are still solely responsible for ensuring the submission meets the stated assignment goals, and assignments in this category may receive additional scrutiny for correctness and accuracy. 
+**Direct AI Results Allowed:** For this assignment, you **may** include the GenAI results directly in your submission. It is still your responsibility to ensure the submission meets the assignment's goals and is correct and factual - remember that GenAI is not infallible and may produce incorrect results. You are still solely responsible for ensuring the submission meets the stated assignment goals, and assignments in this category may receive additional scrutiny for correctness and accuracy. 
+
+**Policy Violations:** Any usage of GenAI without proper citation may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
 
 {{% /notice %}}
 
+**Understand Your Work:** To ensure compliance with this policy, the instructor reserves the right to request additional discussion or explanation of any work submitted by a student. The student should understand and be able to clearly explain **all** submitted work and code, even materials directly produced by GenAI. A student who is unable to explain a submission to the satisfaction of the instructor may be considered to be in violation of this policy. 
+
 Please contact the instructor if you have any questions about this GenAI policy. It is your responsibility to understand it and proactively ask questions if you are unsure; ignorance of this policy is not an excuse for violating it.
+
+### Artificial Intelligence Disclosure
+
+In keeping with the expectation for transparency and citation regarding the use of generative artificial intelligence (GenAI), the instructors of this course will clearly denote any usage of GenAI tools in the process of teaching this class. Specific policies for the usage of GenAI by the instructors and TAs of this course are given below:
+
+* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Grading and Feedback** - GenAI will **never** be used to review student submissions or produce grading feedback. All grades and feedback will be provided by the instructors and TAs without any GenAI assistance.
+* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Student Communication** - GenAI will **never** be used to when communicating with students. We believe it is important for students to receive real, authentic communication from instructors and TAs
+* {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} **Lesson & Learning Content** - GenAI may be used in a limited way to construct lessons and learning content, such as homework scenarios or simple graphics. All usage of GenAI will be clearly marked and cited. (As of January 2026, no GenAI content exists in the course).
 
 ### Late Work
 
