@@ -25,41 +25,41 @@ This first milestone involves building the classes that represent items on the r
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Project Milestones">
-    <meta property="article:modified_time" content="2024-01-10T09:40:40-06:00">
+    <meta property="article:modified_time" content="2026-01-08T14:50:13-06:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
     <meta itemprop="name" content="Restaurant Classes :: CC 410 Textbook">
     <meta itemprop="description" content="This page lists the milestone requirements for Milestone 1 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.
 This first milestone involves building the classes that represent items on the restaurant’s menu. In a traditional Model-View-Controller software design pattern, these classes would make up the core of the model. This content should be mostly review of concepts learned in prior CC courses with the addition of enumerations (enums). It should not be particularly difficult, but it may be repetitive and time consuming.">
-    <meta itemprop="dateModified" content="2024-01-10T09:40:40-06:00">
-    <meta itemprop="wordCount" content="3053">
+    <meta itemprop="dateModified" content="2026-01-08T14:50:13-06:00">
+    <meta itemprop="wordCount" content="3191">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
     <title>Restaurant Classes :: CC 410 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc410/y-milestones/01-restaurant-classes/index.html" rel="canonical" type="text/html" title="Restaurant Classes :: CC 410 Textbook">
     <link href="/cc410/y-milestones/01-restaurant-classes/index.xml" rel="alternate" type="application/rss+xml" title="Restaurant Classes :: CC 410 Textbook">
     <link href="/cc410/y-milestones/01-restaurant-classes/index.print.html" rel="alternate" type="text/html" title="Restaurant Classes :: CC 410 Textbook">
     <link href="/cc410/y-milestones/01-restaurant-classes/embed.html" rel="alternate" type="text/html" title="Restaurant Classes :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1767893924" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767893924" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767893924" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1767893924" defer></script>
-    <script src="/cc410/js/search.min.js?1767893924" defer></script>
+    <link href="/cc410/images/favicon.ico?1767905497" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767905497" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767905497" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1767905497" defer></script>
+    <script src="/cc410/js/search.min.js?1767905497" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1767893924";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1767905497";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1767893924" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767893924" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1767893924" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1767893924" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1767905497" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767905497" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1767905497" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1767905497" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767893924" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767893924" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767893924" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1767893924" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1767893924" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767905497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767905497" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767905497" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1767905497" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1767905497" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -118,7 +118,7 @@ This first milestone involves building the classes that represent items on the r
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1767893924" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1767905497" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/y-milestones/01-restaurant-classes/index.html">
     
@@ -284,6 +284,30 @@ This first milestone involves building the classes that represent items on the r
   </summary>
   <div class="box-content">
 <p><em>In my testing, this milestone requires around 1000-1500 lines of pure code without documentation, or around 2000-2500 lines including documentation comments that will be included as part of milestone 2. Much of the code can be carefully copy-pasted between files with similar attributes. My best suggestion is to do the enumerations first, then pick one of the complex entrees and start there. Once you have the entrees all working, the sides and drinks are pretty easy and use much of the same structure. -Russ</em></p>
+  </div>
+</details>
+<h2 id="generative-artificial-intelligence-policy">Generative Artificial Intelligence Policy</h2>
+
+<details open class=" box cstyle notices default" style=";--VARIABLE-BOX-color: orange">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_yellow.png" height="120px">
+</div>
+<div>
+<span class="badge cstyle orange"><span class="badge-content">YELLOW: Limited GenAI Usage Allowed</span></span> For this project, you may make limited use of GenAI to answer questions about the structure and intended functionality of the classes in this project based on the milestone description and the menu. You <b>may not</b> use GenAI to write the code itself. 
+</div>
+</div>
+<div style="clear: both"></div>
+<ul>
+<li><strong>Citations Required:</strong> Any usage of GenAI must be noted and cited directly in the work.</li>
+<li><strong>No Direct AI Results:</strong> For this assignment, you <strong>may not</strong> include the GenAI results directly in your submission.</li>
+<li><strong>Understand Your Work:</strong> You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.</li>
+<li><strong>Policy Violations:</strong> Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.</li>
+</ul>
   </div>
 </details>
 <h2 id="grading-rubric">Grading Rubric</h2>
@@ -475,13 +499,13 @@ This first milestone involves building the classes that represent items on the r
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1767893924" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767893924" defer></script>
-    <script src="/cc410/js/theme.min.js?1767893924" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1767905497" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767905497" defer></script>
+    <script src="/cc410/js/theme.min.js?1767905497" defer></script>
       
       
       
     </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1767893924" defer></script>
+  <script src="/cc410/js/tele-scroll.min.js?1767905497" defer></script>
   </body>
 </html>

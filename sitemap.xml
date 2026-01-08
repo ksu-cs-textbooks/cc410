@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/00-final-project/index.html</loc>
-    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/01-introduction/index.html</loc>
@@ -226,7 +226,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/00-hello-real-world/index.html</loc>
-    <lastmod>2023-01-13T10:59:36-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/16-data-driven-websites/02-html/index.html</loc>
@@ -526,7 +526,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/01-restaurant-classes/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/20-extras/04-software-development-life-cycle/index.html</loc>
@@ -734,7 +734,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/02-documentation-testing/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/index.html</loc>
@@ -902,7 +902,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/03-inheritance/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/i-oop/08-lambdas/index.html</loc>
@@ -926,7 +926,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/04-design-patterns/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html</loc>
@@ -1114,7 +1114,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/05-test-doubles/index.html</loc>
-    <lastmod>2024-10-07T13:55:38-05:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html</loc>
@@ -1166,11 +1166,11 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/06-gui-basics/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/index.html</loc>
-    <lastmod>2026-01-08T11:37:33-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/12-summary/index.html</loc>
@@ -1206,7 +1206,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/07-event-driven-programming/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/07-next-steps/index.html</loc>
@@ -1250,7 +1250,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/08-orders-combos/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/17-rest-forms/index.html</loc>
@@ -1266,7 +1266,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/09-checkout/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/09-libraries/index.html</loc>
@@ -1302,7 +1302,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/10-website-basics/index.html</loc>
-    <lastmod>2024-04-15T09:54:12-05:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/11-gui-basics/index.html</loc>
@@ -1310,7 +1310,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/11-form-data/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/11-web-basics/index.html</loc>
@@ -1326,7 +1326,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/12-rest/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/13-event-driven-programming/index.html</loc>
@@ -1338,7 +1338,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/y-milestones/13-validation-serialization/index.html</loc>
-    <lastmod>2024-01-10T09:40:40-06:00</lastmod>
+    <lastmod>2026-01-08T14:50:13-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/index.html</loc>

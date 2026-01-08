@@ -50,7 +50,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for the Final Project in CC 410. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose This assignment allow students to exercise their programming skills by building a project of their own design. Ideally, the project will be something related to the student’s personal interests or area of study. All the requirements listed below are considered flexible and can be adapted to fit the individual project and student.",
-    "modified": "2023-01-13T10:59:36-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Final Project",
     "uri": "/cc410/y-milestones/00-final-project/index.html"
@@ -450,7 +450,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for the Example 1 - Hello Real World project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose This assignment mimics the traditional “Hello World” project that most programmers learn as their first program, but done following professional coding standards and guidelines. In effect, this is how a professional coder would write “Hello World” as a project for work.",
-    "modified": "2023-01-13T10:59:36-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Hello Real World",
     "uri": "/cc410/y-milestones/00-hello-real-world/index.html"
@@ -1050,7 +1050,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 1 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThis first milestone involves building the classes that represent items on the restaurant’s menu. In a traditional Model-View-Controller software design pattern, these classes would make up the core of the model. This content should be mostly review of concepts learned in prior CC courses with the addition of enumerations (enums). It should not be particularly difficult, but it may be repetitive and time consuming.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Restaurant Classes",
     "uri": "/cc410/y-milestones/01-restaurant-classes/index.html"
@@ -1466,7 +1466,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 2 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe second milestone involves writing documentation and unit tests for our existing code base. Our goal is to adequately test each part of our code via unit tests, reaching 100% code coverage at a minimum. In addition, we’ll add all of the required documentation comments in our existing code.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Documentation \u0026 Testing",
     "uri": "/cc410/y-milestones/02-documentation-testing/index.html"
@@ -1802,7 +1802,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 3 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe third milestone involves refactoring our code to take advantage of inheritance and the use of interfaces. We’ll also need to update our documentation and unit tests accordingly.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Inheritance",
     "uri": "/cc410/y-milestones/03-inheritance/index.html"
@@ -1850,7 +1850,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 4 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe fourth milestone involves creating a class to track orders made at the restaurant, a class for combo meals, and more. It also includes many different design patterns to improve the structure of the code.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Design Patterns",
     "uri": "/cc410/y-milestones/04-design-patterns/index.html"
@@ -2226,7 +2226,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 5 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe fifth milestone involves writing unit tests for the order, combo, and associated classes created in the previous milestone. These unit tests will make extensive use of test doubles.",
-    "modified": "2024-10-07T13:55:38-05:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Test Doubles",
     "uri": "/cc410/y-milestones/05-test-doubles/index.html"
@@ -2330,7 +2330,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe sixth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "GUI Basics",
     "uri": "/cc410/y-milestones/06-gui-basics/index.html"
@@ -2338,7 +2338,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Introduction",
     "description": "CC 410 - Advanced Programming - Spring 2026 Previous Versions\nInstructor Contact Information Instructor: Mr. Russell Feldhausen (russfeld AT ksu DOT edu) Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Book time to meet with me Preferred Methods of Communication: Email: Students should email cc410-help (cc410-help@KSUemailProd.onmicrosoft.com). We will try to respond within one business day. Ed Discussion: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well. Phone/Text: Emergencies only! We will do our best to respond as quickly as we can. Prerequisites CC 310 - Data Structures \u0026 Algorithms I (taken on or after Fall 2024) CC 315 - Data Structures \u0026 Algorithms II (taken prior to Fall 2024) Course Overview Advanced programming techniques and projects. Concepts from object oriented programming, inheritance and polymorphism. GUI programming and event-driven programming. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.",
-    "modified": "2026-01-08T11:37:33-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Spring 2026 Syllabus",
     "uri": "/cc410/00-introduction/06-syllabus/index.html"
@@ -2410,7 +2410,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 7 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe seventh milestone involves dealing with the various events generated by the GUI and constructing a list of items that represent an order.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Event-Driven Programming",
     "uri": "/cc410/y-milestones/07-event-driven-programming/index.html"
@@ -2498,7 +2498,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 8 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe eighth milestone involves creating combo meals and orders from the items selected in the GUI. We’ll use this milestone to explore some software design patterns in our code, as well as learn about using test doubles in our unit tests. With this milestone, most of the work on the core functionality of the GUI will be complete.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Orders \u0026 Combos",
     "uri": "/cc410/y-milestones/08-orders-combos/index.html"
@@ -2530,7 +2530,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 9 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe ninth milestone involves finalizing the GUI for creating orders and combos, and handling the steps to check out and pay for an order, including printing a receipt. The purpose is to continue to learn how to use and modify an existing GUI and interface with an external library.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Checkout",
     "uri": "/cc410/y-milestones/09-checkout/index.html"
@@ -2602,7 +2602,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 10 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe tenth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.",
-    "modified": "2024-04-15T09:54:12-05:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Website Basics",
     "uri": "/cc410/y-milestones/10-website-basics/index.html"
@@ -2618,7 +2618,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 11 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe eleventh milestone involves augmenting the menu display from the previous project by adding search and filtering functionality via an HTML form.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Form Data",
     "uri": "/cc410/y-milestones/11-form-data/index.html"
@@ -2650,7 +2650,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 12 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe twelfth milestone involves building a RESTful web application that could be used to manage custom menu items.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "RESTful Architecture",
     "uri": "/cc410/y-milestones/12-rest/index.html"
@@ -2674,7 +2674,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 13 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe thirteenth milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.",
-    "modified": "2024-01-10T09:40:40-06:00",
+    "modified": "2026-01-08T14:50:13-06:00",
     "tags": [],
     "title": "Validation \u0026 Serialization",
     "uri": "/cc410/y-milestones/13-validation-serialization/index.html"

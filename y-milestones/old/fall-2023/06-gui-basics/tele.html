@@ -26,41 +26,41 @@ The sixth milestone involves creating the various GUI windows and panels require
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Project Milestones">
-    <meta property="article:modified_time" content="2024-01-10T09:40:40-06:00">
+    <meta property="article:modified_time" content="2026-01-08T14:50:13-06:00">
     <meta property="og:image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
     <meta itemprop="name" content="GUI Basics :: CC 410 Textbook">
     <meta itemprop="description" content="This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Starfleet Subs, based in the Star Trek universe.
 The sixth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.">
-    <meta itemprop="dateModified" content="2024-01-10T09:40:40-06:00">
-    <meta itemprop="wordCount" content="2057">
+    <meta itemprop="dateModified" content="2026-01-08T14:50:13-06:00">
+    <meta itemprop="wordCount" content="2374">
     <meta itemprop="image" content="https://textbooks.cs.ksu.edu/cc410/images/hero.png">
     <title>GUI Basics :: CC 410 Textbook</title>
     <link href="https://textbooks.cs.ksu.edu/cc410/y-milestones/old/fall-2023/06-gui-basics/index.html" rel="canonical" type="text/html" title="GUI Basics :: CC 410 Textbook">
     <link href="/cc410/y-milestones/old/fall-2023/06-gui-basics/index.xml" rel="alternate" type="application/rss+xml" title="GUI Basics :: CC 410 Textbook">
     <link href="/cc410/y-milestones/old/fall-2023/06-gui-basics/index.print.html" rel="alternate" type="text/html" title="GUI Basics :: CC 410 Textbook">
     <link href="/cc410/y-milestones/old/fall-2023/06-gui-basics/embed.html" rel="alternate" type="text/html" title="GUI Basics :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1767893924" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767893924" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767893924" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1767893924" defer></script>
-    <script src="/cc410/js/search.min.js?1767893924" defer></script>
+    <link href="/cc410/images/favicon.ico?1767905497" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767905497" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767905497" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1767905497" defer></script>
+    <script src="/cc410/js/search.min.js?1767905497" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1767893924";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1767905497";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1767893924" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767893924" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1767893924" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1767893924" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1767905497" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767905497" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1767905497" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1767905497" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767893924" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767893924" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767893924" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1767893924" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1767893924" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767905497" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767905497" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767905497" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1767905497" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1767905497" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -119,7 +119,7 @@ The sixth milestone involves creating the various GUI windows and panels require
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1767893924" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1767905497" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/y-milestones/old/fall-2023/06-gui-basics/index.html">
     
@@ -296,6 +296,53 @@ The sixth milestone involves creating the various GUI windows and panels require
 <p><em>A rough estimate for this milestone would be around 1500 lines of new code. It could vary widely based on how you choose to implement the various portions of the GUI. I was able to reuse many portions of the example project and expand on them to build this milestone. -Russ</em></p>
   </div>
 </details>
+<h2 id="generative-artificial-intelligence-policy">Generative Artificial Intelligence Policy</h2>
+
+<details open class=" box cstyle notices default" style=";--VARIABLE-BOX-color: orange">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_yellow.png" height="120px">
+</div>
+<div>
+<span class="badge cstyle orange"><span class="badge-content">YELLOW: Limited GenAI Usage Allowed</span></span> For this project, you may make limited use of GenAI to answer questions and receive suggestions about how to develop the overall structure of your GUI classes. Your resulting code should closely match the structure and functionality given in the example project (this makes things easier going forward). You <b>may not</b> use the results of GenAI directly in your code or documentation comments outside of the GUI design portion as described below. 
+</div>
+</div>
+<div style="clear: both"></div>
+<ul>
+<li><strong>Citations Required:</strong> Any usage of GenAI must be noted and cited directly in the work.</li>
+<li><strong>No Direct AI Results:</strong> For this assignment, you <strong>may not</strong> include the GenAI results directly in your submission.</li>
+<li><strong>Understand Your Work:</strong> You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.</li>
+<li><strong>Policy Violations:</strong> Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.</li>
+</ul>
+  </div>
+</details>
+
+<details open class=" box cstyle notices default" style=";--VARIABLE-BOX-color: green">
+  <summary class="box-label a11y-only" tabindex="-1">
+    <span class="a11y-only">Details</span>
+  </summary>
+  <div class="box-content">
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_green.png" height="120px">
+</div>
+<div>
+<span class="badge cstyle green"><span class="badge-content">GREEN: GenAI Encouraged</span></span> You may make unlimited use of GenAI for the <b>GUI design portions</b> of this assignment, such as the look and feel of individual GUI controls, colors, patterns, animations, and more. As long as the GUI itself has the controls and functionality described above and the code follows the overall code layout found in the example project, you are welcome to exercise creativity 
+</div>
+</div>
+<div style="clear: both"></div>
+<ul>
+<li><strong>Citations Required:</strong> Any usage of GenAI must be noted and cited directly in the work.</li>
+<li><strong>Direct AI Results Allowed:</strong> For this assignment, you <strong>may</strong> include the GenAI results directly in your submission.</li>
+<li><strong>Understand Your Work:</strong> You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.</li>
+<li><strong>Policy Violations:</strong> Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.</li>
+</ul>
+  </div>
+</details>
 <h2 id="grading-rubric">Grading Rubric</h2>
 <p>This assignment will be graded based on the rubric below:</p>
 <ul>
@@ -342,17 +389,17 @@ The sixth milestone involves creating the various GUI windows and panels require
   </div>
 </details>
 <h5 id="main-window">Main Window</h5>
-<p><a href="#R-image-c518f4e0d0b5eca7a121168fc547d2a2" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui1.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c518f4e0d0b5eca7a121168fc547d2a2"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui1.svg"></a></p>
+<p><a href="#R-image-c5c7fbf27104f67de2ed7d12db6b1e0f" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui1.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-c5c7fbf27104f67de2ed7d12db6b1e0f"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui1.svg"></a></p>
 <h5 id="entree-panel">Entree Panel</h5>
-<p><a href="#R-image-a3dc7130fe79f7607985b05d3d794db9" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui2.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-a3dc7130fe79f7607985b05d3d794db9"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui2.svg"></a></p>
+<p><a href="#R-image-238e1cfd42f9d094541cc5c28046a97a" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui2.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-238e1cfd42f9d094541cc5c28046a97a"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui2.svg"></a></p>
 <h5 id="side-panel">Side Panel</h5>
-<p><a href="#R-image-f978612dd498136daaf83a3882f7076a" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui4.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f978612dd498136daaf83a3882f7076a"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui4.svg"></a></p>
+<p><a href="#R-image-9da1b6ed1e07aaf1c7de858a78f1e5b8" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui4.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9da1b6ed1e07aaf1c7de858a78f1e5b8"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui4.svg"></a></p>
 <h5 id="drink-panel">Drink Panel</h5>
-<p><a href="#R-image-dad2216669f8d10b9963bd2dd2c49d0b" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui3.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-dad2216669f8d10b9963bd2dd2c49d0b"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui3.svg"></a></p>
+<p><a href="#R-image-2fdc2c2fce1df6d2c3d150bc087fa8d1" class="lightbox-link"><img alt="Main Window" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/m4/410_m6_gui3.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-2fdc2c2fce1df6d2c3d150bc087fa8d1"><img alt="Main Window" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/m4/410_m6_gui3.svg"></a></p>
 <h2 id="helpful-hints--code">Helpful Hints &amp; Code</h2>
 <p>Here are a couple of helpful pieces of code that you may wish to use in your project.</p>
 <h5 id="java">Java</h5>
@@ -412,13 +459,13 @@ The sixth milestone involves creating the various GUI windows and panels require
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1767893924" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767893924" defer></script>
-    <script src="/cc410/js/theme.min.js?1767893924" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1767905497" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767905497" defer></script>
+    <script src="/cc410/js/theme.min.js?1767905497" defer></script>
       
       
       
     </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1767893924" defer></script>
+  <script src="/cc410/js/tele-scroll.min.js?1767905497" defer></script>
   </body>
 </html>
