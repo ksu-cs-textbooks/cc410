@@ -6,7 +6,7 @@
     <description>Welcome to CC 410!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 14:56:25 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 11:37:33 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/00-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Introduction</title>
@@ -49,6 +49,13 @@
       <pubDate>Fri, 24 Aug 2018 10:53:26 -0500</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-plagiarism/index.html</guid>
       <description>Resources K-State Honor &amp; Integrity System Video Script “On my honor, as a student, I have neither given nor received unauthorized aid on this academic work.” - K-State Honor Pledge&#xA;Plagiarism is a very serious concern in this course, and something that we do not take lightly. Computer programs and code are especially easy targets for plagiarism due to how easy it is to copy and manipulate code in such a way that it is unrecognizable as the original source but still performs correctly.</description>
+    </item>
+    <item>
+      <title>GenAI Policy</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/index.html</guid>
+      <description>Resources Slides Video Script</description>
     </item>
     <item>
       <title>Codio Projects</title>

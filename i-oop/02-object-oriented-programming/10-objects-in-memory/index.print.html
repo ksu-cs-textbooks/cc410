@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
   <head>
     <meta charset="utf-8">
@@ -34,27 +35,27 @@
     <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.xml" rel="alternate" type="application/rss+xml" title="Objects in Memory :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/tele.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/embed.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1767819457" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767819457" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767819457" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1767819457" defer></script>
-    <script src="/cc410/js/search.min.js?1767819457" defer></script>
+    <link href="/cc410/images/favicon.ico?1767893924" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1767893924" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1767893924" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1767893924" defer></script>
+    <script src="/cc410/js/search.min.js?1767893924" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1767819457";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1767893924";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1767819457" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767819457" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1767819457" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1767819457" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1767893924" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1767893924" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1767893924" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1767893924" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767819457" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767819457" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767819457" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1767819457" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1767819457" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767893924" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1767893924" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1767893924" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1767893924" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1767893924" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,55 +114,17 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1767819457" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1767893924" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.html">
+    
+    <div id="tele" class="tele mirror">
+    
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
-      <nav id="R-topbar">
-        <div class="topbar-wrapper">
-          <div class="topbar-sidebar-divider"></div>
-          <div class="topbar-area topbar-area-start" data-area="start">
-            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
-            </div>
-            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents">
-  <ul>
-    <li><a href="#static-modifier">Static Modifier</a></li>
-  </ul>
-</nav>
-                </div>
-              </div>
-            </div>
-          </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/cc410/index.html"><span itemprop="name">CC 410 - Advanced Programming</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/index.html"><span itemprop="name">OOP</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/cc410/i-oop/02-object-oriented-programming/index.html"><span itemprop="name">Object-Oriented Programming</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Objects in Memory</span><meta itemprop="position" content="4"></li>
-          </ol>
-          <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/cc410/edit/main/content/i-oop/02-object-oriented-programming/10-objects-in-memory.md" rel="external" target="_blank" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/09-access-modifiers/index.html" title="Access Modifiers (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.html" title="Message Passing (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
-              <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-                  <div class="topbar-area topbar-area-more" data-area="more">
-            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
-            </div>
-            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
-            </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      
+      
+      
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable i-oop" tabindex="-1">
         <div class="flex-block-wrapper">
@@ -172,20 +135,20 @@
 <h1 id="objects-in-memory">Objects in Memory</h1>
 
 <p>We often talk about the <strong><em>class</em></strong> as a <em>blueprint</em> for an <strong><em>object</em></strong>.  This is because classes define what properties and methods an object should have, in the form of a <strong><em>constructor</em></strong>.  Consider this class representing a planet:</p>
-<div class="tab-panel" data-tab-group="e5a85f39c534f6d66a226e2d64ccd7f0">
+<div class="tab-panel" data-tab-group="3f80cb69356c54e22026ad5685360bd0">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('e5a85f39c534f6d66a226e2d64ccd7f0','java')"
+      onclick="switchTab('3f80cb69356c54e22026ad5685360bd0','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e5a85f39c534f6d66a226e2d64ccd7f0','python')"
+      onclick="switchTab('3f80cb69356c54e22026ad5685360bd0','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -236,20 +199,20 @@
   </div>
 </div>
 <p>It describes a planet as having a mass and a radius, which will be stored as the ratio of this planet&rsquo;s attribute compared to Earth. We can create a specific planet by invoking its constructor, i.e.:</p>
-<div class="tab-panel" data-tab-group="d06ea1db79e2f92e442295c82550cab7">
+<div class="tab-panel" data-tab-group="a229f0e276f0f99722f52ec9b96488b1">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('d06ea1db79e2f92e442295c82550cab7','java')"
+      onclick="switchTab('a229f0e276f0f99722f52ec9b96488b1','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('d06ea1db79e2f92e442295c82550cab7','python')"
+      onclick="switchTab('a229f0e276f0f99722f52ec9b96488b1','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -272,20 +235,20 @@
   </div>
 </div>
 <p>In this example, <code>earth</code> is an <em>instance</em> of the class <code>Planet</code>.  We can create other instances, i.e.</p>
-<div class="tab-panel" data-tab-group="cc6b0f09b450f0f0734d8c195d39031c">
+<div class="tab-panel" data-tab-group="7a967326ef91b2a159a62298e4afebbf">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('cc6b0f09b450f0f0734d8c195d39031c','java')"
+      onclick="switchTab('7a967326ef91b2a159a62298e4afebbf','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('cc6b0f09b450f0f0734d8c195d39031c','python')"
+      onclick="switchTab('7a967326ef91b2a159a62298e4afebbf','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -308,20 +271,20 @@
   </div>
 </div>
 <p>We can even create a <code>Planet</code> instance to represent one of the exoplanets discovered by <a href="https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite" rel="external" target="_blank" title="Transiting Extoplanet Survey Satelite">NASA’s TESS</a>:</p>
-<div class="tab-panel" data-tab-group="91445443aa51af212abbcc42548ce4ef">
+<div class="tab-panel" data-tab-group="8add76fb7091e1aa098f68300d08375e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('91445443aa51af212abbcc42548ce4ef','java')"
+      onclick="switchTab('8add76fb7091e1aa098f68300d08375e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('91445443aa51af212abbcc42548ce4ef','python')"
+      onclick="switchTab('8add76fb7091e1aa098f68300d08375e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -344,20 +307,20 @@
   </div>
 </div>
 <p>Let&rsquo;s think more deeply about the idea of a class as a blueprint.  A blueprint for what, exactly?  For one thing, it serves to describe the <em>state</em> of the object, and helps us label that state.  If we were to check the radius of our variable <code>mars</code>, we would access the getter for the <code>radius</code> field:</p>
-<div class="tab-panel" data-tab-group="b644572320d3ce35f7676eb6baa02698">
+<div class="tab-panel" data-tab-group="3dfb131b98136dfe7e1228510a8eb4f8">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('b644572320d3ce35f7676eb6baa02698','java')"
+      onclick="switchTab('3dfb131b98136dfe7e1228510a8eb4f8','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('b644572320d3ce35f7676eb6baa02698','python')"
+      onclick="switchTab('3dfb131b98136dfe7e1228510a8eb4f8','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -386,20 +349,20 @@
 <h2 id="static-modifier">Static Modifier</h2>
 <p>You might have wondered how the <code>static</code> modifier plays into objects.  Essentially, the <code>static</code> keyword indicates the field or method it modifies <em>exists in only one memory location</em>.  I.e. a static field references the <em>same</em> memory location for all objects that possess it.</p>
 <p>Consider this simple example class:</p>
-<div class="tab-panel" data-tab-group="4d4062dc4306e1fb8d56570f964fdbc7">
+<div class="tab-panel" data-tab-group="3b2e2d7c58cf776911b1ee940fdf9860">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('4d4062dc4306e1fb8d56570f964fdbc7','java')"
+      onclick="switchTab('3b2e2d7c58cf776911b1ee940fdf9860','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('4d4062dc4306e1fb8d56570f964fdbc7','python')"
+      onclick="switchTab('3b2e2d7c58cf776911b1ee940fdf9860','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -437,20 +400,20 @@
 </div>
 <p>Notice that the Java language uses the <code>static</code> keyword for fields, whereas in Python the field is simply defined outside of the constructor, and only attached to the class name and not <code>self</code>.</p>
 <p>We can also create a couple of instances:</p>
-<div class="tab-panel" data-tab-group="f1830550bf6fb779ef7fee158b5136b8">
+<div class="tab-panel" data-tab-group="26ce7f19faaa26b7bd14326212eeda2f">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('f1830550bf6fb779ef7fee158b5136b8','java')"
+      onclick="switchTab('26ce7f19faaa26b7bd14326212eeda2f','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('f1830550bf6fb779ef7fee158b5136b8','python')"
+      onclick="switchTab('26ce7f19faaa26b7bd14326212eeda2f','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -486,17 +449,17 @@
 </article>
         </div>
       </main>
-<div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
-<p>Last modified by:
-              <i class='fa-fw fas fa-user'></i> Russell Feldhausen
-              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
-</p>
-
-</div>
+      
+      
+      
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1767819457" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767819457" defer></script>
-    <script src="/cc410/js/theme.min.js?1767819457" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1767893924" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1767893924" defer></script>
+    <script src="/cc410/js/theme.min.js?1767893924" defer></script>
+      
+      
+      
+    </div> 
+  <script src="/cc410/js/tele-scroll.min.js?1767893924" defer></script>
   </body>
 </html>

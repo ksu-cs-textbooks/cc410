@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/slides/index.html</link>
+    <description>Generative Artificial Intelligence (GenAI) Policy Generative Artificial Intelligence (GenAI) RED: Prohibited YELLOW: Limited GREEN: Encouraged Generative Artificial Intelligence (GenAI) RED: Prohibited&#xA;Develop your skills Assess your learning Violations: Grade of 0 and Honor Council Generative Artificial Intelligence (GenAI) YELLOW: Limited&#xA;Use GenAI in a limited way to complete a task or achieve a goal Still majority your own work Citations Required! No Direct AI Results! Violations: Grade of 0 and Honor Council Generative Artificial Intelligence (GenAI) GREEN: Encouraged</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/slides/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

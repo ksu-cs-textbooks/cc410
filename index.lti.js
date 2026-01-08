@@ -2338,7 +2338,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Introduction",
     "description": "CC 410 - Advanced Programming - Spring 2026 Previous Versions\nInstructor Contact Information Instructor: Mr. Russell Feldhausen (russfeld AT ksu DOT edu) Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Book time to meet with me Preferred Methods of Communication: Email: Students should email cc410-help (cc410-help@KSUemailProd.onmicrosoft.com). We will try to respond within one business day. Ed Discussion: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well. Phone/Text: Emergencies only! We will do our best to respond as quickly as we can. Prerequisites CC 310 - Data Structures \u0026 Algorithms I (taken on or after Fall 2024) CC 315 - Data Structures \u0026 Algorithms II (taken prior to Fall 2024) Course Overview Advanced programming techniques and projects. Concepts from object oriented programming, inheritance and polymorphism. GUI programming and event-driven programming. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.",
-    "modified": "2026-01-07T14:56:25-06:00",
+    "modified": "2026-01-08T11:37:33-06:00",
     "tags": [],
     "title": "Spring 2026 Syllabus",
     "uri": "/cc410/00-introduction/06-syllabus/index.html"
@@ -2438,6 +2438,14 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Test Doubles",
     "uri": "/cc410/z-examples/07-test-doubles/index.html"
+  },
+  {
+    "breadcrumb": "Introduction",
+    "description": "Resources Slides Video Script",
+    "modified": "2026-01-08T11:37:33-06:00",
+    "tags": [],
+    "title": "GenAI Policy",
+    "uri": "/cc410/00-introduction/07-genai/index.html"
   },
   {
     "breadcrumb": "Example Projects",

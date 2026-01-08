@@ -1170,7 +1170,7 @@
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/00-introduction/06-syllabus/index.html</loc>
-    <lastmod>2026-01-07T14:56:25-06:00</lastmod>
+    <lastmod>2026-01-08T11:37:33-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/i-oop/02-object-oriented-programming/12-summary/index.html</loc>
@@ -1219,6 +1219,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/07-test-doubles/index.html</loc>
     <lastmod>2023-01-19T16:41:33-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/index.html</loc>
+    <lastmod>2026-01-08T11:37:33-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/07b-event-driven-programming/index.html</loc>
