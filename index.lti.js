@@ -2330,7 +2330,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 6 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe sixth milestone involves creating the various GUI windows and panels required for this project. The next milestone will involve adding functionality to these GUI elements beyond the ability to load different panels into the main window area.",
-    "modified": "2026-01-08T14:50:13-06:00",
+    "modified": "2026-01-08T17:01:11-06:00",
     "tags": [],
     "title": "GUI Basics",
     "uri": "/cc410/y-milestones/06-gui-basics/index.html"
