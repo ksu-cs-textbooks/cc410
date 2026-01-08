@@ -122,7 +122,15 @@ This course uses a stoplight approach regarding the use of generative artificial
 
 {{% notice color="red" %}}
 
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_red.png" height="120px">
+</div>
+<div>
 {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} You may not use any GenAI tools to complete this assignment. This assignment's main goal is to develop your own skills related to a particular task or topic, or to assess your own understanding of the concepts and skills required for this course. GenAI tools are therefore prohibited for these assignments, as they do not reflect or enhance your own learning journey.
+</div>
+</div>
+<div style="clear: both"></div>
 
 **Policy Violations:** Any usage of GenAI for this assignment will be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
 
@@ -130,11 +138,21 @@ This course uses a stoplight approach regarding the use of generative artificial
 
 {{% notice color="orange" %}}
 
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_yellow.png" height="120px">
+</div>
+<div>
 {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} You may use GenAI tools in a limited way to complete this assignment. The assignment description may provide additional information about what tools are allowed and how they can be used. The goal of this assignment is to allow you to work with GenAI to complete a task or achieve a goal, but the completed work should still be a majority your own effort. 
+</div>
+</div>
+<div style="clear: both"></div>
 
 **Citations Required:** Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, context provided to the tool (e.g. existing code), and a discussion of how the results were used to complete the assignment. 
 
 **No Direct AI Results:** For this assignment, you **may not** include the GenAI results directly in your submission - it must be used to inform and adapted to fit your own work. For example, you may not prompt GenAI tools to just _write_ your code and submit that directly; instead, you should ask for help performing specific tasks and then use the results within your own work. 
+
+**Understand Your Work:** To ensure compliance with this policy, the instructor reserves the right to request additional discussion or explanation of any work submitted by a student. The student should understand and be able to clearly explain **all** submitted work and code, even materials directly or indirectly produced by GenAI. A student who is unable to explain a submission to the satisfaction of the instructor may be considered to be in violation of this policy. 
 
 **Policy Violations:** Any usage of GenAI that involves direct submission of the GenAI outputs without additional work done by the student, or use of GenAI without proper citation, may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
 
@@ -142,17 +160,25 @@ This course uses a stoplight approach regarding the use of generative artificial
 
 {{% notice color="green" %}}
 
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_green.png" height="120px">
+</div>
+<div>
 {{% badge style="green" %}}GREEN: GenAI Encouraged {{% /badge %}} You may make unlimited use of GenAI tools to complete this assignment. The goal of this assignment is to ensure you are comfortable with using GenAI tools to specifically meet a need or achieve a goal. 
+</div>
+</div>
+<div style="clear: both"></div>
 
 **Citations Required:** Any usage of GenAI must be noted and cited directly in the work, either in source code comments or text citations in written work. Citations should include the tool used, the prompt(s) given, context provided to the tool (e.g. existing code), and a discussion of how the results were used to complete the assignment.
 
 **Direct AI Results Allowed:** For this assignment, you **may** include the GenAI results directly in your submission. It is still your responsibility to ensure the submission meets the assignment's goals and is correct and factual - remember that GenAI is not infallible and may produce incorrect results. You are still solely responsible for ensuring the submission meets the stated assignment goals, and assignments in this category may receive additional scrutiny for correctness and accuracy. 
 
+**Understand Your Work:** To ensure compliance with this policy, the instructor reserves the right to request additional discussion or explanation of any work submitted by a student. The student should understand and be able to clearly explain **all** submitted work and code, even materials directly or indirectly produced by GenAI. A student who is unable to explain a submission to the satisfaction of the instructor may be considered to be in violation of this policy. 
+
 **Policy Violations:** Any usage of GenAI without proper citation may be treated as a violation of the K-State Honor Pledge and may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
 
 {{% /notice %}}
-
-**Understand Your Work:** To ensure compliance with this policy, the instructor reserves the right to request additional discussion or explanation of any work submitted by a student. The student should understand and be able to clearly explain **all** submitted work and code, even materials directly produced by GenAI. A student who is unable to explain a submission to the satisfaction of the instructor may be considered to be in violation of this policy. 
 
 Please contact the instructor if you have any questions about this GenAI policy. It is your responsibility to understand it and proactively ask questions if you are unsure; ignorance of this policy is not an excuse for violating it.
 

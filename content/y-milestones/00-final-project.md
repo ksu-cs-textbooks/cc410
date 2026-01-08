@@ -59,6 +59,27 @@ A complete final project should include the following features:
 
 Completing this project is estimated to require 25-50 hours depending on familiarity with the tools involved. Spread across the entire semester, this equates to roughly 1-3 hours of work each week. This project should be roughly 1/4 to 1/3 the size and scope of the semester-long restaurant project.
 
+## Generative Artificial Intelligence Policy
+
+{{% notice color="orange" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_yellow.png" height="120px">
+</div>
+<div>
+{{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} For your final project, you may make limited use of GenAI tools to help scaffold code, answer questions, develop unit tests, implement small features, or integrate with external tools and APIs. However, the majority of the submitted work should still be your own effort. The goal of this assignment is for you to demonstrate what you've learned in this course, but GenAI may be helpful to streamline some of the work.
+</div>
+</div>
+<div style="clear: both"></div>
+
+* **Citations Required:** Any usage of GenAI must be noted and cited directly in the work. 
+* **No Direct AI Results:** For this assignment, you **may not** include the GenAI results directly in your submission. 
+* **Understand Your Work:** You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.
+* **Policy Violations:** Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
 ## Milestones
 
 The final project in this course will consist of several different milestones. Each milestone will require students to schedule a short meeting with the instructor or GTA to review the project as it stands and get feedback. The milestones are meant to roughly correspond to content being covered in this class. 
@@ -67,7 +88,7 @@ The final project in this course will consist of several different milestones. E
 * Milestone 2 (Week 5) - Discuss possible project topics and class structures.
 * Milestone 3 (Week 9) - Discuss classes and inheritance, review existing unit tests and documentation. Discuss possible user interfaces.
 * Milestone 4 (Week 13) - Discuss user interfaces, review existing code against requirements. Discuss possible external libraries or APIs. Review existing code against requirements. Discuss final steps and presentation.
-* Milestone 5 (Week 16) - Present project to class, submit final code for review. 
+* Milestone 5 (Week 16) - Record and submit a presentation of this project, and schedule a time for Q&A with the instructor. Submit your final code for review. 
 
 ## Deliverables
 

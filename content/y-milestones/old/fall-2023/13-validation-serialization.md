@@ -73,6 +73,46 @@ _A rough estimate for this milestone would be around 100 lines of new or updated
 
 {{% /notice %}}
 
+## Generative Artificial Intelligence Policy
+
+{{% notice color="orange" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_yellow.png" height="120px">
+</div>
+<div>
+{{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} For this project, you may make limited use of GenAI to answer questions and receive suggestions about how to add form validation and serialization functionality to your project. Your resulting code should closely follow the model shown in the related example project (this will make future milestones simpler). You <b>may not</b> use the results of GenAI directly in your code or documentation comments, except in the Web design portions as described below.
+</div>
+</div>
+<div style="clear: both"></div>
+
+* **Citations Required:** Any usage of GenAI must be noted and cited directly in the work. 
+* **No Direct AI Results:** For this assignment, you **may not** include the GenAI results directly in your submission. 
+* **Understand Your Work:** You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.
+* **Policy Violations:** Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
+{{% notice color="green" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_green.png" height="120px">
+</div>
+<div>
+{{% badge style="green" %}}GREEN: GenAI Encouraged {{% /badge %}} You may make unlimited use of GenAI for the <b>Web design portions</b> of this assignment, such as the look and feel of the individual web template layouts, CSS styles used, graphics used, and any other design items that are not core pieces of functionality for this milestone. Your templates must still conform to the specifications described above. You are welcome to use GenAI to exercise creativity with the design of this milestone.
+</div>
+</div>
+<div style="clear: both"></div>
+
+* **Citations Required:** Any usage of GenAI must be noted and cited directly in the work. 
+* **Direct AI Results Allowed:** For this assignment, you **may** include the GenAI results directly in your submission.
+* **Understand Your Work:** You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.
+* **Policy Violations:** Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
 ## Grading Rubric
 
 This assignment will be graded based on the rubric below:

@@ -36,6 +36,24 @@ This project should include the following features:
 
 Completing this project is estimated to require 2-5 hours depending on familiarity with the tools involved.
 
+## Generative Artificial Intelligence Policy
+
+{{% notice color="red" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_red.png" height="120px">
+</div>
+<div>
+{{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} You may not use any GenAI tools to complete this assignment. The goal of this assignment is to get you familiar with the tools and structures we'll be using in this class. To do this, you should complete this assignment by yourself without any additional assistance.
+</div>
+</div>
+<div style="clear: both"></div>
+
+* **Policy Violations:** Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
 ## Grading Rubric
 
 This assignment will be graded based on the rubric below:

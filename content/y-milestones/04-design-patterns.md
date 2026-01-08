@@ -132,6 +132,27 @@ _A rough estimate for this milestone would be around 1000 lines of new or update
 
 {{% /notice %}}
 
+## Generative Artificial Intelligence Policy
+
+{{% notice color="orange" %}}
+
+<div style="display: block">
+<div style="float: left; padding-right: 10px">
+<img src="/cc410/images/0/stoplight_yellow.png" height="120px">
+</div>
+<div>
+{{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} For this project, you may make limited use of GenAI to answer questions and receive suggestions about how to modify your existing code structure to meet the new requirements. You <b>may not</b> use the results of GenAI directly in your code or documentation comments.
+</div>
+</div>
+<div style="clear: both"></div>
+
+* **Citations Required:** Any usage of GenAI must be noted and cited directly in the work. 
+* **No Direct AI Results:** For this assignment, you **may not** include the GenAI results directly in your submission. 
+* **Understand Your Work:** You may be asked to explain your code in detail as part of this project. Failure to do so may be considered a violation of this policy.
+* **Policy Violations:** Violations may result in a grade of 0 for the assignment and other sanctions approved through the K-State Honor Council.
+
+{{% /notice %}}
+
 ## Grading Rubric
 
 This assignment will be graded based on the rubric below:
