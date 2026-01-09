@@ -394,7 +394,7 @@ var relearn_lti_index = [
   {
     "breadcrumb": "Introduction",
     "description": "Resources Slides Previous Versions Video Script Hello and welcome to the Computational Core program!\nMy name is Russ Feldhausen, and I’ll be one of the instructors for this program. My contact information is shown here, and is also listed on the syllabus\n[Slide 2]\nThere are many other instructors and TAs for this program that you may interact with or see in the tutorial videos. They all have been instrumental in the development of this program. Specifically, I’d like to recognize the work of Nathan Bean, the developer of the CIS 400 course on which this course is based.",
-    "modified": "2025-08-20T11:49:46-05:00",
+    "modified": "2026-01-09T11:21:30-06:00",
     "tags": [],
     "title": "Course Introduction",
     "uri": "/cc410/00-introduction/01-introduction/index.html"
@@ -2441,8 +2441,8 @@ var relearn_lti_index = [
   },
   {
     "breadcrumb": "Introduction",
-    "description": "Resources Slides Video Script",
-    "modified": "2026-01-08T11:37:33-06:00",
+    "description": "Resources Slides Video Transcript In this video, I want to take a few minutes to discuss the generative artificial intelligence or Gen AI policy in this course. The use of generative artificial intelligence in coding is vastly becoming one of the most important things to learn how to do in industry. But at the same time, from an educational perspective, it produces a lot of struggles because using generative AI really shortcuts the learning process. And so it means you don’t learn the concepts quite as clearly if you had to do them yourself. There’s this concept in education called the productive struggle, where sometimes to really learn something well, you have to struggle your way through it the first few times before you finally get it. And so by relying too heavily on Gen AI to just get over that hump, you end up not learning the content quite as well as we’d like. And so from my perspective as an educator, I want you to learn how to use these tools effectively, but at the same time, I want to build your own skills so that you’re not wholly reliant on using these tools. I think they will make you a much better employee, a much better programmer down the road. And I think as these tools continue to change and modify, the more innate skill you have and the less you are dependent on the current generation of Gen AI, the better programmer you’re going to be down the road. And so that’s really the impetus behind this policy. And I want to take a little time to explain how I’m applying this policy so that you really understand where I’m coming from and how we’re going to work with it in this course.",
+    "modified": "2026-01-09T11:21:30-06:00",
     "tags": [],
     "title": "GenAI Policy",
     "uri": "/cc410/00-introduction/07-genai/index.html"

@@ -6,7 +6,7 @@
     <description>Welcome to CC 410!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 14:50:13 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 11:21:30 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/00-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Course Introduction</title>
@@ -55,7 +55,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/00-introduction/07-genai/index.html</guid>
-      <description>Resources Slides Video Script</description>
+      <description>Resources Slides Video Transcript In this video, I want to take a few minutes to discuss the generative artificial intelligence or Gen AI policy in this course. The use of generative artificial intelligence in coding is vastly becoming one of the most important things to learn how to do in industry. But at the same time, from an educational perspective, it produces a lot of struggles because using generative AI really shortcuts the learning process. And so it means you don’t learn the concepts quite as clearly if you had to do them yourself. There’s this concept in education called the productive struggle, where sometimes to really learn something well, you have to struggle your way through it the first few times before you finally get it. And so by relying too heavily on Gen AI to just get over that hump, you end up not learning the content quite as well as we’d like. And so from my perspective as an educator, I want you to learn how to use these tools effectively, but at the same time, I want to build your own skills so that you’re not wholly reliant on using these tools. I think they will make you a much better employee, a much better programmer down the road. And I think as these tools continue to change and modify, the more innate skill you have and the less you are dependent on the current generation of Gen AI, the better programmer you’re going to be down the road. And so that’s really the impetus behind this policy. And I want to take a little time to explain how I’m applying this policy so that you really understand where I’m coming from and how we’re going to work with it in this course.</description>
     </item>
     <item>
       <title>Codio Projects</title>
