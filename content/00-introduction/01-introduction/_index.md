@@ -4,7 +4,9 @@ pre: "1. "
 weight: 10
 ---
 
-{{< youtube ftQqoTIf3Ws >}}
+{{< youtube TefCnhmxyEw >}}
+
+<!-- Fall 2025: ftQqoTIf3Ws -->
 
 #### Resources
 
@@ -45,42 +47,56 @@ One thing I highly encourage each of you to do is read the syllabus for this cou
 
 [Slide 8]
 
-One very important part of the syllabus that every student should read is the late work policy. First off, each module has a due date, and you may work on that module at any time before it is due, provided you have met the prerequisites. As discussed before, you must do all the readings and assignments in a module, preferably in listed order, before moving on, so you cannot jump ahead. A module is considered completed when all items have been completed.
+One important section in the syllabus is this course's policy on the use of generative artificial intelligence, or GenAI, tools, such as ChatGPT, Copilot, and Claude. While these tools are very powerful and are becoming commonly used in industry, they can also cause issues with your ability to confidently learn new skills, as well as my ability to assess how much you have actually learned in this course. So, my goal is to strike a balance between allowing reasonable usage of these tools where I can, and restricting their usage when I feel it is important for you to learn or demonstrate your own skills. Therefore, this course has adopted a simple stoplight model to let you know when the use of those tools is allowed and to what level you can use them in your submissions. 
+
+Each assignment is marked with one of these three colors, and additional information may be included. Assignments marked in red do not allow the use of GenAI during any part of the assignment. Generally these are assessments meant to check your level of understanding of the content, or example projects where you are building new skills. Assignments marked in yellow allow limited use of GenAI tools as "helpers" in the learning process. You are allowed to query GenAI for help on your work, but you <b>may not</b> directly include the GenAI output in your submission. Instead, you must learn to use GenAI as an assistant, but adapt the output you receive to be your own work and effort in the project. Finally, assignments marked in green encourage full use of GenAI, and GenAI results may be included directly in the assignment submission. This is where I really want to you explore how to use GenAI creatively, and often these tasks are repetitive or creative in nature, where GenAI can be especially useful.
+
+In any instances where GenAI is used, you <b>must</b> include a proper citation for that usage. Please see the video later in this module for more information about properly citing the use of GenAI in this course. Likewise, I reserve the right to ask you to describe or explain any part of your submissions that I feel might have been produced by GenAI but isn't cited, and failure to do so may be considered a violation of this policy.
+
+Finally, when in doubt, please ask me if you have any questions or concerns about this policy. Ignorance of this policy is not an excuse for violating it. 
 
 [Slide 9]
 
-For the purposes of grading, we will use the date and time that the confirmation quiz was submitted at the end of each module to determine when the module was completed. This is due to the way that Codio handles grading, as it may resubmit previously graded assignments if an error in the module is corrected, making a previously completed assignment appear to be submitted late.
+In keeping with the new policy on the use of GenAI in this course, I will also disclose any times I use GenAI in the process of teaching this course. I have set the following rules in place for this course regarding my own use of GenAI: I will not use GenAI when communicating with students, nor will I use it to produce any grading feedback or comments. Everything you receive from me this semester will be completely my own work and in my own words. 
+
+I may make limited use of GenAI to produce new learning content for this course, such as assignment descriptions, fictional menu items, and simple graphics for use in my materials. Any usage of GenAI will be clearly noted and cited. As of this recording in January 2026, no GenAI content exists in this course. 
+
+[Slide 10]
+
+Another important part of the syllabus that every student should read is the late work policy. First off, each module has a due date, and you may work on that module at any time before it is due, provided you have met the prerequisites. As discussed before, you must do all the readings and assignments in a module, preferably in listed order, before moving on, so you cannot jump ahead. A module is considered completed when all items have been completed.
 
 If a module is completed after the due date, a penalty of 10% of the total points of each assignment will be deducted for each day the assignment is late. Therefore, if an assignment is submitted 3 days late, it will be subject to a 30% penalty of the total number of points possible on that assignment. After 10 days, no points will be awarded for a late submission.
 
 However, even if a module is late, it still must be completed before you can move on to a later module. So, it is very important to avoid getting behind in this course, as it can be very difficult to get back on track. If you ever find that you are struggling to keep up, please don't be afraid to contact either the instructors or GTAs for assistance. We'd be happy to help you get caught back up quickly.
 
+[Slide 11]
+
 The grading in this course is very simple. First, 10% of your final grade will depend on the grades you receive from each of the tutorials and quizzes throughout the course. Next, 10% of your grade will come from the interactive examples that precede several projects. The next 40% of your grade will come from the numerous project milestones throughout the course, of which there will be approximately 10. There will also be a couple of "concept quizzes" throughout the semester, which are a bit longer than a normal quiz and will ask you to apply what you've learned to a novel situation. Those are worth 15% of your grade. Finally, the last 25% of your grade will come from the final project in the course, which will be discussed in a later video. In this program, the standard "90-80-70-60" grading scale will apply, though I reserve the right to curve grades up to a higher grade level at my discretion. Therefore, you will never be required to get higher than 90% for an A, but you may get an A if you score slightly below 90% if I choose to curve the grades.
 
-[Slide 10]
+[Slide 12]
 
 This is intended to be a completely online, self-paced course. There are no mandatory scheduled course times. All of the content is available online, so you can work whenever and wherever you want. It could be a 3-hour block once a week, or a few minutes here and there between classes. It’s really up to you and your schedule. However, remember that each module may require 12 to 16 or more hours of work to complete, so make sure you have plenty of time available to devote to this course.
 
 In addition, due to the flexible online format of this class, there won't be any long lecture videos to watch. Instead, each module will consist of a guided tutorial and several short videos, each focused on a particular topic or task. Likewise, there won't be any textbooks required, since all of the information will be presented in the interactive tutorials through Codio. Finally, since we are using Codio as our learning platform, you won't have to deal with installing and using a clunky integrated development environment, or IDE, just to learn how to program. Codio helps make learning to program quick and painless by moving everything to the web.
 
-[Slide 11]
+[Slide 13]
 
 What hasn't changed, though, is the basic concept of a college course. You'll still be expected to watch or read about 6-9 hours of content to complete each module. In addition to that, each project assignment may require another 6-9 hours of work to complete. If you plan on doing a module each week, that roughly equates to 6 hours of content and 6 hours of homework each week, which is the expected workload from a 3-4 credit hour college course.
 
 From my experience, I can definitely share that the number one reason students struggle in this class is due to poor time management, not the complexity of the material. So, make sure you are planning to dedicate enough time to this course, and strive to start assignments as soon as you receive them so you have lots of time to get help if you get stuck.
 
-[Slide 12]
+[Slide 14]
 
 For this course, the only supplies you'll need as a student are access to a modern web browser and a broadband internet connection. No other special hardware or software is necessary! However, in this course you will also be able to do some development on your own computer using Visual Studio Code and Ubuntu. We'll provide some short videos to help you get started if you choose to go that route, but it is not required. Due to the complex nature of this course, we do not recommend using phones, tablets, or Chromebooks if you choose to do development on your own systems. 
 
-[Slide 13]
+[Slide 15]
 
 Finally, as you are aware, this course is always subject to change. This is a relatively new program here at K-State, and we’re always working on new and interesting ideas to integrate into the courses. The best advice I have is to look upon this graphic with the words “Don’t Panic” written in large, friendly letters.  If you find yourself falling behind, or not understanding seek our help via cc410-help.
 
-[Slide 14]
+[Slide 16]
 
 So, to complete this module, there are a few other things that you'll need to do. The next step is to watch the video on navigating Canvas and Codio, which will give you a good idea of how to most effectively work through the content in this course.
 
-[Slide 15]
+[Slide 17]
 
 To get to that video, click the "Next" button at the bottom right of this page.
