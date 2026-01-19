@@ -153,6 +153,16 @@ hidden: true
 </section>
 
 <section>
+	<h3>GenAI Disclosure</h3>
+	<ul>
+		<li><span style="background: red">RED:</span> Grading & Feedback</li>
+		<li><span style="background: red">RED:</span> Student Communication</li>
+		<li><span style="background: gold">YELLOW:</span> Lesson & Learning Content</li>
+	<ul>
+	<p>As of January 2026, no GenAI Content exists in this course!</p>
+</section>
+
+<section>
 	<h3>Keep in Touch!</h3>
 	<ul>
 		<li>Ed Discussion</li>

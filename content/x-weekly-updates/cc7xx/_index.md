@@ -1,16 +1,12 @@
----
-title: "CC 7XX"
-pre: "0. "
-weight: 2
-hidden: true
----
++++
+title = "CC 7XX Updates"
+weight = 991
+archetype = "chapter"
+ordinal = "X"
+noprint = true
++++
 
 
-{{< youtube badid  >}}
+Information for Current Students!
 
-#### Resources
-
-* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
-
-#### Edited Transcript
-
+[Previous Semesters Are Here]({{% relref "./old" %}})
