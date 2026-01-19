@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S26 Week 1 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/cc7xx/s26week1/index.html</link>
+    <description>Resources Slides Edited Transcript Greetings and welcome to the Cyber Pipeline Program. It is spring 2026 and we’re on the first week of the semester. So I’m going to record a short video to send out to everybody just to welcome you to the program and to introduce some things that you might want to know. So my name is Russ Feldhausen. I’m one of the instructors for this program. I’m probably going to be the one that you’re going to interact with the most throughout these first couple of courses, but there are a lot of faculty that are involved in this program that you may see and hear from from time to time. I work really closely with my colleagues, Dr. Nathan Bean and Dr. Josh Weese, to kind of work as the directors of this program. We have put together a lot of the content and do a lot of the management of the program and the grant itself. We also work really closely with Dr. Safia Malallah, Dr. Friday James, as a couple other faculty in the computer science department building out curriculum for this program. And of course, most of you have probably already met and interacted with Dr. David Allen from the education department, who is our colleague over there that works with the pedagogy side of this program. So you might see or hear from a lot of us throughout this program, but especially in the CC7X courses, you’ll probably see and hear a lot from me more than anybody else, just because I’m the one actively managing the courses in Canvas. And so I do a lot of the frontline work.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/cc7xx/s26week1/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

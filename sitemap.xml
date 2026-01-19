@@ -213,10 +213,6 @@
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.html</loc>
-    <lastmod>2025-08-20T11:49:46-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/20-extras/02-java-generics/index.html</loc>
     <lastmod>2021-08-24T16:30:20-05:00</lastmod>
   </url>
@@ -267,6 +263,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/ii-gui/14-libraries/02-software-libraries/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.html</loc>
+    <lastmod>2026-01-19T10:58:09-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/iii-web/19-serialization/02-state-review/index.html</loc>
@@ -1359,6 +1359,10 @@
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.html</loc>
     <lastmod>2024-06-17T14:13:48-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/cc7xx/index.html</loc>
+    <lastmod>2026-01-19T10:58:09-06:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/cc410/z-examples/index.html</loc>

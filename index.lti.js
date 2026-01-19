@@ -424,14 +424,6 @@ var relearn_lti_index = [
     "uri": "/cc410/i-oop/02-object-oriented-programming/02-encapsulation/index.html"
   },
   {
-    "breadcrumb": "Weekly Updates",
-    "description": "Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in fall 2025. Welcome to a new semester. My name is Russ Feldhausen. I’ll be your instructor this semester. My contact information is here. It’s on the syllabus. It’s on the Canvas homepage. It’s in the introductory video. Hopefully you can easily find a way to get a hold of me. Please be aware that I work remotely out of Kansas City most of the week, so I won’t be available on campus. I do come to campus on Mondays. So if you want to meet with me in person, Mondays in the morning is probably your best bet to do that. But since this is an online course, I’m guessing most of you might be online as well. And so I should actually be really easy to reach either via email, Ed Discussion, Teams, Discord, whatever you want to use.",
-    "modified": "2025-08-20T11:49:46-05:00",
-    "tags": [],
-    "title": "Fall '25 Week 1",
-    "uri": "/cc410/x-weekly-updates/week01/index.html"
-  },
-  {
     "breadcrumb": "Web \u003e Extras",
     "description": "One major topic in the Java programming language that we’ve made use of but haven’t really explained is the use of generic types. A generic type is a class or interface that can accept a parameter for the type of object that it stores. A great example is the LinkedList class that we are very familiar with. When working with a class that supports generic types, we provide the type parameter in angle brackets \u003c\u003e as in this example:",
     "modified": "2021-08-24T16:30:20-05:00",
@@ -534,6 +526,14 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Software Libraries",
     "uri": "/cc410/ii-gui/14-libraries/02-software-libraries/index.html"
+  },
+  {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in spring 2026. My name is Russ Feldhausen. I’ll be your instructor for the semester. My contact information can be found here on this slide. One thing to note, I do work remotely most of the time, so I’m going to be working from home four days a week, but I will generally be on campus on Tuesdays. My Tuesdays are usually pretty booked up with meetings already, but if you want to meet with me on Tuesdays, early in the morning is the best time to do that in person. But otherwise, I’m available the rest of the week working from home. So feel free to reach out anytime.",
+    "modified": "2026-01-19T10:58:09-06:00",
+    "tags": [],
+    "title": "Spring '26 Week 1",
+    "uri": "/cc410/x-weekly-updates/week01/index.html"
   },
   {
     "breadcrumb": "Web \u003e Serialization",
@@ -2718,6 +2718,14 @@ var relearn_lti_index = [
     "tags": [],
     "title": "Weekly Updates",
     "uri": "/cc410/x-weekly-updates/index.html"
+  },
+  {
+    "breadcrumb": "Weekly Updates",
+    "description": "Information for Current Students!\nPrevious Semesters Are Here",
+    "modified": "2026-01-19T10:58:09-06:00",
+    "tags": [],
+    "title": "CC 7XX Updates",
+    "uri": "/cc410/x-weekly-updates/cc7xx/index.html"
   },
   {
     "breadcrumb": "",
