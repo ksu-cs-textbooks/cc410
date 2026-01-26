@@ -1064,6 +1064,14 @@ var relearn_lti_index = [
     "uri": "/cc410/iii-web/20-extras/04-software-development-life-cycle/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week two announcements video for CC 410 in spring 2026. So hopefully right now you should be wrapping up the first module in this class which includes the Hello Real World project. That project gives you a really good idea of the structure of the project we’re going to use in this class and it introduces you to some new topics that you maybe haven’t seen before such as type checking, unit testing, things like that. And then you should also be scheduling your first final project check-in with me sometime within the next week or two. That can be a really short meeting. It usually only takes 10 to 15 minutes, but it’s just a chance for me to meet you virtually, see if you have any questions at all about what’s going on, and then also talk a little bit about what’s going on with the final project in this class, just to give you a heads up as we get moving forward.",
+    "modified": "2026-01-26T09:18:14-06:00",
+    "tags": [],
+    "title": "Spring '26 Week 2",
+    "uri": "/cc410/x-weekly-updates/week02/index.html"
+  },
+  {
     "breadcrumb": "Web \u003e REST and Forms",
     "description": "Once we’ve built a website that can send form data using an HTTP POST request to our web application, we need some way to access that information in our controller. Let’s look at how we would accomplish this in Spring.\nSpring Path Variables In a previous example, we saw how we can create a route that includes variables directly in the path itself:\n@GetMapping(\"/greeting/{name}\") public String greetingWithName(@PathVariable String name, Model model) { model.addAttribute(\"name\", name); return \"greeting\"; } In this example, we include the annotation @PathVariable before one of the parameters in our method. Spring will automatically match the name of that parameter to the name of one of the path variables in the route, and fill in the value when it calls the function.",
     "modified": "2021-08-24T15:17:57-05:00",

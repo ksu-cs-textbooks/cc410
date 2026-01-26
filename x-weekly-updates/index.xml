@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jan 2026 10:58:09 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 09:18:14 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in spring 2026. My name is Russ Feldhausen. I’ll be your instructor for the semester. My contact information can be found here on this slide. One thing to note, I do work remotely most of the time, so I’m going to be working from home four days a week, but I will generally be on campus on Tuesdays. My Tuesdays are usually pretty booked up with meetings already, but if you want to meet with me on Tuesdays, early in the morning is the best time to do that in person. But otherwise, I’m available the rest of the week working from home. So feel free to reach out anytime.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 2</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week two announcements video for CC 410 in spring 2026. So hopefully right now you should be wrapping up the first module in this class which includes the Hello Real World project. That project gives you a really good idea of the structure of the project we’re going to use in this class and it introduces you to some new topics that you maybe haven’t seen before such as type checking, unit testing, things like that. And then you should also be scheduling your first final project check-in with me sometime within the next week or two. That can be a really short meeting. It usually only takes 10 to 15 minutes, but it’s just a chance for me to meet you virtually, see if you have any questions at all about what’s going on, and then also talk a little bit about what’s going on with the final project in this class, just to give you a heads up as we get moving forward.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>
