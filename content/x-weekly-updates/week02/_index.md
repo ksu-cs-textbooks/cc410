@@ -1,0 +1,24 @@
+---
+title: "Spring '26 Week 2"
+pre: "2. "
+weight: 20
+---
+
+{{< youtube LYJ4JdSVjLE >}}
+
+#### Resources
+
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
+
+#### Edited Transcript
+
+Hello and welcome to the week two announcements video for CC 410 in spring 2026. So hopefully right now you should be wrapping up the first module in this class which includes the Hello Real World project. That project gives you a really good idea of the structure of the project we're going to use in this class and it introduces you to some new topics that you maybe haven't seen before such as type checking, unit testing, things like that. And then you should also be scheduling your first final project check-in with me sometime within the next week or two. That can be a really short meeting. It usually only takes 10 to 15 minutes, but it's just a chance for me to meet you virtually, see if you have any questions at all about what's going on, and then also talk a little bit about what's going on with the final project in this class, just to give you a heads up as we get moving forward. 
+
+So this week we're going to shift gears and start talking about object-oriented programming. We're going to do an example on building a set of object-oriented classes to represent the menu for the restaurant project that we're working on. And this is really the week where you get to choose which restaurant project you want to work on. Remember, you can either work on the Game Grub project, which is the current one linked in the course, or you can work on the Starfleet Subs project, which is an older one that has a lot of the same structure and information in it. They're pretty much interchangeable. They're just different restaurant menus to give you a little bit different flavor of what's going on in the class. 
+
+So other than that, hopefully everybody's found the Ed Discussion board and introduced yourself. If you haven't done that yet, make sure you get that done ASAP. Ed Discussion is where we're going to have a lot of the back and forth in this class. It's a great place to post questions. I'll post some mega threads in there for a while and see if those get used a whole lot. If they do, I'll keep posting them for the rest of the semester. The other big thing in this class as far as grading, you're going to see your grade in two different places. The first thing is I'll see grading rubric comments on Canvas. So anytime where you lose points or anything there, that will all be in Canvas in the grading rubric. I will also leave some code comments in GitHub, especially on these first few projects where I can leave a lot of comments about structure and usage. Later in the semester, I tend to leave fewer comments because your projects kind of diverge at that point. And so as long as your code works, I'm not too concerned about following a specific structure. Other than that, hopefully things are going well in this class. I think so far I haven't had any major complaints. I know a couple people have had issues with GitHub Classroom that I've been working on, but otherwise, hopefully things are going well. 
+
+So like I talked about for the first milestone, we're going to work on object-oriented classes to represent the restaurant project in this class. It's going to be a lot of boilerplate code to really put this all together, so be aware of that. A lot of that boilerplate is just classes and things that you're going to need to represent the menu. So you can make things a lot easier on you by making those classes and then copying them very carefully. You can also make your things easier by focusing on style and documentation now. Even though a lot of those aren't going to be enforced until milestone three, you can start practicing that right now by making sure you match the style guide and you have documentation comments on your code. In general, I expect this milestone to take anywhere from three to eight hours to complete, depending on how efficient you are. For comparison, when I was working on the model solution, I think I did this whole milestone in about an hour, but I've got a lot of experience. And so three to eight hours, I think, is where I'd expect you to be right now. It's going to be anywhere from 1,500 to 2,500 lines of code. And as always, if you have any questions, if something in the milestone description doesn't make sense, feedback is always welcome. Just let me know. 
+
+After this milestone, then we'll start talking about documentation, unit testing, inheritance, polymorphism, all of these cool topics. So this class is going to ramp up pretty quick, introducing some new topics as we get through the month of February, which is coming up very shortly. So other than that, hopefully things are going well. If you have any questions or concerns, let me know. Otherwise, best of luck this week, and I will see you again next week. 
+
