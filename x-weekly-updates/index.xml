@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 09:18:14 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 12:11:22 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -21,6 +21,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</guid>
       <description>Resources Slides Edited Transcript Hello and welcome to the week two announcements video for CC 410 in spring 2026. So hopefully right now you should be wrapping up the first module in this class which includes the Hello Real World project. That project gives you a really good idea of the structure of the project we’re going to use in this class and it introduces you to some new topics that you maybe haven’t seen before such as type checking, unit testing, things like that. And then you should also be scheduling your first final project check-in with me sometime within the next week or two. That can be a really short meeting. It usually only takes 10 to 15 minutes, but it’s just a chance for me to meet you virtually, see if you have any questions at all about what’s going on, and then also talk a little bit about what’s going on with the final project in this class, just to give you a heads up as we get moving forward.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 3</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the week three announcements video for CC410 in spring 2026. So, this week you should be wrapping up the second module, which is on object-oriented programming. You’re going to do a quick example project on building an object-oriented programming data classes for a restaurant project, and then you’re going to do the first real milestone of the restaurant project where you’re going to build a bunch of data classes to represent the menu. This week, we’re going to move on to some new topics around documentation, unit testing, and modeling our code using UML. You’re going to do a quick example of adding documentation and unit testing to what we did previously. Some other stuff that you’re going to do, and then you’re going to work on the restaurant project where you’re going to add unit testing to the project itself.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

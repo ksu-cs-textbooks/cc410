@@ -1592,6 +1592,14 @@ var relearn_lti_index = [
     "uri": "/cc410/i-oop/09-design-patterns/06-singleton/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week three announcements video for CC410 in spring 2026. So, this week you should be wrapping up the second module, which is on object-oriented programming. You’re going to do a quick example project on building an object-oriented programming data classes for a restaurant project, and then you’re going to do the first real milestone of the restaurant project where you’re going to build a bunch of data classes to represent the menu. This week, we’re going to move on to some new topics around documentation, unit testing, and modeling our code using UML. You’re going to do a quick example of adding documentation and unit testing to what we did previously. Some other stuff that you’re going to do, and then you’re going to work on the restaurant project where you’re going to add unit testing to the project itself.",
+    "modified": "2026-02-02T12:11:22-06:00",
+    "tags": [],
+    "title": "Spring '26 Week 3",
+    "uri": "/cc410/x-weekly-updates/week03/index.html"
+  },
+  {
     "breadcrumb": "Web \u003e Data-Driven Websites",
     "description": "Content Note Much of the content in this page was adapted from Nathan Bean’s CIS 400 course at K-State, with the author’s permission. That content is licensed under a Creative Commons BY-NC-SA license.\nNow that we’ve learned about all of the core technologies used to create and deliver webpages, let’s take a deeper look at the software that runs on the servers that are responsible for receiving HTTP requests and responding to them. We typically call these programs web servers.",
     "modified": "2022-07-08T13:34:06-05:00",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;26 Week 3 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week three announcements video for CC410 in spring 2026. So, this week you should be wrapping up the second module, which is on object-oriented programming. You’re going to do a quick example project on building an object-oriented programming data classes for a restaurant project, and then you’re going to do the first real milestone of the restaurant project where you’re going to build a bunch of data classes to represent the menu. This week, we’re going to move on to some new topics around documentation, unit testing, and modeling our code using UML. You’re going to do a quick example of adding documentation and unit testing to what we did previously. Some other stuff that you’re going to do, and then you’re going to work on the restaurant project where you’re going to add unit testing to the project itself.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
