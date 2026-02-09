@@ -1944,6 +1944,14 @@ var relearn_lti_index = [
     "uri": "/cc410/i-oop/04-testing/08-python-assertions/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week four announcements video for CC410 in spring 2026. So, right now, you should be wrapping up the second restaurant milestone, which is all on adding documentation, unit testing, and UML diagrams to your project. You’ll do a quick example for adding documentation and unit testing to an existing project, and then you’ll be working on your restaurant project to add unit tests to test all of the code that you wrote for the first milestone.",
+    "modified": "2026-02-09T10:12:19-06:00",
+    "tags": [],
+    "title": "SPring '26 Week 4",
+    "uri": "/cc410/x-weekly-updates/week04/index.html"
+  },
+  {
     "breadcrumb": "OOP \u003e Documentation",
     "description": "In this chapter, we examined the need for software documentation aimed at both end-users and developers (user documentation and developer documentation, respectively). We also examined some formats this documentation can be presented in: HTML, Markdown, and XML. We also discussed documentation generation tools, which generate developer documentation from specially-formatted comments in our code files.\nWe examined the both the Java and Python approach to documentation comments, helping other developers understand our code. For this reason, as well as the ability to produce HTML-based documentation using a documentation generator tool, it is best practice to use documentation comments in all our programs.",
     "modified": "2022-07-08T13:34:06-05:00",

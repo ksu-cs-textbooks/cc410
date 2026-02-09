@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SPring &#39;26 Week 4 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week four announcements video for CC410 in spring 2026. So, right now, you should be wrapping up the second restaurant milestone, which is all on adding documentation, unit testing, and UML diagrams to your project. You’ll do a quick example for adding documentation and unit testing to an existing project, and then you’ll be working on your restaurant project to add unit tests to test all of the code that you wrote for the first milestone.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
