@@ -2208,6 +2208,14 @@ var relearn_lti_index = [
     "uri": "/cc410/i-oop/04-testing/10-running-tests/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC410 in spring 2026. So this week you should be wrapping up an example on inheritance and polymorphism. It’s one of the most important concepts in object-oriented programming and hopefully it’s something you’ve seen a little bit before. This week there’s also a start, stop, continue survey on the module. It’s just a chance for you to give me any feedback about things you want me to start doing in this class, anything you want me to stop doing in this class, or things that you like that I’m doing that you want me to continue to do. And then you have some time this week to be thinking about your final project because we’ll start meeting again for that here in a couple weeks to start talking about project ideas as we get toward the midpoint of the semester.",
+    "modified": "2026-02-16T08:55:10-06:00",
+    "tags": [],
+    "title": "Spring '26 Week 5",
+    "uri": "/cc410/x-weekly-updates/week05/index.html"
+  },
+  {
     "breadcrumb": "OOP \u003e Inheritance \u0026 Polymorphism",
     "description": "In this chapter, we explored the concept of types and discussed how variables are specific types that can be explicitly or implicitly declared. We saw how in a statically-typed language (like Java), variables are not allowed to change types, though they can do so in a dynamically-typed language like Python. We also discussed how casting can convert a value stored in a variable into a different type. Implicit casts can happen automatically, but explicit casts must be indicated by the programmer using a cast operator, as the cast could result in loss of precision or the throwing of an exception.",
     "modified": "2021-10-26T16:28:41-05:00",

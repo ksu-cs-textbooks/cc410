@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Feb 2026 10:12:19 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 08:55:10 -0600</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -35,6 +35,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week four announcements video for CC410 in spring 2026. So, right now, you should be wrapping up the second restaurant milestone, which is all on adding documentation, unit testing, and UML diagrams to your project. You’ll do a quick example for adding documentation and unit testing to an existing project, and then you’ll be working on your restaurant project to add unit tests to test all of the code that you wrote for the first milestone.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 5</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC410 in spring 2026. So this week you should be wrapping up an example on inheritance and polymorphism. It’s one of the most important concepts in object-oriented programming and hopefully it’s something you’ve seen a little bit before. This week there’s also a start, stop, continue survey on the module. It’s just a chance for you to give me any feedback about things you want me to start doing in this class, anything you want me to stop doing in this class, or things that you like that I’m doing that you want me to continue to do. And then you have some time this week to be thinking about your final project because we’ll start meeting again for that here in a couple weeks to start talking about project ideas as we get toward the midpoint of the semester.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

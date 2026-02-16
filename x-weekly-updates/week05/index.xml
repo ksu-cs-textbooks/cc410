@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;26 Week 5 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.html</link>
+    <description>Resources Slides Edited Transcript Hello and welcome to the week five announcements video for CC410 in spring 2026. So this week you should be wrapping up an example on inheritance and polymorphism. It’s one of the most important concepts in object-oriented programming and hopefully it’s something you’ve seen a little bit before. This week there’s also a start, stop, continue survey on the module. It’s just a chance for you to give me any feedback about things you want me to start doing in this class, anything you want me to stop doing in this class, or things that you like that I’m doing that you want me to continue to do. And then you have some time this week to be thinking about your final project because we’ll start meeting again for that here in a couple weeks to start talking about project ideas as we get toward the midpoint of the semester.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week05/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
