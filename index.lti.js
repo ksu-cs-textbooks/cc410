@@ -2368,6 +2368,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/06-gui-basics/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week six announcements video for CC 410 in spring 2026. So, this week you should be wrapping up a larger module that deals with debugging, logging, and lambda expressions, as well as adding some object-oriented polymorphism and inheritance to your project. So, you will have done two examples over the last couple of weeks, and then it culminates in a larger restaurant milestone that is due tonight. So, hopefully, that’s getting done. If you have any questions on that, feel free to post online and let me know, and I’d be happy to help you out. Also, don’t forget, you should be scheduling your second final project check-in with me sometime during the next week or so. When we meet this time, we’re going to talk specifically about project ideas that you might have and start talking about how you might implement that based on what we’ve already done so far in the restaurant milestones.",
+    "modified": "2026-02-23T11:41:21-06:00",
+    "tags": [],
+    "title": "Spring '26 Week 6",
+    "uri": "/cc410/x-weekly-updates/week06/index.html"
+  },
+  {
     "breadcrumb": "Introduction",
     "description": "CC 410 - Advanced Programming - Spring 2026 Previous Versions\nInstructor Contact Information Instructor: Mr. Russell Feldhausen (russfeld AT ksu DOT edu) Office: DUE 2213, but I mostly work remotely from Kansas City, MO Phone: (785) 292-3121 (Call/Text) Website: https://russfeld.me Virtual Office Hours: By appointment via Zoom. Book time to meet with me Preferred Methods of Communication: Email: Students should email cc410-help (cc410-help@KSUemailProd.onmicrosoft.com). We will try to respond within one business day. Ed Discussion: For short questions and discussions of course content and assignments, Ed Discussion is preferred since questions can be asked once and answered for all students. Students are encouraged to post questions there and use that space for discussion, and the instructor will strive to answer questions there as well. Phone/Text: Emergencies only! We will do our best to respond as quickly as we can. Prerequisites CC 310 - Data Structures \u0026 Algorithms I (taken on or after Fall 2024) CC 315 - Data Structures \u0026 Algorithms II (taken prior to Fall 2024) Course Overview Advanced programming techniques and projects. Concepts from object oriented programming, inheritance and polymorphism. GUI programming and event-driven programming. Software development methodologies, processes, and design patterns. Practical experience with professional communication and collaboration.",
     "modified": "2026-01-08T14:50:13-06:00",
