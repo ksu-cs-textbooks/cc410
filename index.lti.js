@@ -2472,6 +2472,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/07a-parallel-programming/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week seven announcements video for CC 410 in spring 2026. So, this week you should be working on the second half of a milestone. I really have split this milestone into two, but it used to be one giant milestone. Last week, you were implementing all of the design patterns that we’re going to use, so those are really going to be important for this class. And then this week, you’re going to learn how to use test doubles like mocks to actually unit test a lot of that code without testing all of your other classes at the same time.",
+    "modified": "2026-03-02T08:58:01-06:00",
+    "tags": [],
+    "title": "Spring '26 Week 7",
+    "uri": "/cc410/x-weekly-updates/week07/index.html"
+  },
+  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll go through the steps of adding unit tests to our prior example with design patterns. These unit test will use test doubles to mimic the functionality of various other parts of the program.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.",
     "modified": "2023-01-19T16:41:33-06:00",
