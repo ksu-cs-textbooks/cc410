@@ -2552,6 +2552,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/08-orders-combos/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 8 announcements video for CC 410 in spring 2026. So, this week you should have been wrapping up the test doubles project. You should have met with me for your second final project milestone. And then also, you should have wrapped up the first concept quiz. For those of you that have completed the concept quiz, I just got done grading those and have posted those grades. If you haven’t gotten that done yet, please make sure you get that done as soon as you can so that I can get that graded. Generally, I’ve been really impressed so far, so I hope to see everybody keep up the good work with all that content.",
+    "modified": "2026-03-09T15:16:37-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 8",
+    "uri": "/cc410/x-weekly-updates/week08/index.html"
+  },
+  {
     "breadcrumb": "Web",
     "description": "HTML Form Data and Sensible URL Schemes!",
     "modified": "2023-08-10T16:05:23-05:00",
