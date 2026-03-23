@@ -2608,6 +2608,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week nine announcements video for CC Port 10 in spring 2026. So this week we’re going to do a couple of different things. We’re going to do a quick example on parallel programming. We’re also going to do an example on event-driven programming. These are kind of related topics of how we can actually run different code in different threads. Both of these examples are pretty small and just give you an idea of some of these topics that we haven’t touched on yet. And then you’ll be working on the seventh restaurant milestone where you’ll add some interactivity to your project.",
+    "modified": "2026-03-23T08:26:47-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 9",
+    "uri": "/cc410/x-weekly-updates/week09/index.html"
+  },
+  {
     "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
     "description": "One of the major selling points of Python is that it is dynamically typed. This means that the data type of variables is determined at runtime, and a single variable can store multiple data types throughout the execution of the program.\nWhile this can make development seem quick and easy, it can also cause programmers to make mistakes related to the handling of various data types that wouldn’t be present in statically typed languages such as Java, C++, or C#. Those languages require compilation before they can be executed, and one step that the compiler performs is type checking. Type checking is a process that makes sure each value that is ever assigned to a variable has the correct type - otherwise the program won’t compile properly.",
     "modified": "2025-09-10T13:08:55-05:00",
