@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2026 08:26:47 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 08:32:42 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -70,6 +70,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week09/index.html</guid>
       <description>Resources Slides Edited Transcript Hello and welcome to the week nine announcements video for CC Port 10 in spring 2026. So this week we’re going to do a couple of different things. We’re going to do a quick example on parallel programming. We’re also going to do an example on event-driven programming. These are kind of related topics of how we can actually run different code in different threads. Both of these examples are pretty small and just give you an idea of some of these topics that we haven’t touched on yet. And then you’ll be working on the seventh restaurant milestone where you’ll add some interactivity to your project.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 10</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC 410 in spring 2026. I’m all dressed up to head to the state FBLA conference. I’m helping judge this week, so I’ll be out of the office for a couple of days, but I figured I’d get my recording done before I leave. So this week, you’ve got an example on external libraries, and then you’re going to do a restaurant milestone where you’re going to integrate an external library into your restaurant. And then, of course, we have another one of those start, stop, continue surveys. Those are completely optional, but it’s just a chance for you to tell me anything that you want me to make sure I start doing, stop doing, or continue doing. I do read all of those and I try and do my best to put anything together into practice that comes out of that. So feel free to send me your honest comments and feedback on the class in that survey.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

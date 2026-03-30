@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;26 Week 10 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC 410 in spring 2026. I’m all dressed up to head to the state FBLA conference. I’m helping judge this week, so I’ll be out of the office for a couple of days, but I figured I’d get my recording done before I leave. So this week, you’ve got an example on external libraries, and then you’re going to do a restaurant milestone where you’re going to integrate an external library into your restaurant. And then, of course, we have another one of those start, stop, continue surveys. Those are completely optional, but it’s just a chance for you to tell me anything that you want me to make sure I start doing, stop doing, or continue doing. I do read all of those and I try and do my best to put anything together into practice that comes out of that. So feel free to send me your honest comments and feedback on the class in that survey.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

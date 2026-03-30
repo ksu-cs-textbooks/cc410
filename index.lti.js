@@ -2664,6 +2664,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/10-releases/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 10 announcements video for CC 410 in spring 2026. I’m all dressed up to head to the state FBLA conference. I’m helping judge this week, so I’ll be out of the office for a couple of days, but I figured I’d get my recording done before I leave. So this week, you’ve got an example on external libraries, and then you’re going to do a restaurant milestone where you’re going to integrate an external library into your restaurant. And then, of course, we have another one of those start, stop, continue surveys. Those are completely optional, but it’s just a chance for you to tell me anything that you want me to make sure I start doing, stop doing, or continue doing. I do read all of those and I try and do my best to put anything together into practice that comes out of that. So feel free to send me your honest comments and feedback on the class in that survey.",
+    "modified": "2026-03-30T08:32:42-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 10",
+    "uri": "/cc410/x-weekly-updates/week10/index.html"
+  },
+  {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 10 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe tenth milestone involves moving into the web by creating a data-driven website to display the menu and some other information about the restaurant.",
     "modified": "2026-01-08T14:50:13-06:00",
