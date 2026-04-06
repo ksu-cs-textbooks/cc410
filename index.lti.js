@@ -2696,6 +2696,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/11-form-data/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 11 announcements for CC 410 in spring 2026. So, this week we’re going to start working on a couple more examples. The first one is all around building releases and working with external libraries. So, you’re going to be working on a milestone called the checkout milestone, which is a really important one. This milestone, you get a couple weeks to work on. So, make sure you kind of focus on that and start building that example. It’s really important. But the big thing about this milestone is adding the checkout process. You’re going to bring in an external library for the cash register. You’re going to be able to check out using either cash or credit card. You’re going to learn how to make change out of the cash register as well. And you’re going to print a receipt and save that in a text file. The external register library really simulates some of the functionality that a cash register object might have, but it’s also meant to be a little bit obfuscated and a little bit confusing. However, it is open source. So remember, wherever you download it, you can also find the source code for it, and you can read my source code and see how I approached building that library.",
+    "modified": "2026-04-06T09:56:31-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 11",
+    "uri": "/cc410/x-weekly-updates/week11/index.html"
+  },
+  {
     "breadcrumb": "Example Projects",
     "description": "In this example project, we’ll explore taking an existing project and integrating a lightweight web framework into it. In that way, we can use our existing code base within a web application and use it to generate dynamic web pages.\nThe next page will discuss the overall requirements that this example project should include. After that, there is a page for each programming language with some basic steps and a video to walk you through the whole process.",
     "modified": "2023-04-14T15:03:49-05:00",

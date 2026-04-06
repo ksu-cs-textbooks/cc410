@@ -30,27 +30,27 @@
     <link href="/cc410/i-oop/07-debugging-logging/index.xml" rel="alternate" type="application/rss+xml" title="Debugging &amp; Logging :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/tele.html" rel="alternate" type="text/html" title="Debugging &amp; Logging :: CC 410 Textbook">
     <link href="/cc410/i-oop/07-debugging-logging/embed.html" rel="alternate" type="text/html" title="Debugging &amp; Logging :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1774877637" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1774877637" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1774877637" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1774877637" defer></script>
-    <script src="/cc410/js/search.min.js?1774877637" defer></script>
+    <link href="/cc410/images/favicon.ico?1775487470" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1775487470" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1775487470" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1775487470" defer></script>
+    <script src="/cc410/js/search.min.js?1775487470" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1774877637";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1775487470";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1774877637" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1774877637" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1774877637" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1774877637" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1775487470" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1775487470" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1775487470" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1775487470" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1774877637" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1774877637" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1774877637" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1774877637" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1774877637" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1775487470" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1775487470" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1775487470" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1775487470" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1775487470" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -109,7 +109,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1774877637" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1775487470" rel="stylesheet">
   </head>
   <body class="mobile-support print" data-url="/cc410/i-oop/07-debugging-logging/index.html">
     
@@ -224,20 +224,20 @@
 <h2 id="stack-trace">Stack Trace</h2>
 <p>One of the most useful ways to inspect the behavior of our application is to look at the <strong>call stack</strong> or <strong>stack trace</strong> of the program when it reaches an exception. The call stack will list all of the functions currently being executed, even including the individual line numbers of the currently executed piece of code.</p>
 <p>For example, consider this code:</p>
-<div class="tab-panel" data-tab-group="c0a602bdb4c654d38f7f987523102f68">
+<div class="tab-panel" data-tab-group="5af978ee5aa0350f89d7bde587ba4fe3">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('c0a602bdb4c654d38f7f987523102f68','java')"
+      onclick="switchTab('5af978ee5aa0350f89d7bde587ba4fe3','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('c0a602bdb4c654d38f7f987523102f68','python')"
+      onclick="switchTab('5af978ee5aa0350f89d7bde587ba4fe3','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -288,20 +288,20 @@
   </div>
 </div>
 <p>This code includes a chain of three functions, and the innermost function will throw an exception. When we run this code, we&rsquo;ll get the following error messages:</p>
-<div class="tab-panel" data-tab-group="edc78282ab472ed93ef134a4c17225b2">
+<div class="tab-panel" data-tab-group="c7a197067d49b38bb0d0c56035045ea6">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('edc78282ab472ed93ef134a4c17225b2','java')"
+      onclick="switchTab('c7a197067d49b38bb0d0c56035045ea6','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('edc78282ab472ed93ef134a4c17225b2','python')"
+      onclick="switchTab('c7a197067d49b38bb0d0c56035045ea6','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -337,24 +337,24 @@ Exception: Test Exception</code></pre></div>
   </div>
 </div>
 <p>As we can see, both Java and Python will automatically print a <strong>stack trace</strong> of the exact functions and lines of code that we executed when we were reaching the error. Recall that this relates to the call stack in memory that is created while this program is executed:</p>
-<p><a href="#R-image-f87e63a04c4b16bb0014b668ff26b210" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f87e63a04c4b16bb0014b668ff26b210"><img alt="Call Stack" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
+<p><a href="#R-image-1644af85426790dfb02e3745319df5c8" class="lightbox-link"><img alt="Call Stack" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/7/stack.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-1644af85426790dfb02e3745319df5c8"><img alt="Call Stack" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/7/stack.png"></a></p>
 <p>As we can see, Java will print the innermost call at the top of the call stack, whereas Python will invert the order and put the innermost call at the end. So, you&rsquo;ll have to read carefully to make sure you are interpreting the call stack correctly.</p>
 <p>What if we want to get a call stack without crashing our program? Both Java and Python support a method for this:</p>
-<div class="tab-panel" data-tab-group="afbddcef3fe3a4cd733a4072ac069084">
+<div class="tab-panel" data-tab-group="a3310a161daf6ec98a6d827d7d09af35">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('afbddcef3fe3a4cd733a4072ac069084','java')"
+      onclick="switchTab('a3310a161daf6ec98a6d827d7d09af35','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('afbddcef3fe3a4cd733a4072ac069084','python')"
+      onclick="switchTab('a3310a161daf6ec98a6d827d7d09af35','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -415,8 +415,8 @@ Exception: Test Exception</code></pre></div>
 <p>Of course, as you might guess, using a debugger directly on the terminal is a very complex, time-consuming, and painful process. Thankfully, most modern integrated development environments, or IDEs, include a graphical interface for various debuggers, and Codio is no exception. Codio includes a built-in debugger that is capable of debugging both Java and Python code.</p>
 <p>The <a href="https://docs.codio.com/develop/develop/ide/debugger/debugger.html" rel="external" target="_blank">Codio Documentation</a> is a great place to learn about how to use the Codio debugger and all of the features it provides. In the example project for this module, we&rsquo;ll also learn how to quickly integrate a debugger into our larger project in Codio.</p>
 <p>Once the Codio debugger is launched, you&rsquo;ll be given a view similar to this one:</p>
-<p><a href="#R-image-54e28b9ae0d00307883900e25bb1ae57" class="lightbox-link"><img alt="Debugging Started" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/7/debug-started.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-54e28b9ae0d00307883900e25bb1ae57"><img alt="Debugging Started" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/7/debug-started.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-ceef83edbe9450a66e4c98b0a589f3dc" class="lightbox-link"><img alt="Debugging Started" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/7/debug-started.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ceef83edbe9450a66e4c98b0a589f3dc"><img alt="Debugging Started" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/7/debug-started.png"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>On the right, we can see the debugging window that lists the current call stack, any local variables that are visible, as well as watches and breakpoints. A <strong>breakpoint</strong> is a line of code that we&rsquo;ve marked in the debugger that causes execution to stop, or <em>break</em>, when it reaches that line. Basically, we are telling the debugger that we&rsquo;d like to execute the program up to that point. Once the program is paused, we can examine the state and call stack, and decide how we&rsquo;d like to proceed. There are 5 buttons at the top of the debugger panel, and they are described in the Codio documentation<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> as follows:</p>
 <ul>
 <li><strong>Resume</strong> - this tells the debugger to carry on execution without stopping until another breakpoint is encountered.</li>
@@ -460,20 +460,20 @@ Exception: Test Exception</code></pre></div>
 <h1 id="logging">Logging</h1>
 
 <p>The last major concept we&rsquo;ll introduce around debugging is the use of a formal <strong>logger</strong> in our code. A logger allows us to collect debugging information throughout our program in a way that is lightweight, highly configurable, and surprisingly easy to use. Both Java and Python include some standard ways to create a simple log file.</p>
-<div class="tab-panel" data-tab-group="91d6d94db74b0a0546806635d40bad1b">
+<div class="tab-panel" data-tab-group="5a47a5b983ca837585f54a1604b9c5fc">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('91d6d94db74b0a0546806635d40bad1b','java')"
+      onclick="switchTab('5a47a5b983ca837585f54a1604b9c5fc','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('91d6d94db74b0a0546806635d40bad1b','python')"
+      onclick="switchTab('5a47a5b983ca837585f54a1604b9c5fc','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -783,13 +783,13 @@ src="https://cdn.jsdelivr.net/npm/quizdown@latest/public/build/extensions/quizdo
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1774877637" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1774877637" defer></script>
-    <script src="/cc410/js/theme.min.js?1774877637" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1775487470" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1775487470" defer></script>
+    <script src="/cc410/js/theme.min.js?1775487470" defer></script>
       
       
       
     </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1774877637" defer></script>
+  <script src="/cc410/js/tele-scroll.min.js?1775487470" defer></script>
   </body>
 </html>
