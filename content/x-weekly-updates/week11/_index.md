@@ -1,0 +1,21 @@
+---
+title: "Spring '26 Week 11"
+pre: "11. "
+weight: 110
+---
+
+{{< youtube 9Ca4VsJauow >}}
+
+#### Resources
+
+* <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
+
+#### Edited Transcript
+
+Hello, and welcome to the week 11 announcements for CC 410 in spring 2026. So, this week we're going to start working on a couple more examples. The first one is all around building releases and working with external libraries. So, you're going to be working on a milestone called the checkout milestone, which is a really important one. This milestone, you get a couple weeks to work on. So, make sure you kind of focus on that and start building that example. It's really important. But the big thing about this milestone is adding the checkout process. You're going to bring in an external library for the cash register. You're going to be able to check out using either cash or credit card. You're going to learn how to make change out of the cash register as well. And you're going to print a receipt and save that in a text file. The external register library really simulates some of the functionality that a cash register object might have, but it's also meant to be a little bit obfuscated and a little bit confusing. However, it is open source. So remember, wherever you download it, you can also find the source code for it, and you can read my source code and see how I approached building that library. 
+
+So, some quick hints for Milestone 9. First off, making change is hard. The default algorithm for making change still works, but the trick is with an actual real cash register, you don't always have all of the coins available. And so the cash register will tell you how many coins it has available before you open it. And so if you need to give back three quarters and it only has two, then you have to trade something around. However, it does have a neat little functionality where you can take a dollar and turn it into four quarters as long as you don't change the total amount of money in the cash register. We just assume that you can infinitely morph things around. So there's some ways that you can adapt to build around that. So just be aware. For the receipts, each line has a limited length. So make sure you're reading the documentation for the receipts and you're doing some math on your end to make sure you don't print lines that are too long in the receipts. For both of these, I really recommend using the adapter pattern. Probably you'll either take my cash register and wrap it. You can extend the classes, or you can just wrap it and adapt it that way. That way you can test your adapter. You don't have to test my code. My code already has unit tests. It is fully tested, but you should test your adapter to make sure that it's doing the right math and printing out the right things. And then you can just assume that when you call the method for the register itself, it works just fine. You can either mock those or you can just have two separate methods and test the one that does your math. And then don't worry about testing the one that calls the library function. So hopefully that gives you some hints for completing this milestone. 
+
+Looking ahead, after this milestone, we're going to switch over to doing some stuff with a web interface. These milestones are going to be a lot smaller and more straightforward, and that's meant to give you more time to work on your final project for this last month or so of the class. So hopefully things are going well. If everything goes well with this, you'll be able to swipe a credit card and you'll get a match and then it will actually let you purchase things from your restaurant. This is really where we wrap up the big functionality part of building a user interface, building a full restaurant point of sale system.
+
+So hopefully you enjoy this project. As always, if you have any questions, let me know. Otherwise, good luck. And I will see you again next week. It will probably be Tuesday or Wednesday when I can get an announcement video out next week because I'm at an event in Salina next Monday that's an all-day event. So unless I get a chance over the weekend to record something, my announcement next week might be a couple of days late. But just sit tight and I will get back to you as soon as I can. 
