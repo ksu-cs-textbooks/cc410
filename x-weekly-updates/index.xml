@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Apr 2026 09:56:31 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 09:47:25 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -84,6 +84,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week11/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week 11 announcements for CC 410 in spring 2026. So, this week we’re going to start working on a couple more examples. The first one is all around building releases and working with external libraries. So, you’re going to be working on a milestone called the checkout milestone, which is a really important one. This milestone, you get a couple weeks to work on. So, make sure you kind of focus on that and start building that example. It’s really important. But the big thing about this milestone is adding the checkout process. You’re going to bring in an external library for the cash register. You’re going to be able to check out using either cash or credit card. You’re going to learn how to make change out of the cash register as well. And you’re going to print a receipt and save that in a text file. The external register library really simulates some of the functionality that a cash register object might have, but it’s also meant to be a little bit obfuscated and a little bit confusing. However, it is open source. So remember, wherever you download it, you can also find the source code for it, and you can read my source code and see how I approached building that library.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 12</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 12 announcements video for CC 410 in spring 2026. So this week we’re shifting gears a little bit to move from graphical user interfaces to websites. And so this week we’re going to introduce the basics of adding a website framework to your application. We’re going to build a basic data-driven website with some templates. And starting this week, we’re going to have smaller restaurant milestones to give you more time to start working on your final project. Don’t forget we’re on week 12 of 16, so you got about four weeks to work on your final project. So now is the time to really sit down and start working on that code. If you don’t know where to start, start with the Hello Real World project to get your framework built up and then basically go through the same process we did with the restaurants. Get your data classes figured out, get your inheritance figured out, work on unit tests, and then move ahead from there.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

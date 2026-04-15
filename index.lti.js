@@ -2736,6 +2736,14 @@ var relearn_lti_index = [
     "uri": "/cc410/y-milestones/12-rest/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week 12 announcements video for CC 410 in spring 2026. So this week we’re shifting gears a little bit to move from graphical user interfaces to websites. And so this week we’re going to introduce the basics of adding a website framework to your application. We’re going to build a basic data-driven website with some templates. And starting this week, we’re going to have smaller restaurant milestones to give you more time to start working on your final project. Don’t forget we’re on week 12 of 16, so you got about four weeks to work on your final project. So now is the time to really sit down and start working on that code. If you don’t know where to start, start with the Hello Real World project to get your framework built up and then basically go through the same process we did with the restaurants. Get your data classes figured out, get your inheritance figured out, work on unit tests, and then move ahead from there.",
+    "modified": "2026-04-15T09:47:25-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 12",
+    "uri": "/cc410/x-weekly-updates/week12/index.html"
+  },
+  {
     "breadcrumb": "GUI",
     "description": "Responding to events within our GUIs!",
     "modified": "2023-08-10T16:05:23-05:00",
