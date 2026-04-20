@@ -2760,6 +2760,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/13-rest/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello, and welcome to the week 13 announcements video for CC 410 in spring 2026. So, this week you’re going to be continuing to add more features to the website version of your project. This week, we’re going to deal with RESTful APIs and forms. You’ll do a quick example of accepting some data from a form in your website, and then you’ll add that to your restaurant milestone as well. Don’t forget that this point is where you should really start working on the final project. These restaurant milestones are a lot smaller to give you more time to work on the final project. So make sure you do that. In next week’s announcement, I’ll spend a lot of time talking about the actual deliverables for the final project, but you can find that webpage and everything on the textbook right now. Just check the module for the final project, but I’ll spend some time in the announcements next week talking about that.",
+    "modified": "2026-04-20T10:18:35-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 13",
+    "uri": "/cc410/x-weekly-updates/week13/index.html"
+  },
+  {
     "breadcrumb": "Project Milestones",
     "description": "This page lists the milestone requirements for Milestone 13 of the CC 410 Restaurant Project. Read the requirements carefully and discuss any questions with the instructors or TAs.\nPurpose The CC 410 Restaurant Project project for this semester is centered around building a point of sale (POS) system for a fictional restaurant named Game Grub, offering food of all kinds to celebrate our love of games of all kinds.\nThe thirteenth milestone involves adding form validation and serialization to the existing project, specifically targeted at custom menu items.",
     "modified": "2026-01-08T14:50:13-06:00",

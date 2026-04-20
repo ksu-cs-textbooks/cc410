@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring &#39;26 Week 13 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week13/index.html</link>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week 13 announcements video for CC 410 in spring 2026. So, this week you’re going to be continuing to add more features to the website version of your project. This week, we’re going to deal with RESTful APIs and forms. You’ll do a quick example of accepting some data from a form in your website, and then you’ll add that to your restaurant milestone as well. Don’t forget that this point is where you should really start working on the final project. These restaurant milestones are a lot smaller to give you more time to work on the final project. So make sure you do that. In next week’s announcement, I’ll spend a lot of time talking about the actual deliverables for the final project, but you can find that webpage and everything on the textbook right now. Just check the module for the final project, but I’ll spend some time in the announcements next week talking about that.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week13/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
