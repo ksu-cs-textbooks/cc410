@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 10:18:35 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 09:21:02 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -98,6 +98,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week13/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week 13 announcements video for CC 410 in spring 2026. So, this week you’re going to be continuing to add more features to the website version of your project. This week, we’re going to deal with RESTful APIs and forms. You’ll do a quick example of accepting some data from a form in your website, and then you’ll add that to your restaurant milestone as well. Don’t forget that this point is where you should really start working on the final project. These restaurant milestones are a lot smaller to give you more time to work on the final project. So make sure you do that. In next week’s announcement, I’ll spend a lot of time talking about the actual deliverables for the final project, but you can find that webpage and everything on the textbook right now. Just check the module for the final project, but I’ll spend some time in the announcements next week talking about that.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 14</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week14/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week14/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 14 announcements video for CC410 in spring 2026. So this week we should be wrapping some stuff up. You’ve got the final project to work on. You’ve also got the second concept quiz to work on this week. And then you’ll be working on some examples of doing a RESTful API within the restaurant project on your website. And then of course, like I said, just keep working on the final project as we get toward the end of the semester. So for Milestone 12, you’ll be building a RESTful web app. This is a real nice technique for organizing the routes for your web app so you can create, replace, update, and delete all of the different entries in the web app. So we’re going to reinforce some design patterns with this one. And this will be the last time we ask you to update your UML diagram for the web app. If you just want to include the UML diagram for the web app and then the classes that are relevant in the data structure, that’s fine. You don’t have to include the GUI part. But take a little bit of time to work on this milestone to get some more features added to the web app for your restaurant project.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

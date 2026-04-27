@@ -2792,6 +2792,14 @@ var relearn_lti_index = [
     "uri": "/cc410/z-examples/14-form-validation/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week 14 announcements video for CC410 in spring 2026. So this week we should be wrapping some stuff up. You’ve got the final project to work on. You’ve also got the second concept quiz to work on this week. And then you’ll be working on some examples of doing a RESTful API within the restaurant project on your website. And then of course, like I said, just keep working on the final project as we get toward the end of the semester. So for Milestone 12, you’ll be building a RESTful web app. This is a real nice technique for organizing the routes for your web app so you can create, replace, update, and delete all of the different entries in the web app. So we’re going to reinforce some design patterns with this one. And this will be the last time we ask you to update your UML diagram for the web app. If you just want to include the UML diagram for the web app and then the classes that are relevant in the data structure, that’s fine. You don’t have to include the GUI part. But take a little bit of time to work on this milestone to get some more features added to the web app for your restaurant project.",
+    "modified": "2026-04-27T09:21:02-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 14",
+    "uri": "/cc410/x-weekly-updates/week14/index.html"
+  },
+  {
     "breadcrumb": "GUI",
     "description": "Putting Our Applications Out There in the World!",
     "modified": "2023-08-10T16:05:23-05:00",
