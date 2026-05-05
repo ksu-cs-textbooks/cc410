@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2026 09:21:02 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 17:28:26 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spring &#39;26 Week 1</title>
@@ -105,6 +105,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week14/index.html</guid>
       <description>Resources Slides Edited Transcript Hello and welcome to the week 14 announcements video for CC410 in spring 2026. So this week we should be wrapping some stuff up. You’ve got the final project to work on. You’ve also got the second concept quiz to work on this week. And then you’ll be working on some examples of doing a RESTful API within the restaurant project on your website. And then of course, like I said, just keep working on the final project as we get toward the end of the semester. So for Milestone 12, you’ll be building a RESTful web app. This is a real nice technique for organizing the routes for your web app so you can create, replace, update, and delete all of the different entries in the web app. So we’re going to reinforce some design patterns with this one. And this will be the last time we ask you to update your UML diagram for the web app. If you just want to include the UML diagram for the web app and then the classes that are relevant in the data structure, that’s fine. You don’t have to include the GUI part. But take a little bit of time to work on this milestone to get some more features added to the web app for your restaurant project.</description>
+    </item>
+    <item>
+      <title>Spring &#39;26 Week 15</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week15/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week15/index.html</guid>
+      <description>Resources Slides Edited Transcript Hello and welcome to the week 15 announcements video for CC 410 in spring 2026. So this week you should be wrapping up the last couple of modules in this course. We have a module on validation and serialization in the restaurant project. And then really the big thing you should be working on is your final project, which is going to be due at the end of next week. So really for the rest of the semester, after you get those things turned in, there is one textbook extras quiz that’s at the end of the semester. And then everything else is due by the end of finals week, which is Friday on May the 15th.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

@@ -2808,6 +2808,14 @@ var relearn_lti_index = [
     "uri": "/cc410/ii-gui/15-releases/index.html"
   },
   {
+    "breadcrumb": "Weekly Updates",
+    "description": "Resources Slides Edited Transcript Hello and welcome to the week 15 announcements video for CC 410 in spring 2026. So this week you should be wrapping up the last couple of modules in this course. We have a module on validation and serialization in the restaurant project. And then really the big thing you should be working on is your final project, which is going to be due at the end of next week. So really for the rest of the semester, after you get those things turned in, there is one textbook extras quiz that’s at the end of the semester. And then everything else is due by the end of finals week, which is Friday on May the 15th.",
+    "modified": "2026-05-05T17:28:26-05:00",
+    "tags": [],
+    "title": "Spring '26 Week 15",
+    "uri": "/cc410/x-weekly-updates/week15/index.html"
+  },
+  {
     "breadcrumb": "",
     "description": "Extra Content!",
     "modified": "2023-08-10T16:05:23-05:00",
