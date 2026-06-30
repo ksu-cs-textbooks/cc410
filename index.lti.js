@@ -1,5 +1,5 @@
 
-var relearn_lti_index = [
+[
   {
     "breadcrumb": "",
     "children": [
