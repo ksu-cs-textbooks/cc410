@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.1">
-    <meta name="generator" content="Relearn 8.0.0">
+    <meta name="generator" content="Relearn 8.0.3">
     <meta name="description" content="Next, let’s look at a quick example of a race condition in Python, just so we can see how it could occur in our code.
 Poorly Designed Multithreading First, let’s consider this example:
 import threading import time import sys class MyData: def __init__(self): self.x = 0 class MyThread: data = MyData() def __init__(self, name): &#34;&#34;&#34;Constructor. Args: name: the name of the thread &#34;&#34;&#34; self.__name = name def run(self): &#34;&#34;&#34;Thread method.&#34;&#34;&#34; for i in range(0, 3): y = MyThread.data.x # tell the OS it is ok to switch to another thread here time.sleep(0) MyThread.data.x = y &#43; 1 print(&#34;{} : data.x = {}&#34;.format(self.__name, MyThread.data.x)) @staticmethod def main(args): # create threads t1_object = MyThread(&#34;Thread 1&#34;) thread1 = threading.Thread(target=t1_object.run) t2_object = MyThread(&#34;Thread 2&#34;) thread2 = threading.Thread(target=t2_object.run) t3_object = MyThread(&#34;Thread 3&#34;) thread3 = threading.Thread(target=t3_object.run) # start threads print(&#34;main: starting threads&#34;) thread1.start() thread2.start() thread3.start() # wait until all threads have terminated print(&#34;main: joining threads&#34;) thread1.join() thread2.join() thread3.join() print(&#34;main: all threads terminated&#34;) print(&#34;main: data.x = {}&#34;.format(MyThread.data.x)) # main guard if __name__ == &#34;__main__&#34;: MyThread.main(sys.argv) Explanation In this example, we are creating a static instance of the MyData class, attached directly to the MyThread class and not a particular object, which can act as a shared memory object for this example. Then, in each of the threads, we are performing this three-step process:">
@@ -38,27 +38,27 @@ import threading import time import sys class MyData: def __init__(self): self.x
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.print.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/tele.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
     <link href="/cc410/ii-gui/12-parallelism/10-python-synchronization/embed.html" rel="alternate" type="text/html" title="Python Synchronization :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1778020182" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1778020182" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1778020182" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1778020182" defer></script>
-    <script src="/cc410/js/search.min.js?1778020182" defer></script>
+    <link href="/cc410/images/favicon.ico?1782835508" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1782835508" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1782835508" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1782835508" defer></script>
+    <script src="/cc410/js/search.min.js?1782835508" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1778020182";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1782835508";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1778020182" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1778020182" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1778020182" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1778020182" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1782835508" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1782835508" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1782835508" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1782835508" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1778020182" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1778020182" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1778020182" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1778020182" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1778020182" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782835508" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782835508" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1782835508" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1782835508" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1782835508" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -117,7 +117,7 @@ import threading import time import sys class MyData: def __init__(self): self.x
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1778020182" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1782835508" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/ii-gui/12-parallelism/10-python-synchronization/index.html">
     <div id="R-body" class="default-animation">
@@ -252,8 +252,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 <p>In effect, this is essentially the Python code needed to reproduce the example we saw earlier in this class.</p>
 <h4 id="execution">Execution</h4>
 <p>So, what happens when we run this code? As it turns out, sometimes we&rsquo;ll see it get a different result than the one we expect:</p>
-<p><a href="#R-image-6437427c593477e968bc1f22e3c3730a" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6437427c593477e968bc1f22e3c3730a"><img alt="Race Condition in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
+<p><a href="#R-image-bd8917dde1a8b94b9346667fae883223" class="lightbox-link"><img alt="Race Condition in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-bd8917dde1a8b94b9346667fae883223"><img alt="Race Condition in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_race.png"></a></p>
 <p>Uh oh! This is exactly what a race condition looks like in practice. In the screenshot on the right, we see that two threads set the same value into <code>data.x</code>, which means that they were running at the same time.</p>
 <h2 id="python-lock">Python Lock</h2>
 <p>To fix this, Python includes a <strong>lock</strong> that we can use as part of a <code>with</code> statement, which is simply a wrapper around a block of code that we&rsquo;d like to be <strong>atomic</strong>. An atomic block is one that shouldn&rsquo;t be broken apart and interrupted by other threads accessing the same object. In effect, using a <code>with</code> statement along with a lock will handle acquiring and releasing the lock for us.</p>
@@ -274,8 +274,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 </span></span><span style="display:flex;"><span>            time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">0</span>)</span></span></code></pre></div>
 <p>Here, the <code>with</code> statement acquires the <strong>lock</strong> that is associated with the <code>data</code> object in the <code>MyThread</code> class. Only one thread can hold that lock at a time, and by associating it with an object, we can easily keep track of which thread is able to access that object.</p>
 <p>Now, when we execute that program, we&rsquo;ll always get the correct answer!</p>
-<p><a href="#R-image-48b7af9b5ac99de10574d9054994a76d" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-48b7af9b5ac99de10574d9054994a76d"><img alt="Synchronized in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
+<p><a href="#R-image-ca2ce02bcf4a1c2e5511a35ad871e8a6" class="lightbox-link"><img alt="Synchronized in Python" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/10/python_synch.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-ca2ce02bcf4a1c2e5511a35ad871e8a6"><img alt="Synchronized in Python" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/10/python_synch.png"></a></p>
 
 <details open class=" box cstyle notices info">
   <summary class="box-label" tabindex="-1">
@@ -293,7 +293,7 @@ import threading import time import sys class MyData: def __init__(self): self.x
         </div>
       </main>
 <div class="git-footer">
-  <p class="theme-version-footer">8.0.0</p>
+  <p class="theme-version-footer">8.0.3</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> Russell Feldhausen
               <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/ab8e74b4d3ef564767d2a29ddf402148da6f966a">Jan 19, 2023</a>
@@ -735,8 +735,8 @@ import threading import time import sys class MyData: def __init__(self): self.x
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1778020182" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1778020182" defer></script>
-    <script src="/cc410/js/theme.min.js?1778020182" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1782835508" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1782835508" defer></script>
+    <script src="/cc410/js/theme.min.js?1782835508" defer></script>
   </body>
 </html>
