@@ -793,6 +793,10 @@ cleanDestinationDir = true
         [markup.goldmark.extensions.extras.mark]
           enable = true
 
+[privacy]
+  [privacy.youTube]
+    privacyEnhanced = true
+
 # Import Theme as Module
 # https://mcshelby.github.io/hugo-theme-relearn/basics/installation/index.html#using-hugos-module-system
  [module]
