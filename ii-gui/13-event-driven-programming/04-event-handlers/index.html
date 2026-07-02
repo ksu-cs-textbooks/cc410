@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.1">
-    <meta name="generator" content="Relearn 8.0.3">
+    <meta name="generator" content="Relearn 8.0.4">
     <meta name="description" content="At its core, an event handler is simply a piece of code that is called when a particular event happens within the GUI. The function typically receives additional information about the event, such as the source of the event and any relevant details. In some languages, we also refer to event handlers as callbacks.
 Java Listeners In Java, most events are handled by special interfaces called “listeners” that we can implement within our code. When we bind to an event in Java Swing, we specify an object that is instantiated from a class that implements the appropriate listener for that event. Then, when the event happens, behind the scenes Java will find the associated object and call the correct method defined as part of the interface. Here’s the example from the previous page:">
     <meta name="author" content="Russell Feldhausen">
@@ -34,27 +34,27 @@ Java Listeners In Java, most events are handled by special interfaces called “
     <link href="/cc410/ii-gui/13-event-driven-programming/04-event-handlers/index.print.html" rel="alternate" type="text/html" title="Event Handlers :: CC 410 Textbook">
     <link href="/cc410/ii-gui/13-event-driven-programming/04-event-handlers/tele.html" rel="alternate" type="text/html" title="Event Handlers :: CC 410 Textbook">
     <link href="/cc410/ii-gui/13-event-driven-programming/04-event-handlers/embed.html" rel="alternate" type="text/html" title="Event Handlers :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1782836371" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1782836371" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search.min.js?1782836371" defer></script>
+    <link href="/cc410/images/favicon.ico?1783006735" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1783006735" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1782836371";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1783006735";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1782836371" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1782836371" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1783006735" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ Java Listeners In Java, most events are handled by special interfaces called “
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1782836371" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1783006735" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/ii-gui/13-event-driven-programming/04-event-handlers/index.html">
     <div id="R-body" class="default-animation">
@@ -202,7 +202,7 @@ Java Listeners In Java, most events are handled by special interfaces called “
         </div>
       </main>
 <div class="git-footer">
-  <p class="theme-version-footer">8.0.3</p>
+  <p class="theme-version-footer">8.0.4</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> Russell Feldhausen
               <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/ab8e74b4d3ef564767d2a29ddf402148da6f966a">Jan 19, 2023</a>
@@ -644,8 +644,8 @@ Java Listeners In Java, most events are handled by special interfaces called “
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1782836371" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1782836371" defer></script>
-    <script src="/cc410/js/theme.min.js?1782836371" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1783006735" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1783006735" defer></script>
+    <script src="/cc410/js/theme.min.js?1783006735" defer></script>
   </body>
 </html>

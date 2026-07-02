@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.1">
-    <meta name="generator" content="Relearn 8.0.3">
+    <meta name="generator" content="Relearn 8.0.4">
     <meta name="description" content="Let’s work through an example of creating a UML class diagram based on existing code. This is loosely based off a project from an earlier course, so some of the structure may be familiar.
 The Project This project is a number calculator that makes use of object-oriented concepts such as inheritance, interfaces, and polymorphism to represent different types of numbers using different classes. We’ll also follow the Model-View-Controller (MVC) architectural pattern.">
     <meta name="author" content="Russell Feldhausen">
@@ -34,27 +34,27 @@ The Project This project is a number calculator that makes use of object-oriente
     <link href="/cc410/i-oop/05-uml/08-uml-example/index.print.html" rel="alternate" type="text/html" title="UML Example :: CC 410 Textbook">
     <link href="/cc410/i-oop/05-uml/08-uml-example/tele.html" rel="alternate" type="text/html" title="UML Example :: CC 410 Textbook">
     <link href="/cc410/i-oop/05-uml/08-uml-example/embed.html" rel="alternate" type="text/html" title="UML Example :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1782836371" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1782836371" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search.min.js?1782836371" defer></script>
+    <link href="/cc410/images/favicon.ico?1783006735" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1783006735" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1782836371";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1783006735";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1782836371" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1782836371" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1783006735" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@ The Project This project is a number calculator that makes use of object-oriente
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1782836371" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1783006735" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/i-oop/05-uml/08-uml-example/index.html">
     <div id="R-body" class="default-animation">
@@ -185,20 +185,20 @@ The Project This project is a number calculator that makes use of object-oriente
 <p>This project is a number calculator that makes use of object-oriented concepts such as inheritance, interfaces, and polymorphism to represent different types of numbers using different classes. We&rsquo;ll also follow the <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" rel="external" target="_blank">Model-View-Controller (MVC)</a> architectural pattern.</p>
 <h3 id="number-interface">Number Interface</h3>
 <p>We&rsquo;ll start by looking at the <code>Number</code> interface, which is the basis of all of the number classes. We&rsquo;re omitting the method code in these examples, since we are only concerned with the overall structure of the classes themselves.</p>
-<div class="tab-panel" data-tab-group="3d1e02015cfe0bff9f65440de1c09dbb">
+<div class="tab-panel" data-tab-group="32863d16856bac18dc43944ee3732183">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('3d1e02015cfe0bff9f65440de1c09dbb','java')"
+      onclick="switchTab('32863d16856bac18dc43944ee3732183','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('3d1e02015cfe0bff9f65440de1c09dbb','python')"
+      onclick="switchTab('32863d16856bac18dc43944ee3732183','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -241,24 +241,24 @@ The Project This project is a number calculator that makes use of object-oriente
   </div>
 </div>
 <p>In UML, we&rsquo;d represent this interface using the following box. It includes the <code>&lt;&lt;interface&gt;&gt;</code> stereotype, as well as the listed methods shown in <em>italics</em> since they are all abstract. Finally, each method in an interface is assumed to be <code>public</code>, so we&rsquo;ll include a plus symbol <code>+</code> in front of each method.</p>
-<p><a href="#R-image-b04cb55f408267b8ae9721750774b72a" class="lightbox-link"><img alt="Number Interface" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_number.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b04cb55f408267b8ae9721750774b72a"><img alt="Number Interface" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_number.svg"></a></p>
+<p><a href="#R-image-fafa31cb94432032b07040007924a5d0" class="lightbox-link"><img alt="Number Interface" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_number.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-fafa31cb94432032b07040007924a5d0"><img alt="Number Interface" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_number.svg"></a></p>
 <h3 id="real-number-class">Real Number Class</h3>
 <p>Next is the class for representing real numbers. This class will be a <strong>realization</strong> of the <code>Number</code> interface, as we can see in the code:</p>
-<div class="tab-panel" data-tab-group="4d7d7cb87a8ea2729c1a46d9e172c005">
+<div class="tab-panel" data-tab-group="d1549e002016620eaa80c6d071b737b9">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('4d7d7cb87a8ea2729c1a46d9e172c005','java')"
+      onclick="switchTab('d1549e002016620eaa80c6d071b737b9','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('4d7d7cb87a8ea2729c1a46d9e172c005','python')"
+      onclick="switchTab('d1549e002016620eaa80c6d071b737b9','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -315,28 +315,28 @@ The Project This project is a number calculator that makes use of object-oriente
   </div>
 </div>
 <p>it also includes implementations for a couple of other methods beyond the interface, including a constructor. So, in our UML diagram, we&rsquo;ll add another box to represent that class, and use the realization association arrow to show the connection between the classes. Remember that the arrow itself points toward the interface or parent class.</p>
-<p><a href="#R-image-1dc31867cf4a2af76445b8bcb4992e03" class="lightbox-link"><img alt="RealNumber Class" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_realnumber.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1dc31867cf4a2af76445b8bcb4992e03"><img alt="RealNumber Class" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_realnumber.svg"></a></p>
+<p><a href="#R-image-08e9b50c70b7bbdffe18ea0535ff8622" class="lightbox-link"><img alt="RealNumber Class" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_realnumber.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-08e9b50c70b7bbdffe18ea0535ff8622"><img alt="RealNumber Class" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_realnumber.svg"></a></p>
 <h3 id="other-number-classes">Other Number Classes</h3>
 <p>From here, it&rsquo;s pretty easy to see how we can use inheritance to create a <code>RationalNumber</code> class and an <code>IntegerNumber</code> class. The only way that they differ from the <code>RealNumber</code> class are the attributes. So, we&rsquo;ll quickly add those to our UML diagram as well.</p>
-<p><a href="#R-image-43ec08a8a5ed1c8aad20eb746109d65b" class="lightbox-link"><img alt="All Number Classes" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_allnumber.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-43ec08a8a5ed1c8aad20eb746109d65b"><img alt="All Number Classes" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_allnumber.svg"></a></p>
+<p><a href="#R-image-d673378527926a3b42646b54a6dbaea0" class="lightbox-link"><img alt="All Number Classes" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_allnumber.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-d673378527926a3b42646b54a6dbaea0"><img alt="All Number Classes" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_allnumber.svg"></a></p>
 <h3 id="complex-numbers">Complex Numbers</h3>
 <p>At this point, we can add a new class to represent <a href="https://en.wikipedia.org/wiki/Complex_number" rel="external" target="_blank">complex numbers</a>. A complex number consists of two parts - a real part and an imaginary part. So, it will both implement the <code>Number</code> interface, but it will also be composed of two <code>RealNumber</code> attributes. Notice that we&rsquo;re using <code>RealNumber</code> as the attribute instead of the <code>Number</code> interface. This is because we don&rsquo;t want a complex number to contain a complex number, so we&rsquo;re being careful about our inheritance. In code, this class would look like this:</p>
-<div class="tab-panel" data-tab-group="e2e783f07f250236d63b363b516669df">
+<div class="tab-panel" data-tab-group="5e99e1598b935dac688c643377236ff1">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('e2e783f07f250236d63b363b516669df','java')"
+      onclick="switchTab('5e99e1598b935dac688c643377236ff1','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('e2e783f07f250236d63b363b516669df','python')"
+      onclick="switchTab('5e99e1598b935dac688c643377236ff1','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -395,24 +395,24 @@ The Project This project is a number calculator that makes use of object-oriente
   </div>
 </div>
 <p>In our UML diagram, we&rsquo;ll add a box for this class. We&rsquo;ll also add both a realization association to the <code>Number</code> interface, but also a composition association to the <code>RealNumber</code> class, complete with the cardinality of the relationship.</p>
-<p><a href="#R-image-5bda6798b893831296b0b564806f2286" class="lightbox-link"><img alt="Imaginary Numbers" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_imaginary.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-5bda6798b893831296b0b564806f2286"><img alt="Imaginary Numbers" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_imaginary.svg"></a></p>
+<p><a href="#R-image-7f697ae2258ae01d2e6ec1fee1f61165" class="lightbox-link"><img alt="Imaginary Numbers" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_imaginary.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-7f697ae2258ae01d2e6ec1fee1f61165"><img alt="Imaginary Numbers" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_imaginary.svg"></a></p>
 <h3 id="mvc-components">MVC Components</h3>
 <p>Once we&rsquo;ve created all of our number classes, we can quickly create our <code>View</code> and <code>Controller</code> classes as well. They will handle getting input from the user, performing operations, and displaying the results.</p>
-<div class="tab-panel" data-tab-group="466bcabac53d9795febc03e6cebf01c9">
+<div class="tab-panel" data-tab-group="dd45415286df757c89f1ad775c0183c3">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('466bcabac53d9795febc03e6cebf01c9','java')"
+      onclick="switchTab('dd45415286df757c89f1ad775c0183c3','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('466bcabac53d9795febc03e6cebf01c9','python')"
+      onclick="switchTab('dd45415286df757c89f1ad775c0183c3','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -477,8 +477,8 @@ The Project This project is a number calculator that makes use of object-oriente
   </div>
 </div>
 <p>In the code, we see that the <code>Controller</code> class contains an attribute for a single <code>View()</code> instance, and also a list of <code>Number</code> instances. So, we&rsquo;ll end up using a composition association between <code>Controller</code> and <code>View</code>, and an aggregation association between <code>Controller</code> and the <code>Number</code> interface.</p>
-<p><a href="#R-image-d36ea86987e2465c8bdf7d2782e40887" class="lightbox-link"><img alt="Full UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_all.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-d36ea86987e2465c8bdf7d2782e40887"><img alt="Full UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_all.svg"></a></p>
+<p><a href="#R-image-a797696fb71f3354891d9c986c7f7f72" class="lightbox-link"><img alt="Full UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/5/410_5_ex_all.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a797696fb71f3354891d9c986c7f7f72"><img alt="Full UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/5/410_5_ex_all.svg"></a></p>
 <p>This is a small example, but it demonstrates many of the important object-oriented concepts in a single UML diagram:</p>
 <ul>
 <li>The <code>Number</code> class is an interface and abstract class</li>
@@ -507,7 +507,7 @@ The Project This project is a number calculator that makes use of object-oriente
         </div>
       </main>
 <div class="git-footer">
-  <p class="theme-version-footer">8.0.3</p>
+  <p class="theme-version-footer">8.0.4</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> Russell Feldhausen
               <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
@@ -949,8 +949,8 @@ The Project This project is a number calculator that makes use of object-oriente
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1782836371" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1782836371" defer></script>
-    <script src="/cc410/js/theme.min.js?1782836371" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1783006735" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1783006735" defer></script>
+    <script src="/cc410/js/theme.min.js?1783006735" defer></script>
   </body>
 </html>

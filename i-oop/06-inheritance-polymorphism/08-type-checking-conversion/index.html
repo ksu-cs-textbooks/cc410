@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.1">
-    <meta name="generator" content="Relearn 8.0.3">
+    <meta name="generator" content="Relearn 8.0.4">
     <meta name="description" content="You have probably used casting to convert numeric values from one type to another, i.e.:
 ​ Java Python double a = 5.5; int b = (int) a; a: float = 5.5b: int = int(a) What you are actually doing when you cast is transforming a value from one type to another. In the first case, you are taking the value of a, which is the floating-point value 5.5, and converting it to the equivalent integer value 5.">
     <meta name="author" content="Russell Feldhausen">
@@ -34,27 +34,27 @@
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.print.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/tele.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
     <link href="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/embed.html" rel="alternate" type="text/html" title="Type Checking &amp; Conversion :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1782836371" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1782836371" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search.min.js?1782836371" defer></script>
+    <link href="/cc410/images/favicon.ico?1783006735" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1783006735" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1782836371";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1783006735";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1782836371" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1782836371" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1783006735" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1782836371" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1783006735" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/i-oop/06-inheritance-polymorphism/08-type-checking-conversion/index.html">
     <div id="R-body" class="default-animation">
@@ -173,20 +173,20 @@
 <h1 id="type-checking--conversion">Type Checking &amp; Conversion</h1>
 
 <p>You have probably used casting to convert numeric values from one type to another, i.e.:</p>
-<div class="tab-panel" data-tab-group="dd0ff50940f4f94a692f867f24b95d4e">
+<div class="tab-panel" data-tab-group="4e57bd9f05f43f52043b301f07ed5700">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('dd0ff50940f4f94a692f867f24b95d4e','java')"
+      onclick="switchTab('4e57bd9f05f43f52043b301f07ed5700','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('dd0ff50940f4f94a692f867f24b95d4e','python')"
+      onclick="switchTab('4e57bd9f05f43f52043b301f07ed5700','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -213,20 +213,20 @@ b: int = int(a)</code></pre></div>
 <p>What you are actually doing when you cast is <em>transforming a value from one type to another</em>.  In the first case, you are taking the value of <code>a</code>, which is the floating-point value <code>5.5</code>, and converting it to the equivalent integer value <code>5</code>.</p>
 <p>Both of these are examples of an <strong>explicit cast</strong>, since we are explicitly stating the type that we&rsquo;d like to convert our existing value to.</p>
 <p>In some languages, we can also perform an <strong>implicit cast</strong>. This is where the compiler or interpreter changes the type of our value behind the scenes for us.</p>
-<div class="tab-panel" data-tab-group="52781c561cc224e1898b059143c83a45">
+<div class="tab-panel" data-tab-group="97de5c004231a1b72e4a894a961fe5d9">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('52781c561cc224e1898b059143c83a45','java')"
+      onclick="switchTab('97de5c004231a1b72e4a894a961fe5d9','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('52781c561cc224e1898b059143c83a45','python')"
+      onclick="switchTab('97de5c004231a1b72e4a894a961fe5d9','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -264,20 +264,20 @@ b: float = a + 2.5;</code></pre></div>
 <p>However, if we try to treat it like an instance of the <code>GraduateStudent</code> class, it would fail with an <code>AttributeError</code>.</p>
 <h2 id="checking-types">Checking Types</h2>
 <p>Both Java and Python include special methods for determining if a particular object is compatible with a certain type.</p>
-<div class="tab-panel" data-tab-group="54ea7fe865fe08fe19c09794fec90905">
+<div class="tab-panel" data-tab-group="131f04dcaea6e3a766825f4ca21a46f2">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('54ea7fe865fe08fe19c09794fec90905','java')"
+      onclick="switchTab('131f04dcaea6e3a766825f4ca21a46f2','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('54ea7fe865fe08fe19c09794fec90905','python')"
+      onclick="switchTab('131f04dcaea6e3a766825f4ca21a46f2','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -314,7 +314,7 @@ b: float = a + 2.5;</code></pre></div>
         </div>
       </main>
 <div class="git-footer">
-  <p class="theme-version-footer">8.0.3</p>
+  <p class="theme-version-footer">8.0.4</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> Russell Feldhausen
               <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/2512e31ed7413085fb2b6a90abb854c5d1e43258">Aug 10, 2023</a>
@@ -756,8 +756,8 @@ b: float = a + 2.5;</code></pre></div>
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1782836371" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1782836371" defer></script>
-    <script src="/cc410/js/theme.min.js?1782836371" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1783006735" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1783006735" defer></script>
+    <script src="/cc410/js/theme.min.js?1783006735" defer></script>
   </body>
 </html>

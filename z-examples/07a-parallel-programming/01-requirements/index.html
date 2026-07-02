@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.1">
-    <meta name="generator" content="Relearn 8.0.3">
+    <meta name="generator" content="Relearn 8.0.4">
     <meta name="description" content="This page lists the example project requirements for Example 7A in CC 410. Read the requirements carefully and discuss any questions with the instructors or TAs.
 Purpose This example will cover some concepts related to parallel programming. This is meant to be an exploratory project only, so requirements are very loose.
 General Requirements No style or documentation requirements will be enforced for this example. Assignment Requirements ParallelOne Update ParallelOne following the video to use 4 Threads. Run the program a few times and observe a race condition. Take a screenshot of the race condition and store it in a file named race in the project folder. Update ParallelOne to properly use locks to prevent a race condition. Run the program a few times and verify that no race condition occurs. Take a screenshot of the program running correctly and store it in a file named lock in the project folder. See Take a Screenshot on Wikihow for details on how to take a screenshot. On Windows, you can use the “Snipping Tool” to grab only a portion of the screen. See Uploading Files in the Codio documentation for how to upload a screenshot. ParallelTwo Update ParallelTwo following the video to handle blocking and an arbitrary number of threads. Run the program with varying numbers of threads (1 - 10 recommended) and graph the number of threads vs. the time taken. Submit your graph as an image file named graph in the project folder. See How to Make a Single Line Graph in Excel for instructions. Based on the results of the ParallelTwo exercise, write a short blurb in a README.md file in the project folder: How did the number of threads impact amount of time taken to complete the work? What does that result tell us about the hardware available on the Codio system? See below for some example screenshots and graphs. The sample graph shows results for both Java and Python, but your graph will only include one language.">
@@ -38,27 +38,27 @@ General Requirements No style or documentation requirements will be enforced for
     <link href="/cc410/z-examples/07a-parallel-programming/01-requirements/index.print.html" rel="alternate" type="text/html" title="Assignment Requirements :: CC 410 Textbook">
     <link href="/cc410/z-examples/07a-parallel-programming/01-requirements/tele.html" rel="alternate" type="text/html" title="Assignment Requirements :: CC 410 Textbook">
     <link href="/cc410/z-examples/07a-parallel-programming/01-requirements/embed.html" rel="alternate" type="text/html" title="Assignment Requirements :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1782836371" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1782836371" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/search.min.js?1782836371" defer></script>
+    <link href="/cc410/images/favicon.ico?1783006735" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1783006735" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/search.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1782836371";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1783006735";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1782836371" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1782836371" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1783006735" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1782836371" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1782836371" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1782836371" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1783006735" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -117,7 +117,7 @@ General Requirements No style or documentation requirements will be enforced for
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1782836371" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1783006735" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/z-examples/07a-parallel-programming/01-requirements/index.html">
     <div id="R-body" class="default-animation">
@@ -244,14 +244,14 @@ General Requirements No style or documentation requirements will be enforced for
 <hr>
 <h2 id="sample-screenshots">Sample Screenshots</h2>
 <h6 id="race">Race</h6>
-<p><a href="#R-image-f6e7ade9a7c8c936f586fe7e1494fe2c" class="lightbox-link"><img alt="Race Screenshot" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e7a/race.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-f6e7ade9a7c8c936f586fe7e1494fe2c"><img alt="Race Screenshot" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e7a/race.png"></a></p>
+<p><a href="#R-image-a271bf154b44786894613427094abe97" class="lightbox-link"><img alt="Race Screenshot" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e7a/race.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a271bf154b44786894613427094abe97"><img alt="Race Screenshot" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e7a/race.png"></a></p>
 <h5 id="lock">Lock</h5>
-<p><a href="#R-image-0fafd6be2b40282c0f331e12b1c86cac" class="lightbox-link"><img alt="Lock Screenshot" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e7a/lock.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-0fafd6be2b40282c0f331e12b1c86cac"><img alt="Lock Screenshot" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e7a/lock.png"></a></p>
+<p><a href="#R-image-8c4b49bc3ac19d5d25d4d63729b010b2" class="lightbox-link"><img alt="Lock Screenshot" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e7a/lock.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-8c4b49bc3ac19d5d25d4d63729b010b2"><img alt="Lock Screenshot" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e7a/lock.png"></a></p>
 <h5 id="graph">Graph</h5>
-<p><a href="#R-image-fff56da9bb07840a3d853c0a82a60eaf" class="lightbox-link"><img alt="Graph" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e7a/graph.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-fff56da9bb07840a3d853c0a82a60eaf"><img alt="Graph" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e7a/graph.png"></a></p>
+<p><a href="#R-image-dfa5089fae0dde588939f71bd10f6ab7" class="lightbox-link"><img alt="Graph" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/e7a/graph.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-dfa5089fae0dde588939f71bd10f6ab7"><img alt="Graph" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/e7a/graph.png"></a></p>
 
   <footer class="footline">
   </footer>
@@ -259,7 +259,7 @@ General Requirements No style or documentation requirements will be enforced for
         </div>
       </main>
 <div class="git-footer">
-  <p class="theme-version-footer">8.0.3</p>
+  <p class="theme-version-footer">8.0.4</p>
 <p>Last modified by:
               <i class='fa-fw fas fa-user'></i> Russell Feldhausen
               <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/cc410/commit/63811dc9d75fd94254d8926a3c2e736f08f0ebca">Feb 9, 2022</a>
@@ -701,8 +701,8 @@ General Requirements No style or documentation requirements will be enforced for
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1782836371" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1782836371" defer></script>
-    <script src="/cc410/js/theme.min.js?1782836371" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1783006735" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1783006735" defer></script>
+    <script src="/cc410/js/theme.min.js?1783006735" defer></script>
   </body>
 </html>
