@@ -51,12 +51,12 @@
         "breadcrumb": "Introduction",
         "children": [],
         "isSection": true,
-        "modified": "2026-01-08T14:50:13-06:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
-        "title": "Spring 2026 Syllabus",
+        "title": "Fall 2026 Info",
         "uri": "/cc410/00-introduction/06-syllabus/index.html",
         "weight": 60,
-        "wordCount": 6292
+        "wordCount": 4343
       },
       {
         "breadcrumb": "Introduction",
@@ -2739,12 +2739,12 @@
         "breadcrumb": "Example Projects",
         "children": [],
         "isSection": false,
-        "modified": "2024-06-17T14:13:48-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "New Project Checklist",
         "uri": "/cc410/z-examples/00-new-project/index.html",
         "weight": 5,
-        "wordCount": 639
+        "wordCount": 620
       },
       {
         "breadcrumb": "Example Projects",
@@ -2781,6 +2781,128 @@
             "uri": "/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/index.html",
             "weight": 30,
             "wordCount": 850
+          },
+          {
+            "breadcrumb": "Example Projects \u003e Hello Real World",
+            "children": [
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Create New Project",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/index.html",
+                "weight": 10,
+                "wordCount": 515
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Write Hello World",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/index.html",
+                "weight": 20,
+                "wordCount": 787
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Git Commit \u0026 Push",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/index.html",
+                "weight": 30,
+                "wordCount": 1660
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Unit Tests",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/04-unit-tests/index.html",
+                "weight": 40,
+                "wordCount": 2003
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2026-08-19T16:12:40-05:00",
+                "tags": [],
+                "title": "Install Tox",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/index.html",
+                "weight": 50,
+                "wordCount": 1066
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Code Coverage",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/index.html",
+                "weight": 60,
+                "wordCount": 1706
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Documentation",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.html",
+                "weight": 70,
+                "wordCount": 1772
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Flake8",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html",
+                "weight": 80,
+                "wordCount": 1217
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2025-09-10T13:08:55-05:00",
+                "tags": [],
+                "title": "Type Checking",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html",
+                "weight": 90,
+                "wordCount": 1978
+              },
+              {
+                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
+                "children": [],
+                "isSection": false,
+                "modified": "2024-06-17T14:13:48-05:00",
+                "tags": [],
+                "title": "Hamcrest",
+                "uri": "/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.html",
+                "weight": 100,
+                "wordCount": 656
+              }
+            ],
+            "isSection": true,
+            "modified": "2026-08-19T16:12:40-05:00",
+            "tags": [],
+            "title": "Python",
+            "uri": "/cc410/z-examples/01-hello-real-world/04-python/index.html",
+            "weight": 40,
+            "wordCount": 17
           },
           {
             "breadcrumb": "Example Projects \u003e Hello Real World",
@@ -2886,132 +3008,10 @@
               }
             ],
             "isSection": true,
-            "modified": "2021-09-08T14:41:54-05:00",
+            "modified": "2026-08-19T16:12:40-05:00",
             "tags": [],
             "title": "Java",
             "uri": "/cc410/z-examples/01-hello-real-world/04-java/index.html",
-            "weight": 40,
-            "wordCount": 17
-          },
-          {
-            "breadcrumb": "Example Projects \u003e Hello Real World",
-            "children": [
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Create New Project",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/index.html",
-                "weight": 10,
-                "wordCount": 515
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Write Hello World",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/index.html",
-                "weight": 20,
-                "wordCount": 787
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Git Commit \u0026 Push",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/03-git-commit-push/index.html",
-                "weight": 30,
-                "wordCount": 1660
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Unit Tests",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/04-unit-tests/index.html",
-                "weight": 40,
-                "wordCount": 2003
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Install Tox",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/05-install-tox/index.html",
-                "weight": 50,
-                "wordCount": 1066
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Code Coverage",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/06-code-coverage/index.html",
-                "weight": 60,
-                "wordCount": 1706
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Documentation",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/07-documentation/index.html",
-                "weight": 70,
-                "wordCount": 1772
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Flake8",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html",
-                "weight": 80,
-                "wordCount": 1217
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2025-09-10T13:08:55-05:00",
-                "tags": [],
-                "title": "Type Checking",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html",
-                "weight": 90,
-                "wordCount": 1978
-              },
-              {
-                "breadcrumb": "Example Projects \u003e Hello Real World \u003e Python",
-                "children": [],
-                "isSection": false,
-                "modified": "2024-06-17T14:13:48-05:00",
-                "tags": [],
-                "title": "Hamcrest",
-                "uri": "/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.html",
-                "weight": 100,
-                "wordCount": 656
-              }
-            ],
-            "isSection": true,
-            "modified": "2021-09-08T14:41:54-05:00",
-            "tags": [],
-            "title": "Python",
-            "uri": "/cc410/z-examples/01-hello-real-world/04-python/index.html",
             "weight": 45,
             "wordCount": 17
           },
@@ -3221,12 +3221,12 @@
             "breadcrumb": "Example Projects \u003e Debugging \u0026 Logging",
             "children": [],
             "isSection": false,
-            "modified": "2025-03-12T17:34:55-05:00",
+            "modified": "2026-08-19T16:12:40-05:00",
             "tags": [],
             "title": "Python",
             "uri": "/cc410/z-examples/05-debugging-logging/02-python/index.html",
             "weight": 25,
-            "wordCount": 266
+            "wordCount": 316
           },
           {
             "breadcrumb": "Example Projects \u003e Debugging \u0026 Logging",
@@ -3297,51 +3297,6 @@
         "breadcrumb": "Example Projects",
         "children": [
           {
-            "breadcrumb": "Example Projects \u003e Parallel Programming",
-            "children": [],
-            "isSection": false,
-            "modified": "2022-02-09T09:32:57-06:00",
-            "tags": [],
-            "title": "Assignment Requirements",
-            "uri": "/cc410/z-examples/07a-parallel-programming/01-requirements/index.html",
-            "weight": 10,
-            "wordCount": 504
-          },
-          {
-            "breadcrumb": "Example Projects \u003e Parallel Programming",
-            "children": [],
-            "isSection": false,
-            "modified": "2024-06-17T14:13:48-05:00",
-            "tags": [],
-            "title": "Java",
-            "uri": "/cc410/z-examples/07a-parallel-programming/02-java/index.html",
-            "weight": 20,
-            "wordCount": 140
-          },
-          {
-            "breadcrumb": "Example Projects \u003e Parallel Programming",
-            "children": [],
-            "isSection": false,
-            "modified": "2024-06-17T14:13:48-05:00",
-            "tags": [],
-            "title": "Python",
-            "uri": "/cc410/z-examples/07a-parallel-programming/02-python/index.html",
-            "weight": 25,
-            "wordCount": 115
-          }
-        ],
-        "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
-        "tags": [],
-        "title": "Parallel Programming",
-        "uri": "/cc410/z-examples/07a-parallel-programming/index.html",
-        "weight": 70,
-        "wordCount": 111
-      },
-      {
-        "breadcrumb": "Example Projects",
-        "children": [
-          {
             "breadcrumb": "Example Projects \u003e Test Doubles",
             "children": [],
             "isSection": false,
@@ -3387,6 +3342,96 @@
         "breadcrumb": "Example Projects",
         "children": [
           {
+            "breadcrumb": "Example Projects \u003e GUI Basics",
+            "children": [],
+            "isSection": false,
+            "modified": "2023-01-19T16:41:33-06:00",
+            "tags": [],
+            "title": "Assignment Requirements",
+            "uri": "/cc410/z-examples/08-gui-basics/01-requirements/index.html",
+            "weight": 10,
+            "wordCount": 950
+          },
+          {
+            "breadcrumb": "Example Projects \u003e GUI Basics",
+            "children": [],
+            "isSection": false,
+            "modified": "2024-06-17T14:13:48-05:00",
+            "tags": [],
+            "title": "Java",
+            "uri": "/cc410/z-examples/08-gui-basics/02-java/index.html",
+            "weight": 20,
+            "wordCount": 147
+          },
+          {
+            "breadcrumb": "Example Projects \u003e GUI Basics",
+            "children": [],
+            "isSection": false,
+            "modified": "2026-08-19T16:12:40-05:00",
+            "tags": [],
+            "title": "Python",
+            "uri": "/cc410/z-examples/08-gui-basics/02-python/index.html",
+            "weight": 25,
+            "wordCount": 214
+          }
+        ],
+        "isSection": true,
+        "modified": "2023-09-26T10:42:10-05:00",
+        "tags": [],
+        "title": "GUI Basics",
+        "uri": "/cc410/z-examples/08-gui-basics/index.html",
+        "weight": 80,
+        "wordCount": 117
+      },
+      {
+        "breadcrumb": "Example Projects",
+        "children": [
+          {
+            "breadcrumb": "Example Projects \u003e Parallel Programming",
+            "children": [],
+            "isSection": false,
+            "modified": "2022-02-09T09:32:57-06:00",
+            "tags": [],
+            "title": "Assignment Requirements",
+            "uri": "/cc410/z-examples/07a-parallel-programming/01-requirements/index.html",
+            "weight": 10,
+            "wordCount": 504
+          },
+          {
+            "breadcrumb": "Example Projects \u003e Parallel Programming",
+            "children": [],
+            "isSection": false,
+            "modified": "2024-06-17T14:13:48-05:00",
+            "tags": [],
+            "title": "Java",
+            "uri": "/cc410/z-examples/07a-parallel-programming/02-java/index.html",
+            "weight": 20,
+            "wordCount": 140
+          },
+          {
+            "breadcrumb": "Example Projects \u003e Parallel Programming",
+            "children": [],
+            "isSection": false,
+            "modified": "2024-06-17T14:13:48-05:00",
+            "tags": [],
+            "title": "Python",
+            "uri": "/cc410/z-examples/07a-parallel-programming/02-python/index.html",
+            "weight": 25,
+            "wordCount": 115
+          }
+        ],
+        "isSection": true,
+        "modified": "2026-08-19T16:12:40-05:00",
+        "tags": [],
+        "title": "Parallel Programming",
+        "uri": "/cc410/z-examples/07a-parallel-programming/index.html",
+        "weight": 90,
+        "wordCount": 111
+      },
+      {
+        "breadcrumb": "Example Projects",
+        "children": [
+          {
             "breadcrumb": "Example Projects \u003e Event-Driven Programming",
             "children": [],
             "isSection": false,
@@ -3421,57 +3466,12 @@
           }
         ],
         "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Event-Driven Programming",
         "uri": "/cc410/z-examples/07b-event-driven-programming/index.html",
-        "weight": 75,
+        "weight": 95,
         "wordCount": 144
-      },
-      {
-        "breadcrumb": "Example Projects",
-        "children": [
-          {
-            "breadcrumb": "Example Projects \u003e GUI Basics",
-            "children": [],
-            "isSection": false,
-            "modified": "2023-01-19T16:41:33-06:00",
-            "tags": [],
-            "title": "Assignment Requirements",
-            "uri": "/cc410/z-examples/08-gui-basics/01-requirements/index.html",
-            "weight": 10,
-            "wordCount": 950
-          },
-          {
-            "breadcrumb": "Example Projects \u003e GUI Basics",
-            "children": [],
-            "isSection": false,
-            "modified": "2024-06-17T14:13:48-05:00",
-            "tags": [],
-            "title": "Java",
-            "uri": "/cc410/z-examples/08-gui-basics/02-java/index.html",
-            "weight": 20,
-            "wordCount": 147
-          },
-          {
-            "breadcrumb": "Example Projects \u003e GUI Basics",
-            "children": [],
-            "isSection": false,
-            "modified": "2024-06-17T14:13:48-05:00",
-            "tags": [],
-            "title": "Python",
-            "uri": "/cc410/z-examples/08-gui-basics/02-python/index.html",
-            "weight": 25,
-            "wordCount": 133
-          }
-        ],
-        "isSection": true,
-        "modified": "2023-09-26T10:42:10-05:00",
-        "tags": [],
-        "title": "GUI Basics",
-        "uri": "/cc410/z-examples/08-gui-basics/index.html",
-        "weight": 80,
-        "wordCount": 117
       },
       {
         "breadcrumb": "Example Projects",
@@ -3511,11 +3511,11 @@
           }
         ],
         "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Combos \u0026 Libraries",
         "uri": "/cc410/z-examples/09-libraries/index.html",
-        "weight": 90,
+        "weight": 100,
         "wordCount": 136
       },
       {
@@ -3547,20 +3547,20 @@
             "breadcrumb": "Example Projects \u003e Releases",
             "children": [],
             "isSection": false,
-            "modified": "2024-06-17T14:13:48-05:00",
+            "modified": "2026-08-19T16:12:40-05:00",
             "tags": [],
             "title": "Python",
             "uri": "/cc410/z-examples/10-releases/02-python/index.html",
             "weight": 25,
-            "wordCount": 97
+            "wordCount": 176
           }
         ],
         "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Releases",
         "uri": "/cc410/z-examples/10-releases/index.html",
-        "weight": 100,
+        "weight": 110,
         "wordCount": 101
       },
       {
@@ -3601,11 +3601,11 @@
           }
         ],
         "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Web Basics",
         "uri": "/cc410/z-examples/11-web-basics/index.html",
-        "weight": 110,
+        "weight": 120,
         "wordCount": 109
       },
       {
@@ -3646,11 +3646,11 @@
           }
         ],
         "isSection": true,
-        "modified": "2023-11-27T12:20:01-06:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Forms",
         "uri": "/cc410/z-examples/12-forms/index.html",
-        "weight": 120,
+        "weight": 130,
         "wordCount": 114
       },
       {
@@ -3691,11 +3691,11 @@
           }
         ],
         "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "REST",
         "uri": "/cc410/z-examples/13-rest/index.html",
-        "weight": 130,
+        "weight": 140,
         "wordCount": 90
       },
       {
@@ -3736,11 +3736,11 @@
           }
         ],
         "isSection": true,
-        "modified": "2023-04-14T15:03:49-05:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Form Validation",
         "uri": "/cc410/z-examples/14-form-validation/index.html",
-        "weight": 140,
+        "weight": 150,
         "wordCount": 98
       }
     ],
@@ -3847,7 +3847,7 @@
         "breadcrumb": "Project Milestones",
         "children": [],
         "isSection": false,
-        "modified": "2026-01-08T14:50:13-06:00",
+        "modified": "2026-08-19T16:12:40-05:00",
         "tags": [],
         "title": "Event-Driven Programming",
         "uri": "/cc410/y-milestones/07-event-driven-programming/index.html",

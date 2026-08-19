@@ -32,27 +32,27 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
     <link href="/cc410/i-oop/09-design-patterns/04-builder/index.print.html" rel="alternate" type="text/html" title="Builder Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/04-builder/tele.html" rel="alternate" type="text/html" title="Builder Pattern :: CC 410 Textbook">
     <link href="/cc410/i-oop/09-design-patterns/04-builder/embed.html" rel="alternate" type="text/html" title="Builder Pattern :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1783006735" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1783006735" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1783006735" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1783006735" defer></script>
-    <script src="/cc410/js/search.min.js?1783006735" defer></script>
+    <link href="/cc410/images/favicon.ico?1787174039" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1787174039" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1787174039" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1787174039" defer></script>
+    <script src="/cc410/js/search.min.js?1787174039" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1783006735";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1787174039";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1783006735" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1783006735" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1783006735" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1787174039" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1787174039" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1787174039" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1787174039" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1783006735" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1783006735" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1783006735" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1787174039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1787174039" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1787174039" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1787174039" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1787174039" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -111,7 +111,7 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1787174039" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/i-oop/09-design-patterns/04-builder/index.html">
     <div id="R-body" class="default-animation">
@@ -184,8 +184,8 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 
 <p><a href="/cc410/i-oop/09-design-patterns/04-builder/video/index.html">Video Materials</a></p>
 <p>The first pattern we&rsquo;ll look at is the <strong>builder pattern.</strong> The <a href="https://en.wikipedia.org/wiki/Builder_pattern" rel="external" target="_blank">builder pattern</a> is used to simplify building complex objects,  where the class that needs the object shouldn&rsquo;t have to include all of the code and details for how to construct that object. By decoupling the code for constructing the complex object from the classes that use it, it becomes much simpler to change the representations or usages of the complex object without changing the classes that use it, provided they all adhere to the same general API.</p>
-<p><a href="#R-image-7eb85e7f21fe206e153dddd1fcb2c876" class="lightbox-link"><img alt="Builder Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/builder.jpg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-7eb85e7f21fe206e153dddd1fcb2c876"><img alt="Builder Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/builder.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p><a href="#R-image-9a738e63181aeb939cdb0cdedc0e02fb" class="lightbox-link"><img alt="Builder Pattern UML" class="border lazy lightbox figure-image" loading="lazy" src="/cc410/images/12/builder.jpg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-9a738e63181aeb939cdb0cdedc0e02fb"><img alt="Builder Pattern UML" class="border lazy lightbox lightbox-image" loading="lazy" src="/cc410/images/12/builder.jpg"></a><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <p>The UML diagram above gives one possible structure for the builder pattern. It includes a <code>Builder</code> interface that other objects can reference, and <code>Builder1</code> is a class that implements that interface. There could be multiple builders, one for each type of object. The <code>Builder1</code> class contains all of the code needed to properly construct the <code>ComplexObject</code> class, consisting of <code>ProductA1</code> and <code>ProductB1</code>. If a different <code>ComplexObject</code> must be created, we can create another class <code>Builder2</code> that also implements the <code>Builder</code> interface. To the <code>Director</code> class, both <code>Builder1</code> and <code>Builder2</code> implement the same interface, so they can be treated as the same type of object.</p>
 <h2 id="example-deck-of-cards">Example: Deck of Cards</h2>
 <p>A great example of this would be creating a deck of cards for various card games. There are actually many different types of card decks, depending on the game that is being played:</p>
@@ -206,20 +206,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <li><code>NumberOrName</code> - the number or name of the card</li>
 <li><code>Rank</code> - the sorting rank of the card (lowest = 1).</li>
 </ul>
-<div class="tab-panel" data-tab-group="247c28b2800b919afbbcd153a8ad604a">
+<div class="tab-panel" data-tab-group="78bf21cf35bd0d8b374189a297389c99">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('247c28b2800b919afbbcd153a8ad604a','java')"
+      onclick="switchTab('78bf21cf35bd0d8b374189a297389c99','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('247c28b2800b919afbbcd153a8ad604a','python')"
+      onclick="switchTab('78bf21cf35bd0d8b374189a297389c99','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -258,20 +258,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <h3 id="the-deck-class">The Deck Class</h3>
 <p>The <code>Deck</code> class will only consist of an aggregation, or list, of the cards contained in the deck. So, our builder class will return an instance of the <code>Deck</code> object, which contains all of the cards in the deck.</p>
 <p>The <code>Deck</code> class could also include generic methods to shuffle, draw, discard, and deal cards. These would work with just about any of the games listed above, regardless of the details of the deck itself.</p>
-<div class="tab-panel" data-tab-group="d782b73bc27b94a5e15a6511c61b654b">
+<div class="tab-panel" data-tab-group="374c8ee00186c05a9cfe5462ecd18421">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('d782b73bc27b94a5e15a6511c61b654b','java')"
+      onclick="switchTab('374c8ee00186c05a9cfe5462ecd18421','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('d782b73bc27b94a5e15a6511c61b654b','python')"
+      onclick="switchTab('374c8ee00186c05a9cfe5462ecd18421','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -321,20 +321,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <p>Our <code>DeckBuilder</code> interface will be very simple, consisting of a single method: <code>buildDeck()</code>. The type of the class that implements the <code>DeckBuilder</code> interface will determine which type of deck is created. If the decks created by the builder have additional options, we can add additional methods to our <code>DeckBuilder</code> interface to handle those situations.</p>
 <h3 id="the-builder-classes">The Builder Classes</h3>
 <p>Finally, we can create our builder classes themselves. These classes will handle actually building the different decks required for each game. First, let&rsquo;s build a standard 52 card deck.</p>
-<div class="tab-panel" data-tab-group="8cbc67cdd6403e76a1fccdb498ad3960">
+<div class="tab-panel" data-tab-group="bcab2f5fa6f3760bb04b69101d274acc">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('8cbc67cdd6403e76a1fccdb498ad3960','java')"
+      onclick="switchTab('bcab2f5fa6f3760bb04b69101d274acc','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('8cbc67cdd6403e76a1fccdb498ad3960','python')"
+      onclick="switchTab('bcab2f5fa6f3760bb04b69101d274acc','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -401,20 +401,20 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <p>As we can see, the heavy lifting of actually building the deck is offloaded to the builder class. We can easily use this same framework to create additional <code>Builder</code> classes for the other types of decks listed above.</p>
 <h3 id="using-the-builder">Using the Builder</h3>
 <p>Finally, once we&rsquo;ve created all of the builders that we&rsquo;ll need, we can use them directly in our code anywhere we need them:</p>
-<div class="tab-panel" data-tab-group="eead26f86c6c324c93eed031a296f9ed">
+<div class="tab-panel" data-tab-group="019c40a03db9477c9af3def6153bea6e">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('eead26f86c6c324c93eed031a296f9ed','java')"
+      onclick="switchTab('019c40a03db9477c9af3def6153bea6e','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('eead26f86c6c324c93eed031a296f9ed','python')"
+      onclick="switchTab('019c40a03db9477c9af3def6153bea6e','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -525,7 +525,7 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
             <li class="" data-nav-id="/cc410/00-introduction/02-navigating-canvas-codio/index.html"><a class="padding" href="/cc410/00-introduction/02-navigating-canvas-codio/index.html">2. Navigating Canvas &amp; Codio</a></li>
             <li class="" data-nav-id="/cc410/00-introduction/03-where-to-find-help/index.html"><a class="padding" href="/cc410/00-introduction/03-where-to-find-help/index.html">3. Where to Find Help</a></li>
             <li class="" data-nav-id="/cc410/00-introduction/05-how-to-learn-programming/index.html"><a class="padding" href="/cc410/00-introduction/05-how-to-learn-programming/index.html">5. How to Learn Programming</a></li>
-            <li class="" data-nav-id="/cc410/00-introduction/06-syllabus/index.html"><a class="padding" href="/cc410/00-introduction/06-syllabus/index.html">6. Spring 2026 Syllabus</a></li>
+            <li class="" data-nav-id="/cc410/00-introduction/06-syllabus/index.html"><a class="padding" href="/cc410/00-introduction/06-syllabus/index.html">6. Fall 2026 Info</a></li>
             <li class="" data-nav-id="/cc410/00-introduction/07-plagiarism/index.html"><a class="padding" href="/cc410/00-introduction/07-plagiarism/index.html">7. Plagiarism Policy</a></li>
             <li class="" data-nav-id="/cc410/00-introduction/07-genai/index.html"><a class="padding" href="/cc410/00-introduction/07-genai/index.html">7A. GenAI Policy</a></li>
             <li class="" data-nav-id="/cc410/00-introduction/08-codio-projects/index.html"><a class="padding" href="/cc410/00-introduction/08-codio-projects/index.html">8. Codio Projects</a></li></ul></li>
@@ -772,16 +772,6 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/index.html">1. Codio and Terminal</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/02-github-classroom-setup/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/02-github-classroom-setup/index.html">2. GitHub Classroom Setup</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/03-clone-starter-from-github/index.html">3. Clone Starter from GitHub</a></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/index.html"><input type="checkbox" id="R-section-ebbacbe7b8bbf10ffa4894b529aff643" aria-controls="R-subsections-ebbacbe7b8bbf10ffa4894b529aff643" checked><label for="R-section-ebbacbe7b8bbf10ffa4894b529aff643"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/index.html">4.J. Java</a><ul id="R-subsections-ebbacbe7b8bbf10ffa4894b529aff643" class="collapsible-menu">
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/index.html">4.J.1. Install Gradle</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/02-create-new-project/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/02-create-new-project/index.html">4.J.2. Create New Project</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/index.html">4.J.3. Write Hello World</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html">4.J.4. Git Commit &amp; Push</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html">4.J.5. Unit Tests</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html">4.J.6. Code Coverage</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/07-documentation/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/07-documentation/index.html">4.J.7. Documentation</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html">4.J.8. Checkstyle</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/index.html">4.J.9. Hamcrest</a></li></ul></li>
             <li class="alwaysopen " data-nav-id="/cc410/z-examples/01-hello-real-world/04-python/index.html"><input type="checkbox" id="R-section-e8f209e3f0edb7bdc6bd2406813b134e" aria-controls="R-subsections-e8f209e3f0edb7bdc6bd2406813b134e" checked><label for="R-section-e8f209e3f0edb7bdc6bd2406813b134e"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Python</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-python/index.html">4.P. Python</a><ul id="R-subsections-e8f209e3f0edb7bdc6bd2406813b134e" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-python/01-create-new-project/index.html">4.P.1. Create New Project</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-python/02-write-hello-world/index.html">4.P.2. Write Hello World</a></li>
@@ -793,6 +783,16 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-python/08-flake8/index.html">4.P.8. Flake8</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-python/09-type-checking/index.html">4.P.9. Type Checking</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-python/10-hamcrest/index.html">4.P.10. Hamcrest</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/index.html"><input type="checkbox" id="R-section-ebbacbe7b8bbf10ffa4894b529aff643" aria-controls="R-subsections-ebbacbe7b8bbf10ffa4894b529aff643" checked><label for="R-section-ebbacbe7b8bbf10ffa4894b529aff643"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Java</span></label><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/index.html">4.J. Java</a><ul id="R-subsections-ebbacbe7b8bbf10ffa4894b529aff643" class="collapsible-menu">
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/01-install-gradle/index.html">4.J.1. Install Gradle</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/02-create-new-project/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/02-create-new-project/index.html">4.J.2. Create New Project</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/03-write-hello-world/index.html">4.J.3. Write Hello World</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/04-git-commit-push/index.html">4.J.4. Git Commit &amp; Push</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/05-unit-tests/index.html">4.J.5. Unit Tests</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/06-code-coverage/index.html">4.J.6. Code Coverage</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/07-documentation/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/07-documentation/index.html">4.J.7. Documentation</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/08-checkstyle/index.html">4.J.8. Checkstyle</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/04-java/09-hamcrest/index.html">4.J.9. Hamcrest</a></li></ul></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/05-create-release/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/05-create-release/index.html">5. Creating GitHub Release</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/06-requirements/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/06-requirements/index.html">6. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/01-hello-real-world/07-next-steps/index.html"><a class="padding" href="/cc410/z-examples/01-hello-real-world/07-next-steps/index.html">7. Next Steps</a></li></ul></li>
@@ -817,43 +817,43 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
             <li class="" data-nav-id="/cc410/z-examples/06-design-patterns/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/06-design-patterns/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/06-design-patterns/02-java/index.html"><a class="padding" href="/cc410/z-examples/06-design-patterns/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/06-design-patterns/02-python/index.html"><a class="padding" href="/cc410/z-examples/06-design-patterns/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/07a-parallel-programming/index.html"><input type="checkbox" id="R-section-6dca9e9da4bc62f8d8242182535ce282" aria-controls="R-subsections-6dca9e9da4bc62f8d8242182535ce282" checked><label for="R-section-6dca9e9da4bc62f8d8242182535ce282"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Parallel Programming</span></label><a class="padding" href="/cc410/z-examples/07a-parallel-programming/index.html">7A. Parallel Programming</a><ul id="R-subsections-6dca9e9da4bc62f8d8242182535ce282" class="collapsible-menu">
-            <li class="" data-nav-id="/cc410/z-examples/07a-parallel-programming/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/07a-parallel-programming/01-requirements/index.html">1. Assignment Requirements</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/07a-parallel-programming/02-java/index.html"><a class="padding" href="/cc410/z-examples/07a-parallel-programming/02-java/index.html">2.J. Java</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/07a-parallel-programming/02-python/index.html"><a class="padding" href="/cc410/z-examples/07a-parallel-programming/02-python/index.html">2.P. Python</a></li></ul></li>
             <li class="alwaysopen " data-nav-id="/cc410/z-examples/07-test-doubles/index.html"><input type="checkbox" id="R-section-9b504be1089d0698e450c34198b97356" aria-controls="R-subsections-9b504be1089d0698e450c34198b97356" checked><label for="R-section-9b504be1089d0698e450c34198b97356"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Test Doubles</span></label><a class="padding" href="/cc410/z-examples/07-test-doubles/index.html">7. Test Doubles</a><ul id="R-subsections-9b504be1089d0698e450c34198b97356" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/07-test-doubles/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/07-test-doubles/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/07-test-doubles/02-java/index.html"><a class="padding" href="/cc410/z-examples/07-test-doubles/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/07-test-doubles/02-python/index.html"><a class="padding" href="/cc410/z-examples/07-test-doubles/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/07b-event-driven-programming/index.html"><input type="checkbox" id="R-section-f3288adbf015db59d671cf305e437484" aria-controls="R-subsections-f3288adbf015db59d671cf305e437484" checked><label for="R-section-f3288adbf015db59d671cf305e437484"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Event-Driven Programming</span></label><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/index.html">7B. Event-Driven Programming</a><ul id="R-subsections-f3288adbf015db59d671cf305e437484" class="collapsible-menu">
-            <li class="" data-nav-id="/cc410/z-examples/07b-event-driven-programming/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/01-requirements/index.html">1. Assignment Requirements</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/07b-event-driven-programming/02-java/index.html"><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/02-java/index.html">2.J. Java</a></li>
-            <li class="" data-nav-id="/cc410/z-examples/07b-event-driven-programming/02-python/index.html"><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/02-python/index.html">2.P. Python</a></li></ul></li>
             <li class="alwaysopen " data-nav-id="/cc410/z-examples/08-gui-basics/index.html"><input type="checkbox" id="R-section-f48d247e589f26a5b5627db69f324a02" aria-controls="R-subsections-f48d247e589f26a5b5627db69f324a02" checked><label for="R-section-f48d247e589f26a5b5627db69f324a02"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu GUI Basics</span></label><a class="padding" href="/cc410/z-examples/08-gui-basics/index.html">8. GUI Basics</a><ul id="R-subsections-f48d247e589f26a5b5627db69f324a02" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/08-gui-basics/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/08-gui-basics/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/08-gui-basics/02-java/index.html"><a class="padding" href="/cc410/z-examples/08-gui-basics/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/08-gui-basics/02-python/index.html"><a class="padding" href="/cc410/z-examples/08-gui-basics/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/09-libraries/index.html"><input type="checkbox" id="R-section-b2414a88e0f4fce8f36f6dcb06ca33a6" aria-controls="R-subsections-b2414a88e0f4fce8f36f6dcb06ca33a6" checked><label for="R-section-b2414a88e0f4fce8f36f6dcb06ca33a6"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Combos &amp; Libraries</span></label><a class="padding" href="/cc410/z-examples/09-libraries/index.html">9. Combos &amp; Libraries</a><ul id="R-subsections-b2414a88e0f4fce8f36f6dcb06ca33a6" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/07a-parallel-programming/index.html"><input type="checkbox" id="R-section-6dca9e9da4bc62f8d8242182535ce282" aria-controls="R-subsections-6dca9e9da4bc62f8d8242182535ce282" checked><label for="R-section-6dca9e9da4bc62f8d8242182535ce282"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Parallel Programming</span></label><a class="padding" href="/cc410/z-examples/07a-parallel-programming/index.html">9A. Parallel Programming</a><ul id="R-subsections-6dca9e9da4bc62f8d8242182535ce282" class="collapsible-menu">
+            <li class="" data-nav-id="/cc410/z-examples/07a-parallel-programming/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/07a-parallel-programming/01-requirements/index.html">1. Assignment Requirements</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/07a-parallel-programming/02-java/index.html"><a class="padding" href="/cc410/z-examples/07a-parallel-programming/02-java/index.html">2.J. Java</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/07a-parallel-programming/02-python/index.html"><a class="padding" href="/cc410/z-examples/07a-parallel-programming/02-python/index.html">2.P. Python</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/07b-event-driven-programming/index.html"><input type="checkbox" id="R-section-f3288adbf015db59d671cf305e437484" aria-controls="R-subsections-f3288adbf015db59d671cf305e437484" checked><label for="R-section-f3288adbf015db59d671cf305e437484"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Event-Driven Programming</span></label><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/index.html">9B. Event-Driven Programming</a><ul id="R-subsections-f3288adbf015db59d671cf305e437484" class="collapsible-menu">
+            <li class="" data-nav-id="/cc410/z-examples/07b-event-driven-programming/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/01-requirements/index.html">1. Assignment Requirements</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/07b-event-driven-programming/02-java/index.html"><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/02-java/index.html">2.J. Java</a></li>
+            <li class="" data-nav-id="/cc410/z-examples/07b-event-driven-programming/02-python/index.html"><a class="padding" href="/cc410/z-examples/07b-event-driven-programming/02-python/index.html">2.P. Python</a></li></ul></li>
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/09-libraries/index.html"><input type="checkbox" id="R-section-b2414a88e0f4fce8f36f6dcb06ca33a6" aria-controls="R-subsections-b2414a88e0f4fce8f36f6dcb06ca33a6" checked><label for="R-section-b2414a88e0f4fce8f36f6dcb06ca33a6"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Combos &amp; Libraries</span></label><a class="padding" href="/cc410/z-examples/09-libraries/index.html">10. Combos &amp; Libraries</a><ul id="R-subsections-b2414a88e0f4fce8f36f6dcb06ca33a6" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/09-libraries/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/09-libraries/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/09-libraries/02-java/index.html"><a class="padding" href="/cc410/z-examples/09-libraries/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/09-libraries/02-python/index.html"><a class="padding" href="/cc410/z-examples/09-libraries/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/10-releases/index.html"><input type="checkbox" id="R-section-ce6cc6de719d60ba9a77d4b68d716243" aria-controls="R-subsections-ce6cc6de719d60ba9a77d4b68d716243" checked><label for="R-section-ce6cc6de719d60ba9a77d4b68d716243"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Releases</span></label><a class="padding" href="/cc410/z-examples/10-releases/index.html">10. Releases</a><ul id="R-subsections-ce6cc6de719d60ba9a77d4b68d716243" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/10-releases/index.html"><input type="checkbox" id="R-section-ce6cc6de719d60ba9a77d4b68d716243" aria-controls="R-subsections-ce6cc6de719d60ba9a77d4b68d716243" checked><label for="R-section-ce6cc6de719d60ba9a77d4b68d716243"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Releases</span></label><a class="padding" href="/cc410/z-examples/10-releases/index.html">11. Releases</a><ul id="R-subsections-ce6cc6de719d60ba9a77d4b68d716243" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/10-releases/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/10-releases/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/10-releases/02-java/index.html"><a class="padding" href="/cc410/z-examples/10-releases/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/10-releases/02-python/index.html"><a class="padding" href="/cc410/z-examples/10-releases/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/11-web-basics/index.html"><input type="checkbox" id="R-section-f5f3911c6aa5de96d6b960b624c0b5a4" aria-controls="R-subsections-f5f3911c6aa5de96d6b960b624c0b5a4" checked><label for="R-section-f5f3911c6aa5de96d6b960b624c0b5a4"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Web Basics</span></label><a class="padding" href="/cc410/z-examples/11-web-basics/index.html">11. Web Basics</a><ul id="R-subsections-f5f3911c6aa5de96d6b960b624c0b5a4" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/11-web-basics/index.html"><input type="checkbox" id="R-section-f5f3911c6aa5de96d6b960b624c0b5a4" aria-controls="R-subsections-f5f3911c6aa5de96d6b960b624c0b5a4" checked><label for="R-section-f5f3911c6aa5de96d6b960b624c0b5a4"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Web Basics</span></label><a class="padding" href="/cc410/z-examples/11-web-basics/index.html">12. Web Basics</a><ul id="R-subsections-f5f3911c6aa5de96d6b960b624c0b5a4" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/11-web-basics/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/11-web-basics/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/11-web-basics/02-java/index.html"><a class="padding" href="/cc410/z-examples/11-web-basics/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/11-web-basics/02-python/index.html"><a class="padding" href="/cc410/z-examples/11-web-basics/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/12-forms/index.html"><input type="checkbox" id="R-section-3c9b37b81de84d864f9b558e02162753" aria-controls="R-subsections-3c9b37b81de84d864f9b558e02162753" checked><label for="R-section-3c9b37b81de84d864f9b558e02162753"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Forms</span></label><a class="padding" href="/cc410/z-examples/12-forms/index.html">12. Forms</a><ul id="R-subsections-3c9b37b81de84d864f9b558e02162753" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/12-forms/index.html"><input type="checkbox" id="R-section-3c9b37b81de84d864f9b558e02162753" aria-controls="R-subsections-3c9b37b81de84d864f9b558e02162753" checked><label for="R-section-3c9b37b81de84d864f9b558e02162753"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Forms</span></label><a class="padding" href="/cc410/z-examples/12-forms/index.html">13. Forms</a><ul id="R-subsections-3c9b37b81de84d864f9b558e02162753" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/12-forms/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/12-forms/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/12-forms/02-java/index.html"><a class="padding" href="/cc410/z-examples/12-forms/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/12-forms/02-python/index.html"><a class="padding" href="/cc410/z-examples/12-forms/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/13-rest/index.html"><input type="checkbox" id="R-section-1f8d2e0985c5966b37f42eddc9d14ec1" aria-controls="R-subsections-1f8d2e0985c5966b37f42eddc9d14ec1" checked><label for="R-section-1f8d2e0985c5966b37f42eddc9d14ec1"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu REST</span></label><a class="padding" href="/cc410/z-examples/13-rest/index.html">13. REST</a><ul id="R-subsections-1f8d2e0985c5966b37f42eddc9d14ec1" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/13-rest/index.html"><input type="checkbox" id="R-section-1f8d2e0985c5966b37f42eddc9d14ec1" aria-controls="R-subsections-1f8d2e0985c5966b37f42eddc9d14ec1" checked><label for="R-section-1f8d2e0985c5966b37f42eddc9d14ec1"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu REST</span></label><a class="padding" href="/cc410/z-examples/13-rest/index.html">14. REST</a><ul id="R-subsections-1f8d2e0985c5966b37f42eddc9d14ec1" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/13-rest/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/13-rest/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/13-rest/02-java/index.html"><a class="padding" href="/cc410/z-examples/13-rest/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/13-rest/02-python/index.html"><a class="padding" href="/cc410/z-examples/13-rest/02-python/index.html">2.P. Python</a></li></ul></li>
-            <li class="alwaysopen " data-nav-id="/cc410/z-examples/14-form-validation/index.html"><input type="checkbox" id="R-section-e442d52f94cc67d636029e160757b204" aria-controls="R-subsections-e442d52f94cc67d636029e160757b204" checked><label for="R-section-e442d52f94cc67d636029e160757b204"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Form Validation</span></label><a class="padding" href="/cc410/z-examples/14-form-validation/index.html">14. Form Validation</a><ul id="R-subsections-e442d52f94cc67d636029e160757b204" class="collapsible-menu">
+            <li class="alwaysopen " data-nav-id="/cc410/z-examples/14-form-validation/index.html"><input type="checkbox" id="R-section-e442d52f94cc67d636029e160757b204" aria-controls="R-subsections-e442d52f94cc67d636029e160757b204" checked><label for="R-section-e442d52f94cc67d636029e160757b204"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Form Validation</span></label><a class="padding" href="/cc410/z-examples/14-form-validation/index.html">15. Form Validation</a><ul id="R-subsections-e442d52f94cc67d636029e160757b204" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/14-form-validation/01-requirements/index.html"><a class="padding" href="/cc410/z-examples/14-form-validation/01-requirements/index.html">1. Assignment Requirements</a></li>
             <li class="" data-nav-id="/cc410/z-examples/14-form-validation/02-java/index.html"><a class="padding" href="/cc410/z-examples/14-form-validation/02-java/index.html">2.J. Java</a></li>
             <li class="" data-nav-id="/cc410/z-examples/14-form-validation/02-python/index.html"><a class="padding" href="/cc410/z-examples/14-form-validation/02-python/index.html">2.P. Python</a></li></ul></li></ul></li>
@@ -912,8 +912,8 @@ The first pattern we’ll look at is the builder pattern. The builder pattern is
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1783006735" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1783006735" defer></script>
-    <script src="/cc410/js/theme.min.js?1783006735" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1787174039" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1787174039" defer></script>
+    <script src="/cc410/js/theme.min.js?1787174039" defer></script>
   </body>
 </html>

@@ -6,7 +6,7 @@
     <description>In this example project, we will go through all the steps to create a new version of the classic “Hello World” program, called “Hello Real World.” We’ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 12:44:09 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 16:12:40 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Codio and Terminal</title>
@@ -30,18 +30,18 @@
       <description>Once we have accepted the assignment on GitHub classroom and have access to the repository, we can “clone” it in Codio, allowing us to access any starter code and then add our own code as we continue to work through this example project. This project doesn’t include any starter code, but we’ll go ahead and do this step first, just like we would with any other project.</description>
     </item>
     <item>
-      <title>Java</title>
-      <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/index.html</guid>
-      <description>This section contains content for the Java programming language only.&#xA;Skip to Python&#xA;Skip to Creating Release</description>
-    </item>
-    <item>
       <title>Python</title>
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-python/index.html</guid>
       <description>This section contains content for the Python programming language only.&#xA;Skip to Java&#xA;Skip to Creating Release</description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/04-java/index.html</guid>
+      <description>This section contains content for the Java programming language only.&#xA;Skip to Python&#xA;Skip to Creating Release</description>
     </item>
     <item>
       <title>Creating GitHub Release</title>

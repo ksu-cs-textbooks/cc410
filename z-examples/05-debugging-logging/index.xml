@@ -26,7 +26,7 @@
       <link>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-python/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/z-examples/05-debugging-logging/02-python/index.html</guid>
-      <description>Update to Python If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates&#xA;Resources Codio Debugger Logging HOWTO Configuring Codio Debugger</description>
+      <description>Update to Python Python 3.14 currently does not include the codio_debug library used by the Codio debugger. You may get some error messages about a missing module in the debugger sidebar and won’t be able to view local variables, but you can still create a watched expression to analyze the value of variables.&#xA;If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: Example 5 Python Updates</description>
     </item>
     <item>
       <title>Update to Example 5 Python</title>

@@ -3,7 +3,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/08-gui-basics/02-python/index.html</link>
-    <description>Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.</description>
+    <description>Start X Server Starting in Fall 2026, Codio has been updated to not start the X display server until you try to connect to it the first time. So, before running your Python program, find the entry in the menu at the top of the Codio window to open the GUI viewer (sometimes it’ll be called “X Server” or “Virtual Desktop”) and click on it to open the GUI viewer, then leave it open while you run your code or tests.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/08-gui-basics/02-python/index.xml" rel="self" type="application/rss+xml" />

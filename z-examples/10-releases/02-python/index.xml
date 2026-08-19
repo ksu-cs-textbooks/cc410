@@ -3,7 +3,7 @@
   <channel>
     <title>Python :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/z-examples/10-releases/02-python/index.html</link>
-    <description>Outline Here is a basic outline of the steps to follow to complete this example.&#xA;Clone Starter Code from GitHub git clone &lt;url&gt; python Run Project cd python python3 -m src Install Tox pip3 install tox Check &amp; Test Existing Project python3 -m tox Confirm that project runs and has no style errors.</description>
+    <description>Updates 2026 Recent versions have changed a few things about the process shown in the video:&#xA;In setup.cfg The line include-package-data = True should now be include_package_data = True (switch from dashes to underscores) The line License :: OSI Approved :: &lt;MIT License&gt; should be removed Future versions of this activity will switch to purely using pyproject.toml instead of setup.cfg to manage this process, but for now we’ll keep the hybrid version shown in the video with these changes.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/10-releases/02-python/index.xml" rel="self" type="application/rss+xml" />

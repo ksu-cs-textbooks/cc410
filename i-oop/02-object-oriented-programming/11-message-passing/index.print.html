@@ -37,27 +37,27 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
     <link href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.xml" rel="alternate" type="application/rss+xml" title="Message Passing :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/tele.html" rel="alternate" type="text/html" title="Message Passing :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/11-message-passing/embed.html" rel="alternate" type="text/html" title="Message Passing :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1783006735" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1783006735" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1783006735" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1783006735" defer></script>
-    <script src="/cc410/js/search.min.js?1783006735" defer></script>
+    <link href="/cc410/images/favicon.ico?1787174039" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1787174039" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1787174039" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1787174039" defer></script>
+    <script src="/cc410/js/search.min.js?1787174039" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1783006735";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1787174039";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1783006735" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1783006735" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1783006735" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1783006735" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1787174039" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1787174039" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1787174039" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1787174039" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1783006735" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1783006735" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1783006735" rel="stylesheet">
-    <link href="/cc410/css/format-print.min.css?1783006735" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1787174039" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1787174039" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1787174039" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1787174039" rel="stylesheet">
+    <link href="/cc410/css/format-print.min.css?1787174039" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -116,12 +116,9 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1783006735" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1787174039" rel="stylesheet">
   </head>
-  <body class="mobile-support print" data-url="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.html">
-    
-    <div id="tele" class="tele mirror">
-    
+  <body class="mobile-support embed print" data-url="/cc410/i-oop/02-object-oriented-programming/11-message-passing/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       
@@ -143,20 +140,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
 <p>The second criteria Alan Kay set for object-oriented languages was <a href="https://en.wikipedia.org/wiki/Message_passing" rel="external" target="_blank">message passing</a>.  Message passing is a way to request a unit of code engage in a behavior, i.e. changing its state, or sharing some aspect of its state.</p>
 <p>Consider the real-world analogue of a letter sent via the postal service.  Such a message consists of: an address the message needs to be sent to, a return address, the message itself (the letter), and any data that needs to accompany the letter (the enclosures).  A specific letter might be a wedding invitation.  The message includes the details of the wedding (the host, the location, the time), an enclosure might be a refrigerator magnet with these details duplicated.  The recipient should (per custom) send a response to the host addressed to the return address letting them know if they will be attending.</p>
 <p>In an object-oriented language, message passing primarily take the form of methods. Let&rsquo;s revisit our example <code>Vector3</code> class from earlier:</p>
-<div class="tab-panel" data-tab-group="ccfb271cf755557bcef85b1fcbef0cf3">
+<div class="tab-panel" data-tab-group="8dd0ab40c6e1469970f9a73f0154a60d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('ccfb271cf755557bcef85b1fcbef0cf3','java')"
+      onclick="switchTab('8dd0ab40c6e1469970f9a73f0154a60d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('ccfb271cf755557bcef85b1fcbef0cf3','python')"
+      onclick="switchTab('8dd0ab40c6e1469970f9a73f0154a60d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -212,20 +209,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
   </div>
 </div>
 <p>We can also create a couple of instances of the class, and use its dot product method:</p>
-<div class="tab-panel" data-tab-group="070a503bee5ea056295871fc8bcaf5f0">
+<div class="tab-panel" data-tab-group="c6096d1a6cc3e5571db4312914630679">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('070a503bee5ea056295871fc8bcaf5f0','java')"
+      onclick="switchTab('c6096d1a6cc3e5571db4312914630679','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('070a503bee5ea056295871fc8bcaf5f0','python')"
+      onclick="switchTab('c6096d1a6cc3e5571db4312914630679','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -253,20 +250,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
 </div>
 <p>Consider the invocation of <code>a.dotProduct(b)</code> (Java) or <code>a.dot_product(b)</code> (Python) above.  The method name, <code>dotProduct</code> or <code>dot_product</code> provides the details of what the message is intended to accomplish (the letter).  Invoking it on a specific variable, i.e. <code>a</code>, tells us who the message is being sent to (the recipient address).  The return type indicates what we need to send back to the recipient (the invoking code), and the parameters provide any data needed by the class to address the task (the enclosures).</p>
 <p>Let&rsquo;s define a new method for our Vector3 class that emphasizes the role message passing plays in mutating object state:</p>
-<div class="tab-panel" data-tab-group="cb192ced3323a983b7fece13c28da783">
+<div class="tab-panel" data-tab-group="f3fbdf85890ae6ec3a32742be4e4a51c">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('cb192ced3323a983b7fece13c28da783','java')"
+      onclick="switchTab('f3fbdf85890ae6ec3a32742be4e4a51c','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('cb192ced3323a983b7fece13c28da783','python')"
+      onclick="switchTab('f3fbdf85890ae6ec3a32742be4e4a51c','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -298,20 +295,20 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
   </div>
 </div>
 <p>We can now invoke the <code>normalize()</code> method on a <code>Vector3</code> object to mutate its state, shortening the magnitude of the vector to length 1.</p>
-<div class="tab-panel" data-tab-group="6a90f521aa89a0918b4d41ef671fff8a">
+<div class="tab-panel" data-tab-group="7817d89346872ced2ebb272879a81656">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('6a90f521aa89a0918b4d41ef671fff8a','java')"
+      onclick="switchTab('7817d89346872ced2ebb272879a81656','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('6a90f521aa89a0918b4d41ef671fff8a','python')"
+      onclick="switchTab('7817d89346872ced2ebb272879a81656','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -359,13 +356,9 @@ Consider the real-world analogue of a letter sent via the postal service. Such a
       
       
     </div>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1783006735" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1783006735" defer></script>
-    <script src="/cc410/js/theme.min.js?1783006735" defer></script>
-      
-      
-      
-    </div> 
-  <script src="/cc410/js/tele-scroll.min.js?1783006735" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1787174039" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1787174039" defer></script>
+    <script src="/cc410/js/theme.min.js?1787174039" defer></script>
+  <script src="/cc410/js/embed-iframe.min.js?1787174039" defer></script>
   </body>
 </html>
