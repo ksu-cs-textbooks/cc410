@@ -1,7 +1,7 @@
 ---
 title: "Parallel Programming"
-pre: "7A. "
-weight: 70
+pre: "9A. "
+weight: 90
 ---
 
 In this example project, we'll explore some concepts related to parallel programming. You won't be expected to actually create a fully parallel program in this course, but it is helpful to explore these concepts and see how they impact our program's performance.

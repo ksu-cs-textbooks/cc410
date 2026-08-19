@@ -151,7 +151,7 @@ python3 --version
 4. Create `requirements.txt` file
 ```ini
 coverage
-flake8<5.0.0
+flake8
 flake8-docstrings
 flake8-html
 lxml
@@ -171,7 +171,7 @@ pip3 install -r requirements.txt
 ```ini
 
 [tox]
-envlist = py39
+envlist = py314
 skipsdist = True
 
 [testenv]
@@ -215,11 +215,7 @@ cd python
 python3 --version
 ```
 4. Confirm Python Version matches the `envlist` entry in `tox.ini`
-   1. Python 3.6.x - `py36`
-   2. Python 3.9.x - `py39`
-   3. Python 3.10.x - `py310`
-5. [Update Packages](https://textbooks.cs.ksu.edu/cc410/z-instructor-resources/03-errata/) in `requirements.txt`
-   1. Lock `flake8` to version before 5.0: `flake8<5.0.0`
+   1. Python 3.14.x - `py314`
 5. Install Python Libraries
 ```bash
 pip3 install -r requirements.txt

@@ -1,7 +1,7 @@
 ---
 title: "Python"
 pre: "4.P. "
-weight: 45
+weight: 40
 ---
 
 This section contains content for the **Python** programming language only.

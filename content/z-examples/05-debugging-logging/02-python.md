@@ -6,6 +6,8 @@ weight: 25
 
 {{% notice warning "Update to Python" %}}
 
+Python 3.14 currently does not include the `codio_debug` library used by the Codio debugger. You may get some error messages about a missing module in the debugger sidebar and won't be able to view local variables, but you can still create a watched expression to analyze the value of variables.
+
 If you run into issues running Python unit tests with Tox after enabling the logging, you may have to add some additional code not covered in the video. See this page: [Example 5 Python Updates]({{% relref "03-python-update" %}})
 
 {{% /notice %}}

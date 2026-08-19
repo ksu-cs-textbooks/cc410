@@ -1,7 +1,7 @@
 ---
 title: "Releases"
-pre: "10. "
-weight: 100
+pre: "11. "
+weight: 110
 ---
 
 In this example project, we'll explore taking an existing project and preparing it for release. We'll then create the actual release package and upload them to GitHub along with a release tag.

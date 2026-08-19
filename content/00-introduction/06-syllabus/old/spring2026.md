@@ -1,20 +1,10 @@
 ---
-title: "Fall 2026 Info"
-weight: 60
+title: "Spring 2026 Syllabus"
+weight: 75
 pre: "6. "
 ---
 
-## CC 410 - Advanced Programming - Fall 2026
-
-[Previous Versions]({{% relref "./old" %}})
-
-{{% notice warning "Not Authoritative" %}}
-
-Starting with the Fall 2026 semester, official K-State syllabi can be found in [Coursedog](https://www.k-state.edu/curriculum/). 
-
-_This page is no longer the official syllabus, but it may still contain useful information for students._
-
-{{% /notice %}}
+## CC 410 - Advanced Programming - Spring 2026
 
 ### Instructor Contact Information
 
@@ -59,7 +49,6 @@ The goal is not just to write software that compiles without errors, but to deve
 ### Student Learning Outcomes
 
 After completing this course, a successful student will be able to:
-
 * Develop code following industry best-practices for code style and documentation
 * Develop and execute unit tests that adequately test code for bugs and errors
 * Make use of tools to determine the code coverage of a set of unit tests
@@ -195,10 +184,9 @@ Please contact the instructor if you have any questions about this GenAI policy.
 
 In keeping with the expectation for transparency and citation regarding the use of generative artificial intelligence (GenAI), the instructors of this course will clearly denote any usage of GenAI tools in the process of teaching this class. Specific policies for the usage of GenAI by the instructors and TAs of this course are given below:
 
-* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Student Communication** - GenAI will **never** be used to when communicating with students. We believe it is important for students to receive real, authentic communication from instructors and TAs.
-* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Grading** - GenAI will **never** be used to suggest or assign grades for any student-submitted work. All grading decisions will be done solely by instructors and TAs.
-* {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} **Code Review & Feedback** - Instructors may use GenAI tools to assist with code reviews due to the scope and scale of these projects. However, all feedback given will be "human in the loop" with the final feedback coming directly from the instructors and TAs (see the first point above). 
-* {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} **Lesson & Learning Content** - GenAI may be used in a limited way to construct lessons and learning content, such as homework scenarios or simple graphics. All usage of GenAI will be clearly marked and cited. (As of August 2026, no GenAI content exists in the course).
+* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Grading and Feedback** - GenAI will **never** be used to review student submissions or produce grading feedback. All grades and feedback will be provided by the instructors and TAs without any GenAI assistance.
+* {{% badge style="red" %}}RED: GenAI Prohibited {{% /badge %}} **Student Communication** - GenAI will **never** be used to when communicating with students. We believe it is important for students to receive real, authentic communication from instructors and TAs
+* {{% badge style="orange" %}}YELLOW: Limited GenAI Usage Allowed {{% /badge %}} **Lesson & Learning Content** - GenAI may be used in a limited way to construct lessons and learning content, such as homework scenarios or simple graphics. All usage of GenAI will be clearly marked and cited. (As of January 2026, no GenAI content exists in the course).
 
 ### Late Work
 
@@ -226,7 +214,7 @@ Unless otherwise noted in writing on a signed [Incomplete Agreement Form](https:
 2. Students will be given a maximum of 8 calendar weeks from the end of the enrolled semester to complete the course. It is expected that students have completed at least half of the course in order to qualify for an incomplete. 
 3. Students understand that access to instructor and TA assistance may be limited after the end of an academic semester due to holidays and other obligations.
 4. Any modules in a future CC course which depend on incomplete work will not be accessible until the previous course is finished
-   1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
+  1. For example, if a student is given an incomplete in CC 210, then all modules in CC 310 will be inaccessible until CC 210 is complete
 5. If a student fails to resolve an incomplete grade after 8 weeks, they will be assigned an 'F' in the course. In addition, they will be dropped from any other Computational Core courses which require the failed course as a prerequisite or corequisite.
 
 ### Recommended Texts & Supplies
@@ -241,4 +229,4 @@ Students may choose to do some development work on their own computer. The recom
 
 The details in this syllabus are not set in stone. Due to the flexible nature of this class, adjustments may need to be made as the semester progresses, though they will be kept to a minimum. If any changes occur, the changes will be posted on the Canvas page for this course and emailed to all students. All changes may also be posted to Canvas.
 
-{{< syllabus include="netiquette safezone copyright" >}}
+{{< syllabus include="honesty disabilities conduct respect netiquette safezone discrimination freedom safety weapons resources creations mentalhealth absences copyright" >}}

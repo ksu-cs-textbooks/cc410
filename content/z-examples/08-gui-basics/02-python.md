@@ -4,6 +4,12 @@ pre: "2.P. "
 weight: 25
 ---
 
+{{% notice warning "Start X Server" %}}
+
+Starting in Fall 2026, Codio has been updated to not start the X display server until you try to connect to it the first time. So, before running your Python program, find the entry in the menu at the top of the Codio window to open the GUI viewer (sometimes it'll be called "X Server" or "Virtual Desktop") and click on it to open the GUI viewer, then leave it open while you run your code or tests.
+
+{{% /notice %}}
+
 {{< youtube hjMFAcxwJBU  >}}
 
 ## Outline

@@ -1,7 +1,7 @@
 ---
 title: "Java"
 pre: "4.J. "
-weight: 40
+weight: 45
 ---
 
 This section contains content for the **Java** programming language only.

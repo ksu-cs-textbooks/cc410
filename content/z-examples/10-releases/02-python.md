@@ -4,6 +4,18 @@ pre: "2.P. "
 weight: 25
 ---
 
+{{% notice note "Updates 2026" %}}
+
+Recent versions have changed a few things about the process shown in the video:
+
+1. In `setup.cfg`
+    1. The line `include-package-data = True` should now be `include_package_data = True` (switch from dashes to underscores)
+    2. The line `License :: OSI Approved :: <MIT License>` should be removed
+
+Future versions of this activity will switch to purely using `pyproject.toml` instead of `setup.cfg` to manage this process, but for now we'll keep the hybrid version shown in the video with these changes.
+
+{{% /notice %}}
+
 {{< youtube Ah-MFPyM-90  >}}
 
 ## Outline
