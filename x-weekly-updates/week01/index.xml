@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Spring &#39;26 Week 1 :: CC 410 Textbook</title>
+    <title>Fall &#39;26 Week 1 :: CC 410 Textbook</title>
     <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.html</link>
-    <description>Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in spring 2026. My name is Russ Feldhausen. I’ll be your instructor for the semester. My contact information can be found here on this slide. One thing to note, I do work remotely most of the time, so I’m going to be working from home four days a week, but I will generally be on campus on Tuesdays. My Tuesdays are usually pretty booked up with meetings already, but if you want to meet with me on Tuesdays, early in the morning is the best time to do that in person. But otherwise, I’m available the rest of the week working from home. So feel free to reach out anytime.</description>
+    <description>Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in fall 2026. My name is Russ Feldhausen. I’ll be your instructor for this program. Uh, you can find my contact information here. It’s also on the syllabus. It’s on the homepage of Canvas. I, I’m easy to get ahold of, so feel free to reach out anytime. Um, these announcements videos will be posted roughly every week, uh, and unlike a lot of the other videos in this course, these are totally unscripted. This is just me talking through some slides as I go through everything. Uh, I’m recording this right now just right after I recorded the new course introduction video. That is a more formal video introducing the course that has some scripting behind it. This is totally unscripted as I talk through some things that I think are going to be important as you go through the first week of this course.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.xml" rel="self" type="application/rss+xml" />
