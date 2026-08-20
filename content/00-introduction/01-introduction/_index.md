@@ -4,9 +4,11 @@ pre: "1. "
 weight: 10
 ---
 
-{{< youtube TefCnhmxyEw >}}
+{{< youtube  >}}
 
 <!-- Fall 2025: ftQqoTIf3Ws -->
+
+<!-- Spring 2026: TefCnhmxyEw -->
 
 #### Resources
 
@@ -59,7 +61,7 @@ Finally, when in doubt, please ask me if you have any questions or concerns abou
 
 In keeping with the new policy on the use of GenAI in this course, I will also disclose any times I use GenAI in the process of teaching this course. I have set the following rules in place for this course regarding my own use of GenAI: I will not use GenAI when communicating with students, nor will I use it to produce any grading feedback or comments. Everything you receive from me this semester will be completely my own work and in my own words. 
 
-I may make limited use of GenAI to produce new learning content for this course, such as assignment descriptions, fictional menu items, and simple graphics for use in my materials. Any usage of GenAI will be clearly noted and cited. As of this recording in January 2026, no GenAI content exists in this course. 
+I may make limited use of GenAI to produce new learning content for this course, such as assignment descriptions, fictional menu items, and simple graphics for use in my materials. I may also use some AI assistance to review large code bases for feedback, but any comments you receive will be in my own voice. Any usage of GenAI will be clearly noted and cited. As of this recording in August 2026, no GenAI content exists in this course. 
 
 [Slide 10]
 

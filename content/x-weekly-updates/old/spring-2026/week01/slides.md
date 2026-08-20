@@ -32,23 +32,12 @@ hidden: true
 <section>
 	<h2>New Technologies</h2>
 	<ul>
-		<li>Git</li>
-		<li>Tox</li>
+		<li>Git, GitHub Classroom</li>
+		<li>Gradle & Tox</li>
 		<li>Type Checking</li>
 		<li>Unit Testing</li>
 		<li>Style Checking</li>
 		<li>Documentation</li>
-	</ul>
-</section>
-
-<section>
-	<h2>New This Semester</h2>
-	<ul>
-		<li>No GitHub Classroom</li>
-		<li>Manual GitHub Repos</li>
-		<li>Examples in Codio</li>
-		<li>Temporary?</li>
-		<li>Bug Bounty</li>
 	</ul>
 </section>
 
@@ -166,12 +155,11 @@ hidden: true
 <section>
 	<h3>GenAI Disclosure</h3>
 	<ul>
-		<li><span style="background: red">RED:</span> Grading</li>
+		<li><span style="background: red">RED:</span> Grading & Feedback</li>
 		<li><span style="background: red">RED:</span> Student Communication</li>
-		<li><span style="background: gold">YELLOW:</span> Code Review Feedback</li>
 		<li><span style="background: gold">YELLOW:</span> Lesson & Learning Content</li>
 	<ul>
-	<p>As of August 2026, no GenAI Content exists in this course!</p>
+	<p>As of January 2026, no GenAI Content exists in this course!</p>
 </section>
 
 <section>
