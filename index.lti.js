@@ -2562,12 +2562,12 @@
         "breadcrumb": "Weekly Updates",
         "children": [],
         "isSection": true,
-        "modified": "2026-09-01T10:12:26-05:00",
+        "modified": "2026-09-01T10:18:49-05:00",
         "tags": [],
         "title": "Fall '26 Week 2",
         "uri": "/cc410/x-weekly-updates/week02/index.html",
         "weight": 20,
-        "wordCount": 836
+        "wordCount": 858
       },
       {
         "breadcrumb": "Weekly Updates",
