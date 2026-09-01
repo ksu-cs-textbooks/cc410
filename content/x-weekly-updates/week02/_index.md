@@ -4,13 +4,15 @@ pre: "2. "
 weight: 20
 ---
 
-{{< youtube oaVGLTKhefo >}}
+{{< youtube TBOtAmk4qG0 >}}
 
 #### Resources
 
 * <a href="{{% relref "./slides" %}}" target="_blank">Slides</a>
 
 #### Edited Transcript
+
+_Sorry, it seems my audio and video are desynched in this video. I'll see if I can correct that for next week!_
 
 00:00
 Hello and welcome to the week two announcements for CC410 in fall 2026. So this week you should be wrapping up the first module, which includes the Hello Real World example project. Hopefully you've got that submitted on time, but if not, make sure you get that turned in ASAP. This one you will submit on GitHub. You should have received a GitHub repository for this one. And then I'll go through and get it graded on GitHub and on Canvas later this week. You should also have scheduled your first final project check-in with me, which is a quick one-one Zoom meeting to just chat about the class and some of the things that are coming up. So if you haven't scheduled that or haven't had that meeting yet, please make sure you get that on the schedule so I can meet with you briefly on Zoom, chat about the course, make sure you're on track, and everything to go with that.
