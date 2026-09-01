@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 13:59:59 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 10:12:26 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;26 Week 1</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week01/index.html</guid>
       <description>Resources Slides Edited Transcript Hello, and welcome to the week one announcements video for CC410 in fall 2026. My name is Russ Feldhausen. I’ll be your instructor for this program. Uh, you can find my contact information here. It’s also on the syllabus. It’s on the homepage of Canvas. I, I’m easy to get ahold of, so feel free to reach out anytime. Um, these announcements videos will be posted roughly every week, uh, and unlike a lot of the other videos in this course, these are totally unscripted. This is just me talking through some slides as I go through everything. Uh, I’m recording this right now just right after I recorded the new course introduction video. That is a more formal video introducing the course that has some scripting behind it. This is totally unscripted as I talk through some things that I think are going to be important as you go through the first week of this course.</description>
+    </item>
+    <item>
+      <title>Fall &#39;26 Week 2</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</guid>
+      <description>Resources Slides Edited Transcript 00:00 Hello and welcome to the week two announcements for CC410 in fall 2026. So this week you should be wrapping up the first module, which includes the Hello Real World example project. Hopefully you’ve got that submitted on time, but if not, make sure you get that turned in ASAP. This one you will submit on GitHub. You should have received a GitHub repository for this one. And then I’ll go through and get it graded on GitHub and on Canvas later this week. You should also have scheduled your first final project check-in with me, which is a quick one-one Zoom meeting to just chat about the class and some of the things that are coming up. So if you haven’t scheduled that or haven’t had that meeting yet, please make sure you get that on the schedule so I can meet with you briefly on Zoom, chat about the course, make sure you’re on track, and everything to go with that.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>
