@@ -22,8 +22,8 @@ The Codio main interface supports panels and tabs, so you can create your own la
 
 Codio has some great documentation for its IDE interface. A few of the more useful pages are linked below:
 
-* [Basic IDE Features](https://docs.codio.com/project/ide/navigation/)
-* [Panels and Tabs](https://docs.codio.com/project/ide/panels/)
+* [Basic IDE Features](https://docs.codio.com/common/develop/ide/workspace/workspace.html)
+* [Panels and Tabs](https://docs.codio.com/common/develop/ide/workspace/panels.html)
 
 Feel free to play around with the Codio environment and editor, and find the settings that work best for you.
 
