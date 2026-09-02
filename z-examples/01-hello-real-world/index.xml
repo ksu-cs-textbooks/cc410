@@ -6,7 +6,7 @@
     <description>In this example project, we will go through all the steps to create a new version of the classic “Hello World” program, called “Hello Real World.” We’ll explore how to create unit tests, calculate code coverage, write and generate useful documentation, and use a linter to make sure our code follows a proper coding standard.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 16:12:40 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 10:23:52 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/z-examples/01-hello-real-world/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Codio and Terminal</title>

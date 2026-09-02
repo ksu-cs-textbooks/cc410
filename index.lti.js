@@ -2610,7 +2610,7 @@
             "breadcrumb": "Example Projects \u003e Hello Real World",
             "children": [],
             "isSection": false,
-            "modified": "2024-06-17T14:13:48-05:00",
+            "modified": "2026-09-02T10:23:52-05:00",
             "tags": [],
             "title": "Codio and Terminal",
             "uri": "/cc410/z-examples/01-hello-real-world/01-codio-and-terminal/index.html",
