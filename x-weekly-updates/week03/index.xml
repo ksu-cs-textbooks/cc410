@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;26 Week 3 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</link>
+    <description>Resources Slides Edited Transcript 00:00 Hello and welcome to the week three announcements video for CC410 in Fall 2026. So this week you should be wrapping up the second milestone, which is the first actual restaurant milestone, the object oriented programming milestone. So you’ll do an example for that and then you’ll be submitting your first restaurant milestone for grading. Remember that this milestone does not require all of the base requirements, so you don’t have to worry about things like style guide or documentation yet. But we’re definitely looking at the structure of your code and also looking at the typing of your code. So make sure you get all of those things taken care of. Quick reminder for everybody, don’t forget this semester we don’t have access to GitHub Classroom because it was removed at the end of May. The videos will still refer to GitHub for all the examples, and that’s because I want to go back to using GitHub as soon as I can, but I’m waiting on my new tool to get approved. So for right now, for the example projects, all of the code will be present in Codio, so you don’t have to clone the repo anywhere. And then when you submit it, you just submit the other assignment and say done, and I will open up your Codio project and do the grading there.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

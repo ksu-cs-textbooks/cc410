@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 10:18:49 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 09:59:28 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;26 Week 1</title>
@@ -21,6 +21,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week02/index.html</guid>
       <description>Resources Slides Edited Transcript Sorry, it seems my audio and video are desynched in this video. I’ll see if I can correct that for next week!&#xA;00:00 Hello and welcome to the week two announcements for CC410 in fall 2026. So this week you should be wrapping up the first module, which includes the Hello Real World example project. Hopefully you’ve got that submitted on time, but if not, make sure you get that turned in ASAP. This one you will submit on GitHub. You should have received a GitHub repository for this one. And then I’ll go through and get it graded on GitHub and on Canvas later this week. You should also have scheduled your first final project check-in with me, which is a quick one-one Zoom meeting to just chat about the class and some of the things that are coming up. So if you haven’t scheduled that or haven’t had that meeting yet, please make sure you get that on the schedule so I can meet with you briefly on Zoom, chat about the course, make sure you’re on track, and everything to go with that.</description>
+    </item>
+    <item>
+      <title>Fall &#39;26 Week 3</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</guid>
+      <description>Resources Slides Edited Transcript 00:00 Hello and welcome to the week three announcements video for CC410 in Fall 2026. So this week you should be wrapping up the second milestone, which is the first actual restaurant milestone, the object oriented programming milestone. So you’ll do an example for that and then you’ll be submitting your first restaurant milestone for grading. Remember that this milestone does not require all of the base requirements, so you don’t have to worry about things like style guide or documentation yet. But we’re definitely looking at the structure of your code and also looking at the typing of your code. So make sure you get all of those things taken care of. Quick reminder for everybody, don’t forget this semester we don’t have access to GitHub Classroom because it was removed at the end of May. The videos will still refer to GitHub for all the examples, and that’s because I want to go back to using GitHub as soon as I can, but I’m waiting on my new tool to get approved. So for right now, for the example projects, all of the code will be present in Codio, so you don’t have to clone the repo anywhere. And then when you submit it, you just submit the other assignment and say done, and I will open up your Codio project and do the grading there.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>
