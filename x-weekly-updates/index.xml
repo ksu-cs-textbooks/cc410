@@ -6,7 +6,7 @@
     <description>Information for Current Students!&#xA;Previous Semesters Are Here</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 09:59:28 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 10:23:40 -0500</lastBuildDate>
     <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fall &#39;26 Week 1</title>
@@ -28,6 +28,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week03/index.html</guid>
       <description>Resources Slides Edited Transcript 00:00 Hello and welcome to the week three announcements video for CC410 in Fall 2026. So this week you should be wrapping up the second milestone, which is the first actual restaurant milestone, the object oriented programming milestone. So you’ll do an example for that and then you’ll be submitting your first restaurant milestone for grading. Remember that this milestone does not require all of the base requirements, so you don’t have to worry about things like style guide or documentation yet. But we’re definitely looking at the structure of your code and also looking at the typing of your code. So make sure you get all of those things taken care of. Quick reminder for everybody, don’t forget this semester we don’t have access to GitHub Classroom because it was removed at the end of May. The videos will still refer to GitHub for all the examples, and that’s because I want to go back to using GitHub as soon as I can, but I’m waiting on my new tool to get approved. So for right now, for the example projects, all of the code will be present in Codio, so you don’t have to clone the repo anywhere. And then when you submit it, you just submit the other assignment and say done, and I will open up your Codio project and do the grading there.</description>
+    </item>
+    <item>
+      <title>Fall &#39;26 Week 4</title>
+      <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</guid>
+      <description>Resources Slides Edited Transcript 00:00 Hello and welcome to the week four announcements video for CC 410 in fall 2026. So this week you should be wrapping up the second restaurant milestone, which is all about documentation, unit testing, and adding a UML diagram for your project. Hopefully that’s going well. This one is definitely one of the milestones that I spend a lot of time grading and giving feedback on the style and content of your unit tests. So just be aware that it may take me a couple of days to get all the feedback put in. But as always, if you have any questions or concerns or anything, please let me know. So as far as grading in this class, hopefully you saw with the first milestone. What I do is I fill out a rubric in Canvas that has the point values. And then for anything I think I need to leave detailed feedback for, I make feedback in the feedback pull request in GitHub. That pull request we’re going to use throughout the semester. So don’t merge that pull request after you read through the feedback. Just leave it as is, and I’ll keep adding to it. And then one other big thing for these milestones is remember to make use of talks and especially MyPy to test all of your code.</description>
     </item>
     <item>
       <title>CC 7XX Updates</title>

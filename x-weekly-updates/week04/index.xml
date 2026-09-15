@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;26 Week 4 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.html</link>
+    <description>Resources Slides Edited Transcript 00:00 Hello and welcome to the week four announcements video for CC 410 in fall 2026. So this week you should be wrapping up the second restaurant milestone, which is all about documentation, unit testing, and adding a UML diagram for your project. Hopefully that’s going well. This one is definitely one of the milestones that I spend a lot of time grading and giving feedback on the style and content of your unit tests. So just be aware that it may take me a couple of days to get all the feedback put in. But as always, if you have any questions or concerns or anything, please let me know. So as far as grading in this class, hopefully you saw with the first milestone. What I do is I fill out a rubric in Canvas that has the point values. And then for anything I think I need to leave detailed feedback for, I make feedback in the feedback pull request in GitHub. That pull request we’re going to use throughout the semester. So don’t merge that pull request after you read through the feedback. Just leave it as is, and I’ll keep adding to it. And then one other big thing for these milestones is remember to make use of talks and especially MyPy to test all of your code.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week04/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

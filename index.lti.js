@@ -2584,6 +2584,17 @@
         "breadcrumb": "Weekly Updates",
         "children": [],
         "isSection": true,
+        "modified": "2026-09-15T10:23:40-05:00",
+        "tags": [],
+        "title": "Fall '26 Week 4",
+        "uri": "/cc410/x-weekly-updates/week04/index.html",
+        "weight": 40,
+        "wordCount": 1067
+      },
+      {
+        "breadcrumb": "Weekly Updates",
+        "children": [],
+        "isSection": true,
         "modified": "2026-01-19T10:58:09-06:00",
         "tags": [],
         "title": "CC 7XX Updates",

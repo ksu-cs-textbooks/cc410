@@ -34,27 +34,27 @@
     <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.print.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/tele.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
     <link href="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/embed.html" rel="alternate" type="text/html" title="Objects in Memory :: CC 410 Textbook">
-    <link href="/cc410/images/favicon.ico?1788879651" rel="icon" type="image/x-icon" sizes="any">
-    <link href="/cc410/css/auto-complete/auto-complete.min.css?1788879651" rel="stylesheet">
-    <script src="/cc410/js/auto-complete/auto-complete.min.js?1788879651" defer></script>
-    <script src="/cc410/js/search-lunr.min.js?1788879651" defer></script>
-    <script src="/cc410/js/search.min.js?1788879651" defer></script>
+    <link href="/cc410/images/favicon.ico?1789485935" rel="icon" type="image/x-icon" sizes="any">
+    <link href="/cc410/css/auto-complete/auto-complete.min.css?1789485935" rel="stylesheet">
+    <script src="/cc410/js/auto-complete/auto-complete.min.js?1789485935" defer></script>
+    <script src="/cc410/js/search-lunr.min.js?1789485935" defer></script>
+    <script src="/cc410/js/search.min.js?1789485935" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/cc410/searchindex.en.js?1788879651";
+      window.relearn.index_js_url="/cc410/searchindex.en.js?1789485935";
     </script>
-    <script src="/cc410/js/lunr/lunr.min.js?1788879651" defer></script>
-    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1788879651" defer></script>
-    <script src="/cc410/js/lunr/lunr.multi.min.js?1788879651" defer></script>
-    <script src="/cc410/js/lunr/lunr.en.min.js?1788879651" defer></script>
+    <script src="/cc410/js/lunr/lunr.min.js?1789485935" defer></script>
+    <script src="/cc410/js/lunr/lunr.stemmer.support.min.js?1789485935" defer></script>
+    <script src="/cc410/js/lunr/lunr.multi.min.js?1789485935" defer></script>
+    <script src="/cc410/js/lunr/lunr.en.min.js?1789485935" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['en'];
     </script>
-    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1788879651" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1788879651" rel="stylesheet"></noscript>
-    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1788879651" rel="stylesheet">
-    <link href="/cc410/css/theme.min.css?1788879651" rel="stylesheet">
-    <link href="/cc410/css/format-html.min.css?1788879651" rel="stylesheet" id="R-format-style">
+    <link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1789485935" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/cc410/fonts/fontawesome/css/fontawesome-all.min.css?1789485935" rel="stylesheet"></noscript>
+    <link href="/cc410/css/perfect-scrollbar/perfect-scrollbar.min.css?1789485935" rel="stylesheet">
+    <link href="/cc410/css/theme.min.css?1789485935" rel="stylesheet">
+    <link href="/cc410/css/format-html.min.css?1789485935" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +113,7 @@
       window.relearn.initVariant();
       window.relearn.markVariant();
     </script>
-    <link href="/cc410/css/custom.css?1788879651" rel="stylesheet">
+    <link href="/cc410/css/custom.css?1789485935" rel="stylesheet">
   </head>
   <body class="mobile-support html" data-url="/cc410/i-oop/02-object-oriented-programming/10-objects-in-memory/index.html">
     <div id="R-body" class="default-animation">
@@ -172,20 +172,20 @@
 <h1 id="objects-in-memory">Objects in Memory</h1>
 
 <p>We often talk about the <strong><em>class</em></strong> as a <em>blueprint</em> for an <strong><em>object</em></strong>.  This is because classes define what properties and methods an object should have, in the form of a <strong><em>constructor</em></strong>.  Consider this class representing a planet:</p>
-<div class="tab-panel" data-tab-group="a7ed4d635fa7d8da9ee4ed0314154d96">
+<div class="tab-panel" data-tab-group="f4b40f909be2253faad68d820466a372">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('a7ed4d635fa7d8da9ee4ed0314154d96','java')"
+      onclick="switchTab('f4b40f909be2253faad68d820466a372','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('a7ed4d635fa7d8da9ee4ed0314154d96','python')"
+      onclick="switchTab('f4b40f909be2253faad68d820466a372','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -236,20 +236,20 @@
   </div>
 </div>
 <p>It describes a planet as having a mass and a radius, which will be stored as the ratio of this planet&rsquo;s attribute compared to Earth. We can create a specific planet by invoking its constructor, i.e.:</p>
-<div class="tab-panel" data-tab-group="dadf3700f6095582bd00dedf33c1d28a">
+<div class="tab-panel" data-tab-group="4b8f40f7828fce80fa71e1dcf2190c9d">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('dadf3700f6095582bd00dedf33c1d28a','java')"
+      onclick="switchTab('4b8f40f7828fce80fa71e1dcf2190c9d','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('dadf3700f6095582bd00dedf33c1d28a','python')"
+      onclick="switchTab('4b8f40f7828fce80fa71e1dcf2190c9d','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -272,20 +272,20 @@
   </div>
 </div>
 <p>In this example, <code>earth</code> is an <em>instance</em> of the class <code>Planet</code>.  We can create other instances, i.e.</p>
-<div class="tab-panel" data-tab-group="00a0a2d2080c9c4ea23f678dc6d28fe6">
+<div class="tab-panel" data-tab-group="cdf057856cbc73deb4ff76b04c9afb2f">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('00a0a2d2080c9c4ea23f678dc6d28fe6','java')"
+      onclick="switchTab('cdf057856cbc73deb4ff76b04c9afb2f','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('00a0a2d2080c9c4ea23f678dc6d28fe6','python')"
+      onclick="switchTab('cdf057856cbc73deb4ff76b04c9afb2f','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -308,20 +308,20 @@
   </div>
 </div>
 <p>We can even create a <code>Planet</code> instance to represent one of the exoplanets discovered by <a href="https://www.nasa.gov/tess-transiting-exoplanet-survey-satellite" rel="external" target="_blank" title="Transiting Extoplanet Survey Satelite">NASA’s TESS</a>:</p>
-<div class="tab-panel" data-tab-group="9941a7481d04cf2b44e274d8a17c7871">
+<div class="tab-panel" data-tab-group="566a8133cf129bbeed98715736f515ac">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9941a7481d04cf2b44e274d8a17c7871','java')"
+      onclick="switchTab('566a8133cf129bbeed98715736f515ac','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9941a7481d04cf2b44e274d8a17c7871','python')"
+      onclick="switchTab('566a8133cf129bbeed98715736f515ac','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -344,20 +344,20 @@
   </div>
 </div>
 <p>Let&rsquo;s think more deeply about the idea of a class as a blueprint.  A blueprint for what, exactly?  For one thing, it serves to describe the <em>state</em> of the object, and helps us label that state.  If we were to check the radius of our variable <code>mars</code>, we would access the getter for the <code>radius</code> field:</p>
-<div class="tab-panel" data-tab-group="9e3ada6be60f1d1e3265419e14c56bba">
+<div class="tab-panel" data-tab-group="22fa123f5263121deaedd530712d8041">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('9e3ada6be60f1d1e3265419e14c56bba','java')"
+      onclick="switchTab('22fa123f5263121deaedd530712d8041','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('9e3ada6be60f1d1e3265419e14c56bba','python')"
+      onclick="switchTab('22fa123f5263121deaedd530712d8041','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -386,20 +386,20 @@
 <h2 id="static-modifier">Static Modifier</h2>
 <p>You might have wondered how the <code>static</code> modifier plays into objects.  Essentially, the <code>static</code> keyword indicates the field or method it modifies <em>exists in only one memory location</em>.  I.e. a static field references the <em>same</em> memory location for all objects that possess it.</p>
 <p>Consider this simple example class:</p>
-<div class="tab-panel" data-tab-group="070e5b619eac0b2973cd77c506aa6b50">
+<div class="tab-panel" data-tab-group="520d14367710bb3be96eab8b4f3c99cb">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('070e5b619eac0b2973cd77c506aa6b50','java')"
+      onclick="switchTab('520d14367710bb3be96eab8b4f3c99cb','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('070e5b619eac0b2973cd77c506aa6b50','python')"
+      onclick="switchTab('520d14367710bb3be96eab8b4f3c99cb','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -437,20 +437,20 @@
 </div>
 <p>Notice that the Java language uses the <code>static</code> keyword for fields, whereas in Python the field is simply defined outside of the constructor, and only attached to the class name and not <code>self</code>.</p>
 <p>We can also create a couple of instances:</p>
-<div class="tab-panel" data-tab-group="0de83904aa7de2ea205d196352c7bd88">
+<div class="tab-panel" data-tab-group="562673135f2c0468da6a5c5a0ddeb223">
   <div class="tab-nav">
     <div class="tab-nav-title">&#8203;</div>
     <button
       data-tab-item="java"
       class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
-      onclick="switchTab('0de83904aa7de2ea205d196352c7bd88','java')"
+      onclick="switchTab('562673135f2c0468da6a5c5a0ddeb223','java')"
     >
       <span class="tab-nav-text">Java</span>
     </button>
     <button
       data-tab-item="python"
       class="tab-nav-button tab-panel-style cstyle initial"
-      onclick="switchTab('0de83904aa7de2ea205d196352c7bd88','python')"
+      onclick="switchTab('562673135f2c0468da6a5c5a0ddeb223','python')"
     >
       <span class="tab-nav-text">Python</span>
     </button>
@@ -770,6 +770,7 @@
             <li class="" data-nav-id="/cc410/x-weekly-updates/week01/index.html"><a class="padding" href="/cc410/x-weekly-updates/week01/index.html">1. Fall &#39;26 Week 1</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week02/index.html"><a class="padding" href="/cc410/x-weekly-updates/week02/index.html">2. Fall &#39;26 Week 2</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/week03/index.html"><a class="padding" href="/cc410/x-weekly-updates/week03/index.html">3. Fall &#39;26 Week 3</a></li>
+            <li class="" data-nav-id="/cc410/x-weekly-updates/week04/index.html"><a class="padding" href="/cc410/x-weekly-updates/week04/index.html">4. Fall &#39;26 Week 4</a></li>
             <li class="" data-nav-id="/cc410/x-weekly-updates/cc7xx/index.html"><a class="padding" href="/cc410/x-weekly-updates/cc7xx/index.html">CC 7XX Updates</a></li></ul></li>
             <li class="" data-nav-id="/cc410/z-examples/index.html"><input type="checkbox" id="R-section-e095baae70451690f717ed79b3e70267" aria-controls="R-subsections-e095baae70451690f717ed79b3e70267"><label for="R-section-e095baae70451690f717ed79b3e70267"><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Example Projects</span></label><a class="padding" href="/cc410/z-examples/index.html">Example Projects</a><ul id="R-subsections-e095baae70451690f717ed79b3e70267" class="collapsible-menu">
             <li class="" data-nav-id="/cc410/z-examples/00-new-project/index.html"><a class="padding" href="/cc410/z-examples/00-new-project/index.html">0. New Project Checklist</a></li>
@@ -917,8 +918,8 @@
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p></div>
       </div>
     </aside>
-    <script src="/cc410/js/clipboard/clipboard.min.js?1788879651" defer></script>
-    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1788879651" defer></script>
-    <script src="/cc410/js/theme.min.js?1788879651" defer></script>
+    <script src="/cc410/js/clipboard/clipboard.min.js?1789485935" defer></script>
+    <script src="/cc410/js/perfect-scrollbar/perfect-scrollbar.min.js?1789485935" defer></script>
+    <script src="/cc410/js/theme.min.js?1789485935" defer></script>
   </body>
 </html>
