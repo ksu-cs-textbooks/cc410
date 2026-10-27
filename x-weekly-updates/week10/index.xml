@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;26 Week 10 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.html</link>
+    <description>Resources Slides Edited Transcript [00:00] Hello and welcome to the week 10 announcements video for CC410 in fall 2026. So this week you should be working on an example around external libraries where we’re going to bring in a cash register library that I actually wrote to simulate a cash register for a project. And then you’re going to integrate that into the restaurant milestone for milestone eight.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week10/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
