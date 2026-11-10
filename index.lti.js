@@ -2628,6 +2628,17 @@
         "breadcrumb": "Weekly Updates",
         "children": [],
         "isSection": true,
+        "modified": "2026-11-10T15:30:42-06:00",
+        "tags": [],
+        "title": "Fall '26 Week 12",
+        "uri": "/cc410/x-weekly-updates/week12/index.html",
+        "weight": 120,
+        "wordCount": 285
+      },
+      {
+        "breadcrumb": "Weekly Updates",
+        "children": [],
+        "isSection": true,
         "modified": "2026-01-19T10:58:09-06:00",
         "tags": [],
         "title": "CC 7XX Updates",

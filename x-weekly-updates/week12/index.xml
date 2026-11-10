@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fall &#39;26 Week 12 :: CC 410 Textbook</title>
+    <link>https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.html</link>
+    <description>Resources Slides Edited Transcript [00:00] Hello and welcome to the week 12 announcements video for CC410 in fall 2026. So this week we’re going to be shifting gears: we’re going to start working on some data-driven website projects instead of our graphical user interface project. How do we actually add a web framework into our Python project? And this is the point where I really want you to start working on your final project in earnest in this class. We’ve got about four weeks left plus the holiday break, so make sure that you’re getting started on your final project because that’s going to be due very soon before you know it.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/cc410/x-weekly-updates/week12/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
